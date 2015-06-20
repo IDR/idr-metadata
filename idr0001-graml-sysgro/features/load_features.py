@@ -39,10 +39,17 @@ class ProgressRecord(object):
         return self.cache.get(str(id), [])
 
 
-def connect(h, u, p):
-    client = omero.client(h)
+def connect(h, u, p, **kwargs):
+    props = {}
+    if 'proxy' in kwargs:
+        proxy = kwargs['proxy']
+        if 'host' in proxy:
+            props['Ice.SOCKSProxyHost'] = proxy['host']
+        if 'port' in proxy:
+            props['Ice.SOCKSProxyPort'] = proxy['port']
+    client = omero.client(h, props)
     session = client.createSession(u, p)
-    return session
+    return client, session
 
 
 def config(f):
@@ -115,7 +122,9 @@ print cfg
 
 assert dfroi is not None
 scfg = cfg['server']
-# session = connect(scfg['host'], scfg['user'], scfg['password'])
+proxy = scfg.get('socksproxy', {})
+client, session = connect(
+    scfg['host'], scfg['user'], scfg['password'], proxy=proxy)
 
 dfmeta.insert(0, 'RoiID', np.int64(0))
 print dfmeta.dtypes.to_string()

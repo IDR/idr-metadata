@@ -5,6 +5,10 @@ server:
     user: username
     password: password
     screenids: 1, 2
+    # Optional: Connect via a SOCKS proxy
+    #socksproxy:
+    #    host: localhost
+    #    port: 1080
 
 features: sysgroFeature_repeat1.tsv
 progresslist: sysgro_progress.txt
