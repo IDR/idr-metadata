@@ -1,0 +1,24 @@
+---
+
+server:
+    host: localhost
+    user: username
+    password: password
+    screenids: 1, 2
+
+features: sysgroFeature_repeat1.tsv
+progresslist: sysgro_progress.txt
+errorlist: sysgro_errors.txt
+
+metadatacolumns:
+    - reference: str
+    - name: str
+    - description: str
+    - alternativeName: str
+    - experimentName: str
+    - imageName: str
+    - plateName: str
+    - well: str
+    - strainID: str
+
+roicolumn: coordinates
