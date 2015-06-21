@@ -6,6 +6,7 @@ import omero
 import omero.clients
 import omero.gateway
 from omero.rtypes import rstring
+import re
 import yaml
 
 
@@ -37,6 +38,43 @@ class ProgressRecord(object):
 
     def get(self, id):
         return self.cache.get(str(id), [])
+
+
+class SPW(object):
+
+    def __init__(self, client, screenid):
+        self.conn = omero.gateway.BlitzGateway(client_obj=client)
+        self.screen = self.conn.getObject('Screen', screenid)
+        assert self.screen
+
+        self.plates = {}
+        for plate in self.screen.listChildren():
+            wells = {}
+            for well in plate.listChildren():
+                im = well.getImage()
+                if im:
+                    wells[(well.row, well.column, well.index)] = im
+
+            try:
+                self.plates[plate.name].append(wells)
+            except KeyError:
+                self.plates[plate.name] = [wells]
+
+    def coord2offset(self, coord):
+        ALPHA = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+        m = re.match('([A-Z]+)([0-9]+)$', coord)
+        assert m
+        ra, ca = m.groups()
+        r = 0
+        for a in ra:
+            r = r * 26 + ALPHA.find(a) + 1
+        c = int(ca)
+        return r - 1, c - 1
+
+    def get_image(self, platename, runoffset, coord):
+        r, c = self.coord2offset(coord)
+        im = self.plates[platename][runoffset][(r, c, 0)]
+        return im
 
 
 def connect(h, u, p, **kwargs):
