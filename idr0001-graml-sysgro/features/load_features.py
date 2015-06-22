@@ -190,9 +190,9 @@ def create_feature(ms, vs):
     print 'create_feature %s %s...' % (ms.values, vs[:3].values)
 
 
-def get_dataframe(cfg, nrows=None):
+def get_dataframe(cfg, **kwargs):
     dfmeta, dfvals, dfroi = load_features(
-        cfg['features'], cfg['metadatacolumns'], cfg['roicolumn'], nrows=nrows)
+        cfg['features'], cfg['metadatacolumns'], cfg['roicolumn'], **kwargs)
     print dfmeta.dtypes.to_string()
     print dfvals.dtypes.to_string()
     print dfroi.dtypes
@@ -213,7 +213,16 @@ def select(dfmeta, platename, acqname):
 #####
 
 cfg = config('input.yml')
-dfmeta, dfvals, dfroi = get_dataframe(cfg, 1000)
+
+# Nobody said it was easy....
+# Sometimes the string 'null' is used instead of an empty string
+dfargs = {'na_values': ['null'], 'keep_default_na': True}
+#dfargs['nrows'] = 1000
+dfmeta, dfvals, dfroi = get_dataframe(cfg, **dfargs)
+
+# Hopefully all values are numeric
+assert set(dfvals.dtypes) == {np.dtype('int64'), np.dtype('float64')}
+
 scfg = cfg['server']
 proxy = scfg.get('socksproxy', {})
 client, session = connect(
