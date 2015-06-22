@@ -68,14 +68,18 @@ if ($help){
               -h help information
 
      Example:  create_bulk_annotations_file.pl -l libraryFile.csv -p processedData.csv -c siRNA_ID
-     Output :  The output file name is taken from the library file with the extension .BULK_ANNOATION.csv\n\n"
+     Output :  The output file name is taken from the library file with the extension .BULK_ANNOTATION.csv\n\n";
+
+      exit;
+
+     
 
 }elsif($libraryFile eq ""){
-   print "\nERROR: You must provide a library file using the -l option\n";
+   print "\nERROR: You must provide a library file using the -l option\n"; exit;
 }elsif($processedDataFile eq ""){
-   print "\nERROR: You must provide a processed data file file using the -p option\n";
+   print "\nERROR: You must provide a processed data file file using the -p option\n"; exit;
 }elsif($columnTitleToCombineOn eq ""){
-   print "\nERROR: You must provide a column title that is in both the library and processed data files that should be used for combining the data\n";
+   print "\nERROR: You must provide a column title that is in both the library and processed data files that should be used for combining the data\n"; exit;
 }
 
 ######################################################################
