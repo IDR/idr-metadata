@@ -198,6 +198,11 @@ def get_dataframe(cfg, **kwargs):
     print dfroi.dtypes
     print cfg
 
+    # If this is meant to be a str column then get rid of np.nan
+    for k, v in [kv for mc in cfg['metadatacolumns'] for kv in mc.iteritems()]:
+        if v == 'str':
+            dfmeta[k] = dfmeta[k].replace(np.nan, '')
+
     assert dfroi is not None
     dfmeta.insert(0, 'RoiID', np.int64(0))
     print dfmeta.dtypes.to_string()
