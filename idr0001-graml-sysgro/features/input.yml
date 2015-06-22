@@ -3,14 +3,14 @@
 server:
     host: localhost
     user: username
-    password: password
-    screenids: 1, 2
+    # If password is empty you will be prompted
+    password:
     # Optional: Connect via a SOCKS proxy
     #socksproxy:
     #    host: localhost
     #    port: 1080
 
-screenid: 101
+screenid: 1
 
 features: sysgroFeature_repeat1.tsv
 progresslist: sysgro_progress.txt
