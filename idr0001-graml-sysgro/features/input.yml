@@ -10,6 +10,8 @@ server:
     #    host: localhost
     #    port: 1080
 
+screenid: 101
+
 features: sysgroFeature_repeat1.tsv
 progresslist: sysgro_progress.txt
 errorlist: sysgro_errors.txt
