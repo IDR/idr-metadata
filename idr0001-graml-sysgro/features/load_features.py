@@ -1,14 +1,21 @@
 #!/usr/bin/env python
 
 import getpass
-import pandas
 import numpy as np
+import os
+import pandas
+import re
+import yaml
+
 import omero
 import omero.clients
 import omero.gateway
 from omero.rtypes import rstring, unwrap
-import re
-import yaml
+import features
+
+
+FEATURE_NS = '/test/features'
+FEATURE_ANN_NS = '/test/features/annotations'
 
 
 class ProgressRecord(object):
@@ -22,23 +29,54 @@ class ProgressRecord(object):
                     id, state = line.split(':', 1)
                     self._setcache(id.strip(), state.strip())
         except IOError:
-            print 'File not found: %s' % self.filename
+            print 'Warning:File not found: %s' % self.filename
             # Assume this means file doesn't exist
-            pass
 
     def _setcache(self, id, state):
+        """
+        Add a state to the cache
+        """
         try:
             self.cache[str(id)].append(state)
         except KeyError:
             self.cache[str(id)] = [state]
 
     def set(self, id, state):
+        """
+        Append a state
+        :param id: An identifier
+        :param state: The state
+        """
         with open(self.filename, 'a') as f:
             f.write('%s:%s\n' % (id, state))
         self._setcache(id, state)
 
-    def get(self, id):
-        return self.cache.get(str(id), [])
+    def get(self, id, prefix=None):
+        """
+        Retrieve states for an id
+        :param id: An identifier
+        :param prefix: Optional state prefix. If provided searches for states
+               prefixed with '$prefix:' and returns the remainder
+        """
+        vals = self.cache.get(str(id), [])
+        if not prefix:
+            return vals
+        r = []
+        for v in vals:
+            vs = v.split(':', 1)
+            if vs[0] == prefix and len(vs) == 2:
+                r.append(vs[1])
+        return r
+
+    def clear(self):
+        """
+        Delete the file
+        """
+        try:
+            os.unlink(self.filename)
+        except OSError as e:
+            print 'Failed to delete %s: %s' % (self.filename, e)
+        self.cache = {}
 
 
 class SPW(object):
@@ -113,9 +151,13 @@ class SPW(object):
 
     def get_image(self, platename, acqname, coord):
         r, c = self.coord2offset(coord)
-        wellim = self.plates[platename]['acquisitions'][acqname]['wells'][
-            (r, c)]
-        return wellim['iid']
+        ids = {}
+        ids['plate'] = self.plates[platename]['id']
+        ids['acq'] = self.plates[platename]['acquisitions'][acqname]['id']
+        well = self.plates[platename]['acquisitions'][acqname]['wells'][(r, c)]
+        ids['well'] = well['wid']
+        ids['image'] = well['iid']
+        return ids
 
 
 def connect(h, u, p, **kwargs):
@@ -168,7 +210,7 @@ def parse_coords(coordstr):
     return points
 
 
-def create_roi(coordstr, imageid):
+def create_roi(session, coordstr, imageid):
     points = parse_coords(coordstr)
     poly = omero.model.PolygonI()
     pointstr = ' '.join('%d,%d' % p for p in points)
@@ -178,25 +220,76 @@ def create_roi(coordstr, imageid):
     im = omero.model.ImageI(imageid, False)
     roi.setImage(im)
     print 'create_roi %s... %s' % (points[:3], imageid)
+    if session:
+        roi = session.getUpdateService().saveAndReturnObject(roi)
+    else:
+        print 'Dry-run'
     return roi
 
 
-def update(obj, session):
-    us = session.getUpdateService()
-    return us.saveAndReturnObject(obj)
+def get_feature_table(session, screenid):
+    qs = session.getQueryService()
+    params = omero.sys.ParametersI()
+    params.addId(screenid)
+    params.addString('ns', FEATURE_ANN_NS)
+    tid = qs.projection(
+        'SELECT sal.child.file.id FROM ScreenAnnotationLink sal '
+        'WHERE sal.child.class=FileAnnotation '
+        'AND sal.child.ns=:ns AND sal.parent.id=:id', params)
+    tid = unwrap(tid)
+    assert len(tid) <= 1
+    if tid:
+        uid = session.getAdminService().getEventContext().userId
+        fts = features.OmeroTablesFeatureStore.FeatureTable(
+            session, '', FEATURE_NS, FEATURE_ANN_NS, uid, ofileid=tid[0][0])
+        return fts
+    return None
 
 
-def create_feature(ms, vs):
-    print 'create_feature %s %s...' % (ms.values, vs[:3].values)
+def create_feature_table(session, screenid, meta, vals):
+    metadesc = [
+        ('Plate', 'PlateID'),
+        ('Well', 'WellID'),
+        ('Image', 'ImageID'),
+        ('Roi', 'RoiID'),
+        ]
+
+    for colname in meta:
+        t = meta[colname].dtype.type
+        if t in [np.str, np.string_, np.object_]:
+            maxlen = max(meta[colname].str.len()) + 1
+            metadesc.append(('String', colname, maxlen))
+        else:
+            raise Exception('Unexpected type: %s' % t)
+    ftdesc = list(vals.columns)
+
+    uid = session.getAdminService().getEventContext().userId
+    fts = features.OmeroTablesFeatureStore.FeatureTable(
+        session, 'FEATURES-TEST.h5', FEATURE_NS, FEATURE_ANN_NS, uid,
+        noopen=True)
+    fts.new_table(metadesc, ftdesc)
+    fts.create_file_annotation(
+        'Screen', long(screenid), FEATURE_ANN_NS,
+        fts.get_table().getOriginalFile())
+    return fts
+
+
+def create_feature(fts, ids, ms, vs):
+    print 'create_feature ids:[%s] meta:[%s] %s...' % (
+        ids, ms.values, vs[:3].values)
+    if fts:
+        fts.store(pandas.concat([ids, ms]), vs, replace=False)
+    else:
+        print 'Dry-run'
 
 
 def get_dataframe(cfg, **kwargs):
     dfmeta, dfvals, dfroi = load_features(
         cfg['features'], cfg['metadatacolumns'], cfg['roicolumn'], **kwargs)
-    print dfmeta.dtypes.to_string()
-    print dfvals.dtypes.to_string()
-    print dfroi.dtypes
-    print cfg
+    # print dfmeta.dtypes.to_string()
+    # print dfvals.dtypes.to_string()
+    # print dfroi.dtypes
+    # print cfg
 
     # If this is meant to be a str column then get rid of np.nan
     for k, v in [kv for mc in cfg['metadatacolumns'] for kv in mc.iteritems()]:
@@ -204,15 +297,48 @@ def get_dataframe(cfg, **kwargs):
             dfmeta[k] = dfmeta[k].replace(np.nan, '')
 
     assert dfroi is not None
-    dfmeta.insert(0, 'RoiID', np.int64(0))
-    print dfmeta.dtypes.to_string()
+    # dfmeta.insert(0, 'RoiID', np.int64(0))
+    # print dfmeta.dtypes.to_string()
 
     return dfmeta, dfvals, dfroi
 
 
 def select(dfmeta, platename, acqname):
-    cond = [dfmeta.experimentName == platename, dfmeta.plateName == acqname]
-    return np.where(np.all(cond, axis=0))[0]
+    cond = dfmeta.experimentName == platename
+    if acqname :
+        cond &= (dfmeta.plateName == acqname)
+
+    return np.where(cond)[0]
+
+
+def run(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
+    assert platename
+    if not acqname:
+        acqnames = screenimages.plates[platename]['acquisitions']
+    else:
+        acqnames = [acqname]
+    for acqname in acqnames:
+        print 'Acquistion', acqname
+        indices = select(dfmeta, platename, acqname)
+        for i in indices:
+            print 'Row', i
+            meta = dfmeta.iloc[i]
+            ids = screenimages.get_image(platename, acqname, meta.well)
+            if 'r' not in p.get(i):
+                roi = dfroi.iloc[i]
+                roi = create_roi(session, dfroi.iloc[i], ids['image'])
+                p.set(i, 'r')
+                if session:
+                    p.set(i, 'r:%d' % unwrap(roi.id))
+                else:
+                    p.set(i, 'r:-1')
+            if 'f' not in p.get(i):
+                rid = long(p.get(i, 'r')[-1])
+                metaids = [ids['plate'], ids['well'], ids['image'], rid]
+                metaids = pandas.Series(
+                    metaids, index=['PlateID', 'WellID', 'ImageID', 'RoiID'])
+                create_feature(fts, metaids, dfmeta.iloc[i], dfvals.iloc[i])
+                p.set(i, 'f')
 
 
 #####
@@ -222,7 +348,7 @@ cfg = config('input.yml')
 # Nobody said it was easy....
 # Sometimes the string 'null' is used instead of an empty string
 dfargs = {'na_values': ['null'], 'keep_default_na': True}
-#dfargs['nrows'] = 1000
+# dfargs['nrows'] = 1000
 dfmeta, dfvals, dfroi = get_dataframe(cfg, **dfargs)
 
 # Hopefully all values are numeric
@@ -233,24 +359,26 @@ proxy = scfg.get('socksproxy', {})
 client, session = connect(
     scfg['host'], scfg['user'], scfg['password'], proxy=proxy)
 
+client.enableKeepAlive(60)
+
 #####
 
 screenimages = SPW(session, cfg['screenid'])
+# screenimages.print_all()
 
-platename = 'X_110222_S1'
-acqname = 'Meas_01'
-indices = select(dfmeta, platename, acqname)
+# Todo: Empty => automatically loop through all
+platename = cfg['platename']
+acqname = cfg['acqname']
 
-p = ProgressRecord(cfg['progresslist'])
-for i in indices:
-    print 'Row', i
-    if 'r' not in p.get(i):
-        meta = dfmeta.iloc[i]
-        roi = dfroi.iloc[i]
-        vals = dfvals.iloc[i]
-        iid = screenimages.get_image(platename, acqname, meta.well)
-        roi = create_roi(dfroi.iloc[i], iid)
-        p.set(i, 'r')
-    if 'f' not in p.get(i):
-        ft = create_feature(dfmeta.iloc[i], dfvals.iloc[i])
-        p.set(i, 'f')
+args = [dfmeta, dfroi, dfvals, platename, acqname]
+if cfg['dryrun']:
+    p = ProgressRecord('dryrun-' + cfg['progresslist'])
+    p.clear()
+    run(p, None, None, *args)
+else:
+    fts = get_feature_table(session, cfg['screenid'])
+    if not fts:
+        fts = create_feature_table(session, cfg['screenid'], dfmeta, dfvals)
+    p = ProgressRecord(cfg['progresslist'])
+    run(p, session, fts, *args)
+    fts.close()

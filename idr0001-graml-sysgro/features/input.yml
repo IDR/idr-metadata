@@ -10,11 +10,15 @@ server:
     #    host: localhost
     #    port: 1080
 
-screenid: 1
+dryrun: True
 
-features: sysgroFeature_repeat1.tsv
-progresslist: sysgro_progress.txt
-errorlist: sysgro_errors.txt
+screenid: 1
+platename: test.flex
+acqname: Run 1
+
+features: test-flex-features.tsv
+progresslist: test-flex-progress.txt
+errorlist: test-flex-errors.txt
 
 metadatacolumns:
     - reference: str
