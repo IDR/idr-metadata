@@ -12,9 +12,15 @@ server:
 
 dryrun: True
 
+# Provide either a screen ID or plate ID
 screenid: 1
-platename: test.flex
-acqname: Run 1
+#plateid: 1
+# Restrict to a single platename
+#platename: test.flex
+# Restrict to a single acquisition/run name
+#acqname: Run 1
+# Regular expression for extracting the acquisition (run) name
+#acqnamere: .*
 
 features: test-flex-features.tsv
 progresslist: test-flex-progress.txt

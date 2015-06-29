@@ -5,6 +5,7 @@ import numpy as np
 import os
 import pandas
 import re
+import sys
 import yaml
 
 import omero
@@ -81,26 +82,43 @@ class ProgressRecord(object):
 
 class SPW(object):
 
-    def __init__(self, session, screenid):
+    def __init__(self, session, screenid=None, plateid=None, acqnamere=None):
         self.qs = session.getQueryService()
         self.screenid = screenid
         self.plates = {}
-        self.fetch(screenid)
+        if screenid and not plateid:
+            self.fetch_screen(screenid, acqnamere)
+        elif plateid and not screenid:
+            self.fetch_plate(plateid, acqnamere)
+        else:
+            raise Exception(
+                'Either one of screenid or plateid must be specified')
 
-    def fetch(self, screenid):
+    def fetch_screen(self, screenid, acqnamere):
         for plateid, platename in self.get_plates(screenid):
-            self.plates[platename] = {'id': plateid}
-            acquisitions = {}
-            for acqid, acqname in self.get_plate_acquisitions(plateid):
-                acq = {'id': acqid}
-                wells = {}
-                for wid, wrow, wcol, iid, iname in \
-                        self.get_wellsamples_and_images(acqid):
-                    wells[(wrow, wcol)] = {
-                        'wid': wid, 'iid': iid, 'iname': iname}
-                acq['wells'] = wells
-                acquisitions[acqname] = acq
-            self.plates[platename]['acquisitions'] = acquisitions
+            self.fetch_plate(plateid, acqnamere, platename)
+
+    def fetch_plate(self, plateid, acqnamere, platename=None):
+        assert platename not in self.plates
+        self.plates[platename] = {'id': plateid}
+        acquisitions = {}
+        for acqid, acqname in self.get_plate_acquisitions(plateid):
+            if acqnamere:
+                try:
+                    acqname = re.search(acqnamere, acqname).group()
+                except AttributeError:
+                    raise Exception(
+                        'Failed to match acquisition name: %s %s' % (
+                            acqname, acqnamere))
+            acq = {'id': acqid}
+            wells = {}
+            for wid, wrow, wcol, iid, iname in \
+                    self.get_wellsamples_and_images(acqid):
+                wells[(wrow, wcol)] = {
+                    'wid': wid, 'iid': iid, 'iname': iname}
+            acq['wells'] = wells
+            acquisitions[acqname] = acq
+        self.plates[platename]['acquisitions'] = acquisitions
 
     def projection(self, q, id, nowrap=True):
         params = omero.sys.ParametersI()
@@ -227,15 +245,16 @@ def create_roi(session, coordstr, imageid):
     return roi
 
 
-def get_feature_table(session, screenid):
+def get_feature_table(session, objtype, objid):
+    assert objtype in ('Screen', 'Plate')
     qs = session.getQueryService()
     params = omero.sys.ParametersI()
-    params.addId(screenid)
+    params.addId(objid)
     params.addString('ns', FEATURE_ANN_NS)
     tid = qs.projection(
-        'SELECT sal.child.file.id FROM ScreenAnnotationLink sal '
-        'WHERE sal.child.class=FileAnnotation '
-        'AND sal.child.ns=:ns AND sal.parent.id=:id', params)
+        'SELECT oal.child.file.id FROM %sAnnotationLink oal '
+        'WHERE oal.child.class=FileAnnotation '
+        'AND oal.child.ns=:ns AND oal.parent.id=:id' % objtype, params)
     tid = unwrap(tid)
     assert len(tid) <= 1
     if tid:
@@ -246,7 +265,8 @@ def get_feature_table(session, screenid):
     return None
 
 
-def create_feature_table(session, screenid, meta, vals):
+def create_feature_table(session, objtype, objid, meta, vals):
+    assert objtype in ('Screen', 'Plate')
     metadesc = [
         ('Plate', 'PlateID'),
         ('Well', 'WellID'),
@@ -269,7 +289,7 @@ def create_feature_table(session, screenid, meta, vals):
         noopen=True)
     fts.new_table(metadesc, ftdesc)
     fts.create_file_annotation(
-        'Screen', long(screenid), FEATURE_ANN_NS,
+        objtype, long(objid), FEATURE_ANN_NS,
         fts.get_table().getOriginalFile())
     return fts
 
@@ -304,15 +324,24 @@ def get_dataframe(cfg, **kwargs):
 
 
 def select(dfmeta, platename, acqname):
-    cond = dfmeta.experimentName == platename
-    if acqname :
+    cond = np.ones(dfmeta.shape[0], dtype=np.bool)
+    if platename:
+        cond &= (dfmeta.experimentName == platename)
+    if acqname:
         cond &= (dfmeta.plateName == acqname)
 
     return np.where(cond)[0]
 
 
 def run(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
-    assert platename
+    if platename:
+        run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname)
+    else:
+        for platename in screenimages.plates.keys():
+            run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname)
+
+
+def run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
     if not acqname:
         acqnames = screenimages.plates[platename]['acquisitions']
     else:
@@ -343,7 +372,10 @@ def run(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
 
 #####
 
-cfg = config('input.yml')
+if len(sys.argv) > 1:
+    cfg = config(sys.argv[1])
+else:
+    cfg = config('input.yml')
 
 # Nobody said it was easy....
 # Sometimes the string 'null' is used instead of an empty string
@@ -362,23 +394,30 @@ client, session = connect(
 client.enableKeepAlive(60)
 
 #####
-
-screenimages = SPW(session, cfg['screenid'])
+screenimages = SPW(
+    session, screenid=cfg.get('screenid'), plateid=cfg.get('plateid'),
+    acqnamere=cfg.get('acqnamere'))
 # screenimages.print_all()
 
 # Todo: Empty => automatically loop through all
-platename = cfg['platename']
-acqname = cfg['acqname']
+platename = cfg.get('platename')
+acqname = cfg.get('acqname')
 
 args = [dfmeta, dfroi, dfvals, platename, acqname]
-if cfg['dryrun']:
+if cfg.get('dryrun'):
     p = ProgressRecord('dryrun-' + cfg['progresslist'])
     p.clear()
     run(p, None, None, *args)
 else:
-    fts = get_feature_table(session, cfg['screenid'])
+    if cfg.get('screenid'):
+        objtype = 'Screen'
+        objid = cfg['screenid']
+    elif cfg.get('plateid'):
+        objtype = 'Plate'
+        objid = cfg['plateid']
+    fts = get_feature_table(session, objtype, objid)
     if not fts:
-        fts = create_feature_table(session, cfg['screenid'], dfmeta, dfvals)
+        fts = create_feature_table(session, objtype, objid, dfmeta, dfvals)
     p = ProgressRecord(cfg['progresslist'])
     run(p, session, fts, *args)
     fts.close()
