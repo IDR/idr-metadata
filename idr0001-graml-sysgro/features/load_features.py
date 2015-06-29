@@ -99,7 +99,10 @@ class SPW(object):
             self.fetch_plate(plateid, acqnamere, platename)
 
     def fetch_plate(self, plateid, acqnamere, platename=None):
+        if platename is None:
+            platename = self._get_platename(plateid)
         assert platename not in self.plates
+
         self.plates[platename] = {'id': plateid}
         acquisitions = {}
         for acqid, acqname in self.get_plate_acquisitions(plateid):
@@ -119,6 +122,12 @@ class SPW(object):
             acq['wells'] = wells
             acquisitions[acqname] = acq
         self.plates[platename]['acquisitions'] = acquisitions
+
+    def _get_platename(self, plateid):
+        rs = self.projection(
+            'SELECT p.name FROM Plate p WHERE p.id=:id', plateid)
+        assert len(rs) == 1
+        return rs[0][0]
 
     def projection(self, q, id, nowrap=True):
         params = omero.sys.ParametersI()
@@ -342,6 +351,8 @@ def run(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
 
 
 def run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
+    # Must be non-null to cross-ref the feature file
+    assert platename
     if not acqname:
         acqnames = screenimages.plates[platename]['acquisitions']
     else:
