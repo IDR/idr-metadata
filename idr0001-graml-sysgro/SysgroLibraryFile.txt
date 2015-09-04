@@ -1048,7 +1048,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110406_S17	H11	SPCC757.07c	ctt1	ctt1		
 1	X_110406_S17	H12		empty		empty	
 1	X_110406_S17	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110406_S17	H3		MS1404		positive control	positive control (wild-type)
+1	X_110406_S17	H3		MS1404		positive control	positive control (wild type)
 1	X_110406_S17	H4	SPAC688.11	end4	end4		
 1	X_110406_S17	H5	SPBC11B10.02c	his3	his3		
 1	X_110406_S17	H6	SPBC16E9.17c	rem1	rem1		
@@ -1144,7 +1144,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110406_S18	H11	SPAC12G12.10	wdr21	wdr21		
 1	X_110406_S18	H12		empty		empty	
 1	X_110406_S18	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110406_S18	H3		MS1404		positive control	positive control (wild-type)
+1	X_110406_S18	H3		MS1404		positive control	positive control (wild type)
 1	X_110406_S18	H4	SPCC126.01c	SPCC126.01c			
 1	X_110406_S18	H5	SPCC1840.06	atp5	atp5		
 1	X_110406_S18	H6	SPBC1683.03c	SPBC1683.03c			
@@ -1528,7 +1528,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110429_S23	H11	SPAC5H10.01	SPAC5H10.01			
 1	X_110429_S23	H12		empty		empty	
 1	X_110429_S23	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110429_S23	H3		MS1404		positive control	positive control (wild-type)
+1	X_110429_S23	H3		MS1404		positive control	positive control (wild type)
 1	X_110429_S23	H4	SPBC13E7.03c	SPBC13E7.03c			
 1	X_110429_S23	H5	SPAC4C5.02c	ryh1	ryh1		
 1	X_110429_S23	H6	SPAC144.01	SPAC144.01			
@@ -1624,7 +1624,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110429_S24	H11	SPAC56F8.14c	mug115	mug115		
 1	X_110429_S24	H12		empty		empty	
 1	X_110429_S24	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110429_S24	H3		MS1404		positive control	positive control (wild-type)
+1	X_110429_S24	H3		MS1404		positive control	positive control (wild type)
 1	X_110429_S24	H4	SPBP4H10.19c	SPBP4H10.19c			
 1	X_110429_S24	H5	SPCC1682.11c	ctl1	ctl1		
 1	X_110429_S24	H6	SPCC777.15	SPCC777.15			
@@ -1720,7 +1720,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110502_S10	H11	SPBC1703.04	mlh1	mlh1		
 1	X_110502_S10	H12		empty		empty	
 1	X_110502_S10	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110502_S10	H3		MS1404		positive control	positive control (wild-type)
+1	X_110502_S10	H3		MS1404		positive control	positive control (wild type)
 1	X_110502_S10	H4	SPAC4G8.08	SPAC4G8.08			
 1	X_110502_S10	H5	SPBC14F5.07	doa10	doa10		
 1	X_110502_S10	H6	SPAC139.06	hat1	hat1		
@@ -1816,7 +1816,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110502_S12	H11	SPCC663.01c	ekc1	ekc1		
 1	X_110502_S12	H12		empty		empty	
 1	X_110502_S12	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110502_S12	H3		MS1404		positive control	positive control (wild-type)
+1	X_110502_S12	H3		MS1404		positive control	positive control (wild type)
 1	X_110502_S12	H4	SPAC637.11	rpm2	rpm2		
 1	X_110502_S12	H5	SPAC9G1.06c	cyk3	cyk3		
 1	X_110502_S12	H6	SPBC15D4.07c	atg9	atg9		
@@ -1912,7 +1912,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110503_S11	H11	SPAC1420.01c	SPAC1420.01c			
 1	X_110503_S11	H12		empty		empty	
 1	X_110503_S11	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110503_S11	H3		MS1404		positive control	positive control (wild-type)
+1	X_110503_S11	H3		MS1404		positive control	positive control (wild type)
 1	X_110503_S11	H4	SPBC21H7.04	dbp7	dbp7		
 1	X_110503_S11	H5	SPAC1399.01c	SPAC1399.01c			
 1	X_110503_S11	H6	SPAC323.03c	SPAC323.03c			
@@ -2008,7 +2008,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110503_S8	H11	SPCC1259.03	rpa12	rpa12		
 1	X_110503_S8	H12		empty		empty	
 1	X_110503_S8	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110503_S8	H3		MS1404		positive control	positive control (wild-type)
+1	X_110503_S8	H3		MS1404		positive control	positive control (wild type)
 1	X_110503_S8	H4	SPBC543.10	get1	get1		
 1	X_110503_S8	H5	SPBC651.02	SPBC651.02			
 1	X_110503_S8	H6	SPBC776.01	rpl29	rpl29		
@@ -2104,7 +2104,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110505_S27	H11	SPAC22F3.02	atf31	atf31		
 1	X_110505_S27	H12		empty		empty	
 1	X_110505_S27	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110505_S27	H3		MS1404		positive control	positive control (wild-type)
+1	X_110505_S27	H3		MS1404		positive control	positive control (wild type)
 1	X_110505_S27	H4	SPBP8B7.28c	stc1	stc1		
 1	X_110505_S27	H5	SPAC1834.04	hht1	hht1		
 1	X_110505_S27	H6	SPAC14C4.04	SPAC14C4.04			
@@ -2200,7 +2200,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110505_S28	H11	SPBC1D7.04	mlo3	mlo3		
 1	X_110505_S28	H12		empty		empty	
 1	X_110505_S28	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110505_S28	H3		MS1404		positive control	positive control (wild-type)
+1	X_110505_S28	H3		MS1404		positive control	positive control (wild type)
 1	X_110505_S28	H4	SPAC17G8.13c	mst2	mst2		
 1	X_110505_S28	H5	SPBC146.11c	mug97	mug97		
 1	X_110505_S28	H6	SPCC297.06c	SPCC297.06c			
@@ -2296,7 +2296,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110506_S19	H11	SPBP35G2.13c	swc2	swc2		
 1	X_110506_S19	H12		empty		empty	
 1	X_110506_S19	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110506_S19	H3		MS1404		positive control	positive control (wild-type)
+1	X_110506_S19	H3		MS1404		positive control	positive control (wild type)
 1	X_110506_S19	H4	SPAC589.03c	SPAC589.03c			
 1	X_110506_S19	H5	SPAC869.10c	put4	put4		
 1	X_110506_S19	H6	SPAPJ696.01c	vps17	vps17		
@@ -2392,7 +2392,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110506_S20	H11	SPAC19D5.02c	SPAC19D5.02c			
 1	X_110506_S20	H12		empty		empty	
 1	X_110506_S20	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110506_S20	H3		MS1404		positive control	positive control (wild-type)
+1	X_110506_S20	H3		MS1404		positive control	positive control (wild type)
 1	X_110506_S20	H4	SPAC22G7.03	SPAC22G7.03			
 1	X_110506_S20	H5	SPCC1020.08	SPCC1020.08			
 1	X_110506_S20	H6	SPBC776.16	mis20	mis20		
@@ -2488,7 +2488,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110508_S21	H11	SPCC970.05	rpl3601	rpl3601		
 1	X_110508_S21	H12		empty		empty	
 1	X_110508_S21	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110508_S21	H3		MS1404		positive control	positive control (wild-type)
+1	X_110508_S21	H3		MS1404		positive control	positive control (wild type)
 1	X_110508_S21	H4	SPBC1709.11c	png2	png2		
 1	X_110508_S21	H5	SPBC23E6.10c	SPBC23E6.10c			
 1	X_110508_S21	H6	SPBC3B9.13c	rpp102	rpp102		
@@ -2584,7 +2584,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110508_S22	H11	SPBC354.12	gpd3	gpd3		
 1	X_110508_S22	H12		empty		empty	
 1	X_110508_S22	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110508_S22	H3		MS1404		positive control	positive control (wild-type)
+1	X_110508_S22	H3		MS1404		positive control	positive control (wild type)
 1	X_110508_S22	H4	SPAC1142.06	get3	get3		
 1	X_110508_S22	H5	SPAC1834.10c	SPAC1834.10c			
 1	X_110508_S22	H6	SPAC22F3.13	tsc1	tsc1		
@@ -2680,7 +2680,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110509_S25	H11	SPAC9.08c	SPAC9.08c			
 1	X_110509_S25	H12		empty		empty	
 1	X_110509_S25	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110509_S25	H3		MS1404		positive control	positive control (wild-type)
+1	X_110509_S25	H3		MS1404		positive control	positive control (wild type)
 1	X_110509_S25	H4	SPCC16A11.15c	SPCC16A11.15c			
 1	X_110509_S25	H5	SPCPB1C11.01	amt1	amt1		
 1	X_110509_S25	H6	SPAC1F7.10	SPAC1F7.10			
@@ -2776,7 +2776,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110509_S26	H11	SPCP20C8.01c	SPCP20C8.01c			
 1	X_110509_S26	H12		empty		empty	
 1	X_110509_S26	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110509_S26	H3		MS1404		positive control	positive control (wild-type)
+1	X_110509_S26	H3		MS1404		positive control	positive control (wild type)
 1	X_110509_S26	H4	SPAC869.08	pcm2	pcm2		
 1	X_110509_S26	H5	SPAC13G7.12c	SPAC13G7.12c			
 1	X_110509_S26	H6	SPAC19D5.06c	din1	din1		
@@ -2872,7 +2872,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110511_S29	H11	SPAC26H5.04	SPAC26H5.04			
 1	X_110511_S29	H12		empty		empty	
 1	X_110511_S29	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110511_S29	H3		MS1404		positive control	positive control (wild-type)
+1	X_110511_S29	H3		MS1404		positive control	positive control (wild type)
 1	X_110511_S29	H4	SPAC144.06	apl5	apl5		
 1	X_110511_S29	H5	SPBC1778.05c	SPBC1778.05c			
 1	X_110511_S29	H6	SPAC2G11.10c	SPAC2G11.10c			
@@ -2968,7 +2968,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110511_S30	H11	SPBC16G5.09	SPBC16G5.09			
 1	X_110511_S30	H12		empty		empty	
 1	X_110511_S30	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110511_S30	H3		MS1404		positive control	positive control (wild-type)
+1	X_110511_S30	H3		MS1404		positive control	positive control (wild type)
 1	X_110511_S30	H4	SPCC777.02	SPCC777.02			
 1	X_110511_S30	H5	SPAC1687.14c	SPAC1687.14c			
 1	X_110511_S30	H6	SPCC14G10.04	SPCC14G10.04			
@@ -3064,7 +3064,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110513_S31	H11	SPAC2F7.04	pmc2	pmc2		
 1	X_110513_S31	H12		empty		empty	
 1	X_110513_S31	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110513_S31	H3		MS1404		positive control	positive control (wild-type)
+1	X_110513_S31	H3		MS1404		positive control	positive control (wild type)
 1	X_110513_S31	H4	SPBC14C8.15	SPBC14C8.15			
 1	X_110513_S31	H5	SPAC22A12.16	SPAC22A12.16			
 1	X_110513_S31	H6	SPBC1198.08	SPBC1198.08			
@@ -3160,7 +3160,7 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110514_S32	H11	SPAC4F10.04	ypa1	ypa1		
 1	X_110514_S32	H12		empty		empty	
 1	X_110514_S32	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110514_S32	H3		MS1404		positive control	positive control (wild-type)
+1	X_110514_S32	H3		MS1404		positive control	positive control (wild type)
 1	X_110514_S32	H4	SPCC576.14	dph5	dph5		
 1	X_110514_S32	H5	SPBPJ4664.01	dps1	dps1		
 1	X_110514_S32	H6	SPBC30B4.08	eri1	eri1		
@@ -3256,106 +3256,106 @@ Replicate	Plate	Well	Gene Identifier	Strain Name	Gene Symbol	Control Type	Contro
 1	X_110516_S33	H11		ED666		technical control	dark control
 1	X_110516_S33	H12		ED668		technical control	dark control
 1	X_110516_S33	H2	SPAC18G6.15	mal3	mal3	negative control	negative control (mal3)
-1	X_110516_S33	H3		MS1404		positive control	positive control (wild-type)
+1	X_110516_S33	H3		MS1404		positive control	positive control (wild type)
 1	X_110516_S33	H4		empty		empty	
 1	X_110516_S33	H5		empty		empty	
 1	X_110516_S33	H6		empty		empty	
 1	X_110516_S33	H7		empty		empty	
 1	X_110516_S33	H8		empty		empty	
 1	X_110516_S33	H9		empty		empty	
-1	X_110702_MS1404WT_testplate	A1		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A10		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A11		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A12		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A2		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A3		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A4		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A5		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A6		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A7		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A8		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	A9		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B1		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B10		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B11		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B12		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B2		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B3		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B4		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B5		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B6		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B7		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B8		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	B9		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C1		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C10		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C11		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C12		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C2		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C3		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C4		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C5		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C6		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C7		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C8		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	C9		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D1		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D10		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D11		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D12		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D2		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D3		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D4		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D5		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D6		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D7		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D8		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	D9		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E1		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E10		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E11		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E12		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E2		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E3		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E4		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E5		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E6		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E7		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E8		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	E9		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F1		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F10		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F11		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F12		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F2		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F3		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F4		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F5		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F6		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F7		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F8		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	F9		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G1		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G10		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G11		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G12		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G2		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G3		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G4		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G5		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G6		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G7		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G8		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	G9		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H1		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H10		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H11		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H12		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H2		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H3		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H4		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H5		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H6		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H7		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H8		MS1404		positive control	positive control (wild-type)
-1	X_110702_MS1404WT_testplate	H9		MS1404		positive control	positive control (wild-type)
+1	X_110702_MS1404WT_testplate	A1		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A10		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A11		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A12		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A2		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A3		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A4		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A5		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A6		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A7		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A8		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	A9		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B1		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B10		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B11		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B12		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B2		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B3		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B4		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B5		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B6		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B7		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B8		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	B9		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C1		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C10		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C11		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C12		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C2		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C3		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C4		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C5		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C6		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C7		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C8		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	C9		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D1		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D10		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D11		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D12		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D2		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D3		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D4		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D5		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D6		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D7		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D8		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	D9		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E1		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E10		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E11		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E12		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E2		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E3		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E4		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E5		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E6		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E7		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E8		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	E9		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F1		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F10		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F11		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F12		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F2		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F3		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F4		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F5		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F6		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F7		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F8		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	F9		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G1		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G10		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G11		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G12		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G2		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G3		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G4		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G5		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G6		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G7		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G8		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	G9		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H1		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H10		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H11		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H12		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H2		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H3		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H4		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H5		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H6		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H7		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H8		MS1404		positive control	positive control (wild type)
+1	X_110702_MS1404WT_testplate	H9		MS1404		positive control	positive control (wild type)
