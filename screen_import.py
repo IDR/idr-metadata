@@ -7,7 +7,7 @@ from os.path import dirname
 from os.path import expanduser
 from os.path import exists
 from os.path import join
-from subprocess import check_call
+from subprocess import call
 
 
 bin = expanduser("~/OMERO.server/bin/omero")
@@ -48,7 +48,13 @@ for plate in glob(plates):
         target = f.read().strip()
     print name, "-->", target
 
-    check_call(command + [
+    if call(command + [
       "--name=%s" % name,
       "--target=Screen:name:%s/%s" % (study, screen),
-      "--transfer=ln_s", target]) 
+      "--transfer=ln_s", target]):
+          print "FAILED",
+    else:
+          print "PASSED",
+    print "=" * 40
+
+
