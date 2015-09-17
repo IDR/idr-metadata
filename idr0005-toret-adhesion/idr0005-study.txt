@@ -1,0 +1,93 @@
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"																							
+# Study																							
+Study Title																							
+Study Type	high content screen																						
+Study Type Term Source REF																							
+Study Type Term Accession Number																							
+Study Description																							
+Study Organism																							
+Study Organism Term Source REF	ncbi_taxonomy																						
+Study Organism Term Accession Number	NCBITaxon_4932																						
+Study Screens Number	1																						
+Study External URL																							
+Study Public Release Date	01/05/15																						
+																							
+# Study Publication																							
+Study PubMed ID																							
+Study Publication Title																							
+Study Author List																							
+																							
+# Study Contacts																							
+Study Person Last Name																							
+Study Person First Name																							
+Study Person Email																							
+Study Person Address																							
+Study Person Roles	submitter																						
+																							
+Term Source Name	ncbi_taxonomy	EFO																					
+Term Source File	http://purl.obolibrary.org/obo/ncbitaxon.owl	http://www.ebi.ac.uk/efo/efo.owl																					
+																							
+																							
+																							
+"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."																							
+# Screen; this section should be repeated if a study contains multiple screens																							
+																							
+Screen Number	1																						
+Screen Technology Type	protein screen																						
+Screen Technology Term Source REF																							
+Screen Technology Term Accession Number																							
+Screen Type	primary																						
+Screen Target Organism																							
+																							
+# Study materials																							
+Cell Line or Strain																							
+Cell Line of Strain Term Source REF																							
+Cell Line of Strain Term Accession Number																							
+																							
+"# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)"																							
+Library File Name																							
+Library Type																							
+Library Type Term Source REF																							
+Library Type Term Accession Number																							
+Library Manufacturer																							
+Library Version																							
+Library Assembly 																							
+Library Experimental Conditions																							
+Library Experimental Conditions Term Source REF																							
+Library Experimental Conditions Term Accession Number																							
+Quality Control Description																							
+																							
+# Protocols																							
+Protocol Name	growth protocol	library selection protocol	image aquistion and feature extraction protocol	hit detection protocol																			
+Protocol Type	growth protocol	library selection protocol	image aquistion and feature extraction protocol	hit detection protocol																			
+Protocol Type Term Source REF	EFO																						
+Protocol Type Term Accession Number	EFO_0003789																						
+Protocol Description																							
+																							
+																							
+# Phenotypes																							
+Phenotype Name																							
+Phenotype Description																							
+Phenotype Score Type	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual
+																							
+# Raw Data Files																							
+Raw Image Data Type	image																						
+Raw Image Data Format																							
+Raw Image Organization																							
+																							
+# Feature Level Data Files																							
+Feature Level Data File Name																							
+Feature Level Data File Description																							
+Feature Level Data File Format																							
+Feature Level Data Column Name																							
+Feature Level Data Column Description																							
+																							
+#  Processed Data Files 																							
+Processed Data File Name																							
+Processed Data File Format	tab delimited values																						
+Processed Data File Description																							
+Processed Data Genome Build For Target Genes																							
+Processed Data Column Name																							
+Processed Data Column Type																							
+Processed Data Column Annotation Level																							
+Processed Data Column Description																							
