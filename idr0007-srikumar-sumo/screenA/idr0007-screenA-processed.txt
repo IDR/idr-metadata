@@ -1,0 +1,1132 @@
+Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Experimental Condition[genotype]	Changed in allR	Observation	Phenotype
+smt3allR_plate1	G17	smt3allR_plate1_G17	YAL041W	CDC24	smt3allR	yes	not at bud neck	the smt3allR mutant does not show localization at the bud neck
+pro-smt3allR_plate1	G17	pro-smt3allR_plate1_G17	YAL041W	CDC24	pro-smt3allR	yes		
+WT_plate1	G17	WT_plate1_G17	YAL041W	CDC24	wild type smt3	yes		
+pro-smt3allR_plate4	M19	pro-smt3allR_plate4_M19	YAL059W	ECM1	pro-smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+smt3allR_plate4	M19	smt3allR_plate4_M19	YAL059W	ECM1	smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+WT_plate4	M19	WT_plate4_M19	YAL059W	ECM1	wild type smt3	yes		
+pro-smt3allR_plate2	A17	pro-smt3allR_plate2_A17	YAR007C	RFA1	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	A17	smt3allR_plate2_A17	YAR007C	RFA1	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	A17	WT_plate2_A17	YAR007C	RFA1	wild type smt3	yes		
+pro-smt3allR_plate1	O9	pro-smt3allR_plate1_O9	YAR014C	BUD14	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate1	O9	smt3allR_plate1_O9	YAR014C	BUD14	smt3allR	yes	no colony	
+WT_plate1	O9	WT_plate1_O9	YAR014C	BUD14	wild type smt3	yes		
+pro-smt3allR_plate4	O13	pro-smt3allR_plate4_O13	YBL023C	MCM2	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate4	O13	smt3allR_plate4_O13	YBL023C	MCM2	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate4	O13	WT_plate4_O13	YBL023C	MCM2	wild type smt3	yes		
+pro-smt3allR_plate3	M3	pro-smt3allR_plate3_M3	YBL026W	LSM2	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	M3	smt3allR_plate3_M3	YBL026W	LSM2	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	M3	WT_plate3_M3	YBL026W	LSM2	wild type smt3	yes		
+pro-smt3allR_plate4	E1	pro-smt3allR_plate4_E1	YBR041W	FAT1	pro-smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+smt3allR_plate4	E1	smt3allR_plate4_E1	YBR041W	FAT1	smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+WT_plate4	E1	WT_plate4_E1	YBR041W	FAT1	wild type smt3	yes		
+pro-smt3allR_plate1	K19	pro-smt3allR_plate1_K19	YBR094W	PBY1	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	K19	smt3allR_plate1_K19	YBR094W	PBY1	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate1	K19	WT_plate1_K19	YBR094W	PBY1	wild type smt3	yes		
+pro-smt3allR_plate4	E23	pro-smt3allR_plate4_E23	YBR127C	VMA2	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+smt3allR_plate4	E23	smt3allR_plate4_E23	YBR127C	VMA2	smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+WT_plate4	E23	WT_plate4_E23	YBR127C	VMA2	wild type smt3	yes		
+pro-smt3allR_plate4	K15	pro-smt3allR_plate4_K15	YBR187W	GDT1	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate4	K15	smt3allR_plate4_K15	YBR187W	GDT1	smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+WT_plate4	K15	WT_plate4_K15	YBR187W	GDT1	wild type smt3	yes		
+pro-smt3allR_plate4	G19	pro-smt3allR_plate4_G19	YBR205W	KTR3	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate4	G19	smt3allR_plate4_G19	YBR205W	KTR3	smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+WT_plate4	G19	WT_plate4_G19	YBR205W	KTR3	wild type smt3	yes		
+smt3allR_plate3	O3	smt3allR_plate3_O3	YBR233W-A	DAD3	smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology1
+pro-smt3allR_plate3	O3	pro-smt3allR_plate3_O3	YBR233W-A	DAD3	pro-smt3allR	yes		
+WT_plate3	O3	WT_plate3_O3	YBR233W-A	DAD3	wild type smt3	yes		
+pro-smt3allR_plate2	A3	pro-smt3allR_plate2_A3	YBR259W	YBR259W	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate2	A3	smt3allR_plate2_A3	YBR259W	YBR259W	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate2	A3	WT_plate2_A3	YBR259W	YBR259W	wild type smt3	yes		
+pro-smt3allR_plate1	I9	pro-smt3allR_plate1_I9	YCR077C	PAT1	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate1	I9	smt3allR_plate1_I9	YCR077C	PAT1	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate1	I9	WT_plate1_I9	YCR077C	PAT1	wild type smt3	yes		
+pro-smt3allR_plate2	E15	pro-smt3allR_plate2_E15	YDL020C	RPN4	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate2	E15	smt3allR_plate2_E15	YDL020C	RPN4	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate2	E15	WT_plate2_E15	YDL020C	RPN4	wild type smt3	yes		
+pro-smt3allR_plate3	K9	pro-smt3allR_plate3_K9	YDL053C	PBP4	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate3	K9	smt3allR_plate3_K9	YDL053C	PBP4	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate3	K9	WT_plate3_K9	YDL053C	PBP4	wild type smt3	yes		
+pro-smt3allR_plate3	G15	pro-smt3allR_plate3_G15	YDL059C	RAD59	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	G15	smt3allR_plate3_G15	YDL059C	RAD59	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	G15	WT_plate3_G15	YDL059C	RAD59	wild type smt3	yes		
+pro-smt3allR_plate4	O1	pro-smt3allR_plate4_O1	YDL060W	TSR1	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate4	O1	smt3allR_plate4_O1	YDL060W	TSR1	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate4	O1	WT_plate4_O1	YDL060W	TSR1	wild type smt3	yes		
+pro-smt3allR_plate4	A1	pro-smt3allR_plate4_A1	YDL085C-A	YDL085C-A	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate4	A1	smt3allR_plate4_A1	YDL085C-A	YDL085C-A	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate4	A1	WT_plate4_A1	YDL085C-A	YDL085C-A	wild type smt3	yes		
+pro-smt3allR_plate2	E21	pro-smt3allR_plate2_E21	YDL101C	DUN1	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate2	E21	smt3allR_plate2_E21	YDL101C	DUN1	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate2	E21	WT_plate2_E21	YDL101C	DUN1	wild type smt3	yes		
+pro-smt3allR_plate2	M23	pro-smt3allR_plate2_M23	YDL134C	PPH21	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate2	M23	smt3allR_plate2_M23	YDL134C	PPH21	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate2	M23	WT_plate2_M23	YDL134C	PPH21	wild type smt3	yes		
+pro-smt3allR_plate4	O23	pro-smt3allR_plate4_O23	YDL142C	CRD1	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate4	O23	smt3allR_plate4_O23	YDL142C	CRD1	smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+WT_plate4	O23	WT_plate4_O23	YDL142C	CRD1	wild type smt3	yes		
+pro-smt3allR_plate2	G13	pro-smt3allR_plate2_G13	YDL156W	YDL156W	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate2	G13	smt3allR_plate2_G13	YDL156W	YDL156W	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate2	G13	WT_plate2_G13	YDL156W	YDL156W	wild type smt3	yes		
+pro-smt3allR_plate2	G15	pro-smt3allR_plate2_G15	YDL160C	DHH1	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate2	G15	smt3allR_plate2_G15	YDL160C	DHH1	smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+WT_plate2	G15	WT_plate2_G15	YDL160C	DHH1	wild type smt3	yes		
+pro-smt3allR_plate2	I15	pro-smt3allR_plate2_I15	YDR004W	RAD57	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	I15	smt3allR_plate2_I15	YDR004W	RAD57	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	I15	WT_plate2_I15	YDR004W	RAD57	wild type smt3	yes		
+pro-smt3allR_plate3	I11	pro-smt3allR_plate3_I11	YDR041W	RSM10	pro-smt3allR	yes	more fragmented	the smt3allR mutant cells display more fragmented cytoplasmic structures as compared to the WT
+smt3allR_plate3	I11	smt3allR_plate3_I11	YDR041W	RSM10	smt3allR	yes	more fragmented	the smt3allR mutant cells display more fragmented cytoplasmic structures as compared to the WT
+WT_plate3	I11	WT_plate3_I11	YDR041W	RSM10	wild type smt3	yes		
+pro-smt3allR_plate1	M17	pro-smt3allR_plate1_M17	YDR052C	DBF4	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate1	M17	smt3allR_plate1_M17	YDR052C	DBF4	smt3allR	yes	no colony	
+WT_plate1	M17	WT_plate1_M17	YDR052C	DBF4	wild type smt3	yes		
+pro-smt3allR_plate4	A7	pro-smt3allR_plate4_A7	YDR080W	VPS41	pro-smt3allR	yes	odd shaped cells and more foci	the smt3allR mutant population contains odd shaped cells and the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate4	A7	smt3allR_plate4_A7	YDR080W	VPS41	smt3allR	yes	odd shaped cells and more foci	the smt3allR mutant population contains odd shaped cells and the smt3allR mutant population displays an increased number of cells with foci
+WT_plate4	A7	WT_plate4_A7	YDR080W	VPS41	wild type smt3	yes		
+pro-smt3allR_plate3	A21	pro-smt3allR_plate3_A21	YDR090C	YDR090C	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	A21	smt3allR_plate3_A21	YDR090C	YDR090C	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	A21	WT_plate3_A21	YDR090C	YDR090C	wild type smt3	yes		
+pro-smt3allR_plate1	C9	pro-smt3allR_plate1_C9	YDR128W	MTC5	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate1	C9	smt3allR_plate1_C9	YDR128W	MTC5	smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+WT_plate1	C9	WT_plate1_C9	YDR128W	MTC5	wild type smt3	yes		
+pro-smt3allR_plate2	K3	pro-smt3allR_plate2_K3	YDR170W-A	YDR170W-A	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	K3	smt3allR_plate2_K3	YDR170W-A	YDR170W-A	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	K3	WT_plate2_K3	YDR170W-A	YDR170W-A	wild type smt3	yes		
+pro-smt3allR_plate2	M21	pro-smt3allR_plate2_M21	YDR171W	HSP42	pro-smt3allR	yes	brighter foci	the smt3allR mutant displays brighter foci than WT
+smt3allR_plate2	M21	smt3allR_plate2_M21	YDR171W	HSP42	smt3allR	yes	brighter foci	the smt3allR mutant displays brighter foci than WT
+WT_plate2	M21	WT_plate2_M21	YDR171W	HSP42	wild type smt3	yes		
+pro-smt3allR_plate3	C15	pro-smt3allR_plate3_C15	YDR184C	ATC1	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate3	C15	smt3allR_plate3_C15	YDR184C	ATC1	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate3	C15	WT_plate3_C15	YDR184C	ATC1	wild type smt3	yes		
+pro-smt3allR_plate2	M13	pro-smt3allR_plate2_M13	YDR191W	HST4	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate2	M13	smt3allR_plate2_M13	YDR191W	HST4	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate2	M13	WT_plate2_M13	YDR191W	HST4	wild type smt3	yes		
+pro-smt3allR_plate2	O13	pro-smt3allR_plate2_O13	YDR214W	AHA1	pro-smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+smt3allR_plate2	O13	smt3allR_plate2_O13	YDR214W	AHA1	smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+WT_plate2	O13	WT_plate2_O13	YDR214W	AHA1	wild type smt3	yes		
+pro-smt3allR_plate4	K17	pro-smt3allR_plate4_K17	YDR313C	PIB1	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+smt3allR_plate4	K17	smt3allR_plate4_K17	YDR313C	PIB1	smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+WT_plate4	K17	WT_plate4_K17	YDR313C	PIB1	wild type smt3	yes		
+smt3allR_plate3	O17	smt3allR_plate3_O17	YDR320C-A	DAD4	smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology1
+pro-smt3allR_plate3	O17	pro-smt3allR_plate3_O17	YDR320C-A	DAD4	pro-smt3allR	yes		
+WT_plate3	O17	WT_plate3_O17	YDR320C-A	DAD4	wild type smt3	yes		
+pro-smt3allR_plate4	E11	pro-smt3allR_plate4_E11	YDR345C	HXT3	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate4	E11	smt3allR_plate4_E11	YDR345C	HXT3	smt3allR	yes	more cytoplasmic signal	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+WT_plate4	E11	WT_plate4_E11	YDR345C	HXT3	wild type smt3	yes		
+pro-smt3allR_plate1	G7	pro-smt3allR_plate1_G7	YDR369C	XRS2	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	G7	smt3allR_plate1_G7	YDR369C	XRS2	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate1	G7	WT_plate1_G7	YDR369C	XRS2	wild type smt3	yes		
+pro-smt3allR_plate2	E3	pro-smt3allR_plate2_E3	YDR463W	STP1	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate2	E3	smt3allR_plate2_E3	YDR463W	STP1	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate2	E3	WT_plate2_E3	YDR463W	STP1	wild type smt3	yes		
+pro-smt3allR_plate2	K21	pro-smt3allR_plate2_K21	YDR465C	RMT2	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate2	K21	smt3allR_plate2_K21	YDR465C	RMT2	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate2	K21	WT_plate2_K21	YDR465C	RMT2	wild type smt3	yes		
+pro-smt3allR_plate4	C7	pro-smt3allR_plate4_C7	YDR497C	ITR1	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+smt3allR_plate4	C7	smt3allR_plate4_C7	YDR497C	ITR1	smt3allR	yes	very few cells	very few cells
+WT_plate4	C7	WT_plate4_C7	YDR497C	ITR1	wild type smt3	yes		
+pro-smt3allR_plate1	K17	pro-smt3allR_plate1_K17	YDR499W	LCD1	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	K17	smt3allR_plate1_K17	YDR499W	LCD1	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate1	K17	WT_plate1_K17	YDR499W	LCD1	wild type smt3	yes		
+pro-smt3allR_plate4	M17	pro-smt3allR_plate4_M17	YEL001C	IRC22	pro-smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+smt3allR_plate4	M17	smt3allR_plate4_M17	YEL001C	IRC22	smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+WT_plate4	M17	WT_plate4_M17	YEL001C	IRC22	wild type smt3	yes		
+pro-smt3allR_plate2	E9	pro-smt3allR_plate2_E9	YEL015W	EDC3	pro-smt3allR	yes	brighter foci	the smt3allR mutant displays brighter foci than WT
+smt3allR_plate2	E9	smt3allR_plate2_E9	YEL015W	EDC3	smt3allR	yes	brighter foci	the smt3allR mutant displays brighter foci than WT
+WT_plate2	E9	WT_plate2_E9	YEL015W	EDC3	wild type smt3	yes		
+smt3allR_plate4	A3	smt3allR_plate4_A3	YER008C	SEC3	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+pro-smt3allR_plate4	A3	pro-smt3allR_plate4_A3	YER008C	SEC3	pro-smt3allR	yes		
+WT_plate4	A3	WT_plate4_A3	YER008C	SEC3	wild type smt3	yes		
+pro-smt3allR_plate3	K21	pro-smt3allR_plate3_K21	YER035W	EDC2	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	K21	smt3allR_plate3_K21	YER035W	EDC2	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	K21	WT_plate3_K21	YER035W	EDC2	wild type smt3	yes		
+pro-smt3allR_plate3	K5	pro-smt3allR_plate3_K5	YER112W	LSM4	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	K5	smt3allR_plate3_K5	YER112W	LSM4	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	K5	WT_plate3_K5	YER112W	LSM4	wild type smt3	yes		
+pro-smt3allR_plate3	M19	pro-smt3allR_plate3_M19	YGL029W	CGR1	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	M19	smt3allR_plate3_M19	YGL029W	CGR1	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	M19	WT_plate3_M19	YGL029W	CGR1	wild type smt3	yes		
+pro-smt3allR_plate3	I1	pro-smt3allR_plate3_I1	YGL037C	PNC1	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate3	I1	smt3allR_plate3_I1	YGL037C	PNC1	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate3	I1	WT_plate3_I1	YGL037C	PNC1	wild type smt3	yes		
+pro-smt3allR_plate2	A9	pro-smt3allR_plate2_A9	YGL113W	SLD3	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate2	A9	smt3allR_plate2_A9	YGL113W	SLD3	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate2	A9	WT_plate2_A9	YGL113W	SLD3	wild type smt3	yes		
+smt3allR_plate2	O7	smt3allR_plate2_O7	YGL175C	SAE2	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+pro-smt3allR_plate2	O7	pro-smt3allR_plate2_O7	YGL175C	SAE2	pro-smt3allR	yes	no colony	
+WT_plate2	O7	WT_plate2_O7	YGL175C	SAE2	wild type smt3	yes		
+pro-smt3allR_plate3	G1	pro-smt3allR_plate3_G1	YGR042W	YGR042W	pro-smt3allR	yes	some nuclear foci	the smt3allR mutant population display nuclear foci
+smt3allR_plate3	G1	smt3allR_plate3_G1	YGR042W	YGR042W	smt3allR	yes	some nuclear foci	the smt3allR mutant population display nuclear foci
+WT_plate3	G1	WT_plate3_G1	YGR042W	YGR042W	wild type smt3	yes		
+pro-smt3allR_plate3	A3	pro-smt3allR_plate3_A3	YGR086C	PIL1	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate3	A3	smt3allR_plate3_A3	YGR086C	PIL1	smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+WT_plate3	A3	WT_plate3_A3	YGR086C	PIL1	wild type smt3	yes		
+pro-smt3allR_plate3	G19	pro-smt3allR_plate3_G19	YGR136W	LSB1	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	G19	smt3allR_plate3_G19	YGR136W	LSB1	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	G19	WT_plate3_G19	YGR136W	LSB1	wild type smt3	yes		
+pro-smt3allR_plate2	O23	pro-smt3allR_plate2_O23	YGR180C	RNR4	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate2	O23	smt3allR_plate2_O23	YGR180C	RNR4	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate2	O23	WT_plate2_O23	YGR180C	RNR4	wild type smt3	yes		
+pro-smt3allR_plate2	M3	pro-smt3allR_plate2_M3	YGR187C	HGH1	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate2	M3	smt3allR_plate2_M3	YGR187C	HGH1	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate2	M3	WT_plate2_M3	YGR187C	HGH1	wild type smt3	yes		
+pro-smt3allR_plate2	G19	pro-smt3allR_plate2_G19	YGR211W	ZPR1	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate2	G19	smt3allR_plate2_G19	YGR211W	ZPR1	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate2	G19	WT_plate2_G19	YGR211W	ZPR1	wild type smt3	yes		
+pro-smt3allR_plate3	E11	pro-smt3allR_plate3_E11	YGR239C	PEX21	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate3	E11	smt3allR_plate3_E11	YGR239C	PEX21	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+WT_plate3	E11	WT_plate3_E11	YGR239C	PEX21	wild type smt3	yes		
+pro-smt3allR_plate4	C13	pro-smt3allR_plate4_C13	YHL028W	WSC4	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate4	C13	smt3allR_plate4_C13	YHL028W	WSC4	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate4	C13	WT_plate4_C13	YHL028W	WSC4	wild type smt3	yes		
+pro-smt3allR_plate4	E9	pro-smt3allR_plate4_E9	YHL040C	ARN1	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate4	E9	smt3allR_plate4_E9	YHL040C	ARN1	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate4	E9	WT_plate4_E9	YHL040C	ARN1	wild type smt3	yes		
+pro-smt3allR_plate4	M7	pro-smt3allR_plate4_M7	YHR039C-A	VMA10	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+smt3allR_plate4	M7	smt3allR_plate4_M7	YHR039C-A	VMA10	smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+WT_plate4	M7	WT_plate4_M7	YHR039C-A	VMA10	wild type smt3	yes		
+pro-smt3allR_plate4	K13	pro-smt3allR_plate4_K13	YHR140W	YHR140W	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate4	K13	smt3allR_plate4_K13	YHR140W	YHR140W	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate4	K13	WT_plate4_K13	YHR140W	YHR140W	wild type smt3	yes		
+pro-smt3allR_plate4	K3	pro-smt3allR_plate4_K3	YHR142W	CHS7	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate4	K3	smt3allR_plate4_K3	YHR142W	CHS7	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+WT_plate4	K3	WT_plate4_K3	YHR142W	CHS7	wild type smt3	yes		
+smt3allR_plate1	A3	smt3allR_plate1_A3	YHR164C	DNA2	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+pro-smt3allR_plate1	A3	pro-smt3allR_plate1_A3	YHR164C	DNA2	pro-smt3allR	yes	no colony	
+WT_plate1	A3	WT_plate1_A3	YHR164C	DNA2	wild type smt3	yes		
+pro-smt3allR_plate1	I13	pro-smt3allR_plate1_I13	YHR205W	SCH9	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	I13	smt3allR_plate1_I13	YHR205W	SCH9	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate1	I13	WT_plate1_I13	YHR205W	SCH9	wild type smt3	yes		
+pro-smt3allR_plate4	A15	pro-smt3allR_plate4_A15	YIL048W	NEO1	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate4	A15	smt3allR_plate4_A15	YIL048W	NEO1	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+WT_plate4	A15	WT_plate4_A15	YIL048W	NEO1	wild type smt3	yes		
+pro-smt3allR_plate4	A19	pro-smt3allR_plate4_A19	YIL068C	SEC6	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate4	A19	smt3allR_plate4_A19	YIL068C	SEC6	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+WT_plate4	A19	WT_plate4_A19	YIL068C	SEC6	wild type smt3	yes		
+pro-smt3allR_plate1	M7	pro-smt3allR_plate1_M7	YIL108W	YIL108W	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate1	M7	smt3allR_plate1_M7	YIL108W	YIL108W	smt3allR	yes	no colony	
+WT_plate1	M7	WT_plate1_M7	YIL108W	YIL108W	wild type smt3	yes		
+pro-smt3allR_plate3	E17	pro-smt3allR_plate3_E17	YIL148W	RPL40A	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate3	E17	smt3allR_plate3_E17	YIL148W	RPL40A	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate3	E17	WT_plate3_E17	YIL148W	RPL40A	wild type smt3	yes		
+pro-smt3allR_plate4	I13	pro-smt3allR_plate4_I13	YIR014W	YIR014W	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+smt3allR_plate4	I13	smt3allR_plate4_I13	YIR014W	YIR014W	smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+WT_plate4	I13	WT_plate4_I13	YIR014W	YIR014W	wild type smt3	yes		
+pro-smt3allR_plate4	G17	pro-smt3allR_plate4_G17	YJL053W	PEP8	pro-smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+smt3allR_plate4	G17	smt3allR_plate4_G17	YJL053W	PEP8	smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+WT_plate4	G17	WT_plate4_G17	YJL053W	PEP8	wild type smt3	yes		
+pro-smt3allR_plate1	K11	pro-smt3allR_plate1_K11	YJL090C	DPB11	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	K11	smt3allR_plate1_K11	YJL090C	DPB11	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate1	K11	WT_plate1_K11	YJL090C	DPB11	wild type smt3	yes		
+pro-smt3allR_plate1	A21	pro-smt3allR_plate1_A21	YJL092W	HPR5/SRS2	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	A21	smt3allR_plate1_A21	YJL092W	HPR5/SRS2	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate1	A21	WT_plate1_A21	YJL092W	HPR5/SRS2	wild type smt3	yes		
+pro-smt3allR_plate3	K7	pro-smt3allR_plate3_K7	YJL124C	LSM1	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	K7	smt3allR_plate3_K7	YJL124C	LSM1	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	K7	WT_plate3_K7	YJL124C	LSM1	wild type smt3	yes		
+smt3allR_plate3	G13	smt3allR_plate3_G13	YJR056C	YJR056C	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+pro-smt3allR_plate3	G13	pro-smt3allR_plate3_G13	YJR056C	YJR056C	pro-smt3allR	yes		
+WT_plate3	G13	WT_plate3_G13	YJR056C	YJR056C	wild type smt3	yes		
+pro-smt3allR_plate2	O15	pro-smt3allR_plate2_O15	YJR068W	RFC2	pro-smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+smt3allR_plate2	O15	smt3allR_plate2_O15	YJR068W	RFC2	smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+WT_plate2	O15	WT_plate2_O15	YJR068W	RFC2	wild type smt3	yes		
+pro-smt3allR_plate2	O9	pro-smt3allR_plate2_O9	YJR139C	HOM6	pro-smt3allR	yes	brighter foci	the smt3allR mutant displays brighter foci than WT
+smt3allR_plate2	O9	smt3allR_plate2_O9	YJR139C	HOM6	smt3allR	yes	brighter foci	the smt3allR mutant displays brighter foci than WT
+WT_plate2	O9	WT_plate2_O9	YJR139C	HOM6	wild type smt3	yes		
+pro-smt3allR_plate3	K11	pro-smt3allR_plate3_K11	YKL069W	YKL069W	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate3	K11	smt3allR_plate3_K11	YKL069W	YKL069W	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate3	K11	WT_plate3_K11	YKL069W	YKL069W	wild type smt3	yes		
+pro-smt3allR_plate2	G9	pro-smt3allR_plate2_G9	YKL103C	LAP4	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	G9	smt3allR_plate2_G9	YKL103C	LAP4	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	G9	WT_plate2_G9	YKL103C	LAP4	wild type smt3	yes		
+pro-smt3allR_plate4	A23	pro-smt3allR_plate4_A23	YKR001C	Vps1	pro-smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+smt3allR_plate4	A23	smt3allR_plate4_A23	YKR001C	Vps1	smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+WT_plate4	A23	WT_plate4_A23	YKR001C	Vps1	wild type smt3	yes		
+pro-smt3allR_plate2	O3	pro-smt3allR_plate2_O3	YKR011C	YKR011C	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate2	O3	smt3allR_plate2_O3	YKR011C	YKR011C	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate2	O3	WT_plate2_O3	YKR011C	YKR011C	wild type smt3	yes		
+pro-smt3allR_plate3	C23	pro-smt3allR_plate3_C23	YLR003C	CMS1	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate3	C23	smt3allR_plate3_C23	YLR003C	CMS1	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate3	C23	WT_plate3_C23	YLR003C	CMS1	wild type smt3	yes		
+pro-smt3allR_plate3	G7	pro-smt3allR_plate3_G7	YLR126C	YLR126C	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	G7	smt3allR_plate3_G7	YLR126C	YLR126C	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	G7	WT_plate3_G7	YLR126C	YLR126C	wild type smt3	yes		
+pro-smt3allR_plate1	M3	pro-smt3allR_plate1_M3	YLR135W	SLX4	pro-smt3allR	yes	less foci	the smt3allR mutant population has fewer cells with foci than WT
+smt3allR_plate1	M3	smt3allR_plate1_M3	YLR135W	SLX4	smt3allR	yes	less foci	the smt3allR mutant population has fewer cells with foci than WT
+WT_plate1	M3	WT_plate1_M3	YLR135W	SLX4	wild type smt3	yes		
+pro-smt3allR_plate4	C3	pro-smt3allR_plate4_C3	YLR166C	SEC10	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate4	C3	smt3allR_plate4_C3	YLR166C	SEC10	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+WT_plate4	C3	WT_plate4_C3	YLR166C	SEC10	wild type smt3	yes		
+pro-smt3allR_plate1	O13	pro-smt3allR_plate1_O13	YLR258W	GSY2	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate1	O13	smt3allR_plate1_O13	YLR258W	GSY2	smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+WT_plate1	O13	WT_plate1_O13	YLR258W	GSY2	wild type smt3	yes		
+pro-smt3allR_plate3	K23	pro-smt3allR_plate3_K23	YLR297W	YLR297W	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	K23	smt3allR_plate3_K23	YLR297W	YLR297W	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	K23	WT_plate3_K23	YLR297W	YLR297W	wild type smt3	yes		
+pro-smt3allR_plate3	I5	pro-smt3allR_plate3_I5	YLR363C	NMD4	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	I5	smt3allR_plate3_I5	YLR363C	NMD4	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	I5	WT_plate3_I5	YLR363C	NMD4	wild type smt3	yes		
+pro-smt3allR_plate3	O5	pro-smt3allR_plate3_O5	YLR363W-A	YLR363W-A	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	O5	smt3allR_plate3_O5	YLR363W-A	YLR363W-A	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	O5	WT_plate3_O5	YLR363W-A	YLR363W-A	wild type smt3	yes		
+pro-smt3allR_plate2	C9	pro-smt3allR_plate2_C9	YLR401C	DUS3	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate2	C9	smt3allR_plate2_C9	YLR401C	DUS3	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate2	C9	WT_plate2_C9	YLR401C	DUS3	wild type smt3	yes		
+pro-smt3allR_plate3	O15	pro-smt3allR_plate3_O15	YLR438C-A	LSM3	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	O15	smt3allR_plate3_O15	YLR438C-A	LSM3	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	O15	WT_plate3_O15	YLR438C-A	LSM3	wild type smt3	yes		
+pro-smt3allR_plate4	I5	pro-smt3allR_plate4_I5	YML018C	YML018C	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+smt3allR_plate4	I5	smt3allR_plate4_I5	YML018C	YML018C	smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+WT_plate4	I5	WT_plate4_I5	YML018C	YML018C	wild type smt3	yes		
+pro-smt3allR_plate3	I23	pro-smt3allR_plate3_I23	YML028W	TSA1	pro-smt3allR	yes	less foci	the smt3allR mutant population has fewer cells with foci than WT
+smt3allR_plate3	I23	smt3allR_plate3_I23	YML028W	TSA1	smt3allR	yes	less foci	the smt3allR mutant population has fewer cells with foci than WT
+WT_plate3	I23	WT_plate3_I23	YML028W	TSA1	wild type smt3	yes		
+pro-smt3allR_plate2	E19	pro-smt3allR_plate2_E19	YML032C	RAD52	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	E19	smt3allR_plate2_E19	YML032C	RAD52	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	E19	WT_plate2_E19	YML032C	RAD52	wild type smt3	yes		
+pro-smt3allR_plate4	O19	pro-smt3allR_plate4_O19	YML108W	YML108W	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate4	O19	smt3allR_plate4_O19	YML108W	YML108W	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate4	O19	WT_plate4_O19	YML108W	YML108W	wild type smt3	yes		
+pro-smt3allR_plate1	O11	pro-smt3allR_plate1_O11	YMR037C	MSN2	pro-smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+smt3allR_plate1	O11	smt3allR_plate1_O11	YMR037C	MSN2	smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+WT_plate1	O11	WT_plate1_O11	YMR037C	MSN2	wild type smt3	yes		
+pro-smt3allR_plate1	E19	pro-smt3allR_plate1_E19	YMR080C	NAM7	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate1	E19	smt3allR_plate1_E19	YMR080C	NAM7	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate1	E19	WT_plate1_E19	YMR080C	NAM7	wild type smt3	yes		
+pro-smt3allR_plate2	I17	pro-smt3allR_plate2_I17	YMR111C	YMR111C	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	I17	smt3allR_plate2_I17	YMR111C	YMR111C	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	I17	WT_plate2_I17	YMR111C	YMR111C	wild type smt3	yes		
+pro-smt3allR_plate4	E21	pro-smt3allR_plate4_E21	YMR153W	NUP53	pro-smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+smt3allR_plate4	E21	smt3allR_plate4_E21	YMR153W	NUP53	smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+WT_plate4	E21	WT_plate4_E21	YMR153W	NUP53	wild type smt3	yes		
+pro-smt3allR_plate3	K13	pro-smt3allR_plate3_K13	YMR159C	ATG16	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	K13	smt3allR_plate3_K13	YMR159C	ATG16	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	K13	WT_plate3_K13	YMR159C	ATG16	wild type smt3	yes		
+pro-smt3allR_plate1	A1	pro-smt3allR_plate1_A1	YMR190C	SGS1	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	A1	smt3allR_plate1_A1	YMR190C	SGS1	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate1	A1	WT_plate1_A1	YMR190C	SGS1	wild type smt3	yes		
+pro-smt3allR_plate1	O15	pro-smt3allR_plate1_O15	YMR192W	GYL1	pro-smt3allR	yes	some mislocalized foci	smt3allR mutant cells display foci with localization that differs from WT
+smt3allR_plate1	O15	smt3allR_plate1_O15	YMR192W	GYL1	smt3allR	yes	some mislocalized foci	smt3allR mutant cells display foci with localization that differs from WT
+WT_plate1	O15	WT_plate1_O15	YMR192W	GYL1	wild type smt3	yes		
+pro-smt3allR_plate1	M21	pro-smt3allR_plate1_M21	YMR224C	MRE11	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	M21	smt3allR_plate1_M21	YMR224C	MRE11	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate1	M21	WT_plate1_M21	YMR224C	MRE11	wild type smt3	yes		
+pro-smt3allR_plate4	M13	pro-smt3allR_plate4_M13	YMR264W	CUE1	pro-smt3allR	yes	some brighter cells	the smt3allR mutant population display increased fluorescence signal vs. WT cells
+smt3allR_plate4	M13	smt3allR_plate4_M13	YMR264W	CUE1	smt3allR	yes	some brighter cells	the smt3allR mutant population display increased fluorescence signal vs. WT cells
+WT_plate4	M13	WT_plate4_M13	YMR264W	CUE1	wild type smt3	yes		
+pro-smt3allR_plate4	I17	pro-smt3allR_plate4_I17	YNL055C	POR1	pro-smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+smt3allR_plate4	I17	smt3allR_plate4_I17	YNL055C	POR1	smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+WT_plate4	I17	WT_plate4_I17	YNL055C	POR1	wild type smt3	yes		
+pro-smt3allR_plate4	C11	pro-smt3allR_plate4_C11	YNL065W	AQR1	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate4	C11	smt3allR_plate4_C11	YNL065W	AQR1	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate4	C11	WT_plate4_C11	YNL065W	AQR1	wild type smt3	yes		
+pro-smt3allR_plate2	E13	pro-smt3allR_plate2_E13	YNL077W	APJ1	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	E13	smt3allR_plate2_E13	YNL077W	APJ1	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	E13	WT_plate2_E13	YNL077W	APJ1	wild type smt3	yes		
+pro-smt3allR_plate1	I19	pro-smt3allR_plate1_I19	YNL085W	MKT1	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	I19	smt3allR_plate1_I19	YNL085W	MKT1	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate1	I19	WT_plate1_I19	YNL085W	MKT1	wild type smt3	yes		
+pro-smt3allR_plate3	M5	pro-smt3allR_plate3_M5	YNL147W	LSM7	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	M5	smt3allR_plate3_M5	YNL147W	LSM7	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	M5	WT_plate3_M5	YNL147W	LSM7	wild type smt3	yes		
+pro-smt3allR_plate2	K19	pro-smt3allR_plate2_K19	YNL175C	NOP13	pro-smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+smt3allR_plate2	K19	smt3allR_plate2_K19	YNL175C	NOP13	smt3allR	yes	brighter	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT"
+WT_plate2	K19	WT_plate2_K19	YNL175C	NOP13	wild type smt3	yes		
+pro-smt3allR_plate2	C17	pro-smt3allR_plate2_C17	YNL218W	MGS1	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	C17	smt3allR_plate2_C17	YNL218W	MGS1	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	C17	WT_plate2_C17	YNL218W	MGS1	wild type smt3	yes		
+smt3allR_plate2	E5	smt3allR_plate2_E5	YNL225C	CNM67	smt3allR	yes	more than 2 SPB (Spindle Pole Bodies) in some cells	the smt3allR mutant has a population of cells with more than 2 spindle pole bodies
+pro-smt3allR_plate2	E5	pro-smt3allR_plate2_E5	YNL225C	CNM67	pro-smt3allR	yes		
+WT_plate2	E5	WT_plate2_E5	YNL225C	CNM67	wild type smt3	yes		
+pro-smt3allR_plate1	A23	pro-smt3allR_plate1_A23	YNL250W	RAD50	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate1	A23	smt3allR_plate1_A23	YNL250W	RAD50	smt3allR	yes	no colony	
+WT_plate1	A23	WT_plate1_A23	YNL250W	RAD50	wild type smt3	yes		
+pro-smt3allR_plate2	C5	pro-smt3allR_plate2_C5	YNL293W	MSB3	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate2	C5	smt3allR_plate2_C5	YNL293W	MSB3	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+WT_plate2	C5	WT_plate2_C5	YNL293W	MSB3	wild type smt3	yes		
+pro-smt3allR_plate3	K19	pro-smt3allR_plate3_K19	YNR046W	TRM112	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate3	K19	smt3allR_plate3_K19	YNR046W	TRM112	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate3	K19	WT_plate3_K19	YNR046W	TRM112	wild type smt3	yes		
+pro-smt3allR_plate4	I19	pro-smt3allR_plate4_I19	YOL009C	MDM12	pro-smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+smt3allR_plate4	I19	smt3allR_plate4_I19	YOL009C	MDM12	smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+WT_plate4	I19	WT_plate4_I19	YOL009C	MDM12	wild type smt3	yes		
+pro-smt3allR_plate2	E23	pro-smt3allR_plate2_E23	YOL070C	NBA1	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate2	E23	smt3allR_plate2_E23	YOL070C	NBA1	smt3allR	yes		
+WT_plate2	E23	WT_plate2_E23	YOL070C	NBA1	wild type smt3	yes		
+pro-smt3allR_plate4	K21	pro-smt3allR_plate4_K21	YOL092W	YOL092W	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+smt3allR_plate4	K21	smt3allR_plate4_K21	YOL092W	YOL092W	smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+WT_plate4	K21	WT_plate4_K21	YOL092W	YOL092W	wild type smt3	yes		
+smt3allR_plate3	G17	smt3allR_plate3_G17	YOL149W	DCP1	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+pro-smt3allR_plate3	G17	pro-smt3allR_plate3_G17	YOL149W	DCP1	pro-smt3allR	yes		
+WT_plate3	G17	WT_plate3_G17	YOL149W	DCP1	wild type smt3	yes		
+pro-smt3allR_plate2	O19	pro-smt3allR_plate2_O19	YOR007C	SGT2	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate2	O19	smt3allR_plate2_O19	YOR007C	SGT2	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate2	O19	WT_plate2_O19	YOR007C	SGT2	wild type smt3	yes		
+pro-smt3allR_plate1	G19	pro-smt3allR_plate1_G19	YOR058C	ASE1	pro-smt3allR	yes	brighter and stuck at segregation	the smt3allR mutant has a population of cells that contain GFP signals between mother and daughter cells
+smt3allR_plate1	G19	smt3allR_plate1_G19	YOR058C	ASE1	smt3allR	yes	brighter and stuck at segregation	the smt3allR mutant has a population of cells that contain GFP signals between mother and daughter cells
+WT_plate1	G19	WT_plate1_G19	YOR058C	ASE1	wild type smt3	yes		
+pro-smt3allR_plate4	I15	pro-smt3allR_plate4_I15	YOR101W	RAS1	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate4	I15	smt3allR_plate4_I15	YOR101W	RAS1	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+WT_plate4	I15	WT_plate4_I15	YOR101W	RAS1	wild type smt3	yes		
+pro-smt3allR_plate4	M15	pro-smt3allR_plate4_M15	YOR185C	GSP2	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate4	M15	smt3allR_plate4_M15	YOR185C	GSP2	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate4	M15	WT_plate4_M15	YOR185C	GSP2	wild type smt3	yes		
+pro-smt3allR_plate4	M21	pro-smt3allR_plate4_M21	YOR188W	MSB1	pro-smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+smt3allR_plate4	M21	smt3allR_plate4_M21	YOR188W	MSB1	smt3allR	yes	more foci per cell	the smt3allR mutant has more foci per cell than WT
+WT_plate4	M21	WT_plate4_M21	YOR188W	MSB1	wild type smt3	yes		
+pro-smt3allR_plate2	K9	pro-smt3allR_plate2_K9	YOR264W	DSE3	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate2	K9	smt3allR_plate2_K9	YOR264W	DSE3	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+WT_plate2	K9	WT_plate2_K9	YOR264W	DSE3	wild type smt3	yes		
+pro-smt3allR_plate4	C5	pro-smt3allR_plate4_C5	YOR270C	VPH1	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+smt3allR_plate4	C5	smt3allR_plate4_C5	YOR270C	VPH1	smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+WT_plate4	C5	WT_plate4_C5	YOR270C	VPH1	wild type smt3	yes		
+pro-smt3allR_plate2	G3	pro-smt3allR_plate2_G3	YOR310C	Nop58	pro-smt3allR	yes	some fragmented nucleoli	the smt3allR mutant population display fragmented nucleoli
+smt3allR_plate2	G3	smt3allR_plate2_G3	YOR310C	Nop58	smt3allR	yes	some fragmented nucleoli	the smt3allR mutant population display fragmented nucleoli
+WT_plate2	G3	WT_plate2_G3	YOR310C	Nop58	wild type smt3	yes		
+pro-smt3allR_plate1	O7	pro-smt3allR_plate1_O7	YOR317W	FAA1	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate1	O7	smt3allR_plate1_O7	YOR317W	FAA1	smt3allR	yes	no colony	
+WT_plate1	O7	WT_plate1_O7	YOR317W	FAA1	wild type smt3	yes		
+pro-smt3allR_plate4	M5	pro-smt3allR_plate4_M5	YOR332W	VMA4	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+smt3allR_plate4	M5	smt3allR_plate4_M5	YOR332W	VMA4	smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
+WT_plate4	M5	WT_plate4_M5	YOR332W	VMA4	wild type smt3	yes		
+pro-smt3allR_plate4	E7	pro-smt3allR_plate4_E7	YOR370C	MRS6	pro-smt3allR	yes	brighter and odd shaped cells	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT and the smt3allR mutant population contains odd shaped cells"
+smt3allR_plate4	E7	smt3allR_plate4_E7	YOR370C	MRS6	smt3allR	yes	brighter and odd shaped cells	"the smt3allR mutant cells display a more intense GFP signal, with localization similar to WT and the smt3allR mutant population contains odd shaped cells"
+WT_plate4	E7	WT_plate4_E7	YOR370C	MRS6	wild type smt3	yes		
+pro-smt3allR_plate3	O23	pro-smt3allR_plate3_O23	YPL047W	SGF11	pro-smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+smt3allR_plate3	O23	smt3allR_plate3_O23	YPL047W	SGF11	smt3allR	yes	more nuclear	the smt3allR GFP signal seems more nuclear than WT
+WT_plate3	O23	WT_plate3_O23	YPL047W	SGF11	wild type smt3	yes		
+pro-smt3allR_plate4	G5	pro-smt3allR_plate4_G5	YPL087W	YDC1	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate4	G5	smt3allR_plate4_G5	YPL087W	YDC1	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate4	G5	WT_plate4_G5	YPL087W	YDC1	wild type smt3	yes		
+pro-smt3allR_plate3	G23	pro-smt3allR_plate3_G23	YPL166W	ATG29	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate3	G23	smt3allR_plate3_G23	YPL166W	ATG29	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate3	G23	WT_plate3_G23	YPL166W	ATG29	wild type smt3	yes		
+pro-smt3allR_plate2	C19	pro-smt3allR_plate2_C19	YPL194W	DDC1	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	C19	smt3allR_plate2_C19	YPL194W	DDC1	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	C19	WT_plate2_C19	YPL194W	DDC1	wild type smt3	yes		
+pro-smt3allR_plate2	G5	pro-smt3allR_plate2_G5	YPL198W	RPL7B	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+smt3allR_plate2	G5	smt3allR_plate2_G5	YPL198W	RPL7B	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
+WT_plate2	G5	WT_plate2_G5	YPL198W	RPL7B	wild type smt3	yes		
+pro-smt3allR_plate2	M15	pro-smt3allR_plate2_M15	YPL209C	IPL1	pro-smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology1
+smt3allR_plate2	M15	smt3allR_plate2_M15	YPL209C	IPL1	smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology1
+WT_plate2	M15	WT_plate2_M15	YPL209C	IPL1	wild type smt3	yes		
+pro-smt3allR_plate4	C1	pro-smt3allR_plate4_C1	YPL221W	FLC1	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+smt3allR_plate4	C1	smt3allR_plate4_C1	YPL221W	FLC1	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+WT_plate4	C1	WT_plate4_C1	YPL221W	FLC1	wild type smt3	yes		
+pro-smt3allR_plate2	C15	pro-smt3allR_plate2_C15	YPL243W	SRP68	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+smt3allR_plate2	C15	smt3allR_plate2_C15	YPL243W	SRP68	smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
+WT_plate2	C15	WT_plate2_C15	YPL243W	SRP68	wild type smt3	yes		
+pro-smt3allR_plate1	E15	pro-smt3allR_plate1_E15	YPR019W	MCM4	pro-smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+smt3allR_plate1	E15	smt3allR_plate1_E15	YPR019W	MCM4	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
+WT_plate1	E15	WT_plate1_E15	YPR019W	MCM4	wild type smt3	yes		
+pro-smt3allR_plate2	O1	pro-smt3allR_plate2_O1	YPR035W	GLN1	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+smt3allR_plate2	O1	smt3allR_plate2_O1	YPR035W	GLN1	smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
+WT_plate2	O1	WT_plate2_O1	YPR035W	GLN1	wild type smt3	yes		
+smt3allR_plate4	A5	smt3allR_plate4_A5	YPR055W	SEC8	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
+pro-smt3allR_plate4	A5	pro-smt3allR_plate4_A5	YPR055W	SEC8	pro-smt3allR	yes		
+WT_plate4	A5	WT_plate4_A5	YPR055W	SEC8	wild type smt3	yes		
+pro-smt3allR_plate2	O17	pro-smt3allR_plate2_O17	YPR075C	OPY2	pro-smt3allR	yes	punctate PM	the smt3allR mutant shows a more punctate GFP localization at the plasma membrane
+smt3allR_plate2	O17	smt3allR_plate2_O17	YPR075C	OPY2	smt3allR	yes	punctate PM	the smt3allR mutant shows a more punctate GFP localization at the plasma membrane
+WT_plate2	O17	WT_plate2_O17	YPR075C	OPY2	wild type smt3	yes		
+pro-smt3allR_plate4	I1	pro-smt3allR_plate4_I1	YPR124W	CTR1	pro-smt3allR	yes	punctate PM	the smt3allR mutant shows a more punctate GFP localization at the plasma membrane
+smt3allR_plate4	I1	smt3allR_plate4_I1	YPR124W	CTR1	smt3allR	yes	punctate PM	the smt3allR mutant shows a more punctate GFP localization at the plasma membrane
+WT_plate4	I1	WT_plate4_I1	YPR124W	CTR1	wild type smt3	yes		
+pro-smt3allR_plate3	M1	pro-smt3allR_plate3_M1	YBL003C	Hta2	pro-smt3allR	no		
+smt3allR_plate3	M1	smt3allR_plate3_M1	YBL003C	Hta2	smt3allR	no		
+WT_plate3	M1	WT_plate3_M1	YBL003C	Hta2	wild type smt3	no		
+pro-smt3allR_plate1	E9	pro-smt3allR_plate1_E9	YBL005W	PDR3	pro-smt3allR	no		
+smt3allR_plate1	E9	smt3allR_plate1_E9	YBL005W	PDR3	smt3allR	no		
+WT_plate1	E9	WT_plate1_E9	YBL005W	PDR3	wild type smt3	no		
+pro-smt3allR_plate4	E3	pro-smt3allR_plate4_E3	YBL042C	FUI1	pro-smt3allR	no		
+smt3allR_plate4	E3	smt3allR_plate4_E3	YBL042C	FUI1	smt3allR	no		
+WT_plate4	E3	WT_plate4_E3	YBL042C	FUI1	wild type smt3	no		
+pro-smt3allR_plate2	A13	pro-smt3allR_plate2_A13	YBL060W	YEL1	pro-smt3allR	no		
+smt3allR_plate2	A13	smt3allR_plate2_A13	YBL060W	YEL1	smt3allR	no		
+WT_plate2	A13	WT_plate2_A13	YBL060W	YEL1	wild type smt3	no		
+pro-smt3allR_plate1	C23	pro-smt3allR_plate1_C23	YBL085W	BOI1	pro-smt3allR	no		
+smt3allR_plate1	C23	smt3allR_plate1_C23	YBL085W	BOI1	smt3allR	no		
+WT_plate1	C23	WT_plate1_C23	YBL085W	BOI1	wild type smt3	no		
+pro-smt3allR_plate1	C1	pro-smt3allR_plate1_C1	YBL105C	PKC1	pro-smt3allR	no		
+smt3allR_plate1	C1	smt3allR_plate1_C1	YBL105C	PKC1	smt3allR	no		
+WT_plate1	C1	WT_plate1_C1	YBL105C	PKC1	wild type smt3	no		
+smt3allR_plate1	O17	smt3allR_plate1_O17	YBL111C	YBL111C	smt3allR	no		
+pro-smt3allR_plate1	O17	pro-smt3allR_plate1_O17	YBL111C	YBL111C	pro-smt3allR	no		
+WT_plate1	O17	WT_plate1_O17	YBL111C	YBL111C	wild type smt3	no		
+pro-smt3allR_plate4	C23	pro-smt3allR_plate4_C23	YBR008C	FLR1	pro-smt3allR	no		
+smt3allR_plate4	C23	smt3allR_plate4_C23	YBR008C	FLR1	smt3allR	no		
+WT_plate4	C23	WT_plate4_C23	YBR008C	FLR1	wild type smt3	no		
+smt3allR_plate3	M9	smt3allR_plate3_M9	YBR009C	Hhf1	smt3allR	no	very few cells	
+pro-smt3allR_plate3	M9	pro-smt3allR_plate3_M9	YBR009C	Hhf1	pro-smt3allR	no		
+WT_plate3	M9	WT_plate3_M9	YBR009C	Hhf1	wild type smt3	no		
+pro-smt3allR_plate3	E13	pro-smt3allR_plate3_E13	YBR088C	Pol30	pro-smt3allR	no	very few cells	
+smt3allR_plate3	E13	smt3allR_plate3_E13	YBR088C	Pol30	smt3allR	no	very few cells	
+WT_plate3	E13	WT_plate3_E13	YBR088C	Pol30	wild type smt3	no		
+pro-smt3allR_plate1	I7	pro-smt3allR_plate1_I7	YBR114W	RAD16	pro-smt3allR	no		
+smt3allR_plate1	I7	smt3allR_plate1_I7	YBR114W	RAD16	smt3allR	no		
+WT_plate1	I7	WT_plate1_I7	YBR114W	RAD16	wild type smt3	no		
+pro-smt3allR_plate4	C9	pro-smt3allR_plate4_C9	YBR132C	AGP2	pro-smt3allR	no		
+smt3allR_plate4	C9	smt3allR_plate4_C9	YBR132C	AGP2	smt3allR	no		
+WT_plate4	C9	WT_plate4_C9	YBR132C	AGP2	wild type smt3	no		
+pro-smt3allR_plate1	I15	pro-smt3allR_plate1_I15	YBR133C	HSL7	pro-smt3allR	no		
+smt3allR_plate1	I15	smt3allR_plate1_I15	YBR133C	HSL7	smt3allR	no		
+WT_plate1	I15	WT_plate1_I15	YBR133C	HSL7	wild type smt3	no		
+pro-smt3allR_plate3	G21	pro-smt3allR_plate3_G21	YBR197C	YBR197C	pro-smt3allR	no		
+smt3allR_plate3	G21	smt3allR_plate3_G21	YBR197C	YBR197C	smt3allR	no		
+WT_plate3	G21	WT_plate3_G21	YBR197C	YBR197C	wild type smt3	no		
+pro-smt3allR_plate3	A15	pro-smt3allR_plate3_A15	YBR211C	AME1	pro-smt3allR	no		
+smt3allR_plate3	A15	smt3allR_plate3_A15	YBR211C	AME1	smt3allR	no		
+WT_plate3	A15	WT_plate3_A15	YBR211C	AME1	wild type smt3	no		
+pro-smt3allR_plate2	K23	pro-smt3allR_plate2_K23	YBR234C	ARC40	pro-smt3allR	no		
+smt3allR_plate2	K23	smt3allR_plate2_K23	YBR234C	ARC40	smt3allR	no		
+WT_plate2	K23	WT_plate2_K23	YBR234C	ARC40	wild type smt3	no		
+pro-smt3allR_plate2	M19	pro-smt3allR_plate2_M19	YBR249C	ARO4	pro-smt3allR	no		
+smt3allR_plate2	M19	smt3allR_plate2_M19	YBR249C	ARO4	smt3allR	no		
+WT_plate2	M19	WT_plate2_M19	YBR249C	ARO4	wild type smt3	no		
+pro-smt3allR_plate3	M7	pro-smt3allR_plate3_M7	YBR258C	SHG1	pro-smt3allR	no		
+smt3allR_plate3	M7	smt3allR_plate3_M7	YBR258C	SHG1	smt3allR	no		
+WT_plate3	M7	WT_plate3_M7	YBR258C	SHG1	wild type smt3	no		
+pro-smt3allR_plate2	E11	pro-smt3allR_plate2_E11	YBR274W	CHK1	pro-smt3allR	no		
+smt3allR_plate2	E11	smt3allR_plate2_E11	YBR274W	CHK1	smt3allR	no		
+WT_plate2	E11	WT_plate2_E11	YBR274W	CHK1	wild type smt3	no		
+pro-smt3allR_plate4	E15	pro-smt3allR_plate4_E15	YCL027W	FUS1	pro-smt3allR	no		
+smt3allR_plate4	E15	smt3allR_plate4_E15	YCL027W	FUS1	smt3allR	no		
+WT_plate4	E15	WT_plate4_E15	YCL027W	FUS1	wild type smt3	no		
+pro-smt3allR_plate4	G13	pro-smt3allR_plate4_G13	YCR021C	HSP30	pro-smt3allR	no		
+smt3allR_plate4	G13	smt3allR_plate4_G13	YCR021C	HSP30	smt3allR	no		
+WT_plate4	G13	WT_plate4_G13	YCR021C	HSP30	wild type smt3	no		
+pro-smt3allR_plate4	G3	pro-smt3allR_plate4_G3	YCR028C	FEN2	pro-smt3allR	no		
+smt3allR_plate4	G3	smt3allR_plate4_G3	YCR028C	FEN2	smt3allR	no		
+WT_plate4	G3	WT_plate4_G3	YCR028C	FEN2	wild type smt3	no		
+pro-smt3allR_plate3	K17	pro-smt3allR_plate3_K17	YCR028C-A	Rim1	pro-smt3allR	no		
+smt3allR_plate3	K17	smt3allR_plate3_K17	YCR028C-A	Rim1	smt3allR	no		
+WT_plate3	K17	WT_plate3_K17	YCR028C-A	Rim1	wild type smt3	no		
+pro-smt3allR_plate2	C23	pro-smt3allR_plate2_C23	YCR054C	CTR86	pro-smt3allR	no		
+smt3allR_plate2	C23	smt3allR_plate2_C23	YCR054C	CTR86	smt3allR	no		
+WT_plate2	C23	WT_plate2_C23	YCR054C	CTR86	wild type smt3	no		
+pro-smt3allR_plate4	G11	pro-smt3allR_plate4_G11	YCR069W	CPR4	pro-smt3allR	no		
+smt3allR_plate4	G11	smt3allR_plate4_G11	YCR069W	CPR4	smt3allR	no		
+WT_plate4	G11	WT_plate4_G11	YCR069W	CPR4	wild type smt3	no		
+pro-smt3allR_plate3	I15	pro-smt3allR_plate3_I15	YCR086W	Csm1	pro-smt3allR	no		
+smt3allR_plate3	I15	smt3allR_plate3_I15	YCR086W	Csm1	smt3allR	no		
+WT_plate3	I15	WT_plate3_I15	YCR086W	Csm1	wild type smt3	no		
+pro-smt3allR_plate1	C15	pro-smt3allR_plate1_C15	YCR092C	Msh3	pro-smt3allR	no		
+smt3allR_plate1	C15	smt3allR_plate1_C15	YCR092C	Msh3	smt3allR	no		
+WT_plate1	C15	WT_plate1_C15	YCR092C	Msh3	wild type smt3	no		
+pro-smt3allR_plate4	I11	pro-smt3allR_plate4_I11	YDL015C	TSC13	pro-smt3allR	no		
+smt3allR_plate4	I11	smt3allR_plate4_I11	YDL015C	TSC13	smt3allR	no		
+WT_plate4	I11	WT_plate4_I11	YDL015C	TSC13	wild type smt3	no		
+pro-smt3allR_plate2	I9	pro-smt3allR_plate2_I9	YDL048C	STP4	pro-smt3allR	no		
+smt3allR_plate2	I9	smt3allR_plate2_I9	YDL048C	STP4	smt3allR	no		
+WT_plate2	I9	WT_plate2_I9	YDL048C	STP4	wild type smt3	no		
+pro-smt3allR_plate3	O9	pro-smt3allR_plate3_O9	YDL067C	COX9	pro-smt3allR	no		
+smt3allR_plate3	O9	smt3allR_plate3_O9	YDL067C	COX9	smt3allR	no		
+WT_plate3	O9	WT_plate3_O9	YDL067C	COX9	wild type smt3	no		
+pro-smt3allR_plate2	I23	pro-smt3allR_plate2_I23	YDL084W	SUB2	pro-smt3allR	no		
+smt3allR_plate2	I23	smt3allR_plate2_I23	YDL084W	SUB2	smt3allR	no		
+WT_plate2	I23	WT_plate2_I23	YDL084W	SUB2	wild type smt3	no		
+pro-smt3allR_plate3	G11	pro-smt3allR_plate3_G11	YDL115C	IWR1	pro-smt3allR	no		
+smt3allR_plate3	G11	smt3allR_plate3_G11	YDL115C	IWR1	smt3allR	no		
+WT_plate3	G11	WT_plate3_G11	YDL115C	IWR1	wild type smt3	no		
+smt3allR_plate4	M23	smt3allR_plate4_M23	YDL117W	CYK3	smt3allR	no	no colony	
+pro-smt3allR_plate4	M23	pro-smt3allR_plate4_M23	YDL117W	CYK3	pro-smt3allR	no		
+WT_plate4	M23	WT_plate4_M23	YDL117W	CYK3	wild type smt3	no		
+pro-smt3allR_plate1	I21	pro-smt3allR_plate1_I21	YDL126C	Cdc48	pro-smt3allR	no	few cells	
+smt3allR_plate1	I21	smt3allR_plate1_I21	YDL126C	Cdc48	smt3allR	no	no colony	
+WT_plate1	I21	WT_plate1_I21	YDL126C	Cdc48	wild type smt3	no		
+pro-smt3allR_plate3	E7	pro-smt3allR_plate3_E7	YDL129W	YDL129W	pro-smt3allR	no		
+smt3allR_plate3	E7	smt3allR_plate3_E7	YDL129W	YDL129W	smt3allR	no		
+WT_plate3	E7	WT_plate3_E7	YDL129W	YDL129W	wild type smt3	no		
+pro-smt3allR_plate2	K11	pro-smt3allR_plate2_K11	YDL155W	CLB3	pro-smt3allR	no		
+smt3allR_plate2	K11	smt3allR_plate2_K11	YDL155W	CLB3	smt3allR	no		
+WT_plate2	K11	WT_plate2_K11	YDL155W	CLB3	wild type smt3	no		
+pro-smt3allR_plate2	I21	pro-smt3allR_plate2_I21	YDL161W	ENT1	pro-smt3allR	no		
+smt3allR_plate2	I21	smt3allR_plate2_I21	YDL161W	ENT1	smt3allR	no		
+WT_plate2	I21	WT_plate2_I21	YDL161W	ENT1	wild type smt3	no		
+pro-smt3allR_plate3	K3	pro-smt3allR_plate3_K3	YDL166C	FAP7	pro-smt3allR	no		
+smt3allR_plate3	K3	smt3allR_plate3_K3	YDL166C	FAP7	smt3allR	no		
+WT_plate3	K3	WT_plate3_K3	YDL166C	FAP7	wild type smt3	no		
+pro-smt3allR_plate2	M1	pro-smt3allR_plate2_M1	YDL204W	RTN2	pro-smt3allR	no		
+smt3allR_plate2	M1	smt3allR_plate2_M1	YDL204W	RTN2	smt3allR	no		
+WT_plate2	M1	WT_plate2_M1	YDL204W	RTN2	wild type smt3	no		
+pro-smt3allR_plate3	I21	pro-smt3allR_plate3_I21	YDR066C	RTR2	pro-smt3allR	no		
+smt3allR_plate3	I21	smt3allR_plate3_I21	YDR066C	RTR2	smt3allR	no		
+WT_plate3	I21	WT_plate3_I21	YDR066C	RTR2	wild type smt3	no		
+pro-smt3allR_plate4	O17	pro-smt3allR_plate4_O17	YDR076W	RAD55	pro-smt3allR	no		
+smt3allR_plate4	O17	smt3allR_plate4_O17	YDR076W	RAD55	smt3allR	no		
+WT_plate4	O17	WT_plate4_O17	YDR076W	RAD55	wild type smt3	no		
+pro-smt3allR_plate1	G11	pro-smt3allR_plate1_G11	YDR089W	YDR089W	pro-smt3allR	no		
+smt3allR_plate1	G11	smt3allR_plate1_G11	YDR089W	YDR089W	smt3allR	no		
+WT_plate1	G11	WT_plate1_G11	YDR089W	YDR089W	wild type smt3	no		
+pro-smt3allR_plate3	E21	pro-smt3allR_plate3_E21	YDR099W	BMH2	pro-smt3allR	no		
+smt3allR_plate3	E21	smt3allR_plate3_E21	YDR099W	BMH2	smt3allR	no		
+WT_plate3	E21	WT_plate3_E21	YDR099W	BMH2	wild type smt3	no		
+pro-smt3allR_plate3	M15	pro-smt3allR_plate3_M15	YDR115W	YDR115W	pro-smt3allR	no		
+smt3allR_plate3	M15	smt3allR_plate3_M15	YDR115W	YDR115W	smt3allR	no		
+WT_plate3	M15	WT_plate3_M15	YDR115W	YDR115W	wild type smt3	no		
+pro-smt3allR_plate2	A19	pro-smt3allR_plate2_A19	YDR118W	APC4	pro-smt3allR	no		
+smt3allR_plate2	A19	smt3allR_plate2_A19	YDR118W	APC4	smt3allR	no		
+WT_plate2	A19	WT_plate2_A19	YDR118W	APC4	wild type smt3	no		
+pro-smt3allR_plate4	O15	pro-smt3allR_plate4_O15	YDR129C	SAC6	pro-smt3allR	no		
+smt3allR_plate4	O15	smt3allR_plate4_O15	YDR129C	SAC6	smt3allR	no		
+WT_plate4	O15	WT_plate4_O15	YDR129C	SAC6	wild type smt3	no		
+pro-smt3allR_plate3	E5	pro-smt3allR_plate3_E5	YDR130C	FIN1	pro-smt3allR	no		
+smt3allR_plate3	E5	smt3allR_plate3_E5	YDR130C	FIN1	smt3allR	no		
+WT_plate3	E5	WT_plate3_E5	YDR130C	FIN1	wild type smt3	no		
+pro-smt3allR_plate2	G23	pro-smt3allR_plate2_G23	YDR132C	YDR132C	pro-smt3allR	no		
+smt3allR_plate2	G23	smt3allR_plate2_G23	YDR132C	YDR132C	smt3allR	no		
+WT_plate2	G23	WT_plate2_G23	YDR132C	YDR132C	wild type smt3	no		
+pro-smt3allR_plate2	E17	pro-smt3allR_plate2_E17	YDR169C	STB3	pro-smt3allR	no		
+smt3allR_plate2	E17	smt3allR_plate2_E17	YDR169C	STB3	smt3allR	no		
+WT_plate2	E17	WT_plate2_E17	YDR169C	STB3	wild type smt3	no		
+smt3allR_plate2	I13	smt3allR_plate2_I13	YDR190C	Rvb1	smt3allR	no	few cells	
+pro-smt3allR_plate2	I13	pro-smt3allR_plate2_I13	YDR190C	Rvb1	pro-smt3allR	no	no colony	
+WT_plate2	I13	WT_plate2_I13	YDR190C	Rvb1	wild type smt3	no		
+pro-smt3allR_plate1	M19	pro-smt3allR_plate1_M19	YDR211W	GCD6	pro-smt3allR	no		
+smt3allR_plate1	M19	smt3allR_plate1_M19	YDR211W	GCD6	smt3allR	no		
+WT_plate1	M19	WT_plate1_M19	YDR211W	GCD6	wild type smt3	no		
+pro-smt3allR_plate1	A19	pro-smt3allR_plate1_A19	YDR217C	Rad9	pro-smt3allR	no	very few cells	
+smt3allR_plate1	A19	smt3allR_plate1_A19	YDR217C	Rad9	smt3allR	no		
+WT_plate1	A19	WT_plate1_A19	YDR217C	Rad9	wild type smt3	no		
+pro-smt3allR_plate3	C13	pro-smt3allR_plate3_C13	YDR288W	NSE3	pro-smt3allR	no	very few cells	
+smt3allR_plate3	C13	smt3allR_plate3_C13	YDR288W	NSE3	smt3allR	no		
+WT_plate3	C13	WT_plate3_C13	YDR288W	NSE3	wild type smt3	no		
+pro-smt3allR_plate4	E19	pro-smt3allR_plate4_E19	YDR323C	PEP7	pro-smt3allR	no		
+smt3allR_plate4	E19	smt3allR_plate4_E19	YDR323C	PEP7	smt3allR	no		
+WT_plate4	E19	WT_plate4_E19	YDR323C	PEP7	wild type smt3	no		
+pro-smt3allR_plate2	G17	pro-smt3allR_plate2_G17	YDR348C	YDR348C	pro-smt3allR	no		
+smt3allR_plate2	G17	smt3allR_plate2_G17	YDR348C	YDR348C	smt3allR	no		
+WT_plate2	G17	WT_plate2_G17	YDR348C	YDR348C	wild type smt3	no		
+pro-smt3allR_plate3	E3	pro-smt3allR_plate3_E3	YDR384C	ATO3	pro-smt3allR	no		
+smt3allR_plate3	E3	smt3allR_plate3_E3	YDR384C	ATO3	smt3allR	no		
+WT_plate3	E3	WT_plate3_E3	YDR384C	ATO3	wild type smt3	no		
+pro-smt3allR_plate1	G15	pro-smt3allR_plate1_G15	YDR409W	Siz1	pro-smt3allR	no		
+smt3allR_plate1	G15	smt3allR_plate1_G15	YDR409W	Siz1	smt3allR	no		
+WT_plate1	G15	WT_plate1_G15	YDR409W	Siz1	wild type smt3	no		
+pro-smt3allR_plate4	G15	pro-smt3allR_plate4_G15	YDR414C	ERD1	pro-smt3allR	no		
+smt3allR_plate4	G15	smt3allR_plate4_G15	YDR414C	ERD1	smt3allR	no		
+WT_plate4	G15	WT_plate4_G15	YDR414C	ERD1	wild type smt3	no		
+pro-smt3allR_plate3	C17	pro-smt3allR_plate3_C17	YDR429C	TIF35	pro-smt3allR	no	very few cells	
+smt3allR_plate3	C17	smt3allR_plate3_C17	YDR429C	TIF35	smt3allR	no		
+WT_plate3	C17	WT_plate3_C17	YDR429C	TIF35	wild type smt3	no		
+pro-smt3allR_plate2	O11	pro-smt3allR_plate2_O11	YDR439W	Lrs4	pro-smt3allR	no		
+smt3allR_plate2	O11	smt3allR_plate2_O11	YDR439W	Lrs4	smt3allR	no		
+WT_plate2	O11	WT_plate2_O11	YDR439W	Lrs4	wild type smt3	no		
+pro-smt3allR_plate3	E1	pro-smt3allR_plate3_E1	YDR450W	RPS18A	pro-smt3allR	no		
+smt3allR_plate3	E1	smt3allR_plate3_E1	YDR450W	RPS18A	smt3allR	no		
+WT_plate3	E1	WT_plate3_E1	YDR450W	RPS18A	wild type smt3	no		
+pro-smt3allR_plate2	A1	pro-smt3allR_plate2_A1	YDR452W	PPN1	pro-smt3allR	no		
+smt3allR_plate2	A1	smt3allR_plate2_A1	YDR452W	PPN1	smt3allR	no		
+WT_plate2	A1	WT_plate2_A1	YDR452W	PPN1	wild type smt3	no		
+pro-smt3allR_plate2	E1	pro-smt3allR_plate2_E1	YDR479C	PEX29	pro-smt3allR	no		
+smt3allR_plate2	E1	smt3allR_plate2_E1	YDR479C	PEX29	smt3allR	no		
+WT_plate2	E1	WT_plate2_E1	YDR479C	PEX29	wild type smt3	no		
+pro-smt3allR_plate4	E5	pro-smt3allR_plate4_E5	YDR481C	PHO8	pro-smt3allR	no		
+smt3allR_plate4	E5	smt3allR_plate4_E5	YDR481C	PHO8	smt3allR	no		
+WT_plate4	E5	WT_plate4_E5	YDR481C	PHO8	wild type smt3	no		
+smt3allR_plate4	O5	smt3allR_plate4_O5	YDR519W	FPR2	smt3allR	no	no colony	
+pro-smt3allR_plate4	O5	pro-smt3allR_plate4_O5	YDR519W	FPR2	pro-smt3allR	no		
+WT_plate4	O5	WT_plate4_O5	YDR519W	FPR2	wild type smt3	no		
+smt3allR_plate1	M9	smt3allR_plate1_M9	YEL011W	GLC3	smt3allR	no	no colony	
+pro-smt3allR_plate1	M9	pro-smt3allR_plate1_M9	YEL011W	GLC3	pro-smt3allR	no		
+WT_plate1	M9	WT_plate1_M9	YEL011W	GLC3	wild type smt3	no		
+pro-smt3allR_plate1	E21	pro-smt3allR_plate1_E21	YER047C	SAP1	pro-smt3allR	no		
+smt3allR_plate1	E21	smt3allR_plate1_E21	YER047C	SAP1	smt3allR	no		
+WT_plate1	E21	WT_plate1_E21	YER047C	SAP1	wild type smt3	no		
+pro-smt3allR_plate4	C15	pro-smt3allR_plate4_C15	YER056C	FCY2	pro-smt3allR	no		
+smt3allR_plate4	C15	smt3allR_plate4_C15	YER056C	FCY2	smt3allR	no		
+WT_plate4	C15	WT_plate4_C15	YER056C	FCY2	wild type smt3	no		
+pro-smt3allR_plate4	E17	pro-smt3allR_plate4_E17	YER064C	YER064C	pro-smt3allR	no		
+smt3allR_plate4	E17	smt3allR_plate4_E17	YER064C	YER064C	smt3allR	no		
+WT_plate4	E17	WT_plate4_E17	YER064C	YER064C	wild type smt3	no		
+pro-smt3allR_plate1	G13	pro-smt3allR_plate1_G13	YER070W	RNR1	pro-smt3allR	no		
+smt3allR_plate1	G13	smt3allR_plate1_G13	YER070W	RNR1	smt3allR	no		
+WT_plate1	G13	WT_plate1_G13	YER070W	RNR1	wild type smt3	no		
+pro-smt3allR_plate2	A5	pro-smt3allR_plate2_A5	YER088C	DOT6	pro-smt3allR	no		
+smt3allR_plate2	A5	smt3allR_plate2_A5	YER088C	DOT6	smt3allR	no		
+WT_plate2	A5	WT_plate2_A5	YER088C	DOT6	wild type smt3	no		
+pro-smt3allR_plate2	K15	pro-smt3allR_plate2_K15	YER095W	RAD51	pro-smt3allR	no		
+smt3allR_plate2	K15	smt3allR_plate2_K15	YER095W	RAD51	smt3allR	no		
+WT_plate2	K15	WT_plate2_K15	YER095W	RAD51	wild type smt3	no		
+pro-smt3allR_plate3	G3	pro-smt3allR_plate3_G3	YER116C	SLX8	pro-smt3allR	no	few cells	
+smt3allR_plate3	G3	smt3allR_plate3_G3	YER116C	SLX8	smt3allR	no	few cells	
+WT_plate3	G3	WT_plate3_G3	YER116C	SLX8	wild type smt3	no		
+pro-smt3allR_plate2	C21	pro-smt3allR_plate2_C21	YER124C	DSE1	pro-smt3allR	no		
+smt3allR_plate2	C21	smt3allR_plate2_C21	YER124C	DSE1	smt3allR	no		
+WT_plate2	C21	WT_plate2_C21	YER124C	DSE1	wild type smt3	no		
+pro-smt3allR_plate4	M11	pro-smt3allR_plate4_M11	YER170W	ADK2	pro-smt3allR	no		
+smt3allR_plate4	M11	smt3allR_plate4_M11	YER170W	ADK2	smt3allR	no		
+WT_plate4	M11	WT_plate4_M11	YER170W	ADK2	wild type smt3	no		
+pro-smt3allR_plate2	A11	pro-smt3allR_plate2_A11	YER173W	RAD24	pro-smt3allR	no		
+smt3allR_plate2	A11	smt3allR_plate2_A11	YER173W	RAD24	smt3allR	no		
+WT_plate2	A11	WT_plate2_A11	YER173W	RAD24	wild type smt3	no		
+pro-smt3allR_plate3	E19	pro-smt3allR_plate3_E19	YER177W	BMH1	pro-smt3allR	no		
+smt3allR_plate3	E19	smt3allR_plate3_E19	YER177W	BMH1	smt3allR	no		
+WT_plate3	E19	WT_plate3_E19	YER177W	BMH1	wild type smt3	no		
+pro-smt3allR_plate1	I3	pro-smt3allR_plate1_I3	YFL023W	BUD27	pro-smt3allR	no		
+smt3allR_plate1	I3	smt3allR_plate1_I3	YFL023W	BUD27	smt3allR	no		
+WT_plate1	I3	WT_plate1_I3	YFL023W	BUD27	wild type smt3	no		
+pro-smt3allR_plate1	M11	pro-smt3allR_plate1_M11	YFL047W	RGD2	pro-smt3allR	no		
+smt3allR_plate1	M11	smt3allR_plate1_M11	YFL047W	RGD2	smt3allR	no		
+WT_plate1	M11	WT_plate1_M11	YFL047W	RGD2	wild type smt3	no		
+pro-smt3allR_plate4	G21	pro-smt3allR_plate4_G21	YFL062W	COS4	pro-smt3allR	no		
+smt3allR_plate4	G21	smt3allR_plate4_G21	YFL062W	COS4	smt3allR	no		
+WT_plate4	G21	WT_plate4_G21	YFL062W	COS4	wild type smt3	no		
+pro-smt3allR_plate3	I19	pro-smt3allR_plate3_I19	YFR001W	LOC1	pro-smt3allR	no		
+smt3allR_plate3	I19	smt3allR_plate3_I19	YFR001W	LOC1	smt3allR	no		
+WT_plate3	I19	WT_plate3_I19	YFR001W	LOC1	wild type smt3	no		
+pro-smt3allR_plate1	O21	pro-smt3allR_plate1_O21	YFR015C	GSY1	pro-smt3allR	no		
+smt3allR_plate1	O21	smt3allR_plate1_O21	YFR015C	GSY1	smt3allR	no		
+WT_plate1	O21	WT_plate1_O21	YFR015C	GSY1	wild type smt3	no		
+pro-smt3allR_plate3	C21	pro-smt3allR_plate3_C21	YFR027W	ECO1	pro-smt3allR	no		
+smt3allR_plate3	C21	smt3allR_plate3_C21	YFR027W	ECO1	smt3allR	no		
+WT_plate3	C21	WT_plate3_C21	YFR027W	ECO1	wild type smt3	no		
+pro-smt3allR_plate2	E7	pro-smt3allR_plate2_E7	YFR028C	Cdc14	pro-smt3allR	no		
+smt3allR_plate2	E7	smt3allR_plate2_E7	YFR028C	Cdc14	smt3allR	no		
+WT_plate2	E7	WT_plate2_E7	YFR028C	Cdc14	wild type smt3	no		
+pro-smt3allR_plate3	O7	pro-smt3allR_plate3_O7	YGL032C	AGA2	pro-smt3allR	no		
+smt3allR_plate3	O7	smt3allR_plate3_O7	YGL032C	AGA2	smt3allR	no		
+WT_plate3	O7	WT_plate3_O7	YGL032C	AGA2	wild type smt3	no		
+pro-smt3allR_plate2	A15	pro-smt3allR_plate2_A15	YGL071W	AFT1	pro-smt3allR	no		
+smt3allR_plate2	A15	smt3allR_plate2_A15	YGL071W	AFT1	smt3allR	no		
+WT_plate2	A15	WT_plate2_A15	YGL071W	AFT1	wild type smt3	no		
+pro-smt3allR_plate2	K7	pro-smt3allR_plate2_K7	YGL090W	LIF1	pro-smt3allR	no		
+smt3allR_plate2	K7	smt3allR_plate2_K7	YGL090W	LIF1	smt3allR	no		
+WT_plate2	K7	WT_plate2_K7	YGL090W	LIF1	wild type smt3	no		
+pro-smt3allR_plate1	C19	pro-smt3allR_plate1_C19	YGL094C	PAN2	pro-smt3allR	no		
+smt3allR_plate1	C19	smt3allR_plate1_C19	YGL094C	PAN2	smt3allR	no		
+WT_plate1	C19	WT_plate1_C19	YGL094C	PAN2	wild type smt3	no		
+pro-smt3allR_plate2	C13	pro-smt3allR_plate2_C13	YGL116W	CDC20	pro-smt3allR	no		
+smt3allR_plate2	C13	smt3allR_plate2_C13	YGL116W	CDC20	smt3allR	no		
+WT_plate2	C13	WT_plate2_C13	YGL116W	CDC20	wild type smt3	no		
+pro-smt3allR_plate4	O11	pro-smt3allR_plate4_O11	YGL131C	SNT2	pro-smt3allR	no		
+smt3allR_plate4	O11	smt3allR_plate4_O11	YGL131C	SNT2	smt3allR	no		
+WT_plate4	O11	WT_plate4_O11	YGL131C	SNT2	wild type smt3	no		
+pro-smt3allR_plate1	A9	pro-smt3allR_plate1_A9	YGL150C	Ino80	pro-smt3allR	no		
+smt3allR_plate1	A9	smt3allR_plate1_A9	YGL150C	Ino80	smt3allR	no		
+WT_plate1	A9	WT_plate1_A9	YGL150C	Ino80	wild type smt3	no		
+pro-smt3allR_plate3	C7	pro-smt3allR_plate3_C7	YGL162W	SUT1	pro-smt3allR	no		
+smt3allR_plate3	C7	smt3allR_plate3_C7	YGL162W	SUT1	smt3allR	no		
+WT_plate3	C7	WT_plate3_C7	YGL162W	SUT1	wild type smt3	no		
+smt3allR_plate1	G5	smt3allR_plate1_G5	YGL163C	RAD54	smt3allR	no	no colony	
+pro-smt3allR_plate1	G5	pro-smt3allR_plate1_G5	YGL163C	RAD54	pro-smt3allR	no		
+WT_plate1	G5	WT_plate1_G5	YGL163C	RAD54	wild type smt3	no		
+pro-smt3allR_plate1	I1	pro-smt3allR_plate1_I1	YGL180W	ATG1	pro-smt3allR	no	no cells	
+smt3allR_plate1	I1	smt3allR_plate1_I1	YGL180W	ATG1	smt3allR	no		
+WT_plate1	I1	WT_plate1_I1	YGL180W	ATG1	wild type smt3	no		
+pro-smt3allR_plate2	K1	pro-smt3allR_plate2_K1	YGL194C	HOS2	pro-smt3allR	no		
+smt3allR_plate2	K1	smt3allR_plate2_K1	YGL194C	HOS2	smt3allR	no		
+WT_plate2	K1	WT_plate2_K1	YGL194C	HOS2	wild type smt3	no		
+pro-smt3allR_plate1	E11	pro-smt3allR_plate1_E11	YGL201C	MCM6	pro-smt3allR	no		
+smt3allR_plate1	E11	smt3allR_plate1_E11	YGL201C	MCM6	smt3allR	no		
+WT_plate1	E11	WT_plate1_E11	YGL201C	MCM6	wild type smt3	no		
+pro-smt3allR_plate1	O19	pro-smt3allR_plate1_O19	YGL249W	ZIP2	pro-smt3allR	no		
+smt3allR_plate1	O19	smt3allR_plate1_O19	YGL249W	ZIP2	smt3allR	no		
+WT_plate1	O19	WT_plate1_O19	YGL249W	ZIP2	wild type smt3	no		
+pro-smt3allR_plate4	O9	pro-smt3allR_plate4_O9	YGR020C	VMA7	pro-smt3allR	no		
+smt3allR_plate4	O9	smt3allR_plate4_O9	YGR020C	VMA7	smt3allR	no		
+WT_plate4	O9	WT_plate4_O9	YGR020C	VMA7	wild type smt3	no		
+pro-smt3allR_plate3	C5	pro-smt3allR_plate3_C5	YGR044C	RME1	pro-smt3allR	no		
+smt3allR_plate3	C5	smt3allR_plate3_C5	YGR044C	RME1	smt3allR	no		
+WT_plate3	C5	WT_plate3_C5	YGR044C	RME1	wild type smt3	no		
+pro-smt3allR_plate4	K5	pro-smt3allR_plate4_K5	YGR060W	ERG25	pro-smt3allR	no		
+smt3allR_plate4	K5	smt3allR_plate4_K5	YGR060W	ERG25	smt3allR	no		
+WT_plate4	K5	WT_plate4_K5	YGR060W	ERG25	wild type smt3	no		
+pro-smt3allR_plate4	K7	pro-smt3allR_plate4_K7	YGR106C	VOA1	pro-smt3allR	no		
+smt3allR_plate4	K7	smt3allR_plate4_K7	YGR106C	VOA1	smt3allR	no		
+WT_plate4	K7	WT_plate4_K7	YGR106C	VOA1	wild type smt3	no		
+pro-smt3allR_plate2	K13	pro-smt3allR_plate2_K13	YGR122W	YGR122W	pro-smt3allR	no		
+smt3allR_plate2	K13	smt3allR_plate2_K13	YGR122W	YGR122W	smt3allR	no		
+WT_plate2	K13	WT_plate2_K13	YGR122W	YGR122W	wild type smt3	no		
+pro-smt3allR_plate3	M21	pro-smt3allR_plate3_M21	YGR151C	YGR151C	pro-smt3allR	no		
+smt3allR_plate3	M21	smt3allR_plate3_M21	YGR151C	YGR151C	smt3allR	no		
+WT_plate3	M21	WT_plate3_M21	YGR151C	YGR151C	wild type smt3	no		
+pro-smt3allR_plate1	M13	pro-smt3allR_plate1_M13	YGR178C	PBP1	pro-smt3allR	no		
+smt3allR_plate1	M13	smt3allR_plate1_M13	YGR178C	PBP1	smt3allR	no		
+WT_plate1	M13	WT_plate1_M13	YGR178C	PBP1	wild type smt3	no		
+pro-smt3allR_plate1	C5	pro-smt3allR_plate1_C5	YGR233C	PHO81	pro-smt3allR	no		
+smt3allR_plate1	C5	smt3allR_plate1_C5	YGR233C	PHO81	smt3allR	no		
+WT_plate1	C5	WT_plate1_C5	YGR233C	PHO81	wild type smt3	no		
+pro-smt3allR_plate2	K17	pro-smt3allR_plate2_K17	YGR234W	YHB1	pro-smt3allR	no	no colony	
+smt3allR_plate2	K17	smt3allR_plate2_K17	YGR234W	YHB1	smt3allR	no		
+WT_plate2	K17	WT_plate2_K17	YGR234W	YHB1	wild type smt3	no		
+pro-smt3allR_plate4	E13	pro-smt3allR_plate4_E13	YHL003C	LAG1	pro-smt3allR	no		
+smt3allR_plate4	E13	smt3allR_plate4_E13	YHL003C	LAG1	smt3allR	no		
+WT_plate4	E13	WT_plate4_E13	YHL003C	LAG1	wild type smt3	no		
+pro-smt3allR_plate3	A23	pro-smt3allR_plate3_A23	YHR061C	GIC1	pro-smt3allR	no		
+smt3allR_plate3	A23	smt3allR_plate3_A23	YHR061C	GIC1	smt3allR	no		
+WT_plate3	A23	WT_plate3_A23	YHR061C	GIC1	wild type smt3	no		
+pro-smt3allR_plate4	K9	pro-smt3allR_plate4_K9	YHR133C	NSG1	pro-smt3allR	no		
+smt3allR_plate4	K9	smt3allR_plate4_K9	YHR133C	NSG1	smt3allR	no		
+WT_plate4	K9	WT_plate4_K9	YHR133C	NSG1	wild type smt3	no		
+pro-smt3allR_plate3	O11	pro-smt3allR_plate3_O11	YHR143W-A	RPC10	pro-smt3allR	no	few cells	
+smt3allR_plate3	O11	smt3allR_plate3_O11	YHR143W-A	RPC10	smt3allR	no	few cells	
+WT_plate3	O11	WT_plate3_O11	YHR143W-A	RPC10	wild type smt3	no		
+pro-smt3allR_plate1	C13	pro-smt3allR_plate1_C13	YHR154W	RTT107	pro-smt3allR	no	few cells	
+smt3allR_plate1	C13	smt3allR_plate1_C13	YHR154W	RTT107	smt3allR	no	no colony	
+WT_plate1	C13	WT_plate1_C13	YHR154W	RTT107	wild type smt3	no		
+smt3allR_plate1	I11	smt3allR_plate1_I11	YHR172W	SPC97	smt3allR	no	no colony	
+pro-smt3allR_plate1	I11	pro-smt3allR_plate1_I11	YHR172W	SPC97	pro-smt3allR	no		
+WT_plate1	I11	WT_plate1_I11	YHR172W	SPC97	wild type smt3	no		
+pro-smt3allR_plate1	K9	pro-smt3allR_plate1_K9	YHR182W	YHR182W	pro-smt3allR	no		
+smt3allR_plate1	K9	smt3allR_plate1_K9	YHR182W	YHR182W	smt3allR	no		
+WT_plate1	K9	WT_plate1_K9	YHR182W	YHR182W	wild type smt3	no		
+pro-smt3allR_plate1	C17	pro-smt3allR_plate1_C17	YIL031W	Ulp2	pro-smt3allR	no		
+smt3allR_plate1	C17	smt3allR_plate1_C17	YIL031W	Ulp2	smt3allR	no		
+WT_plate1	C17	WT_plate1_C17	YIL031W	Ulp2	wild type smt3	no		
+pro-smt3allR_plate3	C19	pro-smt3allR_plate3_C19	YIL034C	CAP2	pro-smt3allR	no		
+smt3allR_plate3	C19	smt3allR_plate3_C19	YIL034C	CAP2	smt3allR	no		
+WT_plate3	C19	WT_plate3_C19	YIL034C	CAP2	wild type smt3	no		
+pro-smt3allR_plate3	K15	pro-smt3allR_plate3_K15	YIL087C	AIM19	pro-smt3allR	no		
+smt3allR_plate3	K15	smt3allR_plate3_K15	YIL087C	AIM19	smt3allR	no		
+WT_plate3	K15	WT_plate3_K15	YIL087C	AIM19	wild type smt3	no		
+pro-smt3allR_plate2	A23	pro-smt3allR_plate2_A23	YIL101C	XBP1	pro-smt3allR	no		
+smt3allR_plate2	A23	smt3allR_plate2_A23	YIL101C	XBP1	smt3allR	no		
+WT_plate2	A23	WT_plate2_A23	YIL101C	XBP1	wild type smt3	no		
+pro-smt3allR_plate2	O5	pro-smt3allR_plate2_O5	YIL106W	MOB1	pro-smt3allR	no		
+smt3allR_plate2	O5	smt3allR_plate2_O5	YIL106W	MOB1	smt3allR	no		
+WT_plate2	O5	WT_plate2_O5	YIL106W	MOB1	wild type smt3	no		
+pro-smt3allR_plate4	K19	pro-smt3allR_plate4_K19	YIL114C	POR2	pro-smt3allR	no		
+smt3allR_plate4	K19	smt3allR_plate4_K19	YIL114C	POR2	smt3allR	no		
+WT_plate4	K19	WT_plate4_K19	YIL114C	POR2	wild type smt3	no		
+pro-smt3allR_plate3	I17	pro-smt3allR_plate3_I17	YIL158W	AIM20	pro-smt3allR	no		
+smt3allR_plate3	I17	smt3allR_plate3_I17	YIL158W	AIM20	smt3allR	no		
+WT_plate3	I17	WT_plate3_I17	YIL158W	AIM20	wild type smt3	no		
+pro-smt3allR_plate4	C21	pro-smt3allR_plate4_C21	YJL085W	EXO70	pro-smt3allR	no		
+smt3allR_plate4	C21	smt3allR_plate4_C21	YJL085W	EXO70	smt3allR	no		
+WT_plate4	C21	WT_plate4_C21	YJL085W	EXO70	wild type smt3	no		
+pro-smt3allR_plate3	C3	pro-smt3allR_plate3_C3	YJL145W	SFH5	pro-smt3allR	no		
+smt3allR_plate3	C3	smt3allR_plate3_C3	YJL145W	SFH5	smt3allR	no		
+WT_plate3	C3	WT_plate3_C3	YJL145W	SFH5	wild type smt3	no		
+smt3allR_plate1	I23	smt3allR_plate1_I23	YJL157C	FAR1	smt3allR	no	no colony	
+pro-smt3allR_plate1	I23	pro-smt3allR_plate1_I23	YJL157C	FAR1	pro-smt3allR	no		
+WT_plate1	I23	WT_plate1_I23	YJL157C	FAR1	wild type smt3	no		
+pro-smt3allR_plate3	M13	pro-smt3allR_plate3_M13	YJL173C	RFA3	pro-smt3allR	no	few cells	
+smt3allR_plate3	M13	smt3allR_plate3_M13	YJL173C	RFA3	smt3allR	no	few cells	
+WT_plate3	M13	WT_plate3_M13	YJL173C	RFA3	wild type smt3	no		
+pro-smt3allR_plate2	G11	pro-smt3allR_plate2_G11	YJL194W	CDC6	pro-smt3allR	no		
+smt3allR_plate2	G11	smt3allR_plate2_G11	YJL194W	CDC6	smt3allR	no		
+WT_plate2	G11	WT_plate2_G11	YJL194W	CDC6	wild type smt3	no		
+pro-smt3allR_plate2	C3	pro-smt3allR_plate2_C3	YJL209W	CBP1	pro-smt3allR	no		
+smt3allR_plate2	C3	smt3allR_plate2_C3	YJL209W	CBP1	smt3allR	no		
+WT_plate2	C3	WT_plate2_C3	YJL209W	CBP1	wild type smt3	no		
+pro-smt3allR_plate4	M3	pro-smt3allR_plate4_M3	YJR058C	APS2	pro-smt3allR	no		
+smt3allR_plate4	M3	smt3allR_plate4_M3	YJR058C	APS2	smt3allR	no		
+WT_plate4	M3	WT_plate4_M3	YJR058C	APS2	wild type smt3	no		
+pro-smt3allR_plate3	A1	pro-smt3allR_plate3_A1	YJR060W	CBF1	pro-smt3allR	no		
+smt3allR_plate3	A1	smt3allR_plate3_A1	YJR060W	CBF1	smt3allR	no		
+WT_plate3	A1	WT_plate3_A1	YJR060W	CBF1	wild type smt3	no		
+pro-smt3allR_plate1	E3	pro-smt3allR_plate1_E3	YJR089W	BIR1	pro-smt3allR	no		
+smt3allR_plate1	E3	smt3allR_plate1_E3	YJR089W	BIR1	smt3allR	no		
+WT_plate1	E3	WT_plate1_E3	YJR089W	BIR1	wild type smt3	no		
+pro-smt3allR_plate1	A5	pro-smt3allR_plate1_A5	YJR138W	IML1	pro-smt3allR	no		
+smt3allR_plate1	A5	smt3allR_plate1_A5	YJR138W	IML1	smt3allR	no		
+WT_plate1	A5	WT_plate1_A5	YJR138W	IML1	wild type smt3	no		
+pro-smt3allR_plate4	I3	pro-smt3allR_plate4_I3	YJR161C	COS5	pro-smt3allR	no		
+smt3allR_plate4	I3	smt3allR_plate4_I3	YJR161C	COS5	smt3allR	no		
+WT_plate4	I3	WT_plate4_I3	YJR161C	COS5	wild type smt3	no		
+pro-smt3allR_plate3	E15	pro-smt3allR_plate3_E15	YKL007W	CAP1	pro-smt3allR	no		
+smt3allR_plate3	E15	smt3allR_plate3_E15	YKL007W	CAP1	smt3allR	no		
+WT_plate3	E15	WT_plate3_E15	YKL007W	CAP1	wild type smt3	no		
+pro-smt3allR_plate2	M9	pro-smt3allR_plate2_M9	YKL042W	SPC42	pro-smt3allR	no		
+smt3allR_plate2	M9	smt3allR_plate2_M9	YKL042W	SPC42	smt3allR	no		
+WT_plate2	M9	WT_plate2_M9	YKL042W	SPC42	wild type smt3	no		
+pro-smt3allR_plate3	M11	pro-smt3allR_plate3_M11	YKL061W	YKL061W	pro-smt3allR	no		
+smt3allR_plate3	M11	smt3allR_plate3_M11	YKL061W	YKL061W	smt3allR	no		
+WT_plate3	M11	WT_plate3_M11	YKL061W	YKL061W	wild type smt3	no		
+pro-smt3allR_plate2	I19	pro-smt3allR_plate2_I19	YKL108W	SLD2	pro-smt3allR	no	no colony	
+smt3allR_plate2	I19	smt3allR_plate2_I19	YKL108W	SLD2	smt3allR	no		
+WT_plate2	I19	WT_plate2_I19	YKL108W	SLD2	wild type smt3	no		
+pro-smt3allR_plate1	K13	pro-smt3allR_plate1_K13	YKR010C	Tof2	pro-smt3allR	no		
+smt3allR_plate1	K13	smt3allR_plate1_K13	YKR010C	Tof2	smt3allR	no		
+WT_plate1	K13	WT_plate1_K13	YKR010C	Tof2	wild type smt3	no		
+pro-smt3allR_plate1	G9	pro-smt3allR_plate1_G9	YKR064W	OAF3	pro-smt3allR	no		
+smt3allR_plate1	G9	smt3allR_plate1_G9	YKR064W	OAF3	smt3allR	no		
+WT_plate1	G9	WT_plate1_G9	YKR064W	OAF3	wild type smt3	no		
+pro-smt3allR_plate2	M17	pro-smt3allR_plate2_M17	YKR066C	CCP1	pro-smt3allR	no		
+smt3allR_plate2	M17	smt3allR_plate2_M17	YKR066C	CCP1	smt3allR	no		
+WT_plate2	M17	WT_plate2_M17	YKR066C	CCP1	wild type smt3	no		
+pro-smt3allR_plate2	M11	pro-smt3allR_plate2_M11	YKR076W	ECM4	pro-smt3allR	no		
+smt3allR_plate2	M11	smt3allR_plate2_M11	YKR076W	ECM4	smt3allR	no		
+WT_plate2	M11	WT_plate2_M11	YKR076W	ECM4	wild type smt3	no		
+pro-smt3allR_plate1	O5	pro-smt3allR_plate1_O5	YKR090W	PXL1	pro-smt3allR	no		
+smt3allR_plate1	O5	smt3allR_plate1_O5	YKR090W	PXL1	smt3allR	no		
+WT_plate1	O5	WT_plate1_O5	YKR090W	PXL1	wild type smt3	no		
+pro-smt3allR_plate1	G23	pro-smt3allR_plate1_G23	YLL026W	HSP104	pro-smt3allR	no		
+smt3allR_plate1	G23	smt3allR_plate1_G23	YLL026W	HSP104	smt3allR	no		
+WT_plate1	G23	WT_plate1_G23	YLL026W	HSP104	wild type smt3	no		
+pro-smt3allR_plate3	O1	pro-smt3allR_plate3_O1	YLL048C	YBT1	pro-smt3allR	no		
+smt3allR_plate3	O1	smt3allR_plate3_O1	YLL048C	YBT1	smt3allR	no		
+WT_plate3	O1	WT_plate3_O1	YLL048C	YBT1	wild type smt3	no		
+pro-smt3allR_plate1	C7	pro-smt3allR_plate1_C7	YLR032W	RAD5	pro-smt3allR	no		
+smt3allR_plate1	C7	smt3allR_plate1_C7	YLR032W	RAD5	smt3allR	no		
+WT_plate1	C7	WT_plate1_C7	YLR032W	RAD5	wild type smt3	no		
+pro-smt3allR_plate1	E23	pro-smt3allR_plate1_E23	YLR045C	STU2	pro-smt3allR	no		
+smt3allR_plate1	E23	smt3allR_plate1_E23	YLR045C	STU2	smt3allR	no		
+WT_plate1	E23	WT_plate1_E23	YLR045C	STU2	wild type smt3	no		
+pro-smt3allR_plate4	A9	pro-smt3allR_plate4_A9	YLR067C	PET309	pro-smt3allR	no		
+smt3allR_plate4	A9	smt3allR_plate4_A9	YLR067C	PET309	smt3allR	no		
+WT_plate4	A9	WT_plate4_A9	YLR067C	PET309	wild type smt3	no		
+pro-smt3allR_plate2	K5	pro-smt3allR_plate2_K5	YLR080W	EMP46	pro-smt3allR	no		
+smt3allR_plate2	K5	smt3allR_plate2_K5	YLR080W	EMP46	smt3allR	no		
+WT_plate2	K5	WT_plate2_K5	YLR080W	EMP46	wild type smt3	no		
+pro-smt3allR_plate1	K7	pro-smt3allR_plate1_K7	YLR114C	AVL9	pro-smt3allR	no		
+smt3allR_plate1	K7	smt3allR_plate1_K7	YLR114C	AVL9	smt3allR	no		
+WT_plate1	K7	WT_plate1_K7	YLR114C	AVL9	wild type smt3	no		
+pro-smt3allR_plate1	K5	pro-smt3allR_plate1_K5	YLR131C	ACE2	pro-smt3allR	no		
+smt3allR_plate1	K5	smt3allR_plate1_K5	YLR131C	ACE2	smt3allR	no		
+WT_plate1	K5	WT_plate1_K5	YLR131C	ACE2	wild type smt3	no		
+pro-smt3allR_plate3	E9	pro-smt3allR_plate3_E9	YLR136C	TIS11	pro-smt3allR	no		
+smt3allR_plate3	E9	smt3allR_plate3_E9	YLR136C	TIS11	smt3allR	no		
+WT_plate3	E9	WT_plate3_E9	YLR136C	TIS11	wild type smt3	no		
+pro-smt3allR_plate2	I5	pro-smt3allR_plate2_I5	YLR183C	TOS4	pro-smt3allR	no		
+smt3allR_plate2	I5	smt3allR_plate2_I5	YLR183C	TOS4	smt3allR	no		
+WT_plate2	I5	WT_plate2_I5	YLR183C	TOS4	wild type smt3	no		
+pro-smt3allR_plate1	E13	pro-smt3allR_plate1_E13	YLR187W	SKG3	pro-smt3allR	no		
+smt3allR_plate1	E13	smt3allR_plate1_E13	YLR187W	SKG3	smt3allR	no		
+WT_plate1	E13	WT_plate1_E13	YLR187W	SKG3	wild type smt3	no		
+pro-smt3allR_plate2	G1	pro-smt3allR_plate2_G1	YLR197W	Nop56	pro-smt3allR	no		
+smt3allR_plate2	G1	smt3allR_plate2_G1	YLR197W	Nop56	smt3allR	no		
+WT_plate2	G1	WT_plate2_G1	YLR197W	Nop56	wild type smt3	no		
+pro-smt3allR_plate4	G9	pro-smt3allR_plate4_G9	YLR220W	CCC1	pro-smt3allR	no		
+smt3allR_plate4	G9	smt3allR_plate4_G9	YLR220W	CCC1	smt3allR	no		
+WT_plate4	G9	WT_plate4_G9	YLR220W	CCC1	wild type smt3	no		
+pro-smt3allR_plate4	O21	pro-smt3allR_plate4_O21	YLR262C-A	TMA7	pro-smt3allR	no		
+smt3allR_plate4	O21	smt3allR_plate4_O21	YLR262C-A	TMA7	smt3allR	no		
+WT_plate4	O21	WT_plate4_O21	YLR262C-A	TMA7	wild type smt3	no		
+pro-smt3allR_plate3	A9	pro-smt3allR_plate3_A9	YLR265C	NEJ1	pro-smt3allR	no		
+smt3allR_plate3	A9	smt3allR_plate3_A9	YLR265C	NEJ1	smt3allR	no		
+WT_plate3	A9	WT_plate3_A9	YLR265C	NEJ1	wild type smt3	no		
+pro-smt3allR_plate3	O21	pro-smt3allR_plate3_O21	YLR342W	FKS1	pro-smt3allR	no		
+smt3allR_plate3	O21	smt3allR_plate3_O21	YLR342W	FKS1	smt3allR	no		
+WT_plate3	O21	WT_plate3_O21	YLR342W	FKS1	wild type smt3	no		
+pro-smt3allR_plate3	M23	pro-smt3allR_plate3_M23	YLR346C	YLR346C	pro-smt3allR	no		
+smt3allR_plate3	M23	smt3allR_plate3_M23	YLR346C	YLR346C	smt3allR	no		
+WT_plate3	M23	WT_plate3_M23	YLR346C	YLR346C	wild type smt3	no		
+pro-smt3allR_plate3	G9	pro-smt3allR_plate3_G9	YLR376C	PSY3	pro-smt3allR	no		
+smt3allR_plate3	G9	smt3allR_plate3_G9	YLR376C	PSY3	smt3allR	no		
+WT_plate3	G9	WT_plate3_G9	YLR376C	PSY3	wild type smt3	no		
+pro-smt3allR_plate4	K1	pro-smt3allR_plate4_K1	YLR393W	ATP10	pro-smt3allR	no		
+smt3allR_plate4	K1	smt3allR_plate4_K1	YLR393W	ATP10	smt3allR	no		
+WT_plate4	K1	WT_plate4_K1	YLR393W	ATP10	wild type smt3	no		
+pro-smt3allR_plate4	A11	pro-smt3allR_plate4_A11	YLR450W	HMG2	pro-smt3allR	no		
+smt3allR_plate4	A11	smt3allR_plate4_A11	YLR450W	HMG2	smt3allR	no		
+WT_plate4	A11	WT_plate4_A11	YLR450W	HMG2	wild type smt3	no		
+pro-smt3allR_plate2	C1	pro-smt3allR_plate2_C1	YML007W	YAP1	pro-smt3allR	no		
+smt3allR_plate2	C1	smt3allR_plate2_C1	YML007W	YAP1	smt3allR	no		
+WT_plate2	C1	WT_plate2_C1	YML007W	YAP1	wild type smt3	no		
+pro-smt3allR_plate2	M5	pro-smt3allR_plate2_M5	YML027W	YOX1	pro-smt3allR	no		
+smt3allR_plate2	M5	smt3allR_plate2_M5	YML027W	YOX1	smt3allR	no		
+WT_plate2	M5	WT_plate2_M5	YML027W	YOX1	wild type smt3	no		
+pro-smt3allR_plate4	A13	pro-smt3allR_plate4_A13	YML075C	HMG1	pro-smt3allR	no		
+smt3allR_plate4	A13	smt3allR_plate4_A13	YML075C	HMG1	smt3allR	no		
+WT_plate4	A13	WT_plate4_A13	YML075C	HMG1	wild type smt3	no		
+pro-smt3allR_plate2	I3	pro-smt3allR_plate2_I3	YML085C	TUB1	pro-smt3allR	no		
+smt3allR_plate2	I3	smt3allR_plate2_I3	YML085C	TUB1	smt3allR	no		
+WT_plate2	I3	WT_plate2_I3	YML085C	TUB1	wild type smt3	no		
+smt3allR_plate1	C11	smt3allR_plate1_C11	YML104C	MDM1	smt3allR	no	no colony	
+pro-smt3allR_plate1	C11	pro-smt3allR_plate1_C11	YML104C	MDM1	pro-smt3allR	no		
+WT_plate1	C11	WT_plate1_C11	YML104C	MDM1	wild type smt3	no		
+pro-smt3allR_plate3	C9	pro-smt3allR_plate3_C9	YMR055C	BUB2	pro-smt3allR	no		
+smt3allR_plate3	C9	smt3allR_plate3_C9	YMR055C	BUB2	smt3allR	no		
+WT_plate3	C9	WT_plate3_C9	YMR055C	BUB2	wild type smt3	no		
+pro-smt3allR_plate4	I23	pro-smt3allR_plate4_I23	YMR056C	AAC1	pro-smt3allR	no		
+smt3allR_plate4	I23	smt3allR_plate4_I23	YMR056C	AAC1	smt3allR	no		
+WT_plate4	I23	WT_plate4_I23	YMR056C	AAC1	wild type smt3	no		
+pro-smt3allR_plate2	A21	pro-smt3allR_plate2_A21	YMR106C	YKU80	pro-smt3allR	no		
+smt3allR_plate2	A21	smt3allR_plate2_A21	YMR106C	YKU80	smt3allR	no		
+WT_plate2	A21	WT_plate2_A21	YMR106C	YKU80	wild type smt3	no		
+pro-smt3allR_plate3	K1	pro-smt3allR_plate3_K1	YMR121C	RPL15B	pro-smt3allR	no		
+smt3allR_plate3	K1	smt3allR_plate3_K1	YMR121C	RPL15B	smt3allR	no		
+WT_plate3	K1	WT_plate3_K1	YMR121C	RPL15B	wild type smt3	no		
+pro-smt3allR_plate1	O23	pro-smt3allR_plate1_O23	YMR137C	PSO2	pro-smt3allR	no		
+smt3allR_plate1	O23	smt3allR_plate1_O23	YMR137C	PSO2	smt3allR	no		
+WT_plate1	O23	WT_plate1_O23	YMR137C	PSO2	wild type smt3	no		
+pro-smt3allR_plate2	I1	pro-smt3allR_plate2_I1	YMR140W	SIP5	pro-smt3allR	no		
+smt3allR_plate2	I1	smt3allR_plate2_I1	YMR140W	SIP5	smt3allR	no		
+WT_plate2	I1	WT_plate2_I1	YMR140W	SIP5	wild type smt3	no		
+pro-smt3allR_plate1	K1	pro-smt3allR_plate1_K1	YMR160W	YMR160W	pro-smt3allR	no		
+smt3allR_plate1	K1	smt3allR_plate1_K1	YMR160W	YMR160W	smt3allR	no		
+WT_plate1	K1	WT_plate1_K1	YMR160W	YMR160W	wild type smt3	no		
+pro-smt3allR_plate1	A13	pro-smt3allR_plate1_A13	YMR176W	ECM5	pro-smt3allR	no		
+smt3allR_plate1	A13	smt3allR_plate1_A13	YMR176W	ECM5	smt3allR	no		
+WT_plate1	A13	WT_plate1_A13	YMR176W	ECM5	wild type smt3	no		
+pro-smt3allR_plate1	M5	pro-smt3allR_plate1_M5	YMR179W	SPT21	pro-smt3allR	no		
+smt3allR_plate1	M5	smt3allR_plate1_M5	YMR179W	SPT21	smt3allR	no		
+WT_plate1	M5	WT_plate1_M5	YMR179W	SPT21	wild type smt3	no		
+pro-smt3allR_plate1	A11	pro-smt3allR_plate1_A11	YMR229C	RRP5	pro-smt3allR	no		
+smt3allR_plate1	A11	smt3allR_plate1_A11	YMR229C	RRP5	smt3allR	no		
+WT_plate1	A11	WT_plate1_A11	YMR229C	RRP5	wild type smt3	no		
+pro-smt3allR_plate1	O3	pro-smt3allR_plate1_O3	YMR246W	FAA4	pro-smt3allR	no	no colony	
+smt3allR_plate1	O3	smt3allR_plate1_O3	YMR246W	FAA4	smt3allR	no		
+WT_plate1	O3	WT_plate1_O3	YMR246W	FAA4	wild type smt3	no		
+pro-smt3allR_plate3	C1	pro-smt3allR_plate3_C1	YMR267W	PPA2	pro-smt3allR	no	few cells	
+smt3allR_plate3	C1	smt3allR_plate3_C1	YMR267W	PPA2	smt3allR	no		
+WT_plate3	C1	WT_plate3_C1	YMR267W	PPA2	wild type smt3	no		
+smt3allR_plate1	A7	smt3allR_plate1_A7	YMR280C	CAT8	smt3allR	no	no colony	
+pro-smt3allR_plate1	A7	pro-smt3allR_plate1_A7	YMR280C	CAT8	pro-smt3allR	no		
+WT_plate1	A7	WT_plate1_A7	YMR280C	CAT8	wild type smt3	no		
+pro-smt3allR_plate2	C11	pro-smt3allR_plate2_C11	YMR284W	YKU70	pro-smt3allR	no		
+smt3allR_plate2	C11	smt3allR_plate2_C11	YMR284W	YKU70	smt3allR	no		
+WT_plate2	C11	WT_plate2_C11	YMR284W	YKU70	wild type smt3	no		
+pro-smt3allR_plate3	I9	pro-smt3allR_plate3_I9	YMR295C	YMR295C	pro-smt3allR	no		
+smt3allR_plate3	I9	smt3allR_plate3_I9	YMR295C	YMR295C	smt3allR	no		
+WT_plate3	I9	WT_plate3_I9	YMR295C	YMR295C	wild type smt3	no		
+pro-smt3allR_plate2	G21	pro-smt3allR_plate2_G21	YNL022C	YNL022C	pro-smt3allR	no		
+smt3allR_plate2	G21	smt3allR_plate2_G21	YNL022C	YNL022C	smt3allR	no		
+WT_plate2	G21	WT_plate2_G21	YNL022C	YNL022C	wild type smt3	no		
+pro-smt3allR_plate3	A19	pro-smt3allR_plate3_A19	YNL058C	YNL058C	pro-smt3allR	no		
+smt3allR_plate3	A19	smt3allR_plate3_A19	YNL058C	YNL058C	smt3allR	no		
+WT_plate3	A19	WT_plate3_A19	YNL058C	YNL058C	wild type smt3	no		
+pro-smt3allR_plate1	E5	pro-smt3allR_plate1_E5	YNL118C	DCP2	pro-smt3allR	no		
+smt3allR_plate1	E5	smt3allR_plate1_E5	YNL118C	DCP2	smt3allR	no		
+WT_plate1	E5	WT_plate1_E5	YNL118C	DCP2	wild type smt3	no		
+pro-smt3allR_plate1	K15	pro-smt3allR_plate1_K15	YNL161W	CBK1	pro-smt3allR	no		
+smt3allR_plate1	K15	smt3allR_plate1_K15	YNL161W	CBK1	smt3allR	no		
+WT_plate1	K15	WT_plate1_K15	YNL161W	CBK1	wild type smt3	no		
+pro-smt3allR_plate3	O13	pro-smt3allR_plate3_O13	YNL162W-A	YNL162W-A	pro-smt3allR	no		
+smt3allR_plate3	O13	smt3allR_plate3_O13	YNL162W-A	YNL162W-A	smt3allR	no		
+WT_plate3	O13	WT_plate3_O13	YNL162W-A	YNL162W-A	wild type smt3	no		
+pro-smt3allR_plate4	G1	pro-smt3allR_plate4_G1	YNL169C	PSD1	pro-smt3allR	no		
+smt3allR_plate4	G1	smt3allR_plate4_G1	YNL169C	PSD1	smt3allR	no		
+WT_plate4	G1	WT_plate4_G1	YNL169C	PSD1	wild type smt3	no		
+pro-smt3allR_plate4	G7	pro-smt3allR_plate4_G7	YNL173C	MDG1	pro-smt3allR	no		
+smt3allR_plate4	G7	smt3allR_plate4_G7	YNL173C	MDG1	smt3allR	no		
+WT_plate4	G7	WT_plate4_G7	YNL173C	MDG1	wild type smt3	no		
+pro-smt3allR_plate2	C7	pro-smt3allR_plate2_C7	YNL176C	YNL176C	pro-smt3allR	no		
+smt3allR_plate2	C7	smt3allR_plate2_C7	YNL176C	YNL176C	smt3allR	no		
+WT_plate2	C7	WT_plate2_C7	YNL176C	YNL176C	wild type smt3	no		
+pro-smt3allR_plate3	M17	pro-smt3allR_plate3_M17	YNL198C	YNL198C	pro-smt3allR	no	very few cells	
+smt3allR_plate3	M17	smt3allR_plate3_M17	YNL198C	YNL198C	smt3allR	no	very few cells	
+WT_plate3	M17	WT_plate3_M17	YNL198C	YNL198C	wild type smt3	no		
+pro-smt3allR_plate3	O19	pro-smt3allR_plate3_O19	YNL211C	YNL211C	pro-smt3allR	no		
+smt3allR_plate3	O19	smt3allR_plate3_O19	YNL211C	YNL211C	smt3allR	no		
+WT_plate3	O19	WT_plate3_O19	YNL211C	YNL211C	wild type smt3	no		
+pro-smt3allR_plate4	O7	pro-smt3allR_plate4_O7	YNL224C	SQS1	pro-smt3allR	no		
+smt3allR_plate4	O7	smt3allR_plate4_O7	YNL224C	SQS1	smt3allR	no		
+WT_plate4	O7	WT_plate4_O7	YNL224C	SQS1	wild type smt3	no		
+pro-smt3allR_plate2	O21	pro-smt3allR_plate2_O21	YNL231C	PDR16	pro-smt3allR	no		
+smt3allR_plate2	O21	smt3allR_plate2_O21	YNL231C	PDR16	smt3allR	no		
+WT_plate2	O21	WT_plate2_O21	YNL231C	PDR16	wild type smt3	no		
+pro-smt3allR_plate1	A15	pro-smt3allR_plate1_A15	YNL242W	ATG2	pro-smt3allR	no		
+smt3allR_plate1	A15	smt3allR_plate1_A15	YNL242W	ATG2	smt3allR	no		
+WT_plate1	A15	WT_plate1_A15	YNL242W	ATG2	wild type smt3	no		
+smt3allR_plate3	C11	smt3allR_plate3_C11	YNL312W	RFA2	smt3allR	no	no cells	
+pro-smt3allR_plate3	C11	pro-smt3allR_plate3_C11	YNL312W	RFA2	pro-smt3allR	no	no foci	
+WT_plate3	C11	WT_plate3_C11	YNL312W	RFA2	wild type smt3	no		
+pro-smt3allR_plate4	I7	pro-smt3allR_plate4_I7	YNL336W	COS1	pro-smt3allR	no		
+smt3allR_plate4	I7	smt3allR_plate4_I7	YNL336W	COS1	smt3allR	no		
+WT_plate4	I7	WT_plate4_I7	YNL336W	COS1	wild type smt3	no		
+pro-smt3allR_plate4	M1	pro-smt3allR_plate4_M1	YNR049C	MSO1	pro-smt3allR	no		
+smt3allR_plate4	M1	smt3allR_plate4_M1	YNR049C	MSO1	smt3allR	no		
+WT_plate4	M1	WT_plate4_M1	YNR049C	MSO1	wild type smt3	no		
+pro-smt3allR_plate4	K23	pro-smt3allR_plate4_K23	YNR061C	YNR061C	pro-smt3allR	no		
+smt3allR_plate4	K23	smt3allR_plate4_K23	YNR061C	YNR061C	smt3allR	no		
+WT_plate4	K23	WT_plate4_K23	YNR061C	YNR061C	wild type smt3	no		
+pro-smt3allR_plate3	A7	pro-smt3allR_plate3_A7	YOL007C	CSI2	pro-smt3allR	no		
+smt3allR_plate3	A7	smt3allR_plate3_A7	YOL007C	CSI2	smt3allR	no		
+WT_plate3	A7	WT_plate3_A7	YOL007C	CSI2	wild type smt3	no		
+pro-smt3allR_plate2	I7	pro-smt3allR_plate2_I7	YOL061W	PRS5	pro-smt3allR	no		
+smt3allR_plate2	I7	smt3allR_plate2_I7	YOL061W	PRS5	smt3allR	no		
+WT_plate2	I7	WT_plate2_I7	YOL061W	PRS5	wild type smt3	no		
+pro-smt3allR_plate1	E17	pro-smt3allR_plate1_E17	YOL090W	Msh2	pro-smt3allR	no		
+smt3allR_plate1	E17	smt3allR_plate1_E17	YOL090W	Msh2	smt3allR	no		
+WT_plate1	E17	WT_plate1_E17	YOL090W	Msh2	wild type smt3	no		
+pro-smt3allR_plate4	K11	pro-smt3allR_plate4_K11	YOL101C	IZH4	pro-smt3allR	no		
+smt3allR_plate4	K11	smt3allR_plate4_K11	YOL101C	IZH4	smt3allR	no		
+WT_plate4	K11	WT_plate4_K11	YOL101C	IZH4	wild type smt3	no		
+pro-smt3allR_plate2	M7	pro-smt3allR_plate2_M7	YOL116W	MSN1	pro-smt3allR	no		
+smt3allR_plate2	M7	smt3allR_plate2_M7	YOL116W	MSN1	smt3allR	no		
+WT_plate2	M7	WT_plate2_M7	YOL116W	MSN1	wild type smt3	no		
+pro-smt3allR_plate3	A5	pro-smt3allR_plate3_A5	YOL151W	GRE2	pro-smt3allR	no		
+smt3allR_plate3	A5	smt3allR_plate3_A5	YOL151W	GRE2	smt3allR	no		
+WT_plate3	A5	WT_plate3_A5	YOL151W	GRE2	wild type smt3	no		
+pro-smt3allR_plate3	A17	pro-smt3allR_plate3_A17	YOR006C	TSR3	pro-smt3allR	no		
+smt3allR_plate3	A17	smt3allR_plate3_A17	YOR006C	TSR3	smt3allR	no		
+WT_plate3	A17	WT_plate3_A17	YOR006C	TSR3	wild type smt3	no		
+smt3allR_plate1	K21	smt3allR_plate1_K21	YOR014W	RTS1	smt3allR	no	no colony	
+pro-smt3allR_plate1	K21	pro-smt3allR_plate1_K21	YOR014W	RTS1	pro-smt3allR	no		
+WT_plate1	K21	WT_plate1_K21	YOR014W	RTS1	wild type smt3	no		
+pro-smt3allR_plate1	O1	pro-smt3allR_plate1_O1	YOR033C	EXO1	pro-smt3allR	no		
+smt3allR_plate1	O1	smt3allR_plate1_O1	YOR033C	EXO1	smt3allR	no		
+WT_plate1	O1	WT_plate1_O1	YOR033C	EXO1	wild type smt3	no		
+pro-smt3allR_plate2	I11	pro-smt3allR_plate2_I11	YOR056C	NOB1	pro-smt3allR	no		
+smt3allR_plate2	I11	smt3allR_plate2_I11	YOR056C	NOB1	smt3allR	no		
+WT_plate2	I11	WT_plate2_I11	YOR056C	NOB1	wild type smt3	no		
+pro-smt3allR_plate4	C17	pro-smt3allR_plate4_C17	YOR092W	ECM3	pro-smt3allR	no		
+smt3allR_plate4	C17	smt3allR_plate4_C17	YOR092W	ECM3	smt3allR	no		
+WT_plate4	C17	WT_plate4_C17	YOR092W	ECM3	wild type smt3	no		
+pro-smt3allR_plate4	G23	pro-smt3allR_plate4_G23	YOR099W	KTR1	pro-smt3allR	no		
+smt3allR_plate4	G23	smt3allR_plate4_G23	YOR099W	KTR1	smt3allR	no		
+WT_plate4	G23	WT_plate4_G23	YOR099W	KTR1	wild type smt3	no		
+pro-smt3allR_plate1	E7	pro-smt3allR_plate1_E7	YOR127W	RGA1	pro-smt3allR	no		
+smt3allR_plate1	E7	smt3allR_plate1_E7	YOR127W	RGA1	smt3allR	no		
+WT_plate1	E7	WT_plate1_E7	YOR127W	RGA1	wild type smt3	no		
+pro-smt3allR_plate1	M15	pro-smt3allR_plate1_M15	YOR156C	Siz2	pro-smt3allR	no		
+smt3allR_plate1	M15	smt3allR_plate1_M15	YOR156C	Siz2	smt3allR	no		
+WT_plate1	M15	WT_plate1_M15	YOR156C	Siz2	wild type smt3	no		
+pro-smt3allR_plate1	C21	pro-smt3allR_plate1_C21	YOR160W	MTR10	pro-smt3allR	no		
+smt3allR_plate1	C21	smt3allR_plate1_C21	YOR160W	MTR10	smt3allR	no		
+WT_plate1	C21	WT_plate1_C21	YOR160W	MTR10	wild type smt3	no		
+pro-smt3allR_plate1	K3	pro-smt3allR_plate1_K3	YOR165W	SEY1	pro-smt3allR	no	no colony	
+smt3allR_plate1	K3	smt3allR_plate1_K3	YOR165W	SEY1	smt3allR	no		
+WT_plate1	K3	WT_plate1_K3	YOR165W	SEY1	wild type smt3	no		
+pro-smt3allR_plate2	A7	pro-smt3allR_plate2_A7	YOR249C	APC5	pro-smt3allR	no		
+smt3allR_plate2	A7	smt3allR_plate2_A7	YOR249C	APC5	smt3allR	no		
+WT_plate2	A7	WT_plate2_A7	YOR249C	APC5	wild type smt3	no		
+pro-smt3allR_plate3	I7	pro-smt3allR_plate3_I7	YOR258W	HNT3	pro-smt3allR	no		
+smt3allR_plate3	I7	smt3allR_plate3_I7	YOR258W	HNT3	smt3allR	no		
+WT_plate3	I7	WT_plate3_I7	YOR258W	HNT3	wild type smt3	no		
+pro-smt3allR_plate4	I21	pro-smt3allR_plate4_I21	YOR311C	DGK1	pro-smt3allR	no		
+smt3allR_plate4	I21	smt3allR_plate4_I21	YOR311C	DGK1	smt3allR	no		
+WT_plate4	I21	WT_plate4_I21	YOR311C	DGK1	wild type smt3	no		
+pro-smt3allR_plate3	A13	pro-smt3allR_plate3_A13	YOR342C	YOR342C	pro-smt3allR	no		
+smt3allR_plate3	A13	smt3allR_plate3_A13	YOR342C	YOR342C	smt3allR	no		
+WT_plate3	A13	WT_plate3_A13	YOR342C	YOR342C	wild type smt3	no		
+pro-smt3allR_plate1	E1	pro-smt3allR_plate1_E1	YOR346W	REV1	pro-smt3allR	no	no colony	
+smt3allR_plate1	E1	smt3allR_plate1_E1	YOR346W	REV1	smt3allR	no		
+WT_plate1	E1	WT_plate1_E1	YOR346W	REV1	wild type smt3	no		
+pro-smt3allR_plate1	G21	pro-smt3allR_plate1_G21	YOR373W	NUD1	pro-smt3allR	no		
+smt3allR_plate1	G21	smt3allR_plate1_G21	YOR373W	NUD1	smt3allR	no		
+WT_plate1	G21	WT_plate1_G21	YOR373W	NUD1	wild type smt3	no		
+pro-smt3allR_plate2	G7	pro-smt3allR_plate2_G7	YOR374W	ALD4	pro-smt3allR	no		
+smt3allR_plate2	G7	smt3allR_plate2_G7	YOR374W	ALD4	smt3allR	no		
+WT_plate2	G7	WT_plate2_G7	YOR374W	ALD4	wild type smt3	no		
+pro-smt3allR_plate1	C3	pro-smt3allR_plate1_C3	YPL012W	RRP12	pro-smt3allR	no		
+smt3allR_plate1	C3	smt3allR_plate1_C3	YPL012W	RRP12	smt3allR	no		
+WT_plate1	C3	WT_plate1_C3	YPL012W	RRP12	wild type smt3	no		
+smt3allR_plate4	O3	smt3allR_plate4_O3	YPL020C	Ulp1	smt3allR	no	very few cells	
+pro-smt3allR_plate4	O3	pro-smt3allR_plate4_O3	YPL020C	Ulp1	pro-smt3allR	no		
+WT_plate4	O3	WT_plate4_O3	YPL020C	Ulp1	wild type smt3	no		
+pro-smt3allR_plate1	I17	pro-smt3allR_plate1_I17	YPL032C	SVL3	pro-smt3allR	no		
+smt3allR_plate1	I17	smt3allR_plate1_I17	YPL032C	SVL3	smt3allR	no		
+WT_plate1	I17	WT_plate1_I17	YPL032C	SVL3	wild type smt3	no		
+pro-smt3allR_plate1	K23	pro-smt3allR_plate1_K23	YPL074W	YTA6	pro-smt3allR	no		
+smt3allR_plate1	K23	smt3allR_plate1_K23	YPL074W	YTA6	smt3allR	no		
+WT_plate1	K23	WT_plate1_K23	YPL074W	YTA6	wild type smt3	no		
+smt3allR_plate1	I5	smt3allR_plate1_I5	YPL153C	RAD53	smt3allR	no	no colony	
+pro-smt3allR_plate1	I5	pro-smt3allR_plate1_I5	YPL153C	RAD53	pro-smt3allR	no		
+WT_plate1	I5	WT_plate1_I5	YPL153C	RAD53	wild type smt3	no		
+pro-smt3allR_plate1	M1	pro-smt3allR_plate1_M1	YPL158C	AIM44	pro-smt3allR	no		
+smt3allR_plate1	M1	smt3allR_plate1_M1	YPL158C	AIM44	smt3allR	no		
+WT_plate1	M1	WT_plate1_M1	YPL158C	AIM44	wild type smt3	no		
+pro-smt3allR_plate1	A17	pro-smt3allR_plate1_A17	YPL242C	IQG1	pro-smt3allR	no		
+smt3allR_plate1	A17	smt3allR_plate1_A17	YPL242C	IQG1	smt3allR	no		
+WT_plate1	A17	WT_plate1_A17	YPL242C	IQG1	wild type smt3	no		
+pro-smt3allR_plate1	G1	pro-smt3allR_plate1_G1	YPL249C	GYP5	pro-smt3allR	no	no colony	
+smt3allR_plate1	G1	smt3allR_plate1_G1	YPL249C	GYP5	smt3allR	no		
+WT_plate1	G1	WT_plate1_G1	YPL249C	GYP5	wild type smt3	no		
+pro-smt3allR_plate4	I9	pro-smt3allR_plate4_I9	YPL255W	BBP1	pro-smt3allR	no		
+smt3allR_plate4	I9	smt3allR_plate4_I9	YPL255W	BBP1	smt3allR	no		
+WT_plate4	I9	WT_plate4_I9	YPL255W	BBP1	wild type smt3	no		
+pro-smt3allR_plate4	C19	pro-smt3allR_plate4_C19	YPL265W	DIP5	pro-smt3allR	no		
+smt3allR_plate4	C19	smt3allR_plate4_C19	YPL265W	DIP5	smt3allR	no		
+WT_plate4	C19	WT_plate4_C19	YPL265W	DIP5	wild type smt3	no		
+pro-smt3allR_plate1	M23	pro-smt3allR_plate1_M23	YPR008W	HAA1	pro-smt3allR	no		
+smt3allR_plate1	M23	smt3allR_plate1_M23	YPR008W	HAA1	smt3allR	no		
+WT_plate1	M23	WT_plate1_M23	YPR008W	HAA1	wild type smt3	no		
+pro-smt3allR_plate4	M9	pro-smt3allR_plate4_M9	YPR028W	YOP1	pro-smt3allR	no		
+smt3allR_plate4	M9	smt3allR_plate4_M9	YPR028W	YOP1	smt3allR	no		
+WT_plate4	M9	WT_plate4_M9	YPR028W	YOP1	wild type smt3	no		
+pro-smt3allR_plate3	I3	pro-smt3allR_plate3_I3	YPR174C	YPR174C	pro-smt3allR	no	no cells	
+smt3allR_plate3	I3	smt3allR_plate3_I3	YPR174C	YPR174C	smt3allR	no		
+WT_plate3	I3	WT_plate3_I3	YPR174C	YPR174C	wild type smt3	no		
