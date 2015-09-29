@@ -18,6 +18,7 @@ def main(argv):
     basenames = os.listdir(ROOT)
     with open("stats.txt", "w") as fo:
         for bn in basenames:
+            plate_name = bn.split("--")[0]
             d = os.path.join(ROOT, bn)
             if not os.path.isdir(d):
                 continue
@@ -29,7 +30,9 @@ def main(argv):
             n_files = sum(1 for _ in os.listdir(data_d) if _.endswith(".ch5"))
             fo.write("%s\t%d\n" % (d, n_files))
             screen_fn = os.path.join(SCREENS_DIR, "%s.screen" % bn)
-            make_screen.main(["dummy", data_d, "-o", screen_fn])
+            make_screen.main(["dummy", data_d, "-o", screen_fn, "-p", plate_name])
+            with open("../screenA/plates/%s" % plate_name, "w") as plate_file:
+                plate_file.write(screen_fn)
 
 
 if __name__ == "__main__":
