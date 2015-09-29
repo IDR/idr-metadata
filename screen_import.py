@@ -45,7 +45,7 @@ study = basename(dirname(base))
 
 print "Study: ", study
 print "Screen: ", screen
-print "Plate count:", len(plates)
+print "Plate count:", len(glob(plates))
 assert exists(ns.screen)
 
 for plate in glob(plates):
