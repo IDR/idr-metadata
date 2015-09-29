@@ -32,7 +32,7 @@ def main(argv):
             screen_fn = os.path.join(SCREENS_DIR, "%s.screen" % bn)
             make_screen.main(["dummy", data_d, "-o", screen_fn, "-p", plate_name])
             with open("../screenA/plates/%s" % plate_name, "w") as plate_file:
-                plate_file.write(screen_fn)
+                plate_file.write("idr0013-neumann-mitocheck/" + screen_fn)
 
 
 if __name__ == "__main__":
