@@ -1,0 +1,369 @@
+[Plate]
+Name = Tara
+Rows = 22
+Columns = 18
+Fields = 1
+
+[Well 0]
+Row = 0 
+Column = 0
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X00--Y00/image--L00--S00--U01--V01--J08--E00--O02--X00--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 1]
+Row = 0 
+Column = 1
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X01--Y00/image--L00--S00--U01--V01--J08--E00--O00--X01--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 2]
+Row = 0 
+Column = 2
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X02--Y00/image--L00--S00--U01--V01--J08--E00--O00--X02--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 3]
+Row = 0 
+Column = 3
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X03--Y00/image--L00--S00--U01--V01--J08--E00--O00--X03--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 4]
+Row = 0 
+Column = 4
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X04--Y00/image--L00--S00--U01--V01--J08--E00--O00--X04--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 5]
+Row = 0 
+Column = 5
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X05--Y00/image--L00--S00--U01--V01--J08--E00--O00--X05--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 6]
+Row = 0 
+Column = 6
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X06--Y00/image--L00--S00--U01--V01--J08--E00--O00--X06--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 7]
+Row = 0 
+Column = 7
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X07--Y00/image--L00--S00--U01--V01--J08--E00--O00--X07--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 8]
+Row = 0 
+Column = 8
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X08--Y00/image--L00--S00--U01--V01--J08--E00--O00--X08--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 9]
+Row = 0 
+Column = 9
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X09--Y00/image--L00--S00--U01--V01--J08--E00--O00--X09--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 10]
+Row = 0 
+Column = 10
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X10--Y00/image--L00--S00--U01--V01--J08--E00--O00--X10--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 11]
+Row = 0 
+Column = 11
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X11--Y00/image--L00--S00--U01--V01--J08--E00--O00--X11--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 12]
+Row = 0 
+Column = 12
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X12--Y00/image--L00--S00--U01--V01--J08--E00--O02--X12--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 13]
+Row = 0 
+Column = 13
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X13--Y00/image--L00--S00--U01--V01--J08--E00--O00--X13--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 14]
+Row = 0 
+Column = 14
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X14--Y00/image--L00--S00--U01--V01--J08--E00--O00--X14--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 15]
+Row = 0 
+Column = 15
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X15--Y00/image--L00--S00--U01--V01--J08--E00--O00--X15--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 16]
+Row = 0 
+Column = 16
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X16--Y00/image--L00--S00--U01--V01--J08--E00--O00--X16--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 17]
+Row = 0 
+Column = 17
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X17--Y00/image--L00--S00--U01--V01--J08--E00--O00--X17--Y00--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 18]
+Row = 1 
+Column = 0
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X00--Y01/image--L00--S00--U01--V01--J08--E00--O00--X00--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 19]
+Row = 1 
+Column = 1
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X01--Y01/image--L00--S00--U01--V01--J08--E00--O00--X01--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 20]
+Row = 1 
+Column = 2
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X02--Y01/image--L00--S00--U01--V01--J08--E00--O00--X02--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 21]
+Row = 1 
+Column = 3
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X03--Y01/image--L00--S00--U01--V01--J08--E00--O00--X03--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 22]
+Row = 1 
+Column = 4
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X04--Y01/image--L00--S00--U01--V01--J08--E00--O00--X04--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 23]
+Row = 1 
+Column = 5
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X05--Y01/image--L00--S00--U01--V01--J08--E00--O00--X05--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 24]
+Row = 1 
+Column = 6
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X06--Y01/image--L00--S00--U01--V01--J08--E00--O00--X06--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 25]
+Row = 1 
+Column = 7
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X07--Y01/image--L00--S00--U01--V01--J08--E00--O00--X07--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 26]
+Row = 1 
+Column = 8
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X08--Y01/image--L00--S00--U01--V01--J08--E00--O00--X08--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 27]
+Row = 1 
+Column = 9
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X09--Y01/image--L00--S00--U01--V01--J08--E00--O00--X09--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 28]
+Row = 1 
+Column = 10
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X10--Y01/image--L00--S00--U01--V01--J08--E00--O00--X10--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 29]
+Row = 1 
+Column = 11
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X11--Y01/image--L00--S00--U01--V01--J08--E00--O02--X11--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 30]
+Row = 1 
+Column = 12
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X12--Y01/image--L00--S00--U01--V01--J08--E00--O00--X12--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 31]
+Row = 1 
+Column = 13
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X13--Y01/image--L00--S00--U01--V01--J08--E00--O00--X13--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 32]
+Row = 1 
+Column = 14
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X14--Y01/image--L00--S00--U01--V01--J08--E00--O00--X14--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 33]
+Row = 1 
+Column = 15
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X15--Y01/image--L00--S00--U01--V01--J08--E00--O00--X15--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 34]
+Row = 1 
+Column = 16
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X16--Y01/image--L00--S00--U01--V01--J08--E00--O00--X16--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 35]
+Row = 1 
+Column = 17
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X17--Y01/image--L00--S00--U01--V01--J08--E00--O00--X17--Y01--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 36]
+Row = 2 
+Column = 0
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X00--Y02/image--L00--S00--U01--V01--J08--E00--O02--X00--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 37]
+Row = 2 
+Column = 1
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X01--Y02/image--L00--S00--U01--V01--J08--E00--O00--X01--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 38]
+Row = 2 
+Column = 2
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X02--Y02/image--L00--S00--U01--V01--J08--E00--O00--X02--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 39]
+Row = 2 
+Column = 3
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X03--Y02/image--L00--S00--U01--V01--J08--E00--O00--X03--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 40]
+Row = 2 
+Column = 4
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X04--Y02/image--L00--S00--U01--V01--J08--E00--O00--X04--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 41]
+Row = 2 
+Column = 5
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X05--Y02/image--L00--S00--U01--V01--J08--E00--O00--X05--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 42]
+Row = 2 
+Column = 6
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X06--Y02/image--L00--S00--U01--V01--J08--E00--O00--X06--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 43]
+Row = 2 
+Column = 7
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X07--Y02/image--L00--S00--U01--V01--J08--E00--O00--X07--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 44]
+Row = 2 
+Column = 8
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X08--Y02/image--L00--S00--U01--V01--J08--E00--O00--X08--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 45]
+Row = 2 
+Column = 9
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X09--Y02/image--L00--S00--U01--V01--J08--E00--O00--X09--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 46]
+Row = 2 
+Column = 10
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X10--Y02/image--L00--S00--U01--V01--J08--E00--O00--X10--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 47]
+Row = 2 
+Column = 11
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X11--Y02/image--L00--S00--U01--V01--J08--E00--O00--X11--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 48]
+Row = 2 
+Column = 12
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X12--Y02/image--L00--S00--U01--V01--J08--E00--O02--X12--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 49]
+Row = 2 
+Column = 13
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X13--Y02/image--L00--S00--U01--V01--J08--E00--O00--X13--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 50]
+Row = 2 
+Column = 14
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X14--Y02/image--L00--S00--U01--V01--J08--E00--O00--X14--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 51]
+Row = 2 
+Column = 15
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X15--Y02/image--L00--S00--U01--V01--J08--E00--O00--X15--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 52]
+Row = 2 
+Column = 16
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X16--Y02/image--L00--S00--U01--V01--J08--E00--O00--X16--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 53]
+Row = 2 
+Column = 17
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X17--Y02/image--L00--S00--U01--V01--J08--E00--O00--X17--Y02--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 54]
+Row = 3 
+Column = 0
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X00--Y03/image--L00--S00--U01--V01--J08--E00--O00--X00--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 55]
+Row = 3 
+Column = 1
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X01--Y03/image--L00--S00--U01--V01--J08--E00--O00--X01--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 56]
+Row = 3 
+Column = 2
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X02--Y03/image--L00--S00--U01--V01--J08--E00--O00--X02--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 57]
+Row = 3 
+Column = 3
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X03--Y03/image--L00--S00--U01--V01--J08--E00--O00--X03--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 58]
+Row = 3 
+Column = 4
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X04--Y03/image--L00--S00--U01--V01--J08--E00--O00--X04--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 59]
+Row = 3 
+Column = 5
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X05--Y03/image--L00--S00--U01--V01--J08--E00--O00--X05--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 60]
+Row = 3 
+Column = 6
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X06--Y03/image--L00--S00--U01--V01--J08--E00--O00--X06--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 61]
+Row = 3 
+Column = 7
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X07--Y03/image--L00--S00--U01--V01--J08--E00--O00--X07--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 62]
+Row = 3 
+Column = 8
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X08--Y03/image--L00--S00--U01--V01--J08--E00--O00--X08--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 63]
+Row = 3 
+Column = 9
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X09--Y03/image--L00--S00--U01--V01--J08--E00--O00--X09--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 64]
+Row = 3 
+Column = 10
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X10--Y03/image--L00--S00--U01--V01--J08--E00--O00--X10--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 65]
+Row = 3 
+Column = 11
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X11--Y03/image--L00--S00--U01--V01--J08--E00--O02--X11--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 66]
+Row = 3 
+Column = 12
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X12--Y03/image--L00--S00--U01--V01--J08--E00--O00--X12--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 67]
+Row = 3 
+Column = 13
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X13--Y03/image--L00--S00--U01--V01--J08--E00--O00--X13--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 68]
+Row = 3 
+Column = 14
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X14--Y03/image--L00--S00--U01--V01--J08--E00--O00--X14--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 69]
+Row = 3 
+Column = 15
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X15--Y03/image--L00--S00--U01--V01--J08--E00--O00--X15--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 70]
+Row = 3 
+Column = 16
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X16--Y03/image--L00--S00--U01--V01--J08--E00--O00--X16--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 71]
+Row = 3 
+Column = 17
+Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100010237_G100010241--2013_08_20_15_53_43/slide--S00/chamber--U01--V01/field--X17--Y03/image--L00--S00--U01--V01--J08--E00--O00--X17--Y03--T00--Z<00-19>--C<00-04>.ome.tif
+
+[Well 72]
+Row = 4 
+Column = 0
