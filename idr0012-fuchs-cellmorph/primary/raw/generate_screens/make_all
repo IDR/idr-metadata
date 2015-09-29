@@ -8,6 +8,7 @@ import make_screen
 ROOT = "/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source"
 SCREENS_DIR = os.path.join(os.pardir, "screens")
 PLATES_DIR = os.path.join(os.pardir, "screenA/plates")
+REL_SCREENS_DIR = "idr0012-fuchs-cellmorph/primary/raw/screens"
 
 
 def main(argv):
@@ -30,9 +31,7 @@ def main(argv):
             make_screen.main(["dummy", d, "-o", screen_fn, "-p", bn])
             plate_fn = os.path.join(PLATES_DIR, bn)
             with open(plate_fn, "w") as plate_file:
-                plate_file.write(
-                    "idr0012-fuchs-cellmorph/screens/%s.screen\n" % bn
-                )
+                plate_file.write("%s/%s.screen\n" % (REL_SCREENS_DIR, bn))
 
 
 if __name__ == "__main__":
