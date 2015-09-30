@@ -2,31 +2,13 @@
 
 import sys
 import os
-import string
 from argparse import ArgumentParser
+
+from screenio import ScreenWriter
 
 ROWS = 16
 COLUMNS = 24
 FIELDS = 2
-WELL_LETTERS = string.uppercase[:ROWS]
-
-PLATE = """\
-[Plate]
-Name = %%s
-Rows = %s
-Columns = %s
-Fields = %s
-""" % (ROWS, COLUMNS, FIELDS)
-
-WELL = """\
-[Well %(well)s]
-Row = %(row)s
-Column = %(col)s
-"""
-
-
-def global_idx(i, j):
-    return i * COLUMNS + j
 
 
 def parse_cl(argv):
@@ -37,31 +19,21 @@ def parse_cl(argv):
     return parser.parse_args(argv[1:])
 
 
-def make_well_map():
-    wm = {}
-    for i, c in enumerate(WELL_LETTERS):
-        for j in xrange(COLUMNS):
-            wm[global_idx(i, j)] = "%s%03d" % (c, j + 1)
-    return wm
-
-
 def write_screen(data_dir, plate, outf):
-    wm = make_well_map()
-    outf.write(PLATE % plate)
-    for i in xrange(ROWS):
-        for j in xrange(COLUMNS):
-            outf.write("\n")
-            gi = global_idx(i, j)
-            outf.write(WELL % {"well": gi, "row": i, "col": j})
-            well_tag = "%s%s" % (os.path.basename(data_dir), wm[gi])
-            subdir = os.path.join(data_dir, well_tag)
-            if not os.path.isdir(subdir):
-                sys.stderr.write("missing: %s\n" % subdir)
-                continue
+    writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS)
+    for idx in xrange(ROWS * COLUMNS):
+        r, c = writer.coordinates(idx)
+        well_tag = "%s%s%03d" % (os.path.basename(data_dir), r, c)
+        subdir = os.path.join(data_dir, well_tag)
+        field_values = []
+        if not os.path.isdir(subdir):
+            sys.stderr.write("missing: %s\n" % subdir)
+        else:
             for run in xrange(FIELDS):
                 pattern = "%s_<A,H,T>%d.tif" % (well_tag, run + 1)
-                fn = os.path.join(subdir, pattern)
-                outf.write("Field_%d = %s\n" % (run, fn))
+                field_values.append(os.path.join(subdir, pattern))
+        writer.add_well(field_values)
+    writer.write(outf)
 
 
 def main(argv):
