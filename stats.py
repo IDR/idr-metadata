@@ -58,49 +58,45 @@ def stat_screens(query):
     print str(tb.build())
 
 
-def stat_plates(query):
+def stat_plates(query, screen):
 
-    screens = defaultdict(list)
+    params = ParametersI()
+    params.addString("screen", screen)
 
-    for screen in glob(join(study, "screen*")):
-        for plate in glob(join(screen, "plates", "*")):
-            screens[screen].append(basename(plate))
+    obj = query.findByQuery((
+        "select s from Screen s "
+        "where s.name = :screen"), params)
 
-    tb = TableBuilder("Screen")
-    tb.cols(["Plate", "SID", "PID", "Wells", "Images"])
+    if not obj:
+        raise Exception("unknown screen: %s" % screen)
 
-    for screen, plates in screens.items():
-        params = ParametersI()
-        params.addString("screen", screen)
+    plates = glob(join(screen, "plates", "*"))
+    plates = map(basename, plates)
 
-        screen = query.findByQuery((
-            "select s from Screen s "
-            "where s.name = :screen"), params)
+    tb = TableBuilder("Plate")
+    tb.cols(["PID", "Wells", "Images"])
 
-        if not screen:
-            tb.row("")
-
-        for plate in plates:
-            params.addString("plate", plate)
-            rv = unwrap(query.projection((
-                "select s.id, p.id, count(w.id), count(i.id) from Screen s "
-                "left outer join s.plateLinks spl join spl.child as p "
-                "left outer join p.wells as w "
-                "left outer join w.wellSamples as ws "
-                "left outer join ws.image as i "
-                "where s.name = :screen and p.name = :plate "
-                "group by s.id, p.id"), params))
-            if not rv:
-                tb.row(screen, plate, "MISSING", "", "" "" "")
-            else:
-                for x in rv:
-                    tb.row(screen, plate, *x)
+    for plate in plates:
+        params.addString("plate", plate)
+        rv = unwrap(query.projection((
+            "select p.id, count(distinct w.id), count(distinct i.id) from Screen s "
+            "left outer join s.plateLinks spl join spl.child as p "
+            "left outer join p.wells as w "
+            "left outer join w.wellSamples as ws "
+            "left outer join ws.image as i "
+            "where s.name = :screen and p.name = :plate "
+            "group by p.id"), params))
+        if not rv:
+            tb.row(plate, "MISSING", "", "")
+        else:
+            for x in rv:
+                tb.row(plate, *x)
     print str(tb.build())
 
 def main():
     parser = Parser()
     parser.add_login_arguments()
-    parser.add_argument("choice", nargs="*", default="screen", choices=["plate", "screen"])
+    parser.add_argument("screen", nargs="?")
     ns = parser.parse_args()
 
     cli = CLI()
@@ -108,12 +104,10 @@ def main():
     client = cli.conn(ns)
     try:
         query = client.sf.getQueryService()
-        if ns.choice == "screen":
+        if not ns.screen:
             stat_screens(query)
-        elif ns.choice == "plate":
-            stat_plates(query)
         else:
-            raise Exception("unknown: %s" % ns.choice)
+            stat_plates(query, ns.screen)
     finally:
         cli.close()
 
