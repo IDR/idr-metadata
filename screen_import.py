@@ -28,7 +28,7 @@ command = [
 ]
 
 if not ns.force:
-    command += ["--exclude=filename"]
+    command += ["--exclude=clientpath"]
 
 if ns.screen[-1] == "/":
     ns.screen = ns.screen[0:-1]
