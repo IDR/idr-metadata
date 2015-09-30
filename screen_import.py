@@ -2,6 +2,7 @@
 
 from argparse import ArgumentParser
 from glob import glob
+from os import environ
 from os.path import basename
 from os.path import dirname
 from os.path import expanduser
@@ -9,6 +10,8 @@ from os.path import exists
 from os.path import join
 from subprocess import call
 
+if "JAVA_OPTS" not in environ:
+   raise Exception("Set memory?")
 
 bin = expanduser("~/OMERO.server/bin/omero")
 assert exists(bin)
