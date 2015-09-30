@@ -30,9 +30,9 @@ def main(argv):
             d = os.path.join(ROOT, bn)
             if not os.path.isdir(d):
                 continue
-            all_basenames = set(
-                _ for _ in os.listdir(d) if os.path.isfile(os.path.join(d, _))
-            )
+            all_basenames = set(_ for _ in os.listdir(d)
+                                if (not _.startswith(".") and
+                                    os.path.isfile(os.path.join(d, _))))
             expected = len(all_basenames & ALL_EXPECTED_BASENAMES)
             fo.write("%s\t%d(%d)\n" % (d, len(all_basenames), expected))
             screen_fn = os.path.join(SCREENS_DIR, "%s.screen" % bn)
