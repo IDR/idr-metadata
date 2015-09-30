@@ -11,7 +11,7 @@ WELL_LETTERS = string.uppercase[:ROWS]
 
 PLATE = """\
 [Plate]
-Name = Mitocheck
+Name = %%s
 Rows = %s
 Columns = %s
 Fields = 1
@@ -32,6 +32,7 @@ def parse_cl(argv):
     parser = ArgumentParser()
     parser.add_argument("dir", metavar="DIR", help="dir")
     parser.add_argument("-o", "--output", metavar="FILE", help="output file")
+    parser.add_argument("-p", "--plate", metavar="PLATE", help="plate name")
     return parser.parse_args(argv[1:])
 
 
@@ -43,8 +44,8 @@ def make_well_map():
     return wm
 
 
-def write_screen(data_dir, outf):
-    outf.write(PLATE)
+def write_screen(data_dir, outf, plate):
+    outf.write(PLATE % plate)
     for i in xrange(ROWS):
         for j in xrange(COLUMNS):
             outf.write("\n")
@@ -63,15 +64,9 @@ def main(argv):
         outf = open(args.output, "w")
     else:
         outf = sys.stdout
-    write_screen(args.dir, outf)
+    write_screen(args.dir, outf, args.plate)
     if outf is not sys.stdout:
         outf.close()
-
-    ### do we need this?
-    # well_map = make_well_map()
-    # with open("map_check.txt", "w") as fo:
-    #     for i in sorted(well_map):
-    #         fo.write("%d\t%s\n" % (i, well_map[i]))
 
 
 if __name__ == "__main__":
