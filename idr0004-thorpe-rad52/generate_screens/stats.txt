@@ -21,7 +21,7 @@
 /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P129	87(86)
 /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P130	87(83)
 /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P131	92(92)
-/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P132	89(86)
+/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P132	89(87)
 /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P133	91(91)
 /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P134	85(84)
 /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P135	86(86)
@@ -43,3 +43,4 @@
 /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P170	91(90)
 /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P171	56(56)
 /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/p120	91(91)
+/idr/filesets/idr0004-thorpe-rad52/Rad52_old/P128	76(69)
