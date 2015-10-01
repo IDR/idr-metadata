@@ -37,6 +37,9 @@ def stat_screens(query):
     tb = TableBuilder("Screen")
     tb.cols(["ID", "Plates", "Wells", "Images"])
 
+    plate_count = 0
+    well_count = 0
+    image_count = 0
     for study, screens in sorted(studies.items()):
         for screen, plates in screens.items():
             params = ParametersI()
@@ -54,7 +57,12 @@ def stat_screens(query):
                 tb.row(screen, "MISSING", "", "", "")
             else:
                 for x in rv:
+                    plate_id, plates, wells, images = x
+                    plate_count += plates
+                    well_count += wells
+                    image_count += images
                     tb.row(screen, *x)
+    tb.row("Total", "", plate_count, well_count, image_count)
     print str(tb.build())
 
 
@@ -76,6 +84,8 @@ def stat_plates(query, screen):
     tb = TableBuilder("Plate")
     tb.cols(["PID", "Wells", "Images"])
 
+    well_count = 0
+    image_count = 0
     for plate in plates:
         params.addString("plate", plate)
         rv = unwrap(query.projection((
@@ -90,7 +100,11 @@ def stat_plates(query, screen):
             tb.row(plate, "MISSING", "", "")
         else:
             for x in rv:
-                tb.row(plate, *x)
+                plate_id, wells, images = x
+                well_count += wells
+                image_count += images
+                tb.row(plate, plate_id, wells, images)
+    tb.row("Total", "", well_count, image_count)
     print str(tb.build())
 
 def main():
