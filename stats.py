@@ -22,6 +22,7 @@ from omero.cli import Parser
 from omero.rtypes import unwrap
 from omero.sys import ParametersI
 from omero.util.text import TableBuilder
+from omero.util.text import filesizeformat
 
 
 def stat_screens(query):
@@ -69,9 +70,12 @@ def stat_screens(query):
                     well_count += wells
                     image_count += images
                     if planes: plane_count += planes
-                    if bytes: byte_count += bytes
-                    tb.row(screen, *x)
-    tb.row("Total", "", plate_count, well_count, image_count, plane_count, byte_count)
+                    if bytes:
+                        byte_count += bytes
+                    else:
+                        bytes = 0
+                    tb.row(screen, plate_id, plates, wells, images, planes, filesizeformat(bytes))
+    tb.row("Total", "", plate_count, well_count, image_count, plane_count,filesizeformat(byte_count))
     print str(tb.build())
 
 
