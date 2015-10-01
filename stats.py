@@ -24,16 +24,42 @@ from omero.sys import ParametersI
 from omero.util.text import TableBuilder
 from omero.util.text import filesizeformat
 
-
-def stat_screens(query):
-    studies = defaultdict(lambda: defaultdict(list))
+def studies():
+    rv = defaultdict(lambda: defaultdict(list))
     for study in glob("idr*"):
         if study[-1] == "/":
             study = study[0:-1]
 
         for screen in glob(join(study, "screen*")):
             for plate in glob(join(screen, "plates", "*")):
-                studies[study][screen].append(basename(plate))
+                rv[study][screen].append(basename(plate))
+    return rv
+
+
+def orphans(query):
+    orphans = unwrap(query.projection((
+        "select distinct f.id from Image i "
+        "join i.fileset as f "
+        "left outer join i.wellSamples as ws "
+        "where ws = null "
+        "order by f.id"), None))
+    for orphan in orphans:
+        print "Fileset:%s" % (orphan[0])
+    print >>stderr, "Total:", len(orphans)
+
+
+def unknown(query):
+    on_disk = []
+    for study, screens in sorted(studies().items()):
+        on_disk.extend(screens.keys())
+    on_server = unwrap(query.projection((
+        "select s.name, s.id from Screen s"), None))
+    for name, id in on_server:
+        if name not in on_disk:
+            print "Screen:%s" % id, name
+            
+
+def stat_screens(query):
 
     tb = TableBuilder("Screen")
     tb.cols(["ID", "Plates", "Wells", "Images", "Planes", "Bytes"])
@@ -43,7 +69,8 @@ def stat_screens(query):
     image_count = 0
     plane_count = 0
     byte_count = 0
-    for study, screens in sorted(studies.items()):
+
+    for study, screens in sorted(studies().items()):
         for screen, plates in screens.items():
             params = ParametersI()
             params.addString("screen", screen)
@@ -123,6 +150,8 @@ def stat_plates(query, screen):
 def main():
     parser = Parser()
     parser.add_login_arguments()
+    parser.add_argument("--orphans", action="store_true")
+    parser.add_argument("--unknown", action="store_true")
     parser.add_argument("screen", nargs="?")
     ns = parser.parse_args()
 
@@ -131,7 +160,11 @@ def main():
     client = cli.conn(ns)
     try:
         query = client.sf.getQueryService()
-        if not ns.screen:
+        if ns.orphans:
+            orphans(query)
+        elif ns.unknown:
+            unknown(query)
+        elif not ns.screen:
             stat_screens(query)
         else:
             stat_plates(query, ns.screen)
