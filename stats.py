@@ -71,7 +71,7 @@ def stat_screens(query):
     byte_count = 0
 
     for study, screens in sorted(studies().items()):
-        for screen, plates in screens.items():
+        for screen, plates_expected in screens.items():
             params = ParametersI()
             params.addString("screen", screen)
             rv = unwrap(query.projection((
@@ -101,6 +101,8 @@ def stat_screens(query):
                         byte_count += bytes
                     else:
                         bytes = 0
+                    if plates != len(plates_expected):
+                        plates = "%s of %s" % (plates, len(plates_expected))
                     tb.row(screen, plate_id, plates, wells, images, planes, filesizeformat(bytes))
     tb.row("Total", "", plate_count, well_count, image_count, plane_count,filesizeformat(byte_count))
     print str(tb.build())
