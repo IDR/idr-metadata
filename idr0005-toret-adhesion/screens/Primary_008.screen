@@ -1,0 +1,678 @@
+[Plate]
+Name = Primary_008
+Rows = 8
+Columns = 12
+Fields = 3
+
+[Well 0]
+Row = 0
+Column = 0
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A01_s1_[58C6B269-8D90-4BD2-B055-A598C2FCE83D].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A01_s2_[46A76000-A756-4C14-BD7D-18AE5A561C5F].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A01_s3_[9F4C6623-6ECA-42C2-A842-7C1D03B17BA1].tif
+
+[Well 1]
+Row = 0
+Column = 1
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A02_s1_[731E106F-EB28-482C-AC87-D79013C0348D].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A02_s2_[80B201C4-7D2C-4002-BF3D-A036F7FF8E52].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A02_s3_[3EA62403-7896-47AF-BBDC-BE0EB84A518A].tif
+
+[Well 2]
+Row = 0
+Column = 2
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A03_s1_[F45AB01B-6C7A-4841-999C-A09DCEBB5F9B].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A03_s2_[32428E64-5D2C-41E8-8AEB-97049E3A6EC8].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A03_s3_[183D3BB3-FE66-47D4-89B2-99C5B05F1E10].tif
+
+[Well 3]
+Row = 0
+Column = 3
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A04_s1_[8BE50EBF-B3D8-424E-B2A0-AA4B63C52AEA].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A04_s2_[75C802D9-8206-426F-ACB3-9A706BA729D7].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A04_s3_[4D708E73-C493-478B-88CA-F82A1E0B34DD].tif
+
+[Well 4]
+Row = 0
+Column = 4
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A05_s1_[39055D32-DD2D-44B2-BC3C-D88178C25A2B].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A05_s2_[DBC53112-FCEE-48DC-8C97-A6CAA71D27EE].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A05_s3_[8D7E1DBC-0134-48E6-B1DF-0E39DF30A5A3].tif
+
+[Well 5]
+Row = 0
+Column = 5
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A06_s1_[0B9E5787-1D17-48FE-9EA5-ADB1436E7981].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A06_s2_[72F7E1BF-A190-442C-A4AF-1A0FC1762FD6].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A06_s3_[10E8D715-B5D3-4C5F-B294-CFC3BB3207BF].tif
+
+[Well 6]
+Row = 0
+Column = 6
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A07_s1_[2E8C5A77-2EF9-4055-9308-4228701A7124].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A07_s2_[7B5973BD-62CC-424C-A89C-398840EC4156].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A07_s3_[1F63216C-2A89-4D0B-9312-B0A088308F21].tif
+
+[Well 7]
+Row = 0
+Column = 7
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A08_s1_[2564F66D-2B9C-4839-9D93-083255D26739].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A08_s2_[BD6A3081-79F6-46EC-8E66-BDCB4BED3155].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A08_s3_[71C7492D-0884-44DE-9288-8337D3759B2B].tif
+
+[Well 8]
+Row = 0
+Column = 8
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A09_s1_[B74E1622-255C-4112-ABB2-A8BFFB9CE20E].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A09_s2_[E6AF618D-0394-4912-BC1A-8C38FC84C7E0].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A09_s3_[A5167CF3-6AEE-4DDC-8489-4E6A86C0BE2F].tif
+
+[Well 9]
+Row = 0
+Column = 9
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A10_s1_[FABD4C0C-BC81-40F8-BF6B-14D274B906AF].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A10_s2_[FE791914-F559-47C4-A501-435D9C774D8B].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A10_s3_[A4ABB87D-5EEE-4229-982A-7F35A13F57BD].tif
+
+[Well 10]
+Row = 0
+Column = 10
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A11_s1_[C361663B-5536-4C38-840F-24F1851D2035].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A11_s2_[FD6A7BAE-3DA2-4C96-86D9-92D0795EC9F9].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A11_s3_[F0B256F0-1CC1-445B-B208-452AF0A6CE17].tif
+
+[Well 11]
+Row = 0
+Column = 11
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A12_s1_[7C43B0FF-5838-43FC-B93C-003686F0354E].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A12_s2_[FF1AA536-E008-4CC2-B367-63C84F72AB6B].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_A12_s3_[BBB68F78-076C-49E7-AF03-31F60453B79D].tif
+
+[Well 12]
+Row = 1
+Column = 0
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B01_s1_[028A03FE-3A96-4C25-86E6-E0032FC95265].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B01_s2_[5E6E9F08-DC90-4597-B8F7-0AF6E982D557].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B01_s3_[B370EDA2-0634-491D-A6FF-203390DFE1CB].tif
+
+[Well 13]
+Row = 1
+Column = 1
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B02_s1_[4953D08F-9A49-40A1-B226-E40E5981CE89].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B02_s2_[19C75F92-1008-4927-83E3-9044D32B7B24].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B02_s3_[07266517-4887-4561-B074-32CAF34DFBC6].tif
+
+[Well 14]
+Row = 1
+Column = 2
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B03_s1_[5F509E73-B7AF-4293-983C-58979291D504].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B03_s2_[FF57CE27-4A1F-41D5-A1EB-B5A371570831].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B03_s3_[BE808A04-230F-4599-980B-D4525AFDA1DE].tif
+
+[Well 15]
+Row = 1
+Column = 3
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B04_s1_[95BC6311-CB2B-4ED7-A287-D92EA2ACD08A].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B04_s2_[CFF4D3EB-2D79-4BFE-B0CC-20CE9CDDBABD].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B04_s3_[CE9AB311-F346-418D-857F-EA4FA50355D0].tif
+
+[Well 16]
+Row = 1
+Column = 4
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B05_s1_[F6BAEABE-A78B-4270-A75B-1DCAC09AA154].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B05_s2_[EE5C61BE-BCEC-4987-B0E9-CC5C4B4F3D29].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B05_s3_[A7924839-3A18-4919-8037-4E9062CD9D0D].tif
+
+[Well 17]
+Row = 1
+Column = 5
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B06_s1_[59B2ADEF-6C70-42FB-9458-5C60072DB058].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B06_s2_[5595E067-08D7-4DCB-B325-3D2F9BEBCE61].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B06_s3_[A1B4E267-A586-4590-820C-C80F966D8DDC].tif
+
+[Well 18]
+Row = 1
+Column = 6
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B07_s1_[3E09F9C6-C97D-4EAE-B0B9-87DD21813E0E].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B07_s2_[54BC071A-6CA0-45DC-B1FE-12FB6781AEF4].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B07_s3_[E533C32B-1246-46D4-A3D1-D6A11F98B40D].tif
+
+[Well 19]
+Row = 1
+Column = 7
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B08_s1_[F0C5F486-E022-4055-9B8A-E74BD8B6E605].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B08_s2_[84F3DB67-E7E4-4F74-95B9-9BDF7EAABB90].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B08_s3_[38D00CFE-F16D-47AC-BA96-6884D8739641].tif
+
+[Well 20]
+Row = 1
+Column = 8
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B09_s1_[C9CB24E7-FBD6-4421-8B3A-DBD13F29E883].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B09_s2_[0B1E6983-E90F-4641-A58A-C5CD708B0567].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B09_s3_[24DCFBC3-95B4-408F-BB00-6F01F8728BD1].tif
+
+[Well 21]
+Row = 1
+Column = 9
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B10_s1_[A472D88E-3D2F-426C-A421-51AAF3E8BDB5].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B10_s2_[EC3FC5E5-6450-4D02-9849-E5E7A58ADBCF].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B10_s3_[AA7394D1-81E1-497B-9F27-CB01D7293D1B].tif
+
+[Well 22]
+Row = 1
+Column = 10
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B11_s1_[FD97F43F-E92F-4F6C-9D18-47286225582A].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B11_s2_[F268ED4D-4F51-4B70-9AB5-B3CF6009674E].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B11_s3_[5BD82BCC-3914-4EDF-A37D-3A6AFEC22AC1].tif
+
+[Well 23]
+Row = 1
+Column = 11
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B12_s1_[C520EC5E-5334-48F9-A566-A64A0E28B052].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B12_s2_[06FC53C1-1698-470E-8877-A27BA6368E43].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_B12_s3_[DC198AEB-1200-424C-B60C-93C4205EC3E5].tif
+
+[Well 24]
+Row = 2
+Column = 0
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C01_s1_[3189D140-4291-422C-8652-A52CE9AC1253].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C01_s2_[573F093A-6D76-4A27-8082-EEFDB719E1AE].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C01_s3_[C9157F2E-168A-4211-A374-6D819975F8D6].tif
+
+[Well 25]
+Row = 2
+Column = 1
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C02_s1_[D3298002-D6EF-4623-BEC6-0EAC1A64143D].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C02_s2_[967FE92D-9931-4BEA-8AF0-A1FE3990F3CB].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C02_s3_[BC6832AD-C58E-4E80-BE7F-4E6FE8128E58].tif
+
+[Well 26]
+Row = 2
+Column = 2
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C03_s1_[7506AB35-5395-40E7-B6CF-C47B99E1AE8C].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C03_s2_[5CA0380F-C94E-418D-8B42-07B0C58628F6].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C03_s3_[8780B6C1-0679-4B65-9E42-1CE22B2E5ECB].tif
+
+[Well 27]
+Row = 2
+Column = 3
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C04_s1_[EBC42529-D3BE-42A1-8A05-22FDBDCDCFEC].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C04_s2_[E28FB54E-A443-48BB-91D8-EBC3609351FC].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C04_s3_[E58583B9-341E-4610-86E0-EAE5458B6C65].tif
+
+[Well 28]
+Row = 2
+Column = 4
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C05_s1_[3ED2918A-1B97-4B73-B01E-8B8DD4AE053A].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C05_s2_[5CFBFA1C-0D03-4327-B0BA-40BA2E691FB7].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C05_s3_[D5CB7D1C-CF26-46BE-B578-75BC4B5E514F].tif
+
+[Well 29]
+Row = 2
+Column = 5
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C06_s1_[B421E6AE-09B4-48F9-BE8D-5AC99E3848CB].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C06_s2_[691E466A-FE71-4118-A74A-717635A1BBF3].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C06_s3_[F665399E-286D-433B-8E86-50626ADC2A47].tif
+
+[Well 30]
+Row = 2
+Column = 6
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C07_s1_[D188F2BA-D474-4115-852E-5EF026497DA3].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C07_s2_[207C3FC8-997C-4BFC-A56C-A4220BA9EA9F].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C07_s3_[83543ECF-FEB3-47BF-91D3-EA6961784AC8].tif
+
+[Well 31]
+Row = 2
+Column = 7
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C08_s1_[CCDD49DB-4B12-4BF2-AFB7-FF8A3C11096D].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C08_s2_[DFCEC048-12B1-4366-BA0A-00EC96EBB4F2].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C08_s3_[F30D5524-DAC6-44D9-9A59-FED5C4FA7491].tif
+
+[Well 32]
+Row = 2
+Column = 8
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C09_s1_[4316CCEB-1C36-4A50-9D8B-417B0B75B500].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C09_s2_[38624074-F583-44AA-8086-0A70ACA6732C].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C09_s3_[7EF42FEA-AEAA-4FC0-A230-B1EEC34F1F99].tif
+
+[Well 33]
+Row = 2
+Column = 9
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C10_s1_[1CBBCB18-EEE2-498D-977A-97FD2D8AD579].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C10_s2_[9BD59E03-5EDA-47A2-AD83-544EA66239A1].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C10_s3_[19391568-81AF-41EE-8269-4D014F568B3D].tif
+
+[Well 34]
+Row = 2
+Column = 10
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C11_s1_[2AA48A35-0049-48EE-AE50-11113A8161CD].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C11_s2_[CBBD8DC0-1EF8-495C-8F92-599E5BF1E69D].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C11_s3_[D71DE701-3999-4CFD-BAA6-EB2CBBA8E0F6].tif
+
+[Well 35]
+Row = 2
+Column = 11
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C12_s1_[387E9393-F933-423B-B920-AA0000B0A0DB].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C12_s2_[E8EF2BF5-5CE0-469F-AF9B-39509DDB91DA].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_C12_s3_[441D8621-E51B-4ABE-8B14-5ED4F6676CC0].tif
+
+[Well 36]
+Row = 3
+Column = 0
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D01_s1_[230D5C6E-25A2-48E5-B839-6FDDEFC938A1].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D01_s2_[9947B8C4-147F-4E86-923D-D9F84F56F2E3].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D01_s3_[A398B46A-1A0E-4A2D-9E68-8F2DC7407FC3].tif
+
+[Well 37]
+Row = 3
+Column = 1
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D02_s1_[63EE4D99-6EBE-4DAC-8A01-E4824990158D].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D02_s2_[111EE012-DD97-47AD-A3CC-3B1B6A11DD7F].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D02_s3_[B93654D0-032E-47B6-AEFD-32C4A546F862].tif
+
+[Well 38]
+Row = 3
+Column = 2
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D03_s1_[EE73138F-B9A4-403E-9045-F49CDE268D19].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D03_s2_[CC19C1EC-3B22-4507-80C0-523C2C48AFB2].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D03_s3_[C7E83C02-5291-4A0C-AC2B-E994B780DD6A].tif
+
+[Well 39]
+Row = 3
+Column = 3
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D04_s1_[FA0D1F75-E281-4B4A-8803-1F627D82B951].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D04_s2_[4C0B231F-DB88-4650-984F-3C0E73D1B9F8].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D04_s3_[6371C6BF-364F-4FD7-9414-72E2DB7185E0].tif
+
+[Well 40]
+Row = 3
+Column = 4
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D05_s1_[EC934F18-94DE-4C42-B678-81103F380AE7].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D05_s2_[34A336F5-7516-4DF2-9B23-9E1012A7FF3C].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D05_s3_[B739DE63-E249-4AA1-8AD9-7A2693BCB044].tif
+
+[Well 41]
+Row = 3
+Column = 5
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D06_s1_[A81B1280-E6A2-4955-B385-5F5D92395D94].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D06_s2_[6F2E3887-7793-4AA4-BDDC-0B0FD6FE644A].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D06_s3_[AA3D0B75-AC35-45EF-8D40-5DE6FE01CD53].tif
+
+[Well 42]
+Row = 3
+Column = 6
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D07_s1_[2EBE0002-BE3B-40B0-AE51-F9F9824D31EF].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D07_s2_[592A0610-B9E1-4710-90DB-4E7A40A1DB77].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D07_s3_[08800426-03E3-42BB-B22D-A192D3A290D8].tif
+
+[Well 43]
+Row = 3
+Column = 7
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D08_s1_[086E22C6-CD3C-4928-9692-B00BDA612CDE].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D08_s2_[F3DDC023-BF0C-4E68-8F92-B047BD9556B1].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D08_s3_[089D21AB-3A73-4FA8-966A-938959796DDF].tif
+
+[Well 44]
+Row = 3
+Column = 8
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D09_s1_[6D37694D-2EAA-4534-96C9-8F450E5DA0FA].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D09_s2_[18F3259C-897B-457B-9F25-CFC301D140BF].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D09_s3_[744AB6E0-DA70-43C6-8B00-8F723F75F8A0].tif
+
+[Well 45]
+Row = 3
+Column = 9
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D10_s1_[43917ED0-DC89-4246-A362-3BB025F50DBF].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D10_s2_[1234EB9C-EF99-4FBF-8A40-8B77D5A54A31].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D10_s3_[B958DE42-5BEE-4DBF-8D8F-CC76868038E5].tif
+
+[Well 46]
+Row = 3
+Column = 10
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D11_s1_[005F7EDF-BFF1-4BF7-A71C-2E2DB9A77A64].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D11_s2_[695AA981-0EBA-4760-95A1-27BB88087EBC].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D11_s3_[226C6FD5-52E0-4EE3-87B9-B8D3870564C9].tif
+
+[Well 47]
+Row = 3
+Column = 11
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D12_s1_[233943B0-EA65-484F-BCA6-5453DCB195FA].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D12_s2_[5C1A6967-57EC-48B2-8B86-2B72323D9B57].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_D12_s3_[E36BF816-4838-4BD5-8BC4-3C90C3A217BC].tif
+
+[Well 48]
+Row = 4
+Column = 0
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E01_s1_[3E9CD247-0B01-42E0-93A8-9744B2D6C416].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E01_s2_[F8C2139F-B590-4878-AE27-FFD24CB651BA].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E01_s3_[4FE90ADF-1F1A-46D5-89F3-6A76B9E4D764].tif
+
+[Well 49]
+Row = 4
+Column = 1
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E02_s1_[972CA12B-2ED3-4370-A297-2394780A9C9F].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E02_s2_[4D57816E-B31B-4CFC-9B74-B77136D27B48].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E02_s3_[6ED3E45C-3BD0-457F-82D6-1356FDEC4C82].tif
+
+[Well 50]
+Row = 4
+Column = 2
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E03_s1_[3E4A22DF-F709-481B-9060-CAB3F6AC8038].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E03_s2_[C2E75A9E-B9EB-440D-B830-6AF184346480].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E03_s3_[A0F05716-694E-45DE-97FD-B277191D3443].tif
+
+[Well 51]
+Row = 4
+Column = 3
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E04_s1_[2F943ED6-D241-4F05-9CED-E603723CF845].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E04_s2_[D831303F-BD81-41B7-8DBA-4EDC274DAAC4].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E04_s3_[98BBF1D1-4AA8-4F83-BF83-C275C0F5C71A].tif
+
+[Well 52]
+Row = 4
+Column = 4
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E05_s1_[69F56F1F-6B3F-4338-B7BE-33C0CF01E086].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E05_s2_[A0C95CC1-E7E3-4241-AFE8-ECD42CDEBE2A].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E05_s3_[B63FD017-83F4-4682-885A-448F9F6C24E1].tif
+
+[Well 53]
+Row = 4
+Column = 5
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E06_s1_[D4B380E8-7787-4AA3-A938-270F5263ED5E].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E06_s2_[980F59B9-968A-4302-99C5-1E07F730E7CD].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E06_s3_[C1BEE388-0E05-4DB8-821D-F01CF017F4A9].tif
+
+[Well 54]
+Row = 4
+Column = 6
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E07_s1_[8B401609-6283-4D6A-A892-1816F51AF211].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E07_s2_[AC17D13B-8922-4784-86AF-B572D13CE8FC].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E07_s3_[22B195F1-465B-4FEA-8036-DF591F6F6958].tif
+
+[Well 55]
+Row = 4
+Column = 7
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E08_s1_[9A0F7718-5CF7-475E-9D70-C69D311B8F7F].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E08_s2_[3C27C42F-CCC0-4BBB-ADA5-69AF0D25DDC2].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E08_s3_[F7EADBC4-DCB8-458B-8488-7C3796FF31FA].tif
+
+[Well 56]
+Row = 4
+Column = 8
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E09_s1_[84DDEE23-55B1-4AD0-B566-F3E907AEBBCC].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E09_s2_[9A8EF433-11EC-4045-846A-EF9EFD18936B].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E09_s3_[D52FED3C-4507-45EA-86BD-54B505741146].tif
+
+[Well 57]
+Row = 4
+Column = 9
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E10_s1_[FE4A1057-9D59-4758-8B91-CFA83C6720ED].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E10_s2_[160B7AE8-F926-49A7-96E8-A1BEBBC177CE].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E10_s3_[7B649B27-1BFF-4842-B6A6-BE6E8F517562].tif
+
+[Well 58]
+Row = 4
+Column = 10
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E11_s1_[8ABF2156-AB49-4EBE-8FC8-F715076FBA01].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E11_s2_[F3838F57-50BE-4595-A11D-FB58D9EE58AF].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E11_s3_[B812A147-E88B-43CE-9C50-10C7B0299B87].tif
+
+[Well 59]
+Row = 4
+Column = 11
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E12_s1_[66BCFD16-8ADD-4171-9135-81A0880649D0].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E12_s2_[E64F1F48-C0DA-49F1-8519-3C9392F0C43A].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_E12_s3_[41B1D457-8411-436A-B598-79BEA48709EC].tif
+
+[Well 60]
+Row = 5
+Column = 0
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F01_s1_[1D8224CB-6FDE-43A1-B80D-DDBFDCE51937].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F01_s2_[D042BEE7-86F2-4F31-8B06-4E935213390A].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F01_s3_[A5EFA6F0-3E9B-4D63-A0CA-C51611BE3CC0].tif
+
+[Well 61]
+Row = 5
+Column = 1
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F02_s1_[1A9E52F2-D6C5-45F2-98FE-CC0C5F61CF95].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F02_s2_[154E7F1B-18D6-4D28-A7E8-A83D2E72CC37].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F02_s3_[BA871CC8-7585-4E61-B990-CC32888A163E].tif
+
+[Well 62]
+Row = 5
+Column = 2
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F03_s1_[C1EFDF7E-94A7-4BC5-8466-755254B9DA9C].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F03_s2_[CA72EB40-1512-49D3-8F95-7B1362A25DA3].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F03_s3_[7A0D853F-2D01-4A77-B43A-F51779EACF75].tif
+
+[Well 63]
+Row = 5
+Column = 3
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F04_s1_[AAF8D58F-A85C-4077-A8DC-1BA47F76C877].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F04_s2_[94EE3464-75F0-4AB3-B6B5-8EBEEC5CE7D3].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F04_s3_[27FC4B36-0911-47F4-875A-6C18B4902862].tif
+
+[Well 64]
+Row = 5
+Column = 4
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F05_s1_[6994D426-64A0-464E-A418-46181A6BE44D].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F05_s2_[49B4B47A-1BC2-47EA-83E4-244F842BACB8].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F05_s3_[98ECCFFA-8541-413A-BD5B-BE219E273911].tif
+
+[Well 65]
+Row = 5
+Column = 5
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F06_s1_[6FD9D176-0F89-462A-A6E7-4DDD736F7964].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F06_s2_[1CA028E7-3AC5-4766-9770-A78BF9418276].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F06_s3_[8FB2DC3E-3C25-4CE0-9BE5-1F4C52D26FB2].tif
+
+[Well 66]
+Row = 5
+Column = 6
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F07_s1_[A96A8C48-C9FF-4BE9-B5D4-CFD38FD6DD5D].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F07_s2_[6E685398-D5CA-4337-AB39-185F21045556].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F07_s3_[F4E686E0-208D-433C-A6CC-0930E4AB5C7E].tif
+
+[Well 67]
+Row = 5
+Column = 7
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F08_s1_[298C528E-5BB3-4AFA-9423-5A7FC6932C0F].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F08_s2_[E51E4C92-8D80-4309-BFA0-2742C1938FA2].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F08_s3_[9A21CE70-A8D0-4CF3-8FF7-7C415C26E585].tif
+
+[Well 68]
+Row = 5
+Column = 8
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F09_s1_[8AC1AD27-142D-4D1F-A417-B2E2371CCE45].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F09_s2_[8184CB05-8FA0-42EC-A675-7A661CF057D3].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F09_s3_[60D380BB-85A7-422D-AE39-5FD47AF91C67].tif
+
+[Well 69]
+Row = 5
+Column = 9
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F10_s1_[06E19CE3-1176-4DB1-A5AC-E6143CFBE13F].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F10_s2_[1FC03AF4-D403-49B5-AF19-8DFC8E922C55].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F10_s3_[993BE49F-7B48-4603-B351-A433664C52D0].tif
+
+[Well 70]
+Row = 5
+Column = 10
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F11_s1_[36634564-9051-464D-B88B-54836E511E93].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F11_s2_[4A2769C9-834A-47C5-A7B5-EBD16A3131B6].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F11_s3_[5B8FCE39-BC5A-4A0E-8A41-1CE43E1A68C2].tif
+
+[Well 71]
+Row = 5
+Column = 11
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F12_s1_[C4F08F0E-6965-434F-B097-2A7B89220F08].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F12_s2_[8BF0E872-D9FD-4D91-BDCA-D2F000FE6794].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_F12_s3_[24D16146-29E1-483E-BB06-CE50EE427562].tif
+
+[Well 72]
+Row = 6
+Column = 0
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G01_s1_[ABFC60C3-0AC1-45C8-B3BB-7E30551BBA6F].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G01_s2_[FA97BA5C-6C7F-47D7-A487-F6395E87EDB8].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G01_s3_[96424B5F-E0DC-4724-BD2C-A9987C13B0C2].tif
+
+[Well 73]
+Row = 6
+Column = 1
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G02_s1_[F84B9958-C346-4EF6-A86B-460F086217AB].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G02_s2_[D0C1130F-90BD-4F3C-98AA-00DFB5E531C4].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G02_s3_[42972C71-5750-49E0-8032-815DAA59F579].tif
+
+[Well 74]
+Row = 6
+Column = 2
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G03_s1_[642C09C2-AB33-4341-86D3-D3D960F621D4].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G03_s2_[28817901-9A5C-45E2-8C69-0589EE19CFCE].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G03_s3_[2DD808CD-AD3F-4E6A-BD9C-2879B3C4AD53].tif
+
+[Well 75]
+Row = 6
+Column = 3
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G04_s1_[6A4385AC-C9FB-4F53-BD30-D6B60E27633C].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G04_s2_[4000EAD2-5E6D-4D27-A0D1-16221FECD963].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G04_s3_[7C83F721-F8A6-4E41-97FF-27116D2C4834].tif
+
+[Well 76]
+Row = 6
+Column = 4
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G05_s1_[994AB9E8-4D9F-47EE-92E7-FE4C71FF7D1E].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G05_s2_[2157F576-E3D3-4B5F-A99D-F1FEE2A6FF22].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G05_s3_[7D39A96B-3023-4EBA-A606-185FFA63675D].tif
+
+[Well 77]
+Row = 6
+Column = 5
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G06_s1_[42CE5011-76B0-4C7E-B31A-ECA74424C06B].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G06_s2_[0FF63B29-1543-4564-9C70-37622F747DC1].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G06_s3_[E0C4D36B-597B-4344-B505-18C6A46A3349].tif
+
+[Well 78]
+Row = 6
+Column = 6
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G07_s1_[5F48A1DD-6845-436F-89BD-71E9B458DF8F].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G07_s2_[15A11824-6755-4866-B856-A27322460728].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G07_s3_[DDCDC540-6067-4F4D-9B99-B5726E129209].tif
+
+[Well 79]
+Row = 6
+Column = 7
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G08_s1_[F4D59F46-8A88-4707-8D96-683ECA1DAC14].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G08_s2_[38D2EE26-9033-40FE-8A31-DF9F4D94DF57].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G08_s3_[045FA93B-7004-48D6-8739-5EEA81B9D49C].tif
+
+[Well 80]
+Row = 6
+Column = 8
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G09_s1_[92A4F8F8-254A-423E-93E3-E2BED63990E3].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G09_s2_[E8920C82-BD12-4F13-B970-8E7C85EBE635].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G09_s3_[8947A1B1-0CB6-4194-98FA-081D4BC4AEB2].tif
+
+[Well 81]
+Row = 6
+Column = 9
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G10_s1_[EA6CF9BF-1A2C-406A-9003-77D9BD79E636].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G10_s2_[05E2CDBD-C926-4EE6-B3C8-2EDF58E9F498].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G10_s3_[8D82797A-52CF-439C-8596-2F0CC5AED24D].tif
+
+[Well 82]
+Row = 6
+Column = 10
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G11_s1_[A869B6FE-E6C8-404E-8456-2DC764C9D32E].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G11_s2_[34E1B596-A245-47AD-A1EB-E0727AE315E0].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G11_s3_[48A3C823-59E7-4A1B-95A5-5D1F52E383B0].tif
+
+[Well 83]
+Row = 6
+Column = 11
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G12_s1_[5D5AEFED-B529-47DB-BBDD-5437D8DDB912].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G12_s2_[9327A30C-A5F7-44A8-B246-BC891E9E3E41].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_G12_s3_[3FD95E2D-C166-4FBE-BC77-D8495BD320E8].tif
+
+[Well 84]
+Row = 7
+Column = 0
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H01_s1_[954DC09A-080A-40A8-982D-0A122BF95F05].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H01_s2_[1BB6F4ED-C159-48B3-8C1F-BA190959799D].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H01_s3_[8C15E259-1491-459A-8DDD-5554F8D86A9E].tif
+
+[Well 85]
+Row = 7
+Column = 1
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H02_s1_[68446256-D689-4483-B935-F9FCD17CFA23].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H02_s2_[A2374AF6-EE00-47D0-AD17-CDD482E44A81].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H02_s3_[97370D41-982A-4A58-94B7-0102857C8315].tif
+
+[Well 86]
+Row = 7
+Column = 2
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H03_s1_[C8D4738A-2124-4616-AB81-6CF775D491EA].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H03_s2_[EB620278-9DAE-47CE-8C20-78E484BA1690].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H03_s3_[887007DB-04D3-4F8F-8AB3-B69C200DEB47].tif
+
+[Well 87]
+Row = 7
+Column = 3
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H04_s1_[7FD07727-B36A-4ACA-8426-5F6D8C08EF7F].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H04_s2_[9FAE27C8-23EF-4D6C-AE4C-84F850CD104C].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H04_s3_[68774A2C-AE7E-4D9B-8BBE-9202D6C8B1E8].tif
+
+[Well 88]
+Row = 7
+Column = 4
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H05_s1_[50B270C6-FAA6-4901-8C1D-CC9667F35400].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H05_s2_[5F57C097-4967-4422-9A1F-85AA02344CDB].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H05_s3_[BEFC1B4B-F68B-4458-86DC-226BD7993143].tif
+
+[Well 89]
+Row = 7
+Column = 5
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H06_s1_[1D0BB8C7-7FA8-4865-9F6B-F1B10F01CDE6].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H06_s2_[59769640-7BCE-4237-9330-23532696C672].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H06_s3_[10A8864F-8710-4CEF-A2A3-D14985EC7EBA].tif
+
+[Well 90]
+Row = 7
+Column = 6
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H07_s1_[FF2183CB-BD8D-4423-ACB1-A2945B758EF7].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H07_s2_[CD8851B2-F723-4F84-8E1E-88E91C6E7B98].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H07_s3_[4A9166FA-0221-407A-8E1B-859566A0B530].tif
+
+[Well 91]
+Row = 7
+Column = 7
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H08_s1_[FE735750-FDA8-48C8-9F86-AA87B5F9B705].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H08_s2_[57C9E30E-7C5C-4DEB-8367-8739864D4D4B].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H08_s3_[C589466F-E711-4BDF-8144-745792088361].tif
+
+[Well 92]
+Row = 7
+Column = 8
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H09_s1_[B986E255-C941-4D63-8E23-FB8E30D67846].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H09_s2_[B33E0CC3-57F8-4258-AA3B-1455F060258E].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H09_s3_[69D62164-73D5-4BC0-847F-A1899D4B0863].tif
+
+[Well 93]
+Row = 7
+Column = 9
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H10_s1_[E27061C2-8A80-4A9C-8C37-628884A87EF6].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H10_s2_[AA3EFDBA-6AF1-45D2-9854-240EB417DCC2].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H10_s3_[CD8D2235-A40D-4EF7-9E5B-C8338476BEA4].tif
+
+[Well 94]
+Row = 7
+Column = 10
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H11_s1_[DF1F43B6-17CB-40C4-80D6-AF4CBDDE7413].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H11_s2_[8D91C16C-83C1-494E-B88D-9C354650C7E2].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H11_s3_[E5134145-912E-445C-9B31-7E2B9EA23673].tif
+
+[Well 95]
+Row = 7
+Column = 11
+Field_0 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H12_s1_[A4A7A1BF-2B47-4EEC-B34A-F9D690F1678C].tif
+Field_1 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H12_s2_[5A426F91-8DAD-42D1-9C51-CE399EEB0998].tif
+Field_2 = /idr/filesets/idr0005-toret-adhesion/20150520-original-jcb/v2/008/2011-04-13/386/2011-04-13-plate-8_H12_s3_[B663C5AA-0F85-4BBD-8BB9-299366E2A978].tif
+
