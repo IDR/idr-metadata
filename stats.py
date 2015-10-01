@@ -35,34 +35,43 @@ def stat_screens(query):
                 studies[study][screen].append(basename(plate))
 
     tb = TableBuilder("Screen")
-    tb.cols(["ID", "Plates", "Wells", "Images"])
+    tb.cols(["ID", "Plates", "Wells", "Images", "Planes", "Bytes"])
 
     plate_count = 0
     well_count = 0
     image_count = 0
+    plane_count = 0
+    byte_count = 0
     for study, screens in sorted(studies.items()):
         for screen, plates in screens.items():
             params = ParametersI()
             params.addString("screen", screen)
             rv = unwrap(query.projection((
-                "select s.id, count(distinct p.id), count(distinct w.id), count(distinct i.id) from Screen s "
+                "select s.id, count(distinct p.id), "
+                "       count(distinct w.id), count(distinct i.id),"
+                "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC), "
+                "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * pix.sizeX * pix.sizeY * 8) "
+                "from Screen s "
                 "left outer join s.plateLinks spl "
                 "left outer join spl.child as p "
                 "left outer join p.wells as w "
                 "left outer join w.wellSamples as ws "
                 "left outer join ws.image as i "
+                "left outer join i.pixels as pix "
                 "where s.name = :screen "
                 "group by s.id"), params))
             if not rv:
-                tb.row(screen, "MISSING", "", "", "")
+                tb.row(screen, "MISSING", "", "", "", "", "")
             else:
                 for x in rv:
-                    plate_id, plates, wells, images = x
+                    plate_id, plates, wells, images, planes, bytes = x
                     plate_count += plates
                     well_count += wells
                     image_count += images
+                    if planes: plane_count += planes
+                    if bytes: byte_count += bytes
                     tb.row(screen, *x)
-    tb.row("Total", "", plate_count, well_count, image_count)
+    tb.row("Total", "", plate_count, well_count, image_count, plane_count, byte_count)
     print str(tb.build())
 
 
