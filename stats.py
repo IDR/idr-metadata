@@ -51,12 +51,23 @@ def orphans(query):
 def unknown(query):
     on_disk = []
     for study, screens in sorted(studies().items()):
-        on_disk.extend(screens.keys())
+        for screen, plates in screens.items():
+            on_disk.append(screen)
+            on_disk.extend(plates)
+
     on_server = unwrap(query.projection((
         "select s.name, s.id from Screen s"), None))
     for name, id in on_server:
         if name not in on_disk:
             print "Screen:%s" % id, name
+
+
+    on_server = unwrap(query.projection((
+        "select s.name, p.name, p.id from Plate p "
+        "join p.screenLinks as sl join sl.parent as s"), None))
+    for screen, name, id in on_server:
+        if name not in on_disk:
+            print "Plate:%s" % id, name, screen
             
 
 def stat_screens(query):
