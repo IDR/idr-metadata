@@ -38,7 +38,7 @@ class ScreenWriter(object):
         i, j = self.index2d(idx)
         return (self.alpha_map[i], j + 1)
 
-    def add_well(self, field_values=None, i=None, j=None):
+    def add_well(self, field_values=None, i=None, j=None, extra_kv=None):
         if self.__well_count >= self.rows * self.columns:
             raise ValueError("too many wells")
         if field_values is None:
@@ -55,13 +55,17 @@ class ScreenWriter(object):
             i, j = self.index2d(idx)
         else:
             idx = self.index1d(i, j)
+        if extra_kv is None:
+            extra_kv = {}
         #--
         sec = self.WELL % idx
         self.cp.add_section(sec)
         self.cp.set(sec, "Row", "%d" % i)
         self.cp.set(sec, "Column", "%d" % j)
-        for k, v in enumerate(field_values):
-            self.cp.set(sec, "Field_%d" % k, v)
+        for k, v in extra_kv.iteritems():
+            self.cp.set(sec, k, v)
+        for f, v in enumerate(field_values):
+            self.cp.set(sec, "Field_%d" % f, v)
         #--
         self.__well_count += 1
 

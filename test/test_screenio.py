@@ -12,12 +12,13 @@ class TestScreenWriter(unittest.TestCase):
         self.name, self.rows, self.columns, self.fields = "Foo", 3, 4, 2
         self.size = self.rows * self.columns
         self.all_field_values = []
+        self.extra_kv = {"Dimensions": "ZCT"}
         writer = ScreenWriter(self.name, self.rows, self.columns, self.fields)
         for i in xrange(self.size):
             field_values = ["%s_%02d_%d.fake" % (self.name, i, _)
                             for _ in xrange(self.fields)]
             self.all_field_values.append(field_values)
-            writer.add_well(field_values)
+            writer.add_well(field_values, extra_kv=self.extra_kv)
         writer.write(fout)
         fout.seek(0)
         self.cp = ConfigParser()
@@ -55,6 +56,9 @@ class TestScreenWriter(unittest.TestCase):
                     self.assertTrue(self.cp.has_option(sec, k))
                     self.assertEqual(self.cp.get(sec, k),
                                      self.all_field_values[idx][f])
+                    for ek, ev in self.extra_kv.iteritems():
+                        self.assertTrue(self.cp.has_option(sec, ek))
+                        self.assertEqual(self.cp.get(sec, ek), ev)
 
 
 def load_tests(loader, tests, pattern):
