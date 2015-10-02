@@ -4,7 +4,7 @@ import sys
 import os
 from argparse import ArgumentParser
 
-from screenio import ScreenWriter
+from pyidr.screenio import ScreenWriter
 
 ROWS = 8
 COLUMNS = 12
