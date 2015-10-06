@@ -25,7 +25,7 @@ columns:
     include: yes
   - name: Gene Symbol
     include: yes
-  - name: Name
+  - name: Gene Name
     include: yes 
   - name: Phenotype
     include: yes
