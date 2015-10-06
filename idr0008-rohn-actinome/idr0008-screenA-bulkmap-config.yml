@@ -177,7 +177,7 @@ columns:
     include: yes
   - name: Ontology Term Name 25
     include: yes
-   - name: Phenotype 26
+  - name: Phenotype 26
     include: yes
   - name: Term Source Accession 26
     include: yes
