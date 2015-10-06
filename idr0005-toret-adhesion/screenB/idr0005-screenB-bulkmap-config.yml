@@ -1,5 +1,5 @@
 ---
-name: idr0005-toret-adhension/screenB
+name: idr0005-toret-adhesion/screenB
 version: 1
 
 defaults:
@@ -29,3 +29,9 @@ columns:
     include: yes 
   - name: Phenotype
     include: yes
+
+# Advanced options (experimental)
+advanced:
+    # If a map-annotation is attached to a well also attach it to all images
+    # in the well
+    well_to_images: yes
