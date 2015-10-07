@@ -27,6 +27,10 @@ columns:
     include: yes
   - name: Gene Identifier
     include: yes
+  - name: Gene Identifier
+    clientname: Gene Identifier URL
+    clientvalue: http://www.ensembl.org/id/{{ value }}
+    include: yes
   - name: Gene Symbol
     include: yes   
   - name: Phenotype 1
@@ -35,11 +39,19 @@ columns:
     include: yes
   - name: Term Source Accession 1
     include: yes
+  - name: Term Source Accession 1
+    clientname: Term Source Accession 1 URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Phenotype 2
     include: yes
   - name: Ontology Term Name 2
     include: yes
   - name: Term Source Accession 2
+    include: yes
+  - name: Term Source Accession 2
+    clientname: Term Source Accession 2 URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 3
     include: yes
@@ -47,11 +59,19 @@ columns:
     include: yes
   - name: Term Source Accession 3
     include: yes
+  - name: Term Source Accession 3
+    clientname: Term Source Accession 3 URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Phenotype 4
     include: yes
   - name: Ontology Term Name 4
     include: yes
   - name: Term Source Accession 4
+    include: yes
+  - name: Term Source Accession 4
+    clientname: Term Source Accession 4 URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
 
 # Advanced options (experimental)

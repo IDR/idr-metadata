@@ -23,6 +23,10 @@ columns:
 
   - name: Gene Identifier
     include: yes
+  - name: Gene Identifier
+    clientname: Gene Identifier URL
+    clientvalue: http://www.flybase.org/cgi-bin/uniq.html?field=SYN&db=fbgn&context={{ value }}
+    include: yes
   - name: Gene Symbol
     include: yes   
   - name: Gene Name
