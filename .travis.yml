@@ -1,0 +1,20 @@
+language: python
+
+python:
+  - "2.7"
+
+# This (sudo: false) is needed to "run on container-based infrastructure" on
+# which cache: is available
+# http://docs.travis-ci.com/user/workers/container-based-infrastructure/
+sudo: false
+
+cache: pip
+
+install:
+  - pip install PyYAML pandas flake8
+
+#before_script:
+#  - flake8 -v .
+
+script:
+  - python scripts/travis-check.py .
