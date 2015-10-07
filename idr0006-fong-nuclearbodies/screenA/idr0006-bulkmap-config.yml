@@ -1,0 +1,41 @@
+---
+name: idr0006-fong-nuclearbodies
+version: 1
+
+defaults:
+    # Should the column be processed when creating bulk-annotations (yes/no)
+    include: no
+    # Columns type of the bulk-annotations column
+    type: string
+
+    # If non-empty a string used to separate multiple fields in a column
+    # White space will be stripped
+    split:
+    # Should this column be included in the clients (yes/no)
+    includeclient: yes
+    # Should this column be visible in the clients, if no the column should be
+    # hidden in the client but will still be indexed by the searcher (yes/no)
+    visible: yes
+    # Should empty values be omitted from the client display
+    omitempty: yes
+
+columns:
+
+  - name: hORFeome V5.1 Identifier
+    include: yes
+  - name: Gene Identifier
+    include: yes
+  - name: Gene Symbol
+    include: yes
+  - name: Phenotype
+    include: yes
+  - name: Ontology Term Name
+    include: yes
+  - name: Ontology Term Accession
+    include: yes
+
+# Advanced options (experimental)
+advanced:
+    # If a map-annotation is attached to a well also attach it to all images
+    # in the well
+    well_to_images: yes

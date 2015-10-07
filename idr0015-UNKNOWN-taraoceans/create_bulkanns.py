@@ -96,7 +96,7 @@ def run(acquisitions_xls, samples_xls, outputstem=None, intermediates=False):
     samples = load_metadata(samples_xls)
 
     if outputstem and intermediates:
-        save_csv(acquisitions, '%sacquistions.csv' % outputstem)
+        save_csv(acquisitions, '%sacquisitions.csv' % outputstem)
         save_csv(samples, '%ssamples.csv' % outputstem)
 
     merged = merge_columns(acquisitions, samples, joincol)
