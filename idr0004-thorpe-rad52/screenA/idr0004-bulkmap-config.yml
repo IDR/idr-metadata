@@ -23,6 +23,10 @@ columns:
 
   - name: Gene Identifier
     include: yes
+  - name: Gene Identifier
+    clientname: Gene Identifier URL
+    clientvalue: http://www.ensembl.org/id/{{ value }}
+    include: yes   
   - name: Gene Symbol
     include: yes
   - name: Phenotype
