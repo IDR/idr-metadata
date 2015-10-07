@@ -25,6 +25,10 @@ columns:
     include: yes
   - name: Gene Identifier
     include: yes
+  - name: Gene Identifier
+    clientname: Gene Identifier URL
+    clientvalue: http://www.ensembl.org/id/{{ value }}
+    include: yes
   - name: Gene Symbol Ens81
     include: yes
   - name: Gene Symbol Ens61
@@ -34,7 +38,11 @@ columns:
   - name: Ontology Term
     include: yes
   - name: Ontology Term Accession
-    include: yes   
+    include: yes
+  - name: Ontology Term Accession 
+    clientname: Ontology Term Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
 
 # Advanced options (experimental)
 advanced:
