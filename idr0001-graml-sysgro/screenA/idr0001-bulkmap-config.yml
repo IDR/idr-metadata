@@ -23,6 +23,9 @@ columns:
 
   - name: Gene Identifier
     include: yes
+  - name: Gene Identifier
+    clientname: Gene Identifier URL
+    clientvalue: http://www.pombase.org/spombe/result/{{ value }}
   - name: Strain Name
     include: yes
   - name: Gene Symbol
@@ -33,70 +36,112 @@ columns:
     include: yes
   - name: Term Source Accession 1a
     include: yes
+  - name: Term Source Accession 1a
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Ontology Term Name 1b
     include: yes
   - name: Term Source Accession 1b
     include: yes
+  - name: Term Source Accession 1b
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Phenotype 2
     include: yes
   - name: Ontology Term Name 2a
     include: yes
   - name: Term Source Accession 2a
     include: yes
+  - name: Term Source Accession 2a
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Ontology Term Name 2b
     include: yes
   - name: Term Source Accession 2b
     include: yes
+  - name: Term Source Accession 2b
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Phenotype 3
     include: yes
   - name: Ontology Term Name 3a
     include: yes
   - name: Term Source Accession 3a
     include: yes
+  - name: Term Source Accession 3a
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Ontology Term Name 3b
     include: yes
   - name: Term Source Accession 3b
     include: yes
+  - name: Term Source Accession 3b
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Phenotype 4
     include: yes
   - name: Ontology Term Name 4a
     include: yes
   - name: Term Source Accession 4a
     include: yes
+  - name: Term Source Accession 4a
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Ontology Term Name 4b
     include: yes
   - name: Term Source Accession 4b
     include: yes
+  - name: Term Source Accession 4b
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Phenotype 5
     include: yes
   - name: Ontology Term Name 5a
     include: yes
   - name: Term Source Accession 5a
     include: yes
+  - name: Term Source Accession 5a
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Ontology Term Name 5b
     include: yes
   - name: Term Source Accession 5b
     include: yes
+  - name: Term Source Accession 5b
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Phenotype 6
     include: yes
   - name: Ontology Term Name 6a
     include: yes
   - name: Term Source Accession 6a
     include: yes
+  - name: Term Source Accession 6a
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Ontology Term Name 6b
     include: yes
   - name: Term Source Accession 6b
     include: yes
+  - name: Term Source Accession 6b
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Phenotype 7
     include: yes
   - name: Ontology Term Name 7a
     include: yes
   - name: Term Source Accession 7a
     include: yes
+  - name: Term Source Accession 7a
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
   - name: Ontology Term Name 7b
     include: yes
   - name: Term Source Accession 7b
-    include: yes 
+    include: yes
+  - name: Term Source Accession 7b
+    clientname: Term Source Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
 
 # Advanced options (experimental)
 advanced:
