@@ -23,7 +23,15 @@ columns:
 
   - name: hORFeome V5.1 Identifier
     include: yes
+  - name: hORFeome V5.1 Identifier
+    clientname: hORFeome V5.1 Identifier URL
+    clientvalue: http://horfdb.dfci.harvard.edu/hv5/index.php?page=getresults&by=detail&qury={{ value }}
+    include: yes    
   - name: Gene Identifier
+    include: yes
+  - name: Gene Identifier
+    clientname: Gene Identifier URL
+    clientvalue: http://www.ncbi.nlm.nih.gov/gene/{{ value }}
     include: yes
   - name: Gene Symbol
     include: yes
@@ -32,6 +40,10 @@ columns:
   - name: Ontology Term Name
     include: yes
   - name: Ontology Term Accession
+    include: yes
+  - name: Ontology Term Accession
+    clientname: Ontology Term Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
 
 # Advanced options (experimental)
