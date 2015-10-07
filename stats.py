@@ -17,6 +17,7 @@ assert exists(lib)
 path.insert(0, lib)
 
 from omero import all
+from omero import ApiUsageException
 from omero.cli import CLI
 from omero.cli import Parser
 from omero.rtypes import unwrap
@@ -68,7 +69,30 @@ def unknown(query):
     for screen, name, id in on_server:
         if name not in on_disk:
             print "Plate:%s" % id, name, screen
-            
+
+
+def check_search(query, search):
+    obj_types = ('Screen', 'Plate', 'Image')
+    print "loading all map annotations"
+    res = query.findAllByQuery("from MapAnnotation m", None)
+    all_values = set(
+        v for m in res for k, v in m.getMapValueAsMap().iteritems()
+    )
+    print "searching for all unique values [%d]" % len(all_values)
+    with open("no_matches.txt", "w") as fo:
+        for v in all_values:
+            try:
+                matches = set()
+                for t in obj_types:
+                    search.onlyType(t)
+                    search.byFullText(v)
+                    matches.add(search.hasNext())
+                if True not in matches:
+                    fo.write("%s\n" % v)
+            except ApiUsageException as e:
+                stderr.write("%s: %s\n" % (v, e))
+                continue
+
 
 def stat_screens(query):
 
@@ -165,6 +189,7 @@ def main():
     parser.add_login_arguments()
     parser.add_argument("--orphans", action="store_true")
     parser.add_argument("--unknown", action="store_true")
+    parser.add_argument("--search", action="store_true")
     parser.add_argument("screen", nargs="?")
     ns = parser.parse_args()
 
@@ -177,6 +202,9 @@ def main():
             orphans(query)
         elif ns.unknown:
             unknown(query)
+        elif ns.search:
+            search = client.sf.createSearchService()
+            check_search(query, search)
         elif not ns.screen:
             stat_screens(query)
         else:
