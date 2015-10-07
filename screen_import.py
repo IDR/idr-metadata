@@ -48,7 +48,12 @@ print "Screen: ", screen
 print "Plate count:", len(glob(plates))
 assert exists(ns.screen)
 
-for plate in glob(plates):
+for plate in sorted(glob(plates)):
+    if plate.endswith(".log"):
+        continue
+    if exists(plate + ".log"):
+        print "Skipping due to %s.log" % plate
+        continue
     name = basename(plate)
     with open(plate, "r") as f:
         target = f.read().strip()

@@ -20,6 +20,7 @@ from omero import all
 from omero import ApiUsageException
 from omero.cli import CLI
 from omero.cli import Parser
+from omero.gateway import BlitzGateway
 from omero.rtypes import unwrap
 from omero.sys import ParametersI
 from omero.util.text import TableBuilder
@@ -113,7 +114,7 @@ def stat_screens(query):
                 "select s.id, count(distinct p.id), "
                 "       count(distinct w.id), count(distinct i.id),"
                 "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC), "
-                "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * pix.sizeX * pix.sizeY * 8) "
+                "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * pix.sizeX * pix.sizeY * 2) "
                 "from Screen s "
                 "left outer join s.plateLinks spl "
                 "left outer join spl.child as p "
@@ -143,7 +144,7 @@ def stat_screens(query):
     print str(tb.build())
 
 
-def stat_plates(query, screen):
+def stat_plates(query, screen, images=False):
 
     params = ParametersI()
     params.addString("screen", screen)
@@ -154,6 +155,29 @@ def stat_plates(query, screen):
 
     if not obj:
         raise Exception("unknown screen: %s" % screen)
+
+    if images:
+        q = ("select %s from Image i "
+            "join i.wellSamples ws join ws.well w "
+            "join w.plate p join p.screenLinks sl "
+            "join sl.parent s where s.name = :screen")
+
+        limit = 1000
+        found = 0
+        count = unwrap(query.projection(q % "count(distinct i.id)", params))[0][0]
+        print >>stderr, count
+        params.page(0, limit)
+        
+        q = q % "distinct i.id"
+        q = "%s order by i.id" % q
+        while count > 0:
+            rv = unwrap(query.projection(q, params))
+            count -= len(rv)
+            found += len(rv)
+            params.page(found, limit)
+            for x in rv:
+                yield x[0]
+        return
 
     plates = glob(join(screen, "plates", "*"))
     plates = map(basename, plates)
@@ -184,12 +208,23 @@ def stat_plates(query, screen):
     tb.row("Total", "", well_count, image_count)
     print str(tb.build())
 
+
+def copy(client, copy_from, copy_type, copy_to):
+    gateway = BlitzGateway(client_obj=client)
+    print gateway.applySettingsToSet(copy_from, copy_type, [copy_to])
+    gateway.getObject("Image", copy_to).getThumbnail(size=(96,), direct=False)
+
+  
 def main():
     parser = Parser()
     parser.add_login_arguments()
     parser.add_argument("--orphans", action="store_true")
     parser.add_argument("--unknown", action="store_true")
     parser.add_argument("--search", action="store_true")
+    parser.add_argument("--images", action="store_true")
+    parser.add_argument("--copy-from", type=long, default=None)
+    parser.add_argument("--copy-type", default="Image")
+    parser.add_argument("--copy-to", type=long, default=None)
     parser.add_argument("screen", nargs="?")
     ns = parser.parse_args()
 
@@ -206,9 +241,13 @@ def main():
             search = client.sf.createSearchService()
             check_search(query, search)
         elif not ns.screen:
-            stat_screens(query)
+	    stat_screens(query)
         else:
-            stat_plates(query, ns.screen)
+            if ns.copy_to:
+                copy(client, ns.copy_from, ns.copy_type, ns.copy_to)
+            else:
+                for x in stat_plates(query, ns.screen, ns.images):
+                    print x
     finally:
         cli.close()
 
