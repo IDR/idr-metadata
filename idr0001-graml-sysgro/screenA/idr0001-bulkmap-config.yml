@@ -26,6 +26,7 @@ columns:
   - name: Gene Identifier
     clientname: Gene Identifier URL
     clientvalue: http://www.pombase.org/spombe/result/{{ value }}
+    include: yes
   - name: Strain Name
     include: yes
   - name: Gene Symbol
@@ -37,15 +38,17 @@ columns:
   - name: Term Source Accession 1a
     include: yes
   - name: Term Source Accession 1a
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 1a URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Ontology Term Name 1b
     include: yes
   - name: Term Source Accession 1b
     include: yes
   - name: Term Source Accession 1b
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 1b URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Phenotype 2
     include: yes
   - name: Ontology Term Name 2a
@@ -53,15 +56,17 @@ columns:
   - name: Term Source Accession 2a
     include: yes
   - name: Term Source Accession 2a
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 2a URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Ontology Term Name 2b
     include: yes
   - name: Term Source Accession 2b
     include: yes
   - name: Term Source Accession 2b
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 2b URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Phenotype 3
     include: yes
   - name: Ontology Term Name 3a
@@ -69,15 +74,17 @@ columns:
   - name: Term Source Accession 3a
     include: yes
   - name: Term Source Accession 3a
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 3a URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Ontology Term Name 3b
     include: yes
   - name: Term Source Accession 3b
     include: yes
   - name: Term Source Accession 3b
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 3b URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Phenotype 4
     include: yes
   - name: Ontology Term Name 4a
@@ -85,15 +92,17 @@ columns:
   - name: Term Source Accession 4a
     include: yes
   - name: Term Source Accession 4a
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 4a URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Ontology Term Name 4b
     include: yes
   - name: Term Source Accession 4b
     include: yes
   - name: Term Source Accession 4b
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 4b URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Phenotype 5
     include: yes
   - name: Ontology Term Name 5a
@@ -101,15 +110,17 @@ columns:
   - name: Term Source Accession 5a
     include: yes
   - name: Term Source Accession 5a
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 5a URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Ontology Term Name 5b
     include: yes
   - name: Term Source Accession 5b
     include: yes
   - name: Term Source Accession 5b
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 5b URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Phenotype 6
     include: yes
   - name: Ontology Term Name 6a
@@ -117,15 +128,17 @@ columns:
   - name: Term Source Accession 6a
     include: yes
   - name: Term Source Accession 6a
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 6a URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Ontology Term Name 6b
     include: yes
   - name: Term Source Accession 6b
     include: yes
   - name: Term Source Accession 6b
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 6b URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Phenotype 7
     include: yes
   - name: Ontology Term Name 7a
@@ -133,16 +146,18 @@ columns:
   - name: Term Source Accession 7a
     include: yes
   - name: Term Source Accession 7a
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 7a URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
   - name: Ontology Term Name 7b
     include: yes
   - name: Term Source Accession 7b
     include: yes
   - name: Term Source Accession 7b
-    clientname: Term Source Accession URL
+    clientname: Term Source Accession 7b URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
-
+    include: yes
+    
 # Advanced options (experimental)
 advanced:
     # If a map-annotation is attached to a well also attach it to all images
