@@ -82,13 +82,13 @@ def check_search(query, search):
     with open("no_matches.txt", "w") as fo:
         for v in all_values:
             try:
-                matches = set()
+                matches = []
                 for t in obj_types:
                     search.onlyType(t)
                     search.byFullText(v)
-                    matches.add(search.hasNext())
-                if True not in matches:
-                    fo.write("%s\n" % v)
+                    hit = search.hasNext()
+                    matches.append(0 if not hit else len(search.results()))
+                fo.write("%s\n" % '\t'.join(map(str, matches)))
             except ApiUsageException as e:
                 stderr.write("%s: %s\n" % (v, e))
                 continue
