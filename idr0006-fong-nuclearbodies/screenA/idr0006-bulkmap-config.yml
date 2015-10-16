@@ -37,12 +37,12 @@ columns:
     include: yes
   - name: Phenotype
     include: yes
-  - name: Ontology Term Name
+  - name: Phenotype Term Name
     include: yes
-  - name: Ontology Term Accession
+  - name: Phenotype Term Accession
     include: yes
-  - name: Ontology Term Accession
-    clientname: Ontology Term Accession URL
+  - name: Phenotype Term Accession
+    clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
 
