@@ -33,6 +33,14 @@ columns:
     include: yes 
   - name: Phenotype
     include: yes
+  - name: Phenotype Term Name 
+    include: yes
+  - name: Phenotype Term Accession 
+    include: yes
+  - name: Phenotype Term Accession 
+    clientname: Phenotype Term Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
 
 # Advanced options (experimental)
 advanced:
