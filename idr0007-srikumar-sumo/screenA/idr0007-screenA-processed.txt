@@ -1,4 +1,4 @@
-Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Experimental Condition[genotype]	Changed in allR	Observation	Phenotype
+Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Experimental Condition [genotype]	Changed in allR	Observation	Phenotype
 smt3allR_plate1	G17	smt3allR_plate1_G17	YAL041W	CDC24	smt3allR	yes	not at bud neck	the smt3allR mutant does not show localization at the bud neck
 pro-smt3allR_plate1	G17	pro-smt3allR_plate1_G17	YAL041W	CDC24	pro-smt3allR	yes		
 WT_plate1	G17	WT_plate1_G17	YAL041W	CDC24	wild type smt3	yes		
@@ -32,7 +32,7 @@ WT_plate4	K15	WT_plate4_K15	YBR187W	GDT1	wild type smt3	yes
 pro-smt3allR_plate4	G19	pro-smt3allR_plate4_G19	YBR205W	KTR3	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
 smt3allR_plate4	G19	smt3allR_plate4_G19	YBR205W	KTR3	smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
 WT_plate4	G19	WT_plate4_G19	YBR205W	KTR3	wild type smt3	yes		
-smt3allR_plate3	O3	smt3allR_plate3_O3	YBR233W-A	DAD3	smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology1
+smt3allR_plate3	O3	smt3allR_plate3_O3	YBR233W-A	DAD3	smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology
 pro-smt3allR_plate3	O3	pro-smt3allR_plate3_O3	YBR233W-A	DAD3	pro-smt3allR	yes		
 WT_plate3	O3	WT_plate3_O3	YBR233W-A	DAD3	wild type smt3	yes		
 pro-smt3allR_plate2	A3	pro-smt3allR_plate2_A3	YBR259W	YBR259W	pro-smt3allR	yes	some foci	the smt3allR mutant displays GFP foci not detected in WT cells
@@ -107,7 +107,7 @@ WT_plate2	O13	WT_plate2_O13	YDR214W	AHA1	wild type smt3	yes
 pro-smt3allR_plate4	K17	pro-smt3allR_plate4_K17	YDR313C	PIB1	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
 smt3allR_plate4	K17	smt3allR_plate4_K17	YDR313C	PIB1	smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
 WT_plate4	K17	WT_plate4_K17	YDR313C	PIB1	wild type smt3	yes		
-smt3allR_plate3	O17	smt3allR_plate3_O17	YDR320C-A	DAD4	smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology1
+smt3allR_plate3	O17	smt3allR_plate3_O17	YDR320C-A	DAD4	smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology
 pro-smt3allR_plate3	O17	pro-smt3allR_plate3_O17	YDR320C-A	DAD4	pro-smt3allR	yes		
 WT_plate3	O17	WT_plate3_O17	YDR320C-A	DAD4	wild type smt3	yes		
 pro-smt3allR_plate4	E11	pro-smt3allR_plate4_E11	YDR345C	HXT3	pro-smt3allR	yes	cytoplasmic structures or localization	the smt3allR mutant cells display either cytoplasmic structures or brighter cytoplasmic signal than WT
@@ -123,7 +123,7 @@ pro-smt3allR_plate2	K21	pro-smt3allR_plate2_K21	YDR465C	RMT2	pro-smt3allR	yes	mo
 smt3allR_plate2	K21	smt3allR_plate2_K21	YDR465C	RMT2	smt3allR	yes	more diffuse	the smt3allR GFP signal is more diffuse than WT
 WT_plate2	K21	WT_plate2_K21	YDR465C	RMT2	wild type smt3	yes		
 pro-smt3allR_plate4	C7	pro-smt3allR_plate4_C7	YDR497C	ITR1	pro-smt3allR	yes	more vacuolated	the smt3allR mutant displays more vacuolar structures
-smt3allR_plate4	C7	smt3allR_plate4_C7	YDR497C	ITR1	smt3allR	yes	very few cells	very few cells
+smt3allR_plate4	C7	smt3allR_plate4_C7	YDR497C	ITR1	smt3allR	yes	very few cells	
 WT_plate4	C7	WT_plate4_C7	YDR497C	ITR1	wild type smt3	yes		
 pro-smt3allR_plate1	K17	pro-smt3allR_plate1_K17	YDR499W	LCD1	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
 smt3allR_plate1	K17	smt3allR_plate1_K17	YDR499W	LCD1	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
@@ -407,8 +407,8 @@ WT_plate2	C19	WT_plate2_C19	YPL194W	DDC1	wild type smt3	yes
 pro-smt3allR_plate2	G5	pro-smt3allR_plate2_G5	YPL198W	RPL7B	pro-smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
 smt3allR_plate2	G5	smt3allR_plate2_G5	YPL198W	RPL7B	smt3allR	yes	more foci	the smt3allR mutant population displays an increased number of cells with foci
 WT_plate2	G5	WT_plate2_G5	YPL198W	RPL7B	wild type smt3	yes		
-pro-smt3allR_plate2	M15	pro-smt3allR_plate2_M15	YPL209C	IPL1	pro-smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology1
-smt3allR_plate2	M15	smt3allR_plate2_M15	YPL209C	IPL1	smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology1
+pro-smt3allR_plate2	M15	pro-smt3allR_plate2_M15	YPL209C	IPL1	pro-smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology
+smt3allR_plate2	M15	smt3allR_plate2_M15	YPL209C	IPL1	smt3allR	yes	fish hook	the smt3allR mutant displays spindles with fish hook morphology
 WT_plate2	M15	WT_plate2_M15	YPL209C	IPL1	wild type smt3	yes		
 pro-smt3allR_plate4	C1	pro-smt3allR_plate4_C1	YPL221W	FLC1	pro-smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells
 smt3allR_plate4	C1	smt3allR_plate4_C1	YPL221W	FLC1	smt3allR	yes	odd shaped cells	the smt3allR mutant population contains odd shaped cells

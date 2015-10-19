@@ -1,4 +1,4 @@
-Plate	Well Number	Well	Plate_Well	Gene Identifier	Gene Symbol	Gene Symbol Alias	Description	Experimental Condition[genotype]	Control Type	Control Comments	Quality Control	Quality Control Comments	Comments
+Plate	Well Number	Well	Plate_Well	Gene Identifier	Gene Symbol	Gene Symbol Alias	Gene Description	Experimental Condition [genotype]	Control Type	Control Comments	Quality Control	Quality Control Comments	Comments
 pro-smt3allR_plate1	1	A1	pro-smt3allR_plate1_A1	YMR190C	SGS1		Nucleolar DNA helicase of the RecQ family involved in genome integrity maintenance; regulates chromosome synapsis and meiotic joint molecule/crossover formation; similar to human BLM and WRN proteins implicated in Bloom and Werner syndromes	pro-smt3allR					
 pro-smt3allR_plate1	2	A2	pro-smt3allR_plate1_A2										no annotation available; no image available
 pro-smt3allR_plate1	3	A3	pro-smt3allR_plate1_A3	YHR164C	DNA2	WEB2	"Tripartite DNA replication factor with single-stranded DNA-dependent ATPase, ATP-dependent nuclease, and helicase activities; required for Okazaki fragment processing; involved in DNA repair; cell-cycle dependent localization"	pro-smt3allR					

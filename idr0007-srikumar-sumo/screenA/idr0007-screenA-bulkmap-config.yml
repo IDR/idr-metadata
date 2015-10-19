@@ -1,5 +1,5 @@
 ---
-name: idr0007-srikumar-sumo
+name: idr0007-srikumar-sumo/screenA
 version: 1
 
 defaults:
@@ -31,12 +31,29 @@ columns:
     include: yes
   - name: Gene Symbol Alias
     include: yes
-  - name: Experimental Condition[genotype]
+  - name: Experimental Condition [genotype]
     include: yes
   - name: Observation
     include: yes
   - name: Phenotype
     include: yes
+  - name: Phenotype Term Name a
+    include: yes
+  - name: Phenotype Term Accession a
+    include: yes
+  - name: Phenotype Term Accession a
+    clientname: Phenotype Term Accession a URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
+  - name: Phenotype Term Name b
+    include: yes
+  - name: Phenotype Term Accession b
+    include: yes
+  - name: Phenotype Term Accession b
+    clientname: Phenotype Term Accession b URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
+
 
 # Advanced options (experimental)
 advanced:
