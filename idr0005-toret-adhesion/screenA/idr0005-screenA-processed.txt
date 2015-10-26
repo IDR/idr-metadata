@@ -1,4 +1,4 @@
-Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Gene Name	Gene Model Status	Synonyms	Severity of Adhesion Defect	Gene In Secondary Screen	Phenotype					
+Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Gene Name	Gene Model Status	Gene Synonyms	Severity of Adhesion Defect	Gene In Secondary Screen	Phenotype 1					
 Primary_001	A1	Primary_001_A1	CG1004	rho	rhomboid	Current	rhomboid1 Rhomboid-1 Rhomboid Rhomboid 1 rhomboid/veinlet Veinlet rhomboid-1 veinlet DMRHOa Rho rho-1 RHO Dmel\\rho rho1 DMRHOb rhom DRORHO rhomboid/veinlet RHOb Ve iks Dmrho CG1004 ve DMRHO Rho-1 Rho1	1	no						
 Primary_001	A10	Primary_001_A10	CG1046	zen	zerknullt	Current	zerknuellt zerknullt 1 Zerknullt zerknult CG1046 Zen ZEN ZEN VRE dm-zen zen1 z1 BG:DS00276.9 l(3)84Ad	1	no						
 Primary_001	A11	Primary_001_A11	CG1048	zen2	zerknullt-related	Current	Zerknullt-related zerknullt 2 zen-pattern-related zpr BG:DS00276.10 z2 CG1048	1	no						
