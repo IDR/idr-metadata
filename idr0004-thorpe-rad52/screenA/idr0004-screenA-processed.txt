@@ -1,4 +1,4 @@
-Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Number Of Cells	Number of Cells with Foci	Percentage Cells With Foci	Author Hit	Phenotype
+Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Number Of Cells	Number of Cells with Foci	Percentage Cells With Foci	Author Hit	Phenotype 1
 P101	E1	P101_E1	YAL002W	VPS8	175	2	1.1	no	
 P101	D11	P101_D11	YAL004W		230	20	8.7	no	
 P101	D12	P101_D12	YAL005C	SSA1	170	6	3.5	no	
