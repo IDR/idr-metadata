@@ -75,7 +75,7 @@ columns:
     clientname: Phenotype 4 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
-   - name: Phenotype 5
+  - name: Phenotype 5
     include: yes
   - name: Phenotype 5 Term Name
     include: yes
@@ -95,7 +95,7 @@ columns:
     clientname: Phenotype 6 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
-   - name: Phenotype 7
+  - name: Phenotype 7
     include: yes
   - name: Phenotype 7 Term Name
     include: yes
