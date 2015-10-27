@@ -1,111 +1,112 @@
-"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"														
-# Study														
-Study Title	Whole-genome screening identifies proteins localized to distinct nuclear bodies													
-Study Type	high content screen													
-Study Type Term Source REF	EFO													
-Study Type Term Accession Number	EFO_0005397													
-Study Description	"The nucleus is a unique organelle that contains essential genetic materials in chromosome territories. The interchromatin space is composed of nuclear subcompartments, which are defined by several distinctive nuclear bodies believed to be factories of DNA or RNA processing and sites of transcriptional and/or posttranscriptional regulation. In this paper, we performed a genome-wide microscopy-based screening for proteins that form nuclear foci and characterized their localizations using markers of known nuclear bodies. In total, we identified 325 proteins localized to distinct nuclear bodies, including nucleoli (148), promyelocytic leukemia nuclear bodies (38), nuclear speckles (27), paraspeckles (24), Cajal bodies (17), Sam68 nuclear bodies (5), Polycomb bodies (2), and uncharacterized nuclear bodies (64). Functional validation revealed several proteins potentially involved in the assembly of Cajal bodies and paraspeckles. Together, these data establish the first atlas of human proteins in different nuclear bodies and provide key information for research on nuclear bodies."													
-Study Organism	Homo sapiens													
-Study Organism Term Source REF	ncbi_taxonomy													
-Study Organism Term Accession Number	NCBITaxon_9606													
-Study Screens Number	1													
-Study External URL														
-Study Public Release Date	2015-05-01													
-														
-# Study Publication														
-Study PubMed ID	24127217													
-Study Publication Title	Whole-genome screening identifies proteins localized to distinct nuclear bodies													
-Study Author List	"Fong KW, Li Y, Wang W, Ma W, Li K, Qi RZ, Liu D, Songyang Z, Chen J."													
-Study PMC ID	PMC3798253													
-Study DOI	http://dx.doi.org/10.1083/jcb.201303145													
-														
-# Study Contacts														
-Study Person Last Name	Chen 													
-Study Person First Name	Junjie 													
-Study Person Email	jchen8@mdanderson.org													
-Study Person Address	"Department of Experimental Radiation Oncology, Division of Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, Texas, USA"													
-Study Person Roles	submitter													
-														
-Term Source Name	ncbi_taxonomy	EFO	CMPO											
-Term Source File	http://purl.obolibrary.org/obo/ncbitaxon.owl	http://www.ebi.ac.uk/efo/efo.owl	http://www.ebi.ac.uk/cmpo/cmpo.owl											
-														
-Additional File	idr0006-additional.txt													
-Additional File description	This file gives information about the plate layout and results from the manual secondary screen of proteins with nuclear foci in the automated primary screen. There are no images available for this secondary screen.													
-														
-														
-"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."														
-# Screen; this section should be repeated if a study contains multiple screens														
-														
-Screen Number	1													
-Comment[IDR Screen Name]	idr0006-fong-nuclearbodies/screenA													
-Screen Description	"A whole-genome screening for proteins localized to distinct nuclear bodies using 15,483 ORFs in the Human ORFeome Library.  "													
-Screen Technology Type	protein screen													
-Screen Technology Term Source REF														
-Screen Technology Term Accession Number														
-Screen Type	primary screen													
-Screen Type Term Source REF														
-Screen Type Term Accession														
-Screen Experiment Type														
-Screen Target Organism	Homo sapiens													
-														
-# Study materials														
-Cell Line or Strain	HeLa													
-Cell Line of Strain Term Source REF	EFO													
-Cell Line of Strain Term Accession Number	EFO_0001185													
-														
-"# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)"														
-Library File Name	idr0006-screenA-library.txt													
-Library File Format	tab-delimited text													
-Library Type	HA-Flag protein fusion library													
-Library Type Term Source REF														
-Library Type Term Accession Number														
-Library Manufacturer	http://horfdb.dfci.harvard.edu/hv5/													
-Library Version	Human ORFeome v5.1													
-Library Assembly 														
-Library Experimental Conditions	none													
-Library Experimental Conditions Term Source REF														
-Library Experimental Conditions Term Accession Number														
-Quality Control Description														
-														
-# Protocols														
-Protocol Name	growth protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol										
-Protocol Type	growth protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol										
-Protocol Type Term Source REF	EFO													
-Protocol Type Term Accession Number	EFO_0003789													
-Protocol Description	HeLa cells were obtained from ATCC and were maintained in DMEM supplemented with 10% fetal bovine serum and 1% penicillin/streptomycin. Plasmid transfection was performed using polyeth_ ylenimine reagent.	"A total of 15,483 human ORFs (Human ORFeome v5.1) already in pDONR223 vectors were first transferred into a Gateway_compatible destination vector containing the HA_Flag tag by LR reaction according to the manufacturerÕs protocol (Invitrogen). The products were transformed into DH5-alpha and the transformants were positively selected with Luria broth medium containing 100 _g/ml ampicillin. The plasmid DNAs were purified using a high quality 96_plasmid DNA purification kit (PureLink; Invitrogen)."												
-"A day before transfection, 6 _ 103 HeLa cells were seeded on 96_ well optical bottom plates (Thermo Fisher Scientific). Plasmid transfection was performed with the use of Lipofectamine 2000 (Invitrogen). 24 h after transfection, cells were subjected to ionizing radiation (IR; 10 Gy) and fixed with 3% paraformaldehyde 6 h later. Next, the cells were permeabilized with a 0.5% Triton X_100 solution and blocked with 3% BSA. Cells were then subjected to incubation with anti_Flag antibodies (1:5,000 dilution) for 2 h, after which they were washed extensively with PBS and incubated with rhodamine_conjugated secondary antibodies (Jackson ImmunoResearch Laboratories, Inc.) at room temperature for 1 h. Nuclei were counterstained with DAPI."""	Cells were subjected to automated imaging with the use of ImageXpress Micro (Molecular Devices) equipped with a 20x air objective lens (NA 0.75; Nikon) and a megapixel cooled charge?coupled device camera (CoolSNAP HQ 1.4; Photometrics). The fluorescence images were captured and analyzed using MetaXpress software.	"After capturing and analyzing all the images, we selected proteins forming nuclear foci from those that do not form nuclear foci for further characterization.  The secondary screen of proteins forming nuclear foci was conducted in untreated or IR_treated cells. Because 325 proteins con_ stitutively form nuclear foci in untreated or IR_treated cells, the validation of 325 proteins with nuclear foci localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in un_ treated cells. Considering that subcellular localizations of the various nuclear body markers we used are largely distinct from each other, we have not assessed colocalization of each gene with all six marker proteins se_ quentially. Instead, we scored a protein as positive for a particular nuclear body component in the case of it showing >70% overlapping with any marker protein. During the course of the analysis, we were aware that some proteins colocalize with both PML and paraspeckles, and therefore, we examined whether the identified PML proteins also localize to para_ speckles or vice versa. Eventually, eight proteins were found to localize in both nuclear subcompartments."												
-														
-														
-# Phenotypes														
-Phenotype Name	protein localized in an uncharacterized nuclear subcompartment	protein localized in Cajal bodies	protein localized in nuclear speckles	protein localized in nucleolus	protein localized in paraspeckles	protein localized in PML bodies 	protein localized in polycomb bodies	protein localized in Sam68 nuclear bodies						
-Phenotype Description	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells.	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells						
-Phenotype Score Type	automated then manual	automated then manual	automated then manual	automated then manual	automated then manual	automated then manual	automated then manual	automated then manual						
-Phenotype Term Source REF	CMPO	CMPO	CMPO	CMPO	CMPO									
-Phenotype Term Name	protein localized in nucleus phenotype	protein localized in Cajal body phenotype	protein localized in nuclear speckle phenotype	protein localized in nucleolus phenotype	protein localized in paraspeckle phenotype	protein localized in PML body phenotype	protein localized in polycomb body phenotype	protein localized in Sam68 nuclear body phenotype						
-Phenotype Term Accession	CMPO_0000398	CMPO_0000404	CMPO_0000405	CMPO_0000397	CMPO_0000406	CMPO_0000407	CMPO_0000408	CMPO_0000409						
-														
-# Raw Data Files														
-Raw Image Data Type	image													
-Raw Image Data Format	Molecular Devices MetaXpress													
-Raw Image Channels	DAPI:nuclei	TRITC:HA_Flag tagged protein												
-Raw Image Organization	169 x 96 well plates. Up to 16 fields per well. Each well contains a different tagged ORF.  There may be more than one (different) ORF per gene.													
-														
-# Feature Level Data Files														
-Feature Level Data File Name														
-Feature Level Data File Description														
-Feature Level Data File Format														
-Feature Level Data Column Name														
-Feature Level Data Column Description														
-														
-#  Processed Data Files 														
-Processed Data File Name	idr0006-screenA-processed.txt													
-Processed Data File Format	tab-delimited text													
-Processed Data File Description	This file gives information about which proteins were identified as being localized within the nucleus in the primary screen and information from a secondary validation screen in which the localization was further determined by costaining with various nuclear foci or nuclear body markers or based on the distinct nucleolus morphology.													
-Processed Data Genome Build For Target Genes														
-Processed Data Column Name	hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Description	Scored as nuclear foci at initial stage	Subcellular localization based on secondary screening	Scored subcellular localization by secondary screening	Phenotype						
-Processed Data Column Type	Reagent Identifier	Gene Identifier	Gene Symbol	Gene Description	Data	Data	Data	Phenotype						
-Processed Data Column Annotation Level					Single replicate of reagent	Single replicate of reagent	Single replicate of reagent	Single replicate of reagent						
-Processed Data Column Description	The hORFeome V5.1 identifier for the gene that was tagged.	The Entrez identifier for the target gene.	The symbol associated with the target gene.	The description of the ORF. 	Whether the tagged protein from this ORF was identified as having nuclear localization in the automated analysis of images from the primary screen.	Whether the tagged protein from this ORF was identified as having nuclear localization in the secondary (manual) screen (no images).	The marker the tagged protein from this ORF co-localizes with or the subcellular localization determined by nucleolus morphology. 	The phenotype seen for the ORF based on the primary and secondary screens.						
-Processed Data Column Source Database	hORFeome Database	Entrez												
-Processed Data Column Source Stem URL	http://horfdb.dfci.harvard.edu/hv5/index.php?page=getresults&by=detail&qury=	http://www.ncbi.nlm.nih.gov/gene/												
-Processed Data Column Link To Library File	hORFeome V5.1 Identifier													
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"															
+# Study															
+Comment[IDR Study Accession]	idr0006														
+Study Title	Whole-genome screening identifies proteins localized to distinct nuclear bodies														
+Study Type	high content screen														
+Study Type Term Source REF	EFO														
+Study Type Term Accession Number	EFO_0005397														
+Study Description	"The nucleus is a unique organelle that contains essential genetic materials in chromosome territories. The interchromatin space is composed of nuclear subcompartments, which are defined by several distinctive nuclear bodies believed to be factories of DNA or RNA processing and sites of transcriptional and/or posttranscriptional regulation. In this paper, we performed a genome-wide microscopy-based screening for proteins that form nuclear foci and characterized their localizations using markers of known nuclear bodies. In total, we identified 325 proteins localized to distinct nuclear bodies, including nucleoli (148), promyelocytic leukemia nuclear bodies (38), nuclear speckles (27), paraspeckles (24), Cajal bodies (17), Sam68 nuclear bodies (5), Polycomb bodies (2), and uncharacterized nuclear bodies (64). Functional validation revealed several proteins potentially involved in the assembly of Cajal bodies and paraspeckles. Together, these data establish the first atlas of human proteins in different nuclear bodies and provide key information for research on nuclear bodies."														
+Study Organism	Homo sapiens														
+Study Organism Term Source REF	ncbi_taxonomy														
+Study Organism Term Accession Number	NCBITaxon_9606														
+Study Screens Number	1														
+Study External URL															
+Study Public Release Date	2015-05-01														
+															
+# Study Publication															
+Study PubMed ID	24127217														
+Study Publication Title	Whole-genome screening identifies proteins localized to distinct nuclear bodies														
+Study Author List	"Fong KW, Li Y, Wang W, Ma W, Li K, Qi RZ, Liu D, Songyang Z, Chen J."														
+Study PMC ID	PMC3798253														
+Study DOI	http://dx.doi.org/10.1083/jcb.201303145														
+															
+# Study Contacts															
+Study Person Last Name	Chen 														
+Study Person First Name	Junjie 														
+Study Person Email	jchen8@mdanderson.org														
+Study Person Address	"Department of Experimental Radiation Oncology, Division of Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, Texas, USA"														
+Study Person Roles	submitter														
+															
+Term Source Name	ncbi_taxonomy	EFO	CMPO												
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/												
+															
+Additional File	idr0006-additional.txt														
+Additional File description	This file gives information about the plate layout and results from the manual secondary screen of proteins with nuclear foci in the automated primary screen. There are no images available for this secondary screen.														
+															
+															
+"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."															
+# Screen; this section should be repeated if a study contains multiple screens															
+															
+Screen Number	1														
+Comment[IDR Screen Name]	idr0006-fong-nuclearbodies/screenA														
+Screen Description	"A whole-genome screening for proteins localized to distinct nuclear bodies using 15,483 ORFs in the Human ORFeome Library.  "														
+Screen Technology Type	protein screen														
+Screen Technology Term Source REF															
+Screen Technology Term Accession Number															
+Screen Type	primary screen														
+Screen Type Term Source REF															
+Screen Type Term Accession															
+Screen Experiment Type															
+Screen Target Organism	Homo sapiens														
+															
+# Study materials															
+Cell Line or Strain	HeLa														
+Cell Line of Strain Term Source REF	EFO														
+Cell Line of Strain Term Accession Number	EFO_0001185														
+															
+"# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)"															
+Library File Name	idr0006-screenA-library.txt														
+Library File Format	tab-delimited text														
+Library Type	HA-Flag protein fusion library														
+Library Type Term Source REF															
+Library Type Term Accession Number															
+Library Manufacturer	http://horfdb.dfci.harvard.edu/hv5/														
+Library Version	Human ORFeome v5.1														
+Library Assembly 															
+Library Experimental Conditions	none														
+Library Experimental Conditions Term Source REF															
+Library Experimental Conditions Term Accession Number															
+Quality Control Description															
+															
+# Protocols															
+Protocol Name	growth protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol											
+Protocol Type	growth protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol											
+Protocol Type Term Source REF	EFO														
+Protocol Type Term Accession Number	EFO_0003789														
+Protocol Description	HeLa cells were obtained from ATCC and were maintained in DMEM supplemented with 10% fetal bovine serum and 1% penicillin/streptomycin. Plasmid transfection was performed using polyeth_ ylenimine reagent.	"A total of 15,483 human ORFs (Human ORFeome v5.1) already in pDONR223 vectors were first transferred into a Gateway_compatible destination vector containing the HA_Flag tag by LR reaction according to the manufacturerÕs protocol (Invitrogen). The products were transformed into DH5-alpha and the transformants were positively selected with Luria broth medium containing 100 _g/ml ampicillin. The plasmid DNAs were purified using a high quality 96_plasmid DNA purification kit (PureLink; Invitrogen)."													
+"A day before transfection, 6 _ 103 HeLa cells were seeded on 96_ well optical bottom plates (Thermo Fisher Scientific). Plasmid transfection was performed with the use of Lipofectamine 2000 (Invitrogen). 24 h after transfection, cells were subjected to ionizing radiation (IR; 10 Gy) and fixed with 3% paraformaldehyde 6 h later. Next, the cells were permeabilized with a 0.5% Triton X_100 solution and blocked with 3% BSA. Cells were then subjected to incubation with anti_Flag antibodies (1:5,000 dilution) for 2 h, after which they were washed extensively with PBS and incubated with rhodamine_conjugated secondary antibodies (Jackson ImmunoResearch Laboratories, Inc.) at room temperature for 1 h. Nuclei were counterstained with DAPI."""	Cells were subjected to automated imaging with the use of ImageXpress Micro (Molecular Devices) equipped with a 20x air objective lens (NA 0.75; Nikon) and a megapixel cooled charge?coupled device camera (CoolSNAP HQ 1.4; Photometrics). The fluorescence images were captured and analyzed using MetaXpress software.	"After capturing and analyzing all the images, we selected proteins forming nuclear foci from those that do not form nuclear foci for further characterization.  The secondary screen of proteins forming nuclear foci was conducted in untreated or IR_treated cells. Because 325 proteins con_ stitutively form nuclear foci in untreated or IR_treated cells, the validation of 325 proteins with nuclear foci localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in un_ treated cells. Considering that subcellular localizations of the various nuclear body markers we used are largely distinct from each other, we have not assessed colocalization of each gene with all six marker proteins se_ quentially. Instead, we scored a protein as positive for a particular nuclear body component in the case of it showing >70% overlapping with any marker protein. During the course of the analysis, we were aware that some proteins colocalize with both PML and paraspeckles, and therefore, we examined whether the identified PML proteins also localize to para_ speckles or vice versa. Eventually, eight proteins were found to localize in both nuclear subcompartments."													
+															
+															
+# Phenotypes															
+Phenotype Name	protein localized in an uncharacterized nuclear subcompartment	protein localized in Cajal bodies	protein localized in nuclear speckles	protein localized in nucleolus	protein localized in paraspeckles	protein localized in PML bodies 	protein localized in polycomb bodies	protein localized in Sam68 nuclear bodies							
+Phenotype Description	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells.	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells	Proteins forming nuclear foci were determined using automated imaging and then validation and sub compartmental localization was conducted manually using various markers of nuclear bodies or distinct nucleolus morphology in untreated cells							
+Phenotype Score Type	automated then manual	automated then manual	automated then manual	automated then manual	automated then manual	automated then manual	automated then manual	automated then manual							
+Phenotype Term Source REF	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO							
+Phenotype Term Name	protein localized in nucleus phenotype	protein localized in Cajal body phenotype	protein localized in nuclear speckle phenotype	protein localized in nucleolus phenotype	protein localized in paraspeckle phenotype	protein localized in PML body phenotype	protein localized in polycomb body phenotype	protein localized in Sam68 nuclear body phenotype							
+Phenotype Term Accession	CMPO_0000398	CMPO_0000404	CMPO_0000405	CMPO_0000397	CMPO_0000406	CMPO_0000407	CMPO_0000408	CMPO_0000409							
+															
+# Raw Data Files															
+Raw Image Data Type	image														
+Raw Image Data Format	Molecular Devices MetaXpress														
+Raw Image Channels	DAPI:nuclei	TRITC:HA_Flag tagged protein													
+Raw Image Organization	169 x 96 well plates. Up to 16 fields per well. Each well contains a different tagged ORF.  There may be more than one (different) ORF per gene.														
+															
+# Feature Level Data Files															
+Feature Level Data File Name															
+Feature Level Data File Description															
+Feature Level Data File Format															
+Feature Level Data Column Name															
+Feature Level Data Column Description															
+															
+#  Processed Data Files 															
+Processed Data File Name	idr0006-screenA-processed.txt														
+Processed Data File Format	tab-delimited text														
+Processed Data File Description	This file gives information about which proteins were identified as being localized within the nucleus in the primary screen and information from a secondary validation screen in which the localization was further determined by costaining with various nuclear foci or nuclear body markers or based on the distinct nucleolus morphology.														
+Processed Data Genome Build For Target Genes															
+Processed Data Column Name	hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Gene Description	Scored as nuclear foci at initial stage	Subcellular localization based on secondary screening	Scored subcellular localization by secondary screening	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8
+Processed Data Column Type	Reagent Identifier	Gene Identifier	Gene Symbol	Gene Description	Data	Data	Data	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype
+Processed Data Column Annotation Level					Single replicate of reagent	Single replicate of reagent	Single replicate of reagent	Single replicate of reagent	Single replicate of reagent	Single replicate of reagent	Single replicate of reagent	Single replicate of reagent	Single replicate of reagent	Single replicate of reagent	Single replicate of reagent
+Processed Data Column Description	The hORFeome V5.1 identifier for the gene that was tagged.	The Entrez identifier for the target gene.	The symbol associated with the target gene.	The description of the ORF. 	Whether the tagged protein from this ORF was identified as having nuclear localization in the automated analysis of images from the primary screen.	Whether the tagged protein from this ORF was identified as having nuclear localization in the secondary (manual) screen (no images).	The marker the tagged protein from this ORF co-localizes with or the subcellular localization determined by nucleolus morphology. 	The phenotype seen for the ORF based on the primary and secondary screens.	The phenotype seen for the ORF based on the primary and secondary screens.	The phenotype seen for the ORF based on the primary and secondary screens.	The phenotype seen for the ORF based on the primary and secondary screens.	The phenotype seen for the ORF based on the primary and secondary screens.	The phenotype seen for the ORF based on the primary and secondary screens.	The phenotype seen for the ORF based on the primary and secondary screens.	The phenotype seen for the ORF based on the primary and secondary screens.
+Processed Data Column Source Database	hORFeome Database	Entrez													
+Processed Data Column Source Stem URI	http://horfdb.dfci.harvard.edu/hv5/index.php?page=getresults&by=detail&qury=	http://www.ncbi.nlm.nih.gov/gene/													
+Processed Data Column Link To Library File	hORFeome V5.1 Identifier														
