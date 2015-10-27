@@ -11,7 +11,7 @@ Study Organism Term Source REF	ncbi_taxonomy
 Study Organism Term Accession Number	NCBITaxon_4932									
 Study Screens Number	1									
 Study External URL										
-Study Public Release Date	2015-05-01									
+Study Public Release Date	01/05/15									
 										
 # Study Publication										
 Study PubMed ID	21893595	18085829								
@@ -97,7 +97,7 @@ Processed Data File Name	idr0004-thorpe-rad52
 Processed Data File Format	tab-delimited text									
 Processed Data File Description	This file contains information about the percentage of cells with Rad52-YFP foci found in each deletion strain and which were identified to have elevated levels of foci compared to wild type strain BY4742.									
 Processed Data Genome Build For Target Genes										
-Processed Data Column Name	Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Number Of Cells	Number of Cells with Foci	Percentage Cells With Foci	Author Hit	Phenotype
+Processed Data Column Name	Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Number Of Cells	Number of Cells with Foci	Percentage Cells With Foci	Author Hit	Phenotype 1
 Processed Data Column Type	Location	Location	Location	Gene Identifier	Gene Symbol	Data	Data	Data	Data	Phenotype
 Processed Data Column Annotation Level						Well	Well	Well	Gene	Gene
 Processed Data Column Description	The plate the result comes from	The well the result comes from	"A combination of the plate name and well location, used to link library file information to processed data. "	The ORF identifier (from the Saccharomyces Genome Database (information linked via Ensembl)) for the deleted gene.	The symbol for the deleted gene.	The number of cells examined.	The number of cells which contain one or more Rad52-YFP foci.	The percentage of examined cells which contain Rad52-YFP foci.	Whether this deletion screen is identified as a gene of interest for further analysis. 	Phenotype observed among cells with this gene deletion
