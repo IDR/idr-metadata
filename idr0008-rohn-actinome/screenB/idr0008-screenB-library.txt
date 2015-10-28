@@ -1,4 +1,4 @@
-Plate	Well Number	Well	Plate_Well	siRNA Identifier	siRNA Pool Name	Sense Sequence	siRNA Catalog Number	Gene Identifier	Ensembl 56 Gene Symbol	Control Type	Control Comments	Quality Control	Comments
+Plate	Well Number	Well	Plate_Well	siRNA Identifier	siRNA Pool Name	Sense Sequence	siRNA Catalog Number	Gene Identifier	Gene Symbol (Ens 56)	Control Type	Control Comments	Quality Control	Comments
 Plate1_Actinome1	1	A1	Plate1_Actinome1_A1										annotation not available
 Plate1_Actinome1	2	A2	Plate1_Actinome1_A2										annotation not available
 Plate1_Actinome1	3	A3	Plate1_Actinome1_A3	siCONTROL	siCONTROL					negative control	scrambled siRNA sequence		

@@ -33,262 +33,262 @@ columns:
     include: yes
   - name: Phenotype 1
     include: yes
-  - name: Ontology Term Name 1
+  - name: Phenotype 1 Term Name
     include: yes 
-  - name: Term Source Accession 1
+  - name: Phenotype 1 Term Accession
     include: yes
-  - name: Term Source Accession 1
-    clientname: Term Source Accession 1 URL
+  - name: Phenotype 1 Term Accession
+    clientname: Phenotype 1 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 2
     include: yes
-  - name: Ontology Term Name 2
+  - name: Phenotype 2 Term Name
     include: yes
-  - name: Term Source Accession 2
+  - name: Phenotype 2 Term Accession
     include: yes
-  - name: Term Source Accession 2
-    clientname: Term Source Accession 2 URL
+  - name: Phenotype 2 Term Accession
+    clientname: Phenotype 2 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 3
     include: yes
-  - name: Ontology Term Name 3
+  - name: Phenotype 3 Term Name
     include: yes
-  - name: Term Source Accession 3
+  - name: Phenotype 3 Term Accession
     include: yes
-  - name: Term Source Accession 3
-    clientname: Term Source Accession 3 URL
+  - name: Phenotype 3 Term Accession
+    clientname: Phenotype 3 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 4
     include: yes
-  - name: Ontology Term Name 4
+  - name: Phenotype 4 Term Name
     include: yes
-  - name: Term Source Accession 4
+  - name: Phenotype 4 Term Accession
     include: yes
-  - name: Term Source Accession 4
-    clientname: Term Source Accession 4 URL
+  - name: Phenotype 4 Term Accession
+    clientname: Phenotype 4 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 5
     include: yes
-  - name: Ontology Term Name 5
+  - name: Phenotype 5 Term Name
     include: yes
-  - name: Term Source Accession 5
+  - name: Phenotype 5 Term Accession
     include: yes
-  - name: Term Source Accession 5
-    clientname: Term Source Accession 5 URL
+  - name: Phenotype 5 Term Accession
+    clientname: Phenotype 5 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 6
     include: yes
-  - name: Ontology Term Name 6
+  - name: Phenotype 6 Term Name
     include: yes
-  - name: Term Source Accession 6
+  - name: Phenotype 6 Term Accession
     include: yes
-  - name: Term Source Accession 6
-    clientname: Term Source Accession 6 URL
+  - name: Phenotype 6 Term Accession
+    clientname: Phenotype 6 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 7
     include: yes
-  - name: Ontology Term Name 7
+  - name: Phenotype 7 Term Name
     include: yes
-  - name: Term Source Accession 7
+  - name: Phenotype 7 Term Accession
     include: yes
-  - name: Term Source Accession 7
-    clientname: Term Source Accession 7 URL
+  - name: Phenotype 7 Term Accession
+    clientname: Phenotype 7 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 8
     include: yes
-  - name: Ontology Term Name 8
+  - name: Phenotype 8 Term Name
     include: yes
-  - name: Term Source Accession 8
+  - name: Phenotype 8 Term Accession
     include: yes
-  - name: Term Source Accession 8
-    clientname: Term Source Accession 8 URL
+  - name: Phenotype 8 Term Accession
+    clientname: Phenotype 8 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 9
     include: yes
-  - name: Ontology Term Name 9
+  - name: Phenotype 9 Term Name
     include: yes
-  - name: Term Source Accession 9
+  - name: Phenotype 9 Term Accession
     include: yes
-  - name: Term Source Accession 9
-    clientname: Term Source Accession 9 URL
+  - name: Phenotype 9 Term Accession
+    clientname: Phenotype 9 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 10
     include: yes
-  - name: Ontology Term Name 10
+  - name: Phenotype 10 Term Name
     include: yes
-  - name: Term Source Accession 10
+  - name: Phenotype 10 Term Accession
     include: yes
-  - name: Term Source Accession 10
-    clientname: Term Source Accession 10 URL
+  - name: Phenotype 10 Term Accession
+    clientname: Phenotype 10 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 11
     include: yes
-  - name: Ontology Term Name 11
+  - name: Phenotype 11 Term Name
     include: yes
-  - name: Term Source Accession 11
+  - name: Phenotype 11 Term Accession
     include: yes
-  - name: Term Source Accession 11
-    clientname: Term Source Accession 11 URL
+  - name: Phenotype 11 Term Accession
+    clientname: Phenotype 11 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 12
     include: yes
-  - name: Ontology Term Name 12
+  - name: Phenotype 12 Term Name
     include: yes
-  - name: Term Source Accession 12
+  - name: Phenotype 12 Term Accession
     include: yes
-  - name: Term Source Accession 12
-    clientname: Term Source Accession 12 URL
+  - name: Phenotype 12 Term Accession
+    clientname: Phenotype 12 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 13
     include: yes
-  - name: Ontology Term Name 13
+  - name: Phenotype 13 Term Name
     include: yes
-  - name: Term Source Accession 13
+  - name: Phenotype 13 Term Accession
     include: yes
-  - name: Term Source Accession 13
-    clientname: Term Source Accession 13 URL
+  - name: Phenotype 13 Term Accession
+    clientname: Phenotype 13 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 14
     include: yes
-  - name: Ontology Term Name 14
+  - name: Phenotype 14 Term Name
     include: yes
-  - name: Term Source Accession 14
+  - name: Phenotype 14 Term Accession
     include: yes
-  - name: Term Source Accession 14
-    clientname: Term Source Accession 14 URL
+  - name: Phenotype 14 Term Accession
+    clientname: Phenotype 14 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 15
     include: yes
-  - name: Ontology Term Name 15
+  - name: Phenotype 15 Term Name
     include: yes
-  - name: Term Source Accession 15
+  - name: Phenotype 15 Term Accession
     include: yes
-  - name: Term Source Accession 15
-    clientname: Term Source Accession 15 URL
+  - name: Phenotype 15 Term Accession
+    clientname: Phenotype 15 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 16
     include: yes
-  - name: Ontology Term Name 16
+  - name: Phenotype 16 Term Name
     include: yes
-  - name: Term Source Accession 16
+  - name: Phenotype 16 Term Accession
     include: yes
-  - name: Term Source Accession 16
-    clientname: Term Source Accession 16 URL
+  - name: Phenotype 16 Term Accession
+    clientname: Phenotype 16 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 17
     include: yes
-  - name: Ontology Term Name 17
+  - name: Phenotype 17 Term Name
     include: yes
-  - name: Term Source Accession 17
+  - name: Phenotype 17 Term Accession
     include: yes
-  - name: Term Source Accession 17
-    clientname: Term Source Accession 17 URL
+  - name: Phenotype 17 Term Accession
+    clientname: Phenotype 17 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 18
     include: yes
-  - name: Ontology Term Name 18
+  - name: Phenotype 18 Term Name
     include: yes
-  - name: Term Source Accession 18
+  - name: Phenotype 18 Term Accession
     include: yes
-  - name: Term Source Accession 18
-    clientname: Term Source Accession 18 URL
+  - name: Phenotype 18 Term Accession
+    clientname: Phenotype 18 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 19
     include: yes
-  - name: Ontology Term Name 19
+  - name: Phenotype 19 Term Name
     include: yes
-  - name: Term Source Accession 19
+  - name: Phenotype 19 Term Accession
     include: yes
-  - name: Term Source Accession 19
-    clientname: Term Source Accession 19 URL
+  - name: Phenotype 19 Term Accession
+    clientname: Phenotype 19 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 20
     include: yes
-  - name: Ontology Term Name 20
+  - name: Phenotype 20 Term Name
     include: yes
-  - name: Term Source Accession 20
+  - name: Phenotype 20 Term Accession
     include: yes
-  - name: Term Source Accession 20
-    clientname: Term Source Accession 20 URL
+  - name: Phenotype 20 Term Accession
+    clientname: Phenotype 20 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 21
     include: yes
-  - name: Ontology Term Name 21
+  - name: Phenotype 21 Term Name
     include: yes
-  - name: Term Source Accession 21
+  - name: Phenotype 21 Term Accession
     include: yes
-  - name: Term Source Accession 21
-    clientname: Term Source Accession 21 URL
+  - name: Phenotype 21 Term Accession
+    clientname: Phenotype 21 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 22
     include: yes
-  - name: Ontology Term Name 22
+  - name: Phenotype 22 Term Name
     include: yes
-  - name: Term Source Accession 22
+  - name: Phenotype 22 Term Accession
     include: yes
-  - name: Term Source Accession 22
-    clientname: Term Source Accession 22 URL
+  - name: Phenotype 22 Term Accession
+    clientname: Phenotype 22 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 23
     include: yes
-  - name: Ontology Term Name 23
+  - name: Phenotype 23 Term Name
     include: yes
-  - name: Term Source Accession 23
+  - name: Phenotype 23 Term Accession
     include: yes
-  - name: Term Source Accession 23
-    clientname: Term Source Accession 23 URL
+  - name: Phenotype 23 Term Accession
+    clientname: Phenotype 23 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 24
     include: yes
-  - name: Ontology Term Name 24
+  - name: Phenotype 24 Term Name
     include: yes
-  - name: Term Source Accession 24
+  - name: Phenotype 24 Term Accession
     include: yes
-  - name: Term Source Accession 24
-    clientname: Term Source Accession 24 URL
+  - name: Phenotype 24 Term Accession
+    clientname: Phenotype 24 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 25
     include: yes
-  - name: Ontology Term Name 25
+  - name: Phenotype 25 Term Name
     include: yes
-  - name: Term Source Accession 25
+  - name: Phenotype 25 Term Accession
     include: yes
-  - name: Term Source Accession 25
-    clientname: Term Source Accession 25 URL
+  - name: Phenotype 25 Term Accession
+    clientname: Phenotype 25 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 26
     include: yes
-  - name: Ontology Term Name 26
+  - name: Phenotype 26 Term Name
     include: yes
-  - name: Term Source Accession 26
+  - name: Phenotype 26 Term Accession
     include: yes
-  - name: Term Source Accession 26
-    clientname: Term Source Accession 26 URL
+  - name: Phenotype 26 Term Accession
+    clientname: Phenotype 26 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
 
