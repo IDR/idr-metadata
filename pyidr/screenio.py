@@ -7,11 +7,12 @@ class ScreenWriter(object):
     PLATE = "Plate"
     WELL = "Well %d"
 
-    def __init__(self, name, rows, columns, fields):
+    def __init__(self, name, rows, columns, fields, screen_name=None):
         self.name = name
         self.rows = int(rows)
         self.columns = int(columns)
         self.fields = int(fields)
+        self.screen_name = screen_name
         self.alpha_map = dict(enumerate(string.uppercase))
         self.reset()
 
@@ -27,6 +28,8 @@ class ScreenWriter(object):
         self.cp.set(self.PLATE, "Rows", "%d" % self.rows)
         self.cp.set(self.PLATE, "Columns", "%d" % self.columns)
         self.cp.set(self.PLATE, "Fields", "%d" % self.fields)
+        if self.screen_name:
+            self.cp.set(self.PLATE, "ScreenName", self.screen_name)
 
     def index1d(self, i, j):
         return i * self.columns + j
