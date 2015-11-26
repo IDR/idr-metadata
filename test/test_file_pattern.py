@@ -55,8 +55,8 @@ class TestBlock(unittest.TestCase):
 class TestPattern(unittest.TestCase):
 
     def setUp(self):
-        self.blocks = ["<0-5>", "<r,g,b>", "<10-30:10>"]
-        self.string_pattern = "z%sc%st%s" % tuple(self.blocks)
+        self.blocks = ["0-5", "r,g,b", "10-30:10"]
+        self.string_pattern = "z<%s>c<%s>t<%s>" % tuple(self.blocks)
         self.pattern = fp.FilePattern(self.string_pattern)
 
     def runTest(self):
@@ -64,7 +64,7 @@ class TestPattern(unittest.TestCase):
 
 
 def load_tests(loader, tests, pattern):
-    test_cases = (TestRange, TestBlock)
+    test_cases = (TestRange, TestBlock, TestPattern)
     suite = unittest.TestSuite()
     for tc in test_cases:
         suite.addTests(loader.loadTestsFromTestCase(tc))
