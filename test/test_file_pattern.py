@@ -55,12 +55,37 @@ class TestBlock(unittest.TestCase):
 class TestPattern(unittest.TestCase):
 
     def setUp(self):
-        self.blocks = ["0-5", "r,g,b", "10-30:10"]
-        self.string_pattern = "z<%s>c<%s>t<%s>" % tuple(self.blocks)
+        self.blocks = ["0-1", "R,G,B", "10-30:10"]
+        self.string_pattern = "z<%s>c<%s>t<%s>.tif" % tuple(self.blocks)
         self.pattern = fp.FilePattern(self.string_pattern)
+        self.expected_fnames = [
+            "z0cRt10.tif",
+            "z0cRt20.tif",
+            "z0cRt30.tif",
+            "z0cGt10.tif",
+            "z0cGt20.tif",
+            "z0cGt30.tif",
+            "z0cBt10.tif",
+            "z0cBt20.tif",
+            "z0cBt30.tif",
+            "z1cRt10.tif",
+            "z1cRt20.tif",
+            "z1cRt30.tif",
+            "z1cGt10.tif",
+            "z1cGt20.tif",
+            "z1cGt30.tif",
+            "z1cBt10.tif",
+            "z1cBt20.tif",
+            "z1cBt30.tif",
+        ]
 
-    def runTest(self):
+    def test_blocks(self):
         self.assertEqual(self.pattern.blocks(), self.blocks)
+
+    def test_filenames(self):
+        self.assertEqual(
+            set(self.pattern.filenames()), set(self.expected_fnames)
+        )
 
 
 def load_tests(loader, tests, pattern):

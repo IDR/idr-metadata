@@ -6,6 +6,7 @@ www.openmicroscopy.org/site/support/bio-formats5.1/formats/pattern-file.html
 
 import re
 import string
+from itertools import product, izip_longest
 
 
 class InvertedRangeError(Exception):
@@ -73,4 +74,7 @@ class FilePattern(object):
     def blocks(self):
         return re.findall(r"<(.+?)>", self.pattern)
 
-    # TODO: add iterator through expanded filenames
+    def filenames(self):
+        fixed = re.split(r"<.+?>", self.pattern)
+        for repl in product(*(expand_block(_) for _ in self.blocks())):
+            yield "".join(sum(izip_longest(fixed, repl, fillvalue=""), ()))
