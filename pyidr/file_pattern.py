@@ -67,14 +67,10 @@ def expand_block(block):
 
 class FilePattern(object):
 
-    BLOCK_START = "<"
-    BLOCK_END = ">"
-    BLOCK = re.compile(r"<(.+?)>")
-
     def __init__(self, pattern):
         self.pattern = pattern
 
     def blocks(self):
-        return re.findall(self.BLOCK, self.pattern)
+        return re.findall(r"<(.+?)>", self.pattern)
 
     # TODO: add iterator through expanded filenames
