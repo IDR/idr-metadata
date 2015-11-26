@@ -30,7 +30,7 @@ def main(argv):
             for fn in FilePattern(pattern).filenames():
                 if os.path.exists(fn):
                     continue
-                sys.stderr.write("ERROR[%s|%s]: missing %r)\n" % (sec, k, fn))
+                sys.stderr.write("ERROR[%s|%s]: missing %r\n" % (sec, k, fn))
 
 
 if __name__ == "__main__":
