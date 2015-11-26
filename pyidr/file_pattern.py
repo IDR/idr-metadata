@@ -41,6 +41,7 @@ def expand_range(r):
     except ValueError:
         return [r]
     try:
+        start_str = start
         start = int(start)
     except ValueError:
         try:
@@ -48,12 +49,16 @@ def expand_range(r):
         except InvertedRangeError:
             raise ValueError("inverted range: %s" % r)
     else:
+        stop_str = stop
         stop = int(stop) + 1
         if stop <= start:
             raise ValueError("inverted range: %s" % r)
         step = int(step)
-        # TODO: support leading zeros
-        return map(str, range(start, stop, step))
+        if len(start_str) != len(stop_str):
+            return map(str, range(start, stop, step))
+        else:
+            fmt = "%%0%dd" % len(start_str)
+            return [fmt % _ for _ in xrange(start, stop, step)]
 
 
 def expand_block(block):

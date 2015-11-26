@@ -13,10 +13,14 @@ class TestRange(unittest.TestCase):
             ("A-e", ValueError),
             ("2-1", ValueError),
             ("B-A", ValueError),
+            ("1-k", ValueError),
+            ("a-9", ValueError),
         ]
         self.good = [
             ("9", ["9"]),
             ("0-2", ["0", "1", "2"]),
+            ("9-11", ["9", "10", "11"]),
+            ("09-11", ["09", "10", "11"]),
             ("1-5:2", ["1", "3", "5"]),
             ("Q", ["Q"]),
             ("A-C", ["A", "B", "C"]),
