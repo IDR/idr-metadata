@@ -25,7 +25,7 @@ columns:
     include: yes
   - name: siRNA Identifier
     clientname: siRNA Identifier URL
-    clientvalue:http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname={{ value }}
+    clientvalue: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname={{ value }}
     include: yes
   - name: Gene Identifier
     include: yes
