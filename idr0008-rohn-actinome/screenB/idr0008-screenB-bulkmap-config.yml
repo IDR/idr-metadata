@@ -31,7 +31,7 @@ columns:
     include: yes
   - name: Gene Identifier
     clientname: Gene Identifier URL
-    clientvalue: http://www.ncbi.nlm.nih.gov/nuccore/accession/{{ value }}
+    clientvalue: http://www.ncbi.nlm.nih.gov/nuccore/{{ value }}
     include: yes
   - name: Gene Symbol (Ensembl 56)
     include: yes
