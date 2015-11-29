@@ -375,7 +375,7 @@ columns:
     clientname: Phenotype 34 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
-   - name: Phenotype 35
+  - name: Phenotype 35
     include: yes
   - name: Phenotype 35 Term Name
     include: yes
