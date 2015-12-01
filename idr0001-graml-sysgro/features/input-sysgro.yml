@@ -23,9 +23,20 @@ screenid: 1
 # Regular expression for extracting the acquisition (run) name
 acqnamere: Meas_\d+
 
-features: sysgroFeature_repeat1.tsv
+features: smc_data_with_header_190515.tsv
 progresslist: sysgro_progress.txt
 errorlist: sysgro_errors.txt
+
+# Ignore these rows (0-based row-index), must be a list
+ignorerows: [1, 2]
+
+# Ignore these columns (names), must be a list
+# Columns in smc_data_with_header_190515.tsv that aren't in sysgroFeature_repeat1.tsv
+ignorecolumns:
+    - cellID
+    - geneID
+    - imageID
+    - posID
 
 metadatacolumns:
     - reference: str
