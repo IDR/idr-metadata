@@ -208,15 +208,19 @@ def config(f):
     return y
 
 
-def load_features(f, metadatacols=None, roicol=None, **kwargs):
-    # Autoconvert all except metddata columns which are explicitly typed
+def load_features(
+        f, metadatacols=None, roicol=None, ignorecols=None, **kwargs):
+    # Autoconvert all except metadata columns which are explicitly typed
     dtypes = dict(kv for m in metadatacols for kv in m.iteritems())
     colnames = [k for m in metadatacols for k in m.keys()]
     df = pandas.read_table(f, dtype=dtypes, **kwargs)
 
     assert all(m in df.columns for m in colnames)
     selmeta = [(c in colnames and c != roicol) for c in df.columns]
-    selvals = [(c not in colnames and c != roicol) for c in df.columns]
+    if not ignorecols:
+        ignorecols = []
+    selvals = [(c not in colnames and c != roicol and c not in ignorecols)
+               for c in df.columns]
 
     dfmeta = df.iloc[:, selmeta]
     dfvals = df.iloc[:, selvals]
@@ -292,14 +296,17 @@ def create_feature_table(session, objtype, objid, meta, vals):
             raise Exception('Unexpected type: %s' % t)
     ftdesc = list(vals.columns)
 
-    uid = session.getAdminService().getEventContext().userId
-    fts = features.OmeroTablesFeatureStore.FeatureTable(
-        session, 'FEATURES-TEST.h5', FEATURE_NS, FEATURE_ANN_NS, uid,
-        noopen=True)
-    fts.new_table(metadesc, ftdesc)
-    fts.create_file_annotation(
-        objtype, long(objid), FEATURE_ANN_NS,
-        fts.get_table().getOriginalFile())
+#    uid = session.getAdminService().getEventContext().userId
+#    fts = features.OmeroTablesFeatureStore.FeatureTable(
+#        session, 'FEATURES-TEST.h5', FEATURE_NS, FEATURE_ANN_NS, uid,
+#        noopen=True)
+#    fts.new_table(metadesc, ftdesc)
+#    fts.create_file_annotation(
+#        objtype, long(objid), FEATURE_ANN_NS,
+#        fts.get_table().getOriginalFile())
+    fts = features.OmeroTablesFeatureStore.new_table(
+        session, 'FEATURES-TEST.h5', FEATURE_NS, FEATURE_ANN_NS,
+        metadesc, ftdesc, '%s:%s' % (objtype, objid))
     return fts
 
 
@@ -313,8 +320,13 @@ def create_feature(fts, ids, ms, vs):
 
 
 def get_dataframe(cfg, **kwargs):
+    skiprows = cfg.get('skiprows')
+    if skiprows:
+        kwargs['skiprows'] = skiprows
+
     dfmeta, dfvals, dfroi = load_features(
-        cfg['features'], cfg['metadatacolumns'], cfg['roicolumn'], **kwargs)
+        cfg['features'], cfg['metadatacolumns'], cfg['roicolumn'],
+        cfg.get('ignorecols', None), **kwargs)
     # print dfmeta.dtypes.to_string()
     # print dfvals.dtypes.to_string()
     # print dfroi.dtypes
@@ -348,6 +360,7 @@ def run(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
     else:
         for platename in screenimages.plates.keys():
             run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname)
+    print 'Completed'
 
 
 def run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
@@ -386,7 +399,7 @@ def run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
 if len(sys.argv) > 1:
     cfg = config(sys.argv[1])
 else:
-    cfg = config('input.yml')
+    raise RuntimeError('Input YAML configuraiton required')
 
 # Nobody said it was easy....
 # Sometimes the string 'null' is used instead of an empty string
@@ -395,7 +408,9 @@ dfargs = {'na_values': ['null'], 'keep_default_na': True}
 dfmeta, dfvals, dfroi = get_dataframe(cfg, **dfargs)
 
 # Hopefully all values are numeric
-assert set(dfvals.dtypes) == {np.dtype('int64'), np.dtype('float64')}
+assert not set(dfvals.dtypes).difference(
+    {np.dtype('int64'), np.dtype('float64')})
+
 
 scfg = cfg['server']
 proxy = scfg.get('socksproxy', {})
@@ -432,3 +447,5 @@ else:
     p = ProgressRecord(cfg['progresslist'])
     run(p, session, fts, *args)
     fts.close()
+
+client.closeSession()
