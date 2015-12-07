@@ -271,9 +271,8 @@ def get_feature_table(session, objtype, objid):
     tid = unwrap(tid)
     assert len(tid) <= 1
     if tid:
-        uid = session.getAdminService().getEventContext().userId
-        fts = features.OmeroTablesFeatureStore.FeatureTable(
-            session, '', FEATURE_NS, FEATURE_ANN_NS, uid, ofileid=tid[0][0])
+        fts = features.OmeroTablesFeatureStore.open_table(
+            session, tid[0][0], FEATURE_ANN_NS)
         return fts
     return None
 
@@ -399,7 +398,7 @@ def run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
 if len(sys.argv) > 1:
     cfg = config(sys.argv[1])
 else:
-    raise RuntimeError('Input YAML configuraiton required')
+    raise RuntimeError('Input YAML configuration required')
 
 # Nobody said it was easy....
 # Sometimes the string 'null' is used instead of an empty string
@@ -410,7 +409,6 @@ dfmeta, dfvals, dfroi = get_dataframe(cfg, **dfargs)
 # Hopefully all values are numeric
 assert not set(dfvals.dtypes).difference(
     {np.dtype('int64'), np.dtype('float64')})
-
 
 scfg = cfg['server']
 proxy = scfg.get('socksproxy', {})
