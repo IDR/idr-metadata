@@ -1,19 +1,23 @@
 import unittest
 from cStringIO import StringIO
-from ConfigParser import ConfigParser
+from ConfigParser import ConfigParser, NoOptionError
 
 from pyidr.screenio import ScreenWriter
 
 
 class TestScreenWriter(unittest.TestCase):
 
-    def setUp(self):
+    def setUp(self, screen_name=None):
         fout = StringIO()
         self.name, self.rows, self.columns, self.fields = "Foo", 3, 4, 2
         self.size = self.rows * self.columns
         self.all_field_values = []
         self.extra_kv = {"Dimensions": "ZCT"}
-        writer = ScreenWriter(self.name, self.rows, self.columns, self.fields)
+        kwargs = {"screen_name": screen_name} if screen_name else {}
+        writer = ScreenWriter(
+            self.name, self.rows, self.columns, self.fields, **kwargs
+        )
+        self.screen_name = screen_name
         for i in xrange(self.size):
             field_values = ["%s_%02d_%d.fake" % (self.name, i, _)
                             for _ in xrange(self.fields)]
@@ -41,6 +45,10 @@ class TestScreenWriter(unittest.TestCase):
         ]:
             self.assertTrue(self.cp.has_option(sec, k))
             self.assertEqual(self.cp.get(sec, k), str(v))
+        if self.screen_name:
+            self.assertEqual(self.cp.get(sec, "ScreenName"), self.screen_name)
+        else:
+            self.assertRaises(NoOptionError, self.cp.get, sec, "ScreenName")
 
     def test_wells(self):
         for i in xrange(self.rows):
@@ -61,8 +69,14 @@ class TestScreenWriter(unittest.TestCase):
                         self.assertEqual(self.cp.get(sec, ek), ev)
 
 
+class TestScreenWriterName(TestScreenWriter):
+
+    def setUp(self):
+        super(TestScreenWriterName, self).setUp(screen_name="FooScreen")
+
+
 def load_tests(loader, tests, pattern):
-    test_cases = (TestScreenWriter,)
+    test_cases = (TestScreenWriter, TestScreenWriterName)
     suite = unittest.TestSuite()
     for tc in test_cases:
         suite.addTests(loader.loadTestsFromTestCase(tc))
