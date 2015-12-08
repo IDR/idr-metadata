@@ -29,8 +29,17 @@ columns:
     include: yes   
   - name: Gene Symbol
     include: yes
-  - name: Phenotype
+  - name: Phenotype 1
     include: yes
+  - name: Phenotype 1 Term Name 
+    include: yes
+  - name: Phenotype 1 Term Accession 
+    include: yes
+  - name: Phenotype 1 Term Accession
+    clientname: Phenotype 1 Term Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+    include: yes
+
 
 # Advanced options (experimental)
 advanced:
