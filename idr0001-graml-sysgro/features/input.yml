@@ -26,6 +26,12 @@ features: test-flex-features.tsv
 progresslist: test-flex-progress.txt
 errorlist: test-flex-errors.txt
 
+# Ignore these rows (0-based row-index), must be a list
+ignorerows: []
+
+# Ignore these columns (names), must be a list
+ignorecolumns:
+
 metadatacolumns:
     - reference: str
     - name: str
