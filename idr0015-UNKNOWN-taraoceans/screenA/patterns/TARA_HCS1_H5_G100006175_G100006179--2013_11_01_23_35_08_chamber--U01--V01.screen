@@ -282,7 +282,6 @@ Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_H
 [Well 55]
 Row = 3 
 Column = 1
-Field_0 = /idr/filesets/idr0015-UNKNOWN-taraoceans/20150918-tara/RAW_DATA/TARA_HCS1_H5_G100006175_G100006179--2013_11_01_23_35_08/slide--S00/chamber--U01--V01/field--X01--Y03/image--L00--S00--U01--V01--J08--E00--O00--X01--Y03--T00--Z<00-19>--C<00-04>.ome.tif
 
 [Well 56]
 Row = 3 
