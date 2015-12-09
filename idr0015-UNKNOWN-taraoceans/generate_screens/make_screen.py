@@ -16,11 +16,13 @@ SUB_PATTERN = re.compile(r"([A-Z])(\d+)")
 
 
 def find_pattern(d):
-    pattern = [".ome.tif"]
     char_map = OrderedDict()
     for fn in os.listdir(d):
         for c, n in re.findall(SUB_PATTERN, fn):
             char_map.setdefault(c, []).append(n)
+    if not char_map:
+        return None
+    pattern = [".ome.tif"]
     while char_map:
         c, values = char_map.popitem()
         fmt = "%%0%dd" % max(map(len, values))
@@ -43,11 +45,19 @@ def write_screen(data_dir, plate, outf, screen=None):
             subdir = os.path.join(data_dir, "field--X%02d--Y%02d" % (x, y))
             field_values = []
             if not os.path.isdir(subdir):
-                sys.stderr.write("WARNING: no subdir for X=%d, Y=%d (%s)\n" %
-                                 (x, y, subdir))
+                sys.stderr.write(
+                    "WARNING: no subdir for X=%d, Y=%d (%s)\n" %
+                    (x, y, subdir)
+                )
             else:
                 pattern = find_pattern(subdir)
-                field_values.append(os.path.join(subdir, pattern))
+                if pattern is not None:
+                    field_values.append(os.path.join(subdir, pattern))
+                else:
+                    sys.stderr.write(
+                        "WARNING: no images in subdir for X=%d, Y=%d (%s)\n" %
+                        (x, y, subdir)
+                    )
             writer.add_well(field_values)
     writer.write(outf)
 
