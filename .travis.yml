@@ -12,6 +12,7 @@ cache: pip
 
 install:
   - pip install PyYAML pandas flake8
+  - python setup.py install
 
 #before_script:
 #  - flake8 -v .
