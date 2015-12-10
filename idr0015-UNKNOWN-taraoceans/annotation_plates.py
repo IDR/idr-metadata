@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import omero
 from omero.rtypes import unwrap
 from omero.util.populate_metadata import BulkToMapAnnotationContext
 import pandas as pd
@@ -16,8 +17,8 @@ screenid = 151
 ns = omero.constants.namespaces.NSBULKANNOTATIONS + '/MapAnnotation'
 
 
-qs = client.getSession().getQueryService()
-us = client.getSession().getUpdateService()
+qs = client.getSession().getQueryService()  # noqa
+us = client.getSession().getUpdateService()  # noqa
 
 df = pd.read_csv(bulkcsv)
 

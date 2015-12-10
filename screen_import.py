@@ -15,16 +15,18 @@ assert exists(bin)
 
 parser = ArgumentParser()
 parser.add_argument("screen")
-parser.add_argument("--force",
+parser.add_argument(
+    "--force",
     action="store_true",
     default=False,
-    help="Re-import if necessary")
+    help="Re-import if necessary"
+)
 ns = parser.parse_args()
 
 command = [
-      bin, "import", "--",
-      "--checksum-algorithm=File-Size-64",
-      "--transfer=ln_s"
+    bin, "import", "--",
+    "--checksum-algorithm=File-Size-64",
+    "--transfer=ln_s"
 ]
 
 if not ns.force:
@@ -60,12 +62,10 @@ for plate in sorted(glob(plates)):
     print name, "-->", target
 
     if call(command + [
-      "--name=%s" % name,
-      "--target=Screen:name:%s/%s" % (study, screen),
-      "--transfer=ln_s", target]):
-          print "FAILED",
+            "--name=%s" % name,
+            "--target=Screen:name:%s/%s" % (study, screen),
+            "--transfer=ln_s", target]):
+        print "FAILED",
     else:
-          print "PASSED",
+        print "PASSED",
     print "=" * 40
-
-
