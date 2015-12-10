@@ -18,3 +18,4 @@ install:
 
 script:
   - python scripts/travis-check.py .
+  - python test/all_tests.py
