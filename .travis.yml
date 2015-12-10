@@ -14,8 +14,8 @@ install:
   - pip install PyYAML pandas flake8
   - python setup.py install
 
-#before_script:
-#  - flake8 -v .
+before_script:
+  - flake8 -v .
 
 script:
   - python scripts/travis-check.py .
