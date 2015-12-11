@@ -81,7 +81,6 @@ class ScreenWriter(ScreenIO):
             idx = self.index1d(i, j)
         if extra_kv is None:
             extra_kv = {}
-        #--
         sec = self.well_sec(idx)
         self.cp.add_section(sec)
         self.cp.set(sec, "Row", "%d" % i)
@@ -90,7 +89,6 @@ class ScreenWriter(ScreenIO):
             self.cp.set(sec, k, v)
         for f, v in enumerate(field_values):
             self.cp.set(sec, "Field_%d" % f, v)
-        #--
         self.__well_count += 1
 
     def write(self, outf):
