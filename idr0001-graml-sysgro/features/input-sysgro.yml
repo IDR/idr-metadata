@@ -1,0 +1,52 @@
+---
+
+server:
+    host: hostname
+    user: username
+    # If password is empty you will be prompted
+    password:
+    # Optional: Connect via a SOCKS proxy
+    #socksproxy:
+    #    host: localhost
+    #    port: 1080
+
+#dryrun: True
+
+# Provide either a screen ID or plate ID
+#screenid: 1
+#plateid: 1
+screenid: 1
+# Restrict to a single platename
+#platename: X_110222_S1
+# Restrict to a single acquisition/run name
+#acqname: Meas_05
+# Regular expression for extracting the acquisition (run) name
+acqnamere: Meas_\d+
+
+features: smc_data_with_header_190515.tsv
+progresslist: sysgro_progress.txt
+errorlist: sysgro_errors.txt
+
+# Ignore these rows (0-based row-index), must be a list
+ignorerows: [1, 2]
+
+# Ignore these columns (names), must be a list
+# Columns in smc_data_with_header_190515.tsv that aren't in sysgroFeature_repeat1.tsv
+ignorecolumns:
+    - cellID
+    - geneID
+    - imageID
+    - posID
+
+metadatacolumns:
+    - reference: str
+    - name: str
+    - description: str
+    - alternativeName: str
+    - experimentName: str
+    - imageName: str
+    - plateName: str
+    - well: str
+    - strainID: str
+
+roicolumn: coordinates

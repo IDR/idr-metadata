@@ -1,0 +1,46 @@
+---
+
+server:
+    host: localhost
+    user: username
+    # If password is empty you will be prompted
+    password:
+    # Optional: Connect via a SOCKS proxy
+    #socksproxy:
+    #    host: localhost
+    #    port: 1080
+
+dryrun: True
+
+# Provide either a screen ID or plate ID
+screenid: 1
+#plateid: 1
+# Restrict to a single platename
+#platename: test.flex
+# Restrict to a single acquisition/run name
+#acqname: Run 1
+# Regular expression for extracting the acquisition (run) name
+#acqnamere: .*
+
+features: test-flex-features.tsv
+progresslist: test-flex-progress.txt
+errorlist: test-flex-errors.txt
+
+# Ignore these rows (0-based row-index), must be a list
+ignorerows: []
+
+# Ignore these columns (names), must be a list
+ignorecolumns:
+
+metadatacolumns:
+    - reference: str
+    - name: str
+    - description: str
+    - alternativeName: str
+    - experimentName: str
+    - imageName: str
+    - plateName: str
+    - well: str
+    - strainID: str
+
+roicolumn: coordinates
