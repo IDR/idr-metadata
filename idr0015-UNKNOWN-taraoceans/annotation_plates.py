@@ -12,9 +12,7 @@ import re
 bulkcsv = 'taraoceans.BULK_ANNOTATION.csv'
 screenid = 151
 
-# OMERO.web crashes if a non-FileAnnotation on a Plate has namespace
-# NSBULKANNOTATIONS, so change it until the bug is fixed.
-ns = omero.constants.namespaces.NSBULKANNOTATIONS + '/MapAnnotation'
+ns = omero.constants.namespaces.NSBULKANNOTATIONS
 
 
 qs = client.getSession().getQueryService()  # noqa
