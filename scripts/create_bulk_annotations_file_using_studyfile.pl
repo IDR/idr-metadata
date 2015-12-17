@@ -1,44 +1,89 @@
 #!/usr/bin/perl
 
-# NOTE:  Comments need updating
-# TODO: should add a log file which documents any problems like no ontology terms found for a phenotype
-# so that I can check everything is as it should be afterwards.
-
-
 
 #######################################################################
-# create_bulk_annotations_file_using_study_v2.pl                                     #
-#                                                                     #
-# Eleanor Williams 2015-06-08                                         #
-#                                                                     #
-# Script to read in standard library file and processed data file     #
-# for a High Content Screen and output a .csv file that can be        #
-# used as a bulk annotation of the screen in omero.                   #
-#                                                                     #
+# create_bulk_annotations_file_using_study.pl                         
+#                                                                     
+# Eleanor Williams 2015-06-08                                         
+#                                                                     
+# Script to read in study, library file and processed data   
+# files for a High Content Screen and output a comma separated file that can be  
+# used as a bulk annotation of the screen in omero.                   
+#                                                                     
 #######################################################################
 
 #######################################################################
-# what it does                                                        #
-#                                                                     #
-# A. reads in a library file and processed data file (hit list)       #
-# plus the name of the column in the two files that the data          #
-# should be joined on. e.g. siRNA_ID or Entity_ID                     #
-# B. from the library file find out which column contains the         #
-# identifier that is going to match the library and processed file    #
-# information.                                                        #
-# C. find out if there are columns duplicated between the library and #
-# processed files e.g. gene name.  Don't want to repeat them in the   #
-# output file. Remove them from the processed fil                     #
-# D. print out data to an output file. It contains all the library    #
-# information plus the processed data if there is any for the well    #
+# what it does                                                        
+#
+# A. reads in a study, library and processed data file (hit list)     
+# plus the number of the screen that you want to generate the bulk    
+# annotation file for e.g. 1, 2, 3.                                   
+# Usually screenA = 1, screenB = 2, screenC = 3 etc                   
+#                                                                     
+# B. from the study file the screen get:
+#   - the rows relating to the screen in question
+#   - the column heading to be used to combine the library and
+#     processed data files e.g. Gene Identifier
+#   - the phenotypes (if any)
+#   - the URIs that should be added to the bulk annotation column headings
+#                     
+# C. from the library file find out:
+#   - which column contains the identifier that is going to be used to
+#     combined the data with the the processed file
+#
+# D. from the library and processed data files:
+#   - how many columns are in common between the library and processed file
+#   - work out how many blank columns will need to be added if there is
+#   processed data for a well
+#                                                       
+# E. from the processed file: 
+#    - find out which column contains the identifier which is going to 
+#    match up with the library file                                  
+#    - remove the columns from the processed file that are already in  
+#    the library file as don't need them twice in the final bulk annotation
+#    file
+#    - for each phenotype in the processed file find out what the
+#    associated ontology mappings are (if any)
+#
+# F. print out data to an output file.
+#    - goes through each line of the library file
+#    - and adds in the processed data with the ontology mappings added (if there is any)
+#    - if there is no processed data then adds blank columns
+#    - prints out each line to an output file
+# 
 #######################################################################
 
+#######################################################################
+# Things to be careful of                                             
+#                                                                     
+# Line Endings
+# Watch out for mac line endings in the files. Needs to be unix line
+# endings.
+#
+# Column Heading URLS (apart from ontology ones) e.g. Gene Identifier
+# The column heading URLS are added to the columns from the library file
+# but they come from the processed file!  This is because
+# - we don't collect info about library file column headings (maybe we should?)
+# - duplicate columns between the library and processed files are removed
+#   from the processed file
+# - so far all column headings that need a URL have been in both the
+#   library and processed files
+# This could be a problem in future though and so the script needs a
+# rewrite once we decide if we need to collect info about library file columns
+#
+#######################################################################
 
 #######################################################################
-# things to be careful of                                             #
-#                                                                     #
-# 1. watch out for mac line endings in the files - needs to be        #
-# unix line endings.                                                  #
+# TODOs
+#
+# - if join on Plate_Well then remove this column from the bulk annoation
+#   as don't really need it there.
+# - put a lot more into subroutines esp the phenotype ontology mapping
+#   part. 
+# - could do a lot more checking of values e.g. check URIs and
+#   ontology accessions are correct format etc. 
+# - probably lots of things could be simplified and improved on
+# 
 #######################################################################
 
 use warnings;
@@ -61,7 +106,7 @@ my @processedFile;
 
 
 ######################################################################
-# get inputs from user                                               #
+# A. get inputs from user and open the files                                          
 ######################################################################
 
 GetOptions(
@@ -87,19 +132,19 @@ if ($help){
 
       exit;
 
-     
-
+}elsif($studyFile eq ""){
+   print "\nERROR: You must provide a study file using the -s option\n"; exit;    
 }elsif($libraryFile eq ""){
    print "\nERROR: You must provide a library file using the -l option\n"; exit;
 }elsif($processedDataFile eq ""){
    print "\nERROR: You must provide a processed data file file using the -p option\n"; exit;
 }elsif($screenNumber eq "") {
-   print "\nERROR: You must provide a screen number\n"; exit;
+   print "\nERROR: You must provide a screen number using the -n option\n"; exit;
 }
 
-######################################################################
-# read in the study, library and processed data files                       #
-######################################################################
+
+# read in the study, library and processed data files                       
+
 
 local $/=undef; # reads in the whole file at once, not line by line. We will split it into sections later
 if ($studyFile ne ""){
@@ -122,51 +167,57 @@ if ($processedDataFile ne ""){
     close(PROCESSED);
 }
 
-# process the study file
-# 1. find the right screen
-# 2. find which column to combine on
+######################################################################
+# B. process the study file                                             
+# 1. find the right screen                                           
+# 2. find which column to combine on                                  
 # 3. get the phenotypes and the ontology mappings
-# 4. get the URIS for the ontologies and for the Gene Identifiers etc
+# 4. get the URIS for columns that are in the processed file e.g. Gene Identifiers etc
+#####################################################################
 
-# get all the rows for the screen we are making the bulk annotation file for
 
+# 1. find the right screen 
 my $screenRows_ref = getScreenRows($study, $screenNumber);
-
 my @screenRows = @$screenRows_ref;
-
 my @screenNameRow = split ("\t", $screenRows[1]); 
-print "The screen name is $screenNameRow[1]\n";
+print "Making bulk annotation file for screen $screenNameRow[1]\n";
 
+# 2. find which column to combine on  
 $columnTitleToCombineOn = getColumnToCombineOn(\@screenRows);
-print "The column to combine on is $columnTitleToCombineOn\n";
+#print "The column to combine on is $columnTitleToCombineOn\n";
 
-# Now create a hash of the submitter phenotypes and their ontology sources, terms and accessions
+# 3. get the phenotypes and the ontology mappings
+# Create a hash of the submitter phenotypes and their ontology sources, terms and accessions
+
 # There may be more than one ontology term so structures will be like
 # submitted_phenotype1 => CMPO, CMPO_term, CMPO_acccession
 # submitted_phenotype2 => CMPO, CMPO_term, CMPO_acccession, CMPO, CMPO_term, CMPO_acccession
 
-my $phenotype_ontologyArray_ref = getPhenotypes(\@screenRows);
-my %phenotype_ontologyArray = %$phenotype_ontologyArray_ref;
+   my $phenotype_ontologyArray_ref = getPhenotypes(\@screenRows);
+   my %phenotype_ontologyArray = %$phenotype_ontologyArray_ref;
 
-my $columnName_URIs_ref = getIdentifierURIs(\@screenRows);
-my %columnName_URI = %$columnName_URIs_ref;
+   unless (%phenotype_ontologyArray){
+     warn "WARNING: There are no phenotypes for this screen\n";
+   }
 
+# 4. get the URIS for columns that are in the processed file e.g. Gene Identifiers etc
+   my $columnName_URIs_ref = getIdentifierURIs(\@screenRows);
+   my %columnName_URI = %$columnName_URIs_ref;
 
-######################################################################
-# process the library file                                           #
-# 1. find out which column contains the identifier which is going to #
-#    match up with the processed file                                #
-# 2. find out which columns appear in both the library and processed #
-#    files? We don't want them repeated twice in the final output    #
-#    file.                                                           #
-# 3. if a well in the library file has no processed data information #
-#    then we will need to add a number of empty columns to that row  #
-#    in the output file so that table has same number of columns for #
-#    each row.  So work out how many blank columns to add.           #
-######################################################################
+   unless (%columnName_URI){
+   warn "WARNING: There are no identifiers with URIs for this screen\n";
+   } 
+
 
 ######################################################################
-# 1. which column in library file has identifier to match column in
+# C. process the library file                                           
+# 5. find out which column contains the identifier which is going to 
+#    match up with the processed file                                
+######################################################################
+
+
+# 5. which column in library file has identifier to match column in
+
 # processed file
 
 my $indexOfLibraryFileColumnForMatching;
@@ -183,8 +234,28 @@ foreach my $column (@libraryHeaderRow){
   $n++;
 }
 
+
+# remove any new line characters
+foreach my $libraryHeader (@libraryHeaderRow){
+chomp ($libraryHeader);
+}
+
+####################################################################
+# D. columns in common between library and processed data files
+# (note no effort is made to check the content is the same, just
+# the column titles)
+#
+# 6. find out which columns appear in both the library and processed 
+#    files? We don't want them repeated twice in the final output    
+#    file.                                                           
+# 7. if a well in the library file has no processed data information 
+#    then we will need to add a number of empty columns to that row  
+#    in the output file so that table has same number of columns for 
+#    each row.  So work out how many blank columns to add.           
 ######################################################################
-# 2. which columns appear in both the library and processed files?   
+
+# 6. which columns appear in both the library and processed files?   
+
 
 my @columnsToLooseFromProcessedFile;
 my $numberOfColumnsUniqueToProcessedFile=0;
@@ -192,16 +263,21 @@ my $blankColumnsIfNoProcessedData = "";
 
 my @processedHeaderRow = split("\t", $processedFile[0]);
 
-for (my $index=0; $index<@processedHeaderRow; $index++){ 
-  if (grep (/^$processedHeaderRow[$index]$/, @libraryHeaderRow)){
+
+for (my $index=0; $index<@processedHeaderRow; $index++){
+  chomp($processedHeaderRow[$index]);
+#  print "Column is ;$processedHeaderRow[$index];\n";
+  if (grep (/^\Q$processedHeaderRow[$index]\E$/, @libraryHeaderRow)){ # have to do quotemeta to match if the string has square brackets
+                                                                      # e.g. Experimental Condition [genotype]
   push @columnsToLooseFromProcessedFile, $index;
   }
 }
 
 $numberOfColumnsUniqueToProcessedFile = scalar(@processedHeaderRow) - scalar(@columnsToLooseFromProcessedFile);
 
-######################################################################
-# 3. make a string of blank columns equal to the number of columns
+
+# 7. make a string of blank columns equal to the number of columns
+
 #    left in the processed data file after removing columns also in
 #    the library file
 
@@ -211,15 +287,16 @@ for (my $blanks=0; $blanks<$numberOfColumnsUniqueToProcessedFile-1; $blanks++){
 
 
 ######################################################################
-# process the processed data file                                    #
-# 4. find out which column contains the identifier which is going to #
-#    match up with the library file                                  #
-# 5. remove the columns from the processed file that are already in  #
-#    the library file as don't need them twice in the final file     #
+# E. process the processed data file                                    
+# 8. find out which column contains the identifier which is going to 
+#    match up with the library file                                  
+# 9. remove the columns from the processed file that are already in  
+#    the library file as don't need them twice in the final file
+# 10. For each phenotype in the processed file find out what the
+#    associated ontology mappings are (if any)
 ######################################################################
 
-######################################################################
-# 4. which column in processed file has identifier to match column in
+# 8. which column in processed file has identifier to match column in
 # library file
 
 my $indexOfProcessedFileColumnForMatching;
@@ -227,20 +304,21 @@ my $indexOfProcessedFileColumnForMatching;
 my $p=0;
 foreach my $column (@processedHeaderRow){
   if ($column =~ /^$columnTitleToCombineOn$/){
+#    print "column to match on is $column\n";
     $indexOfProcessedFileColumnForMatching = $p;
     last;
   }
   $p++;
 }
 
-######################################################################
-# 5. remove the columns from the processed file that are already in  #
-#    the library file as don't need them twice in the final file. To #
-#    do this need to create a hash of the column numbers and the     #
-#    values otherwise as soon as one column is removed all the other #
-#    column numbers in the array will change.                        #
-#    Then put the remaining row into a hash with the common          #
-#    identifier as the key.                                          #
+
+# 9. remove the columns from the processed file that are already in  
+#    the library file as don't need them twice in the final file. To 
+#    do this need to create a hash of the column numbers and the     
+#    values otherwise as soon as one column is removed all the other 
+#    column numbers in the array will change.                        
+#    Then put the remaining row into a hash with the common          
+#    identifier as the key.                                          
 
 
   my %Identifier_otherColumns;
@@ -255,7 +333,8 @@ for (my $row=0; $row<@processedFile; $row++){
      # create the hash of with the column number and then column value
      my %columnNumber_columnValue;
      my $count=0;
-        foreach my $columnValue (@thisRow){
+     foreach my $columnValue (@thisRow){
+     #   print "Column Number: $count Value: $columnValue\n";
         $columnNumber_columnValue{$count} = $columnValue;
         $count++;
         }
@@ -278,15 +357,9 @@ for (my $row=0; $row<@processedFile; $row++){
  
 }
 
-# Ontology Mappings and Adding Links to Column Names!
 
-
-# find which are the phenotype columns from the processed file
-# when get a phenotype column, find out what its in it, then get mapping
-# store which ontology with the phenotype to add link in header
-# then add the header rows
-# then go through and add the mappings
-
+# 10. For each phenotype in the processed file find out what the
+#    associated ontology mappings are (if any)
 
 # first clone the hash of arrays with the identifier and the columns so can
 # move through all the columns in the original file without the column numbers
@@ -294,19 +367,32 @@ for (my $row=0; $row<@processedFile; $row++){
 
  my %Identifier_otherColumnsWithOntology = %{ dclone(\%Identifier_otherColumns) };
 
-print "At start old header row is @{$Identifier_otherColumns{$columnTitleToCombineOn}}\n";
-print "At start new header row is @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}\n";
 
+#print "At start old header row is @{$Identifier_otherColumns{$columnTitleToCombineOn}}\n";
+#print "At start new header row is @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}\n";
+
+# if there are any phenotypes then add the ontology to the new header row otherwise it will just stay the same as
+# it is
+
+if  (%phenotype_ontologyArray){ # if there are any phenotypes mentioned in the study file for the screen
+
+# find which are the phenotype columns from the processed file
+# when get a phenotype column, find out what its in it, then get mapping
+# store which ontology with the phenotype to add link in header
+# then add the header rows
+# then go through and add the mappings
+ 
 my $b = 0;
 my $numberOntologyColumnsAdded = 0;
 
 for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going through column headings of original array
-  print "We are position $a in original row.\n";
-  print "We are at position $b in new row\n";
- 
 
-       if( ${$Identifier_otherColumns{$columnTitleToCombineOn}}[$a] =~ m/^Phenotype\s?\d*$/){
-	 print "This is a phenotype column\n";
+  # Reminder: %Identifier_otherColumns has each identifier e.g. Plate_Well or Gene Identfier that is used to combined the 
+  # library and processed data files as the key, and all the processed data columns that go with that identifier as the values
+  # So here we are going through the column headings row because the key is what ever the column title to combine on is
+
+       if( ${$Identifier_otherColumns{$columnTitleToCombineOn}}[$a] =~ m/^Phenotype\s?\d*$/){  # when we get a phenotype column ...
+
 
 	 my @mapping = ();
          my $numberOfMappings = 0;
@@ -315,14 +401,17 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
 	 # FIRST TIME ROUND - JUST FIND OUT FOR THIS PHENOTYPE IF THERE IS A MAPPING, AND IF SO IS IT ONE OR TWO TERMS
 	 # AND WHAT ONTOLOGIES ARE THEY FROM
 	 
-         foreach my $identifier (keys %Identifier_otherColumns){
-           print "First time round: identifier is $identifier\n";
+
+         foreach my $identifier (keys %Identifier_otherColumns){ # start going through all the rows in that phenotype column to find one with a value
 	   
 	   if (($Identifier_otherColumns{$identifier}[$a] =~ m/\w+/) && ($identifier ne $columnTitleToCombineOn))  { # if the value matches a word character but is not the column heading
 	     # see if this phenotype has an ontology mapping
-	     print "Phenotype is $Identifier_otherColumns{$identifier}[$a] ";
-             @mapping = @{$phenotype_ontologyArray{$Identifier_otherColumns{$identifier}[$a]}};
-	     print "and mapping is @mapping and length is ", scalar(@mapping), "\n";	     
+
+
+             if (grep (/$Identifier_otherColumns{$identifier}[$a]/, keys %phenotype_ontologyArray)){ # check the phenotype exists in the study file
+	     
+                 @mapping = @{$phenotype_ontologyArray{$Identifier_otherColumns{$identifier}[$a]}};	  # this info comes from the study file   
+
     
 	            if(scalar(@mapping) == 3){
 		         $numberOfMappings = 1;
@@ -334,13 +423,14 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
                          last;
 		    }else{
                          $numberOfMappings = 0;
-	                last; 
-		    }  
+	                last;
+		       }
+
+	       }else{
+               die "ERROR: Phenotype '$Identifier_otherColumns{$identifier}[$a]' does not exist in the study file: $!";
+	       }
 	   } # if there is a value and its not the column heading
 	 } # foreach identifier
-
-         print "For this phenotype there are $numberOfMappings mappings\n";
-	 print "For this phenotype the ontologies used are @ontologiesUsed \n";
 
 	 # get the URIs associated with the ontologies used
 
@@ -360,17 +450,16 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
 	   foreach my $identifier (keys %Identifier_otherColumns){
 	                
 	               if (($Identifier_otherColumns{$identifier}[$a] =~ m/\w+/) && ($identifier ne $columnTitleToCombineOn))  { # if the value matches a word character but is not the column heading
-	                  print "Second time round, 1 mapping, identifier is $identifier\n";
+
+
 		         @mapping = @{$phenotype_ontologyArray{$Identifier_otherColumns{$identifier}[$a]}};
-                         print "inserting mapping terms $mapping[1] and $mapping[2] \n";
 	                 splice @{$Identifier_otherColumnsWithOntology{$identifier}}, $b+1, 0, $mapping[1], $mapping[2];
 		      
 		       }elsif($identifier eq $columnTitleToCombineOn){ # column title
-			 print "Second time round, 1 mapping, identifier is $identifier - column title\n";
                            if(${$Identifier_otherColumns{$columnTitleToCombineOn}}[$a] =~ m/^Phenotype\s?(\d+)$/){# if column name has a number e.g. Phenotype 1
 			     my $number = $1;
-			     my $termName = "Phenotype Term Name ".$number;
-			     my $termAcc = "Phenotype Term Accession ".$number." %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
+			     my $termName = "Phenotype ".$number." Term Name";
+			     my $termAcc = "Phenotype ".$number." Term Accession %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
 			     
 			     splice @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}, $b+1, 0, $termName, $termAcc;
 			     $numberOntologyColumnsAdded = $numberOntologyColumnsAdded + 2;
@@ -379,9 +468,8 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
                            splice @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}, $b+1, 0, 'Phenotype Term Name', $termAcc;
 	                   }   
 
-		       }else{ # no value
-			 print "Second time round, 1 mapping, identifier is $identifier - no value in Phenotype column\n";
-                         print "inserting two spaces \n";
+			 }else{ # no value
+			 # insert empty column
 	                 splice @{$Identifier_otherColumnsWithOntology{$identifier}}, $b+1, 0,"", "";
 		      
                     }
@@ -392,19 +480,16 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
 
 	      foreach my $identifier (keys %Identifier_otherColumns){
 		if (($Identifier_otherColumns{$identifier}[$a] =~ m/\w+/) && ($identifier ne $columnTitleToCombineOn))  { # if the value matches a word character but is not the column heading
-		   print "Second time round, 2 mappings, identifier is $identifier\n";
 		        @mapping = @{$phenotype_ontologyArray{$Identifier_otherColumns{$identifier}[$a]}};
-                        print "inserting mapping terms $mapping[1], $mapping[2], $mapping[4], $mapping[5] \n";
 	                splice @{$Identifier_otherColumnsWithOntology{$identifier}}, $b+1, 0, $mapping[1], $mapping[2], $mapping[4], $mapping[5];
 		      
 		 }elsif($identifier eq $columnTitleToCombineOn){ # column title
-		   print "Second time round, 2 mappings, identifier is $identifier - column title\n";
                           if(${$Identifier_otherColumns{$columnTitleToCombineOn}}[$a] =~ m/^Phenotype\s?(\d+)$/){# if column name has a number e.g. Phenotype 1
 		             my $number = $1;
-                             my $termNameA = "Phenotype Term Name ".$number."a";
-			     my $termAccA = "Phenotype Term Accession ".$number."a %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
- 	                     my $termNameB = "Phenotype Term Name ".$number."b";
-			     my $termAccB = "Phenotype Term Accession ".$number."b %% url=".$ontology_URI{$ontologiesUsed[1]}."%s";		   
+			     my $termNameA = "Phenotype ".$number." Term Name a";
+			     my $termAccA = "Phenotype ".$number." Term Accession a %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
+ 	                     my $termNameB = "Phenotype ".$number." Term Name b";
+			     my $termAccB = "Phenotype ".$number." Term Accession b %% url=".$ontology_URI{$ontologiesUsed[1]}."%s";		   
                              splice @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}, $b+1, 0, $termNameA, $termAccA, $termNameB, $termAccB;
 			   }else{
                              my $termAccA = "Phenotype Term Accession a %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
@@ -413,8 +498,7 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
 	                  }   
                  $numberOntologyColumnsAdded = $numberOntologyColumnsAdded + 4;
 		 }else{ # no value
-		         print "Second time round, no value, identifier is $identifier -\n";
-                         print "inserting four spaces \n";
+                         # inserting four spaces
 	                 splice @{$Identifier_otherColumnsWithOntology{$identifier}}, $b+1, 0,"", "", "", "";		      
                     }
 
@@ -432,9 +516,10 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
 
 } # for each column heading	 
 
-print "At end old header row is @{$Identifier_otherColumns{$columnTitleToCombineOn}}\n";
-print "At end new header row is @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}\n";
-print "Total number of columns added due to ontologies is $numberOntologyColumnsAdded\n";
+#print "At end old header row is @{$Identifier_otherColumns{$columnTitleToCombineOn}}\n";
+#print "At end new header row is @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}\n";
+#print "Total number of columns added due to ontologies is $numberOntologyColumnsAdded\n";
+
 
 # add on the number of columns added for ontologies to the list of columns to be added if there is no processed data
 
@@ -442,24 +527,29 @@ for (my $x=0; $x<$numberOntologyColumnsAdded; $x++){
 $blankColumnsIfNoProcessedData = $blankColumnsIfNoProcessedData.",";
 }
 
+
+} # if there are any phenotypes listed in the study file
+ 
 ######################################################################
-# create the output file                                             #
-# 6. create the out file name and open it                            #
-# 7. the library file contains information for every well, so go     #
+# F. create the output file                                             #
+# 11. create the out file name and open it                            #
+# 12. the library file contains information for every well, so go     #
 #    through each line in it, print out each line, adding            #
 #    information from the processed file if there is any.            #
 ######################################################################
 
 ######################################################################
-# 6. open the output file
+
+# 11. open the output file
 
 my $outfile = $libraryFile;
-#$outfile =~ s/-library\.txt/-annotation\.csv/g;
-$outfile =~ s/-library\.txt/-annotation\.txt/g;
+$outfile =~ s/-library\.txt/-annotation\.txt/g; # its comma delimited but
+#                                                 make it end in .txt so can
+#                                                 open in Excel corrently
 open (OUT, ">$outfile");
 
 ######################################################################
-# 7. go through each line in the library file and print out          #
+# 12. go through each line in the library file and print out          #
 #    adding processed file info if needed                            #
 
 my $v=0;
@@ -467,14 +557,18 @@ foreach my $libRow (@libraryFile){
   chomp($libRow);
 
   # if it is first row then check to see if any of the column headings need a URL added
-  # TODO:  But columns with links are identified in the processed file ****************
+  
+  # TODO:  But columns with links are identified in the processed file 
+  # What if column with link is only in the processed file?
+
   if ($v == 0){
     my @columnNames = split("\t", $libRow);
 
       foreach my $name (@columnNames){
         if (exists $columnName_URI{$name}){
-	  $name = $name." %% url=".$columnName_URI{$name}."%s";
-	  print "Column is now $name\n";	  
+
+	  $name = $name." %% url=".$columnName_URI{$name}."%s";	  
+
 	}
       }
     $libRow = join("\t", @columnNames);   
@@ -490,11 +584,9 @@ foreach my $libRow (@libraryFile){
 
  # add processed data if there is any or blank columns if not        #
 
-  # if it is first row and column name for matching to processed data has had URL added, need to find it without the URL
- # print "We are looking at identifier $libraryRow[$indexOfLibraryFileColumnForMatching]\n";
-  
+
+  # if it is first row and column name for matching to processed data has had URL added, need to find it without the URL  
   if ($v == 0){
-     print "we are at the first row of library file\n";
     if ($libraryRow[$indexOfLibraryFileColumnForMatching] =~ m/http/){
       # temporarily remove the link and match the header row in the processed file and print out
       my $columnNameWithoutLink = $libraryRow[$indexOfLibraryFileColumnForMatching];
@@ -503,7 +595,9 @@ foreach my $libRow (@libraryFile){
       $libraryRow[$indexOfLibraryFileColumnForMatching] = $columnNameWithoutLink;
       my $processedRow = join("\,", @{$Identifier_otherColumnsWithOntology{$libraryRow[$indexOfLibraryFileColumnForMatching]}});
       print OUT "$processedRow";
-      print "Printing out $processedRow\n";
+
+
+
 
     }else{ # just match as normal
          if (exists ($Identifier_otherColumnsWithOntology{$libraryRow[$indexOfLibraryFileColumnForMatching]})) {
@@ -513,8 +607,10 @@ foreach my $libRow (@libraryFile){
              print OUT "$blankColumnsIfNoProcessedData";
              }   
 
-    }
-  }else{
+
+       }
+    
+  }else{ # not the first (column heading) row
     
     if (exists ($Identifier_otherColumnsWithOntology{$libraryRow[$indexOfLibraryFileColumnForMatching]})) {
       my $processedRow = join("\,", @{$Identifier_otherColumnsWithOntology{$libraryRow[$indexOfLibraryFileColumnForMatching]}});
@@ -522,7 +618,10 @@ foreach my $libRow (@libraryFile){
     }else{
       print OUT "$blankColumnsIfNoProcessedData";
     }   
- } # else not the first row
+
+  } # else not the first row
+
+   # put a line ending at the end of every row
    print OUT "\n";
 
   $v++;
@@ -533,20 +632,31 @@ close (OUT);
 
 
 
+############################################################################################
+
 
    
 
 sub getScreenRows{
   my ($studyFile, $screenNumber) = @_;
 
-  # split the studyFile on "Screen Number"
-  my @sections = split ("Screen Number", $studyFile);
-  print "There are ", scalar(@sections) ," sections in this study file\n";
 
-  # first section [0] is the study top level info then each following section is a screen
-  # get the rows for the screen we want
-  my @screenRows = split("\n", $sections[$screenNumber]);
-  return \@screenRows;
+  if (grep (/Screen Number/, $studyFile)){  
+  # split the studyFile on "Screen Number"
+    my @sections = split ("Screen Number", $studyFile);
+    
+     # first section [0] is the study top level info then each following section is a screen
+     # get the rows for the screen we want as long as the screen number is valid
+        if ( ($screenNumber != 0) && ($screenNumber <= scalar(@sections)-1 ) ){
+           my @screenRows = split("\n", $sections[$screenNumber]);
+           return \@screenRows;
+	 }else{
+           die "Screen Number must be the same as one of those specified in the study file; $!";
+	 }
+	
+  }else{
+  die "Phrase 'Screen Number' does not exist in the study file so can't get the screen information: $!";
+  }
   
 }
 
@@ -566,7 +676,14 @@ sub getColumnToCombineOn{
      }
    }
 
-   return $columnToCombine;
+
+   # if there is no 'Processed Data Column Link to Library File' row or the value is empty then stop here
+   if ($columnToCombine eq "none" || $columnToCombine !~ /\w+/){
+      die "No column to combine on information for the screen in the study file: $!";
+   }else{
+     return $columnToCombine;
+   }
+
 }
 
 
@@ -603,6 +720,11 @@ sub getOntologyURI{
        # now get the URI we want in this case and return it
        my $wantedURI = $ont_URI{$ontologyAskedFor};
 
+       # if there is no URI for that ontology output a warning and set URI to be blank
+       unless ($wantedURI){
+	 die "ERROR: There is no URI in the study file for ontology $ontologyAskedFor\n";
+       }
+
        # check it ends in a forward slash, if not add one
        if($wantedURI !~ /.*\/$/){
        $wantedURI = $wantedURI."/";
@@ -612,11 +734,11 @@ sub getOntologyURI{
 }
 
 sub getIdentifierURIs{
-  # Find out what identifiers should have a URI link
+  
+  # Find out what from the study file which identifiers in the processed should have a URI link
   # and what the link should be
   # These are in screen section of the study file with the
   # processed data information
-
   my $screenRef = shift;
 
   # find the row with the URIs and column names
@@ -637,7 +759,7 @@ sub getIdentifierURIs{
   my @columnsWithURIs;
   foreach my $URI (@URIs){
     if($URI =~ m/http/){
-    push @columnsWithURIs, $n;
+      push @columnsWithURIs, $n;
     }
     $n++;
   }  
@@ -686,7 +808,7 @@ sub getPhenotypes{
        # then see if we have another lot of ontology terms
 
 	  if ($screenRows[$n+6] =~ m/Phenotype Term Source REF/){
-	  print "we have some second ontology terms\n";
+#	  print "we have some second ontology terms\n";
 	  @termSource2 = split("\t", $screenRows[$n+6], -1);
 	  @termNames2 = split("\t", $screenRows[$n+7], -1);
 	  @termAccs2 = split("\t", $screenRows[$n+8], -1);
@@ -697,7 +819,7 @@ sub getPhenotypes{
 					     					      
    } # for
 
-         print "Getting the phenotypes from the library file: \n";
+ #        print "Getting the phenotypes from the library file: \n";
          my @mappingsArray =();
          # put it all into the hash of arrays
          my $maxNumberOfOntTerms = 1; # use this to see if we have any phenotypes that map to 2 ontology terms
@@ -733,4 +855,28 @@ sub getPhenotypes{
 }
 
 
+
+
+=======
+sub havePhenotypes{
+   # subroutine to determine whether there are any phenotype values for the screen in the study file
+   
+   my $screenRef = shift;
+   my @screenRows = @$screenRef;
+   my $have_phenotypes = "false";
+
+   # find the row that is the Phenotype Name row and see if there are any values
+   for (my $n=0; $n<@screenRows; $n++){
+        if ($screenRows[$n] =~ m/Phenotype Name/){
+           $screenRows[$n] =~ s/Phenotype Name//;
+           if($screenRows[$n] =~ /\w/){ # if matches a letter character then we have phenotype values
+           $have_phenotypes = "true";
+	   }
+	last;
+	}
+    }
+
+   return $have_phenotypes;
+   
+ }
 
