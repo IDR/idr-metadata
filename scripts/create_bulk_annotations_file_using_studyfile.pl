@@ -5,8 +5,8 @@
 #                                                                     
 # Eleanor Williams 2015-06-08                                         
 #                                                                     
-# Script to read in standard study, library file and processed data   
-# files for a High Content Screen and output a .csv file that can be  
+# Script to read in study, library file and processed data   
+# files for a High Content Screen and output a comma separated file that can be  
 # used as a bulk annotation of the screen in omero.                   
 #                                                                     
 #######################################################################
@@ -48,6 +48,7 @@
 #    - goes through each line of the library file
 #    - and adds in the processed data with the ontology mappings added (if there is any)
 #    - if there is no processed data then adds blank columns
+#    - prints out each line to an output file
 # 
 #######################################################################
 
@@ -75,8 +76,9 @@
 # TODOs
 #
 # - if join on Plate_Well then remove this column from the bulk annoation
-#   as don't really need it
-# - put more into subroutines esp the phenotype ontology mapping part
+#   as don't really need it there.
+# - put a lot more into subroutines esp the phenotype ontology mapping
+#   part. 
 # - could do a lot more checking of values e.g. check URIs and
 #   ontology accessions are correct format etc. 
 # - probably lots of things could be simplified and improved on
@@ -163,9 +165,6 @@ if ($processedDataFile ne ""){
     @processedFile = <PROCESSED>;
     close(PROCESSED);
 }
-
-# check line endings in each and if are not unix then die and exit now
-
 
 
 ######################################################################
