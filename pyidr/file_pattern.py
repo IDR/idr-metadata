@@ -6,6 +6,7 @@ www.openmicroscopy.org/site/support/bio-formats5.1/formats/pattern-file.html
 
 import re
 import string
+import difflib
 from itertools import product, izip_longest
 
 
@@ -64,6 +65,39 @@ def expand_range(r):
 
 def expand_block(block):
     return sum((expand_range(_.strip()) for _ in block.split(",")), [])
+
+
+def find_pattern_2seq(s1, s2):
+    """\
+    Find a pattern string that describes the given sequences.
+
+    >>> find_pattern_2seq('z9.tif', 'z10.tif')
+    'z<9,10>.tif'
+
+    **FIXME:** currently, if there is more than one variable block,
+    the returned pattern represents a *superset* of ``set((s1, s2))``,
+    corresponding to the cartesian product of all variable blocks.
+    For instance, ``find_pattern_2seq('cBz10.tif', 'cRz9.tif')``
+    returns ``'c<B,R>z<10,9>.tif'``, which expands to ``'cBz10.tif',
+    'cBz9.tif', 'cRz10.tif', 'cRz9.tif'``.  While incorrect, this can
+    be useful to get a hint on the overall pattern for a large file
+    list (e.g., ``fnames = sorted(glob.glob("/tmp/*.tif"))`` and then
+    ``find_pattern_2seq(fnames[0], fnames[-1])`` ).
+    """
+    sm = difflib.SequenceMatcher(None, s1, s2, False)
+    blocks = sm.get_matching_blocks()
+    pattern = [(sm.a[:blocks[0].a], sm.b[:blocks[0].b])]
+    for i in xrange(len(blocks) - 1):
+        l, r = blocks[i], blocks[i+1]
+        pattern.append(sm.a[l.a:l.a+l.size])
+        pattern.append((sm.a[l.a+l.size:r.a], sm.b[l.b+l.size:r.b]))
+    for i in xrange(len(pattern) - 1, -1, -1):
+        if isinstance(pattern[i], tuple):
+            if set(pattern[i]) == {""}:
+                del pattern[i]
+            else:
+                pattern[i] = "<%s,%s>" % pattern[i]
+    return "".join(pattern)
 
 
 class FilePattern(object):
