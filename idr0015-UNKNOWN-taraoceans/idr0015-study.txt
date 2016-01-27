@@ -1,0 +1,92 @@
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"					
+# Study					
+Study Title	Plankton Environmental High-Content Fluorescence Microscopy (e-HCFM)				
+Study Type	high content screen				
+Study Type Term Source REF					
+Study Type Term Accession Number					
+Study Description	"Protists are responsible for much of the diversity in the eukaryotic kingdom and are crucial to several biogeochemical processes of global importance (e.g., the carbon cycle). Recent global investigations of these organisms have relied on sequence-based approaches. These methods do not, however, capture the complex functional morphology of these organisms nor can they typically capture phenomena such as interactions (except indirectly through statistical means).  Direct imaging of these organisms, can therefore provide a valuable complement to sequencing and, when performed quantitatively, provide measures of structures and interaction patterns which can then be related back to sequence based measurements. Towards this end, we developed a framework, environmental high-content fluorescence microscopy (e-HCFM) which can be applied to environmental samples composed of mixed communities. This strategy is based on general purposes dyes that stain major structures in eukaryotes. Samples are imaged using scanning confocal microscopy, resulting in a three-dimensional image-stack. High-throughput can be achieved using automated microscopy and computational analysis."				
+Study Organism	mixed sample				
+Study Organism Term Source REF					
+Study Organism Term Accession Number					
+Study Screens Number					
+Study External URL					
+Study Public Release Date					
+					
+# Study Publication					
+Study PubMed ID					
+Study Publication Title					
+Study Author List					
+					
+# Study Contacts					
+Study Person Last Name	de Vargas				
+Study Person First Name	Colomban				
+Study Person Email	vargas@sb-roscoff.fr				
+Study Person Address	Station Biologique de Roscoff				
+Study Person Roles					
+					
+Term Source Name					
+Term Source File					
+					
+					
+"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."					
+# Screen; this section should be repeated if a study contains multiple screens					
+					
+Screen Number					
+Screen Size	Plates: 84	5D Images: 32777	Planes: 3319225	Average Image Dimension (XYZCT): 2048 x 2048 x 20 x 5 x 1	Total Tb: 2.51
+Screen Technology Type					
+Screen Technology Term Source REF					
+Screen Technology Term Accession Number					
+Screen Type					
+Screen Target Organism					
+					
+# Study materials					
+Cell Line or Strain					
+Cell Line of Strain Term Source REF					
+Cell Line of Strain Term Accession Number					
+					
+"# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)"					
+Library File Name					
+Library Type					
+Library Type Term Source REF					
+Library Type Term Accession Number					
+Library Manufacturer					
+Library Version					
+Library Assembly 					
+Library Experimental Conditions					
+Library Experimental Conditions Term Source REF					
+Library Experimental Conditions Term Accession Number					
+					
+# Protocols					
+Protocol Name					
+Protocol Type					
+Protocol Type Term Source REF					
+Protocol Type Term Accession Number					
+Protocol Description	"The environmental samples used in this study were collected along the the Tara-Oceans. At each station an identical sampling protocol was used to collect and to preserve protist organisms in the size range between 5 and 20µm from subsurface and/or deep chlorophyll maximum (DCM) depth. In particular, a dedicated net with a 5µm mesh size was gently towed for ten minutes to help preserve plankton morphology and to avoid net saturation. A flowmeter located in the entrance of the net allowed quantification of the filtered water volume. The cod-end sample was then carefully recovered and poured through a 20µm sieve to remove the larger organisms. The filtrate was resuspended with 0.2µm filtered seawater up to 3L. A total of 45 ml was then poured into a 50ml tube that was prealiquoted with 5 ml of 10% paraformaldehyde buffered at pH7.5 and 500μl of 25% glutaraldehyde (EM grade) 14,15 . The collecting tubes were stored at -20°C prior to use, and after gentle homogenization, the samples were kept at 4°C.  Samples were fluorescently dyed using Alexa Fluor® 546 succinimidyl ester (AF546SE)    (Molecular Probes®, A-20002) conjugated to poly-L-lysine (PLL), followed b  a solution of Hoechst33342 (Molecular Probes®, H21492) at 10µM (stock solution 1mM/H2O) and DiOC6(3) (Molecular Probes®, D-273) at 1.5µM (stock solution 1.5mM/EtOH) in ESAW (500µl/30mn). Microscopy was conducted using a commercially available inverted SP8 laser scanning confocal microscope (Leica Microsystem) equipped with a HC PL APO 40x/1,10 l mot CORR CS2 lens and the following laser beam lines: 405nm, 488nm, 552nm, 638nm.  A two-step sequential acquisition was designed to collect the signal from 5 channels. The first step aims to record DiOC6(3) signal (Ex488nm/Em500-520nm) simultaneously with the chlorophyll autofluorescence signal (Ex633nm/Em675-710nm), and the transmitted light channel. The second step is then dedicated to acquisition of the Hoechst signal (Ex405nm/Em420-470nm) and the AF546 signal (Ex561/Em575-600). The exposure settings were tuned to avoid signal saturation of the brightest object of interest, and to use minimal power of the laser allowing a PMT gain lower than 800mv. Signals were not averaged. The scanning speed was set at 600 Hz, with each field of view (FOV) at 388µm wide and a pixel size of 0.189µm."				
+					
+# Phenotypes					
+Phenotype Name					
+Phenotype Description					
+Phenotype Score Type					
+					
+# Raw Data Files					
+Raw Image Data Type	image				
+Raw Image Data Format	 TIFF				
+Raw Image Channels					
+Study Design Description					
+					
+# Feature Level Data Files (give individual file details unless there is one file per well)					
+Feature Level Data File Name					
+Feature Level Data File Description					
+Feature Level Data File Format					
+Feature Level Data Column Name					
+Feature Level Data Column Type					
+Feature Level Data Column Description					
+					
+#  Processed Data Files 					
+Processed Data File Name					
+Processed Data File Format					
+Processed Data File Description					
+Processed Data Genome Build For Target Genes					
+Processed Data Column Name					
+Processed Data Column Type					
+Processed Data Column Description					
