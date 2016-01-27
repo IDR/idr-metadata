@@ -126,8 +126,8 @@ if ($help){
               -n screen number (1,2,3 etc) 
               -h help information
 
-     Example:  create_bulk_annotations_file.pl -l libraryFile.csv -p processedData.csv -n 2
-     Output :  The output file name is taken from the library file with the extension .BULK_ANNOTATION.csv\n\n";
+     Example:  create_bulk_annotations_file_using_studyfile.pl -s idr0000-study.txt -l idr0000-screenB-library.txt -p idr0000-screenB-processed.txt -n 2
+     Output :  The output file name is taken from the library file with the extension -annotation.txt rather than -library.txt \n\n";
 
       exit;
 
@@ -398,7 +398,7 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
 	     # see if this phenotype has an ontology mapping
 
 
-             if (grep (/$Identifier_otherColumns{$identifier}[$a]/, keys %phenotype_ontologyArray)){ # check the phenotype exists in the study file
+             if (grep (/\Q$Identifier_otherColumns{$identifier}[$a]\E/, keys %phenotype_ontologyArray)){ # check the phenotype exists in the study file. Have to use quotemeta in case there is a bracket or other character needing escaping in the phenotype value
 	     
                  @mapping = @{$phenotype_ontologyArray{$Identifier_otherColumns{$identifier}[$a]}};	  # this info comes from the study file   
     
@@ -547,7 +547,7 @@ foreach my $libRow (@libraryFile){
   # if it is first row then check to see if any of the column headings need a URL added
   
   # TODO:  But columns with links are identified in the processed file 
-  # What if column with link is only in the processed file?
+  # What if column with link is only in the library file?
   
   if ($v == 0){
     my @columnNames = split("\t", $libRow);
