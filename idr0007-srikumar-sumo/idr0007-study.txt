@@ -38,6 +38,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Screen Number	1																														
 Comment[IDR Screen Name]	idr0007-srikumar-sumo/screenA																														
 Screen Description	"This is a screen in which two mutant yeast strains unable to synthesize SUMO chains (pro-smt3allR and smt3allR), were crossed with 384 yeast strains expressing GFP-tagged proteins (Huh et al., 2003) previously linked to the DNA damage response (Tkach et al., 2012). "																														
+Screen Size	Plates: 12	5D Images: 3456	Planes: 6912	Average Image Dimension (XYZCT): 1346 x 1003 x 1 x 2 x 1	Total Tb: 0.02																										
 Screen Technology Type	protein screen																														
 Screen Technology Term Source REF																															
 Screen Technology Term Accession Number																															

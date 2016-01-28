@@ -35,6 +35,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Screen Number	1									
 Comment[IDR Screen Name]	idr0004-thorpe-rad52/screenA									
 Screen Description	"This screen assesses the proportion of cells containing spontaneous Rad52-YFP foci in 4,805 viable Saccharomyces cerevisiae deletion strains."									
+Screen Size	Plates: 47	5D Images: 3765	Planes: 75308	Average Image Dimension (XYZCT): 672 x 510 x 10 x 2 x 1	Total Tb: 0.17					
 Screen Technology Type	gene deletion screen									
 Screen Technology Term Source REF										
 Screen Technology Term Accession Number										

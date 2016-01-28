@@ -37,6 +37,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Screen Number	1																																																		
 Comment[IDR Screen Name]	idr0008-rohn-actinome/screenA																																																		
 Screen Description	"A genome-wide, high-content RNAi screen in the hemocyte-derived adherent Drosophila cell line S2R+  whose read-out was a visual inspection of images of fixed cells stained with alpha-tubulin, F-actin, and DNA. After filtering and annotating hits with a controlled vocabulary, we identified a number of broad phenotypic categories."																																																		
+Screen Size	Plates: 58	5D Images: 44538	Planes: 138990	Average Image Dimension (XYZCT): 640 x 512 x 1 x 3 x 1	Total Tb: 0.09																																														
 Screen Technology Type	RNAi screen																																																		
 Screen Technology Term Source REF																																																			
 Screen Technology Term Accession Number																																																			
@@ -112,6 +113,7 @@ Processed Data Column Link To Library File	siRNA Identifier
 Screen Number	2																																																		
 Comment[IDR Screen Name]	idr0008-rohn-actinome/screenB																																																		
 Screen Description	To determine which of the Drosophila genes perform conserved functions across species and cell types the analysis was expanded to a mammalian system. This screen consists of siRNAs targetting 516 known or predicted actin and Rho-GTPase family regulators (the “actinome”;) in human HeLa cells and in addition tests representative close human orthologues of the set of putative novel actin regulators identified in the fly screen.  This screen was performed in duplicate (screens B and C).																																																		
+Screen Size	Plates: 11	5D Images: 11406	Planes: 38760	Average Image Dimension (XYZCT): 696 x 520 x 1 x 3 x 1	Total Tb: 0.3																																														
 Screen Technology Type	RNAi screen																																																		
 Screen Technology Term Source REF																																																			
 Screen Technology Term Accession Number																																																			
@@ -186,6 +188,7 @@ Processed Data Column Link To Library File	Plate_Well
 Screen Number	3																																																		
 Comment[IDR Screen Name]	idr0008-rohn-actinome/screenC																																																		
 Screen Description	To determine which of the Drosophila genes perform conserved functions across species and cell types the analysis was expanded to a mammalian system. This screen consists of   siRNAs targetting 516 known or predicted actin and Rho-GTPase family regulators (the “actinome”;) in human HeLa cells and in addition tests representative close human ortho- logues of the set of putative novel actin regulators identified in the fly screen.  This screen was performed in duplicate (screens B and C).																																																		
+Screen Size	Plates: 	5D Images: 	Planes: 	Average Image Dimension (XYZCT): 	Total Tb: 																																														
 Screen Technology Type	RNAi screen																																																		
 Screen Technology Term Source REF																																																			
 Screen Technology Term Accession Number																																																			

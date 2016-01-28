@@ -37,6 +37,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Screen Number	1								
 Comment[IDR Screen Name]	idr0002-heriche-condensation/screenA								
 Screen Description	Screen of 100 candidate genes predicted to be involved in mitotic chromosome condensation								
+Screen Size	Plates: 12	5D Images: 1152	Planes: 761280	Average Image Dimension (XYZCT): 1344 x 1024 x 1 x 2 x 330	Total Tb: 2.10				
 Screen Technology Type	RNAi screen								
 Screen Technology Term Source REF									
 Screen Technology Term Accession									
