@@ -28,28 +28,33 @@ def parse_cl(argv):
     return parser.parse_args(argv[1:])
 
 
-def check_existence(reader):
-    retval = 0
+# Move to ScreenReader?
+def iterfiles(reader):
     for i, w in enumerate(reader.wells):
         for j, pattern in enumerate(w["Fields"]):
             for fn in FilePattern(pattern).filenames():
-                if os.path.exists(fn):
-                    continue
-                retval = 1
-                sys.stderr.write("ERROR[%d|%d]: missing %r\n" % (i, j, fn))
-    return retval
+                yield i, j, fn
 
 
 def main(argv):
+    retval = 0
     args = parse_cl(argv)
     if args.verbose:
         print "checking %r" % (args.screen,)
     with open(args.screen) as f:
         reader = ScreenReader(f)
     # ScreenReader raises an exception if the file is not well-formed
-    if args.check_existence:
-        return check_existence(reader)
-    return 0
+    missing = 0
+    for count, (i, j, fn) in enumerate(iterfiles(reader)):
+        if args.check_existence and not os.path.exists(fn):
+            missing += 1
+            retval = 1
+            if args.verbose:
+                sys.stderr.write("ERROR[%d|%d]: missing %r\n" % (i, j, fn))
+    print "files: %d%s" % (
+        count + 1, " (missing: %d)" % missing if args.check_existence else ""
+    )
+    return retval
 
 
 if __name__ == "__main__":
