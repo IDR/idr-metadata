@@ -3,26 +3,21 @@
 from collections import defaultdict
 from glob import glob
 from os.path import basename
-from os.path import expanduser
-from os.path import exists
 from os.path import join
-from sys import path
 from sys import stderr
-
-
-lib = expanduser("~/OMERO.server/lib/python")
-assert exists(lib)
-path.insert(0, lib)
-
-from omero import all  # noqa
-from omero import ApiUsageException
-from omero.cli import CLI
-from omero.cli import Parser
-from omero.gateway import BlitzGateway
-from omero.rtypes import unwrap
-from omero.sys import ParametersI
-from omero.util.text import TableBuilder
-from omero.util.text import filesizeformat
+from sys import exit
+try:
+    from omero import all  # noqa
+    from omero import ApiUsageException
+    from omero.cli import CLI
+    from omero.cli import Parser
+    from omero.gateway import BlitzGateway
+    from omero.rtypes import unwrap
+    from omero.sys import ParametersI
+    from omero.util.text import TableBuilder
+    from omero.util.text import filesizeformat
+except ImportError:
+    exit("ERROR: omero lib not found, try setting PYTHONPATH")
 
 
 def studies():
