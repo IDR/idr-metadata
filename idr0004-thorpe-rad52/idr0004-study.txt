@@ -35,6 +35,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Screen Number	1									
 Comment[IDR Screen Name]	idr0004-thorpe-rad52/screenA									
 Screen Description	"This screen assesses the proportion of cells containing spontaneous Rad52-YFP foci in 4,805 viable Saccharomyces cerevisiae deletion strains."									
+Screen Size	Plates: 47	5D Images: 3765	Planes: 75308	Average Image Dimension (XYZCT): 672 x 510 x 10 x 2 x 1	Total Tb: 0.17					
 Screen Technology Type	gene deletion screen									
 Screen Technology Term Source REF										
 Screen Technology Term Accession Number										
@@ -50,7 +51,7 @@ Cell Line of Strain Term Source REF
 Cell Line of Strain Term Accession Number										
 										
 "# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)"										
-Library File Name	idr004-screenA-library.txt									
+Library File Name	idr0004-screenA-library.txt									
 Library File Format	tab-delimited text									
 Library Type	diploid homozygous deletion library									
 Library Type Term Source REF										
@@ -93,7 +94,7 @@ Feature Level Data Column Name
 Feature Level Data Column Description										
 										
 #  Processed Data Files 										
-Processed Data File Name	idr0004-thorpe-rad52									
+Processed Data File Name	idr0004-screenA-processed.txt									
 Processed Data File Format	tab-delimited text									
 Processed Data File Description	This file contains information about the percentage of cells with Rad52-YFP foci found in each deletion strain and which were identified to have elevated levels of foci compared to wild type strain BY4742.									
 Processed Data Genome Build For Target Genes										
