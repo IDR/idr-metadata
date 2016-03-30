@@ -4,10 +4,22 @@
 # TODO: Use ansible
 sudo yum install -y screen
 
+# Set ulimits for omero
+# https://www.openmicroscopy.org/site/support/omero5.2/sysadmins/troubleshooting.html#too-many-open-files
+cat << EOF | sudo tee /etc/security/limits.d/95-omero > /dev/null
+omero hard nofile 16384
+omero soft nofile 16384
+omero hard noproc 16384
+omero soft noproc 16384
+EOF
+
+# If there are web css problems you may need to restore the SELinux labelling
+sudo restorecon -R -v ~omero/
+
 # Mount network shares
 SMB_USER=username
-SMB_SHARE1=//orca-3.openmicroscopy.org/idr
-SMB_SHARE2=//orca-3.openmicroscopy.org/idr-homes
+SMB_SHARE1=//orca-5.openmicroscopy.org/idr
+SMB_SHARE2=//orca-5.openmicroscopy.org/idr-homes
 
 sudo mkdir -p /uod/idr /idr-homes
 sudo mount -t cifs -o username="$SMB_USER" "$SMB_SHARE1" /uod/idr
@@ -22,14 +34,17 @@ if [ ! -f "$OMERO_SERVER/lib/python/omero/plugins/render.py" ]; then
     sudo -u omero sh -c "curl https://raw.githubusercontent.com/manics/openmicroscopy/metadata52-render/components/tools/OmeroPy/src/omero/plugins/render.py > '$OMERO_SERVER/lib/python/omero/plugins/render.py'"
 fi
 
+omero="$OMERO_SERVER/bin/omero"
+
 # Setup server settings
 sudo -u omero $omero << EOF
+config set omero.db.poolsize 25
 config set omero.jvmcfg.heap_size.blitz 16G
+config set omero.sessions.timeout 3600000
 admin restart
 EOF
 
 # Create users and groups
-omero="$OMERO_SERVER/bin/omero"
 PUBLIC_PASS="$(openssl rand -base64 12)"
 
 $omero login -s localhost -u root -w omero
@@ -88,7 +103,7 @@ mkdir logs
 sudo -u omero $omero login -s localhost -u demo -w ome
 for plate in $plate_0001 $plate_0002 "$plate_0003" $plate_0004 $plate_0005 \
         $plate_0006 $plate_0007 $plate_0008 $plate_0009 $plate_0010 \
-        $plate_0012 $plate_0013 $plate_0015 $plate_007; do
+        $plate_0012 $plate_0013 $plate_0015 $plate_0017; do
     # Print and log stdout and stderr http://stackoverflow.com/a/692407
     logprefix="${plate%%-*}"
     echo
