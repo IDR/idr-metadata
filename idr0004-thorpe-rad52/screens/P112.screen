@@ -11,27 +11,27 @@ Column = 0
 [Well 1]
 Row = 0
 Column = 1
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a2
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a2
 
 [Well 2]
 Row = 0
 Column = 2
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a3
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a3
 
 [Well 3]
 Row = 0
 Column = 3
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a4
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a4
 
 [Well 4]
 Row = 0
 Column = 4
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a5
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a5
 
 [Well 5]
 Row = 0
 Column = 5
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a6
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a6
 
 [Well 6]
 Row = 0
@@ -56,7 +56,7 @@ Column = 10
 [Well 11]
 Row = 0
 Column = 11
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a12
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/a12
 
 [Well 12]
 Row = 1
@@ -65,22 +65,22 @@ Column = 0
 [Well 13]
 Row = 1
 Column = 1
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b2
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b2
 
 [Well 14]
 Row = 1
 Column = 2
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b3
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b3
 
 [Well 15]
 Row = 1
 Column = 3
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b4
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b4
 
 [Well 16]
 Row = 1
 Column = 4
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b5
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b5
 
 [Well 17]
 Row = 1
@@ -89,17 +89,17 @@ Column = 5
 [Well 18]
 Row = 1
 Column = 6
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b7
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b7
 
 [Well 19]
 Row = 1
 Column = 7
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b8
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b8
 
 [Well 20]
 Row = 1
 Column = 8
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b9
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/b9
 
 [Well 21]
 Row = 1
@@ -120,27 +120,27 @@ Column = 0
 [Well 25]
 Row = 2
 Column = 1
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c2
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c2
 
 [Well 26]
 Row = 2
 Column = 2
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c3
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c3
 
 [Well 27]
 Row = 2
 Column = 3
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c4
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c4
 
 [Well 28]
 Row = 2
 Column = 4
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c5
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c5
 
 [Well 29]
 Row = 2
 Column = 5
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c6
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c6
 
 [Well 30]
 Row = 2
@@ -153,17 +153,17 @@ Column = 7
 [Well 32]
 Row = 2
 Column = 8
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c9
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c9
 
 [Well 33]
 Row = 2
 Column = 9
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c10
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c10
 
 [Well 34]
 Row = 2
 Column = 10
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c11
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/c11
 
 [Well 35]
 Row = 2
@@ -176,17 +176,17 @@ Column = 0
 [Well 37]
 Row = 3
 Column = 1
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d2
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d2
 
 [Well 38]
 Row = 3
 Column = 2
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d3
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d3
 
 [Well 39]
 Row = 3
 Column = 3
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d4
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d4
 
 [Well 40]
 Row = 3
@@ -195,22 +195,22 @@ Column = 4
 [Well 41]
 Row = 3
 Column = 5
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d6
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d6
 
 [Well 42]
 Row = 3
 Column = 6
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d7
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d7
 
 [Well 43]
 Row = 3
 Column = 7
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d8
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d8
 
 [Well 44]
 Row = 3
 Column = 8
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d9
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d9
 
 [Well 45]
 Row = 3
@@ -223,22 +223,22 @@ Column = 10
 [Well 47]
 Row = 3
 Column = 11
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d12
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/d12
 
 [Well 48]
 Row = 4
 Column = 0
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/e1
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/e1
 
 [Well 49]
 Row = 4
 Column = 1
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/e2
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/e2
 
 [Well 50]
 Row = 4
 Column = 2
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/e3
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/e3
 
 [Well 51]
 Row = 4
@@ -267,7 +267,7 @@ Column = 8
 [Well 57]
 Row = 4
 Column = 9
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/e10
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/e10
 
 [Well 58]
 Row = 4
@@ -292,7 +292,7 @@ Column = 2
 [Well 63]
 Row = 5
 Column = 3
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f4
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f4
 
 [Well 64]
 Row = 5
@@ -305,32 +305,32 @@ Column = 5
 [Well 66]
 Row = 5
 Column = 6
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f7
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f7
 
 [Well 67]
 Row = 5
 Column = 7
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f8
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f8
 
 [Well 68]
 Row = 5
 Column = 8
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f9
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f9
 
 [Well 69]
 Row = 5
 Column = 9
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f10
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f10
 
 [Well 70]
 Row = 5
 Column = 10
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f11
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f11
 
 [Well 71]
 Row = 5
 Column = 11
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f12
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/f12
 
 [Well 72]
 Row = 6
@@ -359,7 +359,7 @@ Column = 5
 [Well 78]
 Row = 6
 Column = 6
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/g7
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/g7
 
 [Well 79]
 Row = 6
@@ -376,12 +376,12 @@ Column = 9
 [Well 82]
 Row = 6
 Column = 10
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/g11
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/g11
 
 [Well 83]
 Row = 6
 Column = 11
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/g12
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/g12
 
 [Well 84]
 Row = 7
@@ -394,7 +394,7 @@ Column = 1
 [Well 86]
 Row = 7
 Column = 2
-Field_0 = /idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/h3
+Field_0 = /uod/idr/filesets/idr0004-thorpe-rad52/Rad52_old/Rad52/P112/h3
 
 [Well 87]
 Row = 7
