@@ -8,15 +8,6 @@ sudo systemctl disable omero
 # TODO: Use ansible
 sudo yum install -y screen
 
-# Set ulimits for omero
-# https://www.openmicroscopy.org/site/support/omero5.2/sysadmins/troubleshooting.html#too-many-open-files
-cat << EOF | sudo tee /etc/security/limits.d/95-omero > /dev/null
-omero hard nofile 16384
-omero soft nofile 16384
-omero hard noproc 16384
-omero soft noproc 16384
-EOF
-
 # If there are web css problems you may need to restore the SELinux labelling
 sudo restorecon -R -v ~omero/
 
