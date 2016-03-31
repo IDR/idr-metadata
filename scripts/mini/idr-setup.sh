@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Optionally disable autostart of OMERO.server
+# because /uod/idr needs to be manually mounted
+sudo systemctl disable omero
+
 # Install extra utilities
 # TODO: Use ansible
 sudo yum install -y screen
@@ -19,11 +23,9 @@ sudo restorecon -R -v ~omero/
 # Mount network shares
 SMB_USER=username
 SMB_SHARE1=//orca-5.openmicroscopy.org/idr
-SMB_SHARE2=//orca-5.openmicroscopy.org/idr-homes
 
 sudo mkdir -p /uod/idr /idr-homes
 sudo mount -t cifs -o username="$SMB_USER" "$SMB_SHARE1" /uod/idr
-sudo mount -t cifs -o username="$SMB_USER" "$SMB_SHARE2" /idr-homes
 
 sudo chmod a+x /home/*
 
