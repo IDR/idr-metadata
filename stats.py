@@ -15,14 +15,14 @@ assert exists(lib)
 path.insert(0, lib)
 
 from omero import all  # noqa
-from omero import ApiUsageException
-from omero.cli import CLI
-from omero.cli import Parser
-from omero.gateway import BlitzGateway
-from omero.rtypes import unwrap
-from omero.sys import ParametersI
-from omero.util.text import TableBuilder
-from omero.util.text import filesizeformat
+from omero import ApiUsageException  # noqa
+from omero.cli import CLI  # noqa
+from omero.cli import Parser  # noqa
+from omero.gateway import BlitzGateway  # noqa
+from omero.rtypes import unwrap  # noqa
+from omero.sys import ParametersI  # noqa
+from omero.util.text import TableBuilder  # noqa
+from omero.util.text import filesizeformat  # noqa
 
 
 def studies():
