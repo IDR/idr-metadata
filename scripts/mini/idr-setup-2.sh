@@ -2,7 +2,6 @@
 # Import- you may want to do this in screen in case your connection is broken
 
 date
-
 OMERO_SERVER=/home/omero/OMERO.server
 omero="$OMERO_SERVER/bin/omero"
 
@@ -47,6 +46,5 @@ for plate in $plate_0001 $plate_0002 "$plate_0003" $plate_0004 $plate_0005 \
 done
 
 popd
-
 date
 echo DONE
