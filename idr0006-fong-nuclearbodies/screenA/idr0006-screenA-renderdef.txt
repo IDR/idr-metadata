@@ -1,0 +1,2 @@
+ch1:label=DAPI,min=0,max=1000,color=0000FF
+ch2:label=TRITC,min=50,max=800,color=FF0000
