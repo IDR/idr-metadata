@@ -1,0 +1,605 @@
+Gene Symbol	Gene Identifier	U2OS phenotype	Qiagen reproducibility between HeLa and U2OS cells	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9
+MARCH7		"N,P"	X							normal cells	cells with protrusions and elongations	
+AADACL1	57552	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+ABCB10	23456	"BC,Z,M"	X		big (large) cells				metaphase			telophase
+ACRC	93953	"N,C,M"	X			condensed cells			metaphase	normal cells		
+ADAMTS18	170692	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+ADIPOR2	79602	N	X							normal cells		
+AFAP1	60312	"P,C"	X			condensed cells					cells with protrusions and elongations	
+AGR2	10551	"P,BC"	X		big (large) cells						cells with protrusions and elongations	
+AGXT2	64902	LA	X					lammellipodia				
+AMTN	401138	"BC,C,M"	X		big (large) cells	condensed cells			metaphase			
+ANAPC7		N	X							normal cells		
+ANLN	54443	"BC,P,M"	X		big (large) cells				metaphase		cells with protrusions and elongations	
+AP4E1	23431	"BC,LA"	X		big (large) cells			lammellipodia				
+APBB1IP	54518	C	X			condensed cells						
+ARCN1	372	C	X			condensed cells						
+ARFGEF1	10565	P	X								cells with protrusions and elongations	
+ARHGAP1	392	"N,C"	X			condensed cells				normal cells		
+ARHGAP20	57569	N	X							normal cells		
+ARHGEF4		BC			big (large) cells							
+ARIH2	10425	N								normal cells		
+ASF1B	55723	BC			big (large) cells							
+ASNSD1	54529	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+ASPH	444	"N,BC"	X		big (large) cells					normal cells		
+ATP1B3	483	LA	X					lammellipodia				
+ATP5G2	517	"BC,AF"	X	actin fibre	big (large) cells							
+ATP7A		"BC,AF"	X	actin fibre	big (large) cells							
+B3GALNT1	8706	"P,M"	X						metaphase		cells with protrusions and elongations	
+BCAR3		"P,C"	X			condensed cells					cells with protrusions and elongations	
+BCKDHA	593	"C,AF,P"	X	actin fibre		condensed cells					cells with protrusions and elongations	
+BCL2L1	598	"N,BC,P"	X		big (large) cells					normal cells	cells with protrusions and elongations	
+BEX2		"BC,LA"	X		big (large) cells			lammellipodia				
+BIN3	55909	N	X							normal cells		
+BIRC5		"BC,AF"	X	actin fibre	big (large) cells							
+BLR1	643	P	X								cells with protrusions and elongations	
+BRCC3		"N,M"	X						metaphase	normal cells		
+BRD9	65980	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+C10ORF116		"BC,AF,C"	X	actin fibre	big (large) cells	condensed cells						
+C11ORF48	79081	"AF,P"	X	actin fibre							cells with protrusions and elongations	
+C11ORF61	79684	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+C12ORF24	29902	P	X								cells with protrusions and elongations	
+C12ORF59	120939	"P,C,M"	X			condensed cells			metaphase		cells with protrusions and elongations	
+C13ORF3	221150	"C,M"	X			condensed cells			metaphase			
+C15ORF42	90381	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+C16ORF68	79091	"BC,AF"	X	actin fibre	big (large) cells							
+C1ORF177	163747	C	X			condensed cells						
+C1QA	712	"BC,LA"	X		big (large) cells			lammellipodia				
+C20ORF20	55257	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+C20ORF4	25980	"C,M"	X			condensed cells			metaphase			
+C2ORF60	129450	"BC,C"	X		big (large) cells	condensed cells						
+C4ORF18	51313	"AF,C"	X	actin fibre		condensed cells						
+C6ORF142	90523	C	X			condensed cells						
+C6ORF182	285753	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+C6ORF204	387119	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+C6ORF64	55776	P	X								cells with protrusions and elongations	
+C9ORF90	203245	"BC,C"	X		big (large) cells	condensed cells						
+CA14	23632	LA	X					lammellipodia				
+CABLES1	91768	"BC,AF"	X	actin fibre	big (large) cells							
+CACNA1A		M							metaphase			
+CACNA1F		"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+CADM1	23705	"BC,AF"	X	actin fibre	big (large) cells							
+CAPRIN1	4076	"BC,AF"	X	actin fibre	big (large) cells							
+CARS	833	"N,BC"	X		big (large) cells					normal cells		
+CASP8AP2	9994	"BC,P,AF"	X	actin fibre	big (large) cells						cells with protrusions and elongations	
+CBLC	23624	C				condensed cells						
+CCBE1	147372	P	X								cells with protrusions and elongations	
+CCDC114	93233	AF	X	actin fibre								
+CCDC132	55610	"BC,P,C"	X		big (large) cells	condensed cells					cells with protrusions and elongations	
+CCDC142	84865	BC	X		big (large) cells							
+CCDC98	84142	"BC,AF"	X	actin fibre	big (large) cells							
+CD33	945	"P,M"	X						metaphase		cells with protrusions and elongations	
+CD3EAP	10849	"BC,P,AF,M"	X	actin fibre	big (large) cells				metaphase		cells with protrusions and elongations	
+CDC37L1	55664	LA	X					lammellipodia				
+CDC42		"P,C,D"	X			condensed cells	debris				cells with protrusions and elongations	
+CDC6	990	BC	X		big (large) cells							
+CDCA5	113130	"M,BC"	X		big (large) cells				metaphase			
+CDCA8	55143	"BC,P,M"	X		big (large) cells				metaphase		cells with protrusions and elongations	
+CDH10	1008	AF	X	actin fibre								
+CDKL1	8814	"LA,BC,P"	X		big (large) cells			lammellipodia			cells with protrusions and elongations	
+CDKN2A	1029	"C,M"	X			condensed cells			metaphase			
+CEBPD	1052	"BC,LA"	X		big (large) cells			lammellipodia				
+CECR6	27439	"BC,C"	X		big (large) cells	condensed cells						
+CENPE	1062	"BC,M"	X		big (large) cells				metaphase			
+CENPH	64946	C				condensed cells						
+CENPI		"BC,M,P"	X		big (large) cells				metaphase		cells with protrusions and elongations	
+CEP164	22897	P									cells with protrusions and elongations	
+CEP192	55125	"BC,M"	X		big (large) cells				metaphase			
+CFL1	1072	N	X							normal cells		
+CGRRF1	10668	"P,C,M"	X			condensed cells			metaphase		cells with protrusions and elongations	
+CHD4	1108	P									cells with protrusions and elongations	
+CHEK1	1111	"M,BC"	X		big (large) cells				metaphase			
+CHIT1	1118	"AF,C,M"	X	actin fibre		condensed cells			metaphase			
+CHN1	1123	"C,LA"	X			condensed cells		lammellipodia				
+CHST12	55501	"C,M"	X			condensed cells			metaphase			
+CHST5	23563	"P,AF"	X	actin fibre							cells with protrusions and elongations	
+CKAP5	9793	"M,P"	X						metaphase		cells with protrusions and elongations	
+CLDN11	5010	"N,C"	X			condensed cells				normal cells		
+CLDN4		"LA,C"	X			condensed cells		lammellipodia				
+CLIC2	1193	"P,AF"	X	actin fibre							cells with protrusions and elongations	
+CLN8	2055	"BC,AF"	X	actin fibre	big (large) cells							
+CLPS	1208	"BC,LA"	X		big (large) cells			lammellipodia				
+CLSPN	63967	"BC,P,M,D"	X		big (large) cells		debris		metaphase		cells with protrusions and elongations	
+CLTC	1213	"N,C"	X			condensed cells				normal cells		
+CLU	1191	"N,AF"	X	actin fibre						normal cells		
+CLUAP1	23059	"P,C,M"	X			condensed cells			metaphase		cells with protrusions and elongations	
+CNTFR	1271	"P,C"	X			condensed cells					cells with protrusions and elongations	
+COL20A1	57642	BC			big (large) cells							
+COL9A3	1299	"AF,C"	X	actin fibre		condensed cells						
+COPA	1314	"C,M"	X			condensed cells			metaphase			
+COPB1	1315	"M,D"	X				debris		metaphase			
+COPB2	9276	"C,M"	X			condensed cells			metaphase			
+COPE	11316	"BC,P,C"	X		big (large) cells	condensed cells					cells with protrusions and elongations	
+COPG	22820	"C,D,P"	X			condensed cells	debris				cells with protrusions and elongations	
+COPZ1	22818	"P,C"	X			condensed cells					cells with protrusions and elongations	
+COPZ2	51226	"P,C"	X			condensed cells					cells with protrusions and elongations	
+CORO7	79585	"BC,AF"	X	actin fibre	big (large) cells							
+COX6A2	1339	LA	X					lammellipodia				
+CPNE5	57699	"AF,C"	X	actin fibre		condensed cells						
+CR2	1380	"C,LA,P"	X			condensed cells		lammellipodia			cells with protrusions and elongations	
+CRNKL1	51340	"M,BC,LA"	X		big (large) cells			lammellipodia	metaphase			
+CSAD	51380	P									cells with protrusions and elongations	
+CSDC2	27254	"BC,AF"	X	actin fibre	big (large) cells							
+CST5	1473	N								normal cells		
+CTDSP1	58190	"M,P"	X						metaphase		cells with protrusions and elongations	
+CTF1	1489	"BC,AF"	X	actin fibre	big (large) cells							
+CTRC	11330	"BC,AF"	X	actin fibre	big (large) cells							
+CUTA	51596	"BC,AF"	X	actin fibre	big (large) cells							
+CXXC4	80319	"BC,LA,P"	X		big (large) cells			lammellipodia			cells with protrusions and elongations	
+CYBRD1	79901	"BC,AF"	X	actin fibre	big (large) cells							
+CYP2B6	1555	"BC,LA,M"	X		big (large) cells			lammellipodia	metaphase			
+CYR61	3491	"C,N"	X			condensed cells				normal cells		
+DAB2	1601	N	X							normal cells		
+DAND5	199699	"C,M,P"	X			condensed cells			metaphase		cells with protrusions and elongations	
+DDX5	1655	"P,C"	X			condensed cells					cells with protrusions and elongations	
+DERL2	51009	N	X							normal cells		
+DHX58	79132	LA	X					lammellipodia				
+DLG4	1742	N	X							normal cells		
+DLG5	9231	"P,LA,C"	X			condensed cells		lammellipodia			cells with protrusions and elongations	
+DLL4	54567	BC			big (large) cells							
+DNAJB9		LA	X					lammellipodia				
+DNASE1		BC			big (large) cells							
+DNMT1	1786	"BC,AF"	X	actin fibre	big (large) cells							
+DONSON	29980	"BC,C,M,P"	X		big (large) cells	condensed cells			metaphase		cells with protrusions and elongations	
+DQX1	165545	"P,C"	X			condensed cells					cells with protrusions and elongations	
+DSCAML1	57453	"AF,M"	X	actin fibre					metaphase			
+DSCR3	10311	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+DTL	51514	BC			big (large) cells							
+DUX1		"BC,AF"	X	actin fibre	big (large) cells							
+DYNC1I2		"P,M"	X						metaphase		cells with protrusions and elongations	
+DYSF	8291	"AF,M"	X	actin fibre					metaphase			
+ECOP		"BC,C"	X		big (large) cells	condensed cells						
+EDC3	80153	LA	X					lammellipodia				
+EFEMP2	30008	AF		actin fibre								
+EFHA2	286097	"BC,LA"	X		big (large) cells			lammellipodia				
+EI24	9538	"BC,AF,C"	X	actin fibre	big (large) cells	condensed cells						
+EIF2B5	8893	"P,BC"	X		big (large) cells						cells with protrusions and elongations	
+EIF2S1	1965	AF	X	actin fibre								
+EIF3C		"M,P"	X						metaphase		cells with protrusions and elongations	
+EIF3I	8668	"AF,C"	X	actin fibre		condensed cells						
+EIF4A3	9775	"M,C"	X			condensed cells			metaphase			
+ELAC2	60528	"C,LA"	X			condensed cells		lammellipodia				
+ELAVL4	1996	"N,C"	X			condensed cells				normal cells		
+ELF3	1999	"BC,AF"	X	actin fibre	big (large) cells							
+ELL3	80237	"N,LA"	X					lammellipodia		normal cells		
+ELMO2	63916	P	X								cells with protrusions and elongations	
+ELMO3	79767	BC	X		big (large) cells							
+ENOSF1	55556	C	X			condensed cells						
+EPSTI1	94240	"C,M,D"	X			condensed cells	debris		metaphase			
+ERAF	51327	"P,AF,C"	X	actin fibre		condensed cells					cells with protrusions and elongations	
+ESF1	51575	LA	X					lammellipodia				
+EXOSC8	11340	"P,C"	X			condensed cells					cells with protrusions and elongations	
+EZH1	2145	"P,M"	X						metaphase		cells with protrusions and elongations	
+FAM107A	11170	P	X								cells with protrusions and elongations	
+FAM113A	64773	LA	X					lammellipodia				
+FAM12B	64184	BC	X		big (large) cells							
+FAM195B		"BC,LA"	X		big (large) cells			lammellipodia				
+FAM69B	138311	"P,LA,C"	X			condensed cells		lammellipodia			cells with protrusions and elongations	
+FAM89B	23625	C				condensed cells						
+FANCB	2187	"P,BC"	X		big (large) cells						cells with protrusions and elongations	
+FASLG	356	"BC,AF"	X	actin fibre	big (large) cells							
+FBXL6	26233	"BC,AF,C"	X	actin fibre	big (large) cells	condensed cells						
+FBXL7	23194	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+FBXO5	26271	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+FBXW8	26259	"P,C"	X			condensed cells					cells with protrusions and elongations	
+FGF22	27006	BC	X		big (large) cells							
+FGFRL1	53834	"AF,BC"	X	actin fibre	big (large) cells							
+FIBIN	387758	BC	X		big (large) cells							
+FKBP1A	2280	"BC,M"	X		big (large) cells				metaphase			
+FKBP2	2286	P									cells with protrusions and elongations	
+FLJ21075	80099	N	X							normal cells		
+FMO5	2330	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+FNTB	2342	N								normal cells		
+FOSL1		"BC,AF"	X	actin fibre	big (large) cells							
+FOSL2	2355	"BC,AF"	X	actin fibre	big (large) cells							
+FUCA2	2519	"N,C"	X			condensed cells				normal cells		
+FXYD1	5348	BC	X		big (large) cells							
+FZD2	2535	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+GABBR1	2550	AF		actin fibre								
+GABRA3	2556	"C,M"	X			condensed cells			metaphase			
+GABRG3	2567	"P,M"	X						metaphase		cells with protrusions and elongations	
+GALNT4	8693	"P,C"	X			condensed cells					cells with protrusions and elongations	
+GAPDH		C	X			condensed cells						
+GBA		"C,M,AF"	X	actin fibre		condensed cells			metaphase			
+GCNT1	2650	AF	X	actin fibre								
+GDF3	9573	"AF,M"	X	actin fibre					metaphase			
+GFM1	85476	"LA,P"	X					lammellipodia			cells with protrusions and elongations	
+GGTL3	2686	"BC,C"	X		big (large) cells	condensed cells						
+GIMAP5	55340	"P,C"	X			condensed cells					cells with protrusions and elongations	
+GLIS1	148979	C	X			condensed cells						
+GMEB1	10691	"C,AF"	X	actin fibre		condensed cells						
+GNA12		"P,C,D"	X			condensed cells	debris				cells with protrusions and elongations	
+GNAI1		"BC,BC,AF"	X	actin fibre	big (large) cells							
+GOLPH3L	55204	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+GORASP2	26003	"BC,AF"	X	actin fibre	big (large) cells							
+GOSR1	9527	"BC,LA"	X		big (large) cells			lammellipodia				
+GOSR2	9570	"C,M,LA"	X			condensed cells		lammellipodia	metaphase			
+GPR37	2861	"P,C"	X			condensed cells					cells with protrusions and elongations	
+GPR89A		"BC,LA"	X		big (large) cells			lammellipodia				
+GRIA4	2893	"C,M"	X			condensed cells			metaphase			
+GRINL1A		"N,LA"	X					lammellipodia		normal cells		
+GSPT1	2935	"BC,AF"	X	actin fibre	big (large) cells							
+GTF3A	GTF3A	"C,LA"	X			condensed cells		lammellipodia				
+GTF3C6		"N,LA"	X					lammellipodia		normal cells		
+GUCA2A	2980	"BC,AF"	X	actin fibre	big (large) cells							
+GZMM	3004	"N,LA"	X					lammellipodia		normal cells		
+HDAC1	3065	"P,C,M"	X			condensed cells			metaphase		cells with protrusions and elongations	
+HEBP1	50865	P	X								cells with protrusions and elongations	
+HHIPL2	79802	"N,C"	X			condensed cells				normal cells		
+HIPK2	28996	P	X								cells with protrusions and elongations	
+HIST1H2AE	3012	"N,C"	X			condensed cells				normal cells		
+HIST1H2BO	8348	"BC,AF"	X	actin fibre	big (large) cells							
+HLA-DQB2	3120	"P,M"	X						metaphase		cells with protrusions and elongations	
+HN1	51155	"P,C"	X			condensed cells					cells with protrusions and elongations	
+HOXC5	3222	P	X								cells with protrusions and elongations	
+HP		"N,P"	X							normal cells	cells with protrusions and elongations	
+HSD17B10	3028	C	X			condensed cells						
+HSPA6		"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+HTRA2	27429	"BC,C"	X		big (large) cells	condensed cells						
+IER3IP1	51124	"N,P"	X							normal cells	cells with protrusions and elongations	
+IGSF6	10261	"BC,LA"	X		big (large) cells			lammellipodia				
+IGSF9	57549	AF	X	actin fibre								
+IL12A	3592	"BC,C"	X		big (large) cells	condensed cells						
+IL2RG	3561	AF	X	actin fibre								
+INF2	64423	"N,C,LA"	X			condensed cells		lammellipodia		normal cells		
+INPP4A	3631	"BC,C"	X		big (large) cells	condensed cells						
+INSIG1	3638	LA	X					lammellipodia				
+IRX4	50805	"C,M"	X			condensed cells			metaphase			
+JMJD6	23210	BC	X		big (large) cells							
+KATNAL1		"BC,AF"	X	actin fibre	big (large) cells							
+KCND1	3750	"P,M"	X						metaphase		cells with protrusions and elongations	
+KCNIP1	30820	"P,M"	X						metaphase		cells with protrusions and elongations	
+KCNK10	54207	"P,C"	X			condensed cells					cells with protrusions and elongations	
+KCNK16	83795	"N,LA"	X					lammellipodia		normal cells		
+KCNN3		"N,AF,M"	X	actin fibre					metaphase	normal cells		
+KCNT2	343450	"P,C"	X			condensed cells					cells with protrusions and elongations	
+KEAP1	9817	"AF,C,M"	X	actin fibre		condensed cells			metaphase			
+KERA	11081	"BC,LA"	X		big (large) cells			lammellipodia				
+KIAA0090	23065	C	X			condensed cells						
+KIAA0157	23172	C	X			condensed cells						
+KIAA1026	23254	"BC,P,AF"	X	actin fibre	big (large) cells						cells with protrusions and elongations	
+KIAA1407	57577	"P,C"	X			condensed cells					cells with protrusions and elongations	
+KIAA1468	57614	LA	X					lammellipodia				
+KIAA1529	57653	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+KIAA1604	57703	"M,C"	X			condensed cells			metaphase			
+KIAA1622	57718	"P,C"	X			condensed cells					cells with protrusions and elongations	
+KIAA1737	85457	N	X							normal cells		
+KIAA1946	165215	"P,AF"	X	actin fibre							cells with protrusions and elongations	
+KIF11	3832	M	X						metaphase			
+KIF12	113220	"BC,LA"	X		big (large) cells			lammellipodia				
+KIF13A	63971	"N,BC"	X		big (large) cells					normal cells		
+KIF15	56992	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+KIF20A	10112	LA	X					lammellipodia				
+KIF23	9493	"BC,BC"	X		big (large) cells							
+KIF3A	11127	C	X			condensed cells						
+KLHDC2	23588	BC	X		big (large) cells							
+KLK1	3816	"N,LA"	X					lammellipodia		normal cells		
+KPNB1	3837	"P,M"	X						metaphase		cells with protrusions and elongations	
+KRIT1	889	"P,C"	X			condensed cells					cells with protrusions and elongations	
+KSR1	8844	"AF,LA"	X	actin fibre				lammellipodia				
+KY	339855	"BC,P,AF"	X	actin fibre	big (large) cells						cells with protrusions and elongations	
+LEPROT	54741	"BC,C"	X		big (large) cells	condensed cells						
+LGI2	55203	"C,M"	X			condensed cells			metaphase			
+LIF	3976	P	X								cells with protrusions and elongations	
+LIG4	3981	N								normal cells		
+LILRB1	10859	"BC,LA"	X		big (large) cells			lammellipodia				
+LILRB2	10288	"AF,BC"	X	actin fibre	big (large) cells							
+LIN7C	55327	"N,C"	X			condensed cells				normal cells		
+LSR	51599	"C,LA"	X			condensed cells		lammellipodia				
+MAGEB1	4112	"BC,AF"	X	actin fibre	big (large) cells							
+MAGED1	9500	N	X							normal cells		
+MAGEE1	57692	"BC,AF"	X	actin fibre	big (large) cells							
+MAGEE2	139599	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+MAGEH1	28986	LA	X					lammellipodia				
+MAGI1	9223	"BC,AF"	X	actin fibre	big (large) cells							
+MAST1	22983	P	X								cells with protrusions and elongations	
+MAX	4149	"BC,LA"	X		big (large) cells			lammellipodia				
+MC1R	4157	"BC,LA"	X		big (large) cells			lammellipodia				
+MCM10	55388	N								normal cells		
+METTL1		"BC,AF"	X	actin fibre	big (large) cells							
+MFAP1	4236	"BC,M,D"	X		big (large) cells		debris		metaphase			
+MFAP3	4238	"LA,P"	X					lammellipodia			cells with protrusions and elongations	
+MFSD4	148808	"BC,AF"	X	actin fibre	big (large) cells							
+MGAT2	4247	"BC,AF"	X	actin fibre	big (large) cells							
+MGAT5	4249	BC	X		big (large) cells							
+MGC29891	126626	"C,P"	X			condensed cells					cells with protrusions and elongations	
+MIA	8190	"BC,AF,C"	X	actin fibre	big (large) cells	condensed cells						
+MID1IP1	58526	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+MLN	4295	"BC,AF"	X	actin fibre	big (large) cells							
+MSL3L1	10943	"BC,AF"	X	actin fibre	big (large) cells							
+MSN	4478	"AF,M"	X	actin fibre					metaphase			
+MSTN	2660	"BC,AF"	X	actin fibre	big (large) cells							
+MT3		"BC,AF"	X	actin fibre	big (large) cells							
+MYH9	4627	"P,BC"	X		big (large) cells						cells with protrusions and elongations	
+NACA		C				condensed cells						
+NAGA		N	X							normal cells		
+NANOG		"LA,C"	X			condensed cells		lammellipodia				
+NANS		"AF,C"	X	actin fibre		condensed cells						
+NCOA5	57727	AF		actin fibre								
+NCR1	9437	"C,LA,P"	X			condensed cells		lammellipodia			cells with protrusions and elongations	
+NCR3	259197	"BC,AF"	X	actin fibre	big (large) cells							
+NDC80	10403	"M,BC"	X		big (large) cells				metaphase			
+NDE1	54820	"P,C"	X			condensed cells					cells with protrusions and elongations	
+NDOR1		"P,C"	X			condensed cells					cells with protrusions and elongations	
+NDUFA7	4701	"P,BC"	X		big (large) cells						cells with protrusions and elongations	
+NEDD4	4734	"M,AF"	X	actin fibre					metaphase			
+NEDD8	4738	"BC,AF"	X	actin fibre	big (large) cells							
+NFIA	4774	"C,P"	X			condensed cells					cells with protrusions and elongations	
+NGFR	4804	"P,C,LA"	X			condensed cells		lammellipodia			cells with protrusions and elongations	
+NHP2L1	4809	"BC,D"	X		big (large) cells		debris					
+NINJ2	4815	"N,P"	X							normal cells	cells with protrusions and elongations	
+NKD2	85409	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+NLRP9	338321	BC	X		big (large) cells							
+NNT	23530	"LA,C"	X			condensed cells		lammellipodia				
+NOL1	4839	"C,BC"	X		big (large) cells	condensed cells						
+NONO		"BC,LA"	X		big (large) cells			lammellipodia				
+NOS3	4846	"P,C"	X			condensed cells					cells with protrusions and elongations	
+NOTUM		"C,BC"	X		big (large) cells	condensed cells						
+NOX4	50507	P	X								cells with protrusions and elongations	
+NPFFR2	10886	C				condensed cells						
+NPHS1	4868	"C,LA"	X			condensed cells		lammellipodia				
+NR2F6	2063	P	X								cells with protrusions and elongations	
+NR3C1	2908	"BC,M"	X		big (large) cells				metaphase			
+NR4A3	8013	"BC,AF"	X	actin fibre	big (large) cells							
+NRN1	51299	LA	X					lammellipodia				
+NSUN4	387338	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+NUAK2	81788	"N,BC"	X		big (large) cells					normal cells		
+NUCB1	4924	"P,C"	X			condensed cells					cells with protrusions and elongations	
+NUF2	83540	M	X						metaphase			
+NUMA1	4926	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+NUMBL	9253	"BC,AF"	X	actin fibre	big (large) cells							
+NUP205	23165	BC			big (large) cells							
+NXF1	10482	"BC,LA,D"	X		big (large) cells		debris	lammellipodia				
+NXF5		"P,M"	X						metaphase		cells with protrusions and elongations	
+OFCC1	266553	"P,C"	X			condensed cells					cells with protrusions and elongations	
+OPCML	4978	BC			big (large) cells							
+OPTN	10133	"N,P"	X							normal cells	cells with protrusions and elongations	
+OR2F1		"P,D"	X				debris				cells with protrusions and elongations	
+OR5B3	441608	"BC,AF"	X	actin fibre	big (large) cells							
+OR8K1	390157	"C,LA"	X			condensed cells		lammellipodia				
+ORC4L	5000	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+OVOL1	5017	"N,BC,AF"	X	actin fibre	big (large) cells					normal cells		
+PAX2	5076	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+PCBD1	5092	N	X							normal cells		
+PCDH24	54825	"BC,AF,C"	X	actin fibre	big (large) cells	condensed cells						
+PCDHB10		BC	X		big (large) cells							
+PCDHB7	56129	C	X			condensed cells						
+PCDHB9	56127	"LA,C"	X			condensed cells		lammellipodia				
+PDCD1LG2	80380	N								normal cells		
+PDE4DIP		"BC,AF"	X	actin fibre	big (large) cells							
+PDYN	5173	"P,C"	X			condensed cells					cells with protrusions and elongations	
+PEG3	5178	"BC,AF"	X	actin fibre	big (large) cells							
+PEX11A	8800	"BC,LA"	X		big (large) cells			lammellipodia				
+PEX13	5194	"BC,AF"	X	actin fibre	big (large) cells							
+PEX26	55670	"BC,LA,P"	X		big (large) cells			lammellipodia			cells with protrusions and elongations	
+PGLYRP2	114770	"N,C"	X			condensed cells				normal cells		
+PGLYRP3	114771	C	X			condensed cells						
+PHCA	55331	"BC,AF"	X	actin fibre	big (large) cells							
+PHF11	51131	"BC,LA"	X		big (large) cells			lammellipodia				
+PIK3R4	30849	"P,C"	X			condensed cells					cells with protrusions and elongations	
+PIP5K1C	23396	"BC,LA"	X		big (large) cells			lammellipodia				
+PKIB	5570	"C,M"	X			condensed cells			metaphase			
+PLAUR	5329	"N,P"	X							normal cells	cells with protrusions and elongations	
+PLEK	5341	C				condensed cells						
+PLK1	5347	M	X						metaphase			
+PLXNA2		"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+PLXNB1		BC			big (large) cells							
+PMVK	10654	P	X								cells with protrusions and elongations	
+PNMAL1	55228	"C,P"	X			condensed cells					cells with protrusions and elongations	
+POLE	5426	"BC,LA"	X		big (large) cells			lammellipodia				
+POLH	5429	"AF,C"	X	actin fibre		condensed cells						
+POLR2A	5430	"M,D"	X				debris		metaphase			
+POLR2E	5434	"BC,AF,C"	X	actin fibre	big (large) cells	condensed cells						
+POLR2F	5435	"BC,AF"	X	actin fibre	big (large) cells							
+POLR2L	5441	N								normal cells		
+POP1	10940	"C,P"	X			condensed cells					cells with protrusions and elongations	
+PPCDC	60490	LA	X					lammellipodia				
+PPP1R16A	84988	"P,C"	X			condensed cells					cells with protrusions and elongations	
+PPP2R5E	5529	N	X							normal cells		
+PQBP1	10084	"N,C"	X			condensed cells				normal cells		
+PRC1	9055	"LA,C"	X			condensed cells		lammellipodia				
+PRDM8	56978	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+PRELP	5549	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+PRKAB1	5564	"P,C"	X			condensed cells					cells with protrusions and elongations	
+PRKAG2	51422	BC	X		big (large) cells							
+PRRX2	51450	C				condensed cells						
+PRSS22	64063	"BC,LA"	X		big (large) cells			lammellipodia				
+PSMA6		"C,M"	X			condensed cells			metaphase			
+PSMD1	5707	"P,C"	X			condensed cells					cells with protrusions and elongations	
+PSMD3	5709	M	X						metaphase			
+PSMD8	5714	"M,C"	X			condensed cells			metaphase			
+PTDSS2	81490	BC			big (large) cells							
+PTGES	9536	"BC,P,C"	X		big (large) cells	condensed cells					cells with protrusions and elongations	
+PTPN13	5783	"C,BC,AF"	X	actin fibre	big (large) cells	condensed cells						
+PTPN20B		P	X								cells with protrusions and elongations	
+PTPRE	5791	BC	X		big (large) cells							
+PTRH2	51651	"C,M,BC"	X		big (large) cells	condensed cells			metaphase			
+PUM1	9698	"AF,BC"	X	actin fibre	big (large) cells							
+PVRL3	25945	"N,BC"	X		big (large) cells					normal cells		
+PXMP2		LA	X					lammellipodia				
+PZP	5858	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+RAB17	64284	"BC,LA"	X		big (large) cells			lammellipodia				
+RAB1B	81876	"BC,AF"	X	actin fibre	big (large) cells							
+RAB3D	9545	"P,M"	X						metaphase		cells with protrusions and elongations	
+RAD51	5888	"P,BC,AF"	X	actin fibre	big (large) cells						cells with protrusions and elongations	
+RAD51C	5889	BC	X		big (large) cells							
+RAN		"BC,AF,LA"	X	actin fibre	big (large) cells			lammellipodia				
+RAP2C	57826	"AF,BC"	X	actin fibre	big (large) cells							
+RAPH1	65059	"BC,AF"	X	actin fibre	big (large) cells							
+RASA1	5921	P	X								cells with protrusions and elongations	
+RBBP9	10741	"C,M"	X			condensed cells			metaphase			
+RBM8A	9939	"M,D"	X				debris		metaphase			
+RBP1	5947	C	X			condensed cells						
+RCN3	57333	"C,M"	X			condensed cells			metaphase			
+RFWD2	64326	BC	X		big (large) cells							
+RHBG	57127	P	X								cells with protrusions and elongations	
+RHOJ	57381	N								normal cells		
+RIC8B	55188	"N,P"	X							normal cells	cells with protrusions and elongations	
+RND3	390	"P,C"	X			condensed cells					cells with protrusions and elongations	
+RPA1	6117	"P,M"	X						metaphase		cells with protrusions and elongations	
+RPA2	6118	"C,P"	X			condensed cells					cells with protrusions and elongations	
+RPA3	6119	"M,C"	X			condensed cells			metaphase			
+RPH3AL	9501	"BC,LA"	X		big (large) cells			lammellipodia				
+RPL10L	140801	"BC,LA"	X		big (large) cells			lammellipodia				
+RPL14		BC	X		big (large) cells							
+RPL18		"C,BC"	X		big (large) cells	condensed cells						
+RPL24		"BC,C"	X		big (large) cells	condensed cells						
+RPL28	6158	"BC,M"	X		big (large) cells				metaphase			
+RPL30	6156	"C,BC,AF"	X	actin fibre	big (large) cells	condensed cells						
+RPL34		"BC,C"	X		big (large) cells	condensed cells						
+RPL35		"BC,AF"	X	actin fibre	big (large) cells							
+RPL35A	6165	C				condensed cells						
+RPL38	6169	C	X			condensed cells						
+RPL39L	116832	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+RPL4		"BC,C"	X		big (large) cells	condensed cells						
+RPL7A		"BC,AF,C"	X	actin fibre	big (large) cells	condensed cells						
+RPL8	6132	C	X			condensed cells						
+RPLP0		"BC,AF"	X	actin fibre	big (large) cells							
+RPLP1		"C,BC"	X		big (large) cells	condensed cells						
+RPS11		C	X			condensed cells						
+RPS13		"C,M"	X			condensed cells			metaphase			
+RPS14		C	X			condensed cells						
+RPS19		C	X			condensed cells						
+RPS21	6227	"C,BC"	X		big (large) cells	condensed cells						
+RPS24		C	X			condensed cells						
+RPS28		C	X			condensed cells						
+RPS29		C	X			condensed cells						
+RPS3A		C	X			condensed cells						
+RPS5	6193	"C,BC"	X		big (large) cells	condensed cells						
+RPS9		"C,BC"	X		big (large) cells	condensed cells						
+RPSA		"C,P"	X			condensed cells					cells with protrusions and elongations	
+RSC1A1	6248	"N,BC"	X		big (large) cells					normal cells		
+RTN1	6252	C				condensed cells						
+RUNDC2A	84127	"BC,LA"	X		big (large) cells			lammellipodia				
+RUVBL2	10856	"P,D"	X				debris				cells with protrusions and elongations	
+SBNO1	55206	N								normal cells		
+SC65	10609	BC	X		big (large) cells							
+SCGB1A1	7356	"C,P"	X			condensed cells					cells with protrusions and elongations	
+SEC24D	9871	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+SEMA6A	57556	LA	X					lammellipodia				
+SERINC1	57515	"BC,LA"	X		big (large) cells			lammellipodia				
+SESN3	143686	"P,LA"	X					lammellipodia			cells with protrusions and elongations	
+SETD8		P	X								cells with protrusions and elongations	
+SF3A3	10946	"C,M"	X			condensed cells			metaphase			
+SF3B1	23451	"P,M,D"	X				debris		metaphase		cells with protrusions and elongations	
+SF3B14	51639	"BC,M"	X		big (large) cells				metaphase			
+SF3B4	10262	"M,D"	X				debris		metaphase			
+SH2B2	10603	BC			big (large) cells							
+SHCBP1	79801	"N,LA"	X					lammellipodia		normal cells		
+SHH	6469	C				condensed cells						
+SHROOM2	357	AF	X	actin fibre								
+SLC25A17	10478	BC	X		big (large) cells							
+SLC26A1	10861	"BC,AF"	X	actin fibre	big (large) cells							
+SLC2A13	114134	"BC,AF"	X	actin fibre	big (large) cells							
+SLC39A1	27173	LA	X					lammellipodia				
+SLC39A2	29986	"C,P"	X			condensed cells					cells with protrusions and elongations	
+SLC3A2	6520	"P,C"	X			condensed cells					cells with protrusions and elongations	
+SLC45A2	51151	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+SLC46A1	113235	"N,C"	X			condensed cells				normal cells		
+SLC46A2	57864	"BC,AF"	X	actin fibre	big (large) cells							
+SLC4A2	6522	LA	X					lammellipodia				
+SLC6A4	6532	BC			big (large) cells							
+SLITRK3	22865	"P,C"	X			condensed cells					cells with protrusions and elongations	
+SMARCD1	6602	N								normal cells		
+SMU1	55234	"M,BC"	X		big (large) cells				metaphase			
+SMUG1	23583	BC			big (large) cells							
+SMURF1	57154	BC	X		big (large) cells							
+SOCS2	8835	"P,C,D"	X			condensed cells	debris				cells with protrusions and elongations	
+SOCS7	30837	"C,LA"	X			condensed cells		lammellipodia				
+SOLH	6650	"BC,M"	X		big (large) cells				metaphase			
+SON	6651	"M,BC"	X		big (large) cells				metaphase			
+SPATA20	64847	P									cells with protrusions and elongations	
+SPATA7	55812	N	X							normal cells		
+SPIC	121599	P	X								cells with protrusions and elongations	
+SPIN2A		"BC,AF"	X	actin fibre	big (large) cells							
+SPP2	6694	P	X								cells with protrusions and elongations	
+SPRY2	10253	"LA,BC"	X		big (large) cells			lammellipodia				
+SPSB3	90864	"BC,AF"	X	actin fibre	big (large) cells							
+SPTA1	6708	P	X								cells with protrusions and elongations	
+SSBP3		"BC,C"	X		big (large) cells	condensed cells						
+STAP1	26228	C	X			condensed cells						
+STAR	6770	"BC,LA"	X		big (large) cells			lammellipodia				
+STK39	27347	N								normal cells		
+STRA6	64220	"P,C"	X			condensed cells					cells with protrusions and elongations	
+SUPT6H	6830	"P,C"	X			condensed cells					cells with protrusions and elongations	
+SUV39H1	6839	"M,AF"	X	actin fibre					metaphase			
+SYT4	6860	C				condensed cells						
+SYTL2	54843	"P,C"	X			condensed cells					cells with protrusions and elongations	
+TAGLN	6876	"P,C"	X			condensed cells					cells with protrusions and elongations	
+TAS2R49	259295	"M,BC"	X		big (large) cells				metaphase			
+TBX21	30009	"BC,LA"	X		big (large) cells			lammellipodia				
+TENC1	23371	N	X							normal cells		
+TESK2	10420	LA	X					lammellipodia				
+THAP3	90326	"BC,AF"	X	actin fibre	big (large) cells							
+THRA		"BC,LA,M"	X		big (large) cells			lammellipodia	metaphase			
+THSD3	145501	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+TIMM10	26519	"BC,LA"	X		big (large) cells			lammellipodia				
+TLN1	7094	"P,C"	X			condensed cells					cells with protrusions and elongations	
+TMBIM4	51643	"P,C,M"	X			condensed cells			metaphase		cells with protrusions and elongations	
+TMEM61	199964	"BC,P,AF"	X	actin fibre	big (large) cells						cells with protrusions and elongations	
+TMOD1	7111	C	X			condensed cells						
+TMOD2	29767	N	X							normal cells		
+TMPRSS9	360200	"N,BC"	X		big (large) cells					normal cells		
+TNFRSF1A	7132	AF	X	actin fibre								
+TNPO2	30000	"P,M,C"	X			condensed cells			metaphase		cells with protrusions and elongations	
+TP53BP1	7158	N								normal cells		
+TP53I13	90313	"BC,M"	X		big (large) cells				metaphase			
+TPCN1	53373	"BC,AF"	X	actin fibre	big (large) cells							
+TPPP2	122664	C	X			condensed cells						
+TPRG1	285386	"C,LA"	X			condensed cells		lammellipodia				
+TPX2	22974	"M,P"	X						metaphase		cells with protrusions and elongations	
+TRA2A	29896	N	X							normal cells		
+TRAIP	10293	"P,C"	X			condensed cells					cells with protrusions and elongations	
+TRAPPC1	58485	P	X								cells with protrusions and elongations	
+TRAPPC2L	51693	"BC,AF"	X	actin fibre	big (large) cells							
+TRAT1	50852	C				condensed cells						
+TRIM17	51127	"P,C"	X			condensed cells					cells with protrusions and elongations	
+TRIM32	22954	C	X			condensed cells						
+TRIM9	114088	"LA,AF"	X	actin fibre				lammellipodia				
+TRPM8	79054	"BC,AF"	X	actin fibre	big (large) cells							
+TSPAN9	10867	C	X			condensed cells						
+TTC22	55001	LA	X					lammellipodia				
+TUBE1	51175	P	X								cells with protrusions and elongations	
+UBB		"AF,BC"	X	actin fibre	big (large) cells							
+UBC	7316	"LA,BC,M"	X		big (large) cells			lammellipodia	metaphase			
+UBE2D2	7322	"C,M"	X			condensed cells			metaphase			
+UBOX5	22888	"BC,AF,C"	X	actin fibre	big (large) cells	condensed cells						
+UGCGL1	56886	"N,C,M"	X			condensed cells			metaphase	normal cells		
+UNC93A	54346	"BC,AF"	X	actin fibre	big (large) cells							
+UNG	7374	N	X							normal cells		
+UPK1A		"M,AF"	X	actin fibre					metaphase			
+USO1	8615	BC	X		big (large) cells							
+USP1	7398	"C,LA"	X			condensed cells		lammellipodia				
+USP18		"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+VARS2	57176	"N,C,LA"	X			condensed cells		lammellipodia		normal cells		
+VAX1	11023	"AF,C"	X	actin fibre		condensed cells						
+VIT	5212	"C,LA"	X			condensed cells		lammellipodia				
+VNN3	55350	"C,AF"	X	actin fibre		condensed cells						
+WBSCR22	114049	"LA,P"	X					lammellipodia			cells with protrusions and elongations	
+WDHD1	11169	C				condensed cells						
+WDR21A	#N/A	"BC,AF,C"	X	actin fibre	big (large) cells	condensed cells						
+WEE1	7465	"M,D"	X				debris		metaphase			
+WFS1		"P,C,M"	X			condensed cells			metaphase		cells with protrusions and elongations	
+WHSC1L1		"M,P,LA"	X					lammellipodia	metaphase		cells with protrusions and elongations	
+WIPI1	55062	BC	X		big (large) cells							
+WISP1	8840	"P,C"	X			condensed cells					cells with protrusions and elongations	
+WRN		"C,M"	X			condensed cells			metaphase			
+WWP2	11060	C				condensed cells						
+YARS	8565	C				condensed cells						
+YIPF4	84272	"BC,AF,LA"	X	actin fibre	big (large) cells			lammellipodia				
+ZBTB48	3104	P	X								cells with protrusions and elongations	
+ZCCHC13	389874	"BC,AF"	X	actin fibre	big (large) cells							
+ZDHHC19	131540	"C,BC"	X		big (large) cells	condensed cells						
+ZFAND1	79752	"C,LA"	X			condensed cells		lammellipodia				
+ZIM3	114026	"N,M"	X						metaphase	normal cells		
+ZNF16		BC	X		big (large) cells							
+ZNF177	7730	"BC,AF"	X	actin fibre	big (large) cells							
+ZNF212	7988	C	X			condensed cells						
+ZNF225	7768	N	X							normal cells		
+ZNF234	10780	"AF,M"	X	actin fibre					metaphase			
+ZNF331	55422	"BC,LA"	X		big (large) cells			lammellipodia				
+ZNF442	79973	C	X			condensed cells						
+ZNF507	22847	"BC,P"	X		big (large) cells						cells with protrusions and elongations	
+ZNF585A		"P,C"	X			condensed cells					cells with protrusions and elongations	
+ZNF595	152687	C	X			condensed cells						
+ZNRF4	148066	"M,P"	X						metaphase		cells with protrusions and elongations	
