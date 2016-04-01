@@ -6,6 +6,8 @@ OMERO_SERVER=/home/omero/OMERO.server
 omero="$OMERO_SERVER/bin/omero"
 
 pushd idr-metadata
+# Fetch rendering definitions
+git fetch origin pull/75/head && git merge FETCH_HEAD -m 'Get rendering definitions'
 
 # Don't forget hql -q outputs the row number as the first column
 $omero login -s localhost -u demo -w ome

@@ -6,6 +6,11 @@ OMERO_SERVER=/home/omero/OMERO.server
 omero="$OMERO_SERVER/bin/omero"
 
 # Get metadata
+git config user.email || \
+    git config --global user.email "ome-devel@lists.openmicroscopy.org.uk"
+git config user.name || \
+    git config --global user.name "IDR Project"
+
 git clone https://github.com/IDR/idr-metadata.git
 pushd idr-metadata
 # Convert /idr to /uod/idr
