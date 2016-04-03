@@ -11,12 +11,12 @@ git config user.email || \
 git config user.name || \
     git config --global user.name "IDR Project"
 
-git clone https://github.com/IDR/idr-metadata.git
+[ -d idr-metadata ] || git clone https://github.com/IDR/idr-metadata.git
 pushd idr-metadata
 # Convert /idr to /uod/idr
 git fetch origin pull/73/head && git merge FETCH_HEAD -m 'Update paths'
 
-sed -i -re "s|^bin = .+|bin = '$omero'|" idr-metadata/screen_import.py
+sed -i -re "s|^bin = .+|bin = '$omero'|" screen_import.py
 
 plate_0001=idr0001-graml-sysgro/screenA/plates/X_110222_S1
 plate_0002=idr0002-heriche-condensation/screenA/plates/plate1_1_013
@@ -36,7 +36,7 @@ plate_0015=idr0015-UNKNOWN-taraoceans/screenA/plates/TARA_HCS1_H5_G100001472_G10
 #plate_0016=
 plate_0017=idr0017-breinig-drugscreen/screenA/plates/2011-11-17_X-Man_LOPAC_X01_LP_S01_1
 
-mkdir logs
+mkdir -p logs
 sudo -u omero $omero login -s localhost -u demo -w ome
 for plate in $plate_0001 $plate_0002 "$plate_0003" $plate_0004 $plate_0005 \
         $plate_0006 $plate_0007 $plate_0008 $plate_0009 $plate_0010 \
