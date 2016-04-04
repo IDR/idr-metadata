@@ -24,7 +24,8 @@ Import data: `idr-setup-2.sh`
 -----------------------------
 
 Run this script to import a hard-coded list of plates, one from each fileset.
-Alternatively you can run `idr-setup-2random.sh` to import a randomly chosen plate from each fileset- this script can be run multiple times to import multiple random plates.
+Alternatively you can run `idr-setup-2random.sh` to import randomly chosen plates from each fileset specified as an argument (see the header text in `idr-setup-2random.sh`).
+This latter script can be run multiple times to import multiple random plates.
 
 
 Bulk annotations: `idr-setup-3.sh`

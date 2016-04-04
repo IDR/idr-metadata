@@ -1,5 +1,16 @@
 #!/bin/bash
-# Import- you may want to do this in screen in case your connection is broken
+# Import random plates from the directories specified in args
+#
+# For convenience `idr-metadata/` will be removed from the start of paths
+# so that shell-completion can be used
+#
+# For example
+#   idr-setup-2random.sh idr0004-thorpe-rad52 idr0017-breinig-drugscreen
+# will import one randomly chosen plate from each of those screens
+#
+# For example
+#   idr-setup-2random.sh idr-metadata/idr*
+# will import one randomly chosen plate from every screen
 
 date
 OMERO_SERVER=/home/omero/OMERO.server
@@ -15,13 +26,16 @@ git config user.name || \
 pushd idr-metadata
 # Convert /idr to /uod/idr
 git fetch origin pull/73/head && git merge FETCH_HEAD -m 'Update paths'
+# Get idr0016 metadata
+git fetch origin pull/76/head && git merge FETCH_HEAD -m 'idr0016 metadata'
 
 sed -i -re "s|^bin = .+|bin = '$omero'|" screen_import.py
 
 mkdir -p logs
 sudo -u omero $omero login -s localhost -u demo -w ome
-for idr in idr*/; do
-    plate="$(find $idr -ipath \*/plates/\* | shuf -n 1)"
+for idr in "$@"; do
+    idr="${idr#idr-metadata/}"
+    plate="$(find "$idr" -ipath "*/plates/*" | shuf -n 1)"
     # Print and log stdout and stderr http://stackoverflow.com/a/692407
     logprefix="$(echo "$plate" | tr / -)"
     echo
