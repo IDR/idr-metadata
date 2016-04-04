@@ -33,6 +33,8 @@ columns:
     clientname: Compound Name URL
     clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
     include: yes
+  - name: PubChem InChIKey
+    include: yes 
   - name: ChEMBL Compound Name
     include: yes
   - name: ChEMBL PREF NAME
