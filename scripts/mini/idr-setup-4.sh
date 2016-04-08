@@ -23,8 +23,8 @@ $omero hql 'select id,name from Screen' --limit -1 -q --style plain | \
             WHERE spl.child=p AND ws.well.plate=p \
             AND spl.parent.id=${arr[1]}" )
 
-        stat ${arr[2]}/idr*-renderdef.txt >/dev/null 2> /dev/null|| continue
-        $omero render edit Image:${iarr[3]} $(cat ${arr[2]}/idr*-renderdef.txt)
+        stat ${arr[2]}/idr*-renderdef.yml >/dev/null 2> /dev/null|| continue
+        $omero render edit Image:${iarr[3]} ${arr[2]}/idr*-renderdef.yml
         $omero render copy Image:${iarr[3]} Screen:${arr[1]}
     done
 
