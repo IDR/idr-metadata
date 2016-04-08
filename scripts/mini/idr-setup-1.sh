@@ -11,6 +11,7 @@ OMERO_SERVER=/home/omero/OMERO.server
 # Download the render.py plugin if it's not present in this build
 if [ ! -f "$OMERO_SERVER/lib/python/omero/plugins/render.py" ]; then
     sudo -u omero sh -c "curl https://raw.githubusercontent.com/manics/openmicroscopy/metadata52-render/components/tools/OmeroPy/src/omero/plugins/render.py > '$OMERO_SERVER/lib/python/omero/plugins/render.py'"
+    sudo -u omero sh -c "curl https://raw.githubusercontent.com/manics/openmicroscopy/metadata52-render/components/tools/OmeroPy/src/omero/util/pydict_text_readers.py > '$OMERO_SERVER/lib/python/omero/util/pydict_text_readers.py'"
 fi
 
 omero="$OMERO_SERVER/bin/omero"
