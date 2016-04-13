@@ -1,0 +1,67 @@
+#!/usr/bin/env python
+
+import sys
+import os
+import errno
+
+import make_screen
+
+PROJ_DIR = "/uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling"
+DATA_DIRS = [
+    os.path.join(PROJ_DIR, "2016-02-19-screens-cellimagelibrary"),
+    os.path.join(PROJ_DIR, "2016-01-19-screens-bbbc022"),
+]
+PLATES_DIR = os.path.join(os.pardir, "screenA", "plates")
+SCREENS_DIR = os.path.join(os.pardir, "screens")
+REL_SCREENS_DIR = os.path.join(
+    "idr0016-wawer-bioactivecompoundprofiling", "screens"
+)
+EXP_CHANNELS = ['ERSyto', 'ERSytoBleed', 'Hoechst', 'Mito', 'Ph_golgi']
+STATS_FN = "stats.txt"
+
+
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as e:
+        if e.errno == errno.ENOENT:
+            pass
+
+
+def get_stats(data_dir, plate):
+    stats = []
+    for c in EXP_CHANNELS:
+        subd = os.path.join(data_dir, "%s-%s" % (plate, c))
+        try:
+            stats.append(str(len(os.listdir(subd))))
+        except OSError:
+            stats.append("NOT_FOUND")
+    return stats
+
+
+def main(argv):
+    mkdir_p(SCREENS_DIR)
+    mkdir_p(PLATES_DIR)
+    with open(STATS_FN, "w") as fo:
+        fo.write("PLATE\t%s\n" % ("\t".join(EXP_CHANNELS)))
+        for data_dir in DATA_DIRS:
+            print "data dir: %s" % (data_dir)
+            channel_map = make_screen.get_channel_map(data_dir)
+            total = len(channel_map)
+            for i, plate in enumerate(channel_map):
+                print "  plate: %s [%d/%d]" % (plate, i + 1, total)
+                screen_bn = "%s.screen" % plate
+                screen_fn = os.path.join(SCREENS_DIR, screen_bn)
+                fo.write("%s\t%s\n" % (
+                    plate, "\t".join(get_stats(data_dir, plate))
+                ))
+                make_screen.main([
+                    "dummy", data_dir, "-o", screen_fn, "-p", plate
+                ])
+                plate_fn = os.path.join(PLATES_DIR, plate)
+                with open(plate_fn, "w") as plate_file:
+                    plate_file.write("%s/%s\n" % (REL_SCREENS_DIR, screen_bn))
+
+
+if __name__ == "__main__":
+    main(sys.argv)
