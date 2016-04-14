@@ -184,7 +184,7 @@ print "Making bulk annotation file for screen $screenNameRow[1]\n";
 
 # 2. find which column to combine on  
 $columnTitleToCombineOn = getColumnToCombineOn(\@screenRows);
-#print "The column to combine on is $columnTitleToCombineOn\n";
+print "The column to combine on is $columnTitleToCombineOn\n";
 
 # 3. get the phenotypes and the ontology mappings
 # Create a hash of the submitter phenotypes and their ontology sources, terms and accessions
@@ -225,12 +225,13 @@ my @libraryHeaderRow = split("\t", $libraryFile[0]);
 
 my $n=0;
 foreach my $column (@libraryHeaderRow){
-  if ($column =~ /^$columnTitleToCombineOn$/){
+  if ($column =~ /^\Q$columnTitleToCombineOn\E$/){
     $indexOfLibraryFileColumnForMatching = $n;
     last;
   }
   $n++;
 }
+#print "index of library file column for matching is $indexOfLibraryFileColumnForMatching\n";
 
 # remove any new line characters
 foreach my $libraryHeader (@libraryHeaderRow){
@@ -297,14 +298,15 @@ my $indexOfProcessedFileColumnForMatching;
 
 my $p=0;
 foreach my $column (@processedHeaderRow){
-  if ($column =~ /^$columnTitleToCombineOn$/){
-#    print "column to match on is $column\n";
+  if ($column =~ /^\Q$columnTitleToCombineOn\E$/){ # have to quotemeta this as column to match on might have brackets in it e.g. Experimental Condition [cell line]
+ #   print "column to match on is $column\n";
     $indexOfProcessedFileColumnForMatching = $p;
     last;
   }
   $p++;
 }
 
+#print "index for column to match on is $indexOfProcessedFileColumnForMatching\n";
 
 # 9. remove the columns from the processed file that are already in  
 #    the library file as don't need them twice in the final file. To 
@@ -361,8 +363,8 @@ for (my $row=0; $row<@processedFile; $row++){
 
  my %Identifier_otherColumnsWithOntology = %{ dclone(\%Identifier_otherColumns) };
 
-#print "At start old header row is @{$Identifier_otherColumns{$columnTitleToCombineOn}}\n";
-#print "At start new header row is @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}\n";
+print "At start old header row is @{$Identifier_otherColumns{$columnTitleToCombineOn}}\n";
+print "At start new header row is @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}\n";
 
 # if there are any phenotypes then add the ontology to the new header row otherwise it will just stay the same as
 # it is
@@ -650,9 +652,9 @@ sub getColumnToCombineOn{
   foreach my $row (@$screenRef){
     if ($row =~ m/Processed Data Column Link To Library File/) {
       my @cells = split("\t", $row);
-       $columnToCombine = $cells[1];
+      $columnToCombine = $cells[1]; # the column to combine on is always listed in the first column after the 'Processed Data Column Link To Library File' tag
      }
-   }
+  } 
 
    # if there is no 'Processed Data Column Link to Library File' row or the value is empty then stop here
    if ($columnToCombine eq "none" || $columnToCombine !~ /\w+/){
