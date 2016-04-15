@@ -2,31 +2,14 @@
 
 import sys
 import os
-import string
 from argparse import ArgumentParser
+
+from pyidr.screenio import ScreenWriter
 
 ROWS = 16
 COLUMNS = 24
 FIELDS = 1
-WELL_LETTERS = string.uppercase[:ROWS]
-
-PLATE = """\
-[Plate]
-Name = %%s
-Rows = %s
-Columns = %s
-Fields = %s
-""" % (ROWS, COLUMNS, FIELDS)
-
-WELL = """\
-[Well %(well)s]
-Row = %(row)s
-Column = %(col)s
-"""
-
-
-def global_idx(i, j):
-    return i * COLUMNS + j
+EXTRA_KV = {"Dimensions": "ZCT"}
 
 
 def parse_cl(argv):
@@ -37,30 +20,20 @@ def parse_cl(argv):
     return parser.parse_args(argv[1:])
 
 
-def make_well_map():
-    wm = {}
-    for i, c in enumerate(WELL_LETTERS):
-        for j in xrange(COLUMNS):
-            wm[global_idx(i, j)] = "%s%03d" % (c, j + 1)
-    return wm
-
-
 def write_screen(data_dir, plate, outf):
-    wm = make_well_map()
-    outf.write(PLATE % plate)
-    for i in xrange(ROWS):
-        for j in xrange(COLUMNS):
-            outf.write("\n")
-            gi = global_idx(i, j)
-            outf.write(WELL % {"well": gi, "row": i, "col": j})
-            well_tag = "Well %s" % wm[gi]
-            subdir = os.path.join(data_dir, well_tag)
-            if not os.path.isdir(subdir):
-                sys.stderr.write("missing: %s\n" % subdir)
-                continue
+    writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS)
+    for idx in xrange(ROWS * COLUMNS):
+        r, c = writer.coordinates(idx)
+        well_tag = "Well %s%03d" % (r, c)
+        subdir = os.path.join(data_dir, well_tag)
+        field_values = []
+        if not os.path.isdir(subdir):
+            sys.stderr.write("missing: %s\n" % subdir)
+        else:
             pattern = "<FITC,Hoechst,Tritc>_Flo - n000000.tif"
-            fn = os.path.join(subdir, pattern)
-            outf.write("Field_0 = %s\n" % fn)
+            field_values.append(os.path.join(subdir, pattern))
+        writer.add_well(field_values, extra_kv=EXTRA_KV)
+    writer.write(outf)
 
 
 def main(argv):

@@ -1,4 +1,4 @@
-Plate	Well Number	Well	hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Description	Control Type	Control Comments	Quality Control	Quality Control Comments	Comments
+Plate	Well Number	Well	hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Gene Description	Control Type	Control Comments	Quality Control	Quality Control Comments	Comments
 11001	1	A1	9994	84240	ZCCHC9	"Homo sapiens zinc finger, CCHC domain containing 9"					
 11001	2	A2	168	84736	RPL27A	"Homo sapiens ribosomal protein L27a, mRNA (cDNA clone IMAGE:3906869), complete cds."					
 11001	3	A3	2850	619434	NCRNA00051	"Homo sapiens chromosome 8 open reading frame 43, mRNA (cDNA clone IMAGE:3866356)."					
@@ -13443,7 +13443,7 @@ Plate	Well Number	Well	hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Desc
 51007	2	A2	54728	240	ALOX5	"Homo sapiens arachidonate 5-lipoxygenase, mRNA (cDNA clone MGC:163204 IMAGE:40146363), complete cds."					
 51007	3	A3	54537	11141	IL1RAPL1	"Homo sapiens interleukin 1 receptor accessory protein-like 1, mRNA (cDNA clone MGC:161625 IMAGE:8992063), complete cds."					
 51007	4	A4	56399	9333	TGM5	"Homo sapiens transglutaminase 5, mRNA (cDNA clone MGC:141907 IMAGE:40085372), complete cds."					
-51007	5	A5	56250	6041	RNASEL	"Homo sapiens ribonuclease L (2	5'-oligoisoadenylate synthetase-dependent), mRNA (cDNA clone MGC:133328 IMAGE:40054014), complete cds."					
+51007	5	A5	56250	6041	RNASEL						
 51007	6	A6	56076	79658	ARHGAP10	"Homo sapiens Rho GTPase activating protein 10, mRNA (cDNA clone MGC:125637 IMAGE:40027832), complete cds."					
 51007	7	A7	53944	51133	KCTD3	"Homo sapiens potassium channel tetramerisation domain containing 3, mRNA (cDNA clone MGC:150797 IMAGE:40125739), complete cds."					
 51007	8	A8	54025	7841	MOGS	"Homo sapiens glucosidase I, mRNA (cDNA clone MGC:150861 IMAGE:40125803), complete cds."					
@@ -15608,7 +15608,7 @@ Plate	Well Number	Well	hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Desc
 51029	55	E7	55327	199953	TMEM201	"Homo sapiens transmembrane protein 201, mRNA (cDNA clone MGC:117148 IMAGE:3870153), complete cds."					
 51029	56	E8	55427	284656	EPHA10	"Homo sapiens EPH receptor A10, mRNA (cDNA clone MGC:131744 IMAGE:5165393), complete cds."					
 51029	57	E9	53180	9584	RBM39						
-51029	58	E10	55247	4938	OAS1	"Homo sapiens 2	5'-oligoadenylate synthetase 1, 40/46kDa, mRNA (cDNA clone MGC:88678 IMAGE:4053409), complete cds."					
+51029	58	E10	55247	4938	OAS1						
 51029	59	E11	55362	53836	GPR87	"Homo sapiens G protein-coupled receptor 87, mRNA (cDNA clone MGC:131822 IMAGE:4521950), complete cds."					
 51029	60	E12	56936	494513	DFNB59	"Homo sapiens deafness, autosomal recessive 59, mRNA (cDNA clone MGC:158043 IMAGE:40132882), complete cds."					
 51029	61	F1	55668	286207	C9orf117	"Homo sapiens chromosome 9 open reading frame 117, mRNA (cDNA clone MGC:164808 IMAGE:40147564), complete cds."					

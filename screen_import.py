@@ -15,16 +15,18 @@ assert exists(bin)
 
 parser = ArgumentParser()
 parser.add_argument("screen")
-parser.add_argument("--force",
+parser.add_argument(
+    "--force",
     action="store_true",
     default=False,
-    help="Re-import if necessary")
+    help="Re-import if necessary"
+)
 ns = parser.parse_args()
 
 command = [
-      bin, "import", "--",
-      "--checksum-algorithm=File-Size-64",
-      "--transfer=ln_s"
+    bin, "import", "--",
+    "--checksum-algorithm=File-Size-64",
+    "--transfer=ln_s"
 ]
 
 if not ns.force:
@@ -48,19 +50,22 @@ print "Screen: ", screen
 print "Plate count:", len(glob(plates))
 assert exists(ns.screen)
 
-for plate in glob(plates):
+for plate in sorted(glob(plates)):
+    if plate.endswith(".log"):
+        continue
+    if exists(plate + ".log"):
+        print "Skipping due to %s.log" % plate
+        continue
     name = basename(plate)
     with open(plate, "r") as f:
         target = f.read().strip()
     print name, "-->", target
 
     if call(command + [
-      "--name=%s" % name,
-      "--target=Screen:name:%s/%s" % (study, screen),
-      "--transfer=ln_s", target]):
-          print "FAILED",
+            "--name=%s" % name,
+            "--target=Screen:name:%s/%s" % (study, screen),
+            "--transfer=ln_s", target]):
+        print "FAILED",
     else:
-          print "PASSED",
+        print "PASSED",
     print "=" * 40
-
-

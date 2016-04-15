@@ -12,9 +12,12 @@ cache: pip
 
 install:
   - pip install PyYAML pandas flake8
+  - python setup.py install
 
-#before_script:
-#  - flake8 -v .
+before_script:
+  - flake8 -v .
 
 script:
+  - find idr* -type f -name '*.screen' -print0 | xargs -0 -n1 python scripts/check_screen.py -v
   - python scripts/travis-check.py .
+  - python test/all_tests.py

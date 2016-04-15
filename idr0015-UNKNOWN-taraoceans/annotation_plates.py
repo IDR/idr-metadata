@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 
+import omero
 from omero.rtypes import unwrap
 from omero.util.populate_metadata import BulkToMapAnnotationContext
 import pandas as pd
 import re
+import warnings
+
 
 # execfile() this from inside `omero shell --login`
 # (client variable must exist)
@@ -11,13 +14,13 @@ import re
 bulkcsv = 'taraoceans.BULK_ANNOTATION.csv'
 screenid = 151
 
-# OMERO.web crashes if a non-FileAnnotation on a Plate has namespace
-# NSBULKANNOTATIONS, so change it until the bug is fixed.
-ns = omero.constants.namespaces.NSBULKANNOTATIONS + '/MapAnnotation'
+ignore_missing = False
+
+ns = omero.constants.namespaces.NSBULKANNOTATIONS
 
 
-qs = client.getSession().getQueryService()
-us = client.getSession().getUpdateService()
+qs = client.getSession().getQueryService()  # noqa
+us = client.getSession().getUpdateService()  # noqa
 
 df = pd.read_csv(bulkcsv)
 
@@ -39,8 +42,13 @@ plateinfos = [PlateInfo(r[0], r[1]) for r in rs]
 names_csv = set(df['Plate'])
 names_run = set(pm.name for pm in plateinfos)
 # Check all plates have an entry in the CSV
-assert names_csv.intersection(names_run) == names_run
-#
+missing = names_run.difference(names_csv)
+if missing:
+    msg = 'No matching annotations found for:%s\n' % ('\n'.join(missing))
+    if ignore_missing:
+        warnings.warn(msg)
+    else:
+        raise Exception(msg)
 
 links = []
 for pm in plateinfos:

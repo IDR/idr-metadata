@@ -9,6 +9,7 @@ from pyidr.screenio import ScreenWriter
 ROWS = 16
 COLUMNS = 24
 FIELDS = 2
+EXTRA_KV = {"Dimensions": "ZCT"}
 
 
 def parse_cl(argv):
@@ -32,7 +33,7 @@ def write_screen(data_dir, plate, outf):
             for run in xrange(FIELDS):
                 pattern = "%s_<A,H,T>%d.tif" % (well_tag, run + 1)
                 field_values.append(os.path.join(subdir, pattern))
-        writer.add_well(field_values)
+        writer.add_well(field_values, extra_kv=EXTRA_KV)
     writer.write(outf)
 
 

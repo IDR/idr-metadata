@@ -14,7 +14,8 @@ with open("raw", "r") as f:
 for plate in plates:
     for file in glob(plate + "/*"):
         m = PAT.match(file)
-        if not m: raise Exception(file)
+        if not m:
+            raise Exception(file)
         x = int(m.group(1))
         y = int(m.group(2))
         X_s[x] += 1

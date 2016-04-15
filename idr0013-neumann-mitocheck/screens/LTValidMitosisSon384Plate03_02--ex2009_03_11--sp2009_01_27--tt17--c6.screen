@@ -1,0 +1,1884 @@
+[Plate]
+Name = LTValidMitosisSon384Plate03_02
+Rows = 16
+Columns = 24
+Fields = 1
+
+[Well 0]
+Row = 0
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00001_01.ch5
+
+[Well 1]
+Row = 0
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00002_01.ch5
+
+[Well 2]
+Row = 0
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00003_01.ch5
+
+[Well 3]
+Row = 0
+Column = 3
+
+[Well 4]
+Row = 0
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00005_01.ch5
+
+[Well 5]
+Row = 0
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00006_01.ch5
+
+[Well 6]
+Row = 0
+Column = 6
+
+[Well 7]
+Row = 0
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00008_01.ch5
+
+[Well 8]
+Row = 0
+Column = 8
+
+[Well 9]
+Row = 0
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00010_01.ch5
+
+[Well 10]
+Row = 0
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00011_01.ch5
+
+[Well 11]
+Row = 0
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00012_01.ch5
+
+[Well 12]
+Row = 0
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00013_01.ch5
+
+[Well 13]
+Row = 0
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00014_01.ch5
+
+[Well 14]
+Row = 0
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00015_01.ch5
+
+[Well 15]
+Row = 0
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00016_01.ch5
+
+[Well 16]
+Row = 0
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00017_01.ch5
+
+[Well 17]
+Row = 0
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00018_01.ch5
+
+[Well 18]
+Row = 0
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00019_01.ch5
+
+[Well 19]
+Row = 0
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00020_01.ch5
+
+[Well 20]
+Row = 0
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00021_01.ch5
+
+[Well 21]
+Row = 0
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00022_01.ch5
+
+[Well 22]
+Row = 0
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00023_01.ch5
+
+[Well 23]
+Row = 0
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00024_01.ch5
+
+[Well 24]
+Row = 1
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00025_01.ch5
+
+[Well 25]
+Row = 1
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00026_01.ch5
+
+[Well 26]
+Row = 1
+Column = 2
+
+[Well 27]
+Row = 1
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00028_01.ch5
+
+[Well 28]
+Row = 1
+Column = 4
+
+[Well 29]
+Row = 1
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00030_01.ch5
+
+[Well 30]
+Row = 1
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00031_01.ch5
+
+[Well 31]
+Row = 1
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00032_01.ch5
+
+[Well 32]
+Row = 1
+Column = 8
+
+[Well 33]
+Row = 1
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00034_01.ch5
+
+[Well 34]
+Row = 1
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00035_01.ch5
+
+[Well 35]
+Row = 1
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00036_01.ch5
+
+[Well 36]
+Row = 1
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00037_01.ch5
+
+[Well 37]
+Row = 1
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00038_01.ch5
+
+[Well 38]
+Row = 1
+Column = 14
+
+[Well 39]
+Row = 1
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00040_01.ch5
+
+[Well 40]
+Row = 1
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00041_01.ch5
+
+[Well 41]
+Row = 1
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00042_01.ch5
+
+[Well 42]
+Row = 1
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00043_01.ch5
+
+[Well 43]
+Row = 1
+Column = 19
+
+[Well 44]
+Row = 1
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00045_01.ch5
+
+[Well 45]
+Row = 1
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00046_01.ch5
+
+[Well 46]
+Row = 1
+Column = 22
+
+[Well 47]
+Row = 1
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00048_01.ch5
+
+[Well 48]
+Row = 2
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00049_01.ch5
+
+[Well 49]
+Row = 2
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00050_01.ch5
+
+[Well 50]
+Row = 2
+Column = 2
+
+[Well 51]
+Row = 2
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00052_01.ch5
+
+[Well 52]
+Row = 2
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00053_01.ch5
+
+[Well 53]
+Row = 2
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00054_01.ch5
+
+[Well 54]
+Row = 2
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00055_01.ch5
+
+[Well 55]
+Row = 2
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00056_01.ch5
+
+[Well 56]
+Row = 2
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00057_01.ch5
+
+[Well 57]
+Row = 2
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00058_01.ch5
+
+[Well 58]
+Row = 2
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00059_01.ch5
+
+[Well 59]
+Row = 2
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00060_01.ch5
+
+[Well 60]
+Row = 2
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00061_01.ch5
+
+[Well 61]
+Row = 2
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00062_01.ch5
+
+[Well 62]
+Row = 2
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00063_01.ch5
+
+[Well 63]
+Row = 2
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00064_01.ch5
+
+[Well 64]
+Row = 2
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00065_01.ch5
+
+[Well 65]
+Row = 2
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00066_01.ch5
+
+[Well 66]
+Row = 2
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00067_01.ch5
+
+[Well 67]
+Row = 2
+Column = 19
+
+[Well 68]
+Row = 2
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00069_01.ch5
+
+[Well 69]
+Row = 2
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00070_01.ch5
+
+[Well 70]
+Row = 2
+Column = 22
+
+[Well 71]
+Row = 2
+Column = 23
+
+[Well 72]
+Row = 3
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00073_01.ch5
+
+[Well 73]
+Row = 3
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00074_01.ch5
+
+[Well 74]
+Row = 3
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00075_01.ch5
+
+[Well 75]
+Row = 3
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00076_01.ch5
+
+[Well 76]
+Row = 3
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00077_01.ch5
+
+[Well 77]
+Row = 3
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00078_01.ch5
+
+[Well 78]
+Row = 3
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00079_01.ch5
+
+[Well 79]
+Row = 3
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00080_01.ch5
+
+[Well 80]
+Row = 3
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00081_01.ch5
+
+[Well 81]
+Row = 3
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00082_01.ch5
+
+[Well 82]
+Row = 3
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00083_01.ch5
+
+[Well 83]
+Row = 3
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00084_01.ch5
+
+[Well 84]
+Row = 3
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00085_01.ch5
+
+[Well 85]
+Row = 3
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00086_01.ch5
+
+[Well 86]
+Row = 3
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00087_01.ch5
+
+[Well 87]
+Row = 3
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00088_01.ch5
+
+[Well 88]
+Row = 3
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00089_01.ch5
+
+[Well 89]
+Row = 3
+Column = 17
+
+[Well 90]
+Row = 3
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00091_01.ch5
+
+[Well 91]
+Row = 3
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00092_01.ch5
+
+[Well 92]
+Row = 3
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00093_01.ch5
+
+[Well 93]
+Row = 3
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00094_01.ch5
+
+[Well 94]
+Row = 3
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00095_01.ch5
+
+[Well 95]
+Row = 3
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00096_01.ch5
+
+[Well 96]
+Row = 4
+Column = 0
+
+[Well 97]
+Row = 4
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00098_01.ch5
+
+[Well 98]
+Row = 4
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00099_01.ch5
+
+[Well 99]
+Row = 4
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00100_01.ch5
+
+[Well 100]
+Row = 4
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00101_01.ch5
+
+[Well 101]
+Row = 4
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00102_01.ch5
+
+[Well 102]
+Row = 4
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00103_01.ch5
+
+[Well 103]
+Row = 4
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00104_01.ch5
+
+[Well 104]
+Row = 4
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00105_01.ch5
+
+[Well 105]
+Row = 4
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00106_01.ch5
+
+[Well 106]
+Row = 4
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00107_01.ch5
+
+[Well 107]
+Row = 4
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00108_01.ch5
+
+[Well 108]
+Row = 4
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00109_01.ch5
+
+[Well 109]
+Row = 4
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00110_01.ch5
+
+[Well 110]
+Row = 4
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00111_01.ch5
+
+[Well 111]
+Row = 4
+Column = 15
+
+[Well 112]
+Row = 4
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00113_01.ch5
+
+[Well 113]
+Row = 4
+Column = 17
+
+[Well 114]
+Row = 4
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00115_01.ch5
+
+[Well 115]
+Row = 4
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00116_01.ch5
+
+[Well 116]
+Row = 4
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00117_01.ch5
+
+[Well 117]
+Row = 4
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00118_01.ch5
+
+[Well 118]
+Row = 4
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00119_01.ch5
+
+[Well 119]
+Row = 4
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00120_01.ch5
+
+[Well 120]
+Row = 5
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00121_01.ch5
+
+[Well 121]
+Row = 5
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00122_01.ch5
+
+[Well 122]
+Row = 5
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00123_01.ch5
+
+[Well 123]
+Row = 5
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00124_01.ch5
+
+[Well 124]
+Row = 5
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00125_01.ch5
+
+[Well 125]
+Row = 5
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00126_01.ch5
+
+[Well 126]
+Row = 5
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00127_01.ch5
+
+[Well 127]
+Row = 5
+Column = 7
+
+[Well 128]
+Row = 5
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00129_01.ch5
+
+[Well 129]
+Row = 5
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00130_01.ch5
+
+[Well 130]
+Row = 5
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00131_01.ch5
+
+[Well 131]
+Row = 5
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00132_01.ch5
+
+[Well 132]
+Row = 5
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00133_01.ch5
+
+[Well 133]
+Row = 5
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00134_01.ch5
+
+[Well 134]
+Row = 5
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00135_01.ch5
+
+[Well 135]
+Row = 5
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00136_01.ch5
+
+[Well 136]
+Row = 5
+Column = 16
+
+[Well 137]
+Row = 5
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00138_01.ch5
+
+[Well 138]
+Row = 5
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00139_01.ch5
+
+[Well 139]
+Row = 5
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00140_01.ch5
+
+[Well 140]
+Row = 5
+Column = 20
+
+[Well 141]
+Row = 5
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00142_01.ch5
+
+[Well 142]
+Row = 5
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00143_01.ch5
+
+[Well 143]
+Row = 5
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00144_01.ch5
+
+[Well 144]
+Row = 6
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00145_01.ch5
+
+[Well 145]
+Row = 6
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00146_01.ch5
+
+[Well 146]
+Row = 6
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00147_01.ch5
+
+[Well 147]
+Row = 6
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00148_01.ch5
+
+[Well 148]
+Row = 6
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00149_01.ch5
+
+[Well 149]
+Row = 6
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00150_01.ch5
+
+[Well 150]
+Row = 6
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00151_01.ch5
+
+[Well 151]
+Row = 6
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00152_01.ch5
+
+[Well 152]
+Row = 6
+Column = 8
+
+[Well 153]
+Row = 6
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00154_01.ch5
+
+[Well 154]
+Row = 6
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00155_01.ch5
+
+[Well 155]
+Row = 6
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00156_01.ch5
+
+[Well 156]
+Row = 6
+Column = 12
+
+[Well 157]
+Row = 6
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00158_01.ch5
+
+[Well 158]
+Row = 6
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00159_01.ch5
+
+[Well 159]
+Row = 6
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00160_01.ch5
+
+[Well 160]
+Row = 6
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00161_01.ch5
+
+[Well 161]
+Row = 6
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00162_01.ch5
+
+[Well 162]
+Row = 6
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00163_01.ch5
+
+[Well 163]
+Row = 6
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00164_01.ch5
+
+[Well 164]
+Row = 6
+Column = 20
+
+[Well 165]
+Row = 6
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00166_01.ch5
+
+[Well 166]
+Row = 6
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00167_01.ch5
+
+[Well 167]
+Row = 6
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00168_01.ch5
+
+[Well 168]
+Row = 7
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00169_01.ch5
+
+[Well 169]
+Row = 7
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00170_01.ch5
+
+[Well 170]
+Row = 7
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00171_01.ch5
+
+[Well 171]
+Row = 7
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00172_01.ch5
+
+[Well 172]
+Row = 7
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00173_01.ch5
+
+[Well 173]
+Row = 7
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00174_01.ch5
+
+[Well 174]
+Row = 7
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00175_01.ch5
+
+[Well 175]
+Row = 7
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00176_01.ch5
+
+[Well 176]
+Row = 7
+Column = 8
+
+[Well 177]
+Row = 7
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00178_01.ch5
+
+[Well 178]
+Row = 7
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00179_01.ch5
+
+[Well 179]
+Row = 7
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00180_01.ch5
+
+[Well 180]
+Row = 7
+Column = 12
+
+[Well 181]
+Row = 7
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00182_01.ch5
+
+[Well 182]
+Row = 7
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00183_01.ch5
+
+[Well 183]
+Row = 7
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00184_01.ch5
+
+[Well 184]
+Row = 7
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00185_01.ch5
+
+[Well 185]
+Row = 7
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00186_01.ch5
+
+[Well 186]
+Row = 7
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00187_01.ch5
+
+[Well 187]
+Row = 7
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00188_01.ch5
+
+[Well 188]
+Row = 7
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00189_01.ch5
+
+[Well 189]
+Row = 7
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00190_01.ch5
+
+[Well 190]
+Row = 7
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00191_01.ch5
+
+[Well 191]
+Row = 7
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00192_01.ch5
+
+[Well 192]
+Row = 8
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00193_01.ch5
+
+[Well 193]
+Row = 8
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00194_01.ch5
+
+[Well 194]
+Row = 8
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00195_01.ch5
+
+[Well 195]
+Row = 8
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00196_01.ch5
+
+[Well 196]
+Row = 8
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00197_01.ch5
+
+[Well 197]
+Row = 8
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00198_01.ch5
+
+[Well 198]
+Row = 8
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00199_01.ch5
+
+[Well 199]
+Row = 8
+Column = 7
+
+[Well 200]
+Row = 8
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00201_01.ch5
+
+[Well 201]
+Row = 8
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00202_01.ch5
+
+[Well 202]
+Row = 8
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00203_01.ch5
+
+[Well 203]
+Row = 8
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00204_01.ch5
+
+[Well 204]
+Row = 8
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00205_01.ch5
+
+[Well 205]
+Row = 8
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00206_01.ch5
+
+[Well 206]
+Row = 8
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00207_01.ch5
+
+[Well 207]
+Row = 8
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00208_01.ch5
+
+[Well 208]
+Row = 8
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00209_01.ch5
+
+[Well 209]
+Row = 8
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00210_01.ch5
+
+[Well 210]
+Row = 8
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00211_01.ch5
+
+[Well 211]
+Row = 8
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00212_01.ch5
+
+[Well 212]
+Row = 8
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00213_01.ch5
+
+[Well 213]
+Row = 8
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00214_01.ch5
+
+[Well 214]
+Row = 8
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00215_01.ch5
+
+[Well 215]
+Row = 8
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00216_01.ch5
+
+[Well 216]
+Row = 9
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00217_01.ch5
+
+[Well 217]
+Row = 9
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00218_01.ch5
+
+[Well 218]
+Row = 9
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00219_01.ch5
+
+[Well 219]
+Row = 9
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00220_01.ch5
+
+[Well 220]
+Row = 9
+Column = 4
+
+[Well 221]
+Row = 9
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00222_01.ch5
+
+[Well 222]
+Row = 9
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00223_01.ch5
+
+[Well 223]
+Row = 9
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00224_01.ch5
+
+[Well 224]
+Row = 9
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00225_01.ch5
+
+[Well 225]
+Row = 9
+Column = 9
+
+[Well 226]
+Row = 9
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00227_01.ch5
+
+[Well 227]
+Row = 9
+Column = 11
+
+[Well 228]
+Row = 9
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00229_01.ch5
+
+[Well 229]
+Row = 9
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00230_01.ch5
+
+[Well 230]
+Row = 9
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00231_01.ch5
+
+[Well 231]
+Row = 9
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00232_01.ch5
+
+[Well 232]
+Row = 9
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00233_01.ch5
+
+[Well 233]
+Row = 9
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00234_01.ch5
+
+[Well 234]
+Row = 9
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00235_01.ch5
+
+[Well 235]
+Row = 9
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00236_01.ch5
+
+[Well 236]
+Row = 9
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00237_01.ch5
+
+[Well 237]
+Row = 9
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00238_01.ch5
+
+[Well 238]
+Row = 9
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00239_01.ch5
+
+[Well 239]
+Row = 9
+Column = 23
+
+[Well 240]
+Row = 10
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00241_01.ch5
+
+[Well 241]
+Row = 10
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00242_01.ch5
+
+[Well 242]
+Row = 10
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00243_01.ch5
+
+[Well 243]
+Row = 10
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00244_01.ch5
+
+[Well 244]
+Row = 10
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00245_01.ch5
+
+[Well 245]
+Row = 10
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00246_01.ch5
+
+[Well 246]
+Row = 10
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00247_01.ch5
+
+[Well 247]
+Row = 10
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00248_01.ch5
+
+[Well 248]
+Row = 10
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00249_01.ch5
+
+[Well 249]
+Row = 10
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00250_01.ch5
+
+[Well 250]
+Row = 10
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00251_01.ch5
+
+[Well 251]
+Row = 10
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00252_01.ch5
+
+[Well 252]
+Row = 10
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00253_01.ch5
+
+[Well 253]
+Row = 10
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00254_01.ch5
+
+[Well 254]
+Row = 10
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00255_01.ch5
+
+[Well 255]
+Row = 10
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00256_01.ch5
+
+[Well 256]
+Row = 10
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00257_01.ch5
+
+[Well 257]
+Row = 10
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00258_01.ch5
+
+[Well 258]
+Row = 10
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00259_01.ch5
+
+[Well 259]
+Row = 10
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00260_01.ch5
+
+[Well 260]
+Row = 10
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00261_01.ch5
+
+[Well 261]
+Row = 10
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00262_01.ch5
+
+[Well 262]
+Row = 10
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00263_01.ch5
+
+[Well 263]
+Row = 10
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00264_01.ch5
+
+[Well 264]
+Row = 11
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00265_01.ch5
+
+[Well 265]
+Row = 11
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00266_01.ch5
+
+[Well 266]
+Row = 11
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00267_01.ch5
+
+[Well 267]
+Row = 11
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00268_01.ch5
+
+[Well 268]
+Row = 11
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00269_01.ch5
+
+[Well 269]
+Row = 11
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00270_01.ch5
+
+[Well 270]
+Row = 11
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00271_01.ch5
+
+[Well 271]
+Row = 11
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00272_01.ch5
+
+[Well 272]
+Row = 11
+Column = 8
+
+[Well 273]
+Row = 11
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00274_01.ch5
+
+[Well 274]
+Row = 11
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00275_01.ch5
+
+[Well 275]
+Row = 11
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00276_01.ch5
+
+[Well 276]
+Row = 11
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00277_01.ch5
+
+[Well 277]
+Row = 11
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00278_01.ch5
+
+[Well 278]
+Row = 11
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00279_01.ch5
+
+[Well 279]
+Row = 11
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00280_01.ch5
+
+[Well 280]
+Row = 11
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00281_01.ch5
+
+[Well 281]
+Row = 11
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00282_01.ch5
+
+[Well 282]
+Row = 11
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00283_01.ch5
+
+[Well 283]
+Row = 11
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00284_01.ch5
+
+[Well 284]
+Row = 11
+Column = 20
+
+[Well 285]
+Row = 11
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00286_01.ch5
+
+[Well 286]
+Row = 11
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00287_01.ch5
+
+[Well 287]
+Row = 11
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00288_01.ch5
+
+[Well 288]
+Row = 12
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00289_01.ch5
+
+[Well 289]
+Row = 12
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00290_01.ch5
+
+[Well 290]
+Row = 12
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00291_01.ch5
+
+[Well 291]
+Row = 12
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00292_01.ch5
+
+[Well 292]
+Row = 12
+Column = 4
+
+[Well 293]
+Row = 12
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00294_01.ch5
+
+[Well 294]
+Row = 12
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00295_01.ch5
+
+[Well 295]
+Row = 12
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00296_01.ch5
+
+[Well 296]
+Row = 12
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00297_01.ch5
+
+[Well 297]
+Row = 12
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00298_01.ch5
+
+[Well 298]
+Row = 12
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00299_01.ch5
+
+[Well 299]
+Row = 12
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00300_01.ch5
+
+[Well 300]
+Row = 12
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00301_01.ch5
+
+[Well 301]
+Row = 12
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00302_01.ch5
+
+[Well 302]
+Row = 12
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00303_01.ch5
+
+[Well 303]
+Row = 12
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00304_01.ch5
+
+[Well 304]
+Row = 12
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00305_01.ch5
+
+[Well 305]
+Row = 12
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00306_01.ch5
+
+[Well 306]
+Row = 12
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00307_01.ch5
+
+[Well 307]
+Row = 12
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00308_01.ch5
+
+[Well 308]
+Row = 12
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00309_01.ch5
+
+[Well 309]
+Row = 12
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00310_01.ch5
+
+[Well 310]
+Row = 12
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00311_01.ch5
+
+[Well 311]
+Row = 12
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00312_01.ch5
+
+[Well 312]
+Row = 13
+Column = 0
+
+[Well 313]
+Row = 13
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00314_01.ch5
+
+[Well 314]
+Row = 13
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00315_01.ch5
+
+[Well 315]
+Row = 13
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00316_01.ch5
+
+[Well 316]
+Row = 13
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00317_01.ch5
+
+[Well 317]
+Row = 13
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00318_01.ch5
+
+[Well 318]
+Row = 13
+Column = 6
+
+[Well 319]
+Row = 13
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00320_01.ch5
+
+[Well 320]
+Row = 13
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00321_01.ch5
+
+[Well 321]
+Row = 13
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00322_01.ch5
+
+[Well 322]
+Row = 13
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00323_01.ch5
+
+[Well 323]
+Row = 13
+Column = 11
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00324_01.ch5
+
+[Well 324]
+Row = 13
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00325_01.ch5
+
+[Well 325]
+Row = 13
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00326_01.ch5
+
+[Well 326]
+Row = 13
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00327_01.ch5
+
+[Well 327]
+Row = 13
+Column = 15
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00328_01.ch5
+
+[Well 328]
+Row = 13
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00329_01.ch5
+
+[Well 329]
+Row = 13
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00330_01.ch5
+
+[Well 330]
+Row = 13
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00331_01.ch5
+
+[Well 331]
+Row = 13
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00332_01.ch5
+
+[Well 332]
+Row = 13
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00333_01.ch5
+
+[Well 333]
+Row = 13
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00334_01.ch5
+
+[Well 334]
+Row = 13
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00335_01.ch5
+
+[Well 335]
+Row = 13
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00336_01.ch5
+
+[Well 336]
+Row = 14
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00337_01.ch5
+
+[Well 337]
+Row = 14
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00338_01.ch5
+
+[Well 338]
+Row = 14
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00339_01.ch5
+
+[Well 339]
+Row = 14
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00340_01.ch5
+
+[Well 340]
+Row = 14
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00341_01.ch5
+
+[Well 341]
+Row = 14
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00342_01.ch5
+
+[Well 342]
+Row = 14
+Column = 6
+
+[Well 343]
+Row = 14
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00344_01.ch5
+
+[Well 344]
+Row = 14
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00345_01.ch5
+
+[Well 345]
+Row = 14
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00346_01.ch5
+
+[Well 346]
+Row = 14
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00347_01.ch5
+
+[Well 347]
+Row = 14
+Column = 11
+
+[Well 348]
+Row = 14
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00349_01.ch5
+
+[Well 349]
+Row = 14
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00350_01.ch5
+
+[Well 350]
+Row = 14
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00351_01.ch5
+
+[Well 351]
+Row = 14
+Column = 15
+
+[Well 352]
+Row = 14
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00353_01.ch5
+
+[Well 353]
+Row = 14
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00354_01.ch5
+
+[Well 354]
+Row = 14
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00355_01.ch5
+
+[Well 355]
+Row = 14
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00356_01.ch5
+
+[Well 356]
+Row = 14
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00357_01.ch5
+
+[Well 357]
+Row = 14
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00358_01.ch5
+
+[Well 358]
+Row = 14
+Column = 22
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00359_01.ch5
+
+[Well 359]
+Row = 14
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00360_01.ch5
+
+[Well 360]
+Row = 15
+Column = 0
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00361_01.ch5
+
+[Well 361]
+Row = 15
+Column = 1
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00362_01.ch5
+
+[Well 362]
+Row = 15
+Column = 2
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00363_01.ch5
+
+[Well 363]
+Row = 15
+Column = 3
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00364_01.ch5
+
+[Well 364]
+Row = 15
+Column = 4
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00365_01.ch5
+
+[Well 365]
+Row = 15
+Column = 5
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00366_01.ch5
+
+[Well 366]
+Row = 15
+Column = 6
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00367_01.ch5
+
+[Well 367]
+Row = 15
+Column = 7
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00368_01.ch5
+
+[Well 368]
+Row = 15
+Column = 8
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00369_01.ch5
+
+[Well 369]
+Row = 15
+Column = 9
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00370_01.ch5
+
+[Well 370]
+Row = 15
+Column = 10
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00371_01.ch5
+
+[Well 371]
+Row = 15
+Column = 11
+
+[Well 372]
+Row = 15
+Column = 12
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00373_01.ch5
+
+[Well 373]
+Row = 15
+Column = 13
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00374_01.ch5
+
+[Well 374]
+Row = 15
+Column = 14
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00375_01.ch5
+
+[Well 375]
+Row = 15
+Column = 15
+
+[Well 376]
+Row = 15
+Column = 16
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00377_01.ch5
+
+[Well 377]
+Row = 15
+Column = 17
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00378_01.ch5
+
+[Well 378]
+Row = 15
+Column = 18
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00379_01.ch5
+
+[Well 379]
+Row = 15
+Column = 19
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00380_01.ch5
+
+[Well 380]
+Row = 15
+Column = 20
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00381_01.ch5
+
+[Well 381]
+Row = 15
+Column = 21
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00382_01.ch5
+
+[Well 382]
+Row = 15
+Column = 22
+
+[Well 383]
+Row = 15
+Column = 23
+Field_0 = /uod/idr/filesets/idr0013-neumann-mitocheck/20150916-mitocheck-analysis/analysis/mitocheck/LTValidMitosisSon384Plate03_02--ex2009_03_11--sp2009_01_27--tt17--c6/hdf5/00384_01.ch5
