@@ -753,7 +753,7 @@ Dimensions = ZCT
 Row = 6
 Column = 5
 Dimensions = ZCT
-Field_0 = /idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-UR/www.ebi.ac.uk/huber-srv/cellmorph/source-UR/UR301-1/Well G006/<FITC,Hoechst,Tritc>_Flo - n000000.tif
+Field_0 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-UR/www.ebi.ac.uk/huber-srv/cellmorph/source-UR/UR301-1/Well G006/<FITC,Hoechst,Tritc>_Flo - n000000.tif
 
 [Well 150]
 Row = 6
