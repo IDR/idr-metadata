@@ -1,0 +1,110 @@
+# Study														
+Comment[IDR Study Accession]	idr0020													
+Study Title	Identifying a ch-TOG genetic interaction network required for spindle assembly													
+Study Type	high content screen													
+Study Type Term Source REF	EFO													
+Study Type Term Accession Number	EFO_0007550													
+Study Description	"We used a sensitised RNAi screen to identify genes that genetically interact with the evolutionary conserved, spindle assembly protein, ch-TOG/CKAP5.  Briefly, we generated cell lines carrying doxycycline inducible non-silencing (NS) shRNA or a ch-TOG specific shRNA.  We performed an siRNA screen in these two backgrounds to find genes that modify the ch-TOG mitotic phenotype.  "													
+Study Organism	Homo sapiens													
+Study Organism Term Source REF	NCBITaxon													
+Study Organism Term Accession Number	NCBITaxon_9606													
+Study Screens Number	1													
+Study External URL														
+Study Public Release Date	2016-04-01													
+														
+# Study Publication														
+Study PubMed ID	26037491													
+Study Publication Title	A sensitised RNAi screen reveals a ch-TOG genetic interaction network required for spindle assembly.													
+Study Author List	"Barr AR, Bakal C"													
+Study PMC ID	PMC4453164													
+Study DOI	http://dx.doi.org/10.1038/srep10564													
+														
+# Study Contacts														
+Study Person Last Name	Barr													
+Study Person First Name	Alexis													
+Study Person Email	alexis.barr@icr.ac.uk													
+Study Person Address	"Division of Cancer Biology, The Institute of Cancer Research, 237 Fulham Road, London, SW3 6JB, United Kingdom"													
+Study Person Roles	submitter													
+														
+Term Source Name	NCBITaxon	EFO	CMPO	GO	Fbbi									
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/									
+														
+														
+# Screen														
+														
+Screen Number	1													
+Comment[IDR Screen Name]	idr0020-barr-chtog/screenA													
+Screen Description	We generated cell lines carrying doxycycline inducible non-silencing (NS) shRNA or a ch-TOG specific shRNA.  We performed an siRNA screen in these two backgrounds to find genes that modify the ch-TOG mitotic phenotype.  													
+Screen Size	Plates: 4	5D Images: 	Planes: 	Average Image Dimension (XYZCT): 	Total Tb: 									
+Screen Imaging Method	spinning disk confocal microscopy													
+Screen Imaging Method Term Source REF	Fbbi													
+Screen Imaging Method Term Accession Number	FBbi_00000253													
+Screen Technology Type	RNAi screen													
+Screen Technology Term Source REF	EFO													
+Screen Technology Term Accession Number	EFO_0007551													
+Screen Type	primary screen													
+Screen Type Term Source REF	EFO													
+Screen Type Term Accession	EFO_0007556													
+Screen Experiment Type														
+Screen Target Organism	Homo sapiens													
+														
+# Study materials														
+Cell Line or Strain	HeLa													
+Cell Line of Strain Term Source REF	EFO													
+Cell Line of Strain Term Accession Number	EFO_0001185													
+														
+# Library section.														
+Library File Name	idr0020-screenA-library.txt													
+Library File Format	tab-delimited text													
+Library Type	siRNA library													
+Library Type Term Source REF	EFO													
+Library Type Term Accession Number	EFO_0007564													
+Library Manufacturer	"Custom library (gift from Spiros Linardopoulos (Institute of Cancer Research, London, UK)  in which each gene is targeted by a Dharmacon OnTargetPlus (OTP) pool of four siRNAs. "													
+Library Version														
+Library Assembly 														
+Library Experimental Conditions	RNA interference													
+Library Experimental Conditions Term Source REF	GO													
+Library Experimental Conditions Term Accession Number	GO_0016246													
+Quality Control Description														
+														
+# Protocols														
+Protocol Name	growth protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol										
+Protocol Type	growth protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol										
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO										
+Protocol Type Term Accession Number	EFO_0003789	EFO_0007571	EFO_0007572	EFO_0007573										
+Protocol Description	"HeLa cells were grown in DMEM (ThermoFisher 41966) + 10% FBS (Heat inactivated, Sigma), 1% Penicillin/Streptomycin (ThermoFisher) at 37¡C and 5% CO2. "	"Exponentially growing cells were reverse transfected with 40nM of siRNA.  All screens were performed at a single timepoint in duplicate. A Multidrop Combi Reagent dispenser (Thermo Scientific) was used throughout the transfection protocol to ensure even liquid addition. 5 ul of OPTIMEM (Gibco) was added to each well to redissolve the siRNA. Plates were centrifuged and incubated at RT for 5 min. Lipofectamine RNAimax (Invitrogen) was added in OPTIMEM to a final concentration of 8ul Lipofectamine to 1 ml OPTIMEM and incubated at RT for 5 min. 5ul of OPTIMEM/Lipofectamine mix was then added to the plates. Plates were centrifuged and incubated at RT for 20 min. NS-shRNA and ch- TOG shRNA HeLa cells were trypsinised and counted using an automated cells counter (Countess; Invitrogen). Cells were centrifuged at 1000 xg for 4 min. Media was aspirated and cells were resuspended in OPTIMEM to a final concentration of 2x10^5 cells per ml. 10 ul of cell suspension was added to the plates, plates were centrifuged and incubated at 37oC for 4 hr. After 4 hr, 10ul of DMEM + 30% FBS + 3% P/S and 6ug/ml Doxycycline (Dox; Sigma) was added to the plates (final concentration 10% FBS, 1% P/S and 2ug/ml Dox). Plates were centrifuged and incubated at 37oC for 41 hr. Before fixation, 10ul cell medium plus 80 uM of the proteasome inhibitor MG132 (Tocris) was added to all plates for 1 hr (final concentration of MG132 is 20uM). All fixing and staining was carried out using the PerkinElmer Cell::Explorer system coupled to automated liquid handling equipment. Solutions were dispensed using a Multidrop Combi Reagent dispenser (Thermo Scientific) and aspirated/washed using a Biotek washer with 96 pins. Plates were fixed by adding an equal volume of pre-warmed (37oC) 8% formaldehyde/PBS solution to the wells and incubated at 37oC for 10 min. Cells were then permeabilised in pre-warmed PBS/0.2% Triton X-100 for 10 min at RT. Cells were then blocked in 1% BSA/PBS (blocking solution) for 1 hr at RT. Primary antibodies were diluted in blocking solution: MTs were labelled using an anti-alpha-tubulin antibody (1:1000, mouse, Cat no. A11126, Invitrogen) and mitotic cells were labelled using anti-Ser10 PhosphoHistone H3 (1:1000, rabbit, Cat no. 06Ð570, Millipore). Cells were incubated with primary antibodies for 2 hr at RT, then washed three times in PBS. Secondary antibodies were diluted in blocking buffer: anti-mouse Alexa 488 and anti-rabbit Alexa 647 (Invitrogen). Cells were incubated in secondary antibody for 1hr at RT, then washed three times in PBS. Cells were finally incubated in 1ug/ml Hoescht (H 33258, Sigma) diluted in PBS for 15 min at RT before a final wash in PBS and imaging. In both libraries genes are targeted by a pool of four siRNAs.  "	"All plates were imaged using the PerkinElmer Opera high-content confocal screening platform with spinning disc. 30 fields of view per well were images using a 20x air objective, NA 0.45. On average, this generated images of 30-40 NS-shRNA and 250-300 ch-TOG-shRNA mitotic cells per well. All Image analysis was performed using custom algorithms built in the Columbus software (PerkinElmer). Image analysis protocols are summarised below: All nuclei were detected and segmented using Hoechst staining (total cell number). Intensity of PHH3 was measured in each nucleus and mitotic nuclei were determined using a minimum PHH3 intensity threshold (mitotic index). The cytoplasm of mitotic nuclei was segmented using RFP expression. Cells touching the edge of the image (incomplete segmentation) and poorly segmented cells (cells below a roundness threshold of 0.8) were excluded at this point. Tubulin intensity was measured in each mitotic cell and cells with very low tubulin immunostaining (where individual spindle poles could not be distinguished, below a mean of 30) were excluded since these are poorly segmented in later steps. Spindle poles were detected using the Spot Finder building block. Briefly, this detects spindle poles based on local intensity maxima and we defined individual poles as having a relative spot intensity of greater than 0.095 and a splitting coefficient of 0.56. This successfully defined individual spindle poles, and data was validated by manually scoring randomly selected fields. Cells with greater than two spindle poles were classed as multipolar. To detect multinucleate cells, nuclei and mitotic nuclei were detected as above but this time, mitotic nuclei were excluded from the analysis. The cytoplasm of interphase cells was then segmented based on RFP localisation and the number of nuclei per cell scored to determine the percentage of cells with multipolar spindles."	"To calculate Z-scores, well averages for each feature were first normalised to the control siRNA and lipofectamine only wells for that plate.  The two normalised scores across duplicate plates were then average.  The Z-scores were then calculated from the plate averaged score."										
+														
+														
+# Phenotypes														
+Phenotype Name	suppression of ch-TOG multipolar spindle phenotype	enhancement of ch-TOG multipolar spindle phenotype												
+Phenotype Description	A gene was considered to either suppress or enhance the ch-TOG multipolar spindle phenotype if gene depletion across replicates resulted in a mean percentage of cells with multipolar spindles more than +/_ 1.5 standard deviations from the mean of control siRNA wells.	A gene was considered to either suppress or enhance the ch-TOG multipolar spindle phenotype if gene depletion across replicates resulted in a mean percentage of cells with multipolar spindles more than +/_ 1.5 standard deviations from the mean of control siRNA wells.												
+Phenotype Score Type	automatic	automatic												
+Phenotype Term Source REF	CMPO	CMPO												
+Phenotype Term Name	microtubule spindle morphology phenotype	microtubule spindle morphology phenotype												
+Phenotype Term Accession	CMPO_0000376	CMPO_0000376												
+														
+# Raw Data Files														
+Raw Image Data Type	image													
+Raw Image Data Format	Evotec/PerkinElmer Opera Flex													
+Raw Image Channels	Hoescht: nuclei	Anti-Ser10 PhosphoHistone H3: mitotic nuclei	Anti-alpha-tubulin: microtubules	RFP: whole cell										
+Raw Image Organization	"4 x 384 well plates.  All plates have the same layout, 2 replicates with chTOG shRNA expression and 2 replicates with non-silencing shRNA expression."													
+														
+# Feature Level Data Files 														
+Feature Level Data File Name														
+Feature Level Data File Description														
+Feature Level Data File Format														
+Feature Level Data Column Name														
+Feature Level Data Column Description														
+														
+#  Processed Data Files 														
+Processed Data File Name	idr0020-screenA-processed.txt													
+Processed Data File Format	tab-delimited text													
+Processed Data File Description	"This file contains z-scores of the percentage of cells with multipolar spindles, the average number of spindle poles per cell, the mitotic index, total cell number (a measure of viability), and the percentage of multinucleate cells calculated by averaging normalised scores acrossed duplicate plates and compared to the mean of wells with no reagent (cells with lipofectamine) in each shRNA background."													
+Processed Data Genome Build For Target Genes														
+Processed Data Column Name	Well	siRNA Pool Identifier	Gene Identifier	Gene Symbol	Experimental Condition [RNA interference]	Well_Experimental Condition [RNA interference]	Percentage multipolar spindle - Z-score	Average no. of spindle poles per cell per well - Z-score	Cell number - Z-score	Mitotic Index - Z-score	Percentage Multinucleate - Z-score	ch-TOG multipolar spindle phenotype hit?	Phenotype 1	Phenotype 2
+Processed Data Column Type	Location	Reagent Identifier	Gene Identifier	Gene Symbol	Experimental Condition	Location	Data	Data	Data	Data	Data	Data	Phenotype	Phenotype
+Processed Data Column Annotation Level							Experimental condition and Reagent	Experimental condition and Reagent	Experimental condition and Reagent	Experimental condition and Reagent	Experimental condition and Reagent	Experimental condition and Gene	Experimental condition and Gene	Experimental condition and Gene
+Processed Data Column Description	The location of the replicate wells	The Dharmacon identifier for the pool of siRNAs	NCBI identifier for the target gene	Target HGNC gene symbol 	The doxycycline inducible non-silencing (NS) shRNA or ch-TOG specific shRNA background. 	A combination of the well location and the experimental condition	The z-score of the percentage of cells with multipolar spindles	The z-score of the average number of spindle poles per cell per well	The z-score of the cell number	The z-score of the mitotic index.	The z-score of percentage of multinucleate cells.	Whether the gene was considered to enhance or suppress the ch-TOG multi-spindle phenotype. A gene was considered to either suppress or enhance the ch-TOG multipolar spindle phenotype if gene depletion across replicates resulted in a mean percentage of cells with multipolar spindles more than +/_ 1.5 standard deviations from the mean of control siRNA wells.	The phenotype observed based on the 'Percentage multipolar spindle - Z-score'	The phenotype observed based on the 'Percentage multipolar spindle - Z-score'
+Processed Data Column Source Database			NCBI	HGNC										
+Processed Data Column Source Stem URI			http://www.ncbi.nlm.nih.gov/gene/?term=	http://www.genenames.org/cgi-bin/search?search_type=all&search=										
+Processed Data Column Link To Library File	Well_Experimental Condition [RNA interference]													
