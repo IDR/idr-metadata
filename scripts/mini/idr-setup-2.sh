@@ -2,7 +2,7 @@
 # Import- you may want to do this in screen in case your connection is broken
 
 date
-OMERO_SERVER=/home/omero/OMERO.server
+OMERO_SERVER=/opt/omero/OMERO.server
 omero="$OMERO_SERVER/bin/omero"
 
 # Get metadata
