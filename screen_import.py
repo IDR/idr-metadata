@@ -64,7 +64,7 @@ for plate in sorted(glob(plates)):
     if call(command + [
             "--name=%s" % name,
             "--target=Screen:name:%s/%s" % (study, screen),
-            "--transfer=ln_s", target]):
+            target]):
         print "FAILED",
     else:
         print "PASSED",
