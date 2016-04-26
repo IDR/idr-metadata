@@ -1,0 +1,10 @@
+Antibody Target	Gene Identifier	Gene Symbol (Ensembl Release 84)	Gene Symbol Synonyms	Phenotype	Mean Outer Toroid Diameter 	Standard Deviation of Outer Toroid Diameter	Number of Centrosomes Measured
+CDK5RAP2-C	ENSG00000136861	CDK5RAP2	CEP215	protein localized to pericentriolar material	452.2 nanometers	38.1 nanometers	40
+CENT2 	ENSG00000147400	CETN2		protein localized to centriole	197.7 nanometers	16.5 nanometers	53
+CEP120 	ENSG00000168944	CEP120		protein localized to centriole	364 nanometers	25.3 nanometers	54
+CEP152 	ENSG00000103995	CEP152		protein localized to pericentriolar material	435.3 nanometers	21.4 nanometers	70
+CEP192-M 	ENSG00000101639	CEP192		protein localized to pericentriolar material	395.5 nanometers	17.9 nanometers	59
+CPAP 	ENSG00000151849	CENPJ	CPAP	protein localized to centriole	194.1 nanometers	13 nanometers	59
+NEDD1-C1 	ENSG00000139350	NEDD1		protein localized to pericentriolar material	459.1 nanometers	29.6 nanometers	93
+PCNT-N1 	ENSG00000160299	PCNT		protein localized to pericentriolar material	566 nanometers	35 nanometers	101
+TUBG1-N 	ENSG00000131462	TUBG1		protein localized to pericentriolar material	498.3 nanometers	29.8 nanometers	120

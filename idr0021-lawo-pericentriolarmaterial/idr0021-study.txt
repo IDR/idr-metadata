@@ -1,0 +1,89 @@
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"								
+# Study								
+Comment[IDR Study Accession]	idr0021-lawo-pericentriolarmaterial							
+Study Title	Subdiffraction imaging of centrosomes reveals higher-order organizational features of pericentriolar material.							
+Study Type								
+Study Type Term Source REF								
+Study Type Term Accession								
+Study Description	"The centrosome is the main microtubule organization centre of animal cells. It is composed of a centriole pair surrounded by pericentriolar material (PCM). Traditionally described as amorphous, the architecture of the PCM is not known, although its intricate mode of assembly alludes to the presence of a functional, hierarchical structure. Here we used subdiffraction imaging to reveal organizational features of the PCM. Interphase PCM components adopt a concentric toroidal distribution of discrete diameter around centrioles. Positional mapping of multiple non-overlapping epitopes revealed that pericentrin (PCNT) is an elongated molecule extending away from the centriole. We find that PCM components occupy separable spatial domains within mitotic PCM that are maintained in the absence of microtubule nucleation complexes and further implicate PCNT and CDK5RAP2 in the organization and assembly of PCM. Globally, this work highlights the role of higher-order PCM organization in the regulation of centrosome assembly and function."							
+Study Organism	Homo sapiens							
+Study Organism Term Source REF	NCBITaxon							
+Study Organism Term Accession	NCBITaxon_9606							
+Study Experiments Number	1							
+Study External URL								
+Study Public Release Date	01/04/16							
+								
+# Study Publication								
+Study PubMed ID	23086237							
+Study Publication Title	Subdiffraction imaging of centrosomes reveals higher-order organizational features of pericentriolar material.							
+Study Author List	"Lawo S, Hasegan M, Gupta GD, Pelletier L."							
+Study PMC ID								
+Study DOI	http://dx.doi.org/10.1038/ncb2591							
+								
+# Study Contacts								
+Study Person Last Name	Hasegan	Pelletier						
+Study Person First Name	Monica	Laurence						
+Study Person Email	hasegan@lunenfeld.ca	pelletier@lunenfeld.ca						
+Study Person Address	"Lunenfeld-Tanenbaum Research Institute, Toronto, Canada"	"Lunenfeld-Tanenbaum Research Institute, Toronto, Canada"						
+Study Person Roles	submitter	principal investigator						
+								
+Term Source Name	NCBITaxon	EFO	CMPO	PATO	GO			
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/			
+								
+								
+								
+Experiment Number	1							
+Comment[IDR Experiment Name]	idr0021-lawo-pericentriolarmaterial/experimentA							
+Experiment Description	"Images relating to Figure 1e in Lawo et al 2012. These are the 3D-SIM reconstructed, maximum intensity projected and aligned images of centriole or PCM proteining of cycling HeLa cells in interphase. "							
+Experiment Size	5D Images:414 	Average Image Dimension (XYZCT):	Total Tb: 0.0002					
+Experiment Imaging Method	3D-SIM							
+Experiment Imaging Method Term Source REF								
+Experiment Imaging Method Term Accession								
+Experiment Type								
+Experiment Type Term Source REF								
+Experiment Type Term Accession								
+Experiment Target Organism	Homo sapiens							
+								
+# assay files								
+Experiment Assay File	idr0021-experimentA-assay.txt							
+Experiment Assay File Format	tab-delimited text							
+Assay Experimental Conditions	Antibody Target							
+Assay Experimental Conditions Term Source REF								
+Assay Experimental Conditions Term Accession								
+Quality Control Description								
+								
+# Protocols								
+Protocol Name	growth protocol	image aquistion and feature extraction protocol	data analysis protocol					
+Protocol Type	growth protocol	image aquistion and feature extraction protocol	data analysis protocol					
+Protocol Type Term Source REF	EFO							
+Protocol Type Term Accession	EFO_0003789							
+Protocol Description	"HeLa and RPE-1 cells were grown in Dulbecco’s modified Eagle’s medium supplemented with 10% fetal bovine serum, 2mM l-glutamine and maintained using standard procedures. "	"Immunofluorescence microscopy. Cells grown on coverslips were fixed in ice-cold methanol at _20 _ C for 10 min. After blocking in 0.2% gelatine from cold-water fish (Sigma) in PBS (PBS/FSG) for 15 min, coverslips were incubated with primary antibodies in blocking solution for 1h (Table in Supplementary Fig. S1g for all antibodies used). Following washes with 0.2% PBS/FSG, the cells were incubated with a 1:500 dilution of secondary antibodies for 1 h (donkey anti- mouse/rabbit/goat/sheep conjugated to Alexa 488 or Alexa 594; Molecular Probes  or donkey anti-mouse conjugated to DyLight 405, Jackson ImmunoResearch). The cells were counterstained with 1 _g ml_1 Hoechst 33342 (Sigma) to visualize chromatin. After washing with 0.2% PBS/FSG, the coverslips were mounted on glass slides by inverting them into mounting solution (ProLong Gold antifade, Molecular Probes). The samples were allowed to cure for 24–48 h. The two antibodies targeting the N terminus of PCNT (N1: Abcam ab4448 and N2: Santa Cruz N20) produced similar results in immunofluorescence microscopy, interphase ring measurements and mitotic co-localization analysis. Therefore, the two antibodies were used interchangeably as indicated. Microscopy. Super-resolution microscopy was performed on a three-dimensional (3D) structured illumination microscope (OMX v3, Applied Precision) equipped with 405, 488 and 592.5 nm diode lasers, electron multiplying CCD (charge-coupled device) cameras (Cascade II 512 _ 512, Photometrics), and a _100/1.40 NA planApochromat oil-immersion objective (Olympus). Where indicated, 3D image stacks (0.125 _m apart) were first imaged in the conventional (deconvolution) imag- ing mode, followed by the three-dimensional structured illumination microscopy (3D-SIM) imaging mode with sequential excitation of fluorophores. Photobleaching was measured to be <20% across a typical two-channel, 3D image stack with these conditions and ProLong-mounted samples. Optical transfer functions (Fourier transforms of the point spread functions) were created for each colour channel from recordings of 0.1-_m-diameter fluorescent beads. 3D-SIM image stacks were reconstructed using the softWoRx 5.0 software package (Applied Precision) with the following settings: pixel size 39.5 nm; channel-specific optical transfer functions; Wiener filter 0.002; keeping negative intensities; default value of 65 for background intensity; drift correction with respect to first angle; and custom K0 guess angles for camera positions. After reconstruction, individual channels were imported as 32-bit floating points into ImageJ (v1.46m) and maximum intensity projected. When negative values were present after projection, a constant corresponding to the absolute value of the lowest intensity was added to the value of each pixel in the image. Pixel values were then rounded to the nearest lower integer before exporting the entire dynamic range to an 8-bit TIFF and aligning the differ- ent channels using Acapella software (v2.18, Perkin Elmer). Alignment between channels was accurate to 1 pixel unit. The pixel size of our imaging set-up was 39.5 nm; thus, we achieved a Nyquist sampling ratio of _3 pixels per Airy disc with our X –Y resolution being 120 nm (525 nm wavelength). Relative pixel intensities were quantitatively preserved throughout the reconstruction procedure, which is deterministic69. If images were acquired in the conventional imaging mode, they were deconvolved, 2_ resampled and maximum intensity projected using softWoRx (v5.0, Applied Precision). For final display of figures, cropped centrosomal regions (of deconvolution and 3D-SIM micrographs) were further resampled (4_ bicubic smoother)."	"Image quantifications. All image quantifications were performed in MATLAB and details are provided in Supplementary Fig. S2. Unless specified, all measure- ments were made on 3D-SIM reconstructed, maximum intensity projected, and aligned images. Briefly, interphase toroid measurements were made by fitting a circle interactively on each image and the circle diameter was computed (Supplementary Fig. S2b). These measurements were made in cells embedded in ProLong (for its superior photostability), which when cured causes minor (<10%) shrinkage when compared with glycerol-mounted samples. However, relative differences between toroid diameters in ProLong-mounted samples were accurately preserved (data not shown). Different imaging channels and channel-specific point spread functions did not affect the diameter measurements under our experimental conditions (data not shown) and therefore we pooled toroid diameters in Figs 1 and 2 from different channels. "					
+								
+# Phenotypes								
+Phenotype Name	protein localized to pericentriolar material	protein localized to centriole						
+Phenotype Description	Localization by measurement of toroidal diameter.	Localization by measurement of toroidal diameter.						
+Phenotype Score Type								
+Phenotype Term Source REF								
+Phenotype Term Name								
+Phenotype Term Accession								
+								
+								
+# Feature Level Data Files (give individual file details unless there is one file per well)								
+Feature Level Data File Name								
+Feature Level Data File Format								
+Feature Level Data File Description								
+Feature Level Data Column Name								
+Feature Level Data Column Description								
+								
+#  Processed Data Files 								
+Processed Data File Name	idr0021-experimentA-processed.txt							
+Processed Data File Format	tab-delimited text							
+Processed Data File Description	This file contains information summarizing the outer toroid/ring diameters (nm) of centriole or PCM proteins of cycling HeLa cells in interphase.  It also gives phenotypic information about the localization of the proteins within a cell.							
+Processed Data Genome Build For Target Genes	Gene Identifiers and Symbols are from the Ensembl 84 release							
+Processed Data Column Name	Antibody Target	Gene Identifier	Gene Symbol	Gene Symbol Synonyms	Phenotype	Mean Outer Toroid Diameter 	Standard Deviation of Outer Toroid Diameter	Number of Centrosomes Measured
+Processed Data Column Type	Experimental Condition	Gene Identifier	Gene Symbol	Gene Symbol	Phenotype	Data	Data	Data
+Processed Data Column Annotation Level					Gene	Gene	Gene	Gene
+Processed Data Column Description	The name of the protein that was targetted for antibody labelling and in some cases the part of the protein that was targetted e.g. C-terminal	"The Ensembl gene identifier for the targetted protein, using the Ensembl 84, GRCh38.p5 release."	"The gene symbol for the targetted protein, using the Ensembl 84, GRCh38.p5 release"	Alternative gene symbols. 	The phenotype observed.	The average outer diameter of the toroids measured. 	The standard deviation of the mean torioid diameters.	The number of centrosomes measured.
+Processed Data Column Source Database		Ensembl						
+Processed Data Column Source Stem URI		http://www.ensembl.org/id/						
+Processed Data Column Link To Assay File	Antibody Target							
