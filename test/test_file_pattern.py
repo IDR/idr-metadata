@@ -88,8 +88,29 @@ class TestPattern(unittest.TestCase):
         )
 
 
+class TestFindPattern2Seq(unittest.TestCase):
+
+    def setUp(self):
+        self.data = [
+            (("green", "grey"), "gre<en,y>"),
+            (("green", "seen"), "<gr,s>een"),
+            (("green", "grown"), "gr<ee,ow>n"),
+            (("green", "green"), "green"),
+            (("green", "GREEN"), "<green,GREEN>"),
+            # See FIXME note in the function's docstring
+            # (("green", "seek"), "<gr,s>ee<n,k>"),
+            # (("green", "agree"), "<,a>gree<n,>"),
+        ]
+
+    def runTest(self):
+        for (s1, s2), exp_p in self.data:
+            p = fp.find_pattern_2seq(s1, s2)
+            self.assertEqual(p, exp_p)
+            self.assertEqual(set(fp.FilePattern(p).filenames()), set((s1, s2)))
+
+
 def load_tests(loader, tests, pattern):
-    test_cases = (TestRange, TestBlock, TestPattern)
+    test_cases = (TestRange, TestBlock, TestPattern, TestFindPattern2Seq)
     suite = unittest.TestSuite()
     for tc in test_cases:
         suite.addTests(loader.loadTestsFromTestCase(tc))
