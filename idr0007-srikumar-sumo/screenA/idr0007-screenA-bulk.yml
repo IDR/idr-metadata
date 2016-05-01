@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0007-srikumar-sumo/screenA"
+include: "../../bulk.yml"
+path: "idr0007-screenA-plates.tsv"

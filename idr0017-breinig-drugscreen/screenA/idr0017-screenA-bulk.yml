@@ -1,7 +1,4 @@
 ---
-target: "Screen:name:idr-0017-breinig-drugscreen/screenA"
+target: "Screen:name:idr0017-breinig-drugscreen/screenA"
 include: "../../bulk.yml"
 path: "idr0017-screenA-plates.tsv"
-columns:
-    - name
-    - path

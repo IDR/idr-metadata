@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0008-rohn-actinome/screenA"
+include: "../../bulk.yml"
+path: "idr0008-screenA-plates.tsv"
