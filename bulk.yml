@@ -1,0 +1,7 @@
+---
+continue: "true"
+transfer: "ln_s"
+exclude: "clientpath"
+checksum-algorithm: "File-Size-64"
+logprefix: "logs/"
+logtee: true
