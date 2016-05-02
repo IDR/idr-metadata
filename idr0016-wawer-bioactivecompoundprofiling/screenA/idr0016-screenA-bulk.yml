@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0016-wawer-bioactivecompoundprofiling/screenA"
+include: "../../bulk.yml"
+path: "idr0016-screenA-plates.tsv"
