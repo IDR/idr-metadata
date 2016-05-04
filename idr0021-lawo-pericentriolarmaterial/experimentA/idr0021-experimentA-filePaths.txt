@@ -1,4 +1,3 @@
-Dataset Name	File Path
 CDK5RAP2-C	/uod/idr/incoming/idr0021-lawo-pericentriolarmaterial/Raw-files/CDK5RAP2-C/Centrin_PCNT_Cep215_20110506/Centrin_PCNT_Cep215_20110506_Fri-1545_0_SIR_PRJ.dv
 CDK5RAP2-C	/uod/idr/incoming/idr0021-lawo-pericentriolarmaterial/Raw-files/CDK5RAP2-C/Centrin_PCNT_Cep215_20110506/Centrin_PCNT_Cep215_20110506_Fri-1559_0_SIR_PRJ.dv
 CDK5RAP2-C	/uod/idr/incoming/idr0021-lawo-pericentriolarmaterial/Raw-files/CDK5RAP2-C/Centrin_PCNT_Cep215_20110506/Centrin_PCNT_Cep215_20110506_Fri-1608_0_SIR_PRJ.dv
