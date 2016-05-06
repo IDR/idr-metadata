@@ -9,15 +9,12 @@
   - role: nginx-ssl-selfsigned
   - role: nginx-proxy
 
+  vars_files:
+  - roles/nginx-proxy/vars/example-omero.yml
+
   vars:
     nginx_ssl_certificate: "{{ nginx_proxy_ssl_certificate }}"
     nginx_ssl_certificate_key: "{{ nginx_proxy_ssl_certificate_key }}"
     nginx_proxy_http2: True
     #nginx_proxy_force_ssl: True
-    nginx_proxy_cache_match_uri: "{{ nginx_proxy_cache_match_uri_omero }}"
-    nginx_proxy_cache_match_arg: "{{ nginx_proxy_cache_match_arg_omero }}"
-    nginx_proxy_caches: "{{ nginx_proxy_caches_omero }}"
-    # Cache the request path but not the host so that cache can be copied
-    nginx_proxy_cache_key: "$request_uri"
     nginx_proxy_debug_cache_headers: True
-    nginx_proxy_ignore_headers: '"Set-Cookie" "Vary" "Expires"'
