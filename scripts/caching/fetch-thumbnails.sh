@@ -16,7 +16,7 @@ if [ $# -ne 1  ]; then
 fi
 INPUT="$1"
 
-source web_public_session.sh
+source "$(dirname $0)/web_public_session.sh"
 
 THUMBNAIL_TEMPLATE="$WEB_HOST/webgateway/render_thumbnail/:iid:/96/"
 
