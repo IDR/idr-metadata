@@ -24,5 +24,5 @@ THUMBNAIL_TEMPLATE="$WEB_HOST/webgateway/render_thumbnail/:iid:/96/"
 while read -r line || [[ -n "$line" ]]; do
     IID="$line"
     echo -n "$IID "
-    $CURL_GET -D - -o /dev/null "${THUMBNAIL_TEMPLATE/:iid:/$IID}" | grep 'X-Proxy-Cache:'
+    $CURL_GET -D - -o /dev/null "${THUMBNAIL_TEMPLATE/:iid:/$IID}" | grep 'X-Proxy-Cache:' || :
 done < "$INPUT"

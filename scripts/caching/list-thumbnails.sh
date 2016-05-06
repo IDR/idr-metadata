@@ -7,6 +7,8 @@ date
 OMERO_SERVER=~/OMERO.server
 omero="$OMERO_SERVER/bin/omero"
 
+$omero login
+
 $omero hql 'select id,name from Screen' --limit -1 -q --style plain | \
     while IFS='' read -r line; do
         IFS=, read -a arr <<< "$line"
