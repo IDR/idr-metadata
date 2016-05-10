@@ -15,14 +15,13 @@ $omero hql 'select id,name from Screen' --limit -1 -q --style plain | \
         echo "id:${arr[1]} name:${arr[2]}"
 
         # List all image IDs in each screen
-        read -a iarr <<<$( $omero hql -q --limit -1 --style plain "\
+        # Only use the first part of screen names (before '/') so there may
+        # be multiple screens in the same thumbnails list file
+        out="${arr[2]%/*}.txt"
+        $omero hql -q --limit -1 --style plain "\
             SELECT ws.image.id \
             FROM WellSample ws, Plate p, ScreenPlateLink spl \
             WHERE spl.child=p AND ws.well.plate=p \
-            AND spl.parent.id=${arr[1]}" )
-
-        for i in "${iarr[@]}"; do
-            out="${arr[2]%/*}.txt"
-            echo $i | cut -d,  -f2 >> "$out"
-        done
+            AND spl.parent.id=${arr[1]}" | \
+            cut -d,  -f2 >> "$out"
     done
