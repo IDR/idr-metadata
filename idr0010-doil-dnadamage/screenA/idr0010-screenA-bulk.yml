@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0010-doil-dnadamage/screenA"
+include: "../../bulk.yml"
+path: "idr0010-screenA-plates.tsv"

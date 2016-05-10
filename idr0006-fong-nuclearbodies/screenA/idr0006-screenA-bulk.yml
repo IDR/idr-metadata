@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0006-fong-nuclearbodies/screenA"
+include: "../../bulk.yml"
+path: "idr0006-screenA-plates.tsv"

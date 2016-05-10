@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0013-neumann-mitocheck/screenA"
+include: "../../bulk.yml"
+path: "idr0013-screenA-plates.tsv"

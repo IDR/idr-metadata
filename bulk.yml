@@ -1,0 +1,12 @@
+---
+continue: "true"
+transfer: "ln_s"
+exclude: "clientpath"
+checksum_algorithm: "File-Size-64"
+logprefix: "logs/"
+output: "yaml"
+# Default columns for the regular screens.
+# This may need to be modified in other bulk files.
+columns:
+    - name
+    - path

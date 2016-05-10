@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0004-thorpe-rad52/screenA"
+include: "../../bulk.yml"
+path: "idr0004-screenA-plates.tsv"

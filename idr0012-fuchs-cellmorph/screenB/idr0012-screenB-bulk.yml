@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0012-fuchs-cellmorph/screenB"
+include: "../../bulk.yml"
+path: "idr0012-screenB-plates.tsv"
