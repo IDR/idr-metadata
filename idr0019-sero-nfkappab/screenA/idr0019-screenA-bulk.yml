@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0019-sero-nfkappab"
+include: "../../bulk.yml"
+path: "idr0019-screenA-plates.tsv"
