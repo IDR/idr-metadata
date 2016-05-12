@@ -87,5 +87,5 @@ Processed Data Column Type	Experimental Condition	Gene Identifier	Gene Symbol	Ge
 Processed Data Column Annotation Level						Experimental condition and Gene	Experimental condition and Gene	Experimental condition and Gene	Experimental condition and Gene	Experimental condition and Gene
 Processed Data Column Description	The name of the protein that was targeted for antibody labelling	"The Ensembl gene identifier for the targetted protein, using the Ensembl 84, GRCh38.p5 release."	"The gene symbol for the targetted protein, using the Ensembl 84, GRCh38.p5 release"	Alternative gene symbols. 	The name of the antibody or nanobody used to visualize the protein.	The phenotype observed.	Number of independent experiments.	Number of particles.	Average radial positions of the antibody-stained or GFP-tagged Nups.	SEM of the experiments 
 Processed Data Column Source Database		Ensembl								
-Processed Data Column Source Stem URI		http://www.ensembl.org/id/								
+Processed Data Column Source Stem URI	http://www.ebi.ac.uk/pdbe/entry/search/index?text:	http://www.ensembl.org/id/								
 Processed Data Column Link To Library File	Factor Value[Targeted Protein];Factor Value [Antibody]									
