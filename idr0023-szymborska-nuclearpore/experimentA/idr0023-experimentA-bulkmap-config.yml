@@ -21,7 +21,11 @@ defaults:
 
 columns:
 
-  - name: Targeted Protein
+  - name: Experimental Condition [Targeted Protein]
+    include: yes
+  - name: Experimental Condition [Targeted Protein]
+    clientname: Experimental Condition [Targeted Protein] URL
+    clientvalue: http://www.ebi.ac.uk/pdbe/entry/search/index?text{{ value }}
     include: yes
   - name: Gene Identifier
     include: yes
@@ -36,6 +40,14 @@ columns:
   - name: Antibody
     include: yes
   - name: Phenotype 1
+    include: yes
+  - name: Phenotype 1 Term Name
+    include: yes
+  - name: Phenotype 1 Term Accession
+    include: yes
+  - name: Phenotype 1 Term Accession
+    clientname: Phenotype 1 Term Accession URL
+    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
  
 # Advanced options (experimental)
