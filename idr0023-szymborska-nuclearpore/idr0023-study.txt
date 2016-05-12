@@ -36,7 +36,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 										
 Experiment Number	1									
 Comment[IDR Experiment Name]	idr0023-szymborska-nuclearpore/experimentA									
-Experiment Description	Systematic immunolabelling of the Nup107-160 complex and (monomeric) enhanced GFP [(m)EGFP] fusions of members of the Nup107-160 complex with an anti-GFP nanobody. 									
+Experiment Description	Systematic immunolabelling of the Nup107-160 complex and (monomeric) enhanced GFP [(m)EGFP] fusions of members of the Nup107-160 complex with an anti-GFP nanobody.  3 tiff images are missing from the set.  These are annotated in the Comment[Image File Comment] column of the assays file. 									
 Experiment Size	5D Images: 	Average Image Dimension (XYZCT):1376 x 1040 x 16 x 2 x 1	Total Tb: 							
 Experiment Imaging Method	Super-resolution fluorescence microscopy 									
 Experiment Imaging Method Term Source REF										
@@ -65,9 +65,9 @@ Protocol Description	"Human osteosarcoma U2OS cells were cultured in DMEM supple
 Phenotype Name	protein localized in nuclear pore									
 Phenotype Description	Localization by antibody labeling.									
 Phenotype Score Type	manual									
-Phenotype Term Source REF										
+Phenotype Term Source REF	CMPO									
 Phenotype Term Name	protein localized in nuclear pore phenotype									
-Phenotype Term Accession			 							
+Phenotype Term Accession	CMPO_0000426		 							
 										
 										
 # Feature Level Data Files (give individual file details unless there is one file per well)										
