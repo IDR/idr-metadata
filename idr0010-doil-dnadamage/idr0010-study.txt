@@ -85,7 +85,7 @@ Phenotype Term Accession	CMPO_0000415	CMPO_0000415
 Raw Image Data Type	image														
 Raw Image Data Format	Metamorph .stk converted to .tiff														
 Raw Image Channels	Filter name is dapi but label is Hoechst 33258: DNA	Filter name is 53bp1 but label is Alexa Fluor 488:53bp1													
-Raw Image Organization	1 screen with 149 x 384 well plates. 														
+Raw Image Organization	1 screen with 149 x 384 well plates. Plate layout is 12 rows by 32 columns.														
 															
 # Feature Level Data Files															
 Feature Level Data File Name															
@@ -97,7 +97,7 @@ Feature Level Data Column Description
 #  Processed Data Files 															
 Processed Data File Name	DNADamageProcessedData.txt														
 Processed Data File Format	tab-delimited text														
-Processed Data File Description	"This file gives cell counts, 53BP1 foci counts per well and phenotypes for genes where siRNA knockdown of expression has affected the level of 53bp1 foci "														
+Processed Data File Description	"This file gives cell counts, 53BP1 foci counts per well and phenotypes for genes where siRNA knockdown of expression has affected the level of 53bp1 foci. Note phenotypes are at the gene level, so all rows linked to a gene with a phenotype will have the phenotype listed regardless of whether the individual siRNA showed the phenotype or not. "														
 Processed Data Genome Build For Target Genes	Ensembl 27														
 Processed Data Column Name	Plate	Well Number	Well	Plate_Well	siRNA Identifier	Gene Identifier	Gene Symbol	Original target	Control Type	Quality Control	Cell Count	53BP1 foci	Foci Per Cell	Foci Per Cell (Normalized)	Phenotype
 Processed Data Column Type	Location	Location	Location	Location	Reagent Identifier	Gene Identifier	Gene Symbol	Gene identifier or Symbol	Control Type	Data	Data	Data	Data	Data	Phenotype

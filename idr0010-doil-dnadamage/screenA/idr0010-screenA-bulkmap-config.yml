@@ -21,8 +21,6 @@ defaults:
 
 columns:
 
-  - name: siRNA Identifier
-    include: yes
   - name: Gene Identifier
     include: yes   
   - name: Gene Identifier
