@@ -5,11 +5,13 @@ from os.path import basename
 from os.path import exists
 from argparse import ArgumentParser
 
+
 def get_lines():
     for i in ns.input:
         with open(i, "r") as f:
             path = f.read().strip()
             yield "%s\t%s" % (basename(i), path)
+
 
 def main(output, inputs):
     existing = ()
