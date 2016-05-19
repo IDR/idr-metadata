@@ -1,18 +1,16 @@
 #!/usr/bin/env python
 
 from collections import defaultdict
+from fileinput import input
 from glob import glob
 from os.path import basename
+from os.path import dirname
 from os.path import expanduser
 from os.path import exists
 from os.path import join
 from sys import path
 from sys import stderr
 
-
-lib = expanduser("~/OMERO.server/lib/python")
-assert exists(lib)
-path.insert(0, lib)
 
 from omero import all  # noqa
 from omero import ApiUsageException  # noqa
@@ -24,16 +22,61 @@ from omero.sys import ParametersI  # noqa
 from omero.util.text import TableBuilder  # noqa
 from omero.util.text import filesizeformat  # noqa
 
+from yaml import load
 
 def studies():
-    rv = defaultdict(lambda: defaultdict(list))
-    for study in glob("idr*"):
+    with open("bulk.yml") as f:
+        default_columns = load(f).get("columns", {})
+
+    rv = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+    for study in sorted(glob("idr*")):
         if study[-1] == "/":
             study = study[0:-1]
 
-        for screen in glob(join(study, "screen*")):
-            for plate in glob(join(screen, "plates", "*")):
-                rv[study][screen].append(basename(plate))
+        target = "Plate"
+        containers = glob(join(study, "screen[ABC]"))
+        if containers:
+            assert not glob(join(study, "experiment*"))
+        else:
+            target = "Dataset"
+            containers = glob(join(study, "experiment*"))
+
+        assert containers >= 1
+        for container in sorted(containers):
+            bulk = glob(join(container, "*bulk.yml"))
+            assert len(bulk) == 1, container
+            bulk = bulk[0]
+            pdir = dirname(bulk)
+            with open(bulk, "r") as f:
+                y = load(f)
+            p = join(pdir, y["path"])
+            columns = y.get("columns", default_columns)
+            name_idx = None
+            path_idx = None
+            target_idx = None
+            for idx, col in enumerate(columns):
+               if col == "name":
+                   name_idx = idx
+               elif col == "target":
+                   target_idx = idx
+               elif col == "path":
+                   path_idx = idx
+
+            for line in input([p]):
+                parts = line.strip().split("\t")
+                if name_idx:
+                    name = parts[name_idx]
+                else:
+                    if path_idx < len(parts):
+                        name = basename(parts[path_idx])
+                    else:
+                        raise Exception(path_idx, container, bulk)
+                if target_idx:
+                    target = parts[target_idx]
+                rv[study][container][target].append(name)
+    for study, containers in sorted(rv.items()):
+        for container, types in sorted(containers.items()):
+            assert len(types) == 1, (study, container, types)
     return rv
 
 
@@ -95,8 +138,8 @@ def check_search(query, search):
 
 def stat_screens(query):
 
-    tb = TableBuilder("Screen")
-    tb.cols(["ID", "Plates", "Wells", "Images", "Planes", "Bytes"])
+    tb = TableBuilder("Container")
+    tb.cols(["ID", "Set", "Wells", "Images", "Planes", "Bytes"])
 
     plate_count = 0
     well_count = 0
@@ -104,27 +147,48 @@ def stat_screens(query):
     plane_count = 0
     byte_count = 0
 
-    for study, screens in sorted(studies().items()):
-        for screen, plates_expected in screens.items():
+    for study, containers in sorted(studies().items()):
+        for container, set_expected in sorted(containers.items()):
             params = ParametersI()
-            params.addString("screen", screen)
-            rv = unwrap(query.projection((
-                "select s.id, count(distinct p.id), "
-                "       count(distinct w.id), count(distinct i.id),"
-                "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC), "
-                "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * "
-                "           pix.sizeX * pix.sizeY * 2) "
-                "from Screen s "
-                "left outer join s.plateLinks spl "
-                "left outer join spl.child as p "
-                "left outer join p.wells as w "
-                "left outer join w.wellSamples as ws "
-                "left outer join ws.image as i "
-                "left outer join i.pixels as pix "
-                "where s.name = :screen "
-                "group by s.id"), params))
+            params.addString("container", container)
+            if "Plate" in set_expected:
+                expected = set_expected["Plate"]
+                rv = unwrap(query.projection((
+                    "select s.id, count(distinct p.id), "
+                    "       count(distinct w.id), count(distinct i.id),"
+                    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC), "
+                    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * "
+                    "           pix.sizeX * pix.sizeY * 2) "
+                    "from Screen s "
+                    "left outer join s.plateLinks spl "
+                    "left outer join spl.child as p "
+                    "left outer join p.wells as w "
+                    "left outer join w.wellSamples as ws "
+                    "left outer join ws.image as i "
+                    "left outer join i.pixels as pix "
+                    "where s.name = :container "
+                    "group by s.id"), params))
+            elif "Dataset" in set_expected:
+                expected = set_expected["Dataset"]
+                rv = unwrap(query.projection((
+                    "select p.id, count(distinct d.id), "
+                    "       0, count(distinct i.id),"
+                    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC), "
+                    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * "
+                    "           pix.sizeX * pix.sizeY * 2) "
+                    "from Project p "
+                    "left outer join p.datasetLinks pdl "
+                    "left outer join pdl.child d "
+                    "left outer join d.imageLinks as dil "
+                    "left outer join dil.child as i "
+                    "left outer join i.pixels as pix "
+                    "where p.name = :container "
+                    "group by p.id"), params))
+            else:
+                raise Exception("unknown: %s" % set_expected.keys())
+
             if not rv:
-                tb.row(screen, "MISSING", "", "", "", "", "")
+                tb.row(container, "MISSING", "", "", "", "", "")
             else:
                 for x in rv:
                     plate_id, plates, wells, images, planes, bytes = x
@@ -137,9 +201,9 @@ def stat_screens(query):
                         byte_count += bytes
                     else:
                         bytes = 0
-                    if plates != len(plates_expected):
-                        plates = "%s of %s" % (plates, len(plates_expected))
-                    tb.row(screen, plate_id, plates, wells, images, planes,
+                    if plates != len(expected):
+                        plates = "%s of %s" % (plates, len(expected))
+                    tb.row(container, plate_id, plates, wells, images, planes,
                            filesizeformat(bytes))
     tb.row("Total", "", plate_count, well_count, image_count, plane_count,
            filesizeformat(byte_count))
