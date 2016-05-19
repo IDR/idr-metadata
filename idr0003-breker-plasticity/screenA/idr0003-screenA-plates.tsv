@@ -83,20 +83,3 @@ starvation p6	/uod/idr/filesets/idr0003-breker-plasticity/201301120/Images/starv
 starvation p7	/uod/idr/filesets/idr0003-breker-plasticity/201301120/Images/starvation/p7
 starvation p8	/uod/idr/filesets/idr0003-breker-plasticity/201301120/Images/starvation/p8
 starvation p9	/uod/idr/filesets/idr0003-breker-plasticity/201301120/Images/starvation/p9
-tmp.sh	echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p1 >> "starvation p1"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p2 >> "starvation p2"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p3 >> "starvation p3"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p4 >> "starvation p4"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p5 >> "starvation p5"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p6 >> "starvation p6"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p7 >> "starvation p7"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p8 >> "starvation p8"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p9 >> "starvation p9"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p10 >> "starvation p10"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p11 >> "starvation p11"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p12 >> "starvation p12"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p13 >> "starvation p13"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p14 >> "starvation p14"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p15 >> "starvation p15"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p16 >> "starvation p16"
-echo /idr/tmp/idr_datasets/201301120-breker-proteome-plasticity/201301120/Images/starvation/p17 >> "starvation p17"
