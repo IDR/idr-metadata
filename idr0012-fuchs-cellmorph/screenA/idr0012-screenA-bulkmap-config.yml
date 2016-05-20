@@ -167,20 +167,12 @@ columns:
     include: yes   
   - name: Phenotype 12
     include: yes
-  - name: Phenotype 12 Term Name a
+  - name: Phenotype 12 Term Name
     include: yes
-  - name: Phenotype 12 Term Accession a
+  - name: Phenotype 12 Term Accession
     include: yes
-  - name: Phenotype 12 Term Accession a
-    clientname: Phenotype 12 Term Accession a URL
-    clientvalue: http://purl.obolibrary.org/obo/{{ value }}
-    include: yes
-  - name: Phenotype 12 Term Name b
-    include: yes
-  - name: Phenotype 12 Term Accession b
-    include: yes
-  - name: Phenotype 12 Term Accession b
-    clientname: Phenotype 12 Term Accession b URL
+  - name: Phenotype 12 Term Accession
+    clientname: Phenotype 12 Term Accession URL
     clientvalue: http://purl.obolibrary.org/obo/{{ value }}
     include: yes
   - name: Phenotype 13
