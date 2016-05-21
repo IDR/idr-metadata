@@ -1151,390 +1151,390 @@ Plate	Well Number	Well	Experimental Condition [cell line]	"Cell Type/Genetic Sub
 22_lines_TNF_1h_200145914	382	P22							empty well		no images
 22_lines_TNF_1h_200145914	383	P23							empty well		no images
 22_lines_TNF_1h_200145914	384	P24							empty well		no images
-22_lines_TNF_5h_200145427	1	A1							empty well		no images
-22_lines_TNF_5h_200145427	2	A2							empty well		no images
-22_lines_TNF_5h_200145427	3	A3							empty well		no images
-22_lines_TNF_5h_200145427	4	A4							empty well		no images
-22_lines_TNF_5h_200145427	5	A5							empty well		no images
-22_lines_TNF_5h_200145427	6	A6							empty well		no images
-22_lines_TNF_5h_200145427	7	A7							empty well		no images
-22_lines_TNF_5h_200145427	8	A8							empty well		no images
-22_lines_TNF_5h_200145427	9	A9							empty well		no images
-22_lines_TNF_5h_200145427	10	A10							empty well		no images
-22_lines_TNF_5h_200145427	11	A11							empty well		no images
-22_lines_TNF_5h_200145427	12	A12							empty well		no images
-22_lines_TNF_5h_200145427	13	A13							empty well		no images
-22_lines_TNF_5h_200145427	14	A14							empty well		no images
-22_lines_TNF_5h_200145427	15	A15							empty well		no images
-22_lines_TNF_5h_200145427	16	A16							empty well		no images
-22_lines_TNF_5h_200145427	17	A17							empty well		no images
-22_lines_TNF_5h_200145427	18	A18							empty well		no images
-22_lines_TNF_5h_200145427	19	A19							empty well		no images
-22_lines_TNF_5h_200145427	20	A20							empty well		no images
-22_lines_TNF_5h_200145427	21	A21							empty well		no images
-22_lines_TNF_5h_200145427	22	A22							empty well		no images
-22_lines_TNF_5h_200145427	23	A23							empty well		no images
-22_lines_TNF_5h_200145427	24	A24							empty well		no images
-22_lines_TNF_5h_200145427	25	B1							empty well		no images
-22_lines_TNF_5h_200145427	26	B2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	27	B3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	28	B4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	29	B5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	30	B6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	31	B7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	32	B8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	33	B9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	34	B10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	35	B11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	36	B12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	37	B13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	38	B14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	39	B15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	40	B16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	41	B17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	42	B18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	43	B19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	44	B20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	45	B21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	46	B22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	47	B23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	48	B24							empty well		no images
-22_lines_TNF_5h_200145427	49	C1							empty well		no images
-22_lines_TNF_5h_200145427	50	C2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	51	C3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	52	C4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	53	C5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	54	C6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	55	C7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	56	C8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	57	C9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	58	C10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	59	C11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	60	C12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	61	C13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	62	C14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	63	C15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	64	C16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	65	C17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	66	C18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	67	C19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	68	C20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	69	C21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	70	C22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	71	C23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	72	C24							empty well		no images
-22_lines_TNF_5h_200145427	73	D1							empty well		no images
-22_lines_TNF_5h_200145427	74	D2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	75	D3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	76	D4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	77	D5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	78	D6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	79	D7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	80	D8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	81	D9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	82	D10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	83	D11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	84	D12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	85	D13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	86	D14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	87	D15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	88	D16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	89	D17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	90	D18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	91	D19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	92	D20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	93	D21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	94	D22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	95	D23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	96	D24							empty well		no images
-22_lines_TNF_5h_200145427	97	E1							empty well		no images
-22_lines_TNF_5h_200145427	98	E2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	99	E3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	100	E4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	101	E5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	102	E6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	103	E7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	104	E8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	105	E9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	106	E10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	107	E11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	108	E12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	109	E13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	110	E14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	111	E15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	112	E16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	113	E17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	114	E18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	115	E19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	116	E20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	117	E21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	118	E22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	119	E23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	120	E24							empty well		no images
-22_lines_TNF_5h_200145427	121	F1							empty well		no images
-22_lines_TNF_5h_200145427	122	F2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	123	F3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	124	F4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	125	F5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	126	F6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	127	F7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	128	F8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	129	F9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	130	F10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	131	F11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	132	F12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	133	F13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	134	F14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	135	F15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	136	F16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	137	F17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	138	F18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	139	F19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	140	F20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	141	F21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	142	F22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	143	F23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	144	F24							empty well		no images
-22_lines_TNF_5h_200145427	145	G1							empty well		no images
-22_lines_TNF_5h_200145427	146	G2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	147	G3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	148	G4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	149	G5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	150	G6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	151	G7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	152	G8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	153	G9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	154	G10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	155	G11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	156	G12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	157	G13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	158	G14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	159	G15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	160	G16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	161	G17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	162	G18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	163	G19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	164	G20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	165	G21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	166	G22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	167	G23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	168	G24							empty well		no images
-22_lines_TNF_5h_200145427	169	H1							empty well		no images
-22_lines_TNF_5h_200145427	170	H2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	171	H3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	172	H4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	173	H5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	174	H6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	175	H7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	176	H8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	177	H9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	178	H10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	179	H11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	180	H12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	181	H13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	182	H14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	183	H15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	184	H16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	185	H17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	186	H18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	187	H19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	188	H20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	189	H21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	190	H22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	191	H23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	192	H24							empty well		no images
-22_lines_TNF_5h_200145427	193	I1							empty well		no images
-22_lines_TNF_5h_200145427	194	I2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	195	I3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	196	I4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	197	I5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	198	I6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	199	I7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	200	I8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	201	I9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	202	I10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	203	I11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	204	I12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	205	I13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	206	I14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	207	I15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	208	I16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	209	I17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	210	I18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	211	I19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	212	I20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	213	I21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	214	I22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	215	I23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	216	I24							empty well		no images
-22_lines_TNF_5h_200145427	217	J1							empty well		no images
-22_lines_TNF_5h_200145427	218	J2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	219	J3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	220	J4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	221	J5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	222	J6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	223	J7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	224	J8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	225	J9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	226	J10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	227	J11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	228	J12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	229	J13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	230	J14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	231	J15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	232	J16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	233	J17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	234	J18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	235	J19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	236	J20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	237	J21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	238	J22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	239	J23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	240	J24							empty well		no images
-22_lines_TNF_5h_200145427	241	K1							empty well		no images
-22_lines_TNF_5h_200145427	242	K2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	243	K3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	244	K4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	245	K5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	246	K6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	247	K7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	248	K8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	249	K9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	250	K10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	251	K11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	252	K12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	253	K13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	254	K14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	255	K15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	256	K16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	257	K17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	258	K18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	259	K19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	260	K20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	261	K21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	262	K22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	263	K23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	264	K24							empty well		no images
-22_lines_TNF_5h_200145427	265	L1							empty well		no images
-22_lines_TNF_5h_200145427	266	L2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	267	L3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	268	L4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	269	L5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	270	L6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	271	L7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	272	L8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	273	L9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	274	L10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	275	L11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	276	L12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	277	L13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	278	L14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	279	L15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	280	L16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	281	L17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	282	L18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	283	L19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	284	L20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	285	L21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	286	L22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	287	L23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	288	L24							empty well		no images
-22_lines_TNF_5h_200145427	289	M1							empty well		no images
-22_lines_TNF_5h_200145427	290	M2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	291	M3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	292	M4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	293	M5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	294	M6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	295	M7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	296	M8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	297	M9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	298	M10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	299	M11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	300	M12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	301	M13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	302	M14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	303	M15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	304	M16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	305	M17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	306	M18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	307	M19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	308	M20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	309	M21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	310	M22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	311	M23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	312	M24							empty well		no images
-22_lines_TNF_5h_200145427	313	N1							empty well		no images
-22_lines_TNF_5h_200145427	314	N2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	315	N3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	316	N4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	317	N5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	318	N6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	319	N7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	320	N8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	321	N9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	322	N10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	323	N11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	324	N12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	325	N13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	326	N14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	327	N15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	328	N16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	329	N17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	330	N18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	331	N19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	332	N20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	333	N21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	334	N22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	335	N23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	336	N24							empty well		no images
-22_lines_TNF_5h_200145427	337	O1							empty well		no images
-22_lines_TNF_5h_200145427	338	O2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	339	O3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	340	O4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	341	O5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	342	O6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	343	O7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	344	O8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	345	O9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	346	O10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	347	O11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	348	O12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	349	O13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	350	O14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	351	O15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	352	O16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	353	O17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	354	O18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	355	O19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	356	O20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	357	O21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	358	O22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	359	O23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
-22_lines_TNF_5h_200145427	360	O24							empty well		no images
-22_lines_TNF_5h_200145427	361	P1							empty well		no images
-22_lines_TNF_5h_200145427	362	P2							empty well		no images
-22_lines_TNF_5h_200145427	363	P3							empty well		no images
-22_lines_TNF_5h_200145427	364	P4							empty well		no images
-22_lines_TNF_5h_200145427	365	P5							empty well		no images
-22_lines_TNF_5h_200145427	366	P6							empty well		no images
-22_lines_TNF_5h_200145427	367	P7							empty well		no images
-22_lines_TNF_5h_200145427	368	P8							empty well		no images
-22_lines_TNF_5h_200145427	369	P9							empty well		no images
-22_lines_TNF_5h_200145427	370	P10							empty well		no images
-22_lines_TNF_5h_200145427	371	P11							empty well		no images
-22_lines_TNF_5h_200145427	372	P12							empty well		no images
-22_lines_TNF_5h_200145427	373	P13							empty well		no images
-22_lines_TNF_5h_200145427	374	P14							empty well		no images
-22_lines_TNF_5h_200145427	375	P15							empty well		no images
-22_lines_TNF_5h_200145427	376	P16							empty well		no images
-22_lines_TNF_5h_200145427	377	P17							empty well		no images
-22_lines_TNF_5h_200145427	378	P18							empty well		no images
-22_lines_TNF_5h_200145427	379	P19							empty well		no images
-22_lines_TNF_5h_200145427	380	P20							empty well		no images
-22_lines_TNF_5h_200145427	381	P21							empty well		no images
-22_lines_TNF_5h_200145427	382	P22							empty well		no images
-22_lines_TNF_5h_200145427	383	P23							empty well		no images
-22_lines_TNF_5h_200145427	384	P24							empty well		no images
+22_lines_TNFa_5h_200145427	1	A1							empty well		no images
+22_lines_TNFa_5h_200145427	2	A2							empty well		no images
+22_lines_TNFa_5h_200145427	3	A3							empty well		no images
+22_lines_TNFa_5h_200145427	4	A4							empty well		no images
+22_lines_TNFa_5h_200145427	5	A5							empty well		no images
+22_lines_TNFa_5h_200145427	6	A6							empty well		no images
+22_lines_TNFa_5h_200145427	7	A7							empty well		no images
+22_lines_TNFa_5h_200145427	8	A8							empty well		no images
+22_lines_TNFa_5h_200145427	9	A9							empty well		no images
+22_lines_TNFa_5h_200145427	10	A10							empty well		no images
+22_lines_TNFa_5h_200145427	11	A11							empty well		no images
+22_lines_TNFa_5h_200145427	12	A12							empty well		no images
+22_lines_TNFa_5h_200145427	13	A13							empty well		no images
+22_lines_TNFa_5h_200145427	14	A14							empty well		no images
+22_lines_TNFa_5h_200145427	15	A15							empty well		no images
+22_lines_TNFa_5h_200145427	16	A16							empty well		no images
+22_lines_TNFa_5h_200145427	17	A17							empty well		no images
+22_lines_TNFa_5h_200145427	18	A18							empty well		no images
+22_lines_TNFa_5h_200145427	19	A19							empty well		no images
+22_lines_TNFa_5h_200145427	20	A20							empty well		no images
+22_lines_TNFa_5h_200145427	21	A21							empty well		no images
+22_lines_TNFa_5h_200145427	22	A22							empty well		no images
+22_lines_TNFa_5h_200145427	23	A23							empty well		no images
+22_lines_TNFa_5h_200145427	24	A24							empty well		no images
+22_lines_TNFa_5h_200145427	25	B1							empty well		no images
+22_lines_TNFa_5h_200145427	26	B2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	27	B3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	28	B4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	29	B5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	30	B6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	31	B7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	32	B8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	33	B9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	34	B10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	35	B11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	36	B12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	37	B13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	38	B14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	39	B15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	40	B16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	41	B17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	42	B18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	43	B19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	44	B20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	45	B21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	46	B22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	47	B23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	48	B24							empty well		no images
+22_lines_TNFa_5h_200145427	49	C1							empty well		no images
+22_lines_TNFa_5h_200145427	50	C2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	51	C3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	52	C4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	53	C5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	54	C6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	55	C7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	56	C8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	57	C9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	58	C10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	59	C11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	60	C12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	61	C13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	62	C14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	63	C15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	64	C16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	65	C17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	66	C18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	67	C19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	68	C20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	69	C21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	70	C22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	71	C23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	72	C24							empty well		no images
+22_lines_TNFa_5h_200145427	73	D1							empty well		no images
+22_lines_TNFa_5h_200145427	74	D2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	75	D3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	76	D4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	77	D5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	78	D6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	79	D7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	80	D8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	81	D9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	82	D10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	83	D11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	84	D12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	85	D13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	86	D14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	87	D15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	88	D16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	89	D17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	90	D18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	91	D19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	92	D20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	93	D21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	94	D22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	95	D23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	96	D24							empty well		no images
+22_lines_TNFa_5h_200145427	97	E1							empty well		no images
+22_lines_TNFa_5h_200145427	98	E2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	99	E3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	100	E4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	101	E5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	102	E6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	103	E7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	104	E8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	105	E9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	106	E10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	107	E11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	108	E12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	109	E13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	110	E14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	111	E15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	112	E16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	113	E17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	114	E18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	115	E19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	116	E20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	117	E21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	118	E22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	119	E23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	120	E24							empty well		no images
+22_lines_TNFa_5h_200145427	121	F1							empty well		no images
+22_lines_TNFa_5h_200145427	122	F2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	123	F3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	124	F4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	125	F5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	126	F6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	127	F7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	128	F8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	129	F9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	130	F10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	131	F11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	132	F12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	133	F13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	134	F14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	135	F15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	136	F16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	137	F17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	138	F18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	139	F19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	140	F20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	141	F21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	142	F22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	143	F23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	144	F24							empty well		no images
+22_lines_TNFa_5h_200145427	145	G1							empty well		no images
+22_lines_TNFa_5h_200145427	146	G2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	147	G3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	148	G4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	149	G5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	150	G6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	151	G7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	152	G8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	153	G9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	154	G10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	155	G11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	156	G12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	157	G13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	158	G14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	159	G15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	160	G16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	161	G17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	162	G18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	163	G19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	164	G20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	165	G21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	166	G22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	167	G23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	168	G24							empty well		no images
+22_lines_TNFa_5h_200145427	169	H1							empty well		no images
+22_lines_TNFa_5h_200145427	170	H2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	171	H3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	172	H4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	173	H5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	174	H6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	175	H7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	176	H8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	177	H9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	178	H10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	179	H11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	180	H12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	181	H13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	182	H14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	183	H15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	184	H16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	185	H17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	186	H18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	187	H19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	188	H20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	189	H21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	190	H22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	191	H23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	192	H24							empty well		no images
+22_lines_TNFa_5h_200145427	193	I1							empty well		no images
+22_lines_TNFa_5h_200145427	194	I2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	195	I3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	196	I4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	197	I5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	198	I6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	199	I7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	200	I8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	201	I9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	202	I10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	203	I11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	204	I12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	205	I13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	206	I14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	207	I15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	208	I16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	209	I17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	210	I18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	211	I19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	212	I20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	213	I21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	214	I22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	215	I23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	216	I24							empty well		no images
+22_lines_TNFa_5h_200145427	217	J1							empty well		no images
+22_lines_TNFa_5h_200145427	218	J2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	219	J3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	220	J4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	221	J5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	222	J6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	223	J7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	224	J8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	225	J9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	226	J10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	227	J11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	228	J12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	229	J13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	230	J14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	231	J15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	232	J16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	233	J17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	234	J18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	235	J19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	236	J20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	237	J21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	238	J22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	239	J23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	240	J24							empty well		no images
+22_lines_TNFa_5h_200145427	241	K1							empty well		no images
+22_lines_TNFa_5h_200145427	242	K2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	243	K3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	244	K4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	245	K5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	246	K6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	247	K7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	248	K8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	249	K9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	250	K10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	251	K11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	252	K12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	253	K13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	254	K14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	255	K15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	256	K16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	257	K17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	258	K18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	259	K19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	260	K20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	261	K21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	262	K22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	263	K23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	264	K24							empty well		no images
+22_lines_TNFa_5h_200145427	265	L1							empty well		no images
+22_lines_TNFa_5h_200145427	266	L2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	267	L3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	268	L4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	269	L5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	270	L6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	271	L7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	272	L8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	273	L9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	274	L10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	275	L11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	276	L12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	277	L13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	278	L14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	279	L15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	280	L16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	281	L17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	282	L18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	283	L19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	284	L20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	285	L21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	286	L22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	287	L23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	288	L24							empty well		no images
+22_lines_TNFa_5h_200145427	289	M1							empty well		no images
+22_lines_TNFa_5h_200145427	290	M2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	291	M3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	292	M4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	293	M5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	294	M6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	295	M7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	296	M8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	297	M9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	298	M10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	299	M11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	300	M12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	301	M13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	302	M14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	303	M15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	304	M16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	305	M17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	306	M18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	307	M19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	308	M20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	309	M21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	310	M22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	311	M23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	312	M24							empty well		no images
+22_lines_TNFa_5h_200145427	313	N1							empty well		no images
+22_lines_TNFa_5h_200145427	314	N2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	315	N3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	316	N4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	317	N5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	318	N6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	319	N7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	320	N8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	321	N9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	322	N10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	323	N11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	324	N12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	325	N13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	326	N14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	327	N15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	328	N16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	329	N17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	330	N18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	331	N19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	332	N20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	333	N21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	334	N22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	335	N23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	336	N24							empty well		no images
+22_lines_TNFa_5h_200145427	337	O1							empty well		no images
+22_lines_TNFa_5h_200145427	338	O2	HeLa	cervical carcinoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	339	O3	Hep3B	hepatoma	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	340	O4	AG1573	primary fibroblast	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	341	O5	HS578T	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	342	O6	T47D	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	343	O7	MDA-MB-157	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	344	O8	HCC1143	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	345	O9	AU565	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	346	O10	ZR75.1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	347	O11	CAMA1	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	348	O12	BT474	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	349	O13	MDA-MB-231	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	350	O14	SKBR3	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	351	O15	JIMT1	Breast cancer (unknown genetic subtype)	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	352	O16	MCF7	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	353	O17	MDA-MB-453	Luminal breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	354	O18	HCC1954	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	355	O19	HCC70	Basal A breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	356	O20	SUM149	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	357	O21	SUM159	Basal B breast cancer	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	358	O22	MCF10A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	359	O23	MCF12A	Basal B non-tumor	DMEM:F12 5% HI-FBS	TNF-alpha	10 nanogram per milliliter	5 hour			
+22_lines_TNFa_5h_200145427	360	O24							empty well		no images
+22_lines_TNFa_5h_200145427	361	P1							empty well		no images
+22_lines_TNFa_5h_200145427	362	P2							empty well		no images
+22_lines_TNFa_5h_200145427	363	P3							empty well		no images
+22_lines_TNFa_5h_200145427	364	P4							empty well		no images
+22_lines_TNFa_5h_200145427	365	P5							empty well		no images
+22_lines_TNFa_5h_200145427	366	P6							empty well		no images
+22_lines_TNFa_5h_200145427	367	P7							empty well		no images
+22_lines_TNFa_5h_200145427	368	P8							empty well		no images
+22_lines_TNFa_5h_200145427	369	P9							empty well		no images
+22_lines_TNFa_5h_200145427	370	P10							empty well		no images
+22_lines_TNFa_5h_200145427	371	P11							empty well		no images
+22_lines_TNFa_5h_200145427	372	P12							empty well		no images
+22_lines_TNFa_5h_200145427	373	P13							empty well		no images
+22_lines_TNFa_5h_200145427	374	P14							empty well		no images
+22_lines_TNFa_5h_200145427	375	P15							empty well		no images
+22_lines_TNFa_5h_200145427	376	P16							empty well		no images
+22_lines_TNFa_5h_200145427	377	P17							empty well		no images
+22_lines_TNFa_5h_200145427	378	P18							empty well		no images
+22_lines_TNFa_5h_200145427	379	P19							empty well		no images
+22_lines_TNFa_5h_200145427	380	P20							empty well		no images
+22_lines_TNFa_5h_200145427	381	P21							empty well		no images
+22_lines_TNFa_5h_200145427	382	P22							empty well		no images
+22_lines_TNFa_5h_200145427	383	P23							empty well		no images
+22_lines_TNFa_5h_200145427	384	P24							empty well		no images
 22_lines_untreated_200145425	1	A1							empty well		no images
 22_lines_untreated_200145425	2	A2							empty well		no images
 22_lines_untreated_200145425	3	A3							empty well		no images
