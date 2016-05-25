@@ -5,10 +5,7 @@ from fileinput import input
 from glob import glob
 from os.path import basename
 from os.path import dirname
-from os.path import expanduser
-from os.path import exists
 from os.path import join
-from sys import path
 from sys import stderr
 
 
@@ -23,6 +20,38 @@ from omero.util.text import TableBuilder  # noqa
 from omero.util.text import filesizeformat  # noqa
 
 from yaml import load
+
+PDI_QUERY = (
+    "select p.id, count(distinct d.id), "
+    "       0, count(distinct i.id),"
+    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC), "
+    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * "
+    "           pix.sizeX * pix.sizeY * 2) "
+    "from Project p "
+    "left outer join p.datasetLinks pdl "
+    "left outer join pdl.child d "
+    "left outer join d.imageLinks as dil "
+    "left outer join dil.child as i "
+    "left outer join i.pixels as pix "
+    "where p.name = :container "
+    "group by p.id")
+
+SPW_QUERY = (
+    "select s.id, count(distinct p.id), "
+    "       count(distinct w.id), count(distinct i.id),"
+    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC), "
+    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * "
+    "           pix.sizeX * pix.sizeY * 2) "
+    "from Screen s "
+    "left outer join s.plateLinks spl "
+    "left outer join spl.child as p "
+    "left outer join p.wells as w "
+    "left outer join w.wellSamples as ws "
+    "left outer join ws.image as i "
+    "left outer join i.pixels as pix "
+    "where s.name = :container "
+    "group by s.id")
+
 
 def studies():
     with open("bulk.yml") as f:
@@ -55,12 +84,12 @@ def studies():
             path_idx = None
             target_idx = None
             for idx, col in enumerate(columns):
-               if col == "name":
-                   name_idx = idx
-               elif col == "target":
-                   target_idx = idx
-               elif col == "path":
-                   path_idx = idx
+                if col == "name":
+                    name_idx = idx
+                elif col == "target":
+                    target_idx = idx
+                elif col == "path":
+                    path_idx = idx
 
             for line in input([p]):
                 parts = line.strip().split("\t")
@@ -153,37 +182,10 @@ def stat_screens(query):
             params.addString("container", container)
             if "Plate" in set_expected:
                 expected = set_expected["Plate"]
-                rv = unwrap(query.projection((
-                    "select s.id, count(distinct p.id), "
-                    "       count(distinct w.id), count(distinct i.id),"
-                    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC), "
-                    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * "
-                    "           pix.sizeX * pix.sizeY * 2) "
-                    "from Screen s "
-                    "left outer join s.plateLinks spl "
-                    "left outer join spl.child as p "
-                    "left outer join p.wells as w "
-                    "left outer join w.wellSamples as ws "
-                    "left outer join ws.image as i "
-                    "left outer join i.pixels as pix "
-                    "where s.name = :container "
-                    "group by s.id"), params))
+                rv = unwrap(query.projection(SPW_QUERY, params))
             elif "Dataset" in set_expected:
                 expected = set_expected["Dataset"]
-                rv = unwrap(query.projection((
-                    "select p.id, count(distinct d.id), "
-                    "       0, count(distinct i.id),"
-                    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC), "
-                    "       sum(cast(pix.sizeZ as long) * pix.sizeT * pix.sizeC * "
-                    "           pix.sizeX * pix.sizeY * 2) "
-                    "from Project p "
-                    "left outer join p.datasetLinks pdl "
-                    "left outer join pdl.child d "
-                    "left outer join d.imageLinks as dil "
-                    "left outer join dil.child as i "
-                    "left outer join i.pixels as pix "
-                    "where p.name = :container "
-                    "group by p.id"), params))
+                rv = unwrap(query.projection(PDI_QUERY, params))
             else:
                 raise Exception("unknown: %s" % set_expected.keys())
 
