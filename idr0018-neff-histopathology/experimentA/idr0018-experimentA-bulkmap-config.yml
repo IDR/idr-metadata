@@ -21,6 +21,14 @@ defaults:
 
 columns:
 
+  - name: Organism Part
+    include: yes
+  - name: Sex
+    include: yes
+  - name: Individual
+    include: yes
+  - name: Genotype
+    include: yes
   - name: Gene Identifier
     include: yes
   - name: Gene Identifier
