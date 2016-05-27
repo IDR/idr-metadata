@@ -25,7 +25,7 @@ columns:
     include: yes
   - name: Experimental Condition [Targeted Protein]
     clientname: Experimental Condition [Targeted Protein] URL
-    clientvalue: http://www.ebi.ac.uk/pdbe/entry/search/index?text{{ value }}
+    clientvalue: http://www.ebi.ac.uk/pdbe/entry/search/index?text:{{ value }}
     include: yes
   - name: Gene Identifier
     include: yes
