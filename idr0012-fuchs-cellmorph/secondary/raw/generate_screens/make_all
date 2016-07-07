@@ -34,7 +34,7 @@ def main(argv):
         quiet_makedirs(os.path.dirname(plates_fn))
         stats_fn = "stats_%s.txt" % cl
         root = ROOT % {"cl": cl}
-        basenames = os.listdir(root)
+        basenames = sorted(os.listdir(root))
         with open(stats_fn, "w") as fo, open(plates_fn, "w") as fp:
             for bn in basenames:
                 d = os.path.join(root, bn)
