@@ -9,7 +9,10 @@ from pyidr.screenio import ScreenWriter
 ROWS = 16
 COLUMNS = 24
 FIELDS = 2
-EXTRA_KV = {"Dimensions": "ZCT"}
+EXTRA_KV = {
+    "AxisTypes": "C",
+    "ChannelNames": "A,H,T",
+}
 
 
 def parse_cl(argv):
