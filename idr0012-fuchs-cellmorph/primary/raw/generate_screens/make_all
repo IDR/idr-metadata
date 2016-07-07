@@ -22,7 +22,7 @@ def main(argv):
     except OSError as e:
         if e.errno == errno.ENOENT:
             pass
-    basenames = os.listdir(ROOT)
+    basenames = sorted(os.listdir(ROOT))
     with open("stats.txt", "w") as fo, open(plates_fn, "w") as fp:
         for bn in basenames:
             d = os.path.join(ROOT, bn)
