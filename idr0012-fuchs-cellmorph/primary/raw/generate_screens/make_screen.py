@@ -9,10 +9,12 @@ from pyidr.screenio import ScreenWriter
 ROWS = 16
 COLUMNS = 24
 FIELDS = 2
+CHANNEL_NAMES = "A", "H", "T"
 EXTRA_KV = {
     "AxisTypes": "C",
-    "ChannelNames": "A,H,T",
+    "ChannelNames": ",".join(CHANNEL_NAMES),
 }
+PATTERN_BLOCK = "<%s>" % EXTRA_KV["ChannelNames"]
 
 
 def parse_cl(argv):
@@ -21,6 +23,23 @@ def parse_cl(argv):
     parser.add_argument("-o", "--output", metavar="FILE", help="output file")
     parser.add_argument("-p", "--plate", metavar="PLATE", help="plate name")
     return parser.parse_args(argv[1:])
+
+
+def get_patterns(subdir):
+    w = os.path.basename(subdir.rstrip(os.sep))
+    basenames = set(_ for _ in os.listdir(subdir) if _.endswith(".tif"))
+    expected_names = set("%s_%s%d.tif" % (w, c, f)
+                         for c in CHANNEL_NAMES
+                         for f in xrange(1, FIELDS + 1))
+    expected_patterns = ["%s_%s%d.tif" % (w, PATTERN_BLOCK, _)
+                         for _ in xrange(1, FIELDS + 1)]
+    if basenames == expected_names:
+        return expected_patterns
+    # a small number of wells have leading tildes in the file names
+    elif basenames == set("~" + _ for _ in expected_names):
+        return ["~" + _ for _ in expected_patterns]
+    else:
+        return []
 
 
 def write_screen(data_dir, plate, outf):
@@ -33,9 +52,11 @@ def write_screen(data_dir, plate, outf):
         if not os.path.isdir(subdir):
             sys.stderr.write("missing: %s\n" % subdir)
         else:
-            for run in xrange(FIELDS):
-                pattern = "%s_<A,H,T>%d.tif" % (well_tag, run + 1)
-                field_values.append(os.path.join(subdir, pattern))
+            patterns = get_patterns(subdir)
+            if not patterns:
+                sys.stderr.write("missing images: %s\n" % subdir)
+            for p in patterns:
+                field_values.append(os.path.join(subdir, p))
         writer.add_well(field_values, extra_kv=EXTRA_KV)
     writer.write(outf)
 
