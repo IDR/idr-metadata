@@ -2589,8 +2589,8 @@ Row = 13
 Column = 21
 AxisTypes = C
 ChannelNames = A,H,T
-Field_0 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT31/HT31N022/HT31N022_<A,H,T>1.tif
-Field_1 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT31/HT31N022/HT31N022_<A,H,T>2.tif
+Field_0 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT31/HT31N022/~HT31N022_<A,H,T>1.tif
+Field_1 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT31/HT31N022/~HT31N022_<A,H,T>2.tif
 
 [Well 334]
 Row = 13

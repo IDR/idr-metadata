@@ -697,8 +697,8 @@ Row = 3
 Column = 17
 AxisTypes = C
 ChannelNames = A,H,T
-Field_0 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT10/HT10D018/HT10D018_<A,H,T>1.tif
-Field_1 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT10/HT10D018/HT10D018_<A,H,T>2.tif
+Field_0 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT10/HT10D018/~HT10D018_<A,H,T>1.tif
+Field_1 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT10/HT10D018/~HT10D018_<A,H,T>2.tif
 
 [Well 90]
 Row = 3

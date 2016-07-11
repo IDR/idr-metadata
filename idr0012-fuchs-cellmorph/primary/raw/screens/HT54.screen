@@ -399,8 +399,8 @@ Row = 2
 Column = 3
 AxisTypes = C
 ChannelNames = A,H,T
-Field_0 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT54/HT54C004/HT54C004_<A,H,T>1.tif
-Field_1 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT54/HT54C004/HT54C004_<A,H,T>2.tif
+Field_0 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT54/HT54C004/~HT54C004_<A,H,T>1.tif
+Field_1 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT54/HT54C004/~HT54C004_<A,H,T>2.tif
 
 [Well 52]
 Row = 2
