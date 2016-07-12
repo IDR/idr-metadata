@@ -9,6 +9,7 @@ import make_screen
 ROOT = ("/uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/"
         "source-%(cl)sR/www.ebi.ac.uk/huber-srv/cellmorph/source-%(cl)sR")
 CL_TO_SCREEN = {"H": "B", "U": "C"}
+EXCLUDED = frozenset(["UR301-1"])
 
 
 def quiet_makedirs(d):
@@ -37,6 +38,8 @@ def main(argv):
         basenames = sorted(os.listdir(root))
         with open(stats_fn, "w") as fo, open(plates_fn, "w") as fp:
             for bn in basenames:
+                if bn in EXCLUDED:
+                    continue
                 d = os.path.join(root, bn)
                 if not os.path.isdir(d):
                     continue
