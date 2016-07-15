@@ -1,12 +1,3 @@
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR301-1	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR301-2	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR301-3	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR301-4	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR302-1	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR302-2	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR302-3	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR302-4	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR303-1	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR303-2	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR303-3	384
-/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-HR/www.ebi.ac.uk/huber-srv/cellmorph/source-HR/HR303-4	384
+version https://git-lfs.github.com/spec/v1
+oid sha256:5edbfb400700dd732cec2f0c211ba53648073b5d545adce6915dc64640b6d35c
+size 1500

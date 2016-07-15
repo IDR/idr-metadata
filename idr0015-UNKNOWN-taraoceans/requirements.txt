@@ -1,3 +1,3 @@
-numpy
-pandas
-xlrd
+version https://git-lfs.github.com/spec/v1
+oid sha256:81e2918c27dd25d316522fa6b99f960cebd556e622380d9064e71824c5674c49
+size 18
