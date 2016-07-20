@@ -41,7 +41,7 @@ columns:
     clientname: Compound Name URL
     clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
     include: yes
-  - name: Compound Grouop
+  - name: Compound Group
     include: yes
   - name: Compound Source
     include: yes
