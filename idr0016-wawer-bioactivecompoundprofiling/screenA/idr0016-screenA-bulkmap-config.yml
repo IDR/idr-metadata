@@ -1,5 +1,5 @@
 ---
-name: idr0016-gustafsdottir-bbbc02/screenA
+name: idr0016-wawer-bioactivecompoundprofiling/screenA
 version: 1
 
 defaults:
@@ -21,11 +21,19 @@ defaults:
 
 columns:
 
+  - name: Characteristics [Organism]
+    clientname: Organism
+    include: yes
+  - name: Characteristics [Cell Line]
+    clientname: Cell Line
+    include: yes
   - name: Compound Broad Identifier
     include: yes
   - name: Compound Broad Identifier
     clientname: Compound Broad Identifier URL
     clientvalue: https://pubchem.ncbi.nlm.nih.gov/compound/{{ value }}
+    include: yes
+  - name: Compound Broad Identifier Short
     include: yes
   - name: Compound Name
     include: yes
@@ -33,38 +41,70 @@ columns:
     clientname: Compound Name URL
     clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
     include: yes
+  - name: Compound Grouop
+    include: yes
+  - name: Compound Source
+    include: yes
+  - name: Vendor Catalog Identifier
+    include: yes
+  - name: Compound SMILES
+    include: yes
   - name: PubChem InChIKey
-    include: yes 
-  - name: ChEMBL Compound Name
     include: yes
-  - name: ChEMBL PREF NAME
+  - name: Dose
     include: yes
-  - name: ChEMBL Identifier
+  - name: Control Type
     include: yes
-  - name: ChEMBL Identifier
-    clientname: ChEMBL Identifier URL
-    clientvalue: https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/{{ value }}
+  - name: Control Comments
     include: yes
-  - name: ChEMBL InChIKey
+  - name: Channels
+    include: yes
+  - name: Comments
+    include: yes
+  - name: Plate Issues
+    include: yes
+  - name: In Annotated Set
+    include: yes
+  - name: ChemBank Annotation
+    include: yes
+  - name: Entrez Annotation
+    include: yes
+  - name: GO Annotation
+    include: yes
+  - name: MeSH Annotation
+    include: yes
+  - name: Product Use Annotation
+    include: yes
+  - name: In Annotated and Active Set
+    include: yes
+  - name: Has Phenotype
+    include: yes
+  - name: Phenotype Annotation Level
     include: yes
   - name: Phenotype 1
+    clientname: Phenotype
     include: yes
   - name: Phenotype 1 Term Name
+    clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 1 Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 1 Term Accession
-    clientname: Phenotype 1 Term Accession a URL
+    clientname: Phenotype Term Accession URL
     clientvalue: http://purl.obolibrary.org/obo/{{ value }}
     include: yes
   - name: Phenotype 2
+    clientname: Phenotype
     include: yes
   - name: Phenotype 2 Term Name
+    clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 2 Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 2 Term Accession
-    clientname: Phenotype 2 Term Accession URL
+    clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
 
