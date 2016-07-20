@@ -9,7 +9,13 @@ from pyidr.screenio import ScreenWriter
 ROWS = 16
 COLUMNS = 24
 FIELDS = 1
-EXTRA_KV = {"Dimensions": "ZCT"}
+CHANNEL_NAMES = "FITC", "Hoechst", "Tritc"
+TAIL = "_Flo - n000000.tif"
+PATTERN = "<%s>%s" % (",".join(CHANNEL_NAMES), TAIL)
+EXTRA_KV = {
+    "AxisTypes": "C",
+    "ChannelNames": ",".join(CHANNEL_NAMES),
+}
 
 
 def parse_cl(argv):
@@ -18,6 +24,14 @@ def parse_cl(argv):
     parser.add_argument("-o", "--output", metavar="FILE", help="output file")
     parser.add_argument("-p", "--plate", metavar="PLATE", help="plate name")
     return parser.parse_args(argv[1:])
+
+
+def has_images(subdir):
+    for c in CHANNEL_NAMES:
+        fn = os.path.join(subdir, "%s%s" % (c, TAIL))
+        if not (os.path.isfile(fn) and os.stat(fn).st_size > 0):
+            return False
+    return True
 
 
 def write_screen(data_dir, plate, outf):
@@ -29,9 +43,10 @@ def write_screen(data_dir, plate, outf):
         field_values = []
         if not os.path.isdir(subdir):
             sys.stderr.write("missing: %s\n" % subdir)
+        elif not has_images(subdir):
+            sys.stderr.write("no images: %s\n" % subdir)
         else:
-            pattern = "<FITC,Hoechst,Tritc>_Flo - n000000.tif"
-            field_values.append(os.path.join(subdir, pattern))
+            field_values.append(os.path.join(subdir, PATTERN))
         writer.add_well(field_values, extra_kv=EXTRA_KV)
     writer.write(outf)
 

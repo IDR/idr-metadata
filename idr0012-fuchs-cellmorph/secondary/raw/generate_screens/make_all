@@ -6,11 +6,10 @@ import errno
 import make_screen
 
 # two cell lines: HeLa (H) and U2OS (U)
-ROOT = "/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-%(cl)sR/www.ebi.ac.uk/huber-srv/cellmorph/source-%(cl)sR"
-CL_TO_SCREEN = {"H": "A", "U": "B"}
-SCREENS_DIR = os.path.join(os.pardir, "screens")
-PLATES_DIR = os.path.join(os.pardir, "screen%s/plates")
-REL_SCREENS_DIR = "idr0012-fuchs-cellmorph/secondary/raw/screens"
+ROOT = ("/uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/"
+        "source-%(cl)sR/www.ebi.ac.uk/huber-srv/cellmorph/source-%(cl)sR")
+CL_TO_SCREEN = {"H": "B", "U": "C"}
+EXCLUDED = frozenset(["UR301-1"])
 
 
 def quiet_makedirs(d):
@@ -22,14 +21,25 @@ def quiet_makedirs(d):
 
 
 def main(argv):
-    quiet_makedirs(SCREENS_DIR)
+    this_dir = os.path.dirname(os.path.abspath(__file__))
+    parent = os.path.dirname(this_dir)
+    screens_dir = os.path.join(parent, "screens")
+    study_root, a, b = parent.rsplit(os.sep, 2)
+    plates_fn_template = os.path.join(
+        study_root, "screen%(S)s/idr0012-screen%(S)s-plates.tsv"
+    )
+    rel_screens_dir = os.path.join(os.pardir, a, b, "screens")  # wrt plates_fn
+    quiet_makedirs(screens_dir)
     for cl, screen in CL_TO_SCREEN.iteritems():
+        plates_fn = plates_fn_template % {"S": screen}
+        quiet_makedirs(os.path.dirname(plates_fn))
+        stats_fn = "stats_%s.txt" % cl
         root = ROOT % {"cl": cl}
-        plates_dir = PLATES_DIR % screen
-        quiet_makedirs(plates_dir)
-        basenames = os.listdir(root)
-        with open("stats_%s.txt" % cl, "w") as fo:
+        basenames = sorted(os.listdir(root))
+        with open(stats_fn, "w") as fo, open(plates_fn, "w") as fp:
             for bn in basenames:
+                if bn in EXCLUDED:
+                    continue
                 d = os.path.join(root, bn)
                 if not os.path.isdir(d):
                     continue
@@ -37,11 +47,10 @@ def main(argv):
                               if os.path.isdir(os.path.join(d, _)) and
                               _.startswith("Well"))
                 fo.write("%s\t%d\n" % (d, n_wells))
-                screen_fn = os.path.join(SCREENS_DIR, "%s.screen" % bn)
+                screen_fn = os.path.join(screens_dir, "%s.screen" % bn)
                 make_screen.main(["dummy", d, "-o", screen_fn, "-p", bn])
-                plate_fn = os.path.join(plates_dir, bn)
-                with open(plate_fn, "w") as plate_file:
-                    plate_file.write("%s/%s.screen\n" % (REL_SCREENS_DIR, bn))
+                fp.write("%s\t%s.screen\n" %
+                         (bn, os.path.join(rel_screens_dir, bn)))
 
 
 if __name__ == "__main__":

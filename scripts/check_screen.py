@@ -45,6 +45,7 @@ def main(argv):
         reader = ScreenReader(f)
     # ScreenReader raises an exception if the file is not well-formed
     missing = 0
+    count = -1
     for count, (i, j, fn) in enumerate(iterfiles(reader)):
         if args.check_existence and not os.path.exists(fn):
             missing += 1

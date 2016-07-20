@@ -5,21 +5,25 @@ import os
 import errno
 import make_screen
 
-ROOT = "/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source"
-SCREENS_DIR = os.path.join(os.pardir, "screens")
-PLATES_DIR = os.path.join(os.pardir, "screenA/plates")
-REL_SCREENS_DIR = "idr0012-fuchs-cellmorph/primary/raw/screens"
+ROOT = ("/uod/idr/filesets/idr0012-fuchs-cellmorph/"
+        "downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source")
 
 
 def main(argv):
+    this_dir = os.path.dirname(os.path.abspath(__file__))
+    parent = os.path.dirname(this_dir)
+    screens_dir = os.path.join(parent, "screens")
+    study_root, a, b = parent.rsplit(os.sep, 2)
+    plates_fn = os.path.join(study_root, "screenA/idr0012-screenA-plates.tsv")
+    rel_screens_dir = os.path.join(os.pardir, a, b, "screens")  # wrt plates_fn
     try:
-        os.makedirs(SCREENS_DIR)
-        os.makedirs(PLATES_DIR)
+        os.makedirs(screens_dir)
+        os.makedirs(os.path.dirname(plates_fn))
     except OSError as e:
         if e.errno == errno.ENOENT:
             pass
-    basenames = os.listdir(ROOT)
-    with open("stats.txt", "w") as fo:
+    basenames = sorted(os.listdir(ROOT))
+    with open("stats.txt", "w") as fo, open(plates_fn, "w") as fp:
         for bn in basenames:
             d = os.path.join(ROOT, bn)
             if not os.path.isdir(d):
@@ -27,11 +31,10 @@ def main(argv):
             n_wells = sum(1 for _ in os.listdir(d)
                           if os.path.isdir(os.path.join(d, _)))
             fo.write("%s\t%d\n" % (d, n_wells))
-            screen_fn = os.path.join(SCREENS_DIR, "%s.screen" % bn)
+            screen_fn = os.path.join(screens_dir, "%s.screen" % bn)
             make_screen.main(["dummy", d, "-o", screen_fn, "-p", bn])
-            plate_fn = os.path.join(PLATES_DIR, bn)
-            with open(plate_fn, "w") as plate_file:
-                plate_file.write("%s/%s.screen\n" % (REL_SCREENS_DIR, bn))
+            fp.write("%s\t%s.screen\n" %
+                     (bn, os.path.join(rel_screens_dir, bn)))
 
 
 if __name__ == "__main__":
