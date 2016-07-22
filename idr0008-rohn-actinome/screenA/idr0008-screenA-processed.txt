@@ -1,566 +1,566 @@
-siRNA Identifier	Gene Identifier	Gene Symbol	siRNA Hit	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9	Phenotype 10	Phenotype 11	Phenotype 12	Phenotype 13	Phenotype 14	Phenotype 15	Phenotype 16	Phenotype 17	Phenotype 18	Phenotype 19	Phenotype 20	Phenotype 21	Phenotype 22	Phenotype 23	Phenotype 24	Phenotype 25	Phenotype 26
-DRSC11330	FBgn0000212	brm	yes					cell shape processes or spiky or stretchy		increased number of actin stress fibres							increased peripheral actin				microtubule processes								
-DRSC20229	FBgn0000319	Chc	yes					cell shape processes or spiky or stretchy		increased number of actin stress fibres							increased peripheral actin			microtubules disorganised	microtubule processes							loss of cell monolayer	
-DRSC03438	FBgn0001961	Sop2	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC08714	FBgn0002183	dre4	yes					cell shape processes or spiky or stretchy					decreased level of actin								microtubule processes						decreased cell number	loss of cell monolayer	
-DRSC20370	FBgn0003345	sd	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC11898	FBgn0003415	skd	yes					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
-DRSC03347	FBgn0004838	Hrb27C	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC20297	FBgn0005411	U2af50	yes					cell shape processes or spiky or stretchy								decreased peripheral actin					microtubule processes			increased number of multinucleate cells					
-DRSC08688	FBgn0010333	Rac1	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC20228	FBgn0010341	Cdc42	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC19332	FBgn0011742	Arp14D	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC09669	FBgn0011744	Arp66B	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC11865	FBgn0011771	Hem	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC11262	FBgn0014011	Rac2	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC04715	FBgn0016984	sktl	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC03528	FBgn0020497	emb	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC14099	FBgn0020510	Abi	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC11114	FBgn0023395	Chd3	yes					cell shape processes or spiky or stretchy						increased level of actin							microtubule processes								
-DRSC17056	FBgn0023423	slmb	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC07674	FBgn0024196	robl	yes					cell shape processes or spiky or stretchy	disorganised peripheral actin												microtubule processes								
-DRSC03611	FBgn0026170	smt3	yes					cell shape processes or spiky or stretchy					decreased level of actin								microtubule processes			increased number of multinucleate cells			decreased cell number	loss of cell monolayer	
-DRSC17898	FBgn0026879	CG13364	yes					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
-DRSC18836	FBgn0028982	Spt6	yes					cell shape processes or spiky or stretchy		increased number of actin stress fibres			decreased level of actin								microtubule processes							loss of cell monolayer	
-DRSC18123	FBgn0030205	CG17255	yes					cell shape processes or spiky or stretchy						increased level of actin							microtubule processes								
-DRSC00331	FBgn0031249	CG11911	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC00730	FBgn0031437	p16-ARC	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC03578	FBgn0031866	neuroligin	yes					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
-DRSC03192	FBgn0032512	CG9305	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes								
-DRSC06159	FBgn0033926	Arc1	yes					cell shape processes or spiky or stretchy												microtubules disorganised	microtubule processes								
-DRSC10291	FBgn0036454	CG17839	yes					cell shape processes or spiky or stretchy	disorganised peripheral actin												microtubule processes								
-DRSC09878	FBgn0036467	CG12310	yes					cell shape processes or spiky or stretchy				asymmetric lamellae									microtubule processes								
-DRSC15679	FBgn0038320	Sra-1	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC15337	FBgn0038350	CG18516	yes					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
-DRSC14729	FBgn0039626	Slu7	yes					cell shape processes or spiky or stretchy					decreased level of actin								microtubule processes			increased number of multinucleate cells			decreased cell number	loss of cell monolayer	
-DRSC16554	FBgn0039754	CG9747	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC16554	FBgn0039754	CG9747	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC15101	FBgn0039832	CG15563	yes					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
-DRSC03426	FBgn0041781	SCAR	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC10027	FBgn0052138	CG32138	yes	decreased cell size				cell shape processes or spiky or stretchy		increased number of actin stress fibres						decreased peripheral actin			microtubule clumps										
-DRSC17731	FBgn0086899	tlk	yes					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC17723	FBgn0000042	Act5C	yes	decreased cell size			cell shape round or non-adherent						decreased level of actin								microtubule processes			increased number of multinucleate cells				loss of cell monolayer	
-DRSC04835	FBgn0000043	Act42A	yes	decreased cell size			cell shape round or non-adherent						decreased level of actin								microtubule processes			increased number of multinucleate cells				loss of cell monolayer	
-DRSC14104	FBgn0000046	Act87E	yes	decreased cell size			cell shape round or non-adherent						decreased level of actin								microtubule processes			increased number of multinucleate cells				loss of cell monolayer	
-DRSC11878	FBgn0000100	RpLP0	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11946	FBgn0000258	CkIIalpha	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03507	FBgn0000308	chic	yes	decreased cell size			cell shape round or non-adherent						decreased level of actin					increased nuclear actin			microtubule processes							loss of cell monolayer	
-DRSC18184	FBgn0000377	crn	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC18185	FBgn0000377	crn	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18755	FBgn0000377	crn	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC18756	FBgn0000382	csw	yes	decreased cell size																									
-DRSC09132	FBgn0000404	CycA	yes		increased cell size																			increased number of multinucleate cells					
-DRSC11123	FBgn0000404	CycA	yes		increased cell size																			increased number of multinucleate cells					
-DRSC08583	FBgn0000541	E(bx)	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC05281	FBgn0000581	E(Pc)	yes	decreased cell size																				increased number of multinucleate cells					
-DRSC17308	FBgn0000635	Fas2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03328	FBgn0000986	Fs(2)Ket	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07088	FBgn0000996	dup	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03534	FBgn0001086	fzy	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16679	FBgn0001098	Gdh	yes										decreased level of actin																
-DRSC07079	FBgn0001187	Hex-C	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16704	FBgn0001205	Hmgcr	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16711	FBgn0001219	Hsc70-4	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC08664	FBgn0001233	Hsp83	yes			cell shape variable										decreased peripheral actin				microtubules disorganised	microtubule processes			increased number of multinucleate cells			decreased cell number	loss of cell monolayer	
-DRSC20341	FBgn0001250	if	yes	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
-DRSC18787	FBgn0001337	Exp6	yes															increased nuclear actin											
-DRSC20346	FBgn0001491	l(1)10Bb	yes						disorganised peripheral actin		increased number of actin puncta or dots						increased peripheral actin												
-DRSC03526	FBgn0001942	eIF-4a	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC03439	FBgn0001965	Sos	yes	decreased cell size																									
-DRSC03560	FBgn0001986	l(2)35Df	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03515	FBgn0001994	crp	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11256	FBgn0002284	Pros26	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16971	FBgn0002431	hyd	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03359	FBgn0002525	Lam	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18708	FBgn0002579	RpL36	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04649	FBgn0002607	RpL19	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16838	FBgn0002622	RpS3	yes			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
-DRSC16835	FBgn0002626	RpL32	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16835	FBgn0002626	RpL32	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16732	FBgn0002645	Map205	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04624	FBgn0002787	Mov34	yes																							no cells			
-DRSC06800	FBgn0002891	mus205	yes											increased level of actin															multiple layers of cells
-DRSC11381	FBgn0003041	pbl	yes		increased cell size																			increased number of multinucleate cells					
-DRSC03591	FBgn0003087	pim	yes			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
-DRSC07665	FBgn0003114	plu	yes																			decreased level of microtubules							
-DRSC07513	FBgn0003140	PpY-55A	yes																			decreased level of microtubules							
-DRSC16814	FBgn0003205	Ras85D	yes	decreased cell size																									
-DRSC03599	FBgn0003209	raw	yes											increased level of actin						microtubules disorganised									multiple layers of cells
-DRSC07833	FBgn0003256	rl	yes	decreased cell size																									
-DRSC07539	FBgn0003274	RpLP2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12366	FBgn0003275	RpII18	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16831	FBgn0003276	RpII140	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC19770	FBgn0003321	sbr	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20368	FBgn0003321	sbr	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07677	FBgn0003326	sca	yes																			decreased level of microtubules							
-DRSC20373	FBgn0003392	shi	yes			cell shape variable										decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC18835	FBgn0003449	snf	yes			cell shape variable				increased number of actin stress fibres						decreased peripheral actin		increased nuclear actin										loss of cell monolayer	
-DRSC13081	FBgn0003600	Su(var)3-9	yes			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number		
-DRSC20388	FBgn0003654	sw	yes																	microtubules disorganised	microtubule processes								
-DRSC07706	FBgn0003701	thr	yes			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
-DRSC17089	FBgn0003862	trx	yes						disorganised peripheral actin																				
-DRSC12389	FBgn0003882	tub	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12622	FBgn0003884	alphaTub84B	yes																			decreased level of microtubules			increased DNA area		decreased cell number		
-DRSC12623	FBgn0003885	alphaTub84D	yes																			decreased level of microtubules			increased DNA area		decreased cell number		
-DRSC16899	FBgn0003886	alphaTub85E	yes																			decreased level of microtubules			increased DNA area		decreased cell number		
-DRSC07583	FBgn0003887	betaTub56D	yes																			decreased level of microtubules			increased DNA area		decreased cell number		
-DRSC16910	FBgn0003889	betaTub85D	yes																			decreased level of microtubules			increased DNA area		decreased cell number		
-DRSC15666	FBgn0003890	betaTub97EF	yes																			decreased level of microtubules			increased DNA area		decreased cell number		
-DRSC15667	FBgn0003890	betaTub97EF	yes																			decreased level of microtubules			increased DNA area		decreased cell number		
-DRSC00782	FBgn0003941	RpL40	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03421	FBgn0003942	RpS27A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03504	FBgn0004106	cdc2	yes		increased cell size																			increased number of multinucleate cells					
-DRSC16921	FBgn0004107	cdc2c	yes			cell shape variable										decreased peripheral actin				microtubules disorganised	microtubule processes							loss of cell monolayer	
-DRSC20382	FBgn0004169	up	yes										decreased level of actin																
-DRSC03574	FBgn0004177	mts	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20166	FBgn0004391	shtd	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18710	FBgn0004403	RpS14a	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18711	FBgn0004403	RpS14a	yes																										
-DRSC03420	FBgn0004413	RpS26	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00752	FBgn0004507	GlyP	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC08686	FBgn0004636	R	yes	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
-DRSC07606	FBgn0004638	drk	yes	decreased cell size																									
-DRSC18799	FBgn0004657	mys	yes	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
-DRSC18673	FBgn0004828	His3.3B	yes			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
-DRSC16832	FBgn0004855	RpII15	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC17743	FBgn0004856	Bx42	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03614	FBgn0004867	sop	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC03454	FBgn0004915	TfIIB	yes	decreased cell size									decreased level of actin																
-DRSC11325	FBgn0005386	ash1	yes						disorganised peripheral actin																				multiple layers of cells
-DRSC03417	FBgn0005593	RpL7	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07555	FBgn0005613	Sox15	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11383	FBgn0005626	ple	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04725	FBgn0005634	zip	yes						disorganised peripheral actin															increased number of multinucleate cells					
-DRSC07501	FBgn0005648	Pabp2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07653	FBgn0005655	mus209	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03437	FBgn0010083	SmB	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC16830	FBgn0010173	RpA-70	yes								increased number of actin puncta or dots					decreased peripheral actin													
-DRSC03419	FBgn0010265	RpS13	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18462	FBgn0010269	Dsor1	yes	decreased cell size																									
-DRSC04658	FBgn0010278	Ssrp	yes										decreased level of actin																
-DRSC11297	FBgn0010280	Taf4	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15928	FBgn0010328	woc	yes			cell shape variable										decreased peripheral actin												loss of cell monolayer	
-DRSC08656	FBgn0010349	Dhc64C	yes			cell shape variable														microtubules disorganised	microtubule processes								
-DRSC12607	FBgn0010355	Taf1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03295	FBgn0010382	CycE	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03296	FBgn0010382	CycE	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11273	FBgn0010408	RpS9	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07538	FBgn0010409	RpL18A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00781	FBgn0010410	RpL27A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07540	FBgn0010411	RpS18	yes	decreased cell size															microtubule clumps			decreased level of microtubules							
-DRSC11299	FBgn0010417	Taf6	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC05723	FBgn0010575	sbb	yes																							no cells			
-DRSC07159	FBgn0010590	Prosbeta1	yes																							no cells			
-DRSC07357	FBgn0010621	Cct5	yes	decreased cell size															microtubule clumps										
-DRSC16940	FBgn0011217	eff	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC01011	FBgn0011219	Bsg	yes											increased level of actin						microtubules disorganised									multiple layers of cells
-DRSC03416	FBgn0011272	RpL13	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00809	FBgn0011570	cpb	yes											increased level of actin															multiple layers of cells
-DRSC07446	FBgn0011604	Iswi	yes	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
-DRSC08730	FBgn0011692	pav	yes		increased cell size																			increased number of multinucleate cells					
-DRSC03413	FBgn0011703	RnrL	yes		increased cell size																			increased number of multinucleate cells					
-DRSC07533	FBgn0011704	RnrS	yes		increased cell size																			increased number of multinucleate cells					
-DRSC12369	FBgn0011715	Snr1	yes						disorganised peripheral actin											microtubules disorganised									
-DRSC03456	FBgn0011722	Tig	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC04718	FBgn0011726	tsr	yes														increased peripheral actin							increased number of multinucleate cells					
-DRSC14118	FBgn0011745	Arp87C	yes										decreased level of actin							microtubules disorganised									
-DRSC07402	FBgn0011763	Dp	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16655	FBgn0011766	E2f	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16032	FBgn0011785	BRWD3	yes	decreased cell size			cell shape round or non-adherent									decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC11298	FBgn0011836	Taf2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11112	FBgn0012058	Cdc27	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07537	FBgn0013325	RpL11	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04697	FBgn0013548	l(2)dtl	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11222	FBgn0013591	Mi-2	yes											increased level of actin															
-DRSC03482	FBgn0013746	alien	yes			cell shape variable										decreased peripheral actin				microtubules disorganised	microtubule processes							loss of cell monolayer	
-DRSC17195	FBgn0013749	Arf102F	yes	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16703	FBgn0013981	His4r	yes																							no cells			
-DRSC07530	FBgn0014020	Rho1	yes		increased cell size																			increased number of multinucleate cells					
-DRSC16827	FBgn0014023	Rlc1	yes										decreased level of actin																
-DRSC18709	FBgn0014026	RpL7A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11345	FBgn0014163	fax	yes									asymmetric lamellae	decreased level of actin																
-DRSC03342	FBgn0014189	Hel25E	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12383	FBgn0014366	noi	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC03343	FBgn0014857	His3.3A	yes			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
-DRSC11342	FBgn0015218	eIF-4E	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC16799	FBgn0015282	Pros26.4	yes																							no cells			
-DRSC11876	FBgn0015283	Pros54	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03546	FBgn0015393	hoip	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC07645	FBgn0015509	lin19	yes						disorganised peripheral actin											microtubules disorganised									multiple layers of cells
-DRSC00833	FBgn0015521	oho23B	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC16596	FBgn0015610	Caf1	yes											increased level of actin															multiple layers of cells
-DRSC20227	FBgn0015615	Cap	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18801	FBgn0015624	nej	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07459	FBgn0015754	Lis-1	yes			cell shape variable														microtubules disorganised	microtubule processes								
-DRSC03418	FBgn0015756	RpL9	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC08696	FBgn0015805	Rpd3	yes		increased cell size																			increased number of multinucleate cells					
-DRSC18720	FBgn0015818	Spx	yes																							no cells			
-DRSC03464	FBgn0015834	Trip1	yes			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
-DRSC14093	FBgn0016120	ATPsyn-d	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07358	FBgn0016131	Cdk4	yes			cell shape variable									increased cytoplasmic actin	decreased peripheral actin				microtubules disorganised	microtubule processes							loss of cell monolayer	
-DRSC11874	FBgn0016696	Pitslre	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC07514	FBgn0016697	Prosalpha5	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16932	FBgn0016792	dmt	yes			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
-DRSC10087	FBgn0016797	fz2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00662	FBgn0016926	Pino	yes			cell shape variable						asymmetric lamellae				decreased peripheral actin				microtubules disorganised									
-DRSC00796	FBgn0017457	U2af38	yes			cell shape variable			disorganised peripheral actin											microtubules disorganised				increased number of multinucleate cells					
-DRSC17168	FBgn0017545	RpS3A	yes			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
-DRSC03407	FBgn0017551	Rca1	yes		increased cell size																			increased number of multinucleate cells					
-DRSC16800	FBgn0017557	Pros28.1A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04476	FBgn0019886	CG4589	yes			cell shape variable							decreased level of actin							microtubules disorganised									
-DRSC16836	FBgn0019936	RpS20	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04601	FBgn0019949	Cdk9	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16742	FBgn0019960	CG6455	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20364	FBgn0020255	ran	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16820	FBgn0020379	Rfx	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03424	FBgn0020616	SA	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16834	FBgn0020910	RpL3	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00715	FBgn0021967	Pdsw	yes			cell shape variable										decreased peripheral actin			microtubule clumps		microtubule processes							loss of cell monolayer	
-DRSC02165	FBgn0022069	Nnp-1	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC06756	FBgn0022085	ssp4	yes			cell shape variable														microtubules disorganised	microtubule processes								
-DRSC03287	FBgn0022213	Cas	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC11134	FBgn0022699	D19B	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20363	FBgn0022724	Taf8	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07552	FBgn0022764	Sin3A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11133	FBgn0022935	D19A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18450	FBgn0022942	Cbp80	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16601	FBgn0022943	Cbp20	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07567	FBgn0023143	Uba1	yes			cell shape variable							decreased level of actin											increased number of multinucleate cells				loss of cell monolayer	
-DRSC07553	FBgn0023167	SmD3	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC11257	FBgn0023174	Prosbeta2	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07516	FBgn0023175	Prosalpha7	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20559	FBgn0023177	Pp4-19C	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC17218	FBgn0023213	eIF4G	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC03548	FBgn0024227	ial	yes		increased cell size																			increased number of multinucleate cells					
-DRSC03442	FBgn0024285	Srp54	yes							increased number of actin stress fibres						decreased peripheral actin													
-DRSC11235	FBgn0024542	Neos	yes																	microtubules disorganised									
-DRSC11947	FBgn0024733	Qm	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15445	FBgn0024909	Taf7	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11309	FBgn0024921	Trn	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC08532	FBgn0024939	RpL8	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC08695	FBgn0024939	RpL8	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18463	FBgn0024998	CG2685	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC06716	FBgn0025286	RpL31	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18513	FBgn0025393	CG14795	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11199	FBgn0025582	Int6	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC18483	FBgn0025638	Roc1a	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03492	FBgn0025724	beta`Cop	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC08706	FBgn0025725	alphaCop	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16920	FBgn0025781	cdc16	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18659	FBgn0026085	dgt4	yes																							no cells			
-DRSC16937	FBgn0026250	eIF-1A	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC07568	FBgn0026316	UbcD10	yes																			decreased level of microtubules							
-DRSC08694	FBgn0026372	RpL23A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03415	FBgn0026373	RpII33	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16801	FBgn0026380	Prosbeta3	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07815	FBgn0026401	Nipped-B	yes		increased cell size																			increased number of multinucleate cells			decreased cell number	loss of cell monolayer	
-DRSC05912	FBgn0026611	AGO1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07350	FBgn0027054	CSN4	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11108	FBgn0027057	CSN1b	yes			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
-DRSC16976	FBgn0027338	Kap-alpha3	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03495	FBgn0027348	bgm	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC14151	FBgn0027518	CG7609	yes									asymmetric lamellae																	
-DRSC14145	FBgn0027889	ball	yes																			decreased level of microtubules							
-DRSC04167	FBgn0028371	jbug	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC05666	FBgn0028382	cyp33	yes																										
-DRSC00806	FBgn0028388	capt	yes														increased peripheral actin												
-DRSC11880	FBgn0028402	Sin	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04630	FBgn0028411	Nxt1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11868	FBgn0028427	Ilk	yes	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
-DRSC17741	FBgn0028474	CG4119	yes			cell shape variable									increased cytoplasmic actin	decreased peripheral actin					microtubule processes							loss of cell monolayer	
-DRSC01893	FBgn0028538	sec71	yes																					increased number of multinucleate cells					
-DRSC16842	FBgn0028684	Tbp-1	yes																							no cells			
-DRSC18713	FBgn0028685	Rpt4	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07542	FBgn0028687	Rpt1	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16841	FBgn0028688	Rpn7	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07541	FBgn0028689	Rpn6	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12367	FBgn0028690	Rpn5	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16840	FBgn0028691	Rpn9	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16839	FBgn0028692	Rpn2	yes																							no cells			
-DRSC11275	FBgn0028693	Rpn12	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03422	FBgn0028694	Rpn11	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11274	FBgn0028695	Rpn1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20963	FBgn0028697	RpL15	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC06807	FBgn0028836	CSN7	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC06808	FBgn0028836	CSN7	yes			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
-DRSC01952	FBgn0028868	CG4701	yes	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC01934	FBgn0028887	CG3491	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16955	FBgn0028968	gammaCop	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18760	FBgn0028969	deltaCOP	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00804	FBgn0028970	betaggt-II	yes								increased number of actin puncta or dots	asymmetric lamellae				decreased peripheral actin				microtubules disorganised								loss of cell monolayer	
-DRSC11295	FBgn0029117	Surf1	yes										decreased level of actin																
-DRSC07517	FBgn0029134	Prosbeta5	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16659	FBgn0029176	Ef1gamma	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18427	FBgn0029629	CG8636	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18116	FBgn0029941	CG1677	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18159	FBgn0029971	CG18624	yes	decreased cell size									decreased level of actin																
-DRSC18111	FBgn0030030	CG1636	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18420	FBgn0030091	CG7065	yes											increased level of actin															multiple layers of cells
-DRSC18419	FBgn0030093	dalao	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18128	FBgn0030121	CG17446	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC19398	FBgn0030241	feo	yes		increased cell size																			increased number of multinucleate cells					
-DRSC19786	FBgn0030365	Tango4	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC19863	FBgn0030384	CG2577	yes			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number		
-DRSC19385	FBgn0030400	CG11138	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC19877	FBgn0030425	CG3775	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC19713	FBgn0030474	CG15747	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC19734	FBgn0030552	mRpL38	yes	decreased cell size									decreased level of actin											increased number of multinucleate cells					
-DRSC19789	FBgn0030556	mRNA-capping-enzyme	yes										decreased level of actin																
-DRSC20149	FBgn0030616	RpL37a	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20165	FBgn0030719	eIF5	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC20207	FBgn0030765	SmG	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20132	FBgn0030812	CG8949	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20094	FBgn0030858	CG8211	yes											increased level of actin						microtubules disorganised									multiple layers of cells
-DRSC19573	FBgn0031030	Tao-1	yes																	microtubules disorganised	microtubule processes								multiple layers of cells
-DRSC20513	FBgn0031100	CG1504	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20576	FBgn0031114	cactin	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00605	FBgn0031229	CG3436	yes	decreased cell size															microtubule clumps				increased level of microtubules						
-DRSC00621	FBgn0031245	CG3625	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00535	FBgn0031266	CG2807	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC00692	FBgn0031399	mio	yes			cell shape variable						asymmetric lamellae				decreased peripheral actin				microtubules disorganised									
-DRSC00693	FBgn0031401	CG7082	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00612	FBgn0031492	CG3542	yes			cell shape variable												increased nuclear actin		microtubules disorganised									
-DRSC00619	FBgn0031493	CG3605	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC00582	FBgn0031540	CG3238	yes								increased number of actin puncta or dots									microtubules disorganised									
-DRSC00430	FBgn0031549	Spindly	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00563	FBgn0031601	Dim1	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC00453	FBgn0031606	CG15439	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00465	FBgn0031627	CG15630	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC02363	FBgn0031668	CG31917	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03040	FBgn0031713	CG7277	yes									asymmetric lamellae				decreased peripheral actin													
-DRSC03037	FBgn0031730	CG7236	yes		increased cell size																			increased number of multinucleate cells					
-DRSC03261	FBgn0031822	CG9548	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC02680	FBgn0031962	CG18591	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03055	FBgn0031980	RpL36A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03080	FBgn0032006	Pvr	yes	decreased cell size																									
-DRSC02854	FBgn0032215	CG5385	yes										decreased level of actin																
-DRSC02236	FBgn0032230	CG13139	yes									asymmetric lamellae				decreased peripheral actin													
-DRSC02979	FBgn0032388	CG6686	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03193	FBgn0032511	CG9306	yes	decreased cell size																									
-DRSC03191	FBgn0032514	CG9302	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03188	FBgn0032516	CG9293	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03185	FBgn0032518	RpL24	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC02603	FBgn0032596	CG17331	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC02019	FBgn0032680	Ntf-2r	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC02092	FBgn0032725	Nedd8	yes			cell shape variable								increased level of actin						microtubules disorganised									
-DRSC02014	FBgn0032800	CG10137	yes													decreased peripheral actin													
-DRSC02708	FBgn0032863	cdc23	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC02711	FBgn0032873	CG2614	yes			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
-DRSC03201	FBgn0032884	Pomp	yes	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03704	FBgn0032987	RpL21	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04893	FBgn0033062	CG7843	yes								increased number of actin puncta or dots					decreased peripheral actin												loss of cell monolayer	
-DRSC04984	FBgn0033081	geminin	yes		increased cell size																			increased number of multinucleate cells					
-DRSC06755	FBgn0033155	CG1845	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC06405	FBgn0033196	CG1358	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC06445	FBgn0033210	U2A	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC07249	FBgn0033246	CG11198	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07248	FBgn0033247	Nup44A	yes	decreased cell size																									
-DRSC07243	FBgn0033260	cul-4	yes			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
-DRSC07130	FBgn0033342	CG8258	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC07109	FBgn0033359	CG8213	yes	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
-DRSC06811	FBgn0033400	CG2063	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07029	FBgn0033570	CG7712	yes	decreased cell size																				increased number of multinucleate cells					
-DRSC06100	FBgn0033571	Rpb5	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07293	FBgn0033688	Prp8	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07262	FBgn0033764	CG8776	yes	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC06967	FBgn0033859	CG6197	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07142	FBgn0033902	Tango7	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC07169	FBgn0033912	RpS23	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC05979	FBgn0033970	CG10205	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC07077	FBgn0033998	row	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07151	FBgn0034138	RpS15	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC06987	FBgn0034165	CG6435	yes																			decreased level of microtubules							
-DRSC06900	FBgn0034237	eIF3-S9	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC05669	FBgn0034253	CG10936	yes																							no cells			
-DRSC06905	FBgn0034258	eIF3-S8	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC06426	FBgn0034503	MED8	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC06044	FBgn0034537	DMAP1	yes	decreased cell size																				increased number of multinucleate cells					
-DRSC04544	FBgn0034576	CG9350	yes			cell shape variable							decreased level of actin							microtubules disorganised				increased number of multinucleate cells					
-DRSC04080	FBgn0034577	cpa	yes											increased level of actin															multiple layers of cells
-DRSC03850	FBgn0034603	Glycogenin	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04061	FBgn0034643	CG10321	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04469	FBgn0034660	lox2	yes																							no cells			
-DRSC04191	FBgn0034853	CG13550	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC04422	FBgn0034948	CG3825	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC04344	FBgn0034968	RpL12	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04096	FBgn0034975	enok	yes	decreased cell size		cell shape variable			disorganised peripheral actin				decreased level of actin							microtubules disorganised	microtubule processes							loss of cell monolayer	
-DRSC04360	FBgn0034987	CG3363	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC04010	FBgn0034990	CG11406	yes																							no cells			
-DRSC04225	FBgn0035011	CG13589	yes	decreased cell size									decreased level of actin																
-DRSC08577	FBgn0035136	CG6905	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC08687	FBgn0035136	CG6905	yes																										
-DRSC08370	FBgn0035162	CG13900	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC08154	FBgn0035294	Mfap1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC08293	FBgn0035422	RpL28	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC08194	FBgn0035437	CG11526	yes									asymmetric lamellae				decreased peripheral actin													
-DRSC08284	FBgn0035513	Cpr64Ad	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC08181	FBgn0035552	CG11350	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC09772	FBgn0035586	CG10671	yes	decreased cell size									decreased level of actin								microtubule processes								
-DRSC09746	FBgn0035627	Sse	yes			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
-DRSC09741	FBgn0035638	Tektin-C	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10674	FBgn0035675	CG6610	yes										decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11016	FBgn0035753	RpL18	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11014	FBgn0035754	MED4	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10828	FBgn0035853	CG7375	yes			cell shape variable								increased level of actin						microtubules disorganised	microtubule processes								
-DRSC10696	FBgn0035900	ZC3H3	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10374	FBgn0035987	CG3689	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC09801	FBgn0036314	CG10754	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC10735	FBgn0036487	CG6876	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10559	FBgn0036548	CG5931	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10474	FBgn0036581	MED10	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10226	FBgn0036712	CG16793	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10845	FBgn0036762	CG7430	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10726	FBgn0036825	RpL26	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11064	FBgn0036886	CG9300	yes	decreased cell size																									
-DRSC10912	FBgn0036915	CG7757	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11778	FBgn0036973	CG5585	yes							increased number of actin stress fibres						decreased peripheral actin													
-DRSC11779	FBgn0036974	eRF1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11791	FBgn0037001	CG6020	yes									asymmetric lamellae												increased number of multinucleate cells					
-DRSC11663	FBgn0037025	Spc105R	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11836	FBgn0037093	CG7597	yes															increased nuclear actin											
-DRSC11642	FBgn0037121	Rpb8	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11593	FBgn0037207	Mes2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11632	FBgn0037207	Mes2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11632	FBgn0037207	Mes2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12339	FBgn0037249	eIF3-S10	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC12328	FBgn0037270	CG9769	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC12192	FBgn0037325	CG12147	yes		increased cell size																			increased number of multinucleate cells					
-DRSC12302	FBgn0037328	RpL35A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12265	FBgn0037351	RpL13A	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12205	FBgn0037359	MED27	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12536	FBgn0037434	snRNP2	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC12645	FBgn0037529	mRpS9	yes	decreased cell size									decreased level of actin											increased number of multinucleate cells					
-DRSC15456	FBgn0037529	mRpS9	yes	decreased cell size									decreased level of actin											increased number of multinucleate cells					
-DRSC16535	FBgn0037550	CG9667	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16572	FBgn0037637	CG9836	yes			cell shape variable							decreased level of actin																
-DRSC14462	FBgn0037657	hyx	yes															increased nuclear actin											
-DRSC16501	FBgn0037742	Rpt3R	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15890	FBgn0038049	CG5844	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15482	FBgn0038234	mRpL11	yes	decreased cell size									decreased level of actin											increased number of multinucleate cells					
-DRSC16223	FBgn0038269	Rrp6	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15508	FBgn0038271	CG3731	yes			cell shape variable							decreased level of actin							microtubules disorganised									
-DRSC15518	FBgn0038281	RpL10Aa	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15166	FBgn0038464	CG16941	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC15529	FBgn0038473	ns1	yes	decreased cell size									decreased level of actin																
-DRSC16889	FBgn0038578	MED17	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15804	FBgn0038667	snRNP-U1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15627	FBgn0038742	Arc42	yes																							no cells			
-DRSC15119	FBgn0038834	RpS30	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16186	FBgn0038852	CG7056	yes			cell shape variable							decreased level of actin																
-DRSC15948	FBgn0038927	CG6015	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC14699	FBgn0038964	Nop56	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC14688	FBgn0039041	CG13838	yes	decreased cell size									decreased level of actin						microtubule clumps			decreased level of microtubules							
-DRSC14209	FBgn0039120	Nup98	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC14210	FBgn0039120	Nup98	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC14625	FBgn0039205	CG13623	yes								increased number of actin puncta or dots	asymmetric lamellae																	
-DRSC14630	FBgn0039218	Rpb10	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC13697	FBgn0039280	Mocs2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC14244	FBgn0039300	RpS27	yes			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
-DRSC15638	FBgn0039359	RpL27	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC14887	FBgn0039404	CG14543	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15662	FBgn0039566	CG4849	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC16318	FBgn0039713	RpS8	yes			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
-DRSC16556	FBgn0039747	AdoR	yes										decreased level of actin																
-DRSC15394	FBgn0039757	RpS7	yes			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
-DRSC15035	FBgn0039828	CG1542	yes										decreased level of actin																
-DRSC14479	FBgn0039835	mRpL32	yes	decreased cell size									decreased level of actin											increased number of multinucleate cells					
-DRSC14323	FBgn0039857	RpL6	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC17126	FBgn0039923	MED26	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC17148	FBgn0039923	MED26	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07818	FBgn0040007	RpL38	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16938	FBgn0040227	eIF-3p66	yes			cell shape variable							decreased level of actin						microtubule clumps										
-DRSC07556	FBgn0040273	Spt5	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16846	FBgn0040283	SMC1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16845	FBgn0040284	SF2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18175	FBgn0040339	MED22	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18561	FBgn0040394	CG16903	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18476	FBgn0040398	CG14629	yes										decreased level of actin																
-DRSC11412	FBgn0040512	zetaCOP	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC14460	FBgn0040534	CG11985	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC14691	FBgn0040588	CG13841	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC18137	FBgn0040900	CG17777	yes										decreased level of actin																
-DRSC18431	FBgn0040931	CG9034	yes	decreased cell size																				increased number of multinucleate cells					
-DRSC02282	FBgn0040954	CG13779	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC00708	FBgn0041111	lilli	yes			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
-DRSC08163	FBgn0041147	ida	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12148	FBgn0041191	Rheb	yes	decreased cell size																									
-DRSC11468	FBgn0041607	asparagine-synthetase	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16344	FBgn0042693	PP2A-B`	yes																							no cells			
-DRSC16018	FBgn0043884	mask	yes						disorganised peripheral actin																				
-DRSC11630	FBgn0044324	Chro	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15017	FBgn0044826	Pak3	yes									asymmetric lamellae																	
-DRSC06126	FBgn0050089	CG30089	yes																							no cells			
-DRSC05602	FBgn0050100	CG30100	yes																							no cells			
-DRSC05461	FBgn0050481	mRpL53	yes	decreased cell size									decreased level of actin											increased number of multinucleate cells					
-DRSC13805	FBgn0051077	CG31077	yes																microtubule clumps				increased level of microtubules						
-DRSC16524	FBgn0051150	CG31150	yes																			decreased level of microtubules							
-DRSC16068	FBgn0051155	Rpb7	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC13309	FBgn0051229	CG31229	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC15833	FBgn0051291	CG31291	yes	decreased cell size									decreased level of actin						microtubule clumps										
-DRSC15724	FBgn0051302	CG31302	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16059	FBgn0051390	MED7	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC14369	FBgn0051450	mRpS18A	yes	decreased cell size									decreased level of actin											increased number of multinucleate cells					
-DRSC12270	FBgn0051559	CG31559	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC17135	FBgn0051992	gw	yes	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC17105	FBgn0051997	CG31997	yes																							no cells			
-DRSC08816	FBgn0052398	CG32398	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC19716	FBgn0052635	CG32635	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC18081	FBgn0053080	CG33080	yes																							no cells			
-DRSC16224	FBgn0053547	Rim	yes																			decreased level of microtubules							
-DRSC04884	FBgn0053554	Nipped-A	yes		increased cell size																			increased number of multinucleate cells					
-DRSC13231	FBgn0054035	CG34035	yes																							no cells			
-DRSC19904	FBgn0061200	Nup153	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC19904	FBgn0061200	Nup153	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03801	FBgn0064225	RpL5	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07121	FBgn0083919	Zasp52	yes	decreased cell size																									
-DRSC06787	FBgn0085436	Not1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC06794	FBgn0085436	Not1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC06562	FBgn0085444	CG34415	yes		increased cell size																			increased number of multinucleate cells					
-DRSC16798	FBgn0086134	Pros25	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07575	FBgn0086356	tum	yes		increased cell size																			increased number of multinucleate cells					
-DRSC03256	FBgn0086357	Sec61alpha	yes	decreased cell size																									
-DRSC17794	FBgn0086558	Ubi-p5E	yes																							no cells			
-DRSC16668	FBgn0086687	desat1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC14371	FBgn0086697	Cenp-C	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10533	FBgn0086706	pix	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC02179	FBgn0086707	ncm	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC02087	FBgn0086710	RpL30	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03367	FBgn0086783	Mhc	yes										decreased level of actin																
-DRSC07120	FBgn0086895	pea	yes			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
-DRSC10847	FBgn0087035	AGO2	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC12506	FBgn0250732	gfzf	yes	decreased cell size																									
-DRSC12186	FBgn0250746	Prosbeta7	yes	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11285	FBgn0250791	Snap	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC03401	FBgn0250843	Pros35	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC19809	FBgn0259166	CG42271	yes																			decreased level of microtubules							
-DRSC05680	FBgn0259211	grh	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC17114	FBgn0259214	PMCA	yes											increased level of actin						microtubules disorganised									multiple layers of cells
-DRSC17154	FBgn0259214	PMCA	yes											increased level of actin						microtubules disorganised									multiple layers of cells
-DRSC10329	FBgn0259232	CG42330	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10066	FBgn0259679	CG42348	yes	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
-DRSC11270	FBgn0260441	RpS12	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC11300	FBgn0260442	rhea	yes	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
-DRSC11404	FBgn0260635	th	yes																							no cells			
-DRSC18120	FBgn0260658	CG42541	yes																							no cells			
-DRSC12653	FBgn0260723	CG42550	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC10088	FBgn0260857	Bet1	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC17970	FBgn0260858	Ykt6	yes			cell shape variable									increased cytoplasmic actin	decreased peripheral actin												loss of cell monolayer	
-DRSC15965	FBgn0260946	exo84	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC20839	FBgn0260987	vtd	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC07560	FBgn0261014	TER94	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC15611	FBgn0261053	Cad86C	yes																			decreased level of microtubules							
-DRSC11182	FBgn0261283	HLH106	yes			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
-DRSC16062	FBgn0261380	mRpL37	yes	decreased cell size									decreased level of actin											increased number of multinucleate cells					
-DRSC07679	FBgn0261385	scra	yes		increased cell size																			increased number of multinucleate cells					
-DRSC04644	FBgn0261394	Pros29	yes																							no cells			
-DRSC03318	FBgn0261396	Rpn3	yes																							no cells			
-DRSC03714	FBgn0025674	CycK	yes																										
-DRSC06036	FBgn0033160	CG11107	yes																										
-DRSC10145	FBgn0036143	CG14142	yes																										
-DRSC10624	FBgn0036733	U4-U6-60K	yes																										
-DRSC15014	FBgn0038447	CG14892	yes																										
-DRSC08169	FBgn0052264	CG32264	yes																										
-DRSC11744	FBgn0052432	CG32432	yes																										
-DRSC06218	FBgn0085392	CG34363	yes																										
-DRSC15877	FBgn0250820	CG5802	yes																										
-DRSC16553	FBgn0260935	ird1	yes																										
+siRNA Identifier	Gene Identifier	Gene Symbol	siRNA Hit	Has Phenotype	Phenotype Annotation Level	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9	Phenotype 10	Phenotype 11	Phenotype 12	Phenotype 13	Phenotype 14	Phenotype 15	Phenotype 16	Phenotype 17	Phenotype 18	Phenotype 19	Phenotype 20	Phenotype 21	Phenotype 22	Phenotype 23	Phenotype 24	Phenotype 25	Phenotype 26
+DRSC04096	FBgn0034975	enok	yes	yes	single replicate of reagent	decreased cell size		cell shape variable			disorganised peripheral actin				decreased level of actin							microtubules disorganised	microtubule processes							loss of cell monolayer	
+DRSC11256	FBgn0002284	Pros26	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11257	FBgn0023174	Prosbeta2	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07516	FBgn0023175	Prosalpha7	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16801	FBgn0026380	Prosbeta3	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18713	FBgn0028685	Rpt4	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07542	FBgn0028687	Rpt1	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC06100	FBgn0033571	Rpb5	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16501	FBgn0037742	Rpt3R	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07556	FBgn0040273	Spt5	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC02282	FBgn0040954	CG13779	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16798	FBgn0086134	Pros25	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12186	FBgn0250746	Prosbeta7	yes	yes	single replicate of reagent	decreased cell size		cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03507	FBgn0000308	chic	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent						decreased level of actin					increased nuclear actin			microtubule processes							loss of cell monolayer	
+DRSC17723	FBgn0000042	Act5C	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent						decreased level of actin								microtubule processes			increased number of multinucleate cells				loss of cell monolayer	
+DRSC04835	FBgn0000043	Act42A	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent						decreased level of actin								microtubule processes			increased number of multinucleate cells				loss of cell monolayer	
+DRSC14104	FBgn0000046	Act87E	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent						decreased level of actin								microtubule processes			increased number of multinucleate cells				loss of cell monolayer	
+DRSC17195	FBgn0013749	Arf102F	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC01952	FBgn0028868	CG4701	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03201	FBgn0032884	Pomp	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07262	FBgn0033764	CG8776	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC17135	FBgn0051992	gw	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent						decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16032	FBgn0011785	BRWD3	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent									decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC20341	FBgn0001250	if	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
+DRSC08686	FBgn0004636	R	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
+DRSC18799	FBgn0004657	mys	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
+DRSC07446	FBgn0011604	Iswi	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
+DRSC11868	FBgn0028427	Ilk	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
+DRSC07109	FBgn0033359	CG8213	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
+DRSC10066	FBgn0259679	CG42348	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
+DRSC11300	FBgn0260442	rhea	yes	yes	single replicate of reagent	decreased cell size			cell shape round or non-adherent																				decreased cell number	loss of cell monolayer	
+DRSC10027	FBgn0052138	CG32138	yes	yes	single replicate of reagent	decreased cell size				cell shape processes or spiky or stretchy		increased number of actin stress fibres						decreased peripheral actin			microtubule clumps										
+DRSC14688	FBgn0039041	CG13838	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps			decreased level of microtubules							
+DRSC03456	FBgn0011722	Tig	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC00833	FBgn0015521	oho23B	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC02165	FBgn0022069	Nnp-1	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC17218	FBgn0023213	eIF4G	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC11199	FBgn0025582	Int6	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC16937	FBgn0026250	eIF-1A	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC20165	FBgn0030719	eIF5	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC00465	FBgn0031627	CG15630	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC07130	FBgn0033342	CG8258	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC05979	FBgn0033970	CG10205	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC12328	FBgn0037270	CG9769	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC14691	FBgn0040588	CG13841	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC13309	FBgn0051229	CG31229	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC15833	FBgn0051291	CG31291	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin						microtubule clumps										
+DRSC09772	FBgn0035586	CG10671	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin								microtubule processes								
+DRSC19734	FBgn0030552	mRpL38	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin											increased number of multinucleate cells					
+DRSC12645	FBgn0037529	mRpS9	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin											increased number of multinucleate cells					
+DRSC15456	FBgn0037529	mRpS9	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin											increased number of multinucleate cells					
+DRSC15482	FBgn0038234	mRpL11	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin											increased number of multinucleate cells					
+DRSC14479	FBgn0039835	mRpL32	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin											increased number of multinucleate cells					
+DRSC05461	FBgn0050481	mRpL53	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin											increased number of multinucleate cells					
+DRSC14369	FBgn0051450	mRpS18A	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin											increased number of multinucleate cells					
+DRSC16062	FBgn0261380	mRpL37	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin											increased number of multinucleate cells					
+DRSC03454	FBgn0004915	TfIIB	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin																
+DRSC18159	FBgn0029971	CG18624	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin																
+DRSC04225	FBgn0035011	CG13589	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin																
+DRSC15529	FBgn0038473	ns1	yes	yes	single replicate of reagent	decreased cell size									decreased level of actin																
+DRSC07540	FBgn0010411	RpS18	yes	yes	single replicate of reagent	decreased cell size															microtubule clumps			decreased level of microtubules							
+DRSC00605	FBgn0031229	CG3436	yes	yes	single replicate of reagent	decreased cell size															microtubule clumps				increased level of microtubules						
+DRSC07357	FBgn0010621	Cct5	yes	yes	single replicate of reagent	decreased cell size															microtubule clumps										
+DRSC05281	FBgn0000581	E(Pc)	yes	yes	single replicate of reagent	decreased cell size																				increased number of multinucleate cells					
+DRSC07029	FBgn0033570	CG7712	yes	yes	single replicate of reagent	decreased cell size																				increased number of multinucleate cells					
+DRSC06044	FBgn0034537	DMAP1	yes	yes	single replicate of reagent	decreased cell size																				increased number of multinucleate cells					
+DRSC18431	FBgn0040931	CG9034	yes	yes	single replicate of reagent	decreased cell size																				increased number of multinucleate cells					
+DRSC18756	FBgn0000382	csw	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC03439	FBgn0001965	Sos	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC16814	FBgn0003205	Ras85D	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC07833	FBgn0003256	rl	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC07606	FBgn0004638	drk	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC18462	FBgn0010269	Dsor1	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC03080	FBgn0032006	Pvr	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC03193	FBgn0032511	CG9306	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC07248	FBgn0033247	Nup44A	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC11064	FBgn0036886	CG9300	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC12148	FBgn0041191	Rheb	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC07121	FBgn0083919	Zasp52	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC03256	FBgn0086357	Sec61alpha	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC12506	FBgn0250732	gfzf	yes	yes	single replicate of reagent	decreased cell size																									
+DRSC07815	FBgn0026401	Nipped-B	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells			decreased cell number	loss of cell monolayer	
+DRSC09132	FBgn0000404	CycA	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC11123	FBgn0000404	CycA	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC11381	FBgn0003041	pbl	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC03504	FBgn0004106	cdc2	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC08730	FBgn0011692	pav	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC03413	FBgn0011703	RnrL	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC07533	FBgn0011704	RnrS	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC07530	FBgn0014020	Rho1	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC08696	FBgn0015805	Rpd3	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC03407	FBgn0017551	Rca1	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC03548	FBgn0024227	ial	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC19398	FBgn0030241	feo	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC03037	FBgn0031730	CG7236	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC04984	FBgn0033081	geminin	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC12192	FBgn0037325	CG12147	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC04884	FBgn0053554	Nipped-A	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC06562	FBgn0085444	CG34415	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC07575	FBgn0086356	tum	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC07679	FBgn0261385	scra	yes	yes	single replicate of reagent		increased cell size																			increased number of multinucleate cells					
+DRSC00796	FBgn0017457	U2af38	yes	yes	single replicate of reagent			cell shape variable			disorganised peripheral actin											microtubules disorganised				increased number of multinucleate cells					
+DRSC18835	FBgn0003449	snf	yes	yes	single replicate of reagent			cell shape variable				increased number of actin stress fibres						decreased peripheral actin		increased nuclear actin										loss of cell monolayer	
+DRSC00662	FBgn0016926	Pino	yes	yes	single replicate of reagent			cell shape variable						asymmetric lamellae				decreased peripheral actin				microtubules disorganised									
+DRSC00692	FBgn0031399	mio	yes	yes	single replicate of reagent			cell shape variable						asymmetric lamellae				decreased peripheral actin				microtubules disorganised									
+DRSC18184	FBgn0000377	crn	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC18755	FBgn0000377	crn	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC03437	FBgn0010083	SmB	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC12383	FBgn0014366	noi	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC03546	FBgn0015393	hoip	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC11874	FBgn0016696	Pitslre	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC03287	FBgn0022213	Cas	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC07553	FBgn0023167	SmD3	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC18128	FBgn0030121	CG17446	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC00535	FBgn0031266	CG2807	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC00619	FBgn0031493	CG3605	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC00563	FBgn0031601	Dim1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC06445	FBgn0033210	U2A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC04191	FBgn0034853	CG13550	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC08577	FBgn0035136	CG6905	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC08370	FBgn0035162	CG13900	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC09801	FBgn0036314	CG10754	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC12536	FBgn0037434	snRNP2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC15166	FBgn0038464	CG16941	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC15948	FBgn0038927	CG6015	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC15662	FBgn0039566	CG4849	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC14460	FBgn0040534	CG11985	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC02179	FBgn0086707	ncm	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC07120	FBgn0086895	pea	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin					increased nuclear actin									decreased cell number	loss of cell monolayer	
+DRSC16838	FBgn0002622	RpS3	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
+DRSC03464	FBgn0015834	Trip1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
+DRSC17168	FBgn0017545	RpS3A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
+DRSC14244	FBgn0039300	RpS27	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
+DRSC16318	FBgn0039713	RpS8	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
+DRSC15394	FBgn0039757	RpS7	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
+DRSC00708	FBgn0041111	lilli	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number	loss of cell monolayer	
+DRSC13081	FBgn0003600	Su(var)3-9	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps								decreased cell number		
+DRSC03526	FBgn0001942	eIF-4a	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC03614	FBgn0004867	sop	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC11342	FBgn0015218	eIF-4E	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC06405	FBgn0033196	CG1358	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC07142	FBgn0033902	Tango7	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC06900	FBgn0034237	eIF3-S9	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC06905	FBgn0034258	eIF3-S8	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC04422	FBgn0034948	CG3825	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC12339	FBgn0037249	eIF3-S10	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC16938	FBgn0040227	eIF-3p66	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin						microtubule clumps										
+DRSC04544	FBgn0034576	CG9350	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin							microtubules disorganised				increased number of multinucleate cells					
+DRSC11108	FBgn0027057	CSN1b	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
+DRSC06808	FBgn0028836	CSN7	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
+DRSC02711	FBgn0032873	CG2614	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
+DRSC07243	FBgn0033260	cul-4	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
+DRSC09746	FBgn0035627	Sse	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number	loss of cell monolayer	
+DRSC19863	FBgn0030384	CG2577	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin							microtubules disorganised							decreased cell number		
+DRSC04476	FBgn0019886	CG4589	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin							microtubules disorganised									
+DRSC15508	FBgn0038271	CG3731	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin							microtubules disorganised									
+DRSC07567	FBgn0023143	Uba1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin											increased number of multinucleate cells				loss of cell monolayer	
+DRSC03591	FBgn0003087	pim	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
+DRSC07706	FBgn0003701	thr	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
+DRSC18673	FBgn0004828	His3.3B	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
+DRSC03343	FBgn0014857	His3.3A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
+DRSC16932	FBgn0016792	dmt	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin												increased DNA area		decreased cell number	loss of cell monolayer	
+DRSC11878	FBgn0000100	RpLP0	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11946	FBgn0000258	CkIIalpha	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18185	FBgn0000377	crn	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08583	FBgn0000541	E(bx)	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC17308	FBgn0000635	Fas2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03328	FBgn0000986	Fs(2)Ket	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07088	FBgn0000996	dup	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03534	FBgn0001086	fzy	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07079	FBgn0001187	Hex-C	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16704	FBgn0001205	Hmgcr	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16711	FBgn0001219	Hsc70-4	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03560	FBgn0001986	l(2)35Df	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03515	FBgn0001994	crp	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16971	FBgn0002431	hyd	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03359	FBgn0002525	Lam	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18708	FBgn0002579	RpL36	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC04649	FBgn0002607	RpL19	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16835	FBgn0002626	RpL32	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16835	FBgn0002626	RpL32	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16732	FBgn0002645	Map205	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07539	FBgn0003274	RpLP2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12366	FBgn0003275	RpII18	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16831	FBgn0003276	RpII140	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC19770	FBgn0003321	sbr	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20368	FBgn0003321	sbr	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12389	FBgn0003882	tub	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC00782	FBgn0003941	RpL40	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03421	FBgn0003942	RpS27A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03574	FBgn0004177	mts	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20166	FBgn0004391	shtd	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18710	FBgn0004403	RpS14a	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03420	FBgn0004413	RpS26	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC00752	FBgn0004507	GlyP	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16832	FBgn0004855	RpII15	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC17743	FBgn0004856	Bx42	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03417	FBgn0005593	RpL7	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07555	FBgn0005613	Sox15	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11383	FBgn0005626	ple	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07501	FBgn0005648	Pabp2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07653	FBgn0005655	mus209	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03419	FBgn0010265	RpS13	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11297	FBgn0010280	Taf4	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12607	FBgn0010355	Taf1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03295	FBgn0010382	CycE	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03296	FBgn0010382	CycE	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11273	FBgn0010408	RpS9	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07538	FBgn0010409	RpL18A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC00781	FBgn0010410	RpL27A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11299	FBgn0010417	Taf6	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16940	FBgn0011217	eff	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03416	FBgn0011272	RpL13	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07402	FBgn0011763	Dp	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16655	FBgn0011766	E2f	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11298	FBgn0011836	Taf2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11112	FBgn0012058	Cdc27	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07537	FBgn0013325	RpL11	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC04697	FBgn0013548	l(2)dtl	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18709	FBgn0014026	RpL7A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03342	FBgn0014189	Hel25E	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11876	FBgn0015283	Pros54	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20227	FBgn0015615	Cap	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18801	FBgn0015624	nej	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03418	FBgn0015756	RpL9	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC14093	FBgn0016120	ATPsyn-d	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07514	FBgn0016697	Prosalpha5	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10087	FBgn0016797	fz2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16800	FBgn0017557	Pros28.1A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16836	FBgn0019936	RpS20	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC04601	FBgn0019949	Cdk9	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16742	FBgn0019960	CG6455	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20364	FBgn0020255	ran	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16820	FBgn0020379	Rfx	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03424	FBgn0020616	SA	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16834	FBgn0020910	RpL3	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11134	FBgn0022699	D19B	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20363	FBgn0022724	Taf8	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07552	FBgn0022764	Sin3A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11133	FBgn0022935	D19A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18450	FBgn0022942	Cbp80	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16601	FBgn0022943	Cbp20	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20559	FBgn0023177	Pp4-19C	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11947	FBgn0024733	Qm	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC15445	FBgn0024909	Taf7	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11309	FBgn0024921	Trn	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08532	FBgn0024939	RpL8	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08695	FBgn0024939	RpL8	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18463	FBgn0024998	CG2685	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC06716	FBgn0025286	RpL31	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18513	FBgn0025393	CG14795	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18483	FBgn0025638	Roc1a	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03492	FBgn0025724	beta`Cop	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08706	FBgn0025725	alphaCop	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16920	FBgn0025781	cdc16	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08694	FBgn0026372	RpL23A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03415	FBgn0026373	RpII33	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC05912	FBgn0026611	AGO1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07350	FBgn0027054	CSN4	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16976	FBgn0027338	Kap-alpha3	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03495	FBgn0027348	bgm	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC04167	FBgn0028371	jbug	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11880	FBgn0028402	Sin	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC04630	FBgn0028411	Nxt1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16841	FBgn0028688	Rpn7	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07541	FBgn0028689	Rpn6	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12367	FBgn0028690	Rpn5	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16840	FBgn0028691	Rpn9	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11275	FBgn0028693	Rpn12	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03422	FBgn0028694	Rpn11	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11274	FBgn0028695	Rpn1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20963	FBgn0028697	RpL15	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC06807	FBgn0028836	CSN7	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC01934	FBgn0028887	CG3491	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16955	FBgn0028968	gammaCop	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18760	FBgn0028969	deltaCOP	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07517	FBgn0029134	Prosbeta5	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16659	FBgn0029176	Ef1gamma	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18427	FBgn0029629	CG8636	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18116	FBgn0029941	CG1677	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18111	FBgn0030030	CG1636	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18419	FBgn0030093	dalao	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC19786	FBgn0030365	Tango4	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC19385	FBgn0030400	CG11138	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC19877	FBgn0030425	CG3775	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC19713	FBgn0030474	CG15747	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20149	FBgn0030616	RpL37a	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20207	FBgn0030765	SmG	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20132	FBgn0030812	CG8949	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20513	FBgn0031100	CG1504	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20576	FBgn0031114	cactin	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC00621	FBgn0031245	CG3625	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC00693	FBgn0031401	CG7082	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC00430	FBgn0031549	Spindly	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC00453	FBgn0031606	CG15439	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC02363	FBgn0031668	CG31917	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03261	FBgn0031822	CG9548	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC02680	FBgn0031962	CG18591	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03055	FBgn0031980	RpL36A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC02979	FBgn0032388	CG6686	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03191	FBgn0032514	CG9302	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03188	FBgn0032516	CG9293	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03185	FBgn0032518	RpL24	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC02603	FBgn0032596	CG17331	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC02019	FBgn0032680	Ntf-2r	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC02708	FBgn0032863	cdc23	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03704	FBgn0032987	RpL21	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC06755	FBgn0033155	CG1845	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07249	FBgn0033246	CG11198	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC06811	FBgn0033400	CG2063	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07293	FBgn0033688	Prp8	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC06967	FBgn0033859	CG6197	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07169	FBgn0033912	RpS23	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07077	FBgn0033998	row	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07151	FBgn0034138	RpS15	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC06426	FBgn0034503	MED8	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03850	FBgn0034603	Glycogenin	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC04061	FBgn0034643	CG10321	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC04344	FBgn0034968	RpL12	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC04360	FBgn0034987	CG3363	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08154	FBgn0035294	Mfap1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08293	FBgn0035422	RpL28	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08284	FBgn0035513	Cpr64Ad	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08181	FBgn0035552	CG11350	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC09741	FBgn0035638	Tektin-C	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11016	FBgn0035753	RpL18	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11014	FBgn0035754	MED4	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10696	FBgn0035900	ZC3H3	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10374	FBgn0035987	CG3689	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10735	FBgn0036487	CG6876	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10559	FBgn0036548	CG5931	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10474	FBgn0036581	MED10	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10226	FBgn0036712	CG16793	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10845	FBgn0036762	CG7430	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10726	FBgn0036825	RpL26	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10912	FBgn0036915	CG7757	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11779	FBgn0036974	eRF1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11663	FBgn0037025	Spc105R	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11642	FBgn0037121	Rpb8	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11593	FBgn0037207	Mes2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11632	FBgn0037207	Mes2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11632	FBgn0037207	Mes2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12302	FBgn0037328	RpL35A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12265	FBgn0037351	RpL13A	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12205	FBgn0037359	MED27	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16535	FBgn0037550	CG9667	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC15890	FBgn0038049	CG5844	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16223	FBgn0038269	Rrp6	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC15518	FBgn0038281	RpL10Aa	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16889	FBgn0038578	MED17	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC15804	FBgn0038667	snRNP-U1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC15119	FBgn0038834	RpS30	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC14699	FBgn0038964	Nop56	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC14209	FBgn0039120	Nup98	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC14210	FBgn0039120	Nup98	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC14630	FBgn0039218	Rpb10	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC13697	FBgn0039280	Mocs2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC15638	FBgn0039359	RpL27	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC14887	FBgn0039404	CG14543	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC14323	FBgn0039857	RpL6	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC17126	FBgn0039923	MED26	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC17148	FBgn0039923	MED26	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07818	FBgn0040007	RpL38	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16846	FBgn0040283	SMC1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16845	FBgn0040284	SF2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18175	FBgn0040339	MED22	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC18561	FBgn0040394	CG16903	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11412	FBgn0040512	zetaCOP	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08163	FBgn0041147	ida	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11468	FBgn0041607	asparagine-synthetase	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11630	FBgn0044324	Chro	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16068	FBgn0051155	Rpb7	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC15724	FBgn0051302	CG31302	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16059	FBgn0051390	MED7	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12270	FBgn0051559	CG31559	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC08816	FBgn0052398	CG32398	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC19716	FBgn0052635	CG32635	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC19904	FBgn0061200	Nup153	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC19904	FBgn0061200	Nup153	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03801	FBgn0064225	RpL5	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC06787	FBgn0085436	Not1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC06794	FBgn0085436	Not1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16668	FBgn0086687	desat1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC14371	FBgn0086697	Cenp-C	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10533	FBgn0086706	pix	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC02087	FBgn0086710	RpL30	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10847	FBgn0087035	AGO2	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11285	FBgn0250791	Snap	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC03401	FBgn0250843	Pros35	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC05680	FBgn0259211	grh	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10329	FBgn0259232	CG42330	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11270	FBgn0260441	RpS12	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC12653	FBgn0260723	CG42550	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC10088	FBgn0260857	Bet1	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC15965	FBgn0260946	exo84	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC20839	FBgn0260987	vtd	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC07560	FBgn0261014	TER94	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC11182	FBgn0261283	HLH106	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16572	FBgn0037637	CG9836	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin																
+DRSC16186	FBgn0038852	CG7056	yes	yes	single replicate of reagent			cell shape variable							decreased level of actin																
+DRSC10828	FBgn0035853	CG7375	yes	yes	single replicate of reagent			cell shape variable								increased level of actin						microtubules disorganised	microtubule processes								
+DRSC02092	FBgn0032725	Nedd8	yes	yes	single replicate of reagent			cell shape variable								increased level of actin						microtubules disorganised									
+DRSC07358	FBgn0016131	Cdk4	yes	yes	single replicate of reagent			cell shape variable									increased cytoplasmic actin	decreased peripheral actin				microtubules disorganised	microtubule processes							loss of cell monolayer	
+DRSC17741	FBgn0028474	CG4119	yes	yes	single replicate of reagent			cell shape variable									increased cytoplasmic actin	decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC17970	FBgn0260858	Ykt6	yes	yes	single replicate of reagent			cell shape variable									increased cytoplasmic actin	decreased peripheral actin												loss of cell monolayer	
+DRSC00715	FBgn0021967	Pdsw	yes	yes	single replicate of reagent			cell shape variable										decreased peripheral actin			microtubule clumps		microtubule processes							loss of cell monolayer	
+DRSC08664	FBgn0001233	Hsp83	yes	yes	single replicate of reagent			cell shape variable										decreased peripheral actin				microtubules disorganised	microtubule processes			increased number of multinucleate cells			decreased cell number	loss of cell monolayer	
+DRSC16921	FBgn0004107	cdc2c	yes	yes	single replicate of reagent			cell shape variable										decreased peripheral actin				microtubules disorganised	microtubule processes							loss of cell monolayer	
+DRSC03482	FBgn0013746	alien	yes	yes	single replicate of reagent			cell shape variable										decreased peripheral actin				microtubules disorganised	microtubule processes							loss of cell monolayer	
+DRSC20373	FBgn0003392	shi	yes	yes	single replicate of reagent			cell shape variable										decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC15928	FBgn0010328	woc	yes	yes	single replicate of reagent			cell shape variable										decreased peripheral actin												loss of cell monolayer	
+DRSC00612	FBgn0031492	CG3542	yes	yes	single replicate of reagent			cell shape variable												increased nuclear actin		microtubules disorganised									
+DRSC08656	FBgn0010349	Dhc64C	yes	yes	single replicate of reagent			cell shape variable														microtubules disorganised	microtubule processes								
+DRSC07459	FBgn0015754	Lis-1	yes	yes	single replicate of reagent			cell shape variable														microtubules disorganised	microtubule processes								
+DRSC06756	FBgn0022085	ssp4	yes	yes	single replicate of reagent			cell shape variable														microtubules disorganised	microtubule processes								
+DRSC11898	FBgn0003415	skd	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
+DRSC17898	FBgn0026879	CG13364	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
+DRSC03578	FBgn0031866	neuroligin	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
+DRSC15337	FBgn0038350	CG18516	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
+DRSC15101	FBgn0039832	CG15563	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy	disorganised peripheral actin			asymmetric lamellae																	
+DRSC07674	FBgn0024196	robl	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy	disorganised peripheral actin												microtubule processes								
+DRSC10291	FBgn0036454	CG17839	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy	disorganised peripheral actin												microtubule processes								
+DRSC18836	FBgn0028982	Spt6	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy		increased number of actin stress fibres			decreased level of actin								microtubule processes							loss of cell monolayer	
+DRSC20229	FBgn0000319	Chc	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy		increased number of actin stress fibres							increased peripheral actin			microtubules disorganised	microtubule processes							loss of cell monolayer	
+DRSC11330	FBgn0000212	brm	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy		increased number of actin stress fibres							increased peripheral actin				microtubule processes								
+DRSC03438	FBgn0001961	Sop2	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC20370	FBgn0003345	sd	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC03347	FBgn0004838	Hrb27C	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC08688	FBgn0010333	Rac1	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC20228	FBgn0010341	Cdc42	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC19332	FBgn0011742	Arp14D	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC09669	FBgn0011744	Arp66B	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC11865	FBgn0011771	Hem	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC11262	FBgn0014011	Rac2	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC04715	FBgn0016984	sktl	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC03528	FBgn0020497	emb	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC14099	FBgn0020510	Abi	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC17056	FBgn0023423	slmb	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC00331	FBgn0031249	CG11911	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC00730	FBgn0031437	p16-ARC	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC15679	FBgn0038320	Sra-1	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC16554	FBgn0039754	CG9747	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC16554	FBgn0039754	CG9747	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC03426	FBgn0041781	SCAR	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC17731	FBgn0086899	tlk	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes							loss of cell monolayer	
+DRSC03192	FBgn0032512	CG9305	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy			increased number of actin puncta or dots					decreased peripheral actin					microtubule processes								
+DRSC09878	FBgn0036467	CG12310	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy				asymmetric lamellae									microtubule processes								
+DRSC03611	FBgn0026170	smt3	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy					decreased level of actin								microtubule processes			increased number of multinucleate cells			decreased cell number	loss of cell monolayer	
+DRSC14729	FBgn0039626	Slu7	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy					decreased level of actin								microtubule processes			increased number of multinucleate cells			decreased cell number	loss of cell monolayer	
+DRSC08714	FBgn0002183	dre4	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy					decreased level of actin								microtubule processes						decreased cell number	loss of cell monolayer	
+DRSC11114	FBgn0023395	Chd3	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy						increased level of actin							microtubule processes								
+DRSC18123	FBgn0030205	CG17255	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy						increased level of actin							microtubule processes								
+DRSC20297	FBgn0005411	U2af50	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy								decreased peripheral actin					microtubule processes			increased number of multinucleate cells					
+DRSC06159	FBgn0033926	Arc1	yes	yes	single replicate of reagent					cell shape processes or spiky or stretchy												microtubules disorganised	microtubule processes								
+DRSC20346	FBgn0001491	l(1)10Bb	yes	yes	single replicate of reagent						disorganised peripheral actin		increased number of actin puncta or dots						increased peripheral actin												
+DRSC07645	FBgn0015509	lin19	yes	yes	single replicate of reagent						disorganised peripheral actin											microtubules disorganised									multiple layers of cells
+DRSC12369	FBgn0011715	Snr1	yes	yes	single replicate of reagent						disorganised peripheral actin											microtubules disorganised									
+DRSC04725	FBgn0005634	zip	yes	yes	single replicate of reagent						disorganised peripheral actin															increased number of multinucleate cells					
+DRSC11325	FBgn0005386	ash1	yes	yes	single replicate of reagent						disorganised peripheral actin																				multiple layers of cells
+DRSC17089	FBgn0003862	trx	yes	yes	single replicate of reagent						disorganised peripheral actin																				
+DRSC16018	FBgn0043884	mask	yes	yes	single replicate of reagent						disorganised peripheral actin																				
+DRSC03442	FBgn0024285	Srp54	yes	yes	single replicate of reagent							increased number of actin stress fibres						decreased peripheral actin													
+DRSC11778	FBgn0036973	CG5585	yes	yes	single replicate of reagent							increased number of actin stress fibres						decreased peripheral actin													
+DRSC00804	FBgn0028970	betaggt-II	yes	yes	single replicate of reagent								increased number of actin puncta or dots	asymmetric lamellae				decreased peripheral actin				microtubules disorganised								loss of cell monolayer	
+DRSC14625	FBgn0039205	CG13623	yes	yes	single replicate of reagent								increased number of actin puncta or dots	asymmetric lamellae																	
+DRSC04893	FBgn0033062	CG7843	yes	yes	single replicate of reagent								increased number of actin puncta or dots					decreased peripheral actin												loss of cell monolayer	
+DRSC16830	FBgn0010173	RpA-70	yes	yes	single replicate of reagent								increased number of actin puncta or dots					decreased peripheral actin													
+DRSC00582	FBgn0031540	CG3238	yes	yes	single replicate of reagent								increased number of actin puncta or dots									microtubules disorganised									
+DRSC11345	FBgn0014163	fax	yes	yes	single replicate of reagent									asymmetric lamellae	decreased level of actin																
+DRSC03040	FBgn0031713	CG7277	yes	yes	single replicate of reagent									asymmetric lamellae				decreased peripheral actin													
+DRSC02236	FBgn0032230	CG13139	yes	yes	single replicate of reagent									asymmetric lamellae				decreased peripheral actin													
+DRSC08194	FBgn0035437	CG11526	yes	yes	single replicate of reagent									asymmetric lamellae				decreased peripheral actin													
+DRSC11791	FBgn0037001	CG6020	yes	yes	single replicate of reagent									asymmetric lamellae												increased number of multinucleate cells					
+DRSC14151	FBgn0027518	CG7609	yes	yes	single replicate of reagent									asymmetric lamellae																	
+DRSC15017	FBgn0044826	Pak3	yes	yes	single replicate of reagent									asymmetric lamellae																	
+DRSC14118	FBgn0011745	Arp87C	yes	yes	single replicate of reagent										decreased level of actin							microtubules disorganised									
+DRSC10674	FBgn0035675	CG6610	yes	yes	single replicate of reagent										decreased level of actin														decreased cell number	loss of cell monolayer	
+DRSC16679	FBgn0001098	Gdh	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC20382	FBgn0004169	up	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC04658	FBgn0010278	Ssrp	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC16827	FBgn0014023	Rlc1	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC11295	FBgn0029117	Surf1	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC19789	FBgn0030556	mRNA-capping-enzyme	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC02854	FBgn0032215	CG5385	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC16556	FBgn0039747	AdoR	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC15035	FBgn0039828	CG1542	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC18476	FBgn0040398	CG14629	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC18137	FBgn0040900	CG17777	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC03367	FBgn0086783	Mhc	yes	yes	single replicate of reagent										decreased level of actin																
+DRSC03599	FBgn0003209	raw	yes	yes	single replicate of reagent											increased level of actin						microtubules disorganised									multiple layers of cells
+DRSC01011	FBgn0011219	Bsg	yes	yes	single replicate of reagent											increased level of actin						microtubules disorganised									multiple layers of cells
+DRSC20094	FBgn0030858	CG8211	yes	yes	single replicate of reagent											increased level of actin						microtubules disorganised									multiple layers of cells
+DRSC17114	FBgn0259214	PMCA	yes	yes	single replicate of reagent											increased level of actin						microtubules disorganised									multiple layers of cells
+DRSC17154	FBgn0259214	PMCA	yes	yes	single replicate of reagent											increased level of actin						microtubules disorganised									multiple layers of cells
+DRSC06800	FBgn0002891	mus205	yes	yes	single replicate of reagent											increased level of actin															multiple layers of cells
+DRSC00809	FBgn0011570	cpb	yes	yes	single replicate of reagent											increased level of actin															multiple layers of cells
+DRSC16596	FBgn0015610	Caf1	yes	yes	single replicate of reagent											increased level of actin															multiple layers of cells
+DRSC18420	FBgn0030091	CG7065	yes	yes	single replicate of reagent											increased level of actin															multiple layers of cells
+DRSC04080	FBgn0034577	cpa	yes	yes	single replicate of reagent											increased level of actin															multiple layers of cells
+DRSC11222	FBgn0013591	Mi-2	yes	yes	single replicate of reagent											increased level of actin															
+DRSC02014	FBgn0032800	CG10137	yes	yes	single replicate of reagent													decreased peripheral actin													
+DRSC04718	FBgn0011726	tsr	yes	yes	single replicate of reagent														increased peripheral actin							increased number of multinucleate cells					
+DRSC00806	FBgn0028388	capt	yes	yes	single replicate of reagent														increased peripheral actin												
+DRSC18787	FBgn0001337	Exp6	yes	yes	single replicate of reagent															increased nuclear actin											
+DRSC11836	FBgn0037093	CG7597	yes	yes	single replicate of reagent															increased nuclear actin											
+DRSC14462	FBgn0037657	hyx	yes	yes	single replicate of reagent															increased nuclear actin											
+DRSC13805	FBgn0051077	CG31077	yes	yes	single replicate of reagent																microtubule clumps				increased level of microtubules						
+DRSC19573	FBgn0031030	Tao-1	yes	yes	single replicate of reagent																	microtubules disorganised	microtubule processes								multiple layers of cells
+DRSC20388	FBgn0003654	sw	yes	yes	single replicate of reagent																	microtubules disorganised	microtubule processes								
+DRSC11235	FBgn0024542	Neos	yes	yes	single replicate of reagent																	microtubules disorganised									
+DRSC12622	FBgn0003884	alphaTub84B	yes	yes	single replicate of reagent																			decreased level of microtubules			increased DNA area		decreased cell number		
+DRSC12623	FBgn0003885	alphaTub84D	yes	yes	single replicate of reagent																			decreased level of microtubules			increased DNA area		decreased cell number		
+DRSC16899	FBgn0003886	alphaTub85E	yes	yes	single replicate of reagent																			decreased level of microtubules			increased DNA area		decreased cell number		
+DRSC07583	FBgn0003887	betaTub56D	yes	yes	single replicate of reagent																			decreased level of microtubules			increased DNA area		decreased cell number		
+DRSC16910	FBgn0003889	betaTub85D	yes	yes	single replicate of reagent																			decreased level of microtubules			increased DNA area		decreased cell number		
+DRSC15666	FBgn0003890	betaTub97EF	yes	yes	single replicate of reagent																			decreased level of microtubules			increased DNA area		decreased cell number		
+DRSC15667	FBgn0003890	betaTub97EF	yes	yes	single replicate of reagent																			decreased level of microtubules			increased DNA area		decreased cell number		
+DRSC07665	FBgn0003114	plu	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC07513	FBgn0003140	PpY-55A	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC07677	FBgn0003326	sca	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC07568	FBgn0026316	UbcD10	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC14145	FBgn0027889	ball	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC06987	FBgn0034165	CG6435	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC16524	FBgn0051150	CG31150	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC16224	FBgn0053547	Rim	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC19809	FBgn0259166	CG42271	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC15611	FBgn0261053	Cad86C	yes	yes	single replicate of reagent																			decreased level of microtubules							
+DRSC01893	FBgn0028538	sec71	yes	yes	single replicate of reagent																					increased number of multinucleate cells					
+DRSC04624	FBgn0002787	Mov34	yes	yes	single replicate of reagent																							no cells			
+DRSC05723	FBgn0010575	sbb	yes	yes	single replicate of reagent																							no cells			
+DRSC07159	FBgn0010590	Prosbeta1	yes	yes	single replicate of reagent																							no cells			
+DRSC16703	FBgn0013981	His4r	yes	yes	single replicate of reagent																							no cells			
+DRSC16799	FBgn0015282	Pros26.4	yes	yes	single replicate of reagent																							no cells			
+DRSC18720	FBgn0015818	Spx	yes	yes	single replicate of reagent																							no cells			
+DRSC18659	FBgn0026085	dgt4	yes	yes	single replicate of reagent																							no cells			
+DRSC16842	FBgn0028684	Tbp-1	yes	yes	single replicate of reagent																							no cells			
+DRSC16839	FBgn0028692	Rpn2	yes	yes	single replicate of reagent																							no cells			
+DRSC05669	FBgn0034253	CG10936	yes	yes	single replicate of reagent																							no cells			
+DRSC04469	FBgn0034660	lox2	yes	yes	single replicate of reagent																							no cells			
+DRSC04010	FBgn0034990	CG11406	yes	yes	single replicate of reagent																							no cells			
+DRSC15627	FBgn0038742	Arc42	yes	yes	single replicate of reagent																							no cells			
+DRSC16344	FBgn0042693	PP2A-B`	yes	yes	single replicate of reagent																							no cells			
+DRSC06126	FBgn0050089	CG30089	yes	yes	single replicate of reagent																							no cells			
+DRSC05602	FBgn0050100	CG30100	yes	yes	single replicate of reagent																							no cells			
+DRSC17105	FBgn0051997	CG31997	yes	yes	single replicate of reagent																							no cells			
+DRSC18081	FBgn0053080	CG33080	yes	yes	single replicate of reagent																							no cells			
+DRSC13231	FBgn0054035	CG34035	yes	yes	single replicate of reagent																							no cells			
+DRSC17794	FBgn0086558	Ubi-p5E	yes	yes	single replicate of reagent																							no cells			
+DRSC11404	FBgn0260635	th	yes	yes	single replicate of reagent																							no cells			
+DRSC18120	FBgn0260658	CG42541	yes	yes	single replicate of reagent																							no cells			
+DRSC04644	FBgn0261394	Pros29	yes	yes	single replicate of reagent																							no cells			
+DRSC03318	FBgn0261396	Rpn3	yes																									no cells			
+DRSC18711	FBgn0004403	RpS14a	yes																												
+DRSC05666	FBgn0028382	cyp33	yes																												
+DRSC08687	FBgn0035136	CG6905	yes																												
+DRSC03714	FBgn0025674	CycK	yes																												
+DRSC06036	FBgn0033160	CG11107	yes																												
+DRSC10145	FBgn0036143	CG14142	yes																												
+DRSC10624	FBgn0036733	U4-U6-60K	yes																												
+DRSC15014	FBgn0038447	CG14892	yes																												
+DRSC08169	FBgn0052264	CG32264	yes																												
+DRSC11744	FBgn0052432	CG32432	yes																												
+DRSC06218	FBgn0085392	CG34363	yes																												
+DRSC15877	FBgn0250820	CG5802	yes																												
+DRSC16553	FBgn0260935	ird1	yes																												
