@@ -43,6 +43,8 @@ columns:
     include: yes
   - name: Gene Symbol Synonyms
     include: yes
+  - name: Gene Annotation Comments
+    include: yes
   - name: Reagent Design Gene Annotation Build
     include: yes
   - name: Analysis Gene Annotation Build
