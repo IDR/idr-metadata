@@ -54,9 +54,7 @@ columns:
   - name: Control Type
     include: yes
   - name: Control Comments
-    include: yes
-  - name: Quality Control
-    include: yes    
+    include: yes   
   - name: Channels
     include: yes
   - name: Comments
