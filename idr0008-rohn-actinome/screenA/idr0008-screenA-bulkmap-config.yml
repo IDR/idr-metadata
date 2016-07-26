@@ -66,7 +66,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes 
   - name: Phenotype 1 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 1 Term Accession
     clientname: Phenotype Term Accession URL
@@ -79,7 +79,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 2 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 2 Term Accession
     clientname: Phenotype Term Accession URL
@@ -92,7 +92,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 3 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 3 Term Accession
     clientname: Phenotype Term Accession URL
@@ -105,7 +105,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 4 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 4 Term Accession
     clientname: Phenotype Term Accession URL
@@ -118,7 +118,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 5 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 5 Term Accession
     clientname: Phenotype Term Accession URL
@@ -131,7 +131,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 6 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 6 Term Accession
     clientname: Phenotype Term Accession URL
@@ -144,7 +144,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 7 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 7 Term Accession
     clientname: Phenotype Term Accession URL
@@ -157,7 +157,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 8 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 8 Term Accession
     clientname: Phenotype Term Accession URL
@@ -170,7 +170,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 9 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 9 Term Accession
     clientname: Phenotype Term Accession URL
@@ -183,7 +183,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 10 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 10 Term Accession
     clientname: Phenotype Term Accession URL
@@ -196,7 +196,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 11 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 11 Term Accession
     clientname: Phenotype Term Accession URL
@@ -209,7 +209,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 12 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 12 Term Accession
     clientname: Phenotype Term Accession URL
@@ -222,7 +222,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 13 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 13 Term Accession
     clientname: Phenotype Term Accession URL
@@ -235,7 +235,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 14 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 14 Term Accession
     clientname: Phenotype Term Accession URL
@@ -248,7 +248,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 15 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 15 Term Accession
     clientname: Phenotype Term Accession URL
@@ -261,7 +261,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 16 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 16 Term Accession
     clientname: Phenotype Term Accession URL
@@ -274,7 +274,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 17 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 17 Term Accession
     clientname: Phenotype Term Accession URL
@@ -287,7 +287,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 18 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 18 Term Accession
     clientname: Phenotype Term Accession URL
@@ -312,7 +312,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 20 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 20 Term Accession
     clientname: Phenotype Term Accession URL
@@ -325,7 +325,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 21 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 21 Term Accession
     clientname: Phenotype Term Accession URL
@@ -338,7 +338,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 22 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 22 Term Accession
     clientname: Phenotype Term Accession URL
@@ -351,7 +351,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 23 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 23 Term Accession
     clientname: Phenotype Term Accession URL
@@ -364,7 +364,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 24 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 24 Term Accession
     clientname: Phenotype Term Accession URL
@@ -377,7 +377,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 25 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 25 Term Accession
     clientname: Phenotype Term Accession URL
@@ -390,7 +390,7 @@ columns:
     clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 26 Term Accession
-    client name: Phenotype Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 26 Term Accession
     clientname: Phenotype Term Accession URL
