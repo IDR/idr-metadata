@@ -60,6 +60,7 @@ columns:
   - name: Potential Mitotic Hit At Gene Level
     include: yes
   - name: Validated Mitotic Hit At Gene Level
+    include: yes
   - name: Has Phenotype
     include: yes
   - name: Phenotype Annotation Level
