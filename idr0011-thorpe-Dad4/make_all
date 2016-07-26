@@ -20,7 +20,7 @@ def main(argv):
         if e.errno == errno.ENOENT:
             pass
 
-    basenames = glob.glob("%s/*/Plate1-TS/*" % ROOT)
+    basenames = glob.glob("%s/*/*/*" % ROOT)
     with open(plates_fn, "w") as fp:
         for bn in basenames:
             print bn
