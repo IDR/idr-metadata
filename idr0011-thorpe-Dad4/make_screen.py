@@ -57,11 +57,14 @@ def write_screen(data_dir, plate, outf):
                                 assert not file_names
                                 file_names = found
             if not file_names:
-                field_values.append(None)
+                field_values.append("")
             else:
                 # TODO: do we need a pattern here?
                 field_values.append(os.path.join(data_dir, file_names[0]))
 
+        if not any(field_values):
+            print >>sys.stderr, "missing well: %s (%s%s)" % (well_tag, r, c)
+            fields_values = []
         writer.add_well(field_values)  # TODO: , extra_kv=EXTRA_KV)
     writer.write(outf)
 

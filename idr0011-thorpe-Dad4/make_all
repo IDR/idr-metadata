@@ -10,13 +10,9 @@ ROOT = ("/uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/")
 
 
 def main(argv):
-    this_dir = os.path.dirname(os.path.abspath(__file__))
-    #parent = os.path.dirname(this_dir)
-    parent = this_dir  # TODO: fix this
-    screens_dir = os.path.join(parent, "screens")
-    study_root, a, b = parent.rsplit(os.sep, 2)
+    study_root = os.path.dirname(os.path.abspath(__file__))
+    screens_dir = os.path.join(study_root, "screens")
     plates_fn = os.path.join(study_root, "screenA/idr0011-screenA-plates.tsv")
-    rel_screens_dir = os.path.join(os.pardir, a, b, "screens")  # wrt plates_fn
     try:
         os.makedirs(screens_dir)
         os.makedirs(os.path.dirname(plates_fn))
@@ -32,7 +28,7 @@ def main(argv):
             screen_fn = os.path.join(screens_dir, "%s.screen" % screen_name)
             make_screen.main(["dummy", bn, "-o", screen_fn, "-p", bn])
             fp.write("%s\t%s.screen\n" %
-                     (bn, os.path.join(screens_dir, bn)))
+                     (screen_name, bn))
 
 
 if __name__ == "__main__":
