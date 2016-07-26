@@ -11,11 +11,6 @@ ROWS = 6  # A-F
 COLUMNS = 8
 FIELDS = 6
 CHANNEL_NAMES = ("Blue", "Green", "Red", "Yellow")
-#EXTRA_KV = {
-#    "AxisTypes": "C",
-#    "ChannelNames": ",".join(CHANNEL_NAMES),
-#}
-#PATTERN_BLOCK = "<%s>" % EXTRA_KV["ChannelNames"]
 
 
 def parse_cl(argv):
@@ -27,13 +22,27 @@ def parse_cl(argv):
 
 
 def write_screen(data_dir, plate, outf):
-    # Plate1-TS-Blue-A
-    # Plate1-Blue-A-TS-0020_A1_01.zvi
+
+    # For the second screen, remove "-(\d\d)", "-repeated", etc.
+    well_tag = os.path.basename(data_dir)
+    p1 = well_tag.find("(")
+    p2 = well_tag.find(")")
+    if p1 > 0 and p2 > 0:
+        well_tag = well_tag[0:p1-1]
+        well_tag += well_tag[p2:]
+    well_tag = well_tag.replace("-repeated", "")
+    well_tag = well_tag.replace("-used pics", "")
+    # Special case these!
+    well_tag = well_tag.replace("Plate1-Blue-A", "P1-Bl-A")
+    well_tag = well_tag.replace("Plate2-Red-B", "P2-Red-B")
+    well_tag = well_tag.replace("Plate2-Blue-A", "Plate2-Red-B")
+
+    count = 0
     writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS)
     for idx in xrange(ROWS * COLUMNS):
         r, c = writer.coordinates(idx)
-        well_tag = os.path.basename(data_dir)
         field_values = []
+
         # These are the different naming structures that are possible.
         for f in range(1, FIELDS+1):
             file_names = None
@@ -46,9 +55,10 @@ def write_screen(data_dir, plate, outf):
                             well_tag = well_tag.replace(
                                 "TS-%s-%s" % (color, alternate),
                                 "%s-%s-TS" % (color, alternate))
-                            pattern = "%s-%s%s%s%s%s%s%s.zvi" % (
+                            pattern = "%s%s%s%s%s%s%s%s.zvi" % (
                                 well_tag, "*", sep, r, c, sep, z, f)
-                            found = glob.glob(os.path.join(data_dir, pattern))
+                            glob_str = os.path.join(data_dir, pattern)
+                            found = glob.glob(glob_str)
                             if not found:
                                 continue  # No match
                             elif found == file_names:
@@ -64,8 +74,12 @@ def write_screen(data_dir, plate, outf):
 
         if not any(field_values):
             print >>sys.stderr, "missing well: %s (%s%s)" % (well_tag, r, c)
-            fields_values = []
-        writer.add_well(field_values)  # TODO: , extra_kv=EXTRA_KV)
+            field_values = []
+        else:
+            count += 1
+        writer.add_well(field_values)
+    if not count:
+        raise Exception("no wells: %s" % plate)
     writer.write(outf)
 
 
