@@ -1,15 +1,15 @@
-Factor Value[Targeted Protein]	Comment[Gene Identifier]	Comment[Gene Symbol]	Comment[Gene Symbol Synonyms]	Factor Value [Antibody]	Phenotype 1	NumberOfImages	NumberOfParticles	RadialDistance	SEMerror
-Nup107	ENSG00000111581	NUP107	NUP84	Nup107-aa33-51 antibody	protein localized in nuclear pore	3	1665	55.7 nanometers	0.3 nanometers
-Nup107	ENSG00000111581	NUP107	NUP84	pEGFP-Nup107-s32727res anti-GFP nanobody	protein localized in nuclear pore	3	2407	48.2 nanometers	0.2 nanometers
-Nup133	ENSG00000069248	NUP133	"FLJ10814, hNUP133"	Nup133-aa566-582 antibody	protein localized in nuclear pore	4	4171	59.4 nanometers	0.2 nanometers
-Nup133	ENSG00000069248	NUP133	"FLJ10814, hNUP133"	Nup133-FL antibody	protein localized in nuclear pore	4	8698	60.9 nanometers	0.2 nanometers
-Nup133	ENSG00000069248	NUP133	"FLJ10814, hNUP133"	pmEGFP-Nup133-s31401res anti-GFP nanobody	protein localized in nuclear pore	5	2419	50.1 nanometers	0.2 nanometers
-Nup160	ENSG00000030066	NUP160	"FLJ22583, KIAA0197, NUP120"	Nup160-aa941-1436 antibody	protein localized in nuclear pore	5	3151	58.3 nanometers	0.2 nanometers
-Nup160	ENSG00000030066	NUP160	"FLJ22583, KIAA0197, NUP120"	pmEGFP-Nup160-s23466res anti-GFP nanobody-Nterm	protein localized in nuclear pore	3	1790	52.5 nanometers	0.2 nanometers
-Nup160	ENSG00000030066	NUP160	"FLJ22583, KIAA0197, NUP120"	pNup160-s23466res-mEGFP anti-GFP nanobody-Cterm	protein localized in nuclear pore	3	2427	42.6 nanometers	0.2 nanometers
-Nup37	ENSG00000075188	NUP37	"p37, MGC5585, FLJ22618"	pEGFP-Nup37-s35439res anti-GFP nanobody	protein localized in nuclear pore	3	1952	45.5 nanometers	0 nanometers
-Nup85	ENSG00000125450	NUP85	"PCNT1, Nup75, FROUNT, FLJ12549, NUP75"	pmEGFP-Nup85-s36612res anti-GFP nanobody	protein localized in nuclear pore	3	2556	38.2 nanometers	0.2 nanometers
-Nup96	ENSG00000110713	NUP98	"NUP96, ADAR2, NUP196, ADIR2"	Nup96-aa880-900 antibody	protein localized in nuclear pore	8	11027	59 nanometers	0.1 nanometers
-Seh1	ENSG00000085415	SEH1L	"Seh1, SEH1A, SEC13L, SEH1, SEH1B"	pmEGFP-Seh1-s37879res anti-GFP nanobody	protein localized in nuclear pore	3	2340	39.9 nanometers	0.3 nanometers
-Seh1	ENSG00000085415	SEH1L	"Seh1, SEH1A, SEC13L, SEH1, SEH1B"	Seh1-aa342-360 antibody	protein localized in nuclear pore	3	2585	40.4 nanometers	0.3 nanometers
-Seh1	ENSG00000085415	SEH1L	"Seh1, SEH1A, SEC13L, SEH1, SEH1B"	Seh1-FL antibody	protein localized in nuclear pore	5	4220	39.2 nanometers	0.2 nanometers
+Experimental Condition [Targeted Protein]_Experimental Condition [Antibody]	Experimental Condition [Targeted Protein]	Comment [Gene Identifier]	Comment [Gene Symbol]	Comment [Gene Symbol Synonyms]	Experimental Condition [Antibody]	NumberOfImages	NumberOfParticles	RadialDistance	SEMerror	Has Phenotype	Phenotype Annotation Level	Phenotype 1
+Nup107_Nup107-aa33-51 antibody	Nup107	ENSG00000111581	NUP107	NUP84	Nup107-aa33-51 antibody	3	1665	55.7 nanometers	0.3 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup107_pEGFP-Nup107-s32727res anti-GFP nanobody	Nup107	ENSG00000111581	NUP107	NUP84	pEGFP-Nup107-s32727res anti-GFP nanobody	3	2407	48.2 nanometers	0.2 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup133_Nup133-aa566-582 antibody	Nup133	ENSG00000069248	NUP133	"FLJ10814, hNUP133"	Nup133-aa566-582 antibody	4	4171	59.4 nanometers	0.2 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup133_Nup133-FL antibody	Nup133	ENSG00000069248	NUP133	"FLJ10814, hNUP133"	Nup133-FL antibody	4	8698	60.9 nanometers	0.2 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup133_pmEGFP-Nup133-s31401res anti-GFP nanobody	Nup133	ENSG00000069248	NUP133	"FLJ10814, hNUP133"	pmEGFP-Nup133-s31401res anti-GFP nanobody	5	2419	50.1 nanometers	0.2 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup160_Nup160-aa941-1436 antibody	Nup160	ENSG00000030066	NUP160	"FLJ22583, KIAA0197, NUP120"	Nup160-aa941-1436 antibody	5	3151	58.3 nanometers	0.2 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup160_pmEGFP-Nup160-s23466res anti-GFP nanobody-Nterm	Nup160	ENSG00000030066	NUP160	"FLJ22583, KIAA0197, NUP120"	pmEGFP-Nup160-s23466res anti-GFP nanobody-Nterm	3	1790	52.5 nanometers	0.2 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup160_pNup160-s23466res-mEGFP anti-GFP nanobody-Cterm	Nup160	ENSG00000030066	NUP160	"FLJ22583, KIAA0197, NUP120"	pNup160-s23466res-mEGFP anti-GFP nanobody-Cterm	3	2427	42.6 nanometers	0.2 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup37_pEGFP-Nup37-s35439res anti-GFP nanobody	Nup37	ENSG00000075188	NUP37	"p37, MGC5585, FLJ22618"	pEGFP-Nup37-s35439res anti-GFP nanobody	3	1952	45.5 nanometers	0 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup85_pmEGFP-Nup85-s36612res anti-GFP nanobody	Nup85	ENSG00000125450	NUP85	"PCNT1, Nup75, FROUNT, FLJ12549, NUP75"	pmEGFP-Nup85-s36612res anti-GFP nanobody	3	2556	38.2 nanometers	0.2 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Nup96_Nup96-aa880-900 antibody	Nup96	ENSG00000110713	NUP98	"NUP96, ADAR2, NUP196, ADIR2"	Nup96-aa880-900 antibody	8	11027	59 nanometers	0.1 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Seh1_pmEGFP-Seh1-s37879res anti-GFP nanobody	Seh1	ENSG00000085415	SEH1L	"Seh1, SEH1A, SEC13L, SEH1, SEH1B"	pmEGFP-Seh1-s37879res anti-GFP nanobody	3	2340	39.9 nanometers	0.3 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Seh1_Seh1-aa342-360 antibody	Seh1	ENSG00000085415	SEH1L	"Seh1, SEH1A, SEC13L, SEH1, SEH1B"	Seh1-aa342-360 antibody	3	2585	40.4 nanometers	0.3 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
+Seh1_Seh1-FL antibody	Seh1	ENSG00000085415	SEH1L	"Seh1, SEH1A, SEC13L, SEH1, SEH1B"	Seh1-FL antibody	5	4220	39.2 nanometers	0.2 nanometers	yes	experimental condition and protein	protein localized in nuclear pore
