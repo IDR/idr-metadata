@@ -11,11 +11,17 @@ ROOT = ("/uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/")
 SCREENS = {
     "A": (
         ("T37 x deletion library", 2, "*/"),
-        ("Stinger plates-extra images screen T37 x deletion library", 1, "*/"),
     ),
     "B": (
         ("T34 x TS", 6, "*/"),
+    ),
+    "C": (
+        ("Stinger plates-extra images screen T37 x deletion library", 1, "*/"),
+    ),
+    "D": (
         ("Stinger plates-extra images screen T34 x TS", 1, ""),
+    ),
+    "E": (
         ("Stinger plates-extra images screen T34 x TS-more repeats", 1, ""),
     ),
 }
