@@ -42,12 +42,13 @@ def main(argv):
                     print bn
                     screen_name = os.path.basename(bn)
                     screen_fn = os.path.join(screens_dir, "%s.screen" % screen_name)
+                    screen_rel = os.path.join("..", "screens", "%s.screen" % screen_name)
                     make_screen.main(["dummy", bn,
                                       "-o", screen_fn,
                                       "-p", bn,
                                       "-f", str(fields)])
-                    fp.write("%s\t%s.screen\n" %
-                        (screen_name, bn))
+                    fp.write("%s\t%s\n" %
+                        (screen_name, screen_rel))
 
 
 if __name__ == "__main__":
