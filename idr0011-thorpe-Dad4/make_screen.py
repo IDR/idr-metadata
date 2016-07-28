@@ -44,7 +44,7 @@ def write_screen(data_dir, plate, outf):
     for idx in xrange(ROWS * COLUMNS):
         r, c = writer.coordinates(idx)
         field_values = []
-        pattern = "*[_-]%s%s[_-]*.zvi" % (r, c)
+        pattern = "*[_-]%s%s[_-]*.[cz][zv]i" % (r, c)
         glob_str = os.path.join(data_dir, pattern)
         found = sorted(glob.glob(glob_str))
         assert str(found), len(found) >= 1 and len(found) <= FIELDS

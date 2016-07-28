@@ -9,14 +9,17 @@ import make_screen
 ROOT = ("/uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/")
 
 SCREENS = (
-    ("A", "T34 x TS", 6),
-    ("B", "T37 x deletion library", 2),
+    ("A", "T34 x TS", 6, "*/"),
+    ("B", "T37 x deletion library", 2, "*/"),
+    ("C", "Stinger plates-extra images screen T34 x TS", 1, ""),
+    ("D", "Stinger plates-extra images screen T34 x TS-more repeats", 1, ""),
+    ("E", "Stinger plates-extra images screen T37 x deletion library", 1, "*/"),
 )
 
 def main(argv):
     study_root = os.path.dirname(os.path.abspath(__file__))
     screens_dir = os.path.join(study_root, "screens")
-    for letter, directory, fields in SCREENS:
+    for letter, directory, fields, extra in SCREENS:
         tsv = "screen%s/idr0011-screen%s-plates.tsv" % (letter, letter)
         plates_fn = os.path.join(study_root, tsv)
         try:
@@ -26,9 +29,10 @@ def main(argv):
             if e.errno == errno.ENOENT:
                 pass
 
-        basenames = glob.glob("%s%s/*/*" % (ROOT, directory))
+        basenames = glob.glob("%s%s/%s*" % (ROOT, directory, extra))
         with open(plates_fn, "w") as fp:
             for bn in basenames:
+                if not os.path.isdir(bn): continue
                 print bn
                 screen_name = os.path.basename(bn)
                 screen_fn = os.path.join(screens_dir, "%s.screen" % screen_name)
