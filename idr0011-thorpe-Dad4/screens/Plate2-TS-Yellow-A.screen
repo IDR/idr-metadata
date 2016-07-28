@@ -211,6 +211,8 @@ Column = 1
 Row = 5
 Column = 2
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Yellow-A/Plate2-Yellow-A-TS-0001_F3_01.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Yellow-A/Plate2-Yellow-A-TS-0002_F3_021.zvi
+Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Yellow-A/Plate2-Yellow-A-TS-0003_F3_01.zvi
 
 [Well 43]
 Row = 5

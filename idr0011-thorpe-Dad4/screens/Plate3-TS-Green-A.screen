@@ -20,9 +20,9 @@ Column = 2
 [Well 3]
 Row = 0
 Column = 3
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-A/Plate3-Green-A-TS-0029_A4_03.zvi
-Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-A/Plate3-Green-A-TS-0029_A4_04.zvi
-Field_4 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-A/Plate3-Green-A-TS-0029_A4_05.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-A/Plate3-Green-A-TS-0029_A4_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-A/Plate3-Green-A-TS-0029_A4_04.zvi
+Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-A/Plate3-Green-A-TS-0029_A4_05.zvi
 
 [Well 4]
 Row = 0

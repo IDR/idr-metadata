@@ -42,35 +42,15 @@ def write_screen(data_dir, plate, outf):
     for idx in xrange(ROWS * COLUMNS):
         r, c = writer.coordinates(idx)
         field_values = []
-
-        # These are the different naming structures that are possible.
-        for f in range(1, FIELDS+1):
-            file_names = None
-            for color in CHANNEL_NAMES:
-                for alternate in ("A", "B"):
-                    for sep in ("-", "_"):
-                        for z in ("", "0"):
-                            # Input: Plate1-TS-Blue-A
-                            # Find: Plate1-Blue-A-TS-0020_A1_01.zvi
-                            well_tag = well_tag.replace(
-                                "TS-%s-%s" % (color, alternate),
-                                "%s-%s-TS" % (color, alternate))
-                            pattern = "%s%s%s%s%s%s%s%s.zvi" % (
-                                well_tag, "*", sep, r, c, sep, z, f)
-                            glob_str = os.path.join(data_dir, pattern)
-                            found = glob.glob(glob_str)
-                            if not found:
-                                continue  # No match
-                            elif found == file_names:
-                                continue  # Dupe
-                            else:
-                                assert not file_names
-                                file_names = found
-            if not file_names:
-                field_values.append("")
+        pattern = "*[_-]%s%s[_-]*.zvi" % (r, c)
+        glob_str = os.path.join(data_dir, pattern)
+        found = sorted(glob.glob(glob_str))
+        assert str(found), len(found) >= 1 and len(found) <= FIELDS
+        for idx in range(FIELDS):
+            if found:
+                field_values.append(os.path.join(data_dir, found.pop(0)))
             else:
-                # TODO: do we need a pattern here?
-                field_values.append(os.path.join(data_dir, file_names[0]))
+                field_values.append("")
 
         if not any(field_values):
             print >>sys.stderr, "missing well: %s (%s%s)" % (well_tag, r, c)
@@ -78,6 +58,7 @@ def write_screen(data_dir, plate, outf):
         else:
             count += 1
         writer.add_well(field_values)
+
     if not count:
         raise Exception("no wells: %s" % plate)
     writer.write(outf)

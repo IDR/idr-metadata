@@ -13,8 +13,9 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 Row = 0
 Column = 1
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0020_A2_01.zvi
-Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_A2_02.zvi
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_A2_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_A2_01.zvi
+Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_A2_02.zvi
+Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_A2_03.zvi
 
 [Well 2]
 Row = 0
@@ -91,8 +92,9 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 Row = 2
 Column = 1
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0020_C2_01.zvi
-Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_C2_02.zvi
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_C2_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_C2_01.zvi
+Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_C2_02.zvi
+Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0025_C2_03.zvi
 
 [Well 18]
 Row = 2
@@ -108,8 +110,9 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 Row = 2
 Column = 4
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0022_C5_01.zvi
-Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0024_C5_02.zvi
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0024_C5_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0024_C5_01.zvi
+Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0024_C5_02.zvi
+Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate1-TS/Plate1-TS-Blue-A/Plate1-Blue-A-TS-0024_C5_03.zvi
 
 [Well 21]
 Row = 2

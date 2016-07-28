@@ -151,8 +151,8 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 [Well 29]
 Row = 3
 Column = 5
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0025_D6_03.zvi
-Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0025_D6_04.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0025_D6_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0025_D6_04.zvi
 
 [Well 30]
 Row = 3
@@ -165,8 +165,8 @@ Column = 7
 [Well 32]
 Row = 4
 Column = 0
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0017_E1_03.zvi
-Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0017_E1_04.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0017_E1_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0017_E1_04.zvi
 
 [Well 33]
 Row = 4
@@ -176,8 +176,8 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 [Well 34]
 Row = 4
 Column = 2
-Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0022_E3_04.zvi
-Field_4 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0022_E3_05.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0022_E3_04.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-A/Plate2-Blue-A-TS-0022_E3_05.zvi
 
 [Well 35]
 Row = 4

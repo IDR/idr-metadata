@@ -123,10 +123,10 @@ Column = 7
 Row = 3
 Column = 0
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0016_D1_01.zvi
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0016_D1_03.zvi
-Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0017_D1_04.zvi
-Field_4 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0017_D1_05.zvi
-Field_5 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0017_D1_06.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0016_D1_03.zvi
+Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0017_D1_04.zvi
+Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0017_D1_05.zvi
+Field_4 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0017_D1_06.zvi
 
 [Well 25]
 Row = 3
@@ -170,7 +170,8 @@ Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 Row = 4
 Column = 1
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0016_E2_01.zvi
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0016_E2_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0016_E2_03.zvi
+Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Blue-B/Plate3-Blue-B-TS-0016_E2_031.zvi
 
 [Well 34]
 Row = 4

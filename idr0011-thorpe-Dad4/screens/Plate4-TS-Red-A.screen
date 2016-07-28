@@ -18,8 +18,9 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 [Well 2]
 Row = 0
 Column = 2
-Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate4-TS/Plate4-TS-Red-A/Plate4-Red-A-TS--0004_A3_01.zvi
-Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate4-TS/Plate4-TS-Red-A/Plate4-Red-A-TS--0003_A3_02.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate4-TS/Plate4-TS-Red-A/Plate4-Red-A-TS--0003_A3_02.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate4-TS/Plate4-TS-Red-A/Plate4-Red-A-TS--0004_A3_01.zvi
+Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate4-TS/Plate4-TS-Red-A/Plate4-Red-A-TS--0004_A3_02.zvi
 
 [Well 3]
 Row = 0

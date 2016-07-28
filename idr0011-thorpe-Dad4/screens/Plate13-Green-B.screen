@@ -12,7 +12,7 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x dele
 [Well 1]
 Row = 0
 Column = 1
-Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate13/Plate13-Green-B/Plate13-Green-B-0018_A2_02.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate13/Plate13-Green-B/Plate13-Green-B-0018_A2_02.zvi
 
 [Well 2]
 Row = 0
@@ -92,7 +92,7 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x dele
 [Well 17]
 Row = 2
 Column = 1
-Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate13/Plate13-Green-B/Plate13-Green-B-0017_C2_02.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate13/Plate13-Green-B/Plate13-Green-B-0017_C2_02.zvi
 
 [Well 18]
 Row = 2

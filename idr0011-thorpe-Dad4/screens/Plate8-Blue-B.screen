@@ -117,7 +117,7 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x dele
 [Well 22]
 Row = 2
 Column = 6
-Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate8/Plate8-Blue-B/Plate8-Blue-B-0017_C7_04.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate8/Plate8-Blue-B/Plate8-Blue-B-0017_C7_04.zvi
 
 [Well 23]
 Row = 2
@@ -212,7 +212,7 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x dele
 [Well 41]
 Row = 5
 Column = 1
-Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate8/Plate8-Blue-B/Plate8-Blue-B-0009_F2_02.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate8/Plate8-Blue-B/Plate8-Blue-B-0009_F2_02.zvi
 
 [Well 42]
 Row = 5
@@ -222,7 +222,7 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x dele
 [Well 43]
 Row = 5
 Column = 3
-Field_4 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate8/Plate8-Blue-B/Plate8-Blue-B-0012_F4_05.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate8/Plate8-Blue-B/Plate8-Blue-B-0012_F4_05.zvi
 
 [Well 44]
 Row = 5

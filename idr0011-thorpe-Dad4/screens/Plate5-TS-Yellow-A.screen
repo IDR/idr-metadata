@@ -123,7 +123,8 @@ Column = 2
 [Well 27]
 Row = 3
 Column = 3
-Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate5-TS/Plate5-TS-Yellow-A/Plate5-Yellow-A-TS-0011_D4_02.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate5-TS/Plate5-TS-Yellow-A/Plate5-Yellow-A-TS-0011_D4_02.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate5-TS/Plate5-TS-Yellow-A/Plate5-Yellow-A-TS-0011_D4_021.zvi
 
 [Well 28]
 Row = 3

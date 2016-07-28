@@ -40,13 +40,13 @@ Column = 7
 Row = 1
 Column = 0
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Red-B/Plate2-Red-B-TS-0011_B1_01.zvi
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Red-B/Plate2-Red-B-TS-0012_B1_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Red-B/Plate2-Red-B-TS-0012_B1_03.zvi
 
 [Well 9]
 Row = 1
 Column = 1
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Red-B/Plate2-Red-B-TS-0011_B2_01.zvi
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Red-B/Plate2-Red-B-TS-0011_B2_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Red-B/Plate2-Red-B-TS-0011_B2_03.zvi
 
 [Well 10]
 Row = 1

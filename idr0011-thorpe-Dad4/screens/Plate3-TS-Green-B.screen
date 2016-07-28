@@ -42,8 +42,8 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 [Well 7]
 Row = 0
 Column = 7
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0040_A8_03.zvi
-Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0040_A8_04.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0040_A8_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0040_A8_04.zvi
 
 [Well 8]
 Row = 1
@@ -204,8 +204,8 @@ Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 [Well 39]
 Row = 4
 Column = 7
-Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0039_E8_02.zvi
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0039_E8_03.zvi
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0039_E8_02.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0039_E8_03.zvi
 
 [Well 40]
 Row = 5
@@ -221,8 +221,8 @@ Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/P
 Row = 5
 Column = 2
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0034_F3_01.zvi
-Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0035_F3_03.zvi
-Field_3 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0035_F3_04.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0035_F3_03.zvi
+Field_2 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate3-TS/Plate3-TS-Green-B/Plate3-Green-B-TS-0035_F3_04.zvi
 
 [Well 43]
 Row = 5
