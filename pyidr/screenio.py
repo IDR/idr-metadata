@@ -88,7 +88,8 @@ class ScreenWriter(ScreenIO):
         for k, v in extra_kv.iteritems():
             self.cp.set(sec, k, v)
         for f, v in enumerate(field_values):
-            self.cp.set(sec, "Field_%d" % f, v)
+            if v:
+                self.cp.set(sec, "Field_%d" % f, v)
         self.__well_count += 1
 
     def write(self, outf):

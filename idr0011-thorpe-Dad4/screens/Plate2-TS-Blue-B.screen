@@ -1,0 +1,247 @@
+[Plate]
+Name = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B
+Rows = 6
+Columns = 8
+Fields = 6
+
+[Well 0]
+Row = 0
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_A1_01.zvi
+
+[Well 1]
+Row = 0
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_A2_01.zvi
+
+[Well 2]
+Row = 0
+Column = 2
+
+[Well 3]
+Row = 0
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_A4_01.zvi
+
+[Well 4]
+Row = 0
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0031_A5_01.zvi
+
+[Well 5]
+Row = 0
+Column = 5
+
+[Well 6]
+Row = 0
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_A7_01.zvi
+
+[Well 7]
+Row = 0
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_A8_01.zvi
+
+[Well 8]
+Row = 1
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_B1_01.zvi
+
+[Well 9]
+Row = 1
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_B2_01.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_B2_02.zvi
+
+[Well 10]
+Row = 1
+Column = 2
+
+[Well 11]
+Row = 1
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_B4_01.zvi
+
+[Well 12]
+Row = 1
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0031_B5_01.zvi
+
+[Well 13]
+Row = 1
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0031_B6_01.zvi
+
+[Well 14]
+Row = 1
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_B7_01.zvi
+
+[Well 15]
+Row = 1
+Column = 7
+
+[Well 16]
+Row = 2
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_C1_01.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_C1_02.zvi
+
+[Well 17]
+Row = 2
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_C2_01.zvi
+
+[Well 18]
+Row = 2
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_C3_01.zvi
+
+[Well 19]
+Row = 2
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_C4_01.zvi
+
+[Well 20]
+Row = 2
+Column = 4
+
+[Well 21]
+Row = 2
+Column = 5
+
+[Well 22]
+Row = 2
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_C7_01.zvi
+
+[Well 23]
+Row = 2
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_C8_01.zvi
+
+[Well 24]
+Row = 3
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_D1_01.zvi
+
+[Well 25]
+Row = 3
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_D2_01.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_D2_02.zvi
+
+[Well 26]
+Row = 3
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_D3_01.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_D3_02.zvi
+
+[Well 27]
+Row = 3
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_D4_01.zvi
+
+[Well 28]
+Row = 3
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0031_D5_01.zvi
+
+[Well 29]
+Row = 3
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0031_D6_01.zvi
+
+[Well 30]
+Row = 3
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_D7_01.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_D7_02.zvi
+
+[Well 31]
+Row = 3
+Column = 7
+
+[Well 32]
+Row = 4
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_E1_01.zvi
+
+[Well 33]
+Row = 4
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_E2_02.zvi
+
+[Well 34]
+Row = 4
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_E3_01.zvi
+
+[Well 35]
+Row = 4
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_E4_01.zvi
+
+[Well 36]
+Row = 4
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0031_E5_01.zvi
+
+[Well 37]
+Row = 4
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0031_E6_01.zvi
+
+[Well 38]
+Row = 4
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_E7_01.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_E7_02.zvi
+
+[Well 39]
+Row = 4
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_E8_01.zvi
+
+[Well 40]
+Row = 5
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0028_F1_03.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0028_F1_04.zvi
+
+[Well 41]
+Row = 5
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0027_F2_01.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0029_F2_01.zvi
+
+[Well 42]
+Row = 5
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_F3_02.zvi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_F3_03.zvi
+
+[Well 43]
+Row = 5
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0030_F4_01.zvi
+
+[Well 44]
+Row = 5
+Column = 4
+
+[Well 45]
+Row = 5
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0031_F6_01.zvi
+
+[Well 46]
+Row = 5
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_F7_01.zvi
+
+[Well 47]
+Row = 5
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T34 x TS/Plate2-TS/Plate2-TS-Blue-B/Plate2-Blue-B-TS-0032_F8_01.zvi
+

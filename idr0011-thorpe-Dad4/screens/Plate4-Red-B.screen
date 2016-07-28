@@ -1,0 +1,246 @@
+[Plate]
+Name = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B
+Rows = 6
+Columns = 8
+Fields = 2
+
+[Well 0]
+Row = 0
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0015_A1_01.zvi
+
+[Well 1]
+Row = 0
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_A2_01.zvi
+
+[Well 2]
+Row = 0
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_A3_01.zvi
+
+[Well 3]
+Row = 0
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_A4_01.zvi
+
+[Well 4]
+Row = 0
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_A5_01.zvi
+
+[Well 5]
+Row = 0
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_A6_01.zvi
+
+[Well 6]
+Row = 0
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_A7_01.zvi
+
+[Well 7]
+Row = 0
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_A8_01.zvi
+
+[Well 8]
+Row = 1
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_B1_01.zvi
+
+[Well 9]
+Row = 1
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_B2_01.zvi
+
+[Well 10]
+Row = 1
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_B3_01.zvi
+
+[Well 11]
+Row = 1
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_B4_01.zvi
+
+[Well 12]
+Row = 1
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_B5_01.zvi
+
+[Well 13]
+Row = 1
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_B6_01.zvi
+
+[Well 14]
+Row = 1
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_B7_01.zvi
+
+[Well 15]
+Row = 1
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_B8_01.zvi
+
+[Well 16]
+Row = 2
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_C1_01.zvi
+
+[Well 17]
+Row = 2
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_C2_01.zvi
+
+[Well 18]
+Row = 2
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_C3_01.zvi
+
+[Well 19]
+Row = 2
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_C4_01.zvi
+
+[Well 20]
+Row = 2
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_C5_01.zvi
+
+[Well 21]
+Row = 2
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_C6_01.zvi
+
+[Well 22]
+Row = 2
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_C7_01.zvi
+
+[Well 23]
+Row = 2
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_C8_01.zvi
+
+[Well 24]
+Row = 3
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_D1_01.zvi
+
+[Well 25]
+Row = 3
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_D2_01.zvi
+
+[Well 26]
+Row = 3
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_D3_01.zvi
+
+[Well 27]
+Row = 3
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_D4_01.zvi
+
+[Well 28]
+Row = 3
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_D5_01.zvi
+
+[Well 29]
+Row = 3
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_D6_01.zvi
+
+[Well 30]
+Row = 3
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_D7_01.zvi
+
+[Well 31]
+Row = 3
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_D8_01.zvi
+
+[Well 32]
+Row = 4
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_E1_01.zvi
+
+[Well 33]
+Row = 4
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_E2_01.zvi
+
+[Well 34]
+Row = 4
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_E3_01.zvi
+
+[Well 35]
+Row = 4
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_E4_01.zvi
+
+[Well 36]
+Row = 4
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_E5_01.zvi
+
+[Well 37]
+Row = 4
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_E6_01.zvi
+
+[Well 38]
+Row = 4
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_E7_01.zvi
+
+[Well 39]
+Row = 4
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_E8_01.zvi
+
+[Well 40]
+Row = 5
+Column = 0
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0014_F1_01.zvi
+
+[Well 41]
+Row = 5
+Column = 1
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0013_F2_01.zvi
+
+[Well 42]
+Row = 5
+Column = 2
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_F3_01.zvi
+
+[Well 43]
+Row = 5
+Column = 3
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0018_F4_01.zvi
+
+[Well 44]
+Row = 5
+Column = 4
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0021_F5_01.zvi
+
+[Well 45]
+Row = 5
+Column = 5
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0020_F6_01.zvi
+
+[Well 46]
+Row = 5
+Column = 6
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0027_F7_01.zvi
+
+[Well 47]
+Row = 5
+Column = 7
+Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/T37 x deletion library/Plate4/Plate4-Red-B/Plate4-Red-B-0024_F8_01.zvi
+
