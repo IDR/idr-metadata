@@ -9,7 +9,7 @@ from pyidr.screenio import ScreenWriter
 
 ROWS = 6  # A-F
 COLUMNS = 8
-FIELDS = 6
+FIELDS = -1
 CHANNEL_NAMES = ("Blue", "Green", "Red", "Yellow")
 
 
@@ -18,6 +18,8 @@ def parse_cl(argv):
     parser.add_argument("dir", metavar="DIR", help="dir")
     parser.add_argument("-o", "--output", metavar="FILE", help="output file")
     parser.add_argument("-p", "--plate", metavar="PLATE", help="plate name")
+    parser.add_argument("-f", "--fields", metavar="FIELDS", help="field count",
+                        default=1, type=long)
     return parser.parse_args(argv[1:])
 
 
@@ -66,6 +68,8 @@ def write_screen(data_dir, plate, outf):
 
 def main(argv):
     args = parse_cl(argv)
+    global FIELDS
+    FIELDS = args.fields
     if args.output:
         outf = open(args.output, "w")
     else:
