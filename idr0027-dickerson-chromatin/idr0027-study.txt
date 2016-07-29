@@ -41,7 +41,7 @@ Experiment Size	5D Images: 	Average Image Dimension (XYZCT):	Total Tb:
 Experiment Imaging Method	fluorescence microscopy										
 Experiment Imaging Method Term Source REF	Fbbi										
 Experiment Imaging Method Term Accession	FBbi_00000246										
-Experiment Comments	A results file called idr0027_AllData.csv is attached to this project.										
+Experiment Comments	A results file called idr0027-AnalysisAllData.csv is attached to this project.										
 											
 # assay files											
 Experiment Assay File	idr0027-experimentA-assay.txt										
