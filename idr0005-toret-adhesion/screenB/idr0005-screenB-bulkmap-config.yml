@@ -21,6 +21,18 @@ defaults:
 
 columns:
 
+  - name: Characteristics [Organism]
+    clientname: Organism
+    include: yes
+  - name: Characteristics [Cell Line]
+    clientname: Cell Line
+    include: yes
+  - name: siRNA Identifier
+    include: yes
+  - name: RNAi Primer 1
+    include: yes
+  - name: RNAi Primer 2
+    include: yes
   - name: Gene Identifier
     include: yes
   - name: Gene Identifier
@@ -30,15 +42,42 @@ columns:
   - name: Gene Symbol
     include: yes
   - name: Gene Name
-    include: yes 
+    include: yes
+  - name: Gene Model Status
+    include: yes
+  - name: Gene Symbol Synonyms
+    include: yes
+  - name: Nearest Human Homologue
+    include: yes
+  - name: Regulatory Hub
+    include: yes
+  - name: Reagent Design Gene Annotation Build
+    include: yes
+  - name: Analysis Gene Annotation Build
+    include: yes
+  - name: Control Type
+    include: yes
+  - name: Control Comments
+    include: yes   
+  - name: Channels
+    include: yes
+  - name: Comments
+    include: yes
+  - name: Has Phenotype
+    include: yes
+  - name: Phenotype Annotation Level
+    include: yes
   - name: Phenotype 1
+    clientname: Phenotype
     include: yes
-  - name: Phenotype 1 Term Name 
+  - name: Phenotype 1 Term Name
+    clientname: Phenotype Term Name
+    include: yes
+  - name: Phenotype 1 Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 1 Term Accession 
-    include: yes
-  - name: Phenotype 1 Term Accession 
-    clientname: Phenotype 1 Term Accession URL
+    clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
 
