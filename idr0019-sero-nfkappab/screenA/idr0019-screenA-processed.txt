@@ -1,4 +1,4 @@
-Experimental Condition [cell line]	Cell Line Morphotype
+Experimental Condition [Cell Line]	Cell Line Morphotype
 HCC1954	Luminal 1 - cobblestone (L1 cluster)
 HeLa	Luminal 1 - cobblestone (L1 cluster)
 Hep3B	Luminal 1 - cobblestone (L1 cluster)
