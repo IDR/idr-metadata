@@ -1,124 +1,124 @@
-Characteristics[Organism Part]	Characteristics[Sex]	Characteristics[Individual]	Characteristics[Genotype]	Image File	Has Phenotype Annotation	Phenotype Description	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9	Phenotype 10	Phenotype 11	Phenotype 12	Phenotype 13	Phenotype 14	Phenotype 15	Phenotype 16	Phenotype 17	Phenotype 18	Phenotype 19	Phenotype 20	Phenotype 21	Phenotype 22	Phenotype 23	Phenotype 24	Phenotype 25	Phenotype 26	Phenotype 27	Phenotype 28	Phenotype 29	Phenotype 30	Phenotype 31	Phenotype 32	Phenotype 33	Phenotype 34	Phenotype 35	Phenotype 36	Phenotype 37	Phenotype 38	Phenotype 39	Phenotype 40	Phenotype 41	Phenotype 42	Phenotype 43	Phenotype 44	Phenotype 45	Phenotype 46	Phenotype 47	Phenotype 48
-skin	female	Pipox-14-209	Pipox knockout	Pipox-14_209-skin-a162.tif	yes										aggregated cells in population																																							
-heart	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-heart-a121.tif	yes										aggregated cells in population																																							
-skin	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-skin-a129.tif	yes										aggregated cells in population																																							
-skin	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-skin-a115.tif	yes										aggregated cells in population																																							
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a101.tif	yes										aggregated cells in population																																							
-reproductive system	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-reprom-a138.tif	yes	cell polarization (basal) / PIN	abnormal cell growth phenotype																																															
-liver	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-liver-a125.tif	yes			abnormal cell shape phenotype																																														
-kidney	female	HGS-10-579	Hgs knockout	HGS_10-579-3a.tif	yes	polygonal cells		abnormal cell shape phenotype																																														
-lymph node	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-ln-a148.tif	yes			abnormal cell shape phenotype																																														
-gastrointestinal system	female	Pipox-14-209	Pipox knockout	Pipox-14_209-gi_a1554.tif	yes				abnormal chromosome segregation phenotype																																													
-gastrointestinal system	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-gi-a106.tif	yes				abnormal chromosome segregation phenotype																																													
-brain	male	Car4-13-922	Car4 knockout	Car4-13_922-a55.tif	yes					abnormal nucleus shape phenotype																																												
-gastrointestinal system	male	Car4-13-922	Car4 knockout	Car4-13_922-a59.tif	yes					abnormal nucleus shape phenotype																																												
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a69.tif	yes					abnormal nucleus shape phenotype																																												
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a71.tif	yes					abnormal nucleus shape phenotype																																												
-salivary gland	male	Car4-13-922	Car4 knockout	Car4-13_922-a74.tif	yes					abnormal nucleus shape phenotype																																												
-salivary gland	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-Sali-a114.tif	yes					abnormal nucleus shape phenotype																																												
-brain	male	Car4-13-922	Car4 knockout	Car4-13_922-a54.tif	yes						absence of cell spreading phenotype																																											
-gastrointestinal system	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-gi-a133.tif	yes							absence of mitotic process phenotype																																										
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a68.tif	yes								actin cytoskeleton phenotype																																									
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a94.tif	yes								actin cytoskeleton phenotype																																									
-brain	male	Car4-13-922	Car4 knockout	Car4-13_922-a56.tif	yes												apoptotic cell shape phenotype																																					
-brain	male	Car4-13-922	Car4 knockout	Car4-13_922-a57.tif	yes										aggregated cells in population																																							
-brain	male	Car4-13-922	Car4 knockout	Car4-13_922-a58.tif	yes															bright nuclear body phenotype																																		
-brain	male	Car4-13-923	Car4 knockout	Car4-13_923-a77.tif	yes																													cilium morphology phenotype																				
-brain	male	Car4-13-923	Car4 knockout	Car4-13_923-a78.tif	yes																								cell projection phenotype																									
-gastrointestinal system	male	Car4-13-922	Car4 knockout	Car4-13_922-a60.tif	yes												apoptotic cell shape phenotype																																					
-gastrointestinal system	male	Car4-13-922	Car4 knockout	Car4-13_922-a61.tif	yes																					cell death phenotype																												
-gastrointestinal system	male	Car4-13-923	Car4 knockout	Car4-13_923-a79.tif	yes																																																	S phase mitotic phenotype
-gastrointestinal system	male	Car4-13-923	Car4 knockout	Car4-13_923-a80.tif	yes																cell adhesion phenotype																																	
-heart	male	Car4-13-923	Car4 knockout	Car4_13-923-3a.tif	yes									actin filament phenotype																																								
-heart	male	Car4-13-923	Car4 knockout	Car4_13-923-3b.tif	yes									actin filament phenotype																																								
-heart	male	Car4-13-923	Car4 knockout	Car4_13-923-3c.tif	yes									actin filament phenotype																																								
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a62.tif	yes														binuclear cell phenotype																																			
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a63.tif	yes																																													polyploid cell phenotype				
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a64.tif	yes														binuclear cell phenotype																																			
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a65.tif	yes																																				increased cilium length phenotype													
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a66.tif	yes																cell adhesion phenotype																																	
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a67.tif	yes												apoptotic cell shape phenotype																																					
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a70.tif	yes									actin filament phenotype																																								
-liver	male	Car4-13-922	Car4 knockout	Car4-13_922-a72.tif	yes																																			increased cell size phenotype														
-reproductive system	male	Car4-13-922	Car4 knockout	Car4-13_922-a73tif.tif	yes															bright nuclear body phenotype																																		
-reproductive system	male	Car4-13-923	Car4 knockout	Car4-13_923-a81.tif	yes													bilobed nucleus phenotype																																				
-salivary gland	male	Car4-13-923	Car4 knockout	Car4-13_923-a82.tif	yes	crystalline material in cytoplasm																	cell component morphology phenotype																															
-salivary gland	male	Car4-13-923	Car4 knockout	Car4-13_923-a83.tif	yes																								cell projection phenotype																									
-throat	male	Car4-13-922	Car4 knockout	Car4-13_922-a75.tif	yes									actin filament phenotype																																								
-throat	male	Car4-13-922	Car4 knockout	Car4-13_922-a76.tif	yes																																														pyknotic nuclear phenotype			
-throat	male	Car4-13-923	Car4 knockout	Car4-13_923-a84&85.tif	yes									actin filament phenotype																																								
-throat	male	Car4-13-923	Car4 knockout	Car4-13_923-a86.tif	yes												apoptotic cell shape phenotype																																					
-reproductive system	female	Eya4-14-434	Eya4 knockout	Eya4-14_434-reprof-a141.tif	yes													bilobed nucleus phenotype																																				
-brain	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-brain-a131.tif	yes															bright nuclear body phenotype																																		
-eye	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-eye-a132.tif	yes																cell adhesion phenotype																																	
-heart	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-heart-a134.tif	yes	clear cytoplasm (edema)																	cell component morphology phenotype																															
-knee	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-knee-a135.tif	yes																																		increased cell numbers															
-liver	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-liver-a136.tif	yes												apoptotic cell shape phenotype																																					
-lymph node	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-ln-a137.tif	yes																														decreased axon thickness phenotype																			
-salivary gland	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-sali-a139.tif	yes																																					increased rate of protein secretion												
-skin	male	Eya4-14-432	Eya4 knockout	Eya4-14_432-skin-a140.tif	yes																								cell projection phenotype																									
-brain	female	Pipox-14-209	Pipox knockout	Pipox-14_209-brain-a153.tif	yes	ER dispersed																			cell component structure phenotype																													
-eye	female	Pipox-14-209	Pipox knockout	Pipox-14_209-eye-a154.tif	yes																cell adhesion phenotype																																	
-heart	female	Pipox-14-209	Pipox knockout	Pipox-14_209-heart-a156.tif	yes	fat vacuoles																		cell component size phenotype																														
-knee	female	Pipox-14-209	Pipox knockout	Pipox-14_209-knee-a157.tif	yes									actin filament phenotype																																								
-liver	female	Pipox-14-209	Pipox knockout	Pipox-14_209-liver-a158.tif	yes																																					increased rate of protein secretion												
-lymph node	female	Pipox-14-209	Pipox knockout	Pipox-14_209-ln-a159.tif	yes																														decreased axon thickness phenotype																			
-reproductive system	female	Pipox-14-209	Pipox knockout	Pipox-14_209-reprof-a160.tif	yes																																											more cells in M phase						
-salivary gland	female	Pipox-14-209	Pipox knockout	Pipox-14_209-sali-a161.tif	yes																												cellular component phenotype																					
-reproductive system	male	Pipox-14-210	Pipox knockout	Pipox-14_210-reprom-a163.tif	yes																								cell projection phenotype																									
-reproductive system	female	Ddx41-14-566	Ddx41 knockout	Ddx41-14_566-reprof-a130.tif	yes																	cell apoptosis phenotype																																
-brain	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-brain-a118.tif	yes																																						increased thickness of dendritic branches phenotype											
-eye	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-eye-a119.tif	yes																								cell projection phenotype																									
-gastrointestinal system	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-gi-a120.tif	yes												apoptotic cell shape phenotype																																					
-heart	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-heart-a122.tif	yes																																													polyploid cell phenotype				
-knee	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-knee-a123.tif	yes													bilobed nucleus phenotype																																				
-liver	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-liver-a124.tif	yes																																			increased cell size phenotype														
-lymph node	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-ln-a126.tif	yes																																			increased cell size phenotype														
-reproductive system	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-reprom-a127.tif	yes																		cell component morphology phenotype																															
-salivary gland	male	Ddx41-14-55	Ddx41 knockout	Ddx41-14_552-sali-a128.tif	yes																																					increased rate of protein secretion												
-reproductive system	female	Idh1-14-178	Idh1 knockout	Idh1-14_178-reprof-a152.tif	yes																cell adhesion phenotype																																	
-brain	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-brain-a142.tif	yes																																						increased thickness of dendritic branches phenotype											
-eye	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-eye-a143.tif	yes																															decreased cell numbers																		
-gastrointestinal system	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-gia144-a143.tif	yes																																							M phase arrested phenotype										
-heart	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-heart-a145.tif	yes																						cell DNA phenotype																											
-knee	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-knee-a146.tif	yes																																																round nucleus phenotype	
-liver	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-liver-a147.tif	yes														binuclear cell phenotype																																			
-reproductive system	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-reprom-a149.tif	yes																											cells with projections																						
-salivary gland	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-Sali-a150.tif	yes	resorbtion vacuoles																																														regulation of metabolic process phenotype		
-skin	male	Idh1-14-177	Idh1 knockout	Idh1-14_177-skin-a151.tif	yes	collagen fiber deposits																							cell projection phenotype																									
-reproductive system	female	Bazla-14-100	Baz1a knockout	Bazla-14_100-reprof-a116.tif	yes																																														pyknotic nuclear phenotype			
-reproductive system	female	Bazla-14-100	Baz1a knockout	Bazla-14_100-reprof-a117.tif	yes	increased rate of protein secretion																	cell component morphology phenotype																															
-eye	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-eye-a105.tif	yes																									cell spreading phenotype																								
-heart	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-heart-a107.tif	yes														binuclear cell phenotype																																			
-heart	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-heart-a108.tif	yes	cytoplasm vacuoles																																increased cell component number phenotype																
-knee	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-knee-a109.tif	yes														binuclear cell phenotype																																			
-liver	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-liver-a110.tif	yes														binuclear cell phenotype																																			
-liver	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-liver-a111.tif	yes																																														pyknotic nuclear phenotype			
-lymph node	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-LN-a112.tif	yes									actin filament phenotype																																								
-reproductive system	male	Bazla-14-75	Baz1a knockout	Bazla-14_75-reprom-a113.tif	yes																																fewer cells with projections																	
-choroid plexus	male	PML-09-1625	Pml knockout	PML_09-1625-1a-a.tif	yes														binuclear cell phenotype																																			
-liver	female	RXFP2-13-932	Rxfp2 knockout	RXFP2_13-932-3a.tif	yes																																													polyploid cell phenotype				
-liver	female	RXFP2-13-932	Rxfp2 knockout	RXFP2_13-932-3g.tif	yes														binuclear cell phenotype																																			
-brain	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a87.tif	yes																																						increased thickness of dendritic branches phenotype											
-brain	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a88.tif	yes													bilobed nucleus phenotype																																				
-brain	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-brain-overview.tif	yes																																						increased thickness of dendritic branches phenotype											
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a100.tif	yes																																													polyploid cell phenotype				
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a102.tif	yes	Hemosiderin deposits																																								metabolic process phenotype								
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a103.tif	yes											apoptopic nucleus phenotype																																						
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a89.tif	yes																																								M phase mitotic phenotype									
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a90.tif	yes														binuclear cell phenotype																																			
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a91.tif	yes																										cell-matrix adhesion phenotype																							
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a92.tif	yes																																			increased cell size phenotype														
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a93.tif	yes																																										misshapen DNA							
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a95.tif	yes																cell adhesion phenotype																																	
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a96.tif	yes	adenoma (benign tumor)																						cell morphology phenotype																										
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a97.tif	yes	nuclear membrane																																											nuclear morphology phenotype					
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a98.tif	yes															bright nuclear body phenotype																																		
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-a99.tif	yes														binuclear cell phenotype																																			
-gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-gi-overview.tif	yes												apoptotic cell shape phenotype																																					
-liver	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-liver-overview.tif	yes																																													polyploid cell phenotype				
-liver	female	Cpa2-14-22	Cpa2 knockout	Cpa2-14_22-liver-overview5.tif	yes																																													polyploid cell phenotype				
-oviduct	female	Cpa2-14-22	Cpa2 knockout	CPA2-14_22_1bf-a.tif	yes																						cell DNA phenotype																											
-oviduct	female	Cpa2-14-22	Cpa2 knockout	CPA2-14_22_1bf-b.tif	yes												apoptotic cell shape phenotype																																					
-oviduct	female	Cpa2-14-22	Cpa2 knockout	CPA2-14_22_1bf-c.tif	yes											apoptopic nucleus phenotype																																						
-oviduct	female	Cpa2-14-22	Cpa2 knockout	CPA2-14_22_1bf-d.tif	yes															bright nuclear body phenotype																																		
+Image File	Characteristics [Organism Part]	Characteristics [Sex]	Characteristics [Individual]	Characteristics [Genotype]	Has Phenotype	Phenotype Annotation Level	Phenotype Description	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9	Phenotype 10	Phenotype 11	Phenotype 12	Phenotype 13	Phenotype 14	Phenotype 15	Phenotype 16	Phenotype 17	Phenotype 18	Phenotype 19	Phenotype 20	Phenotype 21	Phenotype 22	Phenotype 23	Phenotype 24	Phenotype 25	Phenotype 26	Phenotype 27	Phenotype 28	Phenotype 29	Phenotype 30	Phenotype 31	Phenotype 32	Phenotype 33	Phenotype 34	Phenotype 35	Phenotype 36	Phenotype 37	Phenotype 38	Phenotype 39	Phenotype 40	Phenotype 41	Phenotype 42	Phenotype 43	Phenotype 44	Phenotype 45	Phenotype 46	Phenotype 47	Phenotype 48
+Bazla-14_100-reprof-a116.tif	reproductive system	female	Baz1a-14-100	Baz1a knockout	yes	image																																														pyknotic nuclear phenotype			
+Bazla-14_100-reprof-a117.tif	reproductive system	female	Baz1a-14-100	Baz1a knockout	yes	image	increased rate of protein secretion																	cell component morphology phenotype																															
+Bazla-14_75-eye-a105.tif	eye	male	Baz1a-14-75	Baz1a knockout	yes	image																									cell spreading phenotype																								
+Bazla-14_75-gi-a106.tif	gastrointestinal system	male	Baz1a-14-75	Baz1a knockout	yes	image				abnormal chromosome segregation phenotype																																													
+Bazla-14_75-heart-a107.tif	heart	male	Baz1a-14-75	Baz1a knockout	yes	image														binuclear cell phenotype																																			
+Bazla-14_75-heart-a108.tif	heart	male	Baz1a-14-75	Baz1a knockout	yes	image	cytoplasm vacuoles																																increased cell component number phenotype																
+Bazla-14_75-knee-a109.tif	knee	male	Baz1a-14-75	Baz1a knockout	yes	image														binuclear cell phenotype																																			
+Bazla-14_75-liver-a110.tif	liver	male	Baz1a-14-75	Baz1a knockout	yes	image														binuclear cell phenotype																																			
+Bazla-14_75-liver-a111.tif	liver	male	Baz1a-14-75	Baz1a knockout	yes	image																																														pyknotic nuclear phenotype			
+Bazla-14_75-LN-a112.tif	lymph node	male	Baz1a-14-75	Baz1a knockout	yes	image									actin filament phenotype																																								
+Bazla-14_75-reprom-a113.tif	reproductive system	male	Baz1a-14-75	Baz1a knockout	yes	image																																fewer cells with projections																	
+Bazla-14_75-Sali-a114.tif	salivary gland	male	Baz1a-14-75	Baz1a knockout	yes	image					abnormal nucleus shape phenotype																																												
+Bazla-14_75-skin-a115.tif	skin	male	Baz1a-14-75	Baz1a knockout	yes	image										aggregated cells in population																																							
+Car4_13-923-3a.tif	heart	male	Car4-13-923	Car4 knockout	yes	image									actin filament phenotype																																								
+Car4_13-923-3b.tif	heart	male	Car4-13-923	Car4 knockout	yes	image									actin filament phenotype																																								
+Car4_13-923-3c.tif	heart	male	Car4-13-923	Car4 knockout	yes	image									actin filament phenotype																																								
+Car4-13_922-a54.tif	brain	male	Car4-13-922	Car4 knockout	yes	image						absence of cell spreading phenotype																																											
+Car4-13_922-a55.tif	brain	male	Car4-13-922	Car4 knockout	yes	image					abnormal nucleus shape phenotype																																												
+Car4-13_922-a56.tif	brain	male	Car4-13-922	Car4 knockout	yes	image												apoptotic cell shape phenotype																																					
+Car4-13_922-a57.tif	brain	male	Car4-13-922	Car4 knockout	yes	image										aggregated cells in population																																							
+Car4-13_922-a58.tif	brain	male	Car4-13-922	Car4 knockout	yes	image															bright nuclear body phenotype																																		
+Car4-13_922-a59.tif	gastrointestinal system	male	Car4-13-922	Car4 knockout	yes	image					abnormal nucleus shape phenotype																																												
+Car4-13_922-a60.tif	gastrointestinal system	male	Car4-13-922	Car4 knockout	yes	image												apoptotic cell shape phenotype																																					
+Car4-13_922-a61.tif	gastrointestinal system	male	Car4-13-922	Car4 knockout	yes	image																					cell death phenotype																												
+Car4-13_922-a62.tif	liver	male	Car4-13-922	Car4 knockout	yes	image														binuclear cell phenotype																																			
+Car4-13_922-a63.tif	liver	male	Car4-13-922	Car4 knockout	yes	image																																													polyploid cell phenotype				
+Car4-13_922-a64.tif	liver	male	Car4-13-922	Car4 knockout	yes	image														binuclear cell phenotype																																			
+Car4-13_922-a65.tif	liver	male	Car4-13-922	Car4 knockout	yes	image																																				increased cilium length phenotype													
+Car4-13_922-a66.tif	liver	male	Car4-13-922	Car4 knockout	yes	image																cell adhesion phenotype																																	
+Car4-13_922-a67.tif	liver	male	Car4-13-922	Car4 knockout	yes	image												apoptotic cell shape phenotype																																					
+Car4-13_922-a68.tif	liver	male	Car4-13-922	Car4 knockout	yes	image								actin cytoskeleton phenotype																																									
+Car4-13_922-a69.tif	liver	male	Car4-13-922	Car4 knockout	yes	image					abnormal nucleus shape phenotype																																												
+Car4-13_922-a70.tif	liver	male	Car4-13-922	Car4 knockout	yes	image									actin filament phenotype																																								
+Car4-13_922-a71.tif	liver	male	Car4-13-922	Car4 knockout	yes	image					abnormal nucleus shape phenotype																																												
+Car4-13_922-a72.tif	liver	male	Car4-13-922	Car4 knockout	yes	image																																			increased cell size phenotype														
+Car4-13_922-a73tif.tif	reproductive system	male	Car4-13-922	Car4 knockout	yes	image															bright nuclear body phenotype																																		
+Car4-13_922-a74.tif	salivary gland	male	Car4-13-922	Car4 knockout	yes	image					abnormal nucleus shape phenotype																																												
+Car4-13_922-a75.tif	throat	male	Car4-13-922	Car4 knockout	yes	image									actin filament phenotype																																								
+Car4-13_922-a76.tif	throat	male	Car4-13-922	Car4 knockout	yes	image																																														pyknotic nuclear phenotype			
+Car4-13_923-a77.tif	brain	male	Car4-13-923	Car4 knockout	yes	image																													cilium morphology phenotype																				
+Car4-13_923-a78.tif	brain	male	Car4-13-923	Car4 knockout	yes	image																								cell projection phenotype																									
+Car4-13_923-a79.tif	gastrointestinal system	male	Car4-13-923	Car4 knockout	yes	image																																																	S phase mitotic phenotype
+Car4-13_923-a80.tif	gastrointestinal system	male	Car4-13-923	Car4 knockout	yes	image																cell adhesion phenotype																																	
+Car4-13_923-a81.tif	reproductive system	male	Car4-13-923	Car4 knockout	yes	image													bilobed nucleus phenotype																																				
+Car4-13_923-a82.tif	salivary gland	male	Car4-13-923	Car4 knockout	yes	image	crystalline material in cytoplasm																	cell component morphology phenotype																															
+Car4-13_923-a83.tif	salivary gland	male	Car4-13-923	Car4 knockout	yes	image																								cell projection phenotype																									
+Car4-13_923-a84&85.tif	throat	male	Car4-13-923	Car4 knockout	yes	image									actin filament phenotype																																								
+Car4-13_923-a86.tif	throat	male	Car4-13-923	Car4 knockout	yes	image												apoptotic cell shape phenotype																																					
+CPA2-14_22_1bf-a.tif	oviduct	female	Cpa2-14-22	Cpa2 knockout	yes	image																						cell DNA phenotype																											
+CPA2-14_22_1bf-b.tif	oviduct	female	Cpa2-14-22	Cpa2 knockout	yes	image												apoptotic cell shape phenotype																																					
+CPA2-14_22_1bf-c.tif	oviduct	female	Cpa2-14-22	Cpa2 knockout	yes	image											apoptopic nucleus phenotype																																						
+CPA2-14_22_1bf-d.tif	oviduct	female	Cpa2-14-22	Cpa2 knockout	yes	image															bright nuclear body phenotype																																		
+Cpa2-14_22-a100.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image																																													polyploid cell phenotype				
+Cpa2-14_22-a101.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image										aggregated cells in population																																							
+Cpa2-14_22-a102.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image	Hemosiderin deposits																																								metabolic process phenotype								
+Cpa2-14_22-a103.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image											apoptopic nucleus phenotype																																						
+Cpa2-14_22-a87.tif	brain	female	Cpa2-14-22	Cpa2 knockout	yes	image																																						increased thickness of dendritic branches phenotype											
+Cpa2-14_22-a88.tif	brain	female	Cpa2-14-22	Cpa2 knockout	yes	image													bilobed nucleus phenotype																																				
+Cpa2-14_22-a89.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image																																								M phase mitotic phenotype									
+Cpa2-14_22-a90.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image														binuclear cell phenotype																																			
+Cpa2-14_22-a91.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image																										cell-matrix adhesion phenotype																							
+Cpa2-14_22-a92.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image																																			increased cell size phenotype														
+Cpa2-14_22-a93.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image																																										misshapen DNA							
+Cpa2-14_22-a94.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image								actin cytoskeleton phenotype																																									
+Cpa2-14_22-a95.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image																cell adhesion phenotype																																	
+Cpa2-14_22-a96.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image	adenoma (benign tumor)																						cell morphology phenotype																										
+Cpa2-14_22-a97.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image	nuclear membrane																																											nuclear morphology phenotype					
+Cpa2-14_22-a98.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image															bright nuclear body phenotype																																		
+Cpa2-14_22-a99.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image														binuclear cell phenotype																																			
+Cpa2-14_22-brain-overview.tif	brain	female	Cpa2-14-22	Cpa2 knockout	yes	image																																						increased thickness of dendritic branches phenotype											
+Cpa2-14_22-gi-overview.tif	gastrointestinal system	female	Cpa2-14-22	Cpa2 knockout	yes	image												apoptotic cell shape phenotype																																					
+Cpa2-14_22-liver-overview.tif	liver	female	Cpa2-14-22	Cpa2 knockout	yes	image																																													polyploid cell phenotype				
+Cpa2-14_22-liver-overview5.tif	liver	female	Cpa2-14-22	Cpa2 knockout	yes	image																																													polyploid cell phenotype				
+Ddx41-14_552-brain-a118.tif	brain	male	Ddx41-14-55	Ddx41 knockout	yes	image																																						increased thickness of dendritic branches phenotype											
+Ddx41-14_552-eye-a119.tif	eye	male	Ddx41-14-55	Ddx41 knockout	yes	image																								cell projection phenotype																									
+Ddx41-14_552-gi-a120.tif	gastrointestinal system	male	Ddx41-14-55	Ddx41 knockout	yes	image												apoptotic cell shape phenotype																																					
+Ddx41-14_552-heart-a121.tif	heart	male	Ddx41-14-55	Ddx41 knockout	yes	image										aggregated cells in population																																							
+Ddx41-14_552-heart-a122.tif	heart	male	Ddx41-14-55	Ddx41 knockout	yes	image																																													polyploid cell phenotype				
+Ddx41-14_552-knee-a123.tif	knee	male	Ddx41-14-55	Ddx41 knockout	yes	image													bilobed nucleus phenotype																																				
+Ddx41-14_552-liver-a124.tif	liver	male	Ddx41-14-55	Ddx41 knockout	yes	image																																			increased cell size phenotype														
+Ddx41-14_552-liver-a125.tif	liver	male	Ddx41-14-55	Ddx41 knockout	yes	image			abnormal cell shape phenotype																																														
+Ddx41-14_552-ln-a126.tif	lymph node	male	Ddx41-14-55	Ddx41 knockout	yes	image																																			increased cell size phenotype														
+Ddx41-14_552-reprom-a127.tif	reproductive system	male	Ddx41-14-55	Ddx41 knockout	yes	image																		cell component morphology phenotype																															
+Ddx41-14_552-sali-a128.tif	salivary gland	male	Ddx41-14-55	Ddx41 knockout	yes	image																																					increased rate of protein secretion												
+Ddx41-14_552-skin-a129.tif	skin	male	Ddx41-14-55	Ddx41 knockout	yes	image										aggregated cells in population																																							
+Ddx41-14_566-reprof-a130.tif	reproductive system	female	Ddx41-14-566	Ddx41 knockout	yes	image																	cell apoptosis phenotype																																
+Eya4-14_432-brain-a131.tif	brain	male	Eya4-14-432	Eya4 knockout	yes	image															bright nuclear body phenotype																																		
+Eya4-14_432-eye-a132.tif	eye	male	Eya4-14-432	Eya4 knockout	yes	image																cell adhesion phenotype																																	
+Eya4-14_432-gi-a133.tif	gastrointestinal system	male	Eya4-14-432	Eya4 knockout	yes	image							absence of mitotic process phenotype																																										
+Eya4-14_432-heart-a134.tif	heart	male	Eya4-14-432	Eya4 knockout	yes	image	clear cytoplasm (edema)																	cell component morphology phenotype																															
+Eya4-14_432-knee-a135.tif	knee	male	Eya4-14-432	Eya4 knockout	yes	image																																		increased cell numbers															
+Eya4-14_432-liver-a136.tif	liver	male	Eya4-14-432	Eya4 knockout	yes	image												apoptotic cell shape phenotype																																					
+Eya4-14_432-ln-a137.tif	lymph node	male	Eya4-14-432	Eya4 knockout	yes	image																														decreased axon thickness phenotype																			
+Eya4-14_432-reprom-a138.tif	reproductive system	male	Eya4-14-432	Eya4 knockout	yes	image	cell polarization (basal) / PIN	abnormal cell growth phenotype																																															
+Eya4-14_432-sali-a139.tif	salivary gland	male	Eya4-14-432	Eya4 knockout	yes	image																																					increased rate of protein secretion												
+Eya4-14_432-skin-a140.tif	skin	male	Eya4-14-432	Eya4 knockout	yes	image																								cell projection phenotype																									
+Eya4-14_434-reprof-a141.tif	reproductive system	female	Eya4-14-434	Eya4 knockout	yes	image													bilobed nucleus phenotype																																				
+HGS_10-579-3a.tif	kidney	female	HGS-10-579	Hgs knockout	yes	image	polygonal cells		abnormal cell shape phenotype																																														
+Idh1-14_177-brain-a142.tif	brain	male	Idh1-14-177	Idh1 knockout	yes	image																																						increased thickness of dendritic branches phenotype											
+Idh1-14_177-eye-a143.tif	eye	male	Idh1-14-177	Idh1 knockout	yes	image																															decreased cell numbers																		
+Idh1-14_177-gia144-a143.tif	gastrointestinal system	male	Idh1-14-177	Idh1 knockout	yes	image																																							M phase arrested phenotype										
+Idh1-14_177-heart-a145.tif	heart	male	Idh1-14-177	Idh1 knockout	yes	image																						cell DNA phenotype																											
+Idh1-14_177-knee-a146.tif	knee	male	Idh1-14-177	Idh1 knockout	yes	image																																																round nucleus phenotype	
+Idh1-14_177-liver-a147.tif	liver	male	Idh1-14-177	Idh1 knockout	yes	image														binuclear cell phenotype																																			
+Idh1-14_177-ln-a148.tif	lymph node	male	Idh1-14-177	Idh1 knockout	yes	image			abnormal cell shape phenotype																																														
+Idh1-14_177-reprom-a149.tif	reproductive system	male	Idh1-14-177	Idh1 knockout	yes	image																											cells with projections																						
+Idh1-14_177-Sali-a150.tif	salivary gland	male	Idh1-14-177	Idh1 knockout	yes	image	resorbtion vacuoles																																														regulation of metabolic process phenotype		
+Idh1-14_177-skin-a151.tif	skin	male	Idh1-14-177	Idh1 knockout	yes	image	collagen fiber deposits																							cell projection phenotype																									
+Idh1-14_178-reprof-a152.tif	reproductive system	female	Idh1-14-178	Idh1 knockout	yes	image																cell adhesion phenotype																																	
+Pipox-14_209-brain-a153.tif	brain	female	Pipox-14-209	Pipox knockout	yes	image	ER dispersed																			cell component structure phenotype																													
+Pipox-14_209-eye-a154.tif	eye	female	Pipox-14-209	Pipox knockout	yes	image																cell adhesion phenotype																																	
+Pipox-14_209-gi_a1554.tif	gastrointestinal system	female	Pipox-14-209	Pipox knockout	yes	image				abnormal chromosome segregation phenotype																																													
+Pipox-14_209-heart-a156.tif	heart	female	Pipox-14-209	Pipox knockout	yes	image	fat vacuoles																		cell component size phenotype																														
+Pipox-14_209-knee-a157.tif	knee	female	Pipox-14-209	Pipox knockout	yes	image									actin filament phenotype																																								
+Pipox-14_209-liver-a158.tif	liver	female	Pipox-14-209	Pipox knockout	yes	image																																					increased rate of protein secretion												
+Pipox-14_209-ln-a159.tif	lymph node	female	Pipox-14-209	Pipox knockout	yes	image																														decreased axon thickness phenotype																			
+Pipox-14_209-reprof-a160.tif	reproductive system	female	Pipox-14-209	Pipox knockout	yes	image																																											more cells in M phase						
+Pipox-14_209-sali-a161.tif	salivary gland	female	Pipox-14-209	Pipox knockout	yes	image																												cellular component phenotype																					
+Pipox-14_209-skin-a162.tif	skin	female	Pipox-14-209	Pipox knockout	yes	image										aggregated cells in population																																							
+Pipox-14_210-reprom-a163.tif	reproductive system	male	Pipox-14-210	Pipox knockout	yes	image																								cell projection phenotype																									
+PML_09-1625-1a-a.tif	choroid plexus	male	PML-09-1625	Pml knockout	yes	image														binuclear cell phenotype																																			
+RXFP2_13-932-3a.tif	liver	female	RXFP2-13-932	Rxfp2 knockout	yes	image																																													polyploid cell phenotype				
+RXFP2_13-932-3g.tif	liver	female	RXFP2-13-932	Rxfp2 knockout	yes	image														binuclear cell phenotype																																			
