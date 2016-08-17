@@ -1,6 +1,6 @@
 ---
 name: idr0012-fuchs-cellmorph/screenC
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -29,6 +29,7 @@ columns:
     include: yes
   - name: Gene Symbol
     include: yes
+
   - name: Phenotype 1
     include: yes
   - name: Phenotype 1 Term Name
@@ -39,6 +40,7 @@ columns:
     clientname: Phenotype 1 Term Accession URL
     clientvalue: http://purl.obolibrary.org/obo/{{ value }}
     include: yes
+
   - name: Phenotype 2
     include: yes
   - name: Phenotype 2 Term Name
@@ -49,6 +51,7 @@ columns:
     clientname: Phenotype 2 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 3
     include: yes
   - name: Phenotype 3 Term Name
@@ -59,8 +62,10 @@ columns:
     clientname: Phenotype 3 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 4
     include: yes
+
   - name: Phenotype 5
     include: yes
   - name: Phenotype 5 Term Name
@@ -71,6 +76,7 @@ columns:
     clientname: Phenotype 5 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 6
     include: yes
   - name: Phenotype 6 Term Name
@@ -81,8 +87,10 @@ columns:
     clientname: Phenotype 6 Term Accession URL
     clientvalue: http://purl.obolibrary.org/obo/{{ value }}
     include: yes
+
   - name: Phenotype 7
     include: yes
+
   - name: Phenotype 8
     include: yes
   - name: Phenotype 8 Term Name
@@ -93,6 +101,7 @@ columns:
     clientname: Phenotype 8 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 9
     include: yes
   - name: Phenotype 9 Term Name
@@ -104,9 +113,146 @@ columns:
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
 
-    
+######################################################################
+# mapr groups
+######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+      - name: Gene Identifier
+        include: yes
+      - name: Gene Identifier
+        clientname: Gene Identifier URL
+        clientvalue: http://www.ncbi.nlm.nih.gov/gene/?term={{ value }}
+        include: yes
+      - name: Gene Symbol
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 1
+        include: yes
+      - name: Phenotype 1 Term Name
+        include: yes
+      - name: Phenotype 1 Term Accession
+        include: yes
+      - name: Phenotype 1 Term Accession
+        clientname: Phenotype 1 Term Accession URL
+        clientvalue: http://purl.obolibrary.org/obo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 2
+        include: yes
+      - name: Phenotype 2 Term Name
+        include: yes
+      - name: Phenotype 2 Term Accession
+        include: yes
+      - name: Phenotype 2 Term Accession
+        clientname: Phenotype 2 Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 3
+        include: yes
+      - name: Phenotype 3 Term Name
+        include: yes
+      - name: Phenotype 3 Term Accession
+        include: yes
+      - name: Phenotype 3 Term Accession
+        clientname: Phenotype 3 Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 4
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 5
+        include: yes
+      - name: Phenotype 5 Term Name
+        include: yes
+      - name: Phenotype 5 Term Accession
+        include: yes
+      - name: Phenotype 5 Term Accession
+        clientname: Phenotype 5 Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 6
+        include: yes
+      - name: Phenotype 6 Term Name
+        include: yes
+      - name: Phenotype 6 Term Accession
+        include: yes
+      - name: Phenotype 6 Term Accession
+        clientname: Phenotype 6 Term Accession URL
+        clientvalue: http://purl.obolibrary.org/obo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 7
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 8
+        include: yes
+      - name: Phenotype 8 Term Name
+        include: yes
+      - name: Phenotype 8 Term Accession
+        include: yes
+      - name: Phenotype 8 Term Accession
+        clientname: Phenotype 8 Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 9
+        include: yes
+      - name: Phenotype 9 Term Name
+        include: yes
+      - name: Phenotype 9 Term Accession
+        include: yes
+      - name: Phenotype 9 Term Accession
+        clientname: Phenotype 9 Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+
 # Advanced options (experimental)
 advanced:
     # If a map-annotation is attached to a well also attach it to all images
     # in the well
     well_to_images: yes
+
+    # TODO: Primary key config should be in a global config
+    ignore_missing_primary_key: yes
+    primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/gene
+      keys:
+      - Gene Identifier
+      - Gene Symbol
+    - namespace: openmicroscopy.org/mapr/phenotype
+      keys:
+      - Phenotype
