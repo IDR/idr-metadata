@@ -1,6 +1,6 @@
 ---
 name: idr0001-graml-sysgro
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -24,6 +24,7 @@ columns:
   - name: Characteristics [Organism]
     clientname: Organism
     include: yes
+
   - name: Gene Identifier
     include: yes
   - name: Gene Identifier
@@ -32,25 +33,29 @@ columns:
     include: yes
   - name: Gene Symbol
     include: yes
+
   - name: Reagent Design Gene Annotation Build
     include: yes
   - name: Analysis Gene Annotation Build
     include: yes
+
   - name: Control Type
     include: yes
   - name: Control Comments
     include: yes
+
   - name: Channels
     include: yes
   - name: Replicate Group
     include: yes
   - name: Has Phenotype
     include: yes
+
   - name: Phenotype 1
     clientname: Phenotype
-    include: yes   
+    include: yes
   - name: Phenotype 1 Term Name a
-    clientname: Phenotype Term Name  
+    clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 1 Term Accession a
     clientname: Phenotype Term Accession
@@ -60,7 +65,7 @@ columns:
     clientvalue: http://purl.obolibrary.org/obo/{{ value }}
     include: yes
   - name: Phenotype 1 Term Name b
-    clientname: Phenotype Term Name 
+    clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 1 Term Accession b
     clientname: Phenotype Term Accession
@@ -69,6 +74,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 2
     clientname: Phenotype
     include: yes
@@ -82,6 +88,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 3
     clientname: Phenotype
     include: yes
@@ -95,6 +102,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 4
     clientname: Phenotype
     include: yes
@@ -108,6 +116,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 5
     clientname: Phenotype
     include: yes
@@ -121,6 +130,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 6
     clientname: Phenotype
     include: yes
@@ -134,6 +144,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 7
     clientname: Phenotype
     include: yes
@@ -147,6 +158,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 8
     clientname: Phenotype
     include: yes
@@ -160,6 +172,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 9
     clientname: Phenotype
     include: yes
@@ -173,6 +186,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 10
     clientname: Phenotype
     include: yes
@@ -186,6 +200,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 11
     clientname: Phenotype
     include: yes
@@ -198,7 +213,8 @@ columns:
   - name: Phenotype 11 Term Accession
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
-    include: yes   
+    include: yes
+
   - name: Phenotype 12
     clientname: Phenotype
     include: yes
@@ -212,6 +228,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://purl.obolibrary.org/obo/{{ value }}
     include: yes
+
   - name: Phenotype 12 Term Name b
     clientname: Phenotype Term Name
     include: yes
@@ -222,6 +239,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://purl.obolibrary.org/obo/{{ value }}
     include: yes
+
   - name: Phenotype 13
     clientname: Phenotype
     include: yes
@@ -235,6 +253,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 14
     clientname: Phenotype
     include: yes
@@ -248,6 +267,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 15
     clientname: Phenotype
     include: yes
@@ -260,6 +280,7 @@ columns:
     clientname: Phenotype 15 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 16
     clientname: Phenotype
     include: yes
@@ -273,6 +294,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 17
     clientname: Phenotype
     include: yes
@@ -286,6 +308,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 18
     clientname: Phenotype
     include: yes
@@ -299,6 +322,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+
   - name: Phenotype 19
     clientname: Phenotype
     include: yes
@@ -323,9 +347,392 @@ columns:
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
 
-    
+######################################################################
+# mapr groups
+######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+      - name: Gene Identifier
+        include: yes
+      - name: Gene Identifier
+        clientname: Gene Identifier URL
+        clientvalue: http://www.pombase.org/spombe/result/{{ value }}
+        include: yes
+      - name: Gene Symbol
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 1
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 1 Term Name a
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 1 Term Accession a
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 1 Term Accession a
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://purl.obolibrary.org/obo/{{ value }}
+        include: yes
+      - name: Phenotype 1 Term Name b
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 1 Term Accession b
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 1 Term Accession b
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 2
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 2 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 2 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 2 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 3
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 3 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 3 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 3 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 4
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 4 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 4 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 4 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 5
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 5 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 5 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 5 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 6
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 6 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 6 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 6 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 7
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 7 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 7 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 7 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 8
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 8 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 8 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 8 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 9
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 9 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 9 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 9 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 10
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 10 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 10 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 10 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 11
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 11 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 11 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 11 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 12
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 12 Term Name a
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 12 Term Accession a
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 12 Term Accession a
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://purl.obolibrary.org/obo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 12 Term Name b
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 12 Term Accession b
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 12 Term Accession b
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://purl.obolibrary.org/obo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 13
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 13 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 13 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 13 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 14
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 14 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 14 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 14 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 15
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 15 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 15 Term Accession
+        include: yes
+      - name: Phenotype 15 Term Accession
+        clientname: Phenotype 15 Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 16
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 16 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 16 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 16 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 17
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 17 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 17 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 17 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 18
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 18 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 18 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 18 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 19
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 19 Term Name a
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 19 Term Accession a
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 19 Term Accession a
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+      - name: Phenotype 19 Term Name b
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 19 Term Accession b
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 19 Term Accession b
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
+
 # Advanced options (experimental)
 advanced:
     # If a map-annotation is attached to a well also attach it to all images
     # in the well
     well_to_images: yes
+
+    # TODO: Primary key config should be in a global config
+    ignore_missing_primary_key: yes
+    primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/gene
+      keys:
+      - Gene Identifier
+      - Gene Symbol
+    - namespace: openmicroscopy.org/mapr/phenotype
+      keys:
+      - Phenotype
