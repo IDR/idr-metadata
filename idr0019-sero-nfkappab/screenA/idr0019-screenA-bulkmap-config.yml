@@ -1,6 +1,6 @@
 ---
 name: idr0019-sero-nfkappab/screenA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -41,12 +41,14 @@ columns:
   - name: Experimental Condition [Time]
     clientname: Time
     include: yes
+
   - name: Control Type
     include: yes
   - name: Control Comments
     include: yes
   - name: Channels
     include: yes
+
   - name: Comments
     include: yes
   - name: Cell Line Morphotype
