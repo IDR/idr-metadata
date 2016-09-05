@@ -1,92 +1,86 @@
-"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"																																																							
-# Study																																																							
-Comment[IDR Study Accession]	idr0018																																																						
-Study Title	Histopathology of mouse knockouts																																																						
-Study Type	histology																																																						
-Study Type Term Source REF																																																							
-Study Type Term Accession																																																							
-Study Description	Histopathology study of 14 tissues from mice with 10 different mitotic gene knockouts. This data was produced as part of Work Package 6 of the BioMedBridges project http://www.biomedbridges.eu/workpackages/wp6 which looked at interoperability of large scale image data sets																																																						
-"from different biological scales."""																																																							
-Study Organism	Mus musculus																																																						
-Study Organism Term Source REF	NCBITaxon																																																						
-Study Organism Term Accession	NCBITaxon_10090																																																						
-Study Experiments Number	1																																																						
-Study External URL																																																							
-Study Public Release Date	01/05/16																																																						
-																																																							
-# Study Publication																																																							
-Study PubMed ID																																																							
-Study Publication Title																																																							
-Study Author List																																																							
-Study PMC ID																																																							
-Study DOI																																																							
-																																																							
-# Study Contacts																																																							
-Study Person Last Name	Neff																																																						
-Study Person First Name	Frauke																																																						
-Study Person Email	frauke.neff@helmholtz-muenchen.de																																																						
-Study Person Address	"Institute of Pathology, Helmholtz Zentrum Muenchen, Germany"																																																						
-Study Person Roles	submitter																																																						
-																																																							
-Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	PATO	UBERON																																																	
-Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/																																																	
-																																																							
-																																																							
-"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."																																																							
-# Screen; this section should be repeated if a study contains multiple screens																																																							
-																																																							
-Experiment Number	1																																																						
-Comment[IDR Experiment Name]	idr0018-neff-histopathology/experimentA																																																						
-Experiment Description	Histopathology raw images and annotated tiff files of tissues from mice with 10 different single gene knockouts. Raw images are not available for all gene knockouts.																																																						
-Experiment Size	5D Images: 	Average Image Dimension (XYZCT):1376 x 1040 x 16 x 2 x 1	Total Tb: 																																																				
-Experiment Imaging Method	bright-field microscopy																																																						
-Experiment Imaging Method Term Source REF	FBbi																																																						
-Experiment Imaging Method Term Accession	FBbi_00000243																																																						
-Experiment Type																																																							
-Experiment Type Term Source REF																																																							
-Experiment Type Term Accession																																																							
-Experiment Target Organism	Mus musculus																																																						
-																																																							
-# assay files																																																							
-Experiment Assay File	idr0018-experimentA-assay.txt																																																						
-Experiment Assay File Format	tab-delimited text																																																						
-Assay Experimental Conditions	organism part	genotype	sex	individual																																																			
-Assay Experimental Conditions Term Source REF	EFO	EFO	PATO	EFO																																																			
-Assay Experimental Conditions Term Accession	EFO_0000635	EFO_0000513	PATO_0000047	EFO_0000542																																																			
-Quality Control Description																																																							
-																																																							
-# Protocols																																																							
-Protocol Name	treatment protocol	data analysis protocol																																																					
-Protocol Type	treatment protocol	data analysis protocol																																																					
-Protocol Type Term Source REF	EFO																																																						
-Protocol Type Term Accession	EFO_0003969																																																						
-Protocol Description	Protocols used were those of the International Mouse Phenotyping Resource. Gross Pathology and Tissue Collection: https://www.mousephenotype.org/impress/protocol/99/9. Tissue Embedding and Block Banking: https://www.mousephenotype.org/impress/protocol/101/9.Histopathology: https://www.mousephenotype.org/impress/protocol/102/9.  Images are of hematoxylin and eosin(HE) stained paraffin embedded tissue slides.	"Protocols used were those of the International Mouse Phenotyping Resource. Phenotyping Protocols for Pipeline: TCP Pipeline (Adult, unrestricted): https://www.mousephenotype.org/impress/procedures/9.  Images were manually annotated with Cellular Microscopy Phenotype Ontology terms.  'Repoductive system' in females covers uterus, vagina, cervix, oviduct, ovaries, bladder, in males testis, epididymis, funiculus spermaticus, accessory glands, prostate, bladder, penis."																																																					
-																																																							
-# Phenotypes																																																							
-Phenotype Name	abnormal cell growth phenotype	abnormal cell shape phenotype	abnormal chromosome segregation phenotype	abnormal nucleus shape phenotype	absence of cell spreading phenotype	absence of mitotic process phenotype	actin cytoskeleton phenotype	actin filament phenotype	aggregated cells in population	apoptopic nucleus phenotype	apoptotic cell shape phenotype	bilobed nucleus phenotype	binuclear cell phenotype	bright nuclear body phenotype	cell adhesion phenotype	cell apoptosis phenotype	cell component morphology phenotype	cell component size phenotype	cell component structure phenotype	cell death phenotype	cell DNA phenotype	cell morphology phenotype	cell projection phenotype	cell spreading phenotype	cell-matrix adhesion phenotype	cells with projections	cellular component phenotype	cilium morphology phenotype	decreased axon thickness phenotype	decreased cell numbers	fewer cells with projections	increased cell component number phenotype	increased cell numbers	increased cell size phenotype	increased cilium length phenotype	increased rate of protein secretion	increased thickness of dendritic branches phenotype	M phase arrested phenotype	M phase mitotic phenotype	metabolic process phenotype	misshapen DNA	more cells in M phase	nuclear morphology phenotype	polyploid cell phenotype	pyknotic nuclear phenotype	regulation of metabolic process phenotype	round nucleus phenotype	S phase mitotic phenotype							
-Phenotype Description																																																							
-Phenotype Score Type	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual							
-Phenotype Term Source REF	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO							
-Phenotype Term Name	abnormal cell growth phenotype	abnormal cell shape phenotype	abnormal chromosome segregation phenotype	abnormal nucleus shape phenotype	absence of cell spreading phenotype	absence of mitotic process phenotype	actin cytoskeleton phenotype	actin filament phenotype	aggregated cells in population	apoptopic nucleus phenotype	apoptotic cell shape phenotype	bilobed nucleus phenotype	binuclear cell phenotype	bright nuclear body phenotype	cell adhesion phenotype	cell apoptosis phenotype	cell component morphology phenotype	cell component size phenotype	cell component structure phenotype	cell death phenotype	cell DNA phenotype	cell morphology phenotype	cell projection phenotype	cell spreading phenotype	cell-matrix adhesion phenotype	cells with projections	cellular component phenotype	cilium morphology phenotype	decreased axon thickness phenotype	decreased cell numbers	fewer cells with projections	increased cell component number phenotype	increased cell numbers	increased cell size phenotype	increased cilium length phenotype	increased rate of protein secretion	increased thickness of dendritic branches phenotype	M phase arrested phenotype	M phase mitotic phenotype	metabolic process phenotype	misshapen DNA	more cells in M phase	nuclear morphology phenotype	polyploid cell phenotype	pyknotic nuclear phenotype	regulation of metabolic process phenotype	round nucleus phenotype	S phase mitotic phenotype							
-Phenotype Term Accession	CMPO_0000316	CMPO_0000116	CMPO_0000326	CMPO_0000157	CMPO_0000324	CMPO_0000217	CMPO_0000283	CMPO_0000104	CMPO_0000049	CMPO_0000112	CMPO_0000048	CMPO_0000117	CMPO_0000213	CMPO_0000335	CMPO_0000028	CMPO_0000220	CMPO_0000303	CMPO_0000010	CMPO_0000012	CMPO_0000030	CMPO_0000176	CMPO_0000005	CMPO_0000280	CMPO_0000188	CMPO_0000185	CMPO_0000071	CMPO_0000259	CMPO_0000252	CMPO_0000224	CMPO_0000052	CMPO_0000075	CMPO_0000042	CMPO_0000051	CMPO_0000128	CMPO_0000133	CMPO_0000246	CMPO_0000145	CMPO_0000196	CMPO_0000265	CMPO_0000037	CMPO_0000177	CMPO_0000263	CMPO_0000249	CMPO_0000086	CMPO_0000341	CMPO_0000039	CMPO_0000123	CMPO_0000087							
-																																																							
-																																																							
-# Feature Level Data Files (give individual file details unless there is one file per well)																																																							
-Feature Level Data File Name																																																							
-Feature Level Data File Format																																																							
-Feature Level Data File Description																																																							
-Feature Level Data Column Name																																																							
-Feature Level Data Column Description																																																							
-																																																							
-#  Processed Data Files 																																																							
-Processed Data File Name	idr0018-experimentA-processed.txt																																																						
-Processed Data File Format	tab-delimited text																																																						
-Processed Data File Description	This file contains information about the phenotypes observed.																																																						
-Processed Data Genome Build For Target Genes	"Mouse gene identifiers and symbols are from GRCm38.p4, Ensembl mouse release 84.  Human gene identifiers and symbols are from GRCh38.p5, Ensembl Human release 84.  Mouse gene identifers and human orthologs were added to this study by IDR curators."																																																						
-Processed Data Column Name	Factor Value[Organism Part]	Factor Value[Sex]	Factor Value[Individual]	Factor Value[Genotype]	Image File	Has Phenotype Annotation	Phenotype Description	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9	Phenotype 10	Phenotype 11	Phenotype 12	Phenotype 13	Phenotype 14	Phenotype 15	Phenotype 16	Phenotype 17	Phenotype 18	Phenotype 19	Phenotype 20	Phenotype 21	Phenotype 22	Phenotype 23	Phenotype 24	Phenotype 25	Phenotype 26	Phenotype 27	Phenotype 28	Phenotype 29	Phenotype 30	Phenotype 31	Phenotype 32	Phenotype 33	Phenotype 34	Phenotype 35	Phenotype 36	Phenotype 37	Phenotype 38	Phenotype 39	Phenotype 40	Phenotype 41	Phenotype 42	Phenotype 43	Phenotype 44	Phenotype 45	Phenotype 46	Phenotype 47	Phenotype 48
-Processed Data Column Type	Experimental Condition	Experimental Condition	Experimental Condition	Experimental Condition	Image File	Data	Data	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype	Phenotype
-Processed Data Column Annotation Level						Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File	Image File
-Processed Data Column Description	The organism part of the sample	The sex of the mouse.	The individual identifier for the mouse.	The genotype of the mouse.	The name of the image file that was annotated. 	Whether the image file has a phenotypic annotation.	Notes about the image or annotation.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.
-Processed Data Column Source Database																																																							
-Processed Data Column Source Stem URI																																																							
-Processed Data Column Link To Library File	Image File																																																						
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"																																																								
+# Study																																																								
+Comment[IDR Study Accession]	idr0018																																																							
+Study Title	Histopathology of mouse knockouts																																																							
+Study Type	histology																																																							
+Study Type Term Source REF																																																								
+Study Type Term Accession																																																								
+Study Description	Histopathology study of 14 tissues from mice with 10 different mitotic gene knockouts. This data was produced as part of Work Package 6 of the BioMedBridges project http://www.biomedbridges.eu/workpackages/wp6 which looked at interoperability of large scale image data sets																																																							
+"from different biological scales."""																																																								
+Study Organism	Mus musculus																																																							
+Study Organism Term Source REF	NCBITaxon																																																							
+Study Organism Term Accession	NCBITaxon_10090																																																							
+Study Experiments Number	1																																																							
+Study External URL																																																								
+Study Public Release Date																																																								
+																																																								
+# Study Publication																																																								
+Study PubMed ID																																																								
+Study Publication Title																																																								
+Study Author List																																																								
+Study PMC ID																																																								
+Study DOI																																																								
+																																																								
+# Study Contacts																																																								
+Study Person Last Name	Neff																																																							
+Study Person First Name	Frauke																																																							
+Study Person Email	frauke.neff@helmholtz-muenchen.de																																																							
+Study Person Address	"Institute of Pathology, Helmholtz Zentrum Muenchen, Germany"																																																							
+Study Person Roles	submitter																																																							
+																																																								
+Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	PATO	UBERON																																																		
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/																																																		
+																																																								
+																																																								
+"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."																																																								
+# Screen; this section should be repeated if a study contains multiple screens																																																								
+																																																								
+Experiment Number	1																																																							
+Comment[IDR Experiment Name]	idr0018-neff-histopathology/experimentA																																																							
+Experiment Description	Histopathology raw images and annotated tiff files of tissues from mice with 10 different single gene knockouts. Raw images are not available for all gene knockouts.																																																							
+Experiment Size	5D Images: 898	Average Image Dimension (XYZCT):	Total Tb: 0.27 Tb																																																					
+Experiment Imaging Method	bright-field microscopy																																																							
+Experiment Imaging Method Term Source REF	FBbi																																																							
+Experiment Imaging Method Term Accession	FBbi_00000243																																																							
+Experiment Comments	"Mouse gene identifers and symbols and human ortholog gene identifiers and symbols were added to this experiment by IDR curators using the following gene annotation builds: Mouse: GRCm38.p4, Ensembl mouse release 84, Mar 2016  Human: GRCh38.p5, Ensembl Human release 84, Mar 2016 "																																																							
+																																																								
+# assay files																																																								
+Experiment Assay File	idr0018-experimentA-assay.txt																																																							
+Experiment Assay File Format	tab-delimited text																																																							
+Assay Experimental Conditions	organism part	genotype	sex	individual																																																				
+Assay Experimental Conditions Term Source REF	EFO	EFO	PATO	EFO																																																				
+Assay Experimental Conditions Term Accession	EFO_0000635	EFO_0000513	PATO_0000047	EFO_0000542																																																				
+Quality Control Description																																																								
+																																																								
+# Protocols																																																								
+Protocol Name	treatment protocol	data analysis protocol																																																						
+Protocol Type	treatment protocol	data analysis protocol																																																						
+Protocol Type Term Source REF	EFO																																																							
+Protocol Type Term Accession	EFO_0003969																																																							
+Protocol Description	Protocols used were those of the International Mouse Phenotyping Resource. Gross Pathology and Tissue Collection: https://www.mousephenotype.org/impress/protocol/99/9. Tissue Embedding and Block Banking: https://www.mousephenotype.org/impress/protocol/101/9.Histopathology: https://www.mousephenotype.org/impress/protocol/102/9.  Images are of hematoxylin and eosin(HE) stained paraffin embedded tissue slides.	"Protocols used were those of the International Mouse Phenotyping Resource. Phenotyping Protocols for Pipeline: TCP Pipeline (Adult, unrestricted): https://www.mousephenotype.org/impress/procedures/9.  Images were manually annotated with Cellular Microscopy Phenotype Ontology terms.  'Repoductive system' in females covers uterus, vagina, cervix, oviduct, ovaries, bladder, in males testis, epididymis, funiculus spermaticus, accessory glands, prostate, bladder, penis."																																																						
+																																																								
+# Phenotypes																																																								
+Phenotype Name	abnormal cell growth phenotype	abnormal cell shape phenotype	abnormal chromosome segregation phenotype	abnormal nucleus shape phenotype	absence of cell spreading phenotype	absence of mitotic process phenotype	actin cytoskeleton phenotype	actin filament phenotype	aggregated cells in population	apoptopic nucleus phenotype	apoptotic cell shape phenotype	bilobed nucleus phenotype	binuclear cell phenotype	bright nuclear body phenotype	cell adhesion phenotype	cell apoptosis phenotype	cell component morphology phenotype	cell component size phenotype	cell component structure phenotype	cell death phenotype	cell DNA phenotype	cell morphology phenotype	cell projection phenotype	cell spreading phenotype	cell-matrix adhesion phenotype	cells with projections	cellular component phenotype	cilium morphology phenotype	decreased axon thickness phenotype	decreased cell numbers	fewer cells with projections	increased cell component number phenotype	increased cell numbers	increased cell size phenotype	increased cilium length phenotype	increased rate of protein secretion	increased thickness of dendritic branches phenotype	M phase arrested phenotype	M phase mitotic phenotype	metabolic process phenotype	misshapen DNA	more cells in M phase	nuclear morphology phenotype	polyploid cell phenotype	pyknotic nuclear phenotype	regulation of metabolic process phenotype	round nucleus phenotype	S phase mitotic phenotype								
+Phenotype Description																																																								
+Phenotype Score Type	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual	manual								
+Phenotype Term Source REF	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO								
+Phenotype Term Name	abnormal cell growth phenotype	abnormal cell shape phenotype	abnormal chromosome segregation phenotype	abnormal nucleus shape phenotype	absence of cell spreading phenotype	absence of mitotic process phenotype	actin cytoskeleton phenotype	actin filament phenotype	aggregated cells in population	apoptopic nucleus phenotype	apoptotic cell shape phenotype	bilobed nucleus phenotype	binuclear cell phenotype	bright nuclear body phenotype	cell adhesion phenotype	cell apoptosis phenotype	cell component morphology phenotype	cell component size phenotype	cell component structure phenotype	cell death phenotype	cell DNA phenotype	cell morphology phenotype	cell projection phenotype	cell spreading phenotype	cell-matrix adhesion phenotype	cells with projections	cellular component phenotype	cilium morphology phenotype	decreased axon thickness phenotype	decreased cell numbers	fewer cells with projections	increased cell component number phenotype	increased cell numbers	increased cell size phenotype	increased cilium length phenotype	increased rate of protein secretion	increased thickness of dendritic branches phenotype	M phase arrested phenotype	M phase mitotic phenotype	metabolic process phenotype	misshapen DNA	more cells in M phase	nuclear morphology phenotype	polyploid cell phenotype	pyknotic nuclear phenotype	regulation of metabolic process phenotype	round nucleus phenotype	S phase mitotic phenotype								
+Phenotype Term Accession	CMPO_0000316	CMPO_0000116	CMPO_0000326	CMPO_0000157	CMPO_0000324	CMPO_0000217	CMPO_0000283	CMPO_0000104	CMPO_0000049	CMPO_0000112	CMPO_0000048	CMPO_0000117	CMPO_0000213	CMPO_0000335	CMPO_0000028	CMPO_0000220	CMPO_0000303	CMPO_0000010	CMPO_0000012	CMPO_0000030	CMPO_0000176	CMPO_0000005	CMPO_0000280	CMPO_0000188	CMPO_0000185	CMPO_0000071	CMPO_0000259	CMPO_0000252	CMPO_0000224	CMPO_0000052	CMPO_0000075	CMPO_0000042	CMPO_0000051	CMPO_0000128	CMPO_0000133	CMPO_0000246	CMPO_0000145	CMPO_0000196	CMPO_0000265	CMPO_0000037	CMPO_0000177	CMPO_0000263	CMPO_0000249	CMPO_0000086	CMPO_0000341	CMPO_0000039	CMPO_0000123	CMPO_0000087								
+																																																								
+																																																								
+# Feature Level Data Files (give individual file details unless there is one file per well)																																																								
+Feature Level Data File Name																																																								
+Feature Level Data File Format																																																								
+Feature Level Data File Description																																																								
+Feature Level Data Column Name																																																								
+Feature Level Data Column Description																																																								
+																																																								
+#  Processed Data Files 																																																								
+Processed Data File Name	idr0018-experimentA-processed.txt																																																							
+Processed Data File Format	tab-delimited text																																																							
+Processed Data File Description	This file contains information about the phenotypes observed.																																																							
+Processed Data Column Name	Experimental Condition [Organism Part]	Experimental Condition [Sex]	Experimental Condition [Individual]	Experimental Condition [Genotype]	Image File	Has Phenotype	Phenotype Annotation Level	Phenotype Description	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9	Phenotype 10	Phenotype 11	Phenotype 12	Phenotype 13	Phenotype 14	Phenotype 15	Phenotype 16	Phenotype 17	Phenotype 18	Phenotype 19	Phenotype 20	Phenotype 21	Phenotype 22	Phenotype 23	Phenotype 24	Phenotype 25	Phenotype 26	Phenotype 27	Phenotype 28	Phenotype 29	Phenotype 30	Phenotype 31	Phenotype 32	Phenotype 33	Phenotype 34	Phenotype 35	Phenotype 36	Phenotype 37	Phenotype 38	Phenotype 39	Phenotype 40	Phenotype 41	Phenotype 42	Phenotype 43	Phenotype 44	Phenotype 45	Phenotype 46	Phenotype 47	Phenotype 48
+Processed Data Column Type	experimental condition	experimental condition	experimental condition	experimental condition	image file	other	other	data	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype
+Processed Data Column Annotation Level								image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image	image
+Processed Data Column Description	The organism part of the sample	The sex of the mouse.	The individual identifier for the mouse.	The genotype of the mouse.	The name of the image file that was annotated. 	Whether there is a phenotype associated with the entity in the row.	The level of entity that is annotated with the phenotype.  	Notes about the image or annotation.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.	The phenotype observed.
+Processed Data Column Link To Library File	Image File																																																							

@@ -21,6 +21,16 @@ defaults:
 
 columns:
 
+  - name: Characteristics [Organism]
+    clientname: Organism
+    include: yes
+  - name: Characteristics [Cell Line]
+    clientname: Cell Line
+    include: yes
+  - name: siRNA Pool Identifier
+    include: yes
+  - name: siRNA Sequences
+    include: yes
   - name: Gene Identifier
     include: yes
   - name: Gene Identifier
@@ -29,28 +39,59 @@ columns:
     include: yes
   - name: Gene Symbol
     include: yes
-  - name: Gene Symbol
-    clientname: Gene Symbol URL
-    clientvalue: http://www.genenames.org/cgi-bin/search?search_type=all&search={{ value }}
+  - name: Gene Symbol Synonyms
+    include: yes
+  - name: RefSeq Gene Accession
+    include: yes
+  - name: RefSeq Gene Accession
+    clientname: RefSeq Gene Accession URL
+    clientvalue: http://www.ncbi.nlm.nih.gov/nuccore/{{ value }}
+    include: yes
+  - name: GI Number
+    include: yes
+  - name: Reagent Design Gene Annotation Build
+    include: yes
+  - name: Analysis Gene Annotation Build
+    include: yes
+  - name: Experimental Condition [RNA interference]
+    clientname: ch-TOG shRNA
+    include: yes
+  - name: Control Type
+    include: yes
+  - name: Control Comments
+    include: yes
+  - name: Channels
+    include: yes
+  - name: ch-TOG Multipolar Spindle Phenotype Hit
+    include: yes
+  - name: Has Phenotype
+    include: yes
+  - name: Phenotype Annotation Level
     include: yes
   - name: Phenotype 1
+    clientname: Phenotype
     include: yes
   - name: Phenotype 1 Term Name
+    clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 1 Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 1 Term Accession
-    clientname: Phenotype 1 Term Accession URL
+    clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
   - name: Phenotype 2
+    clientname: Phenotype
     include: yes
   - name: Phenotype 2 Term Name
+    clientname: Phenotype Term Name
     include: yes
   - name: Phenotype 2 Term Accession
+    clientname: Phenotype Term Accession
     include: yes
   - name: Phenotype 2 Term Accession
-    clientname: Phenotype 2 Term Accession URL
+    clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
     
