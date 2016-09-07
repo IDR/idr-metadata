@@ -87,6 +87,7 @@ def main(argv):
             if args.limit and i >= args.limit:
                 break
             cmd = base_cmd[:]
+            cmd.extend(["-t", name])
             out_fn = os.path.join(args.docker_out_dir, name)
             cmd.extend([path, "-o", out_fn])
             celery_args = [
