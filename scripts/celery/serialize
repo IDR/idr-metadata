@@ -1,0 +1,106 @@
+#!/usr/bin/env python
+
+"""\
+Run a pydoop-features serialize job on Celery.
+
+Any arguments after '--' will be passed to pyfeatures serialize.
+
+Example: ./serialize
+  -u 13500 -v /uod/idr:/uod/idr:ro -o /home/idr-scratch/szleo/out
+  idr0009-screenA-plates.tsv -- -d /tmp/cache -w 0
+
+Where the .tsv argument is the plate-name to plate-file tab-separated
+map for the screen. Note that some of these files currently list
+directories in the second column. In that case, before running this
+script, adjust the table with something like the following:
+
+sed -i 's|$|/experiment_descriptor.dat|' idr0009-screenA-plates.tsv
+"""
+
+import sys
+import os
+import argparse
+import csv
+import importlib
+
+
+def iter_plates(plates_fn):
+    d = os.path.dirname(plates_fn)
+    with open(plates_fn) as f:
+        reader = csv.reader(f, delimiter="\t")
+        for i, row in enumerate(reader):
+            try:
+                name, path = row
+            except ValueError:
+                raise RuntimeError(
+                    "%s: line #%d is malformed" % (plates_fn, i + 1)
+                )
+            if not os.path.isabs(path):
+                path = os.path.normpath(os.path.join(d, path))
+            yield name, path
+
+
+def make_parser():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('plates_fn', metavar="PLATES_FILE", help="plates file")
+    parser.add_argument("-o", "--out-dir", metavar="DIR", help="output dir",
+                        default=os.getcwd())
+    parser.add_argument("-u", "--user-id", type=int, help="run-as user id")
+    parser.add_argument("-m", "--celery-module", help="celery app module",
+                        default="tasks")
+    parser.add_argument("-l", "--log", help="log task ids to this file",
+                        default="taskid-serialize.log")
+    parser.add_argument("-i", "--docker-img", help="docker image name",
+                        default="simleo/pyfeatures")
+    parser.add_argument("-O", "--docker-out-dir", help="docker output dir",
+                        default="/scratch")
+    parser.add_argument("-v", "--docker-volume", action="append",
+                        help="additional docker volume mapping(s)")
+    parser.add_argument("-n", "--dry-run", action="store_true",
+                        help="print celery args and exit")
+    parser.add_argument("--limit", type=int, metavar="INT",
+                        help="max number of tasks to sumbit")
+    return parser
+
+
+def main(argv):
+    try:
+        idx = argv.index("--")
+    except ValueError:
+        serialize_opts = []
+    else:
+        serialize_opts = argv[(idx + 1):]
+        del argv[idx:]
+    parser = make_parser()
+    args = parser.parse_args(argv[1:])
+    celery_m = importlib.import_module(args.celery_module)
+    base_cmd = ["docker", "run", "--rm"]
+    if args.user_id:
+        base_cmd.extend(["-u", str(args.user_id)])
+    base_cmd.extend(["-v", "%s:%s" % (args.out_dir, args.docker_out_dir)])
+    for v_mapping in (args.docker_volume or []):
+        base_cmd.extend(["-v", v_mapping])
+    base_cmd.extend([args.docker_img, "serialize"])
+    base_cmd.extend(serialize_opts)
+    with open(args.log, "w") as fo:
+        for i, (name, path) in enumerate(iter_plates(args.plates_fn)):
+            if args.limit and i >= args.limit:
+                break
+            cmd = base_cmd[:]
+            out_fn = os.path.join(args.docker_out_dir, name)
+            cmd.extend([path, "-o", out_fn])
+            celery_args = [
+                "%s.py" % args.celery_module,
+                os.path.join(args.out_dir, "%s.out" % name),
+                os.path.join(args.out_dir, "%s.err" % name),
+            ]
+            celery_args.extend(cmd)
+            if args.dry_run:
+                print celery_args
+            else:
+                r = celery_m.main(celery_args)
+                fo.write(str(r) + "\n")
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))
