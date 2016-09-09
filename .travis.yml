@@ -19,5 +19,5 @@ before_script:
 
 script:
   - find idr* -type f -name '*.screen' -print0 | xargs -0 -n1 python scripts/check_screen.py -v
-  - python scripts/travis-check.py .
+  - python scripts/travis-check.py
   - python test/all_tests.py

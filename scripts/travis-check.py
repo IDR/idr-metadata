@@ -9,13 +9,22 @@ CSVs should have unique column names and be loadable with pandas
 
 import os
 import pandas
-import sys
 import yaml
 
+# list files to exclude from checks as relative paths from the repository root
+EXCLUDE = frozenset([
+    "idr0027-dickerson-chromatin/experimentA/idr0027-AnalysisAllData.csv"
+])
+THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(THIS_DIR)
+EXCLUDE = [os.path.normpath(os.path.join(REPO_ROOT, _)) for _ in EXCLUDE]
 
-for root, dirs, files in os.walk(sys.argv[1]):
+
+for root, dirs, files in os.walk(REPO_ROOT):
     for f in files:
         fn = os.path.join(root, f)
+        if fn in EXCLUDE:
+            continue
 
         if fn.lower().endswith('.yml') or fn.lower().endswith('.yaml'):
             print fn
