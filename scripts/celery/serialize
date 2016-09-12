@@ -59,7 +59,7 @@ def make_parser():
     parser.add_argument("-n", "--dry-run", action="store_true",
                         help="print celery args and exit")
     parser.add_argument("--limit", type=int, metavar="INT",
-                        help="max number of tasks to sumbit")
+                        help="max number of tasks to submit")
     return parser
 
 
