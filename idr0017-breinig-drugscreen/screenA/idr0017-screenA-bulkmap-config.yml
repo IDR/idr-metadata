@@ -1,6 +1,6 @@
 ---
 name: idr0017-breinig-drugscreen/screenA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -29,6 +29,7 @@ columns:
     include: yes
   - name: Mutation Detailed
     include: yes
+
   - name: Compound Treatment
     include: yes
   - name: Compound Name
@@ -51,18 +52,56 @@ columns:
     include: yes
   - name: Compound Selectivity Updated
     include: yes
+
   - name: Control Type
     include: yes
   - name: Channels
     include: yes
+
   - name: Has Phenotype
     include: yes
   - name: Phenotype Annotation Level
     include: yes
 
-    
+######################################################################
+# mapr groups
+######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound
+      columns:
+      - name: Compound Treatment
+        include: yes
+      - name: Compound Name
+        include: yes
+      - name: Compound Name
+        clientname: Compound Name URL
+        clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
+        include: yes
+      - name: Compound Secondary Name
+        include: yes
+      - name: Compound Class
+        include: yes
+      - name: Compound Enzyme
+        include: yes
+      - name: Compound Action
+        include: yes
+      - name: Compound Selectivity
+        include: yes
+      - name: Compound Description
+        include: yes
+      - name: Compound Selectivity Updated
+        include: yes
+
 # Advanced options (experimental)
 advanced:
     # If a map-annotation is attached to a well also attach it to all images
     # in the well
     well_to_images: yes
+
+    # TODO: Primary key config should be in a global config
+    ignore_missing_primary_key: yes
+    primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/compound
+      keys:
+      - Compound Name

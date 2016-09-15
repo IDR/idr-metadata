@@ -1,6 +1,6 @@
 ---
 name: idr0023-szymborska-nuclearpore/experimentA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -27,6 +27,7 @@ columns:
     clientname: Experimental Condition [Targeted Protein] URL
     clientvalue: http://www.ebi.ac.uk/pdbe/entry/search/index?text:{{ value }}
     include: yes
+
   - name: Gene Identifier
     include: yes
   - name: Gene Identifier
@@ -37,8 +38,10 @@ columns:
     include: yes
   - name: Gene Symbol Synonyms
     include: yes
+
   - name: Experimental Condition [Antibody]
     include: yes
+
   - name: Phenotype 1
     include: yes
   - name: Phenotype 1 Term Name
@@ -49,9 +52,51 @@ columns:
     clientname: Phenotype 1 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
- 
+
+######################################################################
+# mapr groups
+######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+      - name: Gene Identifier
+        include: yes
+      - name: Gene Identifier
+        clientname: Gene Identifier URL
+        clientvalue: http://www.ensembl.org/id/{{ value }}
+        include: yes
+      - name: Gene Symbol
+        include: yes
+      - name: Gene Symbol Synonyms
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 1
+        include: yes
+      - name: Phenotype 1 Term Name
+        include: yes
+      - name: Phenotype 1 Term Accession
+        include: yes
+      - name: Phenotype 1 Term Accession
+        clientname: Phenotype 1 Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        include: yes
+
 # Advanced options (experimental)
 advanced:
      # If a map-annotation is attached to a well also attach it to all images
      # in the well
      well_to_images: yes
+
+    # TODO: Primary key config should be in a global config
+    ignore_missing_primary_key: yes
+    primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/gene
+      keys:
+      - Compound Name
+    - namespace: openmicroscopy.org/mapr/phenotype
+      keys:
+      - Phenotype
