@@ -30,6 +30,7 @@ columns:
   - name: Experimental Condition [Environmental Stress]
     clientname: Environmental Stress
     include: yes
+    
   - name: Gene Identifier
     include: yes
   - name: Gene Identifier
@@ -42,20 +43,24 @@ columns:
     include: yes
   - name: Analysis Gene Annotation Build
     include: yes
+    
   - name: Control Type
     include: yes
   - name: Control Comments
     include: yes
   - name: Quality Control
-    include: yes    
+    include: yes
+    
   - name: Channels
     include: yes
   - name: Comments
     include: yes
+    
   - name: Has Phenotype
     include: yes
   - name: Phenotype Annotation Level
     include: yes
+    
   - name: Phenotype 1
     clientname: Phenotype
     include: yes
@@ -69,6 +74,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 2
     clientname: Phenotype
     include: yes
@@ -82,6 +88,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 3
     clientname: Phenotype
     include: yes
@@ -95,6 +102,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 4
     clientname: Phenotype
     include: yes
@@ -108,6 +116,7 @@ columns:
     clientname: Phenotype 4 Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 5
     clientname: Phenotype
     include: yes
@@ -121,6 +130,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 6
     clientname: Phenotype
     include: yes
@@ -134,6 +144,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 7
     clientname: Phenotype
     include: yes
@@ -147,6 +158,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 8
     clientname: Phenotype
     include: yes
@@ -160,6 +172,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 9
     clientname: Phenotype
     include: yes
@@ -173,6 +186,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 10
     clientname: Phenotype
     include: yes
@@ -186,6 +200,7 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 11
     clientname: Phenotype
     include: yes
@@ -199,11 +214,14 @@ columns:
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
+    
   - name: Phenotype 12
     clientname: Phenotype
     include: yes
+    
   - name: Phenotype 13
     include: yes
+    
   - name: Phenotype 14
     include: yes
     
