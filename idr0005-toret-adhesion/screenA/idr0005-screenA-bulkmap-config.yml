@@ -1,6 +1,6 @@
 ---
 name: idr0005-toret-adhesion/screenA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -27,12 +27,18 @@ columns:
   - name: Characteristics [Cell Line]
     clientname: Cell Line
     include: yes
+
   - name: siRNA Identifier
     include: yes
   - name: RNAi Primer 1
     include: yes
   - name: RNAi Primer 2
     include: yes
+  - name: Reagent Design Gene Annotation Build
+    include: yes
+  - name: Reagent Annotation Comments
+    include: yes
+
   - name: Gene Identifier
     include: yes
   - name: Gene Identifier
@@ -40,31 +46,35 @@ columns:
     clientvalue: http://www.flybase.org/cgi-bin/uniq.html?field=SYN&db=fbgn&context={{ value }}
     include: yes
   - name: Gene Symbol
-    include: yes   
+    include: yes
+  - name: Gene Symbol Synonyms
+    include: yes
   - name: Gene Name
     include: yes
   - name: Gene Model Status
     include: yes
-  - name: Gene Symbol Synonyms
-    include: yes
-  - name: Reagent Design Gene Annotation Build
-    include: yes
   - name: Analysis Gene Annotation Build
     include: yes
+  - name: Gene Annotation Comments
+    include: yes
+
   - name: Control Type
     include: yes
   - name: Control Comments
-    include: yes   
+    include: yes
+
   - name: Channels
     include: yes
   - name: Comments
     include: yes
+    
   - name: Gene In Secondary Screen
     include: yes
   - name: Has Phenotype
     include: yes
   - name: Phenotype Annotation Level
     include: yes
+
   - name: Phenotype 1
     clientname: Phenotype
     include: yes
@@ -79,8 +89,11 @@ columns:
     clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
 
+
 # Advanced options (experimental)
 advanced:
     # If a map-annotation is attached to a well also attach it to all images
     # in the well
     well_to_images: yes
+
+ 
