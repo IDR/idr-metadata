@@ -27,12 +27,16 @@ columns:
   - name: Characteristics [Cell Line]
     clientname: Cell Line
     include: yes
+    
   - name: siRNA Identifier
     include: yes
   - name: Sense Sequence
     include: yes
   - name: Antisense Sequence
     include: yes
+  - name: Reagent Design Gene Annotation Build
+    include: yes
+    
   - name: Gene Identifier
     include: yes   
   - name: Gene Identifier
@@ -41,30 +45,32 @@ columns:
     include: yes
   - name: Gene Symbol
     include: yes
-  - name: Gene Annotation Comments
-    include: yes
   - name: Gene Symbol Synonyms
+    include: yes
+  - name: Gene Annotation Comments
     include: yes
   - name: Gene Description
     include: yes
-  - name: Reagent Design Gene Annotation Build
-    include: yes
   - name: Analysis Gene Annotation Build
     include: yes
+    
   - name: Control Type
     include: yes
   - name: Control Comments
-    include: yes   
+    include: yes
+    
   - name: Channels
     include: yes
   - name: Comments
     include: yes
-  - Overall Strong Inhibitor Gene Hit
+    
+  - name: Overall Strong Inhibitor Gene Hit
     include: yes
   - name: Has Phenotype
     include: yes
   - name: Phenotype Annotation Level
     include: yes
+    
   - name: Phenotype 1
     clientname: Phenotype
     include: yes
