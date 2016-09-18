@@ -27,6 +27,7 @@ columns:
   - name: Characteristics [Strain]
     clientname: Strain
     include: yes
+    
   - name: Gene Identifier
     include: yes
   - name: Gene Identifier
@@ -51,24 +52,29 @@ columns:
     include: yes
   - name: Analysis Gene Annotation Build
     include: yes
+    
   - name: Batch
     include: yes
+    
   - name: Control Type
     include: yes
   - name: Control Comments
     include: yes
   - name: Quality Control
-    include: yes    
+    include: yes
+    
   - name: Channels
     include: yes
   - name: Comments
     include: yes
+    
   - name: Author Hit
     include: yes
   - name: Has Phenotype
     include: yes
   - name: Phenotype Annotation Level
     include: yes
+    
   - name: Phenotype 1
     clientname: Phenotype
     include: yes
