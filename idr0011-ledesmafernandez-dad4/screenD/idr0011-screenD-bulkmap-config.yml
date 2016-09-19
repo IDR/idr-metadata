@@ -1,0 +1,69 @@
+---
+name: idr0011-ledesmafernandez-dad4/screenE
+version: 1
+
+defaults:
+    # Should the column be processed when creating bulk-annotations (yes/no)
+    include: no
+    # Columns type of the bulk-annotations column
+    type: string
+
+    # If non-empty a string used to separate multiple fields in a column
+    # White space will be stripped
+    split:
+    # Should this column be included in the clients (yes/no)
+    includeclient: yes
+    # Should this column be visible in the clients, if no the column should be
+    # hidden in the client but will still be indexed by the searcher (yes/no)
+    visible: yes
+    # Should empty values be omitted from the client display
+    omitempty: yes
+
+columns:
+
+  - name: Characteristics [Organism]
+    clientname: Organism
+    include: yes
+  - name: Characteristics [Strain]
+    clientname: Strain
+    include: yes
+
+  - name: Gene Identifier
+    include: yes
+  - name: Gene Identifier
+    clientname: Gene Identifier URL
+    clientvalue: http://www.yeastgenome.org/locus/{{ value }}/overview
+    include: yes
+  - name: Gene Symbol
+    include: yes
+  - name: Temperature Sensitive Allele
+    include: yes
+  - name: Reagent Design Gene Annotation Build
+    include: yes
+  - name: Analysis Gene Annotation Build
+    include: yes
+    
+  - name: Control Type
+    include: yes
+    
+  - name: Channels
+    include: yes
+  - name: Comments
+    include: yes
+
+  - name: In Final Gene Hit List
+    include: yes
+  - name: Has Phenotype
+    include: yes
+  - name: Phenotype Annotation Level
+    include: yes
+    
+  - name: Phenotype 1
+    clientname: Phenotype
+    include: yes
+    
+# Advanced options (experimental)
+advanced:
+    # If a map-annotation is attached to a well also attach it to all images
+    # in the well
+    well_to_images: yes

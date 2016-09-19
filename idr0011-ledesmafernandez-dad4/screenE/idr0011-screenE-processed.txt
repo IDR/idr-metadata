@@ -1,0 +1,11 @@
+Gene Identifier	Gene Symbol	In Final Gene Hit List	Has Phenotype	Phenotype Annotation Level	Phenotype 1
+YHR036W	BRL1	yes	yes	gene	altered kinetochore foci
+YDL143W	CCT4	yes	yes	gene	altered kinetochore foci
+YCR002C	CDC10	yes	yes	gene	altered kinetochore foci
+YPL266W	DIM1	yes	yes	gene	altered kinetochore foci
+YLR186W	EMG1	yes	yes	gene	altered kinetochore foci
+YNL061W	NOP2	yes	yes	gene	altered kinetochore foci
+YBL093C	ROX3	yes	yes	gene	altered kinetochore foci
+YDL097C	RPN6	yes	yes	gene	altered kinetochore foci
+YKL024C	URA6	yes	yes	gene	altered kinetochore foci
+YNL263C	YIF1	yes	yes	gene	altered kinetochore foci
