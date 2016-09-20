@@ -10,19 +10,24 @@ ROOT = ("/uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/")
 
 SCREENS = {
     "A": (
-        ("T37 x deletion library", 2, "*/"),
+        ("T37 x deletion library", 2, "*/", {}),
     ),
     "B": (
-        ("T34 x TS", 6, "*/"),
+        ("T34 x TS", 6, "*/", {}),
     ),
     "C": (
-        ("Stinger plates-extra images screen T37 x deletion library", 1, "*/"),
-    ),
-    "D": (
-        ("Stinger plates-extra images screen T34 x TS", 1, ""),
+        ("Stinger plates-extra images screen T37 x deletion library", 1, "*/", {
+            "Plate Stinger-Target 2-A-used pics": "Target-2-A",
+            "Plate-Stinger-Target2-B-used pics": "Target-2-B",
+            "Plate Stinger-Target 1-B-used pics": "Target-1-B",
+            "Plate Stinger-Target 1-A-used pics": "Target-1-A",
+        }),
     ),
     "E": (
-        ("Stinger plates-extra images screen T34 x TS-more repeats", 1, ""),
+        ("Stinger plates-extra images screen T34 x TS", 1, "", {}),
+    ),
+    "D": (
+        ("Stinger plates-extra images screen T34 x TS-more repeats", 3, "", {}),
     ),
 }
 
@@ -41,12 +46,19 @@ def main(argv):
                 pass
 
         with open(plates_fn, "w") as fp:
-            for directory, fields, extra in directories:
+            for directory, fields, extra, overrides in directories:
                 basenames = glob.glob("%s%s/%s*" % (ROOT, directory, extra))
                 for bn in basenames:
                     if not os.path.isdir(bn): continue
                     print bn
                     screen_name = os.path.basename(bn)
+                    screen_name = overrides.get(screen_name, screen_name)
+                    screen_name = screen_name.replace("-used pics", "")
+                    p1 = screen_name.find("(")
+                    p2 = screen_name.find(")")
+                    if p1 > 0 and p2 > 0:
+                        screen_name = screen_name[0:p1-1]
+                        screen_name += screen_name[p2:]
                     screen_fn = os.path.join(screens_dir, "%s.screen" % screen_name)
                     screen_rel = os.path.join("..", "screens", "%s.screen" % screen_name)
                     make_screen.main(["dummy", bn,
