@@ -26,6 +26,7 @@ columns:
     include: yes
   - name: Characteristics [Strain]
     clientname: Strain
+    include: yes
 
   - name: Gene Identifier
     include: yes
