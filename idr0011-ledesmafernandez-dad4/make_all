@@ -18,11 +18,11 @@ SCREENS = {
     "C": (
         ("Stinger plates-extra images screen T37 x deletion library", 1, "*/"),
     ),
-    "D": (
+    "E": (
         ("Stinger plates-extra images screen T34 x TS", 1, ""),
     ),
-    "E": (
-        ("Stinger plates-extra images screen T34 x TS-more repeats", 1, ""),
+    "D": (
+        ("Stinger plates-extra images screen T34 x TS-more repeats", 3, ""),
     ),
 }
 
