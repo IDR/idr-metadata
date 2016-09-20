@@ -34,7 +34,7 @@ study_keys = [
     ('Study DOI', 'Publication DOI'),
 ]
 
-ns = omero.constants.namespaces.NSBULKANNOTATIONS
+ns = 'openmicroscopy.org/idr/study'
 
 
 def get_pairs(study):
