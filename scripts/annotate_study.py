@@ -1,26 +1,20 @@
 #!/usr/bin/env python
 
 """
-Create a map-annotation on a top-level object based on an IDR study file
+Create a map-annotation on a top-level object based on an IDR study file.
+Example:
 
-execfile() this from inside `omero shell --login` (the client variable must
-exist in the global namespace)
-idr-metadata/pyidr must be on the python-path
-
-    execfile('idr-metadata/scripts/annotate_study.py')
-    run('idr-metadata/idr0001-graml-sysgro/idr0001-study.txt', 'Screen:3')
-
+    scripts/annotate_study.py \
+        idr-metadata/idr0001-graml-sysgro/idr0001-study.txt Screen:3
 """
 
 import argparse
-from omero.cli import ProxyStringType
 import pandas as pd
-from pyidr.mapannotations import create_map_annotation
 
-# If you are not running this from inside `omero shell` uncomment and
-# modify these lines:
-# client = omero.client(HOST)
-# client.createSession(USER, PASSWORD)
+from pyidr.mapannotations import create_map_annotation
+# This import needs to come after the above, otherwise there's a mysterious
+# "ImportError: cannot import name NamedValue" error
+from omero.cli import CLI, ProxyStringType
 
 
 # Mapping of
@@ -63,19 +57,36 @@ def get_pairs(study):
 
 
 def run(studyfile, targetstr):
-    qs = client.getSession().getQueryService()  # noqa
-    us = client.getSession().getUpdateService()  # noqa
+    try:
+        # `omero shell --login` automatically creates the client object
+        session = client.getSession()
+        cli = None
+    except NameError:
+        cli = CLI()
+        cli.loadplugins()
+        cli.onecmd('login')
+        session = cli.get_client().getSession()
 
-    target = ProxyStringType()(targetstr)
-    rowkvs = get_pairs(studyfile)
-    links = create_map_annotation([target], rowkvs, ns)
-    ids = us.saveAndReturnIds(links)
-    print 'Created MapAnnotation links: %s' % ids
+    try:
+        us = session.getUpdateService()
+
+        target = ProxyStringType()(targetstr)
+        rowkvs = get_pairs(studyfile)
+        links = create_map_annotation([target], rowkvs, ns)
+        ids = us.saveAndReturnIds(links)
+        print 'Created MapAnnotation links: %s' % ids
+    finally:
+        if cli:
+            cli.close()
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('studyfile')
     parser.add_argument('target')
-    args = parser.parser_args()
+    args = parser.parse_args()
     run(args.studyfile, args.target)
+
+
+if __name__ == '__main__':
+    main()
