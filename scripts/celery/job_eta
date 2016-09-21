@@ -1,0 +1,88 @@
+#!/usr/bin/env python
+
+"""\
+Parse Celery logs for an ongoing job and print an ETA for it.
+
+Assumes all log content is related to the same job.
+
+Example: ./job_eta 370176 /uod/idr/scratch/idr*/szleo/*.log -c 28
+"""
+
+import sys
+import re
+import datetime
+import argparse
+
+
+FMT = "%Y-%m-%d %H:%M:%S"
+LOG_ENTRY_PATTERN = re.compile(r"\[([^\]]+)\]\s+(.*)")
+TASK_OK_PATTERN = re.compile(r"succeeded in ([\d.]+)")
+
+
+def parse_log_entry(log_entry):
+    try:
+        info, msg = LOG_ENTRY_PATTERN.match(log_entry.strip()).groups()
+    except AttributeError:
+        raise RuntimeError("Invalid log entry: %r" % (log_entry,))
+    dt_string = info.rsplit(" ", 1)[0].rsplit(",", 1)[0]
+    dt = datetime.datetime.strptime(dt_string, FMT)
+    return dt, msg
+
+
+class LogParser(object):
+
+    def __init__(self, n_total, n_concurrent):
+        self.n_total = n_total
+        self.n_concurrent = n_concurrent
+        self.deltas = []
+
+    def rec_task_time(self, fn):
+        with open(fn) as f:
+            for line in f:
+                dt, msg = parse_log_entry(line)
+                try:
+                    t_string, = TASK_OK_PATTERN.search(msg).groups()
+                except AttributeError:
+                    pass
+                else:
+                    self.deltas.append(float(t_string))
+
+    def average_delta(self):
+        return sum(self.deltas) / len(self.deltas)
+
+    def n_left(self):
+        return self.n_total - len(self.deltas)
+
+    def eta(self):
+        d = self.average_delta()
+        return datetime.datetime.now() + datetime.timedelta(
+            seconds=(d * self.n_left() / self.n_concurrent)
+        )
+
+
+def make_cli_parser():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('n_total', type=int, metavar="N_TOTAL",
+                        help="total number of tasks in the job")
+    parser.add_argument('fnames', metavar="LOG_FILE", nargs="+",
+                        help="celery log file for a worker")
+    parser.add_argument("-c", "--concurrency", type=int, metavar="INT",
+                        help="n. concurrent tasks per worker", default=1)
+    return parser
+
+
+def main(argv):
+    parser = make_cli_parser()
+    args = parser.parse_args(argv[1:])
+    n_concurrent = args.concurrency * len(args.fnames)
+    parser = LogParser(args.n_total, n_concurrent)
+    for fn in args.fnames:
+        print "parsing %r..." % (fn,)
+        parser.rec_task_time(fn)
+    print "AVERAGE TASK TIME:", parser.average_delta()
+    print "TASKS LEFT:", parser.n_left()
+    print "ETA:", datetime.datetime.strftime(parser.eta(), FMT)
+
+
+if __name__ == "__main__":
+    main(sys.argv)
