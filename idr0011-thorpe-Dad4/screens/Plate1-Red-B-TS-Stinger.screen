@@ -2,7 +2,7 @@
 Name = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/Stinger plates-extra images screen T34 x TS-more repeats/Plate1-Red-B-TS-Stinger
 Rows = 6
 Columns = 8
-Fields = 1
+Fields = 2
 
 [Well 0]
 Row = 0
@@ -59,6 +59,7 @@ Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/Stinger pl
 Row = 1
 Column = 3
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/Stinger plates-extra images screen T34 x TS-more repeats/Plate1-Red-B-TS-Stinger/Plate1-Red-B-18-Scene-1-P1-B4-01.czi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/Stinger plates-extra images screen T34 x TS-more repeats/Plate1-Red-B-TS-Stinger/Plate1-Red-B-18-Scene-3-P3-03.czi
 
 [Well 12]
 Row = 1
@@ -180,6 +181,7 @@ Column = 4
 Row = 4
 Column = 5
 Field_0 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/Stinger plates-extra images screen T34 x TS-more repeats/Plate1-Red-B-TS-Stinger/Plate1-Red-B-24-Scene-1-P1-E6-01.czi
+Field_1 = /uod/idr/filesets/idr0011-thorpe-Dad4/20150826-peter_thorpe/Stinger plates-extra images screen T34 x TS-more repeats/Plate1-Red-B-TS-Stinger/Plate1-Red-B-24-Scene-3-P3-03.czi
 
 [Well 38]
 Row = 4
