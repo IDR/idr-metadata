@@ -28,7 +28,7 @@ columns:
     clientname: Cell Line
     include: yes
   - name: Experimental Condition [RNA interference]
-    clientname: ch-TOG shRNA
+    clientname: shRNA
     include: yes
     
   - name: siRNA Pool Identifier
