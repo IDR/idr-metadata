@@ -34,6 +34,8 @@ columns:
     include: yes
   - name: Antisense Sequence
     include: yes
+  - name: Original Gene Target
+    include: yes
   - name: Reagent Design Gene Annotation Build
     include: yes
     
@@ -46,8 +48,6 @@ columns:
   - name: Gene Symbol
     include: yes
   - name: Gene Annotation Comments
-    include: yes
-  - name: Original Gene Target
     include: yes
   - name: Analysis Gene Annotation Build
     include: yes
