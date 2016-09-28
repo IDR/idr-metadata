@@ -1,0 +1,49 @@
+Plate	Well Number	Well	Characteristics [Organism]	Term Source 1 REF	Term Source 1 Accession	Characteristics [Strain]	Gene Identifier	Gene Symbol	Temperature Sensitive Allele	Reagent Design Gene Annotation Build	Analysis Gene Annotation Build	Control Type	Channels	Comments
+Target-TS	1	A1								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	2	A2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y06420	YCR002C	CDC10	cdc10-2	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	3	A3								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	4	A4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y11867	YFR037C	RSC8	rsc8-ts16	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	5	A5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y12326	YDL097C	RPN6	rpn6-1	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	6	A6								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	7	A7								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	8	A8								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	9	B1								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	10	B2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y06274	YIL026C	IRR1	irr1-1	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	11	B3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y06424	YCR002C	CDC10	cdc10-5	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	12	B4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y11844	YDL105W	NSE4	nse4-ts4	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	13	B5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y12311	YKL024C	URA6	ura6-4	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	14	B6								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	15	B7								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	16	B8								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	17	C1								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	18	C2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y05121	YDR182W	CDC1	cdc1-1	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	19	C3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y04869	YAR019C	CDC15	cdc15-2	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	20	C4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y11742	YPL266W	DIM1	dim1-2	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	21	C5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y12301	YOL021C	DIS3	dis3-1	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	22	C6								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	23	C7								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	24	C8								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	25	D1								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	26	D2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y07850	YFL039C	ACT1	act1-111	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	27	D3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y11614	YDL103C	QRI1	qri1-ts1	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	28	D4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y11718	YGR172C	YIP1	yip1-40	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	29	D5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y12014	YLR186W	EMG1	emg1-1	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	30	D6								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	31	D7								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	32	D8								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	33	E1								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	34	E2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y04855	YKL045W	PRI2	pri2-1	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	35	E3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y11211	YDL143W	CCT4	cct4-1	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	36	E4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y11714	YGR172C	YIP1	yip1-4	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	37	E5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y11997	YHR058C	MED6	med6-ts	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	38	E6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y12366	YHR036W	BRL1	brl1-K405I	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	39	E7								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	40	E8								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	41	F1								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	42	F2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y04722	YNL263C	YIF1	yif1-td	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	43	F3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y08905	YGR091W	PRP31	prp31-ts	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	44	F4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y10284	YNL061W	NOP2	nop2-10	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	45	F5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y11993	YBL093C	ROX3	rox3-182	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	46	F6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	Y12354	YHR036W	BRL1	brl1-C371R	"SGD, 2011"	"SGD, 2011"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	47	F7								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-TS	48	F8								"SGD, 2011"	"SGD, 2011"	empty well	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	

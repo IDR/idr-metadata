@@ -1,0 +1,193 @@
+Plate	Well Number	Well	Characteristics [Organism]	Term Source 1 REF	Term Source 1 Accession	Gene Identifier	Gene Symbol	Reagent Design Gene Annotation Build	Analysis Gene Annotation Build	Control Type	Channels	Comments
+Target-1-A	1	A1								empty well		
+Target-1-A	2	A2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	3	A3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	4	A4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR374W	ALD4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	5	A5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YCR002C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	6	A6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	7	A7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	8	A8								empty well		
+Target-1-A	9	B1								empty well		
+Target-1-A	10	B2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR119W	SRN2	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	11	B3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	12	B4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPL254W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	13	B5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR103W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	14	B6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR318W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	15	B7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPR174C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	16	B8								empty well		
+Target-1-A	17	C1								empty well		
+Target-1-A	18	C2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YAL026C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	19	C3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	20	C4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPL178W	CBC2	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	21	C5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YEL004W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	22	C6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR027C	AAT2	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	23	C7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPR157W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	24	C8								empty well		
+Target-1-A	25	D1								empty well		
+Target-1-A	26	D2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YAL044C	GCV3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	27	D3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YMR198W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	28	D4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	29	D5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR219C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	30	D6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YML001W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	31	D7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPR141C	KAR3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	32	D8								empty well		
+Target-1-A	33	E1								empty well		
+Target-1-A	34	E2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YAL062W	GDH3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	35	E3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR056W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	36	E4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPL188W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	37	E5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YGR105W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	38	E6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR227W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	39	E7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPL003W	ULA1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	40	E8								empty well		
+Target-1-A	41	F1								empty well		
+Target-1-A	42	F2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	43	F3								empty well		
+Target-1-A	44	F4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YNL280C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	45	F5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR226W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	46	F6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YKL135C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-A	47	F7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-A	48	F8								empty well		
+Target-1-B	1	A1								empty well		
+Target-1-B	2	A2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	3	A3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YMR148W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	4	A4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YHR086W	NAM8	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	5	A5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YKL177W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-B	6	A6								empty well		
+Target-1-B	7	A7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	8	A8								empty well		
+Target-1-B	9	B1								empty well		
+Target-1-B	10	B2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR099C	ICT1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	11	B3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YMR145C	NDE1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	12	B4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	13	B5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YKL178C	STE3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-B	14	B6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	15	B7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPL086C	ELP3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-B	16	B8								empty well		
+Target-1-B	17	C1								empty well		
+Target-1-B	18	C2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR023C	IZH3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	19	C3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YMR140W	SIP5	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	20	C4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	21	C5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR212W	STE4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-B	22	C6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	23	C7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YGR006W	PRP18	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-B	24	C8								empty well		
+Target-1-B	25	D1								empty well		
+Target-1-B	26	D2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR004C	THI73	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	27	D3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YMR206W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	28	D4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	29	D5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YEL029C	BUD16	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-B	30	D6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	31	D7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPR173C	VPS4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	32	D8								empty well		
+Target-1-B	33	E1								empty well		
+Target-1-B	34	E2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLL053C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	35	E3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YMR190C	SGS1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	36	E4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOL049W	GSH2	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	37	E5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YER039C	HVG1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-B	38	E6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	39	E7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPR197C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	40	E8								empty well		
+Target-1-B	41	F1								empty well		
+Target-1-B	42	F2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	43	F3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	44	F4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOL031C	SIL1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	45	F5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YHR177W	GON3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-1-B	46	F6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	47	F7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-1-B	48	F8								empty well		
+Target-2-A	1	A1								empty well		
+Target-2-A	2	A2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	3	A3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YHR004C	NEM1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	4	A4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL041W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	5	A5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR294C	DPL1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	6	A6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YNR036C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	7	A7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	8	A8								empty well		
+Target-2-A	9	B1								empty well		
+Target-2-A	10	B2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YIL014W	MNT3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	11	B3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YHR026W	PPA1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	12	B4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YKL139W	CTK1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	13	B5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YNL252C	MRPL17	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	14	B6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YNL028W		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	15	B7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOL143C	RIB4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	16	B8								empty well		
+Target-2-A	17	C1								empty well		
+Target-2-A	18	C2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YFR032C-A	RPL29	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	19	C3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOL100W	PKH2	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	20	C4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YJL140W	RPB4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	21	C5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	22	C6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR112C	CYC8	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	23	C7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YGL038C	OCH1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	24	C8								empty well		
+Target-2-A	25	D1								empty well		
+Target-2-A	26	D2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	27	D3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YER092W	IES5	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	28	D4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YCR084C	TUP1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	29	D5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLL039C	UBI4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	30	D6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YCR053W	THR4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	31	D7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YNL139C	THO2	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	32	D8								empty well		
+Target-2-A	33	E1								empty well		
+Target-2-A	34	E2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBL016W	FUS3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	35	E3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YHR168W	MTG2	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	36	E4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YIL069C	RPS24B	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	37	E5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR332W	VMA4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	38	E6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL179W	PCL9	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	39	E7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR039W	ATP3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-A	40	E8								empty well		
+Target-2-A	41	F1								empty well		
+Target-2-A	42	F2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	43	F3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR032W	RAD5	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	44	F4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	45	F5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	46	F6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	47	F7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-A	48	F8								empty well		
+Target-2-B	1	A1								empty well		
+Target-2-B	2	A2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	3	A3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	4	A4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	5	A5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL100C	GET3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	6	A6								empty well		
+Target-2-B	7	A7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	8	A8								empty well		
+Target-2-B	9	B1								empty well		
+Target-2-B	10	B2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLL049W	LDB18	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	11	B3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR021W	FUR4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	12	B4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR362W	STE11	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	13	B5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YCR044C	PER1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	14	B6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YCR047C	BUD23	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	15	B7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YKL169C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	16	B8								empty well		
+Target-2-B	17	C1								empty well		
+Target-2-B	18	C2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YIL009C-A	EST3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	19	C3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YMR172W	HOT1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	20	C4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	21	C5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	22	C6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR116C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	23	C7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	24	C8								empty well		
+Target-2-B	25	D1								empty well		
+Target-2-B	26	D2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YIL039W	TED1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	27	D3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YJR121W	ATP2	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	28	D4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR130C	SHE3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	29	D5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBL046W	PSY4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	30	D6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL159W	STE7	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	31	D7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YPR072W	NOT5	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	32	D8								empty well		
+Target-2-B	33	E1								empty well		
+Target-2-B	34	E2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YFR001W	LOC1	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	35	E3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL232W	OST4	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	36	E4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR128C	ATG14	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	37	E5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YHR200W	RPN10	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	38	E6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL158C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	39	E7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YJL075C	APQ13	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	40	E8								empty well		
+Target-2-B	41	F1								empty well		
+Target-2-B	42	F2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	43	F3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YJR073C	OPI3	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	44	F4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL042C	SIR2	"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	"no image, problem with well"
+Target-2-B	45	F5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	46	F6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YFR016C		"SGD, 1999"	"SGD, 1999"		YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	47	F7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	"SGD, 1999"	"SGD, 1999"	negative control	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Target-2-B	48	F8								empty well		
