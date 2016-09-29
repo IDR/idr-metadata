@@ -10,7 +10,6 @@ from pyidr.screenio import ScreenWriter
 ROWS = 6  # A-F
 COLUMNS = 8
 FIELDS = -1
-CHANNEL_NAMES = ("Blue", "Green", "Red", "Yellow")
 
 
 def parse_cl(argv):
