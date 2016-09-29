@@ -1,7 +1,7 @@
 "# Section with generic information about the study including title, description, publication details (if applicable) and contact details"						
 # Study						
 Comment[IDR Study Accession]	idr0011					
-Study Title	Protein Kinase C and the stress response pathways regulate kinetochore homeostasis.					
+Study Title	Protein Kinase C and the stress response pathways are required for kinetochore homeostasis.					
 Study Type	high content screen					
 Study Type Term Source REF	EFO					
 Study Type Term Accession Number	EFO_0007550					
@@ -15,7 +15,7 @@ Study Public Release Date
 						
 # Study Publication						
 Study PubMed ID						
-Study Publication Title	Protein Kinase C and the stress response pathways regulate kinetochore homeostasis.					
+Study Publication Title	Protein Kinase C and the stress response pathways are required for kinetochore homeostasis.					
 Study Author List	"Elena Ledesma-Fernandez, Eva Herrero, Gudjon Olafsson and Peter H Thorpe"					
 Study PMC ID						
 Study DOI						
