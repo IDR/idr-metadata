@@ -59,17 +59,7 @@
 # Watch out for mac line endings in the files. Needs to be unix line
 # endings.
 #
-# Column Heading URLS (apart from ontology ones) e.g. Gene Identifier
-# The column heading URLS are added to the columns from the library file
-# but they come from the processed file!  This is because
-# - we don't collect info about library file column headings (maybe we should?)
-# - duplicate columns between the library and processed files are removed
-#   from the processed file
-# - so far all column headings that need a URL have been in both the
-#   library and processed files
-# This could be a problem in future though and so the script needs a
-# rewrite once we decide if we need to collect info about library file columns
-#
+
 #######################################################################
 
 #######################################################################
@@ -84,6 +74,15 @@
 # - probably lots of things could be simplified and improved on
 # 
 #######################################################################
+
+#######################################################################
+# REVISIONS
+#
+# 14-06-2016
+#
+# 1. removed adding URL into column headings 
+
+
 
 use warnings;
 use strict;
@@ -172,7 +171,6 @@ if ($processedDataFile ne ""){
 # 1. find the right screen                                           
 # 2. find which column to combine on                                  
 # 3. get the phenotypes and the ontology mappings
-# 4. get the URIS for columns that are in the processed file e.g. Gene Identifiers etc
 #####################################################################
 
 
@@ -199,13 +197,7 @@ print "The column to combine on is $columnTitleToCombineOn\n";
      warn "WARNING: There are no phenotypes for this screen\n";
    }
 
-# 4. get the URIS for columns that are in the processed file e.g. Gene Identifiers etc
-   my $columnName_URIs_ref = getIdentifierURIs(\@screenRows);
-   my %columnName_URI = %$columnName_URIs_ref;
-
-   unless (%columnName_URI){
-   warn "WARNING: There are no identifiers with URIs for this screen\n";
-   } 
+# 4. now ommitted (was getting URLS)
 
 
 ######################################################################
@@ -213,7 +205,6 @@ print "The column to combine on is $columnTitleToCombineOn\n";
 # 5. find out which column contains the identifier which is going to 
 #    match up with the processed file                                
 ######################################################################
-
 
 # 5. which column in library file has identifier to match column in
 # processed file
@@ -425,11 +416,11 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
 
 	 # get the URIs associated with the ontologies used
 
-	 my %ontology_URI;
-	 foreach my $ontology (@ontologiesUsed){
-	   my $URI = getOntologyURI($ontology, $study);
-	   $ontology_URI{$ontology} = $URI;
-	 }
+#	 my %ontology_URI;
+#	 foreach my $ontology (@ontologiesUsed){
+#	   my $URI = getOntologyURI($ontology, $study);
+#	   $ontology_URI{$ontology} = $URI;
+#	 }
 
 	 
          # SECOND TIME ROUND - GO THROUGH EACH IDENTIFIER, IF THERE IS A PHENOTYPE ADD THE MAPPINGS, IF NOT THEN JUST ADD THE SAME NUMBER OF TABS
@@ -449,12 +440,14 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
                            if(${$Identifier_otherColumns{$columnTitleToCombineOn}}[$a] =~ m/^Phenotype\s?(\d+)$/){# if column name has a number e.g. Phenotype 1
 			     my $number = $1;
 			     my $termName = "Phenotype ".$number." Term Name";
-			     my $termAcc = "Phenotype ".$number." Term Accession %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
+			     my $termAcc = "Phenotype ".$number." Term Accession";
+			    # my $termAcc = "Phenotype ".$number." Term Accession %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
 			     
 			     splice @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}, $b+1, 0, $termName, $termAcc;
 			     $numberOntologyColumnsAdded = $numberOntologyColumnsAdded + 2;
           	           }else{
-			     my $termAcc =  "Phenotype Term Accession %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
+			     my $termAcc = "Phenotype Term Accession";
+			     #my $termAcc =  "Phenotype Term Accession %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
                            splice @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}, $b+1, 0, 'Phenotype Term Name', $termAcc;
 	                   }   
 
@@ -477,13 +470,17 @@ for my $a (0 .. $#{$Identifier_otherColumns{$columnTitleToCombineOn}}) { # going
                           if(${$Identifier_otherColumns{$columnTitleToCombineOn}}[$a] =~ m/^Phenotype\s?(\d+)$/){# if column name has a number e.g. Phenotype 1
 		             my $number = $1;
 			     my $termNameA = "Phenotype ".$number." Term Name a";
-			     my $termAccA = "Phenotype ".$number." Term Accession a %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
+                             my $termAccA = "Phenotype ".$number." Term Accession a";
+			     #my $termAccA = "Phenotype ".$number." Term Accession a %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
  	                     my $termNameB = "Phenotype ".$number." Term Name b";
-			     my $termAccB = "Phenotype ".$number." Term Accession b %% url=".$ontology_URI{$ontologiesUsed[1]}."%s";		   
+			     my $termAccB = "Phenotype ".$number." Term Accession b";
+			     #my $termAccB = "Phenotype ".$number." Term Accession b %% url=".$ontology_URI{$ontologiesUsed[1]}."%s";		   
                              splice @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}, $b+1, 0, $termNameA, $termAccA, $termNameB, $termAccB;
 			   }else{
-                             my $termAccA = "Phenotype Term Accession a %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
-                             my $termAccB = "Phenotype Term Accession b %% url=".$ontology_URI{$ontologiesUsed[1]}."%s";			     
+			     my $termAccA = "Phenotype Term Accession a";
+                             my $termAccB = "Phenotype Term Accession b";
+                             #my $termAccA = "Phenotype Term Accession a %% url=".$ontology_URI{$ontologiesUsed[0]}."%s";
+                             #my $termAccB = "Phenotype Term Accession b %% url=".$ontology_URI{$ontologiesUsed[1]}."%s";			     
                              splice @{$Identifier_otherColumnsWithOntology{$columnTitleToCombineOn}}, $b+1, 0, 'Phenotype Term Name a', $termAccA, 'Phenotype Term Name b', $termAccB;
 	                  }   
                  $numberOntologyColumnsAdded = $numberOntologyColumnsAdded + 4;
@@ -544,24 +541,7 @@ open (OUT, ">$outfile");
 
 my $v=0;
 foreach my $libRow (@libraryFile){
-  chomp($libRow);
-
-  # if it is first row then check to see if any of the column headings need a URL added
-  
-  # TODO:  But columns with links are identified in the processed file 
-  # What if column with link is only in the library file?
-  
-  if ($v == 0){
-    my @columnNames = split("\t", $libRow);
-
-      foreach my $name (@columnNames){
-        if (exists $columnName_URI{$name}){
-	  $name = $name." %% url=".$columnName_URI{$name}."%s";	  
-	}
-      }
-    $libRow = join("\t", @columnNames);   
-  }
-  
+  chomp($libRow);  
   
   $libRow =~ s/\t/\,/g; # change tabs to commas as want output file to be comma separated
   print OUT "$libRow\,";  
@@ -571,30 +551,6 @@ foreach my $libRow (@libraryFile){
 
 
  # add processed data if there is any or blank columns if not        #
-
-  # if it is first row and column name for matching to processed data has had URL added, need to find it without the URL  
-  if ($v == 0){
-    if ($libraryRow[$indexOfLibraryFileColumnForMatching] =~ m/http/){
-      # temporarily remove the link and match the header row in the processed file and print out
-      my $columnNameWithoutLink = $libraryRow[$indexOfLibraryFileColumnForMatching];
-      $columnNameWithoutLink =~ /^(.*)\ %%.*/;
-      $columnNameWithoutLink = $1;
-      $libraryRow[$indexOfLibraryFileColumnForMatching] = $columnNameWithoutLink;
-      my $processedRow = join("\,", @{$Identifier_otherColumnsWithOntology{$libraryRow[$indexOfLibraryFileColumnForMatching]}});
-      print OUT "$processedRow";
-
-
-    }else{ # just match as normal
-         if (exists ($Identifier_otherColumnsWithOntology{$libraryRow[$indexOfLibraryFileColumnForMatching]})) {
-             my $processedRow = join("\,", @{$Identifier_otherColumnsWithOntology{$libraryRow[$indexOfLibraryFileColumnForMatching]}});
-             print OUT "$processedRow";
-         }else{
-             print OUT "$blankColumnsIfNoProcessedData";
-             }   
-
-       }
-    
-  }else{ # not the first (column heading) row
     
     if (exists ($Identifier_otherColumnsWithOntology{$libraryRow[$indexOfLibraryFileColumnForMatching]})) {
       my $processedRow = join("\,", @{$Identifier_otherColumnsWithOntology{$libraryRow[$indexOfLibraryFileColumnForMatching]}});
@@ -602,7 +558,7 @@ foreach my $libRow (@libraryFile){
     }else{
       print OUT "$blankColumnsIfNoProcessedData";
     }   
-  } # else not the first row
+
 
    # put a line ending at the end of every row
    print OUT "\n";
@@ -665,92 +621,53 @@ sub getColumnToCombineOn{
 }
 
 
-sub getOntologyURI{
+#sub getOntologyURI{
   # Find out what the base URIs for the ontologies used
   # these are in the study file, first general section.
   # Ontology name is in one row, URI is on the next
   
-  my ($ontologyAskedFor, $studyFile) = @_;
-  my %ont_URI; # for storing what we find
+#  my ($ontologyAskedFor, $studyFile) = @_;
+#  my %ont_URI; # for storing what we find
 
   # split the study file on new line character and
   # then find the ontology URI rows
-  my @studyRows = split("\n", $studyFile);
+#  my @studyRows = split("\n", $studyFile);
   
   # ontology names and URIs
-  my @sourceNames;
-  my @sourceURIs;
+#  my @sourceNames;
+#  my @sourceURIs;
   
-  foreach my $row (@studyRows){
-    if ($row =~ m/Term Source Name/){
-    @sourceNames = split("\t", $row);
-    }elsif ($row =~ m/Term Source URI/){
-    @sourceURIs = split("\t", $row);
-    } 
-  }
+#  foreach my $row (@studyRows){
+#    if ($row =~ m/Term Source Name/){
+#    @sourceNames = split("\t", $row);
+#    }elsif ($row =~ m/Term Source URI/){
+#    @sourceURIs = split("\t", $row);
+#    } 
+#  }
 
   # put names and URIs together in one hash
-  for my $n (0 .. $#sourceNames){
-     $ont_URI{$sourceNames[$n]} = $sourceURIs[$n];      
-  }
+#  for my $n (0 .. $#sourceNames){
+#     $ont_URI{$sourceNames[$n]} = $sourceURIs[$n];      
+#  }
 
 
        # now get the URI we want in this case and return it
-       my $wantedURI = $ont_URI{$ontologyAskedFor};
+#       my $wantedURI = $ont_URI{$ontologyAskedFor};
 
        # if there is no URI for that ontology output a warning and set URI to be blank
-       unless ($wantedURI){
-	 die "ERROR: There is no URI in the study file for ontology $ontologyAskedFor\n";
-       }
+#       unless ($wantedURI){
+#	 die "ERROR: There is no URI in the study file for ontology $ontologyAskedFor\n";
+#       }
 
        # check it ends in a forward slash, if not add one
-       if($wantedURI !~ /.*\/$/){
-       $wantedURI = $wantedURI."/";
-       }
-       return $wantedURI;
+#       if($wantedURI !~ /.*\/$/){
+#       $wantedURI = $wantedURI."/";
+#       }
+#       return $wantedURI;
   
-}
+#}
 
-sub getIdentifierURIs{
-  
-  # Find out what from the study file which identifiers in the processed should have a URI link
-  # and what the link should be
-  # These are in screen section of the study file with the
-  # processed data information
-  my $screenRef = shift;
 
-  # find the row with the URIs and column names
-  my @URIs;
-  my @columnNames;
-  
-  foreach my $row (@$screenRef){
-    if ($row =~ m/Processed Data Column Source Stem URI/) {
-      @URIs = split("\t", $row); 
-    }elsif($row =~ m/Processed Data Column Name/) {
-       @columnNames = split("\t", $row);
-     }   
-   }
-
-  # find out which columns actually have a URI and then go and
-  # and get the corresponding Processed Data Column Name
-  my $n = 0;
-  my @columnsWithURIs;
-  foreach my $URI (@URIs){
-    if($URI =~ m/http/){
-      push @columnsWithURIs, $n;
-    }
-    $n++;
-  }  
-  
-  # put results in a hash table
-  my %colName_URI;
-  foreach my $colNumber(@columnsWithURIs){
-    $colName_URI{$columnNames[$colNumber]} = $URIs[$colNumber];  
-  }
-
-  return \%colName_URI;
-
-}
 
 sub getPhenotypes{
 
@@ -854,3 +771,5 @@ sub havePhenotypes{
    return $have_phenotypes;
    
  }
+
+
