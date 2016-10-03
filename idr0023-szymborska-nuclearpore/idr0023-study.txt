@@ -24,7 +24,7 @@ Study DOI	http://dx.doi.org/10.1126/science.1240672
 Study Person Last Name	Vilma	Ellenberg											
 Study Person First Name	Jimenez Sabinina	Jan											
 Study Person Email	vilma.jimenez@embl.de	jan.ellenberg@embl.de 											
-Study Person Address	"EMBL Heidelberg, Meyerhofstrabe 1, 69117 Heidelberg, Germany"	"EMBL Heidelberg, Meyerhofstrabe 1, 69117 Heidelberg, Germany"											
+Study Person Address	"EMBL Heidelberg, Meyerhofstrasse 1, 69117 Heidelberg, Germany"	"EMBL Heidelberg, Meyerhofstrasse 1, 69117 Heidelberg, Germany"											
 Study Person Roles	submitter	principal investigator											
 													
 Term Source Name	NCBITaxon	EFO	CMPO										
