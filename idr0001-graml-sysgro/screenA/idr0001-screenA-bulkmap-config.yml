@@ -21,9 +21,6 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Organism]
-    clientname: Organism
-    include: yes
   - name: Characteristics [Strain]
     clientname: Strain
     include: yes
@@ -46,6 +43,13 @@ columns:
 ######################################################################
 # mapr groups
 ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+      - name: Characteristics [Organism]
+        clientname: Organism
+        include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/gene
@@ -425,6 +429,9 @@ advanced:
     # TODO: Primary key config should be in a global config
     ignore_missing_primary_key: yes
     primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+      - Organism
     - namespace: openmicroscopy.org/mapr/gene
       keys:
       - Gene Identifier

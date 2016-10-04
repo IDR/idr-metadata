@@ -21,9 +21,6 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Organism]
-    clientname: Organism
-    include: yes
   - name: Characteristics [Cell Line]
     clientname: Cell Line
     include: yes
