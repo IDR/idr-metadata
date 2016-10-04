@@ -3,7 +3,12 @@
 """\
 Collate results from a Celery job.
 
-Example: ./collate /uod/idr/scratch/idr*/szleo/out
+Examples:
+
+./collate --from-serialize /uod/idr/scratch/idr*/szleo/out
+-o /uod/idr/homes/szleo/features/idr0009-simpson-secretion/screenA/serialize
+
+./collate /uod/idr/scratch/idr*/szleo/out
 -o /uod/idr/homes/szleo/features/idr0009-simpson-secretion/screenA/calc/168_128
 
 This script uses shutil.copy2, thus preserving both file content and
@@ -33,12 +38,23 @@ def older(fn1, fn2):
     return os.stat(fn1).st_mtime <= os.stat(fn2).st_mtime
 
 
+def copy_if_newer(source_fn, target_fn, dry_run=False):
+    if os.path.exists(target_fn) and older(source_fn, target_fn):
+        return
+    if dry_run:
+        print "%s -> %s" % (source_fn, target_fn)
+    else:
+        shutil.copy2(source_fn, target_fn)
+
+
 def make_parser():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("in_dirs", metavar="DIR", nargs="+", help="input dirs")
     parser.add_argument("-o", "--out-dir", metavar="DIR", help="output dir")
     parser.add_argument("-n", "--dry-run", action="store_true", help="dry run")
     parser.add_argument("--limit", type=int, help="max no. of plates")
+    parser.add_argument("--from-serialize", action="store_true",
+                        help="source files are from a serialize run")
     return parser
 
 
@@ -49,29 +65,36 @@ def main(argv):
         args.out_dir = os.getcwd()
     logs_dir = os.path.join(args.out_dir, "logs")
     data_dir = os.path.join(args.out_dir, "data")
+    from_serialize = args.from_serialize
     for d in args.in_dirs:
         for i, plate in enumerate(os.listdir(d)):
             if args.limit and i >= args.limit:
                 break
             source_subd = os.path.join(d, plate)
+            if os.path.isfile(source_subd):  # out/err log from serialize
+                if not from_serialize:
+                    raise RuntimeError("unexpected source layout")
+                mkdir_p(logs_dir)
+                target_fn = os.path.join(logs_dir, plate)
+                copy_if_newer(source_subd, target_fn, dry_run=args.dry_run)
+                continue
             logs_subd = os.path.join(logs_dir, plate)
             data_subd = os.path.join(data_dir, plate)
             print "processing:", source_subd
             if args.dry_run:
                 print "create:", logs_subd, data_subd
             else:
-                mkdir_p(logs_subd, data_subd)
+                mkdir_p(data_subd)
+                if not from_serialize:
+                    mkdir_p(logs_subd)
             for name in os.listdir(source_subd):
                 ext = os.path.splitext(name)[-1]
                 target_subd = data_subd if ext == ".avro" else logs_subd
+                if from_serialize and target_subd is logs_subd:
+                    raise RuntimeError("unexpected source layout")
                 source_fn = os.path.join(source_subd, name)
                 target_fn = os.path.join(target_subd, name)
-                if os.path.exists(target_fn) and older(source_fn, target_fn):
-                    continue
-                if args.dry_run:
-                    print "%s -> %s" % (source_fn, target_fn)
-                else:
-                    shutil.copy2(source_fn, target_fn)
+                copy_if_newer(source_fn, target_fn, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":
