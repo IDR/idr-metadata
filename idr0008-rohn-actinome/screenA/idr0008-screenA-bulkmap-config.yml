@@ -58,6 +58,10 @@ columns:
         clientname: siRNA Identifier URL
         clientvalue: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname={{ value }}
         include: yes
+      - name: CAN Repeats
+        include: yes
+      - name: Off Target Effects
+        include: yes
       - name: Reagent Design Gene Annotation Build
         include: yes
 
@@ -71,10 +75,6 @@ columns:
         clientvalue: http://flybase.org/reports/{{ value }}.html
         include: yes
       - name: Gene Symbol
-        include: yes
-      - name: CAN Repeats
-        include: yes
-      - name: Off Target Effects
         include: yes
       - name: Analysis Gene Annotation Build
         include: yes
