@@ -2161,7 +2161,6 @@ Row = 11
 Column = 14
 AxisTypes = C
 ChannelNames = A,H,T
-Field_0 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT10/HT10L015/HT10L015_<A,H,T>1.tif
 Field_1 = /uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/primary/source/www.ebi.ac.uk/huber-srv/cellmorph/source/HT10/HT10L015/HT10L015_<A,H,T>2.tif
 
 [Well 279]
