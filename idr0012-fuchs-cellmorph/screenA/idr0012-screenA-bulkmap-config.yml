@@ -69,7 +69,7 @@ columns:
         include: yes
       - name: Gene Identifier
         clientname: Gene Identifier URL
-        clientvalue: http://www.ncbi.nlm.nih.gov/gene/?term={{ value }}
+        clientvalue: http://www.ncbi.nlm.nih.gov/gene/{{ value }}
         include: yes
       - name: Gene Symbol
         include: yes
