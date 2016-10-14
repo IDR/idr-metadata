@@ -11,7 +11,11 @@ idr0008-rohn-actinome/screenB/idr0008-screenB-bulkmap-config.yml Screen:206
 idr0009-simpson-secretion/screenA/idr0009-screenA-bulkmap-config.yml Screen:251
 idr0009-simpson-secretion/screenB/idr0009-screenB-bulkmap-config.yml Screen:803
 idr0010-doil-dnadamage/screenA/idr0010-screenA-bulkmap-config.yml Screen:1351
-idr0011-thorpe-Dad4/screenA/idr0011-screenA-bulkmap-config.yml Screen:1503
+idr0011-ledesmafernandez-dad4/screenA/idr0011-screenA-bulkmap-config.yml Screen:1501
+idr0011-ledesmafernandez-dad4/screenB/idr0011-screenB-bulkmap-config.yml Screen:1551
+idr0011-ledesmafernandez-dad4/screenC/idr0011-screenC-bulkmap-config.yml Screen:1601
+idr0011-ledesmafernandez-dad4/screenD/idr0011-screenD-bulkmap-config.yml Screen:1602
+idr0011-ledesmafernandez-dad4/screenE/idr0011-screenE-bulkmap-config.yml Screen:1603
 idr0012-fuchs-cellmorph/screenA/idr0012-screenA-bulkmap-config.yml Screen:1202
 idr0013-neumann-mitocheck/screenA/idr0013-screenA-bulkmap-config.yml Screen:1101
 idr0013-neumann-mitocheck/screenB/idr0013-screenB-bulkmap-config.yml Screen:1302
