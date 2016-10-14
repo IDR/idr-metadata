@@ -69,8 +69,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
-      - name: Analysis Gene Annotation Build
-        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: hORFeome V5.1 Identifier
         include: yes
       - name: hORFeome V5.1 Identifier
@@ -80,6 +82,8 @@ columns:
       - name: hORFeome V5.1 Clone Description
         include: yes
       - name: Reagent Design Gene Annotation Build
+        include: yes
+      - name: Analysis Gene Annotation Build
         include: yes
 
   - group:

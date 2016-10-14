@@ -57,6 +57,10 @@ columns:
       columns:
       - name: siRNA Identifier
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/sirna/supplementary
+      columns:
       - name: RNAi Primer 1
         include: yes
       - name: RNAi Primer 2
@@ -77,6 +81,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: Gene Symbol Synonyms
         include: yes
       - name: Gene Name

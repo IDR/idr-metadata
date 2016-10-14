@@ -60,6 +60,10 @@ columns:
       columns:
       - name: siRNA Identifier
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/sirna/supplementary
+      columns:
       - name: Mitocheck siRNA Identifier
         include: yes
       - name: Sense Sequence
@@ -80,6 +84,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: Gene Annotation Comments
         include: yes
       - name: Analysis Gene Annotation Build

@@ -59,6 +59,10 @@ columns:
       columns:
       - name: siRNA Identifier
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/sirna/supplementary
+      columns:
       - name: Sense Sequence
         include: yes
       - name: Antisense Sequence
@@ -77,6 +81,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: Gene Symbol Synonyms
         include: yes
       - name: Gene Annotation Comments

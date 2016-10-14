@@ -62,6 +62,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: Reagent Design Gene Annotation Build
         include: yes
       - name: Analysis Gene Annotation Build

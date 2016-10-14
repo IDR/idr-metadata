@@ -61,6 +61,10 @@ columns:
       - name: Comment [Gene Symbol]
         clientname: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: Comment [Gene Symbol Synonyms]
         clientname: Gene Symbol Synonyms
         include: yes

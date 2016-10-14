@@ -51,6 +51,10 @@ columns:
         include: yes
       - name: siRNA Identifier
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/sirna/supplementary
+      columns:
       - name: Original GeneID Target
         include: yes
       - name: Original Gene Target
@@ -73,6 +77,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: RefSeq Accession
         include: yes
       - name: RefSeq Hits

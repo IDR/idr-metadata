@@ -60,6 +60,10 @@ columns:
         include: yes
       - name: siRNA Pool Identifier
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/sirna/supplementary
+      columns:
       - name: siRNA Catalog Number
         include: yes
       - name: Sense Sequence
@@ -78,6 +82,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: Analysis Gene Annotation Build
         include: yes
       - name: Gene Annotation Comments

@@ -63,6 +63,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: Temperature Sensitive Allele
         include: yes
       - name: Reagent Design Gene Annotation Build

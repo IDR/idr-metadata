@@ -58,6 +58,10 @@ columns:
         clientname: siRNA Identifier URL
         clientvalue: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname={{ value }}
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/sirna/supplementary
+      columns:
       - name: CAN Repeats
         include: yes
       - name: Off Target Effects
@@ -76,6 +80,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: Analysis Gene Annotation Build
         include: yes
 

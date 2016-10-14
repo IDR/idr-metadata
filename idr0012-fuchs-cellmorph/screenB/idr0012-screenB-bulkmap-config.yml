@@ -65,6 +65,10 @@ columns:
         include: yes
       - name: siRNA Identifier
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/sirna/supplementary
+      columns:
       - name: siRNA Sequences
         include: yes
       - name: Reagent Design Gene Annotation Build
@@ -81,6 +85,10 @@ columns:
         include: yes
       - name: Gene Symbol
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
       - name: Analysis Gene Annotation Build
         include: yes
 
