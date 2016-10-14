@@ -21,7 +21,7 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Cell Line]
+  - name: "Characteristics [Cell Line]"
     clientname: Cell Line
     include: yes
 
@@ -576,9 +576,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
         include: yes
 
-   - group:
-       namespace: openmicroscopy.org/mapr/phenotype
-       columns:
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 30
         clientname: Phenotype
         include: yes
