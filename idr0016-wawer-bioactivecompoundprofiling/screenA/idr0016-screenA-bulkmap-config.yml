@@ -71,6 +71,16 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/compound
       columns:
+      - name: Compound Name
+        include: yes
+      - name: Compound Name
+        clientname: Compound Name URL
+        clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound/supplementary
+      columns:
       - name: Compound Broad Identifier
         include: yes
       - name: Compound Broad Identifier
@@ -78,12 +88,6 @@ columns:
         clientvalue: https://pubchem.ncbi.nlm.nih.gov/compound/{{ value }}
         include: yes
       - name: Compound Broad Identifier Short
-        include: yes
-      - name: Compound Name
-        include: yes
-      - name: Compound Name
-        clientname: Compound Name URL
-        clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
         include: yes
       - name: Compound Group
         include: yes

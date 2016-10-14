@@ -60,6 +60,10 @@ columns:
       - name: Experimental Condition [Compound]
         clientname: Compound
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound/supplementary
+      columns:
       - name: Experimental Condition [Dose]
         clientname: Dose
         include: yes

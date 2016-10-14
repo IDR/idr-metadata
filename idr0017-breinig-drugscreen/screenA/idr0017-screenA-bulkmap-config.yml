@@ -52,13 +52,17 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/compound
       columns:
-      - name: Compound Treatment
-        include: yes
       - name: Compound Name
         include: yes
       - name: Compound Name
         clientname: Compound Name URL
         clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound/supplementary
+      columns:
+      - name: Compound Treatment
         include: yes
       - name: Compound Secondary Name
         include: yes
