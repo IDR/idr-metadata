@@ -31,6 +31,8 @@ SCREENS = {
     ),
 }
 
+CHANNEL_NAMES = ("Blue", "Green", "Red", "Yellow")
+
 def main(argv):
     study_root = os.path.dirname(os.path.abspath(__file__))
     screens_dir = os.path.join(study_root, "screens")
@@ -54,6 +56,10 @@ def main(argv):
                     screen_name = os.path.basename(bn)
                     screen_name = overrides.get(screen_name, screen_name)
                     screen_name = screen_name.replace("-used pics", "")
+                    for ch in CHANNEL_NAMES:
+                        screen_name = screen_name.replace("%s-A-TS" % ch, "TS-%s-A" % ch)
+                        screen_name = screen_name.replace("%s-A_TS" % ch, "TS-%s-A" % ch)  # Special case
+                        screen_name = screen_name.replace("%s-B-TS" % ch, "TS-%s-B" % ch)
                     p1 = screen_name.find("(")
                     p2 = screen_name.find(")")
                     if p1 > 0 and p2 > 0:
