@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""\
+r"""\
 Run a pydoop-features calc job on Celery.
 
 Any arguments after '--' will be passed to pyfeatures calc.
@@ -12,6 +12,11 @@ Example: ./calc
 
 Assumes an input directory with one subdirectory (containing the Avro
 input files) per plate.
+
+If provided, the argument to the --include option must be a text file
+containing a list of (subdir, file) pairs as whitespace-separated
+basenames, e.g., "plate1\tplate1_0.avro". Tasks will be submitted only
+for the specified pairs.
 """
 
 import sys
@@ -34,6 +39,11 @@ def iter_input(input_dir):
                 yield subdir_bn, avro_bn
 
 
+def get_whitelist(include_fn):
+    with open(include_fn) as f:
+        return set(tuple(_.split()) for _ in f)
+
+
 def make_parser():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('input_dir', metavar="DIR", help="input dir")
@@ -54,6 +64,8 @@ def make_parser():
                         help="print celery args and exit")
     parser.add_argument("--limit", type=int, metavar="INT",
                         help="max number of tasks to submit")
+    parser.add_argument("--include", metavar="FILE",
+                        help="run only for listed dir/input files")
     return parser
 
 
@@ -67,6 +79,7 @@ def main(argv):
         del argv[idx:]
     parser = make_parser()
     args = parser.parse_args(argv[1:])
+    whitelist = get_whitelist(args.include) if args.include else None
     celery_m = importlib.import_module(args.celery_module)
     base_cmd = ["docker", "run", "--rm"]
     if args.user_id:
@@ -78,6 +91,8 @@ def main(argv):
     base_cmd.extend(calc_opts)
     with open(args.log, "w") as fo:
         for i, (subdir_bn, avro_bn) in enumerate(iter_input(args.input_dir)):
+            if whitelist and (subdir_bn, avro_bn) not in whitelist:
+                continue
             if args.limit and i >= args.limit:
                 break
             cmd = base_cmd[:]
