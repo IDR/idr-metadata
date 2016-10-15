@@ -21,31 +21,13 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Organism]
-    clientname: Organism
-    include: yes
   - name: Characteristics [Strain]
     clientname: Strain
     include: yes
 
-  - name: Gene Identifier
-    include: yes
-  - name: Gene Identifier
-    clientname: Gene Identifier URL
-    clientvalue: http://www.yeastgenome.org/locus/{{ value }}/overview
-    include: yes
-  - name: Gene Symbol
-    include: yes
-  - name: Temperature Sensitive Allele
-    include: yes
-  - name: Reagent Design Gene Annotation Build
-    include: yes
-  - name: Analysis Gene Annotation Build
-    include: yes
-    
   - name: Control Type
     include: yes
-    
+
   - name: Channels
     include: yes
   - name: Comments
@@ -57,13 +39,65 @@ columns:
     include: yes
   - name: Phenotype Annotation Level
     include: yes
-    
-  - name: Phenotype 1
-    clientname: Phenotype
-    include: yes
-    
+
+
+######################################################################
+# mapr groups
+######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+      - name: Characteristics [Organism]
+        clientname: Organism
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+      - name: Gene Identifier
+        include: yes
+      - name: Gene Identifier
+        clientname: Gene Identifier URL
+        clientvalue: http://www.yeastgenome.org/locus/{{ value }}/overview
+        include: yes
+      - name: Gene Symbol
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
+      - name: Temperature Sensitive Allele
+        include: yes
+      - name: Reagent Design Gene Annotation Build
+        include: yes
+      - name: Analysis Gene Annotation Build
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 1
+        clientname: Phenotype
+        include: yes
+
+
 # Advanced options (experimental)
 advanced:
     # If a map-annotation is attached to a well also attach it to all images
     # in the well
     well_to_images: yes
+
+    # TODO: Primary key config should be in a global config
+    ignore_missing_primary_key: yes
+    primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+      - Organism
+    - namespace: openmicroscopy.org/mapr/gene
+      keys:
+      - Gene Identifier
+      - Gene Symbol
+    - namespace: openmicroscopy.org/mapr/phenotype
+      keys:
+      - Phenotype
