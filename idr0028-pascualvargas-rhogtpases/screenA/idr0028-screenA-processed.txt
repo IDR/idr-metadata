@@ -1,0 +1,542 @@
+Plate	Well	Plate_Well	siRNA Pool Identifier	Gene Identifier	Gene Symbol	Z-score (Spindly)	"Z-score (Large, spread)"	Z-score (Triangular)	Z-score (Fan)	"Z-score (Round, small)"	Z-score (High nuclear YAP/TAZ)	Z-score (Low nuclear YAP/TAZ)	Z-score (High total YAP/TAZ)	Z-score (Low total YAP/TAZ)	Has Phenotype	Phenotype Annotation Level	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9
+LM2_siGENOME_1A	C10	LM2_siGENOME_1A_C10	M-010063-01	57580	PREX1								2.287208722		yes	well								High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	C11	LM2_siGENOME_1A_C11	M-013460-01	9639	ARHGEF10							-1.569725098			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	C13	LM2_siGENOME_1A_C13	M-017096-01	55160	ARHGEF10L				3.79902076	1.766112809		-3.475280495			yes	well				Fan	"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	C14	LM2_siGENOME_1A_C14	M-010063-01	57580	PREX1					2.537940698			2.157189811		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	C15	LM2_siGENOME_1A_C15	M-008370-02	128272	ARHGEF19							-3.267775879	2.418498277		yes	well							Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	C17	LM2_siGENOME_1A_C17	M-024506-02	64283	ARHGEF28				2.097764107		2.33490807				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1A	C18	LM2_siGENOME_1A_C18	M-009616-00	8874	ARHGEF7				3.161049515		2.852394575				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1A	C20	LM2_siGENOME_1A_C20	M-014602-01	80243	PREX2				5.712934495		8.02767476			-2.097729752	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	C21	LM2_siGENOME_1A_C21	M-008519-02	10160	FARP1	2.032544715				2.868724079		-1.796384899	4.910463172		yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	C22	LM2_siGENOME_1A_C22	M-023690-01	64857	PLEKHG2						2.211377885			-3.219100731	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	C3	LM2_siGENOME_1A_C3	M-008868-01	11214	AKAP13		1.505215877							-1.975540864	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	C4	LM2_siGENOME_1A_C4	M-015006-01	84904	ARHGEF39		4.670579963				6.787213467			-2.672865976	yes	well		"Large, spread"				High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	C6	LM2_siGENOME_1A_C6	M-008434-02	26230	TIAM2		2.560337239							-2.653912686	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	C7	LM2_siGENOME_1A_C7	M-008365-01	6453	ITSN1						2.052028098				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1A	C8	LM2_siGENOME_1A_C8	M-003904-03	4168	MCF2					1.683416963	2.499713823				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1A	C9	LM2_siGENOME_1A_C9	M-003875-05	613	BCR					1.931504499					yes	well					"Round, small"				
+LM2_siGENOME_1A	D10	LM2_siGENOME_1A_D10	M-026304-01	23268	DNMBP									-1.67357912	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	D11	LM2_siGENOME_1A_D11	M-023079-01	55619	DOCK10			1.932118916						-2.846865388	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	D12	LM2_siGENOME_1A_D12	M-026514-01	57569	ARHGAP20				1.885107025			-2.139695623			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	D13	LM2_siGENOME_1A_D13	M-032389-00	440107	PLEKHG7	1.527725833						-2.607663308		-2.531829319	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	D16	LM2_siGENOME_1A_D16	M-008426-01	23092	ARHGAP26				2.52307827			-1.607857555			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	D17	LM2_siGENOME_1A_D17	M-014168-01	57679	ALS2				5.287620332		2.535236905		4.778535152		yes	well				Fan		High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	D18	LM2_siGENOME_1A_D18	M-009266-00	10928	RALBP1		1.505215877				3.013404874			-2.802421683	yes	well		"Large, spread"				High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	D20	LM2_siGENOME_1A_D20	M-009266-00	10928	RALBP1		1.505215877		3.267378056		3.765913041			-2.926053045	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	D22	LM2_siGENOME_1A_D22	M-009382-01	79658	ARHGAP10	2.537363598									yes	well	Spindly								
+LM2_siGENOME_1A	D3	LM2_siGENOME_1A_D3	M-020314-01	23229	ARHGEF9						2.1400352			-2.078884816	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	D4	LM2_siGENOME_1A_D4	M-004775-01	57584	ARHGAP21		1.505215877		1.566121403	2.344983725	3.501535911				yes	well		"Large, spread"		Fan	"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1A	D5	LM2_siGENOME_1A_D5	M-014170-00	57722	IGDCC4					4.77072852			3.809684648		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	D6	LM2_siGENOME_1A_D6	M-009535-00	4650	MYO9B					4.219422885		-3.519165439		-1.912541159	yes	well					"Round, small"		Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	D7	LM2_siGENOME_1A_D7	M-017968-01	9732	DOCK4								2.007534392		yes	well								High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	D8	LM2_siGENOME_1A_D8	M-009535-00	4650	MYO9B		1.505215877			2.593071261		-4.301147683		-2.122575551	yes	well		"Large, spread"			"Round, small"		Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	D9	LM2_siGENOME_1A_D9	M-024733-01	345930	ECT2L								2.168993661		yes	well								High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	E10	LM2_siGENOME_1A_E10	M-010098-01	23263	MCF2L	4.74594621						-9.879398393			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	E12	LM2_siGENOME_1A_E12	M-026895-01	55785	FGD6	2.8528754						-3.063058549			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	E13	LM2_siGENOME_1A_E13	M-008365-01	6453	ITSN1	2.600465959									yes	well	Spindly								
+LM2_siGENOME_1A	E14	LM2_siGENOME_1A_E14	M-014602-01	80243	PREX2		3.615458601	2.212987529	3.79902076		4.609334206			-3.109744534	yes	well		"Large, spread"	Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	E15	LM2_siGENOME_1A_E15	M-005093-02	7984	ARHGEF5	3.988717886	1.505215877	1.992305047				-2.005490723		-2.406811594	yes	well	Spindly	"Large, spread"	Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	E16	LM2_siGENOME_1A_E16	M-022573-01	25894	PLEKHG4			2.574104318						-5.033974933	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	E18	LM2_siGENOME_1A_E18	M-028077-01	152273	FGD5							-2.965384899		-3.448548072	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	E19	LM2_siGENOME_1A_E19	M-013243-00	50650	ARHGEF3		1.505215877					-2.597166504			yes	well		"Large, spread"					Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	E21	LM2_siGENOME_1A_E21	M-009323-00	5923	RASGRF1					3.475160277	2.79937682		4.693913386		yes	well					"Round, small"	High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	E22	LM2_siGENOME_1A_E22	M-010371-01	89846	FGD3	2.032544715						-3.777790084			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	E3	LM2_siGENOME_1A_E3	M-009883-01	9181	ARHGEF2	2.663568319						-3.902209828		-2.221787948	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	E6	LM2_siGENOME_1A_E6	M-005047-00	7204	TRIO		2.208630119							-1.708048502	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	E7	LM2_siGENOME_1A_E7	M-024506-02	64283	ARHGEF28		1.856922998				4.187445712			-2.353575928	yes	well		"Large, spread"				High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	E8	LM2_siGENOME_1A_E8	M-031878-01	153478	PLEKHG4B						3.303104803			-2.065532677	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	E9	LM2_siGENOME_1A_E9	M-008370-02	128272	ARHGEF19							-2.902048251	1.580802074		yes	well							Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	F10	LM2_siGENOME_1A_F10	M-009302-00	116984	ARAP2					5.983600917			3.225925966		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	F11	LM2_siGENOME_1A_F11	M-032927-01	389337	ARHGEF37				1.885107025						yes	well				Fan					
+LM2_siGENOME_1A	F12	LM2_siGENOME_1A_F12	M-009546-01	23616	SH3BP1					1.6282864		-2.795538308			yes	well					"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	F13	LM2_siGENOME_1A_F13	M-031950-01	57572	DOCK6				6.988876985						yes	well				Fan					
+LM2_siGENOME_1A	F14	LM2_siGENOME_1A_F14	M-008966-00	392	ARHGAP1	4.493536769						-7.59755926			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	F15	LM2_siGENOME_1A_F15	M-031725-01	85440	DOCK7	2.032544715				2.207157317		-4.489259899	4.107716599		yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	F17	LM2_siGENOME_1A_F17	M-006450-00	1894	ECT2		6.780822687		6.457234281		6.834241521			-1.990410425	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	F18	LM2_siGENOME_1A_F18	M-008335-01	55114	ARHGAP17	5.944891057						-6.263397683	1.596693469		yes	well	Spindly						Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	F19	LM2_siGENOME_1A_F19	M-027177-02	84033	OBSCN	1.780135274				1.545590555		-3.49069953	3.881096293		yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	F21	LM2_siGENOME_1A_F21	M-015696-01	139818	DOCK11						3.192977317			-1.888210711	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	F22	LM2_siGENOME_1A_F22	M-035016-00	89839	FAM7A2	2.032544715				2.841158797		-2.496646263	2.105386484		yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	F3	LM2_siGENOME_1A_F3	M-010323-01	23075	SWAP70					5.487425845		-1.822063521	2.870594022		yes	well					"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	F4	LM2_siGENOME_1A_F4	M-004158-02	2909	GRLF1							-1.990724032			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	F6	LM2_siGENOME_1A_F6	M-020676-00	56848	FLJ20184									-1.574711712	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	F8	LM2_siGENOME_1A_F8	M-008650-00	29127	RACGAP1		11.35301526		7.307862607		6.038797274			-2.927265413	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	F9	LM2_siGENOME_1A_F9	M-019915-00	1794	DOCK2	3.231489562									yes	well	Spindly								
+LM2_siGENOME_1A	G10	LM2_siGENOME_1A_G10	M-009313-00	23101	MCF2L2		2.560337239							-1.982619348	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	G11	LM2_siGENOME_1A_G11	M-003875-05	613	BCR						1.652734419			-2.188337065	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	G12	LM2_siGENOME_1A_G12	M-026895-01	55785	FGD6	3.988717886						-2.975881703			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	G13	LM2_siGENOME_1A_G13	M-010360-00	9826	ARHGEF11			2.734600668	2.735735352		2.343032715			-2.406576432	yes	well			Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	G14	LM2_siGENOME_1A_G14	M-008431-00	221472	FGD2	3.483899003				1.79367809		-2.290742853			yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	G15	LM2_siGENOME_1A_G15	M-013460-01	9639	ARHGEF10	2.221851796						-4.627734686			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	G16	LM2_siGENOME_1A_G16	M-013873-01	57449	PLEKHG5				6.031920117		2.541226607		1.547404727		yes	well				Fan		High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	G17	LM2_siGENOME_1A_G17	M-010234-01	27237	ARHGEF16						2.846167658				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1A	G18	LM2_siGENOME_1A_G18	M-010371-01	89846	FGD3	3.357694283						-6.144849032		-2.231292176	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	G19	LM2_siGENOME_1A_G19	M-024516-01	5924	RASGRF2	3.799410805						-6.636241788			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	G20	LM2_siGENOME_1A_G20	M-013873-01	57449	PLEKHG5				4.011677842		3.750731223				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1A	G21	LM2_siGENOME_1A_G21	M-013243-00	50650	ARHGEF3							-2.854901589		-1.975278772	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	G22	LM2_siGENOME_1A_G22	M-031878-01	153478	PLEKHG4B						2.285626465			-2.313725915	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	G4	LM2_siGENOME_1A_G4	M-003932-02	7074	TIAM1	1.843237634						-2.228710893		-1.962331085	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	G5	LM2_siGENOME_1A_G5	M-009654-00	23370	ARHGEF18		3.263751481	3.416710158				-1.54380926		-5.679701848	yes	well		"Large, spread"	Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	G6	LM2_siGENOME_1A_G6	M-023690-01	64857	PLEKHG2	2.78977304	1.856922998	2.995407238				-2.217680353		-4.483537159	yes	well	Spindly	"Large, spread"	Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	G7	LM2_siGENOME_1A_G7	M-008611-00	29	ABR	5.881788697									yes	well	Spindly								
+LM2_siGENOME_1A	G8	LM2_siGENOME_1A_G8	M-010231-00	9459	ARHGEF6			2.192925486							yes	well			Triangular						
+LM2_siGENOME_1A	H10	LM2_siGENOME_1A_H10	M-003791-02	1124	CHN2	4.74594621		2.313297748				-3.300570978		-3.290019715	yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H11	LM2_siGENOME_1A_H11	M-015469-00	221178	SPATA13				4.968634709		3.186750399			-1.908653925	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H12	LM2_siGENOME_1A_H12	M-003875-05	613	BCR					2.234722598				-2.36862969	yes	well					"Round, small"				Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H13	LM2_siGENOME_1A_H13	M-008235-01	50649	ARHGEF4				2.52307827			-2.925414018			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	H14	LM2_siGENOME_1A_H14	M-020676-00	56848	FLJ20184	1.906339995						-1.785532271		-2.395972869	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H15	LM2_siGENOME_1A_H15	M-020314-01	23229	ARHGEF9		1.505215877							-2.955550876	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H16	LM2_siGENOME_1A_H16	M-026304-01	23268	DNMBP			2.413607967						-3.385605608	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H17	LM2_siGENOME_1A_H17	M-020318-01	55200	PLEKHG6			1.631188259						-2.650000744	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H18	LM2_siGENOME_1A_H18	M-009444-01	4983	OPHN1				8.371148015		4.404023837			-1.869707698	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H19	LM2_siGENOME_1A_H19	M-011253-01	1793	DOCK1	4.872150931						-5.55702801			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	H20	LM2_siGENOME_1A_H20	M-007052-01	64411	ARAP3			2.032429135						-1.602560366	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H21	LM2_siGENOME_1A_H21	M-032927-01	389337	ARHGEF37				1.991435566		2.503865101			-2.257631677	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	H22	LM2_siGENOME_1A_H22	M-030269-01	55701	ARHGEF40	3.357694283			1.991435566			-2.262099032			yes	well	Spindly			Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	H3	LM2_siGENOME_1A_H3	M-012695-01	1795	DOCK3						2.766641024				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1A	H4	LM2_siGENOME_1A_H4	M-006539-01	4649	MYO9A	1.780135274						-2.491901944			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	H5	LM2_siGENOME_1A_H5	M-014040-00	23348	DOCK9					8.161258175			2.850778828		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	H6	LM2_siGENOME_1A_H6	M-009136-02	116985	ARAP1					8.326649865	2.550418723				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1A	H8	LM2_siGENOME_1A_H8	M-008335-01	55114	ARHGAP17	9.731032678						-8.506689231			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	H9	LM2_siGENOME_1A_H9	M-023079-01	55619	DOCK10			3.075655413				-3.539743919		-4.173168683	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I10	LM2_siGENOME_1A_I10	M-009313-00	23101	MCF2L2				1.778778485					-2.437895052	yes	well				Fan					Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I11	LM2_siGENOME_1A_I11	M-008480-00	23365	ARHGEF12	3.168387202		1.631188259				-8.559291859		-3.537854773	yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I12	LM2_siGENOME_1A_I12	M-005199-02	7410	VAV2			2.092615266	3.79902076		1.671711692			-3.017771299	yes	well			Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I13	LM2_siGENOME_1A_I13	M-009731-00	22899	ARHGEF15						1.93217476			-1.683859904	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I14	LM2_siGENOME_1A_I14	M-028077-01	152273	FGD5			3.135841544				-4.698069203		-4.649155311	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I16	LM2_siGENOME_1A_I16	M-015006-01	84904	ARHGEF39		1.505215877				4.006272061			-3.322460167	yes	well		"Large, spread"				High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I17	LM2_siGENOME_1A_I17	M-024516-01	5924	RASGRF2	4.367332048						-7.438980424			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	I18	LM2_siGENOME_1A_I18	M-022051-01	26030	PLEKHG3				2.735735352					-1.965945211	yes	well				Fan					Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I19	LM2_siGENOME_1A_I19	M-009654-00	23370	ARHGEF18			3.175965632				-3.310652655		-5.318070985	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I21	LM2_siGENOME_1A_I21	M-009883-01	9181	ARHGEF2	2.221851796						-2.343345481		-2.165007683	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	I22	LM2_siGENOME_1A_I22	M-004121-01	115557	ARHGEF25					2.951419924					yes	well					"Round, small"				
+LM2_siGENOME_1A	I3	LM2_siGENOME_1A_I3	M-005194-01	6654	SOS1					2.703332388			2.522769363		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	I5	LM2_siGENOME_1A_I5	M-009354-00	25791	NGEF					1.903939217	3.600810769				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1A	I7	LM2_siGENOME_1A_I7	M-009731-00	22899	ARHGEF15				2.735735352		2.297368652				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1A	I8	LM2_siGENOME_1A_I8	M-024745-01	57480	PLEKHG1	4.430434409						-1.801781561			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	I9	LM2_siGENOME_1A_I9	M-009833-00	26084	ARHGEF26			3.416710158				-1.809491078		-3.36955794	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	J10	LM2_siGENOME_1A_J10	M-013854-01	57221	KIAA1244			2.273173661						-2.860052013	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	J11	LM2_siGENOME_1A_J11	M-026106-01	81704	DOCK8						1.622726607			-2.900484674	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	J12	LM2_siGENOME_1A_J12	M-004158-02	2909	GRLF1	4.430434409		2.052491179				-3.430328081			yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	J13	LM2_siGENOME_1A_J13	M-019915-00	1794	DOCK2	3.294591922									yes	well	Spindly								
+LM2_siGENOME_1A	J14	LM2_siGENOME_1A_J14	M-021122-00	9824	ARHGAP11A	4.367332048		2.253111617				-7.056647683		-2.502143826	yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	J15	LM2_siGENOME_1A_J15	M-014168-01	57679	ALS2				7.201534066		2.55379905				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1A	J16	LM2_siGENOME_1A_J16	M-003875-05	613	BCR						1.875776678			-2.693889541	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	J18	LM2_siGENOME_1A_J18	M-006539-01	4649	MYO9A	2.284954157									yes	well	Spindly								
+LM2_siGENOME_1A	J19	LM2_siGENOME_1A_J19	M-015469-00	221178	SPATA13				7.73317677		2.859392445			-2.039553038	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	J20	LM2_siGENOME_1A_J20	M-008426-01	23092	ARHGAP26				3.79902076						yes	well				Fan					
+LM2_siGENOME_1A	J21	LM2_siGENOME_1A_J21	M-032389-00	440107	PLEKHG7									-3.555453573	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	J22	LM2_siGENOME_1A_J22	M-008611-00	29	ABR	6.702119381						-4.301681419			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	J3	LM2_siGENOME_1A_J3	M-026106-01	81704	DOCK8		2.208630119				4.630387118				yes	well		"Large, spread"				High nuclear YAP/TAZ			
+LM2_siGENOME_1A	J4	LM2_siGENOME_1A_J4	M-008611-00	29	ABR	8.153473669						-3.877420765			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	J5	LM2_siGENOME_1A_J5	M-017817-01	50619	DEF6				2.097764107						yes	well				Fan					
+LM2_siGENOME_1A	J6	LM2_siGENOME_1A_J6	M-009580-01	394	ARHGAP5						3.886418723				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1A	J7	LM2_siGENOME_1A_J7	M-014170-00	57722	IGDCC4						3.127920854				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1A	J8	LM2_siGENOME_1A_J8	M-009580-01	394	ARHGAP5		1.856922998		1.566121403		3.775045854				yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1A	J9	LM2_siGENOME_1A_J9	M-018931-01	80005	DOCK5	1.590828193						-3.187359686			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	K10	LM2_siGENOME_1A_K10	M-005199-02	7410	VAV2			1.831808697						-2.644609878	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K11	LM2_siGENOME_1A_K11	M-009354-00	25791	NGEF				4.755977628		3.217351252				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1A	K12	LM2_siGENOME_1A_K12	M-005047-00	7204	TRIO			2.814848843				-2.658961248		-2.668534198	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K13	LM2_siGENOME_1A_K13	M-005194-01	6654	SOS1					2.565505979		-2.829045055	1.986284455		yes	well					"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	K14	LM2_siGENOME_1A_K14	M-007123-00	121512	FGD4				5.819263036						yes	well				Fan					
+LM2_siGENOME_1A	K15	LM2_siGENOME_1A_K15	M-003915-02	10276	NET1		2.91204436	1.711436434						-2.205409296	yes	well		"Large, spread"	Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K16	LM2_siGENOME_1A_K16	M-003932-02	7074	TIAM1	1.527725833						-2.861425027		-2.216583514	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K17	LM2_siGENOME_1A_K17	M-005195-02	6655	SOS2			2.132739354							yes	well			Triangular						
+LM2_siGENOME_1A	K18	LM2_siGENOME_1A_K18	M-010098-01	23263	MCF2L	7.270040624						-10.37654363			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	K19	LM2_siGENOME_1A_K19	M-010234-01	27237	ARHGEF16					1.848808654					yes	well					"Round, small"				
+LM2_siGENOME_1A	K20	LM2_siGENOME_1A_K20	M-003935-01	7409	VAV1	2.600465959						-4.468681419		-1.870111495	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K21	LM2_siGENOME_1A_K21	M-009421-00	9138	ARHGEF1		1.505215877							-2.033595365	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K22	LM2_siGENOME_1A_K22	M-009237-01	9855	FARP2				7.307862607		3.598497914				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1A	K3	LM2_siGENOME_1A_K3	M-005093-02	7984	ARHGEF5			1.811746653						-3.331373259	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K4	LM2_siGENOME_1A_K4	M-022573-01	25894	PLEKHG4		1.856922998	3.456834245						-5.832956465	yes	well		"Large, spread"	Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K5	LM2_siGENOME_1A_K5	M-010360-00	9826	ARHGEF11		1.505215877	3.336461982			3.502010342			-3.415478191	yes	well		"Large, spread"	Triangular			High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K6	LM2_siGENOME_1A_K6	M-003904-03	4168	MCF2		1.856922998	3.196027676						-2.376735433	yes	well		"Large, spread"	Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K7	LM2_siGENOME_1A_K7	M-009751-01	9828	ARHGEF17	1.780135274		3.316399939						-2.515132619	yes	well	Spindly		Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K8	LM2_siGENOME_1A_K8	M-009612-01	2245	FGD1			3.336461982				-2.539285822		-4.252561677	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	K9	LM2_siGENOME_1A_K9	M-008868-01	11214	AKAP13			1.571002128						-2.391061331	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	L10	LM2_siGENOME_1A_L10	M-010251-01	1123	CHN1					3.971335349				-1.502234792	yes	well					"Round, small"				Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	L11	LM2_siGENOME_1A_L11	M-008235-01	50649	ARHGEF4				2.629406811			-3.825411177			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	L12	LM2_siGENOME_1A_L12	M-009444-01	4983	OPHN1				5.606605954		3.171509277			-2.353738126	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	L14	LM2_siGENOME_1A_L14	M-009238-00	9912	ARHGAP44							-3.959853294			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	L15	LM2_siGENOME_1A_L15	M-027177-02	84033	OBSCN	3.547001364						-4.59529541	1.86155205		yes	well	Spindly						Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	L16	LM2_siGENOME_1A_L16	M-009302-00	116984	ARAP2					7.003516341					yes	well					"Round, small"				
+LM2_siGENOME_1A	L18	LM2_siGENOME_1A_L18	M-003791-02	1124	CHN2	4.114922607		2.473794099				-2.909283336		-2.97736219	yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	L19	LM2_siGENOME_1A_L19	M-031725-01	85440	DOCK7							-2.944213379			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	L20	LM2_siGENOME_1A_L20	M-026514-01	57569	ARHGAP20							-3.209302157		-2.070400425	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	L21	LM2_siGENOME_1A_L21	M-031950-01	57572	DOCK6									-2.088894047	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	L22	LM2_siGENOME_1A_L22	M-013854-01	57221	KIAA1244		1.505215877	1.811746653			2.584399902			-2.483336533	yes	well		"Large, spread"	Triangular			High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	L3	LM2_siGENOME_1A_L3	M-024733-01	345930	ECT2L		1.856922998				1.73386226				yes	well		"Large, spread"				High nuclear YAP/TAZ			
+LM2_siGENOME_1A	L5	LM2_siGENOME_1A_L5	M-014040-00	23348	DOCK9					5.322034155					yes	well					"Round, small"				
+LM2_siGENOME_1A	L6	LM2_siGENOME_1A_L6	M-009238-00	9912	ARHGAP44		1.505215877								yes	well		"Large, spread"							
+LM2_siGENOME_1A	L7	LM2_siGENOME_1A_L7	M-011253-01	1793	DOCK1	5.944891057						-5.731796831			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	L8	LM2_siGENOME_1A_L8	M-009136-02	116985	ARAP1					7.720213667	4.430117587				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1A	L9	LM2_siGENOME_1A_L9	M-006450-00	1894	ECT2		11.35301526		3.480035138		6.447994717			-3.218370418	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	M10	LM2_siGENOME_1A_M10	M-009237-01	9855	FARP2		2.91204436		6.138248658		3.332045144				yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1A	M11	LM2_siGENOME_1A_M11	M-009323-00	5923	RASGRF1				1.885107025	5.349599436	2.111213468		3.079211067		yes	well				Fan	"Round, small"	High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	M12	LM2_siGENOME_1A_M12	M-009616-00	8874	ARHGEF7				1.885107025		2.303358354			-1.800756536	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	M13	LM2_siGENOME_1A_M13	M-008480-00	23365	ARHGEF12	1.527725833						-6.105411887		-2.430115904	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	M14	LM2_siGENOME_1A_M14	M-008434-02	26230	TIAM2							-2.741571689		-2.754396505	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	M15	LM2_siGENOME_1A_M15	M-009421-00	9138	ARHGEF1						1.892915527			-2.071563802	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	M17	LM2_siGENOME_1A_M17	M-009841-00	50618	ITSN2	2.600465959				1.766112809		-3.436495694			yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	M18	LM2_siGENOME_1A_M18	M-009612-01	2245	FGD1			1.771622566				-2.126767356		-3.704801504	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	M19	LM2_siGENOME_1A_M19	M-009841-00	50618	ITSN2							-3.277264515			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	M20	LM2_siGENOME_1A_M20	M-007123-00	121512	FGD4				4.436992005						yes	well				Fan					
+LM2_siGENOME_1A	M21	LM2_siGENOME_1A_M21	M-009833-00	26084	ARHGEF26			2.233049573						-3.199933153	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	M22	LM2_siGENOME_1A_M22	M-008431-00	221472	FGD2					1.545590555			1.945111529		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	M3	LM2_siGENOME_1A_M3	M-032365-01	445328	ARHGEF35			1.651250303	2.629406811		2.315337757			-4.485980968	yes	well			Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	M4	LM2_siGENOME_1A_M4	M-003935-01	7409	VAV1	3.105284841									yes	well	Spindly								
+LM2_siGENOME_1A	M5	LM2_siGENOME_1A_M5	M-008519-02	10160	FARP1	2.91597776				3.227072741			2.06176467		yes	well	Spindly				"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1A	M6	LM2_siGENOME_1A_M6	M-004121-01	115557	ARHGEF25				3.267378056	3.061681051					yes	well				Fan	"Round, small"				
+LM2_siGENOME_1A	M7	LM2_siGENOME_1A_M7	M-017096-01	55160	ARHGEF10L				3.373706597						yes	well				Fan					
+LM2_siGENOME_1A	M8	LM2_siGENOME_1A_M8	M-024745-01	57480	PLEKHG1	3.042182481									yes	well	Spindly								
+LM2_siGENOME_1A	M9	LM2_siGENOME_1A_M9	M-032365-01	445328	ARHGEF35			3.196027676	3.480035138					-3.700006135	yes	well			Triangular	Fan					Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	N12	LM2_siGENOME_1A_N12	M-008966-00	392	ARHGAP1	1.843237634						-4.859494629			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	N14	LM2_siGENOME_1A_N14	M-010251-01	1123	CHN1					4.219422885					yes	well					"Round, small"				
+LM2_siGENOME_1A	N16	LM2_siGENOME_1A_N16	M-008650-00	29127	RACGAP1		10.64960101		6.669891362		7.150984064			-3.345345353	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1A	N18	LM2_siGENOME_1A_N18	M-021122-00	9824	ARHGAP11A	4.241127328						-4.507822044			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1A	N20	LM2_siGENOME_1A_N20	M-009382-01	79658	ARHGAP10	2.537363598		1.591064171							yes	well	Spindly		Triangular						
+LM2_siGENOME_1A	N3	LM2_siGENOME_1A_N3	M-010323-01	23075	SWAP70					2.813593515					yes	well					"Round, small"				
+LM2_siGENOME_1A	N4	LM2_siGENOME_1A_N4	M-004775-01	57584	ARHGAP21					2.455244852	4.090187189				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1A	N5	LM2_siGENOME_1A_N5	M-012695-01	1795	DOCK3						3.82806361				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1A	N6	LM2_siGENOME_1A_N6	M-009546-01	23616	SH3BP1						2.09858172				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1A	N8	LM2_siGENOME_1A_N8	M-030269-01	55701	ARHGEF40	3.483899003						-1.806585183			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	C10	LM2_siGENOME_1B_C10	M-010063-01	57580	PREX1							-1.712127453	1.660587991		yes	well							Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	C11	LM2_siGENOME_1B_C11	M-013460-01	9639	ARHGEF10		2.91547109								yes	well		"Large, spread"							
+LM2_siGENOME_1B	C13	LM2_siGENOME_1B_C13	M-017096-01	55160	ARHGEF10L				1.665962909			-3.403883136			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	C14	LM2_siGENOME_1B_C14	M-010063-01	57580	PREX1					2.526680841			2.148196569		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	C15	LM2_siGENOME_1B_C15	M-008370-02	128272	ARHGEF19							-2.40418999	2.094513714		yes	well							Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	C16	LM2_siGENOME_1B_C16	M-022051-01	26030	PLEKHG3								1.842986262		yes	well								High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	C17	LM2_siGENOME_1B_C17	M-024506-02	64283	ARHGEF28				3.114718096		1.606977741				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1B	C18	LM2_siGENOME_1B_C18	M-009616-00	8874	ARHGEF7				4.046060716	1.656520265	1.63158576				yes	well				Fan	"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1B	C19	LM2_siGENOME_1B_C19	M-003915-02	10276	NET1	1.964967289									yes	well	Spindly								
+LM2_siGENOME_1B	C20	LM2_siGENOME_1B_C20	M-014602-01	80243	PREX2				4.149543229		7.296776879			-1.82933815	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	C21	LM2_siGENOME_1B_C21	M-008519-02	10160	FARP1	1.586635762				2.281948179			4.288559215		yes	well	Spindly				"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	C22	LM2_siGENOME_1B_C22	M-023690-01	64857	PLEKHG2						2.785975237			-2.602710588	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	C3	LM2_siGENOME_1B_C3	M-008868-01	11214	AKAP13						1.921960375				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1B	C4	LM2_siGENOME_1B_C4	M-015006-01	84904	ARHGEF39					1.792482855	5.812396916			-2.225319617	yes	well					"Round, small"	High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	C6	LM2_siGENOME_1B_C6	M-008434-02	26230	TIAM2									-1.982497164	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	C7	LM2_siGENOME_1B_C7	M-008365-01	6453	ITSN1						1.626238832				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1B	C8	LM2_siGENOME_1B_C8	M-003904-03	4168	MCF2				1.769445422		2.457260722				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1B	C9	LM2_siGENOME_1B_C9	M-003875-05	613	BCR					2.553873359					yes	well					"Round, small"				
+LM2_siGENOME_1B	D10	LM2_siGENOME_1B_D10	M-026304-01	23268	DNMBP				1.665962909					-1.565334574	yes	well				Fan					Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	D11	LM2_siGENOME_1B_D11	M-023079-01	55619	DOCK10		2.152867874							-2.449993158	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	D12	LM2_siGENOME_1B_D12	M-026514-01	57569	ARHGAP20							-3.824163783			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	D13	LM2_siGENOME_1B_D13	M-032389-00	440107	PLEKHG7							-3.524371284		-2.439445046	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	D15	LM2_siGENOME_1B_D15	M-020318-01	55200	PLEKHG6									-1.969574632	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	D16	LM2_siGENOME_1B_D16	M-008426-01	23092	ARHGAP26				1.976410449				1.76142881		yes	well				Fan				High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	D17	LM2_siGENOME_1B_D17	M-014168-01	57679	ALS2				3.218200609		2.541960913		3.610425324		yes	well				Fan		High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	D18	LM2_siGENOME_1B_D18	M-009266-00	10928	RALBP1		5.203280739				3.052896284			-2.512229456	yes	well		"Large, spread"				High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	D20	LM2_siGENOME_1B_D20	M-009266-00	10928	RALBP1				2.079892962		3.556904954			-1.81649934	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	D22	LM2_siGENOME_1B_D22	M-009382-01	79658	ARHGAP10	3.226072377									yes	well	Spindly								
+LM2_siGENOME_1B	D3	LM2_siGENOME_1B_D3	M-020314-01	23229	ARHGEF9		3.296772698				3.328263046			-2.905704645	yes	well		"Large, spread"				High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	D4	LM2_siGENOME_1B_D4	M-004775-01	57584	ARHGAP21					4.185424439					yes	well					"Round, small"				
+LM2_siGENOME_1B	D5	LM2_siGENOME_1B_D5	M-014170-00	57722	IGDCC4					4.402964583			2.614839672		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	D6	LM2_siGENOME_1B_D6	M-009535-00	4650	MYO9B					3.288071345		-3.840083044		-2.099681828	yes	well					"Round, small"		Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	D7	LM2_siGENOME_1B_D7	M-017968-01	9732	DOCK4						1.935084651				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1B	D8	LM2_siGENOME_1B_D8	M-009535-00	4650	MYO9B					3.206493791		-3.551470484			yes	well					"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	D9	LM2_siGENOME_1B_D9	M-024733-01	345930	ECT2L		2.91547109								yes	well		"Large, spread"							
+LM2_siGENOME_1B	E10	LM2_siGENOME_1B_E10	M-010098-01	23263	MCF2L	5.054674754						-10.13985723	1.786906367		yes	well	Spindly						Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	E12	LM2_siGENOME_1B_E12	M-026895-01	55785	FGD6	4.361066955			3.114718096			-3.87350134			yes	well	Spindly			Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	E13	LM2_siGENOME_1B_E13	M-008365-01	6453	ITSN1	3.352182885									yes	well	Spindly								
+LM2_siGENOME_1B	E14	LM2_siGENOME_1B_E14	M-014602-01	80243	PREX2				4.459990769		5.13291181			-2.739597146	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	E15	LM2_siGENOME_1B_E15	M-005093-02	7984	ARHGEF5	2.217188306						-3.069214088		-1.859749168	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	E16	LM2_siGENOME_1B_E16	M-022573-01	25894	PLEKHG4		2.152867874					-2.637388938		-4.528479586	yes	well		"Large, spread"					Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	E17	LM2_siGENOME_1B_E17	M-008611-00	29	ABR	3.541348648									yes	well	Spindly								
+LM2_siGENOME_1B	E18	LM2_siGENOME_1B_E18	M-028077-01	152273	FGD5							-4.152392213		-2.801682708	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	E19	LM2_siGENOME_1B_E19	M-013243-00	50650	ARHGEF3							-3.260366743			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	E21	LM2_siGENOME_1B_E21	M-009323-00	5923	RASGRF1					4.430157101			5.127945544		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	E22	LM2_siGENOME_1B_E22	M-010371-01	89846	FGD3							-3.355456986			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	E3	LM2_siGENOME_1B_E3	M-009883-01	9181	ARHGEF2	3.289127631						-4.286004638		-2.171418625	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	E6	LM2_siGENOME_1B_E6	M-005047-00	7204	TRIO									-2.28769015	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	E7	LM2_siGENOME_1B_E7	M-024506-02	64283	ARHGEF28			1.91588125			2.164334164			-1.5751244	yes	well			Triangular			High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	E8	LM2_siGENOME_1B_E8	M-031878-01	153478	PLEKHG4B				1.976410449		2.132860205			-2.248201926	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	E9	LM2_siGENOME_1B_E9	M-008370-02	128272	ARHGEF19							-2.214981672			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	F10	LM2_siGENOME_1B_F10	M-009302-00	116984	ARAP2					7.366949044			3.79381296		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	F11	LM2_siGENOME_1B_F11	M-032927-01	389337	ARHGEF37				3.735613176						yes	well				Fan					
+LM2_siGENOME_1B	F12	LM2_siGENOME_1B_F12	M-009546-01	23616	SH3BP1	1.775801526						-1.952496145			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	F13	LM2_siGENOME_1B_F13	M-031950-01	57572	DOCK6				5.287850876	3.478418971		-1.934754067			yes	well				Fan	"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	F14	LM2_siGENOME_1B_F14	M-008966-00	392	ARHGAP1	3.163017122						-6.571573067			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	F15	LM2_siGENOME_1B_F15	M-031725-01	85440	DOCK7	2.40635407				2.608258395		-4.070304726	3.202616487		yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	F17	LM2_siGENOME_1B_F17	M-006450-00	1894	ECT2		12.06670969		3.942578202		6.848121061			-2.541646816	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	F18	LM2_siGENOME_1B_F18	M-008335-01	55114	ARHGAP17	4.802453736						-7.101526487	1.903743001		yes	well	Spindly						Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	F19	LM2_siGENOME_1B_F19	M-027177-02	84033	OBSCN	3.036906613				1.928445445		-4.967494842	4.185592818		yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	F22	LM2_siGENOME_1B_F22	M-035016-00	89839	FAM7A2							-1.823926844	1.91745472		yes	well							Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	F3	LM2_siGENOME_1B_F3	M-010323-01	23075	SWAP70					5.001199979		-2.083617387	2.196316919		yes	well					"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	F4	LM2_siGENOME_1B_F4	M-004158-02	2909	GRLF1							-2.951520924			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	F6	LM2_siGENOME_1B_F6	M-020676-00	56848	FLJ20184	1.586635762								-1.516591991	yes	well	Spindly								Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	F8	LM2_siGENOME_1B_F8	M-008650-00	29127	RACGAP1		6.347185564		7.667948682		6.866956828			-2.830514124	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	F9	LM2_siGENOME_1B_F9	M-019915-00	1794	DOCK2	3.163017122									yes	well	Spindly								
+LM2_siGENOME_1B	G10	LM2_siGENOME_1B_G10	M-009313-00	23101	MCF2L2				3.528648149					-1.54226321	yes	well				Fan					Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	G11	LM2_siGENOME_1B_G11	M-003875-05	613	BCR						2.110621848			-1.836713422	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	G12	LM2_siGENOME_1B_G12	M-026895-01	55785	FGD6	4.171901192						-2.644133358		-1.580762732	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	G13	LM2_siGENOME_1B_G13	M-010360-00	9826	ARHGEF11		2.91547109	2.328113479	4.563473282		4.343207087			-3.143450627	yes	well		"Large, spread"	Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	G14	LM2_siGENOME_1B_G14	M-008431-00	221472	FGD2	2.280243561						-1.893679943			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	G15	LM2_siGENOME_1B_G15	M-013460-01	9639	ARHGEF10							-3.847009745			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	G16	LM2_siGENOME_1B_G16	M-013873-01	57449	PLEKHG5				5.598298416		2.442070587				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1B	G17	LM2_siGENOME_1B_G17	M-010234-01	27237	ARHGEF16						1.830272722		1.713911334		yes	well						High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	G18	LM2_siGENOME_1B_G18	M-010371-01	89846	FGD3	3.41523814						-6.940571819			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	G19	LM2_siGENOME_1B_G19	M-024516-01	5924	RASGRF2	4.361066955						-6.112891759			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	G20	LM2_siGENOME_1B_G20	M-013873-01	57449	PLEKHG5				6.219193496	1.547750193	4.571970515		2.128780698		yes	well				Fan	"Round, small"	High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	G21	LM2_siGENOME_1B_G21	M-013243-00	50650	ARHGEF3							-1.896414167			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	G22	LM2_siGENOME_1B_G22	M-031878-01	153478	PLEKHG4B				3.942578202		3.092876719			-1.69045298	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	G4	LM2_siGENOME_1B_G4	M-003932-02	7074	TIAM1	1.775801526						-2.517143832			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	G5	LM2_siGENOME_1B_G5	M-009654-00	23370	ARHGEF18			4.760283631						-5.543413003	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	G6	LM2_siGENOME_1B_G6	M-023690-01	64857	PLEKHG2	3.604403903		3.214412772				-3.209813975		-3.594054793	yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	G7	LM2_siGENOME_1B_G7	M-008611-00	29	ABR	7.072442894									yes	well	Spindly								
+LM2_siGENOME_1B	G8	LM2_siGENOME_1B_G8	M-010231-00	9459	ARHGEF6		2.152867874								yes	well		"Large, spread"							
+LM2_siGENOME_1B	H10	LM2_siGENOME_1B_H10	M-003791-02	1124	CHN2	4.171901192		2.20444381				-3.217105239		-3.272279545	yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	H11	LM2_siGENOME_1B_H11	M-015469-00	221178	SPATA13				6.529641036		4.929728568			-2.528596755	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	H12	LM2_siGENOME_1B_H12	M-003875-05	613	BCR					1.629327747	2.418252456			-2.822842308	yes	well					"Round, small"	High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	H13	LM2_siGENOME_1B_H13	M-008235-01	50649	ARHGEF4							-3.75052201			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	H14	LM2_siGENOME_1B_H14	M-020676-00	56848	FLJ20184	1.712746271		1.833434804						-2.895525096	yes	well	Spindly		Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	H15	LM2_siGENOME_1B_H15	M-020314-01	23229	ARHGEF9									-2.857397702	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	H16	LM2_siGENOME_1B_H16	M-026304-01	23268	DNMBP		3.678074306							-3.423610768	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	H17	LM2_siGENOME_1B_H17	M-020318-01	55200	PLEKHG6		3.296772698							-2.781342687	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	H18	LM2_siGENOME_1B_H18	M-009444-01	4983	OPHN1				7.978396222		3.409378365			-1.543003059	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	H19	LM2_siGENOME_1B_H19	M-011253-01	1793	DOCK1	4.613287973						-5.95175481			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	H20	LM2_siGENOME_1B_H20	M-007052-01	64411	ARAP3	2.028022543		2.101385753							yes	well	Spindly		Triangular						
+LM2_siGENOME_1B	H21	LM2_siGENOME_1B_H21	M-032927-01	389337	ARHGEF37									-1.609162362	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	H22	LM2_siGENOME_1B_H22	M-030269-01	55701	ARHGEF40	3.541348648						-2.447937578			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	H3	LM2_siGENOME_1B_H3	M-012695-01	1795	DOCK3						3.446746097				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1B	H4	LM2_siGENOME_1B_H4	M-006539-01	4649	MYO9A	3.541348648						-1.586474659			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	H5	LM2_siGENOME_1B_H5	M-014040-00	23348	DOCK9					8.23710962			2.496596115		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	H6	LM2_siGENOME_1B_H6	M-009136-02	116985	ARAP1					7.802029332	1.908106972				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1B	H8	LM2_siGENOME_1B_H8	M-008335-01	55114	ARHGAP17	8.901045271						-8.462197993			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	H9	LM2_siGENOME_1B_H9	M-023079-01	55619	DOCK10			2.534229593				-1.718750352		-3.870466453	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	I10	LM2_siGENOME_1B_I10	M-009313-00	23101	MCF2L2			1.77159997	1.562480396					-2.523433768	yes	well			Triangular	Fan					Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	I11	LM2_siGENOME_1B_I11	M-008480-00	23365	ARHGEF12							-9.09550509		-3.395812741	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	I12	LM2_siGENOME_1B_I12	M-005199-02	7410	VAV2				4.666955796					-2.77145965	yes	well				Fan					Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	I13	LM2_siGENOME_1B_I13	M-009731-00	22899	ARHGEF15	2.154133052								-1.673764601	yes	well	Spindly								Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	I14	LM2_siGENOME_1B_I14	M-028077-01	152273	FGD5			3.523586943				-4.55456622		-4.877979306	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	I16	LM2_siGENOME_1B_I16	M-015006-01	84904	ARHGEF39						4.094210398			-3.064162248	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	I17	LM2_siGENOME_1B_I17	M-024516-01	5924	RASGRF2	3.85662492						-7.036694992			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	I18	LM2_siGENOME_1B_I18	M-022051-01	26030	PLEKHG3				2.079892962						yes	well				Fan					
+LM2_siGENOME_1B	I19	LM2_siGENOME_1B_I19	M-009654-00	23370	ARHGEF18			2.925850211				-2.860380116		-4.99674992	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	I20	LM2_siGENOME_1B_I20	M-010231-00	9459	ARHGEF6		2.152867874							-1.612326939	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	I21	LM2_siGENOME_1B_I21	M-009883-01	9181	ARHGEF2	1.712746271						-2.905889759			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	I22	LM2_siGENOME_1B_I22	M-004121-01	115557	ARHGEF25								1.861470698		yes	well								High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	I3	LM2_siGENOME_1B_I3	M-005194-01	6654	SOS1					3.070531201		-1.847988018	1.908912693		yes	well					"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	I5	LM2_siGENOME_1B_I5	M-009354-00	25791	NGEF				1.665962909		4.359733953				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1B	I7	LM2_siGENOME_1B_I7	M-009731-00	22899	ARHGEF15	1.83885678			5.080885849						yes	well	Spindly			Fan					
+LM2_siGENOME_1B	I8	LM2_siGENOME_1B_I8	M-024745-01	57480	PLEKHG1	4.928564245						-1.912090386			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	I9	LM2_siGENOME_1B_I9	M-009833-00	26084	ARHGEF26			4.492332682						-3.65331913	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	J10	LM2_siGENOME_1B_J10	M-013854-01	57221	KIAA1244		1.771566265	3.255635994						-3.2360576	yes	well		"Large, spread"	Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	J11	LM2_siGENOME_1B_J11	M-026106-01	81704	DOCK8						1.777593334			-2.034728311	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	J12	LM2_siGENOME_1B_J12	M-004158-02	2909	GRLF1	3.919680175						-3.411599724			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	J13	LM2_siGENOME_1B_J13	M-019915-00	1794	DOCK2	1.775801526									yes	well	Spindly								
+LM2_siGENOME_1B	J14	LM2_siGENOME_1B_J14	M-021122-00	9824	ARHGAP11A	4.234956447		2.884626988				-6.685195275		-2.389348941	yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	J15	LM2_siGENOME_1B_J15	M-014168-01	57679	ALS2				7.047053602		2.610498801				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1B	J16	LM2_siGENOME_1B_J16	M-003875-05	613	BCR						2.449301091			-2.850428465	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	J17	LM2_siGENOME_1B_J17	M-018931-01	80005	DOCK5							-2.694807647			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	J18	LM2_siGENOME_1B_J18	M-006539-01	4649	MYO9A	3.226072377			2.390340502						yes	well	Spindly			Fan					
+LM2_siGENOME_1B	J19	LM2_siGENOME_1B_J19	M-015469-00	221178	SPATA13				7.874913709					-2.005534005	yes	well				Fan					Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	J20	LM2_siGENOME_1B_J20	M-008426-01	23092	ARHGAP26	2.532464578			3.632130662			-1.732786036			yes	well	Spindly			Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	J21	LM2_siGENOME_1B_J21	M-032389-00	440107	PLEKHG7									-3.541157204	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	J22	LM2_siGENOME_1B_J22	M-008611-00	29	ABR	7.324663912						-3.939001201			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	J3	LM2_siGENOME_1B_J3	M-026106-01	81704	DOCK8						4.135041481			-1.547435925	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	J4	LM2_siGENOME_1B_J4	M-008611-00	29	ABR	8.270492727						-4.980619118			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	J5	LM2_siGENOME_1B_J5	M-017817-01	50619	DEF6	1.964967289									yes	well	Spindly								
+LM2_siGENOME_1B	J6	LM2_siGENOME_1B_J6	M-009580-01	394	ARHGAP5				1.872927936		2.616939418			-1.796312224	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	J7	LM2_siGENOME_1B_J7	M-014170-00	57722	IGDCC4						2.730379344				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1B	J8	LM2_siGENOME_1B_J8	M-009580-01	394	ARHGAP5				2.286857989		3.115054315				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1B	J9	LM2_siGENOME_1B_J9	M-018931-01	80005	DOCK5							-2.032578535			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	K10	LM2_siGENOME_1B_K10	M-005199-02	7410	VAV2			1.647930301	2.597305529		1.626785677			-2.914363309	yes	well			Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K11	LM2_siGENOME_1B_K11	M-009354-00	25791	NGEF						2.726672951				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1B	K12	LM2_siGENOME_1B_K12	M-005047-00	7204	TRIO		1.771566265	2.245667033						-2.998478492	yes	well		"Large, spread"	Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K13	LM2_siGENOME_1B_K13	M-005194-01	6654	SOS1					2.662643431		-2.413061029			yes	well					"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	K14	LM2_siGENOME_1B_K14	M-007123-00	121512	FGD4				5.080885849						yes	well				Fan					
+LM2_siGENOME_1B	K15	LM2_siGENOME_1B_K15	M-003915-02	10276	NET1									-1.842945304	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K16	LM2_siGENOME_1B_K16	M-003932-02	7074	TIAM1	1.83885678		1.689153524				-2.353515701		-2.163218451	yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K17	LM2_siGENOME_1B_K17	M-005195-02	6655	SOS2			2.699122485							yes	well			Triangular						
+LM2_siGENOME_1B	K18	LM2_siGENOME_1B_K18	M-010098-01	23263	MCF2L	8.01827171						-11.3071887			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	K19	LM2_siGENOME_1B_K19	M-010234-01	27237	ARHGEF16					1.901252927	2.849044676				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1B	K20	LM2_siGENOME_1B_K20	M-003935-01	7409	VAV1	2.091077798						-4.290014834			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	K21	LM2_siGENOME_1B_K21	M-009421-00	9138	ARHGEF1					1.874060409				-1.92475166	yes	well					"Round, small"				Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K22	LM2_siGENOME_1B_K22	M-009237-01	9855	FARP2				5.184368362	2.852991057	3.176847783				yes	well				Fan	"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1B	K3	LM2_siGENOME_1B_K3	M-005093-02	7984	ARHGEF5		1.771566265	2.245667033						-4.080693491	yes	well		"Large, spread"	Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K4	LM2_siGENOME_1B_K4	M-022573-01	25894	PLEKHG4		2.534169482	4.03887723					-6.053757382	-6.053757382	yes	well		"Large, spread"	Triangular					High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K5	LM2_siGENOME_1B_K5	M-010360-00	9826	ARHGEF11		3.678074306	3.255635994	1.872927936		4.636255165			-3.892770558	yes	well		"Large, spread"	Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K6	LM2_siGENOME_1B_K6	M-003904-03	4168	MCF2				2.597305529					-1.83708733	yes	well				Fan					Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K7	LM2_siGENOME_1B_K7	M-009751-01	9828	ARHGEF17			2.534229593						-1.959699843	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K8	LM2_siGENOME_1B_K8	M-009612-01	2245	FGD1			3.441140498						-4.349962785	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	K9	LM2_siGENOME_1B_K9	M-008868-01	11214	AKAP13			1.833434804						-2.69698562	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	L10	LM2_siGENOME_1B_L10	M-010251-01	1123	CHN1					2.553873359	1.867944256				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1B	L11	LM2_siGENOME_1B_L11	M-008235-01	50649	ARHGEF4				1.769445422			-2.489315505			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	L12	LM2_siGENOME_1B_L12	M-009444-01	4983	OPHN1				5.080885849		5.644394026			-2.570810284	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	L14	LM2_siGENOME_1B_L14	M-009238-00	9912	ARHGAP44			1.668541912				-2.417375027			yes	well			Triangular				Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	L15	LM2_siGENOME_1B_L15	M-027177-02	84033	OBSCN	2.343298815						-3.816082631	1.728106101		yes	well	Spindly						Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	L16	LM2_siGENOME_1B_L16	M-009302-00	116984	ARAP2					5.463472784					yes	well					"Round, small"				
+LM2_siGENOME_1B	L18	LM2_siGENOME_1B_L18	M-003791-02	1124	CHN2							-2.490287674		-3.072263525	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	L19	LM2_siGENOME_1B_L19	M-031725-01	85440	DOCK7					2.717028467		-2.584709551	1.61052178		yes	well					"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	L20	LM2_siGENOME_1B_L20	M-026514-01	57569	ARHGAP20							-2.468839204			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	L21	LM2_siGENOME_1B_L21	M-031950-01	57572	DOCK6				3.942578202	2.390718251					yes	well				Fan	"Round, small"				
+LM2_siGENOME_1B	L22	LM2_siGENOME_1B_L22	M-013854-01	57221	KIAA1244			1.874658027						-2.354974982	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	L3	LM2_siGENOME_1B_L3	M-024733-01	345930	ECT2L					1.629327747					yes	well					"Round, small"				
+LM2_siGENOME_1B	L5	LM2_siGENOME_1B_L5	M-014040-00	23348	DOCK9					3.886306741					yes	well					"Round, small"				
+LM2_siGENOME_1B	L6	LM2_siGENOME_1B_L6	M-009238-00	9912	ARHGAP44					1.765290337		-2.706655953			yes	well					"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	L7	LM2_siGENOME_1B_L7	M-011253-01	1793	DOCK1	3.163017122						-5.285454742			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	L8	LM2_siGENOME_1B_L8	M-009136-02	116985	ARAP1					8.998500124	3.662142207				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1B	L9	LM2_siGENOME_1B_L9	M-006450-00	1894	ECT2		11.68540808		5.080885849		5.857298954			-3.546791166	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	M10	LM2_siGENOME_1B_M10	M-009237-01	9855	FARP2				6.736606062		3.403545354				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_1B	M11	LM2_siGENOME_1B_M11	M-009323-00	5923	RASGRF1					4.674889763	1.937758115				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1B	M12	LM2_siGENOME_1B_M12	M-009616-00	8874	ARHGEF7		3.678074306	1.750988358	3.218200609		3.598404402			-2.775988211	yes	well		"Large, spread"	Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	M13	LM2_siGENOME_1B_M13	M-008480-00	23365	ARHGEF12							-5.500121725		-3.198519136	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	M14	LM2_siGENOME_1B_M14	M-008434-02	26230	TIAM2			1.544872244				-2.254779825		-3.687218847	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	M15	LM2_siGENOME_1B_M15	M-009421-00	9138	ARHGEF1									-1.764002315	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	M17	LM2_siGENOME_1B_M17	M-009841-00	50618	ITSN2							-3.415792201			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	M18	LM2_siGENOME_1B_M18	M-009612-01	2245	FGD1			2.534229593				-1.803997388		-3.789862974	yes	well			Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	M19	LM2_siGENOME_1B_M19	M-009841-00	50618	ITSN2							-1.720937731			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	M20	LM2_siGENOME_1B_M20	M-007123-00	121512	FGD4				3.735613176						yes	well				Fan					
+LM2_siGENOME_1B	M21	LM2_siGENOME_1B_M21	M-009833-00	26084	ARHGEF26			1.627318689						-2.474230768	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	M22	LM2_siGENOME_1B_M22	M-008431-00	221472	FGD2	1.586635762				1.574942711		-1.520488713	2.796647541		yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	M3	LM2_siGENOME_1B_M3	M-032365-01	445328	ARHGEF35		4.821979131	2.740345708	1.976410449		3.036977023			-4.493111322	yes	well		"Large, spread"	Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	M4	LM2_siGENOME_1B_M4	M-003935-01	7409	VAV1	1.964967289						-2.667343884			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	M5	LM2_siGENOME_1B_M5	M-008519-02	10160	FARP1	1.83885678				3.695959115		-2.419501646	3.093005318		yes	well	Spindly				"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	M6	LM2_siGENOME_1B_M6	M-004121-01	115557	ARHGEF25				2.700788042	2.934568611					yes	well				Fan	"Round, small"				
+LM2_siGENOME_1B	M8	LM2_siGENOME_1B_M8	M-024745-01	57480	PLEKHG1	4.676343227									yes	well	Spindly								
+LM2_siGENOME_1B	M9	LM2_siGENOME_1B_M9	M-032365-01	445328	ARHGEF35			2.410559925						-4.172348498	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	N12	LM2_siGENOME_1B_N12	M-008966-00	392	ARHGAP1							-2.990164627			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_1B	N14	LM2_siGENOME_1B_N14	M-010251-01	1123	CHN1					3.750344151					yes	well					"Round, small"				
+LM2_siGENOME_1B	N16	LM2_siGENOME_1B_N16	M-008650-00	29127	RACGAP1		7.491090389		7.150536116		7.138313394			-3.22501814	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	N18	LM2_siGENOME_1B_N18	M-021122-00	9824	ARHGAP11A							-4.071094613		-1.786335326	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	N20	LM2_siGENOME_1B_N20	M-009382-01	79658	ARHGAP10	2.091077798		1.544872244						-1.784052712	yes	well	Spindly		Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_1B	N22	LM2_siGENOME_1B_N22	M-007052-01	64411	ARAP3						2.739128861				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1B	N3	LM2_siGENOME_1B_N3	M-010323-01	23075	SWAP70					4.022269331			2.284174181		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_1B	N4	LM2_siGENOME_1B_N4	M-004775-01	57584	ARHGAP21					3.750344151	2.925299152				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1B	N5	LM2_siGENOME_1B_N5	M-012695-01	1795	DOCK3						4.610310415				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_1B	N6	LM2_siGENOME_1B_N6	M-009546-01	23616	SH3BP1					4.185424439	1.565842857				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_1B	N8	LM2_siGENOME_1B_N8	M-030269-01	55701	ARHGEF40	3.163017122									yes	well	Spindly								
+LM2_siGENOME_2A	C11	LM2_siGENOME_2A_C11	M-018019-00	55843	ARHGAP15							-1.554059257		-1.806799225	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	C13	LM2_siGENOME_2A_C13	M-023893-00	23526	HA-1						2.734086093				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2A	C14	LM2_siGENOME_2A_C14	M-027281-00	201176	ARHGAP27				1.780677133			-2.188279761			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	C15	LM2_siGENOME_2A_C15	M-003628-02	393	ARHGAP4	9.96860936						-1.759029949			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	C16	LM2_siGENOME_2A_C16	M-023061-01	57636	ARHGAP23	3.910278397								-1.941383178	yes	well	Spindly								Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	C17	LM2_siGENOME_2A_C17	M-021531-02	23380	SRGAP2							-7.683313525	1.792259338		yes	well							Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	C18	LM2_siGENOME_2A_C18	M-027281-00	201176	ARHGAP27	5.531521894									yes	well	Spindly								
+LM2_siGENOME_2A	C19	LM2_siGENOME_2A_C19	M-021617-02	84144	SYDE2				2.997452923		2.91411208		3.110330497		yes	well				Fan		High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	C21	LM2_siGENOME_2A_C21	M-003020-04	5295	PIK3R1				4.388053826		4.968897223				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_2A	C22	LM2_siGENOME_2A_C22	M-026507-01	143872	ARHGAP42		3.137220161			2.272897774	4.247677181		1.523190925		yes	well		"Large, spread"			"Round, small"	High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	C3	LM2_siGENOME_2A_C3	M-020516-02	10144	FAM13A1									-3.391159078	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	C4	LM2_siGENOME_2A_C4	M-009304-01	395	ARHGAP6					2.334258661		-3.770231615	2.709546947		yes	well					"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	C5	LM2_siGENOME_2A_C5	M-009427-01	23779	ARHGAP8							-5.767370495			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	C7	LM2_siGENOME_2A_C7	M-008277-01	9411	ARHGAP29							-1.634641255			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	C8	LM2_siGENOME_2A_C8	LU-003023-00	5728	PTEN		1.538097371						3.272127801		yes	well		"Large, spread"						High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	C9	LM2_siGENOME_2A_C9	M-010254-00	9754	STARD8				4.474966383			-3.916830582	2.079343773		yes	well				Fan			Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	E10	LM2_siGENOME_2A_E10	M-026507-01	143872	ARHGAP42	1.94772048	1.538097371					-4.071130599			yes	well	Spindly	"Large, spread"					Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	E11	LM2_siGENOME_2A_E11	M-020516-02	10144	FAM13A1	7.835394232						-2.441800548			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	E12	LM2_siGENOME_2A_E12	M-015110-00	93663	ARHGAP18					1.720649792		-3.308782487			yes	well					"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	E13	LM2_siGENOME_2A_E13	M-010026-01	4952	OCRL		1.538097371					-2.013722635			yes	well		"Large, spread"					Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	E14	LM2_siGENOME_2A_E14	M-009130-01	257106	ARHGAP30					2.007000597		-4.459419755		-1.831155073	yes	well					"Round, small"		Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	E15	LM2_siGENOME_2A_E15	M-021811-02	3633	INPP5B						1.960409625				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2A	E19	LM2_siGENOME_2A_E19	M-003021-03	5296	PIK3R2		5.136123649		2.475977584		2.735871844		4.109134314		yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	E21	LM2_siGENOME_2A_E21	M-026974-00	57522	SRGAP1	1.521077454		1.919515125						-2.789918377	yes	well	Spindly		Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	E3	LM2_siGENOME_2A_E3	M-010256-00	90627	STARD13									-2.234667194	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	E4	LM2_siGENOME_2A_E4	LU-003023-00	5728	PTEN		1.937878069							-3.404559575	yes	well		"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	E5	LM2_siGENOME_2A_E5	M-021811-02	3633	INPP5B	2.630349321						-4.571698827			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	E7	LM2_siGENOME_2A_E7	M-008729-01	94134	ARHGAP12					2.456980435			5.67814415	5.67814415	yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	E8	LM2_siGENOME_2A_E8	M-023061-01	57636	ARHGAP23							-5.102066769			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	E9	LM2_siGENOME_2A_E9	M-019080-01	58504	ARHGAP22				3.258190592		4.987312777		1.749142155		yes	well				Fan		High nuclear YAP/TAZ		High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	G11	LM2_siGENOME_2A_G11	M-020738-01	51306	FAM13B					2.252444145		-8.081759138		-1.982338406	yes	well					"Round, small"		Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	G15	LM2_siGENOME_2A_G15	M-010256-00	90627	STARD13	4.251592818		1.762905456				-2.988519269		-3.591639788	yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	G17	LM2_siGENOME_2A_G17	M-003020-04	5295	PIK3R1		1.937878069		2.649802697		5.578173022			-1.974341691	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	G19	LM2_siGENOME_2A_G19	M-032590-00	80728	ARHGAP39							-2.552461283		-1.664497829	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	G21	LM2_siGENOME_2A_G21	M-021531-02	23380	SRGAP2	2.886335136									yes	well	Spindly								
+LM2_siGENOME_2A	G3	LM2_siGENOME_2A_G3	M-031016-02	79822	ARHGAP28							-2.519424896			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	G5	LM2_siGENOME_2A_G5	M-010026-01	4952	OCRL		3.537000859		2.302152471		2.525767119			-3.484133841	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	G6	LM2_siGENOME_2A_G6	M-008446-00	158763	ARHGAP36									-2.266449136	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	G9	LM2_siGENOME_2A_G9	M-021531-02	23380	SRGAP2			2.076124794						-1.649687946	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	I11	LM2_siGENOME_2A_I11	M-014713-01	83478	ARHGAP24			1.743329248							yes	well			Triangular						
+LM2_siGENOME_2A	I13	LM2_siGENOME_2A_I13	M-023893-00	23526	HA-1		1.937878069								yes	well		"Large, spread"							
+LM2_siGENOME_2A	I15	LM2_siGENOME_2A_I15	M-020738-01	51306	FAM13B	4.934221659									yes	well	Spindly								
+LM2_siGENOME_2A	I17	LM2_siGENOME_2A_I17	M-018322-01	84986	ARHGAP19				6.99543052		5.468181943			-2.748430577	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	I19	LM2_siGENOME_2A_I19	M-003628-02	393	ARHGAP4					3.316032852				-1.912169013	yes	well					"Round, small"				Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	I21	LM2_siGENOME_2A_I21	M-010254-00	9754	STARD8						2.605233023				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2A	I3	LM2_siGENOME_2A_I3	M-008213-00	9743	ARHGAP32					2.96832116		-2.829978095	4.035864818		yes	well					"Round, small"		Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	I5	LM2_siGENOME_2A_I5	M-018322-01	84986	ARHGAP19	2.886335136		1.547567162				-3.401362497			yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		
+LM2_siGENOME_2A	I7	LM2_siGENOME_2A_I7	M-003021-03	5296	PIK3R2		2.337658766		2.649802697		5.086645157			-4.288039828	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	I9	LM2_siGENOME_2A_I9	M-010047-02	64333	ARHGAP9					4.297807043					yes	well					"Round, small"				
+LM2_siGENOME_2A	K11	LM2_siGENOME_2A_K11	M-008729-01	94134	ARHGAP12			2.467648965						-3.628090271	yes	well			Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	K15	LM2_siGENOME_2A_K15	M-008277-01	9411	ARHGAP29					3.131950191					yes	well					"Round, small"				
+LM2_siGENOME_2A	K19	LM2_siGENOME_2A_K19	M-008213-00	9743	ARHGAP32		1.538097371								yes	well		"Large, spread"							
+LM2_siGENOME_2A	K3	LM2_siGENOME_2A_K3	M-018019-00	55843	ARHGAP15					6.036365506			1.659507027		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2A	K7	LM2_siGENOME_2A_K7	M-021617-02	84144	SYDE2							-2.999568601		-2.095577551	yes	well							Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	K9	LM2_siGENOME_2A_K9	M-008711-02	117289	TAGAP				2.041414802		3.423664867			-1.514394738	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	M13	LM2_siGENOME_2A_M13	M-021175-01	9938	ARHGAP25									-2.260116332	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	M15	LM2_siGENOME_2A_M15	M-031016-02	79822	ARHGAP28						2.845249071			-2.5285553	yes	well						High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	M17	LM2_siGENOME_2A_M17	M-021160-01	51291	GMIP	6.555465156						-4.964619774		-2.092648098	yes	well	Spindly						Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2A	M19	LM2_siGENOME_2A_M19	M-019080-01	58504	ARHGAP22			1.723753039							yes	well			Triangular						
+LM2_siGENOME_2A	M21	LM2_siGENOME_2A_M21	M-014713-01	83478	ARHGAP24	2.2890349									yes	well	Spindly								
+LM2_siGENOME_2A	M3	LM2_siGENOME_2A_M3	M-021160-01	51291	GMIP	2.45969211									yes	well	Spindly								
+LM2_siGENOME_2A	M5	LM2_siGENOME_2A_M5	M-008711-02	117289	TAGAP						2.791732356				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2A	M9	LM2_siGENOME_2A_M9	M-010047-02	64333	ARHGAP9				3.692753375			-3.090976713			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	C11	LM2_siGENOME_2B_C11	M-018019-00	55843	ARHGAP15							-2.08958341			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	C12	LM2_siGENOME_2B_C12	M-015110-00	93663	ARHGAP18				2.736715254			-2.915715856			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	C13	LM2_siGENOME_2B_C13	M-023893-00	23526	HA-1						1.718401078				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2B	C14	LM2_siGENOME_2B_C14	M-027281-00	201176	ARHGAP27				1.691609261			-2.468612804			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	C15	LM2_siGENOME_2B_C15	M-003628-02	393	ARHGAP4	8.41359917						-2.52431921	2.063151554		yes	well	Spindly						Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2B	C16	LM2_siGENOME_2B_C16	M-023061-01	57636	ARHGAP23	4.999004373		1.735847679						-1.992752485	yes	well	Spindly		Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	C17	LM2_siGENOME_2B_C17	M-021531-02	23380	SRGAP2							-7.30851006			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	C18	LM2_siGENOME_2B_C18	M-027281-00	201176	ARHGAP27	4.023405859	1.537647886							-1.624532009	yes	well	Spindly	"Large, spread"							Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	C19	LM2_siGENOME_2B_C19	M-021617-02	84144	SYDE2						1.816532535				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2B	C21	LM2_siGENOME_2B_C21	M-003020-04	5295	PIK3R1		2.816766324		4.277838633		6.126197297			-2.727149071	yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	C22	LM2_siGENOME_2B_C22	M-026507-01	143872	ARHGAP42				1.534868087		3.032717361				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_2B	C3	LM2_siGENOME_2B_C3	M-020516-02	10144	FAM13A1		2.816766324	7.309920587			2.939586575			-4.429721575	yes	well		"Large, spread"	Triangular			High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	C4	LM2_siGENOME_2B_C4	M-009304-01	395	ARHGAP6							-2.469957071			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	C5	LM2_siGENOME_2B_C5	M-009427-01	23779	ARHGAP8		1.537647886					-4.56496959			yes	well		"Large, spread"					Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	C8	LM2_siGENOME_2B_C8	LU-003023-00	5728	PTEN		1.537647886		2.161832783						yes	well		"Large, spread"		Fan					
+LM2_siGENOME_2B	C9	LM2_siGENOME_2B_C9	M-010254-00	9754	STARD8				2.632056305			-3.825246598			yes	well				Fan			Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	E10	LM2_siGENOME_2B_E10	M-026507-01	143872	ARHGAP42							-4.9168448			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	E11	LM2_siGENOME_2B_E11	M-020516-02	10144	FAM13A1	7.559950471						-2.938514617	1.516307807		yes	well	Spindly						Low nuclear YAP/TAZ	High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2B	E12	LM2_siGENOME_2B_E12	M-015110-00	93663	ARHGAP18					1.539839374		-2.147333101			yes	well					"Round, small"		Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	E13	LM2_siGENOME_2B_E13	M-010026-01	4952	OCRL							-3.838850575			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	E14	LM2_siGENOME_2B_E14	M-009130-01	257106	ARHGAP30		4.095884762								yes	well		"Large, spread"							
+LM2_siGENOME_2B	E15	LM2_siGENOME_2B_E15	M-021811-02	3633	INPP5B			1.958810595			2.133295503			-2.401406182	yes	well			Triangular			High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	E17	LM2_siGENOME_2B_E17				5.061458012									yes	well	Spindly								
+LM2_siGENOME_2B	E21	LM2_siGENOME_2B_E21	M-026974-00	57522	SRGAP1									-1.661968256	yes	well									Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	E22	LM2_siGENOME_2B_E22	M-009304-01	395	ARHGAP6						1.871109757				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2B	E3	LM2_siGENOME_2B_E3	M-010256-00	90627	STARD13		3.456325543	5.080291424			2.108238375			-4.721037732	yes	well		"Large, spread"	Triangular			High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	E4	LM2_siGENOME_2B_E4	LU-003023-00	5728	PTEN	3.047807345		4.262760731						-3.91036275	yes	well	Spindly		Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	E5	LM2_siGENOME_2B_E5	M-021811-02	3633	INPP5B		2.177207105					-2.847642198		-1.915595791	yes	well		"Large, spread"					Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	E7	LM2_siGENOME_2B_E7	M-008729-01	94134	ARHGAP12			1.751560522							yes	well			Triangular						
+LM2_siGENOME_2B	E8	LM2_siGENOME_2B_E8	M-023061-01	57636	ARHGAP23							-5.263127861			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	E9	LM2_siGENOME_2B_E9	M-019080-01	58504	ARHGAP22				2.083462196		4.717352191				yes	well				Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_2B	G11	LM2_siGENOME_2B_G11	M-020738-01	51306	FAM13B		2.816766324					-7.642049475		-1.511428312	yes	well		"Large, spread"					Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	G15	LM2_siGENOME_2B_G15	M-010256-00	90627	STARD13							-2.10415526			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	G17	LM2_siGENOME_2B_G17	M-003020-04	5295	PIK3R1						3.301301816				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2B	G19	LM2_siGENOME_2B_G19	M-032590-00	80728	ARHGAP39							-2.739509398			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	G21	LM2_siGENOME_2B_G21	M-021531-02	23380	SRGAP2	7.072151214									yes	well	Spindly								
+LM2_siGENOME_2B	G3	LM2_siGENOME_2B_G3	M-031016-02	79822	ARHGAP28		2.816766324								yes	well		"Large, spread"							
+LM2_siGENOME_2B	G4	LM2_siGENOME_2B_G4	M-008446-00	158763	ARHGAP36	1.828309203						-3.215809919			yes	well	Spindly						Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	G5	LM2_siGENOME_2B_G5	M-010026-01	4952	OCRL		5.3750032		1.926721022		3.047826917				yes	well		"Large, spread"		Fan		High nuclear YAP/TAZ			
+LM2_siGENOME_2B	G6	LM2_siGENOME_2B_G6	M-008446-00	158763	ARHGAP36			1.512884763				-2.600397527			yes	well			Triangular				Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	G9	LM2_siGENOME_2B_G9	M-021531-02	23380	SRGAP2			2.256094484							yes	well			Triangular						
+LM2_siGENOME_2B	I11	LM2_siGENOME_2B_I11	M-014713-01	83478	ARHGAP24	3.779506231		1.958810595							yes	well	Spindly		Triangular						
+LM2_siGENOME_2B	I13	LM2_siGENOME_2B_I13	M-023893-00	23526	HA-1		2.816766324				1.90552298				yes	well		"Large, spread"				High nuclear YAP/TAZ			
+LM2_siGENOME_2B	I15	LM2_siGENOME_2B_I15	M-020738-01	51306	FAM13B	2.560008089								-2.00371539	yes	well	Spindly								Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	I17	LM2_siGENOME_2B_I17	M-018322-01	84986	ARHGAP19			1.624366221	4.748062155		5.533752147			-2.669156875	yes	well			Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	I19	LM2_siGENOME_2B_I19	M-003628-02	393	ARHGAP4					3.300434998			3.612619166		yes	well					"Round, small"			High total YAP/TAZ in nuclear and ring regions normalised to nuclear area	
+LM2_siGENOME_2B	I21	LM2_siGENOME_2B_I21	M-010254-00	9754	STARD8		4.095884762				2.956524333				yes	well		"Large, spread"				High nuclear YAP/TAZ			
+LM2_siGENOME_2B	I5	LM2_siGENOME_2B_I5	M-018322-01	84986	ARHGAP19	3.779506231		1.550045249				-1.621886195			yes	well	Spindly		Triangular				Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	I7	LM2_siGENOME_2B_I7	M-003021-03	5296	PIK3R2	1.950259018		2.4790574			2.743162348			-2.12331148	yes	well	Spindly		Triangular			High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	I9	LM2_siGENOME_2B_I9	M-010047-02	64333	ARHGAP9					2.13665145					yes	well					"Round, small"				
+LM2_siGENOME_2B	J12	LM2_siGENOME_2B_J12						1.895269638							yes	well			Triangular						
+LM2_siGENOME_2B	K10	LM2_siGENOME_2B_K10							3.692692219						yes	well				Fan					
+LM2_siGENOME_2B	K11	LM2_siGENOME_2B_K11	M-008729-01	94134	ARHGAP12			2.739180803		2.032209337				-2.430629135	yes	well			Triangular		"Round, small"				Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	K15	LM2_siGENOME_2B_K15	M-008277-01	9411	ARHGAP29					2.032209337	1.607956139				yes	well					"Round, small"	High nuclear YAP/TAZ			
+LM2_siGENOME_2B	K17	LM2_siGENOME_2B_K17	M-021175-01	9938	ARHGAP25			1.735847679							yes	well			Triangular						
+LM2_siGENOME_2B	K19	LM2_siGENOME_2B_K19	M-008213-00	9743	ARHGAP32		2.177207105				2.653429732			-2.601700648	yes	well		"Large, spread"				High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	K3	LM2_siGENOME_2B_K3	M-018019-00	55843	ARHGAP15					2.13665145					yes	well					"Round, small"				
+LM2_siGENOME_2B	K5	LM2_siGENOME_2B_K5	M-009427-01	23779	ARHGAP8		1.537647886		2.475315131						yes	well		"Large, spread"		Fan					
+LM2_siGENOME_2B	K7	LM2_siGENOME_2B_K7	M-021617-02	84144	SYDE2							-3.34270868			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	K9	LM2_siGENOME_2B_K9	M-008711-02	117289	TAGAP		1.537647886				1.579457688				yes	well		"Large, spread"				High nuclear YAP/TAZ			
+LM2_siGENOME_2B	M11	LM2_siGENOME_2B_M11	M-021531-02	23380	SRGAP2				2.005091609		2.388706146			-1.701007395	yes	well				Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	M13	LM2_siGENOME_2B_M13	M-021175-01	9938	ARHGAP25			1.958810595	3.415762176		2.154427373			-1.924968161	yes	well			Triangular	Fan		High nuclear YAP/TAZ			Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	M15	LM2_siGENOME_2B_M15	M-031016-02	79822	ARHGAP28						3.422447116				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2B	M17	LM2_siGENOME_2B_M17	M-021160-01	51291	GMIP	4.389255302	2.816766324					-3.429709611			yes	well	Spindly	"Large, spread"					Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	M19	LM2_siGENOME_2B_M19	M-019080-01	58504	ARHGAP22				2.24020337			-1.641835111		-1.567214487	yes	well				Fan			Low nuclear YAP/TAZ		Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	M21	LM2_siGENOME_2B_M21	M-014713-01	83478	ARHGAP24	6.584351957		1.624366221						-1.808788632	yes	well	Spindly		Triangular						Low total YAP/TAZ in nuclear and ring regions normalised to nuclear area
+LM2_siGENOME_2B	M3	LM2_siGENOME_2B_M3	M-021160-01	51291	GMIP	3.16975716		1.661526707							yes	well	Spindly		Triangular						
+LM2_siGENOME_2B	M4	LM2_siGENOME_2B_M4										-2.877140581			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	M5	LM2_siGENOME_2B_M5	M-008711-02	117289	TAGAP						2.408117355				yes	well						High nuclear YAP/TAZ			
+LM2_siGENOME_2B	M9	LM2_siGENOME_2B_M9	M-010047-02	64333	ARHGAP9							-2.648529438			yes	well							Low nuclear YAP/TAZ		
+LM2_siGENOME_2B	N22	LM2_siGENOME_2B_N22									3.917968439				yes	well						High nuclear YAP/TAZ			
