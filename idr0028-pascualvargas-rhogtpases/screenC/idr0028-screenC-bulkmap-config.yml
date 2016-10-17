@@ -71,7 +71,7 @@ columns:
   - name: Has Phenotype
     include: yes
   - name: Phenotype Annotation Level
-    include:yes
+    include: yes
 
   - name: Phenotype 1
     clientname: Phenotype
