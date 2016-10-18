@@ -57,7 +57,7 @@ columns:
         include: yes
       - name: Gene Identifier
         clientname: Gene Identifier URL
-        clientvalue: http://www.yeastgenome.org/locus/{{ value }}/overview
+        clientvalue: http://www.yeastgenome.org/locus/{{ value|urlencode }}/overview
         include: yes
       - name: Gene Symbol
         include: yes

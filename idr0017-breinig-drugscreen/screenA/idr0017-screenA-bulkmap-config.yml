@@ -56,7 +56,7 @@ columns:
         include: yes
       - name: Compound Name
         clientname: Compound Name URL
-        clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
+        clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
         include: yes
 
   - group:

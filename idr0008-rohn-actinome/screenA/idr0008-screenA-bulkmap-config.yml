@@ -56,7 +56,7 @@ columns:
         include: yes
       - name: siRNA Identifier
         clientname: siRNA Identifier URL
-        clientvalue: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname={{ value }}
+        clientvalue: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname={{ value|urlencode }}
         include: yes
 
   - group:
@@ -76,7 +76,7 @@ columns:
         include: yes
       - name: Gene Identifier
         clientname: Gene Identifier URL
-        clientvalue: http://flybase.org/reports/{{ value }}.html
+        clientvalue: http://flybase.org/reports/{{ value|urlencode }}.html
         include: yes
       - name: Gene Symbol
         include: yes
@@ -101,7 +101,7 @@ columns:
         include: yes
       - name: Phenotype 1 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -118,7 +118,7 @@ columns:
         include: yes
       - name: Phenotype 2 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -135,7 +135,7 @@ columns:
         include: yes
       - name: Phenotype 3 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -152,7 +152,7 @@ columns:
         include: yes
       - name: Phenotype 4 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -169,7 +169,7 @@ columns:
         include: yes
       - name: Phenotype 5 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -186,7 +186,7 @@ columns:
         include: yes
       - name: Phenotype 6 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -203,7 +203,7 @@ columns:
         include: yes
       - name: Phenotype 7 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -220,7 +220,7 @@ columns:
         include: yes
       - name: Phenotype 8 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -237,7 +237,7 @@ columns:
         include: yes
       - name: Phenotype 9 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -254,7 +254,7 @@ columns:
         include: yes
       - name: Phenotype 10 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -271,7 +271,7 @@ columns:
         include: yes
       - name: Phenotype 11 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -288,7 +288,7 @@ columns:
         include: yes
       - name: Phenotype 12 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -305,7 +305,7 @@ columns:
         include: yes
       - name: Phenotype 13 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -322,7 +322,7 @@ columns:
         include: yes
       - name: Phenotype 14 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -339,7 +339,7 @@ columns:
         include: yes
       - name: Phenotype 15 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -356,7 +356,7 @@ columns:
         include: yes
       - name: Phenotype 16 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -373,7 +373,7 @@ columns:
         include: yes
       - name: Phenotype 17 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -390,7 +390,7 @@ columns:
         include: yes
       - name: Phenotype 18 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -406,7 +406,7 @@ columns:
         include: yes
       - name: Phenotype 19 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -423,7 +423,7 @@ columns:
         include: yes
       - name: Phenotype 20 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -440,7 +440,7 @@ columns:
         include: yes
       - name: Phenotype 21 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -457,7 +457,7 @@ columns:
         include: yes
       - name: Phenotype 22 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -474,7 +474,7 @@ columns:
         include: yes
       - name: Phenotype 23 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -491,7 +491,7 @@ columns:
         include: yes
       - name: Phenotype 24 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -508,7 +508,7 @@ columns:
         include: yes
       - name: Phenotype 25 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -525,7 +525,7 @@ columns:
         include: yes
       - name: Phenotype 26 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
 # Advanced options (experimental)

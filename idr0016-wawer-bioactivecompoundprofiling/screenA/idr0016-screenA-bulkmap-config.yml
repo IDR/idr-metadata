@@ -75,7 +75,7 @@ columns:
         include: yes
       - name: Compound Name
         clientname: Compound Name URL
-        clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
+        clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
         include: yes
 
   - group:
@@ -85,7 +85,7 @@ columns:
         include: yes
       - name: Compound Broad Identifier
         clientname: Compound Broad Identifier URL
-        clientvalue: https://pubchem.ncbi.nlm.nih.gov/compound/{{ value }}
+        clientvalue: https://pubchem.ncbi.nlm.nih.gov/compound/{{ value|urlencode }}
         include: yes
       - name: Compound Broad Identifier Short
         include: yes
@@ -116,7 +116,7 @@ columns:
         include: yes
       - name: Phenotype 1 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://purl.obolibrary.org/obo/{{ value }}
+        clientvalue: http://purl.obolibrary.org/obo/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -133,7 +133,7 @@ columns:
         include: yes
       - name: Phenotype 2 Term Accession
         clientname: Phenotype Term Accession URL
-        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
 
