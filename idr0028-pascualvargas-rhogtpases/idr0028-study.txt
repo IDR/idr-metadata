@@ -20,6 +20,10 @@ Study Author List	"Pascual Vargas P, Cooper S, Sero J, Arias-Garcia M, Bousgouni
 Study PMC ID																																																																																																																																											
 Study DOI																																																																																																																																											
 																																																																																																																																											
+# Study License																																																																																																																																											
+Study License	CC-BY 4.0																																																																																																																																										
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																																																																																																																										
+																																																																																																																																											
 # Study Contacts																																																																																																																																											
 Study Person Last Name	Pascual Vargas																																																																																																																																										
 Study Person First Name	Patricia																																																																																																																																										
@@ -36,8 +40,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 																																																																																																																																											
 Screen Number	1																																																																																																																																										
 Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpase/screenA																																																																																																																																										
-Screen Description	human RhoGEF/RhoGAP siGenome siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
-Screen Size	Plates: 4	5D Images: 	Planes:	Average Image Dimension (XYZCT):	Total Tb:																																																																																																																																						
+Screen Description	Human RhoGEF/RhoGAP siGenome siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
+Screen Size	Plates: 4	5D Images: 26880	Planes:107520	Average Image Dimension (XYZCT):	Total Tb: 0.03																																																																																																																																						
 Screen Imaging Method	spinning disk confocal microscopy																																																																																																																																										
 Screen Imaging Method Term Source REF	Fbbi																																																																																																																																										
 Screen Imaging Method Term Accession	FBbi_00000253																																																																																																																																										
@@ -104,8 +108,8 @@ Processed Data Column Link To Library File	Plate_Well
 																																																																																																																																											
 Screen Number	2																																																																																																																																										
 Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpase/screenB																																																																																																																																										
-Screen Description	human RhoGEF/RhoGAP OnTargetPlus siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
-Screen Size	Plates: 4	5D Images: 	Planes:	Average Image Dimension (XYZCT):	Total Tb:																																																																																																																																						
+Screen Description	Human RhoGEF/RhoGAP OnTargetPlus siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
+Screen Size	Plates: 4	5D Images: 42644	Planes: 170576	Average Image Dimension (XYZCT):	Total Tb: 0.05																																																																																																																																						
 Screen Imaging Method	spinning disk confocal microscopy																																																																																																																																										
 Screen Imaging Method Term Source REF	Fbbi																																																																																																																																										
 Screen Imaging Method Term Accession	FBbi_00000253																																																																																																																																										
@@ -172,8 +176,8 @@ Processed Data Column Link To Library File	Plate_Well
 	Plate	Well	Plate_Well	siRNA Pool Identifier	Gene Identifier	Gene Symbol																																																																																																																																					
 Screen Number	3																																																																																																																																										
 Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpase/screenC																																																																																																																																										
-Screen Description	human RhoGEF/RhoGAP siGenome siRNA screen on triple negative breast cancer cell line MDA-MB-231																																																																																																																																										
-Screen Size	Plates: 4	5D Images: 	Planes:	Average Image Dimension (XYZCT):	Total Tb:																																																																																																																																						
+Screen Description	Human RhoGEF/RhoGAP siGenome siRNA screen on triple negative breast cancer cell line MDA-MB-231																																																																																																																																										
+Screen Size	Plates: 4	5D Images: 42700	Planes: 170800	Average Image Dimension (XYZCT):	Total Tb: 0.05																																																																																																																																						
 Screen Imaging Method	spinning disk confocal microscopy																																																																																																																																										
 Screen Imaging Method Term Source REF	Fbbi																																																																																																																																										
 Screen Imaging Method Term Accession	FBbi_00000253																																																																																																																																										
@@ -240,8 +244,8 @@ Processed Data Column Link To Library File	Plate_Well
 																																																																																																																																											
 Screen Number	4																																																																																																																																										
 Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpase/screenD																																																																																																																																										
-Screen Description	human RhoGEF/RhoGAP OnTargetplus siRNA screen on triple negative breast cancer cell line MDA-MB-231																																																																																																																																										
-Screen Size	Plates: 4	5D Images: 	Planes:	Average Image Dimension (XYZCT):	Total Tb:																																																																																																																																						
+Screen Description	Human RhoGEF/RhoGAP OnTargetplus siRNA screen on triple negative breast cancer cell line MDA-MB-231																																																																																																																																										
+Screen Size	Plates: 4	5D Images: 43008	Planes: 172032	Average Image Dimension (XYZCT):	Total Tb: 0.05																																																																																																																																						
 Screen Imaging Method	spinning disk confocal microscopy																																																																																																																																										
 Screen Imaging Method Term Source REF	Fbbi																																																																																																																																										
 Screen Imaging Method Term Accession	FBbi_00000253																																																																																																																																										
