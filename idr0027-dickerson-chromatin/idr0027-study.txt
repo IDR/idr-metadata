@@ -1,85 +1,85 @@
-"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"											
-# Study											
-Comment[IDR Study Accession]	idr0027										
-Study Title	High resolution imaging reveals heterogeneity in chromatin states between cells that is not inherited through cell division.										
-Study Type											
-Study Type Term Source REF											
-Study Type Term Accession											
-Study Description	"We established a work flow for measuring the distance between two fluorescently tagged, syntenic gene loci with a mean measurement error of 63 nm.  In general, physical separation was observed to increase with increasing genomic separations.  However, the extent to which chromatin is compressed varies for different genomic regions. No correlation was observed between compaction and the distribution of chromatin markers from genomic datasets or with contacts identified using capture based approaches. Variation in spatial separation was also observed within cells over time and between cells.  Differences in the conformation of individual loci can persist for minutes in individual cells. Separation of reporter loci was found to be similar in related and unrelated daughter cell pairs."		 								
-Study Organism	Saccharomyces cerevisiae 										
-Study Organism Term Source REF	NCBITaxon										
-Study Organism Term Accession	NCBITaxon_4932										
-Study Experiments Number	1										 
-Study External URL											
-Study Public Release Date											
-											
-# Study Publication											
-Study PubMed ID											
-Study Publication Title	High resolution imaging reveals heterogeneity in chromatin states between cells that is not inherited through cell division.										
-Study Author List	"Dickerson D, Gierliski M, Singh V, Kitamura E, Ball G, Tanaka TU and Owen-Hughes T"										
-Study PMC ID											
-Study DOI											
-											
-# Study Contacts											
-Study Person Last Name	Dickerson	Owen-Hughes									
-Study Person First Name	David	Tom									
-Study Person Email	D.Dickerson@dundee.ac.uk	t.a.owenhughes@dundee.ac.uk									
-Study Person Address	"Centre for Gene Regulation and Expression, College of Life Sciences, University of Dundee, Dundee DD1 5EH, UK"	"Centre for Gene Regulation and Expression, College of Life Sciences, University of Dundee, Dundee DD1 5EH, UK"									
-Study Person Roles	submitter	principal investigator									
-											
-Term Source Name	NCBITaxon	EFO	CMPO	FBbi							
-Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/							
-											
-											
-"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."											
-# Screen; this section should be repeated if a study contains multiple screens											
-											
-Experiment Number	1										
-Comment[IDR Experiment Name]	idr0027-dickerson-chromatin/experimentA										
-Experiment Description	To monitor the organisation of chromatin in live cells were engineered with fluorescent fusion proteins which recognize specific operator sequences to tag pairs of syntenic gene loci. The separation of these loci was then tracked in three dimensions over time using fluorescence microscopy.										
-Experiment Size	5D Images: 	Average Image Dimension (XYZCT):	Total Tb: 								
-Experiment Imaging Method	fluorescence microscopy										
-Experiment Imaging Method Term Source REF	Fbbi										
-Experiment Imaging Method Term Accession	FBbi_00000246										
-Experiment Comments	A results file called idr0027-AnalysisAllData.csv is attached to this project.										
-											
-# assay files											
-Experiment Assay File	idr0027-experimentA-assay.txt										
-Experiment Assay File Format	tab-delimited text										
-Assay Experimental Conditions	Genomic Separation Of Operators	Cell Identifier									
-Assay Experimental Conditions Term Source REF											
-Assay Experimental Conditions Term Accession											
-Quality Control Description											
-											
-# Protocols											
-Protocol Name	growth protocol	image aquistion and feature extraction protocol	data analysis protocol								
-Protocol Type	growth protocol	image aquistion and feature extraction protocol	data analysis protocol								
-Protocol Type Term Source REF	EFO										
-Protocol Type Term Accession	EFO_0003789										
-Protocol Description	"The S. cerevisiae strains in this study are summarized in Table S2 and illustrated in Figure 1 A.  The tet and lac operator arrays for all Chr XIV strains were integrated between convergent genes.  The terminators of these genes were duplicated and flank the insertion sites such that all genes retain their wild type terminators.  Table S2 columns 5' and 3' indicate the pairs of convergent genes where the insertions took place.  DD1407 generation: WT yeast strain K699 (W303) was transformed first with pDD2244 (tetR-GFP-TetR-mCherry::ADE2) linearized with PciI, and then with pDD2246 linearized with PfoI.  DD1413 was generated by successively cloning in linearized pAFS135, pDD2248, pDD202, pDD206, and pDD207.  It was verified by PCR using primer pairs 1988+1952, 2061+2062, 2044+2529, and 2051+2058, which flank the appropriate integration sites at the URA3 locus.  Strains DD1471-1475 were generated using plasmids pDD2244 and pDD2245, and the appropriate lacO and tetO array plasmids pDD246, 2247, 2248, and pDD249-256, and were verified by PCR using primers 2452-2468.  Strain DD1336 was generated by cloning linearized pDD2247 into T6002 and was verified by PCR using primers 2067-2074. Cell Culture. Tetracycline was added to all cell cultures to diminish the affinity of the tet repressor DNA binding protein for its DNA binding site, as per Dubarry [53].  Optimal concentration resulting in 94% maximum fluorescence intensity was determined via concentration series and measured on the OMX.  The colocalising strain and most sample strains were streaked to YPAD and cultured overnight, propagated in liquid culture for 8 hours, cultured overnight in 75%SC/25%YPA + 2%dextrose + 20 ng/ml tetracycline, washed in the culture media and placed on ice.  In all cases cells were adhered to concanavalin A-treated 35 mm glass-bottomed MatTek culture dishes for 10 minutes at 22.0oC, then allowed to temperature-equilibrate in the microscope enclosure at 23.5oC for an additional 10 minutes.    "	"All imaging was performed with a GE|OMX Blaze¨ microscope.  Immersion oil with refractive index 1.514 was used in all cases.  Typical video acquisition included 5 ¼m stack height, 250 nm step size, 21 images per stack, 128x128 field of view (FOV), 50-100 time points, excitation 3-8 msec, ND 31-100 for mCherry and ND 5-10 for GFP, and sequential channel acquisition.  The microscope enclosure is maintained at 23.5o Celsius."	"Channel alignment parameters for an initial coarse alignment were generated using single stacks of twenty-nine 1024x1024 FOV images with step size of 125 nm of a Tetraspeck 100 nm bead slide or laser milled slide (LMS) using the red and green channel cameras.  Coarse alignment lateral parameters were calculated using Softworx software, which included a translation, magnification, and rotation.  Coarse axial alignment offset was determined manually using the Softworx Measure Chromatic Correction function.  Channel alignment fine tuning parameters were calculated using live cell 3-D tracking data from the colocalising strain, DD1407, which has single red and green colocalising spots of dimensions assumed to be smaller than the PSF.  50-100 time points of 17 128x128 FOV images/stack were generated with 3-8msec exposures generated sequentially from red and green channels.  Videos were split into individual channels and saved in 4-byte float format.  Darkfield images, generated previously by taking the mean pixel intensity of 1000 images at set exposure times, were then subtracted from the individual video channels to correct for noise arising from the CMOS cameras.  Videos were denoised with the ND-SAFIR denoising software [91] using the Sedat Lab settings iter=5, p=3, sampling=2, noise=Gaussian, adapt=0, island=4, and np=8 [54], and then deconvolved via Softworx using a ratio (conservative) method tailored to an idealized objective of the model used in our OMX Blaze, and saved in 4-byte float format.  Individual channel files were fused into a single red plus green video file and coarse alignment was performed with Softworx using the bead slide or LMS alignment offset parameters.  The spots were tracked using Imaris, the x, y, and z offsets between the different channels were determined for each time point using Excel spreadsheet, and the means of these offsets were calculated from data from multiple videos.  Fine-tuning alignment was performed in Excel by subtracting these mean offsets from the red channel x, y, and z spot coordinates, which resulted in a final translation. After the fine tuning alignment had been performed on the colocalising strain videos, the mean distance between the red and green spots for all time points from all videos was determined via Pythagorean Theorem to be 63 nm, with a standard deviation of 37 nm. Quality Control. Plotting z coordinate versus error indicated that once tagged loci diffused to within 1 _m of the top or bottom of a stack, error increased (not shown), and for this reason these data points were eliminated from both control and sample data sets.  Plotting maximum spot intensity or contrast versus error, followed by LOESS smoothing, revealed correlations which allowed for elimination of data points with high error (not shown).  Based on this GFP and mCherry contrast thresholds were both set at 12, while minimum intensity threshold for mCherry and GFP was set at 25 and 16 respectively. Use of these thresholding values removed images where the positions of foci were not sufficiently well defined to obtain high resolution locations.  Using these threshold values, we were able to generate live cell 3-D 2-channel videos with 250 nm step size, 5 _m stack size, 21 images per stack, and up to 100 time points.  As sample strain video data were subjected to the same thresholding protocol, it is assumed that the resulting error was also 63 nm."								
-											
-# Phenotypes											
-Phenotype Name											
-Phenotype Description											
-Phenotype Score Type											
-Phenotype Term Source REF											
-Phenotype Term Name											
-Phenotype Term Accession			 								
-											
-											
-# Feature Level Data Files (give individual file details unless there is one file per well)											
-Feature Level Data File Name											
-Feature Level Data File Format											
-Feature Level Data File Description											
-Feature Level Data Column Name											
-Feature Level Data Column Description											
-											
-#  Processed Data Files 											
-Processed Data File Name											
-Processed Data File Format											
-Processed Data File Description											
-Processed Data Column Name											
-Processed Data Column Type											
-Processed Data Column Annotation Level											
-Processed Data Column Description											
-Processed Data Column Link To Library File											
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"
+# Study
+Comment[IDR Study Accession]	idr0027
+Study Title	High resolution imaging reveals heterogeneity in chromatin states between cells that is not inherited through cell division.
+Study Type
+Study Type Term Source REF
+Study Type Term Accession
+Study Description	"We established a work flow for measuring the distance between two fluorescently tagged, syntenic gene loci with a mean measurement error of 63 nm.  In general, physical separation was observed to increase with increasing genomic separations.  However, the extent to which chromatin is compressed varies for different genomic regions. No correlation was observed between compaction and the distribution of chromatin markers from genomic datasets or with contacts identified using capture based approaches. Variation in spatial separation was also observed within cells over time and between cells.  Differences in the conformation of individual loci can persist for minutes in individual cells. Separation of reporter loci was found to be similar in related and unrelated daughter cell pairs."
+Study Organism	Saccharomyces cerevisiae
+Study Organism Term Source REF	NCBITaxon
+Study Organism Term Accession	NCBITaxon_4932
+Study Experiments Number	1
+Study External URL
+Study Public Release Date
+
+# Study Publication
+Study PubMed ID
+Study Publication Title	High resolution imaging reveals heterogeneity in chromatin states between cells that is not inherited through cell division.
+Study Author List	"Dickerson D, Gierliski M, Singh V, Kitamura E, Ball G, Tanaka TU and Owen-Hughes T"
+Study PMC ID
+Study DOI
+
+# Study Contacts
+Study Person Last Name	Dickerson	Owen-Hughes
+Study Person First Name	David	Tom
+Study Person Email	D.Dickerson@dundee.ac.uk	t.a.owenhughes@dundee.ac.uk
+Study Person Address	"Centre for Gene Regulation and Expression, College of Life Sciences, University of Dundee, Dundee DD1 5EH, UK"	"Centre for Gene Regulation and Expression, College of Life Sciences, University of Dundee, Dundee DD1 5EH, UK"
+Study Person Roles	submitter	principal investigator
+
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
+
+
+"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."
+# Screen; this section should be repeated if a study contains multiple screens
+
+Experiment Number	1
+Comment[IDR Experiment Name]	idr0027-dickerson-chromatin/experimentA
+Experiment Description	To monitor the organisation of chromatin in live cells were engineered with fluorescent fusion proteins which recognize specific operator sequences to tag pairs of syntenic gene loci. The separation of these loci was then tracked in three dimensions over time using fluorescence microscopy.
+Experiment Size	5D Images: 	Average Image Dimension (XYZCT):	Total Tb:
+Experiment Imaging Method	fluorescence microscopy
+Experiment Imaging Method Term Source REF	Fbbi
+Experiment Imaging Method Term Accession	FBbi_00000246
+Experiment Comments	A results file called idr0027-AnalysisAllData.csv is attached to this project.
+
+# assay files
+Experiment Assay File	idr0027-experimentA-assay.txt
+Experiment Assay File Format	tab-delimited text
+Assay Experimental Conditions	Genomic Separation Of Operators	Cell Identifier
+Assay Experimental Conditions Term Source REF
+Assay Experimental Conditions Term Accession
+Quality Control Description
+
+# Protocols
+Protocol Name	growth protocol	image aquistion and feature extraction protocol	data analysis protocol
+Protocol Type	growth protocol	image aquistion and feature extraction protocol	data analysis protocol
+Protocol Type Term Source REF	EFO
+Protocol Type Term Accession	EFO_0003789
+Protocol Description	"The S. cerevisiae strains in this study are summarized in Table S2 and illustrated in Figure 1 A.  The tet and lac operator arrays for all Chr XIV strains were integrated between convergent genes.  The terminators of these genes were duplicated and flank the insertion sites such that all genes retain their wild type terminators.  Table S2 columns 5' and 3' indicate the pairs of convergent genes where the insertions took place.  DD1407 generation: WT yeast strain K699 (W303) was transformed first with pDD2244 (tetR-GFP-TetR-mCherry::ADE2) linearized with PciI, and then with pDD2246 linearized with PfoI.  DD1413 was generated by successively cloning in linearized pAFS135, pDD2248, pDD202, pDD206, and pDD207.  It was verified by PCR using primer pairs 1988+1952, 2061+2062, 2044+2529, and 2051+2058, which flank the appropriate integration sites at the URA3 locus.  Strains DD1471-1475 were generated using plasmids pDD2244 and pDD2245, and the appropriate lacO and tetO array plasmids pDD246, 2247, 2248, and pDD249-256, and were verified by PCR using primers 2452-2468.  Strain DD1336 was generated by cloning linearized pDD2247 into T6002 and was verified by PCR using primers 2067-2074. Cell Culture. Tetracycline was added to all cell cultures to diminish the affinity of the tet repressor DNA binding protein for its DNA binding site, as per Dubarry [53].  Optimal concentration resulting in 94% maximum fluorescence intensity was determined via concentration series and measured on the OMX.  The colocalising strain and most sample strains were streaked to YPAD and cultured overnight, propagated in liquid culture for 8 hours, cultured overnight in 75%SC/25%YPA + 2%dextrose + 20 ng/ml tetracycline, washed in the culture media and placed on ice.  In all cases cells were adhered to concanavalin A-treated 35 mm glass-bottomed MatTek culture dishes for 10 minutes at 22.0oC, then allowed to temperature-equilibrate in the microscope enclosure at 23.5oC for an additional 10 minutes.    "	"All imaging was performed with a GE|OMX Blaze microscope.  Immersion oil with refractive index 1.514 was used in all cases.  Typical video acquisition included 5 um stack height, 250 nm step size, 21 images per stack, 128x128 field of view (FOV), 50-100 time points, excitation 3-8 msec, ND 31-100 for mCherry and ND 5-10 for GFP, and sequential channel acquisition.  The microscope enclosure is maintained at 23.5o Celsius."	"Channel alignment parameters for an initial coarse alignment were generated using single stacks of twenty-nine 1024x1024 FOV images with step size of 125 nm of a Tetraspeck 100 nm bead slide or laser milled slide (LMS) using the red and green channel cameras.  Coarse alignment lateral parameters were calculated using Softworx software, which included a translation, magnification, and rotation.  Coarse axial alignment offset was determined manually using the Softworx Measure Chromatic Correction function.  Channel alignment fine tuning parameters were calculated using live cell 3-D tracking data from the colocalising strain, DD1407, which has single red and green colocalising spots of dimensions assumed to be smaller than the PSF.  50-100 time points of 17 128x128 FOV images/stack were generated with 3-8msec exposures generated sequentially from red and green channels.  Videos were split into individual channels and saved in 4-byte float format.  Darkfield images, generated previously by taking the mean pixel intensity of 1000 images at set exposure times, were then subtracted from the individual video channels to correct for noise arising from the CMOS cameras.  Videos were denoised with the ND-SAFIR denoising software [91] using the Sedat Lab settings iter=5, p=3, sampling=2, noise=Gaussian, adapt=0, island=4, and np=8 [54], and then deconvolved via Softworx using a ratio (conservative) method tailored to an idealized objective of the model used in our OMX Blaze, and saved in 4-byte float format.  Individual channel files were fused into a single red plus green video file and coarse alignment was performed with Softworx using the bead slide or LMS alignment offset parameters.  The spots were tracked using Imaris, the x, y, and z offsets between the different channels were determined for each time point using Excel spreadsheet, and the means of these offsets were calculated from data from multiple videos.  Fine-tuning alignment was performed in Excel by subtracting these mean offsets from the red channel x, y, and z spot coordinates, which resulted in a final translation. After the fine tuning alignment had been performed on the colocalising strain videos, the mean distance between the red and green spots for all time points from all videos was determined via Pythagorean Theorem to be 63 nm, with a standard deviation of 37 nm. Quality Control. Plotting z coordinate versus error indicated that once tagged loci diffused to within 1 _m of the top or bottom of a stack, error increased (not shown), and for this reason these data points were eliminated from both control and sample data sets.  Plotting maximum spot intensity or contrast versus error, followed by LOESS smoothing, revealed correlations which allowed for elimination of data points with high error (not shown).  Based on this GFP and mCherry contrast thresholds were both set at 12, while minimum intensity threshold for mCherry and GFP was set at 25 and 16 respectively. Use of these thresholding values removed images where the positions of foci were not sufficiently well defined to obtain high resolution locations.  Using these threshold values, we were able to generate live cell 3-D 2-channel videos with 250 nm step size, 5 _m stack size, 21 images per stack, and up to 100 time points.  As sample strain video data were subjected to the same thresholding protocol, it is assumed that the resulting error was also 63 nm."								
+
+# Phenotypes
+Phenotype Name
+Phenotype Description
+Phenotype Score Type
+Phenotype Term Source REF
+Phenotype Term Name
+Phenotype Term Accession
+
+
+# Feature Level Data Files (give individual file details unless there is one file per well)
+Feature Level Data File Name
+Feature Level Data File Format
+Feature Level Data File Description
+Feature Level Data Column Name
+Feature Level Data Column Description
+
+#  Processed Data Files
+Processed Data File Name
+Processed Data File Format
+Processed Data File Description
+Processed Data Column Name
+Processed Data Column Type
+Processed Data Column Annotation Level
+Processed Data Column Description
+Processed Data Column Link To Library File
