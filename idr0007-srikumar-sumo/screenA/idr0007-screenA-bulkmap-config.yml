@@ -42,7 +42,7 @@ columns:
   - name: Gene Symbol Synonyms
     include: yes
   - name: Gene Description
-    include: yes    
+    include: yes
   - name: Reagent Design Gene Annotation Build
     include: yes
   - name: Analysis Gene Annotation Build
@@ -98,7 +98,7 @@ columns:
     include: yes
   - name: Phenotype 5 Term Name
     clientname: Phenotype Term Name
-    include: yes   
+    include: yes
   - name: Phenotype 5 Term Accession
     clientname: Phenotype Term Accession
     include: yes
@@ -134,25 +134,15 @@ columns:
   - name: Phenotype 12
     clientname: Phenotype
     include: yes
-  - name: Phenotype 12 Term Name a
+  - name: Phenotype 12 Term Name
     clientname: Phenotype Term Name
     include: yes
-  - name: Phenotype 12 Term Accession a
+  - name: Phenotype 12 Term Accession
     clientname: Phenotype Term Accession
     include: yes
-  - name: Phenotype 12 Term Accession a
+  - name: Phenotype 12 Term Accession
     clientname: Phenotype Term Accession URL
     clientvalue: http://www.purl.obolibrary.org/obo/{{ value }}
-    include: yes
-  - name: Phenotype 12 Term Name b
-    clientname: Phenotype Term Name
-    include: yes
-  - name: Phenotype 12 Term Accession b
-    clientname: Phenotype Term Accession
-    include: yes
-  - name: Phenotype 12 Term Accession b
-    clientname: Phenotype Term Accession URL
-    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
     include: yes
     
   - name: Phenotype 13
