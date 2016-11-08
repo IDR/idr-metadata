@@ -1,7 +1,7 @@
 "# Section with generic information about the study including title, description, publication details (if applicable) and contact details"						
 # Study						
 Comment[IDR Study Accession]	idr0011					
-Study Title	Protein Kinase C and the stress response pathways are required for kinetochore homeostasis.					
+Study Title	Protein Kinase C and the stress response pathways regulate kinetochore homeostasis.					
 Study Type	high content screen					
 Study Type Term Source REF	EFO					
 Study Type Term Accession Number	EFO_0007550					
@@ -15,10 +15,12 @@ Study Public Release Date
 						
 # Study Publication						
 Study PubMed ID						
-Study Publication Title	Protein Kinase C and the stress response pathways are required for kinetochore homeostasis.					
+Study Publication Title	Protein Kinase C and the stress response pathways regulate kinetochore homeostasis.					
 Study Author List	"Elena Ledesma-Fernandez, Eva Herrero, Gudjon Olafsson and Peter H Thorpe"					
 Study PMC ID						
 Study DOI						
+						
+Study IDR Example Image						
 						
 # Study Contacts						
 Study Person Last Name	Thorpe					
@@ -37,7 +39,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Screen Number	1					
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenA					
 Screen Description	"In this screen, Synthetic Genetic Array (SGA) methodology (Tong et al, 2001) was used to combine the DAD4-YFP and SPC42-RFP alleles with the non-essential deletion collection (Winzeler et al, 1999), which includes 4746 separate viable deletion strains, to systematically assess the effect of specific mutations on the kinetochore. "					
-Screen Size	Plates: 129	5D Images: 	Planes: 	Average Image Dimension (XYZCT): 	Total Tb: 	
+Screen Size	Plates: 129	"5D Images: 6,175"	"Planes: 389,025"	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.27	
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
@@ -74,9 +76,9 @@ Protocol Description	"A full list of the yeast strains used in this study is pro
 Phenotype Name	altered kinetochore foci					
 Phenotype Description	Mutant strains with this phenotype show a change in kinetochore foci as measured either by Dad4-YFP intensity levels or by foci morphology. Intensity levels may be higher or lower compared to control strains.					
 Phenotype Score Type	automatic					
-Phenotype Term Source REF						
-Phenotype Term Name						
-Phenotype Term Accession						
+Phenotype Term Source REF	CMPO					
+Phenotype Term Name	kinetochore phenotype					
+Phenotype Term Accession	CMPO_0000427					
 						
 # Raw Data Files						
 Raw Image Data Format	Zeiss AxioVision ZVI					
@@ -104,7 +106,7 @@ Processed Data Column Link To Library File	Gene Identifier
 Screen Number	2					
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenB					
 Screen Description	"This screen examines the impact of essential genes on the kinetochore, using a collection of temperature-sensitive (ts) alleles (Li et al, 2011) (1334 members, include 754 unique alleles of 475 unique ORFs). These strains were also combined with the fluorescence alleles using SGA and the resulting haploid strains were then grown for 5 hours at 37C prior to imaging. "					
-Screen Size	Plates: 40	5D Images: 	Planes: 	Average Image Dimension (XYZCT):	Total Tb:	
+Screen Size	Plates: 40	"5D Images: 1,806"	"Planes: 113,628"	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.08	
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
@@ -141,9 +143,9 @@ Protocol Description	"A full list of the yeast strains used in this study is pro
 Phenotype Name	altered kinetochore foci					
 Phenotype Description	Mutant strains with this phenotype show a change in kinetochore foci as measured either by Dad4-YFP intensity levels or by foci morphology. Intensity levels may be higher or lower compared to control strains.					
 Phenotype Score Type	automatic					
-Phenotype Term Source REF						
-Phenotype Term Name						
-Phenotype Term Accession						
+Phenotype Term Source REF	CMPO					
+Phenotype Term Name	kinetochore phenotype					
+Phenotype Term Accession	CMPO_0000427					
 						
 # Raw Data Files						
 Raw Image Data Format	Zeiss AxioVision ZVI					
@@ -170,7 +172,7 @@ Processed Data Column Link To Library File	Gene Identifier
 Screen Number	3					
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenC					
 Screen Description	Re-screen of non-essential mutants that did not grow in screen A.					
-Screen Size	Plates: 4	5D Images:	Planes:	Average Image Dimension (XYZCT):	Total Tb:	
+Screen Size	Plates: 4	5D Images: 86	"Planes: 5,367"	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.00	
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
@@ -207,9 +209,9 @@ Protocol Description	"A full list of the yeast strains used in this study is pro
 Phenotype Name	altered kinetochore foci					
 Phenotype Description	Mutant strains with this phenotype show a change in kinetochore foci as measured either by Dad4-YFP intensity levels or by foci morphology. Intensity levels may be higher or lower compared to control strains.					
 Phenotype Score Type	automatic					
-Phenotype Term Source REF						
-Phenotype Term Name						
-Phenotype Term Accession						
+Phenotype Term Source REF	CMPO					
+Phenotype Term Name	kinetochore phenotype					
+Phenotype Term Accession	CMPO_0000427					
 						
 # Raw Data Files						
 Raw Image Data Format	Zeiss AxioVision ZVI					
@@ -236,7 +238,7 @@ Processed Data Column Link To Library File	Gene Identifier
 Screen Number	4					
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenD					
 Screen Description	Re-screen of essential mutants that did not grow in screen B.					
-Screen Size	Plates:					
+Screen Size	Plates: 8	5D Images: 865	Planes: 54495	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.04	
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
@@ -273,9 +275,9 @@ Protocol Description	"A full list of the yeast strains used in this study is pro
 Phenotype Name	altered kinetochore foci					
 Phenotype Description	Mutant strains with this phenotype show a change in kinetochore foci as measured either by Dad4-YFP intensity levels or by foci morphology. Intensity levels may be higher or lower compared to control strains.					
 Phenotype Score Type	automatic					
-Phenotype Term Source REF						
-Phenotype Term Name						
-Phenotype Term Accession						
+Phenotype Term Source REF	CMPO					
+Phenotype Term Name	kinetochore phenotype					
+Phenotype Term Accession	CMPO_0000427					
 						
 # Raw Data Files						
 Raw Image Data Format	Zeiss AxioVision ZVI					
@@ -302,7 +304,7 @@ Processed Data Column Link To Library File	Gene Identifier
 Screen Number	5					
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenE					
 Screen Description	Validation screen of essential mutants found to affect Dad4-YFP levels in screen B.					
-Screen Size	Plates:					
+Screen Size	Plates: 1	5D Images: 25	"Planes: 1,575"	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.00	
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
@@ -339,9 +341,9 @@ Protocol Description	"A full list of the yeast strains used in this study is pro
 Phenotype Name	altered kinetochore foci					
 Phenotype Description	Mutant strains with this phenotype show a change in kinetochore foci as measured either by Dad4-YFP intensity levels or by foci morphology. Intensity levels may be higher or lower compared to control strains.					
 Phenotype Score Type	automatic					
-Phenotype Term Source REF						
-Phenotype Term Name						
-Phenotype Term Accession						
+Phenotype Term Source REF	CMPO					
+Phenotype Term Name	kinetochore phenotype					
+Phenotype Term Accession	CMPO_0000427					
 						
 # Raw Data Files						
 Raw Image Data Format	Zeiss AxioVision ZVI					
