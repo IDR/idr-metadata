@@ -1039,7 +1039,7 @@ Primary_011	G2	Primary_011_G2	CG3479	osp	outspread	Current	arclike wing arc-like
 Primary_011	G3	Primary_011_G3	CG3480	mip130	Myb-interacting protein 130	Current	twilight 86E4.4 TWIT twit Mip130 EG:86E4.4 CG3480 Twit Mip130/TWIT	1	no			
 Primary_011	G4	Primary_011_G4	CG3481	Adh	Alcohol dehydrogenase	Current	Drosophila Rhythmically expressed gene 1 alcohol dehydrogenase alcoholdehydrogenase alcohol dehyrdrogenase Dreg-1 adh Adh3 ADH BG:DS01486.8 DM-ADH Reg-1 CG3481 CG32954 DmADH dADH T16	1	no			
 Primary_011	G5	Primary_011_G5	CG3483	CG3483		Current	anon-WO0140519.111	1	no			
-Primary_011	G6	Primary_011_G6	CG3484	Adhr	Adh-related	Current	alcohol dehydrogenase related Adh related Adh-dup BG:DS01486.9 ADH[r] ADHR Adh[r] CG3484 CG32954 3'ORF 	1.67	yes	yes	gene	defective cell-cell aggregation
+Primary_011	G6	Primary_011_G6	CG3484	Adhr	Adh-related	Current	alcohol dehydrogenase related Adh related Adh-dup BG:DS01486.9 ADH[r] ADHR Adh[r] CG3484 CG32954 3'ORF	1.67	yes	yes	gene	defective cell-cell aggregation
 Primary_011	G7	Primary_011_G7	CG3485	CR44003		Current	CG44003 CG34406-1 CG34406 CG3485	1	no			
 Primary_011	G8	Primary_011_G8	CG3487					2	yes	yes	gene	defective cell-cell aggregation
 Primary_011	G9	Primary_011_G9	CG3488	Hydr2	alpha/beta hydrolase2	Current	CG3488 alpha/beta hydrolase2 anon-23D C24 HYDR2 CG3488 DMU29170 c24 CT11757 cg3488 anon-23Da	1	no			
