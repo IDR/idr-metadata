@@ -42,7 +42,7 @@ Secondary_001a	D12	Secondary_001a_D12	CG9496	Tsp29Fb	Cell adhesion pathways	N/A	
 Secondary_001a	D2	Secondary_001a_D2	CG8390	vlc	Cell adhesion pathways	DLGAP2	vulcan	Current	anon-41Fa transcription unit X X CG8390 anon-41Fa anon-WO0118547.98 l(2)07022	2.33	1.67	2.17	yes	gene	defective cell-cell aggregation
 Secondary_001a	D3	Secondary_001a_D3	CG8811	muskelin	Cell adhesion pathways	muskelin	muskelin	Current	CG8811 DmMK	1.67	2.33	2.5	yes	gene	defective cell-cell aggregation
 Secondary_001a	D4	Secondary_001a_D4	CG8779	nrm	N/A	titin	neuromusculin	Current	neuromusculin Neuromusculin CG8779 CG41452 CG32458 CG43079 CT16082	2.67	1	1.17			
-Secondary_001a	D5	Secondary_001a_D5	CG8978	Arpc1	Actin cytoskeletal pathways	Arp2/3 complex subunit 1A/B 	"Actin-related protein 2/3 complex, subunit 1"	Current	Suppressor of Profilin 2 Suppressor of profilin 2 lethal(2)34Dd Suppressor of profilin 2 sop2/arc41 Arc41 ARC-P41 l(2)Sop2 ARPC1/p41 ARPC1 CG8978 D-sop2 DSop2 br32 sop2 l(2)br32 ArpC1 sop Arpc1 Sop2 arc41 p41 Spo2 34Dd BG:DS00941.7 p42 ArcP41 Dsop2 arpc1 l(2)34Dd	3	3	2.83	yes	gene	defective cell-cell aggregation
+Secondary_001a	D5	Secondary_001a_D5	CG8978	Arpc1	Actin cytoskeletal pathways	Arp2/3 complex subunit 1A/B	"Actin-related protein 2/3 complex, subunit 1"	Current	Suppressor of Profilin 2 Suppressor of profilin 2 lethal(2)34Dd Suppressor of profilin 2 sop2/arc41 Arc41 ARC-P41 l(2)Sop2 ARPC1/p41 ARPC1 CG8978 D-sop2 DSop2 br32 sop2 l(2)br32 ArpC1 sop Arpc1 Sop2 arc41 p41 Spo2 34Dd BG:DS00941.7 p42 ArcP41 Dsop2 arpc1 l(2)34Dd	3	3	2.83	yes	gene	defective cell-cell aggregation
 Secondary_001a	D6	Secondary_001a_D6	CG9115	mtm	Other pathways	MTM1/R1/R2	myotubularin	Current	dMTMH1 MTM1 CG9115	1.67	2	1.83	yes	gene	defective cell-cell aggregation
 Secondary_001a	D7	Secondary_001a_D7	CG9121	CG9121	Scaffolding-domain proteins	ankyrin	CG9121	Current		1.67	2	2.17	yes	gene	defective cell-cell aggregation
 Secondary_001a	D8	Secondary_001a_D8	CG9351	flfl	N/A	SMEK1	falafel	Current	CG9351 l(3)L4179 PP4R3	1.67	1	1			
@@ -89,7 +89,7 @@ Secondary_001a	H11	Secondary_001a_H11	CG1994	l(1)G0020	N/A	NAT10	lethal (1) G002
 Secondary_001a	H12	Secondary_001a_H12	CG1921	sty	N/A	SPRY2	sprouty	Current	sprouty Sprouty dSprouty Calcineurin suppressor  chromosome 3  group 3 dSPRY spry Spry CG1921 Sry Sty STY CS3-3	2	1	1			
 Secondary_001a	H2	Secondary_001a_H2	CG1689	lz	N/A	AML1	lozenge	Current	spectacled Lozenge amx fs(1)A1569 CG1689 fs(1)M69 spe Lz	1.67	1	1.17			
 Secondary_001a	H3	Secondary_001a_H3	CG1785	CG1785	Other pathways	GLTSCR2	CG1785	Current		2	1.33	1.83	yes	gene	defective cell-cell aggregation
-Secondary_001a	H4	Secondary_001a_H4	CG1746	CG1746	Dropped	ATP5G2 	CG1746	Current	F0/F1 ATP synthase Lipid-binding protein ATP synthase Lipid-binding protein P1 anon-EST:Posey224	2.33	2.33	2.5			
+Secondary_001a	H4	Secondary_001a_H4	CG1746	CG1746	Dropped	ATP5G2	CG1746	Current	F0/F1 ATP synthase Lipid-binding protein ATP synthase Lipid-binding protein P1 anon-EST:Posey224	2.33	2.33	2.5			
 Secondary_001a	H5	Secondary_001a_H5	CG1832	Clamp	Nuclear-associated pathways	ZNF429	Chromatin-linked adaptor for MSL proteins	Current	chromatin-linked adaptor for MSL proteins CLAMP CG1832	2.33	1.67	2	yes	gene	defective cell-cell aggregation
 Secondary_001a	H6	Secondary_001a_H6	CG11138	CG11138	Nuclear-associated pathways	IRF2BP2	CG11138	Current	BEST:RE18684 EP(X)1313 CG1855 RE18684 BcDNA:RE48052	1	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_001a	H7	Secondary_001a_H7	CG1749	CG1749	N/A	UBA5	CG1749	Current	dMoaD	2	1	1			
@@ -138,7 +138,7 @@ Secondary_001b	D12	Secondary_001b_D12	CG9496	Tsp29Fb	Cell adhesion pathways	N/A	
 Secondary_001b	D2	Secondary_001b_D2	CG8390	vlc	Cell adhesion pathways	DLGAP2	vulcan	Current	anon-41Fa transcription unit X X CG8390 anon-41Fa anon-WO0118547.98 l(2)07022	2.33	2.67	2.17	yes	gene	defective cell-cell aggregation
 Secondary_001b	D3	Secondary_001b_D3	CG8811	muskelin	Cell adhesion pathways	muskelin	muskelin	Current	CG8811 DmMK	1.67	2.67	2.5	yes	gene	defective cell-cell aggregation
 Secondary_001b	D4	Secondary_001b_D4	CG8779	nrm	N/A	titin	neuromusculin	Current	neuromusculin Neuromusculin CG8779 CG41452 CG32458 CG43079 CT16082	2.67	1.33	1.17			
-Secondary_001b	D5	Secondary_001b_D5	CG8978	Arpc1	Actin cytoskeletal pathways	Arp2/3 complex subunit 1A/B 	"Actin-related protein 2/3 complex, subunit 1"	Current	Suppressor of Profilin 2 Suppressor of profilin 2 lethal(2)34Dd Suppressor of profilin 2 sop2/arc41 Arc41 ARC-P41 l(2)Sop2 ARPC1/p41 ARPC1 CG8978 D-sop2 DSop2 br32 sop2 l(2)br32 ArpC1 sop Arpc1 Sop2 arc41 p41 Spo2 34Dd BG:DS00941.7 p42 ArcP41 Dsop2 arpc1 l(2)34Dd	3	2.67	2.83	yes	gene	defective cell-cell aggregation
+Secondary_001b	D5	Secondary_001b_D5	CG8978	Arpc1	Actin cytoskeletal pathways	Arp2/3 complex subunit 1A/B	"Actin-related protein 2/3 complex, subunit 1"	Current	Suppressor of Profilin 2 Suppressor of profilin 2 lethal(2)34Dd Suppressor of profilin 2 sop2/arc41 Arc41 ARC-P41 l(2)Sop2 ARPC1/p41 ARPC1 CG8978 D-sop2 DSop2 br32 sop2 l(2)br32 ArpC1 sop Arpc1 Sop2 arc41 p41 Spo2 34Dd BG:DS00941.7 p42 ArcP41 Dsop2 arpc1 l(2)34Dd	3	2.67	2.83	yes	gene	defective cell-cell aggregation
 Secondary_001b	D6	Secondary_001b_D6	CG9115	mtm	Other pathways	MTM1/R1/R2	myotubularin	Current	dMTMH1 MTM1 CG9115	1.67	1.67	1.83	yes	gene	defective cell-cell aggregation
 Secondary_001b	D7	Secondary_001b_D7	CG9121	CG9121	Scaffolding-domain proteins	ankyrin	CG9121	Current		1.67	2.33	2.17	yes	gene	defective cell-cell aggregation
 Secondary_001b	D8	Secondary_001b_D8	CG9351	flfl	N/A	SMEK1	falafel	Current	CG9351 l(3)L4179 PP4R3	1.67	1	1			
@@ -185,7 +185,7 @@ Secondary_001b	H11	Secondary_001b_H11	CG1994	l(1)G0020	N/A	NAT10	lethal (1) G002
 Secondary_001b	H12	Secondary_001b_H12	CG1921	sty	N/A	SPRY2	sprouty	Current	sprouty Sprouty dSprouty Calcineurin suppressor  chromosome 3  group 3 dSPRY spry Spry CG1921 Sry Sty STY CS3-3	2	1	1			
 Secondary_001b	H2	Secondary_001b_H2	CG1689	lz	N/A	AML1	lozenge	Current	spectacled Lozenge amx fs(1)A1569 CG1689 fs(1)M69 spe Lz	1.67	1.33	1.17			
 Secondary_001b	H3	Secondary_001b_H3	CG1785	CG1785	Other pathways	GLTSCR2	CG1785	Current		2	2.33	1.83	yes	gene	defective cell-cell aggregation
-Secondary_001b	H4	Secondary_001b_H4	CG1746	CG1746	Dropped	ATP5G2 	CG1746	Current	F0/F1 ATP synthase Lipid-binding protein ATP synthase Lipid-binding protein P1 anon-EST:Posey224	2.33	2.67	2.5			
+Secondary_001b	H4	Secondary_001b_H4	CG1746	CG1746	Dropped	ATP5G2	CG1746	Current	F0/F1 ATP synthase Lipid-binding protein ATP synthase Lipid-binding protein P1 anon-EST:Posey224	2.33	2.67	2.5			
 Secondary_001b	H5	Secondary_001b_H5	CG1832	Clamp	Nuclear-associated pathways	ZNF429	Chromatin-linked adaptor for MSL proteins	Current	chromatin-linked adaptor for MSL proteins CLAMP CG1832	2.33	2.33	2	yes	gene	defective cell-cell aggregation
 Secondary_001b	H6	Secondary_001b_H6	CG11138	CG11138	Nuclear-associated pathways	IRF2BP2	CG11138	Current	BEST:RE18684 EP(X)1313 CG1855 RE18684 BcDNA:RE48052	1	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_001b	H7	Secondary_001b_H7	CG1749	CG1749	N/A	UBA5	CG1749	Current	dMoaD	2	1	1			
@@ -397,10 +397,10 @@ Secondary_003a	A8	Secondary_003a_A8	CG4624	VhaAC39-2	N/A	ATP6V0D1	Vacuolar H[+] 
 Secondary_003a	A9	Secondary_003a_A9	CG4662	CG4662	N/A	EFHA2	CG4662	Current		2	1	1			
 Secondary_003a	B1	Secondary_003a_B1	CG4594	CG4594	N/A	ECI1	CG4594	Current		2	1	1			
 Secondary_003a	B10	Secondary_003a_B10	CG4869	betaTub97EF	Microtubule pathways	\xce\xb2-tubulin	beta-Tubulin at 97EF	Current	Beta tubulin beta tubulin Beta4-tubulin beta-Tubulin betatubulin beta-Tubulin at 97EF beta-tubulin beta4 tubulin tubulin beta-tub betaTub97EF CG4869 beta4 betaTub98C beta-Tub97EF DTB1 B4t 4t BETA 98B betaTub4 beta4t Dmbeta4 beta-Tub T Tub betaTub98BC beta97F	2	2.67	2.83	yes	gene	defective cell-cell aggregation
-Secondary_003a	B11	Secondary_003a_B11	CG4770	CG4770	Metabolism-related pathways	FAR1 	CG4770	Current		1.67	3	3	yes	gene	defective cell-cell aggregation
+Secondary_003a	B11	Secondary_003a_B11	CG4770	CG4770	Metabolism-related pathways	FAR1	CG4770	Current		1.67	3	3	yes	gene	defective cell-cell aggregation
 Secondary_003a	B12	Secondary_003a_B12	CG4778	obst-B	Extracellular matrix components	N/A	obstructor-B	Current	CG4778 Obstructor-B CG4778 BcDNA:GH02976 CK00178 BEST:CK00178	2	2.33	2	yes	gene	defective cell-cell aggregation
 Secondary_003a	B2	Secondary_003a_B2	CG4670	CG4670	N/A	QSOX1	CG4670	Current	DmQSOX1 QSOX1	1.67	1	1.17			
-Secondary_003a	B3	Secondary_003a_B3	CG4615	CG4615	N/A	MMD 	CG4615	Current		2.33	1	1			
+Secondary_003a	B3	Secondary_003a_B3	CG4615	CG4615	N/A	MMD	CG4615	Current		2.33	1	1			
 Secondary_003a	B4	Secondary_003a_B4	CG4674	CG4674	Trafficking pathways	ARRDC1-5	CG4674	Current	CG32471	2	2	1.67	yes	gene	defective cell-cell aggregation
 Secondary_003a	B5	Secondary_003a_B5	CG4622	CG4622	N/A	ZCCHC8	CG4622	Current		1.67	1	1			
 Secondary_003a	B6	Secondary_003a_B6	CG4787	CG34354	N/A	TIA1	CG4787	Current	CG12852 CG4787 CG12425 CG12852 cg4787 CG4787 CG12425	2	1	1			
@@ -493,10 +493,10 @@ Secondary_003b	A8	Secondary_003b_A8	CG4624	VhaAC39-2	N/A	ATP6V0D1	Vacuolar H[+] 
 Secondary_003b	A9	Secondary_003b_A9	CG4662	CG4662	N/A	EFHA2	CG4662	Current		2	1	1			
 Secondary_003b	B1	Secondary_003b_B1	CG4594	CG4594	N/A	ECI1	CG4594	Current		2	1	1			
 Secondary_003b	B10	Secondary_003b_B10	CG4869	betaTub97EF	Microtubule pathways	\xce\xb2-tubulin	beta-Tubulin at 97EF	Current	Beta tubulin beta tubulin Beta4-tubulin beta-Tubulin betatubulin beta-Tubulin at 97EF beta-tubulin beta4 tubulin tubulin beta-tub betaTub97EF CG4869 beta4 betaTub98C beta-Tub97EF DTB1 B4t 4t BETA 98B betaTub4 beta4t Dmbeta4 beta-Tub T Tub betaTub98BC beta97F	2	3	2.83	yes	gene	defective cell-cell aggregation
-Secondary_003b	B11	Secondary_003b_B11	CG4770	CG4770	Metabolism-related pathways	FAR1 	CG4770	Current		1.67	3	3	yes	gene	defective cell-cell aggregation
+Secondary_003b	B11	Secondary_003b_B11	CG4770	CG4770	Metabolism-related pathways	FAR1	CG4770	Current		1.67	3	3	yes	gene	defective cell-cell aggregation
 Secondary_003b	B12	Secondary_003b_B12	CG4778	obst-B	Extracellular matrix components	N/A	obstructor-B	Current	CG4778 Obstructor-B CG4778 BcDNA:GH02976 CK00178 BEST:CK00178	2	1.67	2	yes	gene	defective cell-cell aggregation
 Secondary_003b	B2	Secondary_003b_B2	CG4670	CG4670	N/A	QSOX1	CG4670	Current	DmQSOX1 QSOX1	1.67	1.33	1.17			
-Secondary_003b	B3	Secondary_003b_B3	CG4615	CG4615	N/A	MMD 	CG4615	Current		2.33	1	1			
+Secondary_003b	B3	Secondary_003b_B3	CG4615	CG4615	N/A	MMD	CG4615	Current		2.33	1	1			
 Secondary_003b	B4	Secondary_003b_B4	CG4674	CG4674	Trafficking pathways	ARRDC1-5	CG4674	Current	CG32471	2	1.33	1.67	yes	gene	defective cell-cell aggregation
 Secondary_003b	B5	Secondary_003b_B5	CG4622	CG4622	N/A	ZCCHC8	CG4622	Current		1.67	1	1			
 Secondary_003b	B6	Secondary_003b_B6	CG4787	CG34354	N/A	TIA1	CG4787	Current	CG12852 CG4787 CG12425 CG12852 cg4787 CG4787 CG12425	2	1	1			
@@ -770,7 +770,7 @@ Secondary_004b	H9	Secondary_004b_H9	CG8542	Hsc70-5	N/A	HSPA9	Heat shock protein 
 Secondary_005a	A1	Secondary_005a_A1	CG32133	ptip	N/A	PAXIP1	ptip	Current	CG32133 PTIP ptip CG6532 CG32133 CG8797	3.33	1	1			
 Secondary_005a	A10	Secondary_005a_A10	CG8974	CG8974	N/A	RNF185	CG8974	Current		1.67	1	1			
 Secondary_005a	A11	Secondary_005a_A11	CG8916	CG8916	"Channels, permeases, and transporters"	GABRA1-6	CG8916	Current		2	2	1.67	yes	gene	defective cell-cell aggregation
-Secondary_005a	A12	Secondary_005a_A12	CG8975	RnrS	Nuclear-associated pathways	Rrm2 	Ribonucleoside diphosphate reductase small subunit	Current	Ribonucleotide reductase ribonucleoside-diphosphate reductase small subunit Ribonucleotide reductase small subunit DmRNR2 RNR2 rnr2 Rnr2 anon-WO0118547.148 RNrS Rnrs dRNR2 CG8975	3.33	3.67	3.33	yes	gene	defective cell-cell aggregation
+Secondary_005a	A12	Secondary_005a_A12	CG8975	RnrS	Nuclear-associated pathways	Rrm2	Ribonucleoside diphosphate reductase small subunit	Current	Ribonucleotide reductase ribonucleoside-diphosphate reductase small subunit Ribonucleotide reductase small subunit DmRNR2 RNR2 rnr2 Rnr2 anon-WO0118547.148 RNrS Rnrs dRNR2 CG8975	3.33	3.67	3.33	yes	gene	defective cell-cell aggregation
 Secondary_005a	A2	Secondary_005a_A2	CG8798	Lon	N/A	LONP1	Lon protease	Current	anon-WO0118547.350 CG8798 Lon	1.67	1.33	1.17			
 Secondary_005a	A3	Secondary_005a_A3	CG8768	CG8768	N/A	SDR39U1	CG8768	Current		2.33	1	1			
 Secondary_005a	A4	Secondary_005a_A4	CG8784	PK2-R1	N/A	NMUR2	Pyrokinin 2 receptor 1	Current	Pyrokinin 2 receptor CG8784 Dm CG8784 anon-WO0170980.191 anon-WO0170980.190	3	1	1			
@@ -807,7 +807,7 @@ Secondary_005a	D1	Secondary_005a_D1	CG9297	CG9297	N/A	SRL	CG9297	Current	Dmel\\C
 Secondary_005a	D10	Secondary_005a_D10	CG9401	mago	Dropped	MAGOHB	mago nashi	Current	mago-nashi Mago Nashi Mago nashi mago nishi MAGOH CG9401 mgn Dm MGN Magoh DmMago l(2)57Ca Mago MGN	2	2.33	2.17			
 Secondary_005a	D11	Secondary_005a_D11	CG9432	l(2)01289	N/A	MDN1	lethal (2) 01289	Current	Fusion2 Fusion-2 Lethal (2) 01289 CG9435 CG9432 CG30444	2.67	1	1			
 Secondary_005a	D12	Secondary_005a_D12	CG9471	CG9471	N/A	BLVRB	CG9471	Current	biliverdin reductase Biliverdin IX-beta reductase BVR	3	1	1			
-Secondary_005a	D2	Secondary_005a_D2	CG9334	Spn38F	Other pathways	SERPIN family 	Serpin 38F	Current	serpin 3 CG9334 Serine protease inhibitor 3 sp3 Sp3 CG9334 Spn3 Spn38F	2	1.33	1.67	yes	gene	defective cell-cell aggregation
+Secondary_005a	D2	Secondary_005a_D2	CG9334	Spn38F	Other pathways	SERPIN family	Serpin 38F	Current	serpin 3 CG9334 Serine protease inhibitor 3 sp3 Sp3 CG9334 Spn3 Spn38F	2	1.33	1.67	yes	gene	defective cell-cell aggregation
 Secondary_005a	D3	Secondary_005a_D3	CG9261	nrv2	N/A	ATP1B1	nervana 2	Current	nirvana2 nervana2 Nervana 2 ectatic Na[+]/K[+] ATPase Nervana nervana Nirvana Nervana2 Na+/K+ ATPase ecta Nrv2 NaK ATPase NEST:bs13c10 nrv2.2 l(2)k13315 Na[+]/K[+] ATPase CG9261 Nrv Na[+]/K[+]ATPase l(2)SH2 0329 Na K-ATPase Nrv2.2 42kDa l(2)k04223 Na[+]/K[+]-ATPase l(2)SH0329	2	1	1.17			
 Secondary_005a	D4	Secondary_005a_D4	CG9281	CG9281	N/A	ABCF2	CG9281	Current	BEST:LD38280	2	1	1			
 Secondary_005a	D5	Secondary_005a_D5	CG9298	Trs23	Trafficking pathways	TRAPPC4	Trs23	Current	Trs23 CG9298 TRS23 Trs23p CG9298	2	1.33	1.67	yes	gene	defective cell-cell aggregation
@@ -866,7 +866,7 @@ Secondary_005a	H9	Secondary_005a_H9	CG30152	CG30152	N/A	FAM96A	CG30152	Current	C
 Secondary_005b	A1	Secondary_005b_A1	CG32133	ptip	N/A	PAXIP1	ptip	Current	CG32133 PTIP ptip CG6532 CG32133 CG8797	3.33	1	1			
 Secondary_005b	A10	Secondary_005b_A10	CG8974	CG8974	N/A	RNF185	CG8974	Current		1.67	1	1			
 Secondary_005b	A11	Secondary_005b_A11	CG8916	CG8916	"Channels, permeases, and transporters"	GABRA1-6	CG8916	Current		2	1.33	1.67	yes	gene	defective cell-cell aggregation
-Secondary_005b	A12	Secondary_005b_A12	CG8975	RnrS	Nuclear-associated pathways	Rrm2 	Ribonucleoside diphosphate reductase small subunit	Current	Ribonucleotide reductase ribonucleoside-diphosphate reductase small subunit Ribonucleotide reductase small subunit DmRNR2 RNR2 rnr2 Rnr2 anon-WO0118547.148 RNrS Rnrs dRNR2 CG8975	3.33	3	3.33	yes	gene	defective cell-cell aggregation
+Secondary_005b	A12	Secondary_005b_A12	CG8975	RnrS	Nuclear-associated pathways	Rrm2	Ribonucleoside diphosphate reductase small subunit	Current	Ribonucleotide reductase ribonucleoside-diphosphate reductase small subunit Ribonucleotide reductase small subunit DmRNR2 RNR2 rnr2 Rnr2 anon-WO0118547.148 RNrS Rnrs dRNR2 CG8975	3.33	3	3.33	yes	gene	defective cell-cell aggregation
 Secondary_005b	A2	Secondary_005b_A2	CG8798	Lon	N/A	LONP1	Lon protease	Current	anon-WO0118547.350 CG8798 Lon	1.67	1	1.17			
 Secondary_005b	A3	Secondary_005b_A3	CG8768	CG8768	N/A	SDR39U1	CG8768	Current		2.33	1	1			
 Secondary_005b	A4	Secondary_005b_A4	CG8784	PK2-R1	N/A	NMUR2	Pyrokinin 2 receptor 1	Current	Pyrokinin 2 receptor CG8784 Dm CG8784 anon-WO0170980.191 anon-WO0170980.190	3	1	1			
@@ -903,7 +903,7 @@ Secondary_005b	D1	Secondary_005b_D1	CG9297	CG9297	N/A	SRL	CG9297	Current	Dmel\\C
 Secondary_005b	D10	Secondary_005b_D10	CG9401	mago	Dropped	MAGOHB	mago nashi	Current	mago-nashi Mago Nashi Mago nashi mago nishi MAGOH CG9401 mgn Dm MGN Magoh DmMago l(2)57Ca Mago MGN	2	2	2.17			
 Secondary_005b	D11	Secondary_005b_D11	CG9432	l(2)01289	N/A	MDN1	lethal (2) 01289	Current	Fusion2 Fusion-2 Lethal (2) 01289 CG9435 CG9432 CG30444	2.67	1	1			
 Secondary_005b	D12	Secondary_005b_D12	CG9471	CG9471	N/A	BLVRB	CG9471	Current	biliverdin reductase Biliverdin IX-beta reductase BVR	3	1	1			
-Secondary_005b	D2	Secondary_005b_D2	CG9334	Spn38F	Other pathways	SERPIN family 	Serpin 38F	Current	serpin 3 CG9334 Serine protease inhibitor 3 sp3 Sp3 CG9334 Spn3 Spn38F	2	2	1.67	yes	gene	defective cell-cell aggregation
+Secondary_005b	D2	Secondary_005b_D2	CG9334	Spn38F	Other pathways	SERPIN family	Serpin 38F	Current	serpin 3 CG9334 Serine protease inhibitor 3 sp3 Sp3 CG9334 Spn3 Spn38F	2	2	1.67	yes	gene	defective cell-cell aggregation
 Secondary_005b	D3	Secondary_005b_D3	CG9261	nrv2	N/A	ATP1B1	nervana 2	Current	nirvana2 nervana2 Nervana 2 ectatic Na[+]/K[+] ATPase Nervana nervana Nirvana Nervana2 Na+/K+ ATPase ecta Nrv2 NaK ATPase NEST:bs13c10 nrv2.2 l(2)k13315 Na[+]/K[+] ATPase CG9261 Nrv Na[+]/K[+]ATPase l(2)SH2 0329 Na K-ATPase Nrv2.2 42kDa l(2)k04223 Na[+]/K[+]-ATPase l(2)SH0329	2	1.33	1.17			
 Secondary_005b	D4	Secondary_005b_D4	CG9281	CG9281	N/A	ABCF2	CG9281	Current	BEST:LD38280	2	1	1			
 Secondary_005b	D5	Secondary_005b_D5	CG9298	Trs23	Trafficking pathways	TRAPPC4	Trs23	Current	Trs23 CG9298 TRS23 Trs23p CG9298	2	2	1.67	yes	gene	defective cell-cell aggregation
@@ -979,7 +979,7 @@ Secondary_006a	B2	Secondary_006a_B2	CG10692	Mt2	Dropped	TRDMT1	Methyltransferase
 Secondary_006a	B3	Secondary_006a_B3	CG10693	slo	N/A	KCNMA1	slowpoke	Current	Slowpoke dslo dSlo fSlo BcDNA:GH10751 Dslo CG10693 Slo Slo1	1.67	1	1			
 Secondary_006a	B4	Secondary_006a_B4	CG31668	CG31668	N/A	SLC5A8	CG31668	Current	CG10879 CG31668-PB dSLC5A12		1	1			
 Secondary_006a	B5	Secondary_006a_B5	CG10824	CG10824	N/A	LRRC70	CG10824	Current	common DIP CT11359 10824 DIPc	1.67	1	1			
-Secondary_006a	B6	Secondary_006a_B6	CG10913	Spn55B	Other pathways	SERPIN family 	Serpin 55B	Current	Serine protease inhibitor 6 serpin 6 CG10913 sp-6 Sp6 Spn55B Spn6 sp6	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
+Secondary_006a	B6	Secondary_006a_B6	CG10913	Spn55B	Other pathways	SERPIN family	Serpin 55B	Current	Serine protease inhibitor 6 serpin 6 CG10913 sp-6 Sp6 Spn55B Spn6 sp6	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_006a	B7	Secondary_006a_B7	CG10959	CG10959	N/A	ZNF695	CG10959	Current		1.67	1	1.17			
 Secondary_006a	B8	Secondary_006a_B8	CG32264	CG32264	Actin cytoskeletal pathways	PHACTR1	CG32264	Current	CG14978 CG12604 CG10857 CG10860	1.67	2.67	2.33	yes	gene	defective cell-cell aggregation
 Secondary_006a	B9	Secondary_006a_B9	CG10772	Fur1	N/A	Furin	Furin 1	Current	Furin-like protease Dfurin1 furin1 Furin1 dKLIP-1 furin Furl Dfurin1 CG10772 Dfur1 dFur1 Klip1 Furin fur1 l(3)rL205 dFurin 1 fur-1 fur[1]	1.67	1	1			
@@ -1008,7 +1008,7 @@ Secondary_006a	D7	Secondary_006a_D7	CG11194	Hey	N/A	HEY2	Hairy/E(spl)-related wi
 Secondary_006a	D8	Secondary_006a_D8	CG11295	l(2)dtl	N/A	DTL	lethal-(2)-denticleless	Current	CG11295 L2DTL cdt2 DTL83 Cdt2	2	1	1.17			
 Secondary_006a	D9	Secondary_006a_D9	CG10986	g	Trafficking pathways	AP3D1	garnet	Current	lethal(1)Mc19 salmon AP-3  delta subunit Garnet Adaptor Protein complex 3  delta subunit CG11197 AP3delta AP-3delta l(1)Mc19 CG10986 apl5 cg11197 delta	1	2	1.67	yes	gene	defective cell-cell aggregation
 Secondary_006a	E1	Secondary_006a_E1	CG11598	CG11598	N/A	LIPF	CG11598	Current		1.67	1	1			
-Secondary_006a	E10	Secondary_006a_E10	CG11676	Glut4EF	N/A	ZNF704 	Glucose transporter 4 enhancer factor	Current	BcDNA:GM06804 BcDNA:GH25505 CG12802 CG33975 stretched out BcDNA:GM06804 CG32469 stretch D-Glut4EF BcDNA:GH25505 CG12802 BcDNA:RE66512 CG33975 CG11676 CG34360 CG12805 CG12804 BcDNA:RH63124	2.33	1	1			
+Secondary_006a	E10	Secondary_006a_E10	CG11676	Glut4EF	N/A	ZNF704	Glucose transporter 4 enhancer factor	Current	BcDNA:GM06804 BcDNA:GH25505 CG12802 CG33975 stretched out BcDNA:GM06804 CG32469 stretch D-Glut4EF BcDNA:GH25505 CG12802 BcDNA:RE66512 CG33975 CG11676 CG34360 CG12805 CG12804 BcDNA:RH63124	2.33	1	1			
 Secondary_006a	E11	Secondary_006a_E11	CG11711	Mob2	Other pathways	MOB2	Mob2	Current	Dmob1 Mob1 DMob2 CG11711 Dmob2 trezor BEST:GH06341 CG11712 dmob2 gh06341 MobI BcDNA:GH13236	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_006a	E12	Secondary_006a_E12	CG11799	fd68A	N/A	FOXK1	forkhead domain 68A	Current	Mnf FoxK fork head transcription factor long isoform MNF CG11799 DmMNF DmLD16137 fork head transcription factor short isoform Mnf	2.67	1.33	1.17			
 Secondary_006a	E2	Secondary_006a_E2	CG11600	CG11600	N/A	LIPK	CG11600	Current		2	1	1			
@@ -1075,7 +1075,7 @@ Secondary_006b	B2	Secondary_006b_B2	CG10692	Mt2	Dropped	TRDMT1	Methyltransferase
 Secondary_006b	B3	Secondary_006b_B3	CG10693	slo	N/A	KCNMA1	slowpoke	Current	Slowpoke dslo dSlo fSlo BcDNA:GH10751 Dslo CG10693 Slo Slo1	1.67	1	1			
 Secondary_006b	B4	Secondary_006b_B4	CG31668	CG31668	N/A	SLC5A8	CG31668	Current	CG10879 CG31668-PB dSLC5A12		1	1			
 Secondary_006b	B5	Secondary_006b_B5	CG10824	CG10824	N/A	LRRC70	CG10824	Current	common DIP CT11359 10824 DIPc	1.67	1	1			
-Secondary_006b	B6	Secondary_006b_B6	CG10913	Spn55B	Other pathways	SERPIN family 	Serpin 55B	Current	Serine protease inhibitor 6 serpin 6 CG10913 sp-6 Sp6 Spn55B Spn6 sp6	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
+Secondary_006b	B6	Secondary_006b_B6	CG10913	Spn55B	Other pathways	SERPIN family	Serpin 55B	Current	Serine protease inhibitor 6 serpin 6 CG10913 sp-6 Sp6 Spn55B Spn6 sp6	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_006b	B7	Secondary_006b_B7	CG10959	CG10959	N/A	ZNF695	CG10959	Current		1.67	1.33	1.17			
 Secondary_006b	B8	Secondary_006b_B8	CG32264	CG32264	Actin cytoskeletal pathways	PHACTR1	CG32264	Current	CG14978 CG12604 CG10857 CG10860	1.67	2	2.33	yes	gene	defective cell-cell aggregation
 Secondary_006b	B9	Secondary_006b_B9	CG10772	Fur1	N/A	Furin	Furin 1	Current	Furin-like protease Dfurin1 furin1 Furin1 dKLIP-1 furin Furl Dfurin1 CG10772 Dfur1 dFur1 Klip1 Furin fur1 l(3)rL205 dFurin 1 fur-1 fur[1]	1.67	1	1			
@@ -1104,7 +1104,7 @@ Secondary_006b	D7	Secondary_006b_D7	CG11194	Hey	N/A	HEY2	Hairy/E(spl)-related wi
 Secondary_006b	D8	Secondary_006b_D8	CG11295	l(2)dtl	N/A	DTL	lethal-(2)-denticleless	Current	CG11295 L2DTL cdt2 DTL83 Cdt2	2	1.33	1.17			
 Secondary_006b	D9	Secondary_006b_D9	CG10986	g	Trafficking pathways	AP3D1	garnet	Current	lethal(1)Mc19 salmon AP-3  delta subunit Garnet Adaptor Protein complex 3  delta subunit CG11197 AP3delta AP-3delta l(1)Mc19 CG10986 apl5 cg11197 delta	1	1.33	1.67	yes	gene	defective cell-cell aggregation
 Secondary_006b	E1	Secondary_006b_E1	CG11598	CG11598	N/A	LIPF	CG11598	Current		1.67	1	1			
-Secondary_006b	E10	Secondary_006b_E10	CG11676	Glut4EF	N/A	ZNF704 	Glucose transporter 4 enhancer factor	Current	BcDNA:GM06804 BcDNA:GH25505 CG12802 CG33975 stretched out BcDNA:GM06804 CG32469 stretch D-Glut4EF BcDNA:GH25505 CG12802 BcDNA:RE66512 CG33975 CG11676 CG34360 CG12805 CG12804 BcDNA:RH63124	2.33	1	1			
+Secondary_006b	E10	Secondary_006b_E10	CG11676	Glut4EF	N/A	ZNF704	Glucose transporter 4 enhancer factor	Current	BcDNA:GM06804 BcDNA:GH25505 CG12802 CG33975 stretched out BcDNA:GM06804 CG32469 stretch D-Glut4EF BcDNA:GH25505 CG12802 BcDNA:RE66512 CG33975 CG11676 CG34360 CG12805 CG12804 BcDNA:RH63124	2.33	1	1			
 Secondary_006b	E11	Secondary_006b_E11	CG11711	Mob2	Other pathways	MOB2	Mob2	Current	Dmob1 Mob1 DMob2 CG11711 Dmob2 trezor BEST:GH06341 CG11712 dmob2 gh06341 MobI BcDNA:GH13236	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_006b	E12	Secondary_006b_E12	CG11799	fd68A	N/A	FOXK1	forkhead domain 68A	Current	Mnf FoxK fork head transcription factor long isoform MNF CG11799 DmMNF DmLD16137 fork head transcription factor short isoform Mnf	2.67	1	1.17			
 Secondary_006b	E2	Secondary_006b_E2	CG11600	CG11600	N/A	LIPK	CG11600	Current		2	1	1			
@@ -1190,7 +1190,7 @@ Secondary_007a	C9	Secondary_007a_C9	CG14480	CG14480	Nuclear-associated pathways	
 Secondary_007a	D1	Secondary_007a_D1	CG14739	CG14739	Quality control pathways	UBE2H	CG14739	Current		2.33	2	1.67	yes	gene	defective cell-cell aggregation
 Secondary_007a	D10	Secondary_007a_D10	CG15365	CG15365	Uncharacterized proteins	PROSAPIP1	CG15365	Current		4	2	1.67	yes	gene	defective cell-cell aggregation
 Secondary_007a	D11	Secondary_007a_D11	CG15890	CG15890	N/A	SLC46A3	CG15890	Current		1.67	1	1			
-Secondary_007a	D12	Secondary_007a_D12	CG15441	Gs1l	Metabolism-related pathways	HDHD1 	GS1-like	Current	GS1-like protein GS1-like GS1like GS1l CG15441 gs1-like	2	2.33	2.67	yes	gene	defective cell-cell aggregation
+Secondary_007a	D12	Secondary_007a_D12	CG15441	Gs1l	Metabolism-related pathways	HDHD1	GS1-like	Current	GS1-like protein GS1-like GS1like GS1l CG15441 gs1-like	2	2.33	2.67	yes	gene	defective cell-cell aggregation
 Secondary_007a	D2	Secondary_007a_D2	CG14870	CG14870	Other pathways	B9D1	CG14870	Current		2	2.33	1.83	yes	gene	defective cell-cell aggregation
 Secondary_007a	D3	Secondary_007a_D3	CG14877	CG14877	"Channels, permeases, and transporters"	NPR3	CG14877	Current		2.33	3	2.5	yes	gene	defective cell-cell aggregation
 Secondary_007a	D4	Secondary_007a_D4	CG14804	Vps26	Trafficking pathways	Vps26	Vacuolar protein sorting 26	Current	CG14804 CG14804 anon-sts13 dvps26 EG:63B12.8 131F2S Dvps26 ESTS:131F2S	2	4	3.83	yes	gene	defective cell-cell aggregation
@@ -1203,7 +1203,7 @@ Secondary_007a	E1	Secondary_007a_E1	CG32635	Neto	N/A	NETO2	Neuropilin and tolloi
 Secondary_007a	E10	Secondary_007a_E10	CG18180	CG18180	N/A	KLK6	CG18180	Current	SP151	2	1.33	1.17			
 Secondary_007a	E11	Secondary_007a_E11	CG32105	CG32105	Nuclear-associated pathways	LMX1A	CG32105	Current	CG17615 CG10432	1	3.67	3.5	yes	gene	defective cell-cell aggregation
 Secondary_007a	E12	Secondary_007a_E12	CG18389	Eip93F	Other pathways	LCOR	Ecdysone-induced protein 93F	Current	Eip93F lethal (3) ry93 CG18389 l(3)ry93 l(3)93 Eip93f anon-WO02059370.58 E93 eip93f	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
-Secondary_007a	E2	Secondary_007a_E2	CG16902	Hr4	N/A	NR6A1 	Hr4	Current	NR6A2 GRF CG43692 CG42527 null CG16902 EG:BACH61I5.1 EP(X)1232 CG3600 EG:133E12.2 DHR4 EP1232 CG43934	1.67	1	1			
+Secondary_007a	E2	Secondary_007a_E2	CG16902	Hr4	N/A	NR6A1	Hr4	Current	NR6A2 GRF CG43692 CG42527 null CG16902 EG:BACH61I5.1 EP(X)1232 CG3600 EG:133E12.2 DHR4 EP1232 CG43934	1.67	1	1			
 Secondary_007a	E3	Secondary_007a_E3	CG17090	hipk	Kinases and Phosphatases	HIPK2	homeodomain interacting protein kinase	Current	homeodomain interactin protein kinase Homeodomain-interacting protein kinase Homeodomain-interacting protein kinase 2 Homeodomain interacting protein kinase CG17090 dhipk2 HIPK CG17090	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_007a	E4	Secondary_007a_E4	CG17054		Nuclear-associated pathways	NCAPG	CG17054			2	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_007a	E5	Secondary_007a_E5	CG17440	CG17440	Nuclear-associated pathways	CXXC1	CG17440	Current		2	3	2.5	yes	gene	defective cell-cell aggregation
@@ -1286,7 +1286,7 @@ Secondary_007b	C9	Secondary_007b_C9	CG14480	CG14480	Nuclear-associated pathways	
 Secondary_007b	D1	Secondary_007b_D1	CG14739	CG14739	Quality control pathways	UBE2H	CG14739	Current		2.33	1.33	1.67	yes	gene	defective cell-cell aggregation
 Secondary_007b	D10	Secondary_007b_D10	CG15365	CG15365	Uncharacterized proteins	PROSAPIP1	CG15365	Current		4	1.33	1.67	yes	gene	defective cell-cell aggregation
 Secondary_007b	D11	Secondary_007b_D11	CG15890	CG15890	N/A	SLC46A3	CG15890	Current		1.67	1	1			
-Secondary_007b	D12	Secondary_007b_D12	CG15441	Gs1l	Metabolism-related pathways	HDHD1 	GS1-like	Current	GS1-like protein GS1-like GS1like GS1l CG15441 gs1-like	2	3	2.67	yes	gene	defective cell-cell aggregation
+Secondary_007b	D12	Secondary_007b_D12	CG15441	Gs1l	Metabolism-related pathways	HDHD1	GS1-like	Current	GS1-like protein GS1-like GS1like GS1l CG15441 gs1-like	2	3	2.67	yes	gene	defective cell-cell aggregation
 Secondary_007b	D2	Secondary_007b_D2	CG14870	CG14870	Other pathways	B9D1	CG14870	Current		2	1.33	1.83	yes	gene	defective cell-cell aggregation
 Secondary_007b	D3	Secondary_007b_D3	CG14877	CG14877	"Channels, permeases, and transporters"	NPR3	CG14877	Current		2.33	2	2.5	yes	gene	defective cell-cell aggregation
 Secondary_007b	D4	Secondary_007b_D4	CG14804	Vps26	Trafficking pathways	Vps26	Vacuolar protein sorting 26	Current	CG14804 CG14804 anon-sts13 dvps26 EG:63B12.8 131F2S Dvps26 ESTS:131F2S	2	3.67	3.83	yes	gene	defective cell-cell aggregation
@@ -1299,7 +1299,7 @@ Secondary_007b	E1	Secondary_007b_E1	CG32635	Neto	N/A	NETO2	Neuropilin and tolloi
 Secondary_007b	E10	Secondary_007b_E10	CG18180	CG18180	N/A	KLK6	CG18180	Current	SP151	2	1	1.17			
 Secondary_007b	E11	Secondary_007b_E11	CG32105	CG32105	Nuclear-associated pathways	LMX1A	CG32105	Current	CG17615 CG10432	1	3.33	3.5	yes	gene	defective cell-cell aggregation
 Secondary_007b	E12	Secondary_007b_E12	CG18389	Eip93F	Other pathways	LCOR	Ecdysone-induced protein 93F	Current	Eip93F lethal (3) ry93 CG18389 l(3)ry93 l(3)93 Eip93f anon-WO02059370.58 E93 eip93f	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
-Secondary_007b	E2	Secondary_007b_E2	CG16902	Hr4	N/A	NR6A1 	Hr4	Current	NR6A2 GRF CG43692 CG42527 null CG16902 EG:BACH61I5.1 EP(X)1232 CG3600 EG:133E12.2 DHR4 EP1232 CG43934	1.67	1	1			
+Secondary_007b	E2	Secondary_007b_E2	CG16902	Hr4	N/A	NR6A1	Hr4	Current	NR6A2 GRF CG43692 CG42527 null CG16902 EG:BACH61I5.1 EP(X)1232 CG3600 EG:133E12.2 DHR4 EP1232 CG43934	1.67	1	1			
 Secondary_007b	E3	Secondary_007b_E3	CG17090	hipk	Kinases and Phosphatases	HIPK2	homeodomain interacting protein kinase	Current	homeodomain interactin protein kinase Homeodomain-interacting protein kinase Homeodomain-interacting protein kinase 2 Homeodomain interacting protein kinase CG17090 dhipk2 HIPK CG17090	1.67	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_007b	E4	Secondary_007b_E4	CG17054		Nuclear-associated pathways	NCAPG	CG17054			2	1.67	1.67	yes	gene	defective cell-cell aggregation
 Secondary_007b	E5	Secondary_007b_E5	CG17440	CG17440	Nuclear-associated pathways	CXXC1	CG17440	Current		2	2	2.5	yes	gene	defective cell-cell aggregation
