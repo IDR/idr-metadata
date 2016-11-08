@@ -1,0 +1,15 @@
+#!/bin/bash
+
+test -e jobs || echo 2 >> jobs
+
+do_loop() {
+  lines=$(wc -l input | cut -f1 -d " ")
+  for line in $(seq 1 $lines)
+  do
+     # sed "$line"'q;d' input
+     echo $line
+  done
+}
+
+export LC_ALL=C
+do_loop | parallel --delay 1 --eta --files --results rslt --joblog log --jobs jobs bash re-ann.bash {/}
