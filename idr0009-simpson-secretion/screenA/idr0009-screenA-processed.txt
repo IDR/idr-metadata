@@ -2409,7 +2409,7 @@ siRNA Identifier	Gene Identifier	Gene Symbol	Deviation	Cell Number	Valid Plates	
 18290	ENSG00000156261	CCT8	1.237	228	3	0.67		3/4	ENST00000389159/ENST00000286788/ENST00000431234	yes	yes	yes	multiple replicates of reagent			strong inhibition of secretion
 137813	ENSG00000156411	C14orf2	-1.24	202	4		0.5			no	no	yes	multiple replicates of reagent	enhanced secretion		
 7837	ENSG00000156413	FUT6	0.771	59	3	0.67		4/10	ENST00000286955/ENST00000318336/ENST00000402214/ENST00000524754/ENST00000458379/ENST00000527106/ENST00000303225/ENST00000443606	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
-243131	ENSG00000156414	TDRD9 	-1.098	107	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
+243131	ENSG00000156414	TDRD9	-1.098	107	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
 216324	ENSG00000156466	GDF6	1.495	156	3	0.67		1/3	ENST00000287020	yes	no	yes	multiple replicates of reagent			strong inhibition of secretion
 117958	ENSG00000156471	PTDSS1	1.598	64	2	1		2/3	ENST00000517309/ENST00000455950	yes	yes	yes	multiple replicates of reagent			strong inhibition of secretion
 38076	ENSG00000156504	LOC159090	-1.543	113	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
@@ -3059,7 +3059,7 @@ siRNA Identifier	Gene Identifier	Gene Symbol	Deviation	Cell Number	Valid Plates	
 228294	ENSG00000172262	ZNF131	1.387	270	4	1		2/10	ENST00000399534/ENST00000509156	no	no	yes	multiple replicates of reagent			strong inhibition of secretion
 235330	ENSG00000172264	MACROD2	1.022	187	5	0.6		3/6	ENST00000310348/ENST00000217246/ENST00000402914	yes	no	yes	multiple replicates of reagent			strong inhibition of secretion
 216709	ENSG00000172289	OR10V1	0.808	300	5	0.8		1/1	ENST00000307552	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
-225087	ENSG00000172296	SPTLC3 	-1.07	173	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
+225087	ENSG00000172296	SPTLC3	-1.07	173	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
 140575	ENSG00000172301	C17orf79	0.807	122	4	0.75		2/2	ENST00000302362/ENST00000378634	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 217361	ENSG00000172322	CLEC12A	0.88	325	4	0.75		2/7	ENST00000338896/ENST00000396502	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 215345	ENSG00000172324	OR5A2	1.29	132	4	0.75		1/1	ENST00000302040	yes	no	yes	multiple replicates of reagent			strong inhibition of secretion
@@ -3624,7 +3624,7 @@ siRNA Identifier	Gene Identifier	Gene Symbol	Deviation	Cell Number	Valid Plates	
 103928	ENSG00000184012	TMPRSS2	1.017	99	3	0.67		4/6	ENST00000398585/ENST00000458356/ENST00000454499/ENST00000332149	yes	no	yes	multiple replicates of reagent			strong inhibition of secretion
 215244	ENSG00000184155	OR10J5	1.065	251	4	0.5		1/1	ENST00000334857	yes	no	yes	multiple replicates of reagent			strong inhibition of secretion
 125434	ENSG00000184164	CRELD2	0.828	242	3	0.67		4/6	ENST00000407217/ENST00000328268/ENST00000403427/ENST00000404488	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
-245997	ENSG00000184206;ENSG00000215749;ENSG00000205281;ENSG00000197978;ENSG00000196648;ENSG00000230135	GOLGA6L4 	-1.157	69	2		1			no	no	yes	multiple replicates of reagent	enhanced secretion		
+245997	ENSG00000184206;ENSG00000215749;ENSG00000205281;ENSG00000197978;ENSG00000196648;ENSG00000230135	GOLGA6L4	-1.157	69	2		1			no	no	yes	multiple replicates of reagent	enhanced secretion		
 128433	ENSG00000184209	NP_008951.1	0.943	79	2	1		6/6	ENST00000526639/ENST00000350887/ENST00000361485/ENST00000392420/ENST00000438124/ENST00000412157	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 125722	ENSG00000184220	C3orf26	1.108	222	4	0.75		4/5	ENST00000489081/ENST00000478909/ENST00000421999/ENST00000497345	yes	yes	yes	multiple replicates of reagent			strong inhibition of secretion
 40866	ENSG00000184224	FLJ90834	-1.171	220	4		0.5			no	no	yes	multiple replicates of reagent	enhanced secretion		
@@ -4089,7 +4089,7 @@ siRNA Identifier	Gene Identifier	Gene Symbol	Deviation	Cell Number	Valid Plates	
 235154	ENSG00000198948	MFAP3L	0.827	231	4	0.75		3/11	ENST00000418401/ENST00000393704/ENST00000361618	yes	yes	yes	multiple replicates of reagent		mild inhibition of secretion	
 119049	ENSG00000198951	NAGA	0.755	104	3	0.67		4/5	ENST00000361920/ENST00000402937/ENST00000396398/ENST00000403363	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 134605	ENSG00000198954	KIAA1279	0.753	241	3	0.67		1/1	ENST00000361983	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
-247026	ENSG00000203571;ENSG00000197612;ENSG00000205160;ENSG00000214271;ENSG00000144224;ENSG00000116151;ENSG00000164307;ENSG00000205755	KIAA1659 	-1.034	105	4		0.75			no	no	yes	multiple replicates of reagent	enhanced secretion		
+247026	ENSG00000203571;ENSG00000197612;ENSG00000205160;ENSG00000214271;ENSG00000144224;ENSG00000116151;ENSG00000164307;ENSG00000205755	KIAA1659	-1.034	105	4		0.75			no	no	yes	multiple replicates of reagent	enhanced secretion		
 8231	ENSG00000203859	HSD3B2	1.65	147	4	0.75		1/2	ENST00000369416	yes	no	yes	multiple replicates of reagent			strong inhibition of secretion
 114145	ENSG00000203879	GDI1	0.793	172	4	0.75		2/2	ENST00000447750/ENST00000369741	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 244843	ENSG00000204003	LCN6	1.017	96	3	0.67		1/1	ENST00000341206	yes	yes	yes	multiple replicates of reagent			strong inhibition of secretion
@@ -4182,7 +4182,7 @@ siRNA Identifier	Gene Identifier	Gene Symbol	Deviation	Cell Number	Valid Plates	
 248709	ENSG00000214595	EML6	0.816	194	3	0.67		2/2	ENST00000356458/ENST00000398629	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 248905	ENSG00000214753	HNRPUL2	0.817	225	4	0.5		1/1	ENST00000301785	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 248906	ENSG00000214753	HNRPUL2	0.953	268	4	0.75		1/1	ENST00000301785	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
-246524	ENSG00000214802;ENSG00000225753	SMA5 	-1.298	140	4		0.5			no	no	yes	multiple replicates of reagent	enhanced secretion		
+246524	ENSG00000214802;ENSG00000225753	SMA5	-1.298	140	4		0.5			no	no	yes	multiple replicates of reagent	enhanced secretion		
 228772	ENSG00000214866	DCDC2C	0.826	82	3	0.67		2/2	ENST00000423741/ENST00000399143	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 226599	ENSG00000214944	NP_001073948.1	0.762	306	4	0.5		6/7	ENST00000296794/ENST00000512883/ENST00000296799/ENST00000437974/ENST00000426542/ENST00000287898	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 247855	ENSG00000215029;ENSG00000215046;ENSG00000185945;ENSG00000185554	NFX2 / NFX2B	-1.176	79	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
@@ -4214,7 +4214,7 @@ siRNA Identifier	Gene Identifier	Gene Symbol	Deviation	Cell Number	Valid Plates	
 104518	ENSG00000221914	PPP2R2A	0.838	179	5	0.6		3/6	ENST00000524169/ENST00000380737/ENST00000315985	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 242605	ENSG00000221916	C19orf73	1.76	120	3	0.67		1/1	ENST00000408991	yes	no	yes	multiple replicates of reagent			strong inhibition of secretion
 129371	ENSG00000221944	TIGD1	0.877	289	4	0.75		1/1	ENST00000408957	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
-242992	ENSG00000221949	C12orf61 	-1.013	174	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
+242992	ENSG00000221949	C12orf61	-1.013	174	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
 117661	ENSG00000221955	SLC12A8	1.151	136	4	0.5		6/8	ENST00000314584/ENST00000462437/ENST00000393469/ENST00000469902/ENST00000332979/ENST00000423114	yes	no	yes	multiple replicates of reagent			strong inhibition of secretion
 119858	ENSG00000221988	EGFL8	0.758	96	4	0.75		10/15	ENST00000395523/ENST00000324816/ENST00000375143/ENST00000424499/ENST00000375137/ENST00000414204/ENST00000361568/ENST00000436118/ENST00000445576/ENST00000437001	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
 246332	ENSG00000223443	USP17L2	0.857	141	3	0.67		1/1	ENST00000333796/ENST00000417945	no	no	yes	multiple replicates of reagent		mild inhibition of secretion	
@@ -4344,7 +4344,7 @@ siRNA Identifier	Gene Identifier	Gene Symbol	Deviation	Cell Number	Valid Plates	
 245703		null	-1.17	201	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
 246759		null	-1.026	79	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
 246877		null	-1.094	170	4		0.75			no	no	yes	multiple replicates of reagent	enhanced secretion		
-246886		PKD1P6 	-1.034	69	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
+246886		PKD1P6	-1.034	69	3		0.67			no	no	yes	multiple replicates of reagent	enhanced secretion		
 246930		RLIM	-1.214	61	2		1			no	no	yes	multiple replicates of reagent	enhanced secretion		
 247551		null	-1.02	157	4		0.5			no	no	yes	multiple replicates of reagent	enhanced secretion		
 247828		null	-1.227	312	4		0.5			no	no	yes	multiple replicates of reagent	enhanced secretion		
