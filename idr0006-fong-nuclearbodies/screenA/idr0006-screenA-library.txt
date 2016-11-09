@@ -3233,7 +3233,7 @@ Plate	Well Number	Well	Characteristics [Organism]	Term Source 1 REF	Term Source 
 11034	64	F4	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	1595	Homo sapiens ubiquitin specific protease 12		219333	USP12				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11034	65	F5	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	1766	Homo sapiens peptidylprolyl isomerase D (cyclophilin D		5481	PPID				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11034	66	F6	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	9771	"Homo sapiens Machado-Joseph disease (spinocerebellar ataxia 3, olivopontocerebellar ataxia 3, autosomal dominant, ataxin 3"		4287	ATXN3				DAPI:nuclei;TRITC:HA_Flag tagged protein	
-11034	67	F7	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	3707	"Homo sapiens E74-like factor 3 (ets domain transcription factor, epithelial-specific "		1999	ELF3				DAPI:nuclei;TRITC:HA_Flag tagged protein	
+11034	67	F7	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	3707	"Homo sapiens E74-like factor 3 (ets domain transcription factor, epithelial-specific"		1999	ELF3				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11034	68	F8	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	3286	"Homo sapiens GDP-mannose 4,6-dehydratase"		2762	GMDS				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11034	69	F9	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	3967	Homo sapiens Rab9 effector p40		10244	RABEPK				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11034	70	F10	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	2554	"Homo sapiens SAM domain, SH3 domain and nuclear localisation signals, 1"		64092	SAMSN1				DAPI:nuclei;TRITC:HA_Flag tagged protein	
@@ -5312,7 +5312,7 @@ Plate	Well Number	Well	Characteristics [Organism]	Term Source 1 REF	Term Source 
 11056	31	C7	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	9383	"Homo sapiens ring finger protein 36, transcript variant b"		140691	TRIM69				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11056	32	C8	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	3050	Homo sapiens netrin 4		59277	NTN4				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11056	33	C9	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	2216	Homo sapiens hypothetical protein MGC39715		169166	SNX31				DAPI:nuclei;TRITC:HA_Flag tagged protein	
-11056	34	C10	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	8123	"Homo sapiens similar to solute carrier family 25 , member 16"		203427	SLC25A43				DAPI:nuclei;TRITC:HA_Flag tagged protein	
+11056	34	C10	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	8123	"Homo sapiens similar to solute carrier family 25, member 16"		203427	SLC25A43				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11056	35	C11	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	8168	"Homo sapiens quaking homolog, KH domain RNA binding (mouse), transcript variant 1"		9444	QKI				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11056	36	C12	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	3038	"Homo sapiens cAMP responsive element binding protein 1, transcript variant B"		1385	CREB1				DAPI:nuclei;TRITC:HA_Flag tagged protein	
 11056	37	D1	Homo sapiens	NCBITaxon	NCBITaxon_9606	HeLa	EFO	EFO_0001185	3173	Homo sapiens CD2 antigen (cytoplasmic tail) binding protein 2		10421	CD2BP2				DAPI:nuclei;TRITC:HA_Flag tagged protein	
