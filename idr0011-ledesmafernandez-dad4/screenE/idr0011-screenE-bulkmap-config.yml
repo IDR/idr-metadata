@@ -1,6 +1,6 @@
 ---
 name: idr0011-ledesmafernandez-dad4/screenE
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)

@@ -1,6 +1,6 @@
 ---
 name: idr0027-dickerson-chromatin/experimentA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
