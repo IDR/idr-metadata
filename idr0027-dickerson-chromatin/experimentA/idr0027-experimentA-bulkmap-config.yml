@@ -1,6 +1,6 @@
 ---
 name: idr0027-dickerson-chromatin/experimentA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -21,9 +21,6 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Organism]
-    clientname: Organism
-    include: yes
   - name: Characteristics [Strain]
     clientname: Strain
     include: yes
@@ -41,10 +38,28 @@ columns:
   - name: Comment [Image File Type]
     clientname: Image File Type
     include: yes
- 
- 
+
+
+######################################################################
+# mapr groups
+######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+      - name: Characteristics [Organism]
+        clientname: Organism
+        include: yes
+
 # Advanced options (experimental)
 advanced:
-     # If a map-annotation is attached to a well also attach it to all images
-     # in the well
-     well_to_images: yes
+    # If a map-annotation is attached to a well also attach it to all images
+    # in the well
+    well_to_images: yes
+
+    # TODO: Primary key config should be in a global config
+    ignore_missing_primary_key: yes
+    primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+      - Organism

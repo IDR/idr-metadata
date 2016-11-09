@@ -1,6 +1,6 @@
 ---
 name: idr0023-szymborska-nuclearpore/experimentA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -21,66 +21,104 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Organism]
-    clientname: Organism
-    include: yes
   - name: Characteristics [Cell Line]
     clientname: Cell Line
     include: yes
+
   - name: Characteristics [Replicate Group]
     clientname: Replicate Group
     include: yes
-  - name: Experimental Condition [Targeted Protein]
-    clientname: Targeted Protein
-    include: yes
-  - name: Experimental Condition [Targeted Protein]
-    clientname: Targeted Protein URL
-    clientvalue: http://www.ebi.ac.uk/pdbe/entry/search/index?text:{{ value }}
-    include: yes
-  - name: Comment [Gene Identifier]
-    clientname: Gene Identifier
-    include: yes
-  - name: Comment [Gene Identifier]
-    clientname: Gene Identifier URL
-    clientvalue: http://www.ensembl.org/id/{{ value }}
-    include: yes
-  - name: Comment [Gene Symbol]
-    clientname: Gene Symbol
-    include: yes
-  - name: Comment [Gene Symbol Synonyms]
-    clientname: Gene Symbol Synonyms
-    include: yes
-  - name: Comment [Gene Annotation Comments]
-    clientname: Gene Annotation Comments
-    include: yes
-  - name: Experimental Condition [Antibody]
-    clientname: Antibody
-    include: yes
+
   - name: Channels
     include: yes
   - name: Comment [Image File Type]
     clientname: Image File Type
     include: yes
+
   - name: Has Phenotype
     include: yes
   - name: Phenotype Annotation Level
     include: yes
-  - name: Phenotype 1
-    clientname: Phenotype
-    include: yes
-  - name: Phenotype 1 Term Name
-    clientname: Phenotype Term Name
-    include: yes
-  - name: Phenotype 1 Term Accession
-    clientname: Phenotype Term Accession
-    include: yes
-  - name: Phenotype 1 Term Accession
-    clientname: Phenotype Term Accession URL
-    clientvalue: http://www.ebi.ac.uk/cmpo/{{ value }}
-    include: yes
- 
+
+
+######################################################################
+# mapr groups
+######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+      - name: Characteristics [Organism]
+        clientname: Organism
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+      - name: Comment [Gene Identifier]
+        clientname: Gene Identifier
+        include: yes
+      - name: Comment [Gene Identifier]
+        clientname: Gene Identifier URL
+        clientvalue: http://www.ensembl.org/id/{{ value|urlencode }}
+        include: yes
+      - name: Comment [Gene Symbol]
+        clientname: Gene Symbol
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
+      - name: Comment [Gene Symbol Synonyms]
+        clientname: Gene Symbol Synonyms
+        include: yes
+      - name: Comment [Gene Annotation Comments]
+        clientname: Gene Annotation Comments
+        include: yes
+      - name: Experimental Condition [Targeted Protein]
+        clientname: Targeted Protein
+        include: yes
+      - name: Experimental Condition [Targeted Protein]
+        clientname: Targeted Protein URL
+        clientvalue: http://www.ebi.ac.uk/pdbe/entry/search/index?text:{{ value|urlencode }}
+        include: yes
+      - name: Experimental Condition [Antibody]
+        clientname: Antibody
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
+      - name: Phenotype 1
+        clientname: Phenotype
+        include: yes
+      - name: Phenotype 1 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 1 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 1 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
+        include: yes
+
 # Advanced options (experimental)
 advanced:
-     # If a map-annotation is attached to a well also attach it to all images
-     # in the well
-     well_to_images: yes
+    # If a map-annotation is attached to a well also attach it to all images
+    # in the well
+    well_to_images: yes
+
+    # TODO: Primary key config should be in a global config
+    ignore_missing_primary_key: yes
+    primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+      - Organism
+    - namespace: openmicroscopy.org/mapr/gene
+      keys:
+      - Gene Identifier
+      - Gene Symbol
+    - namespace: openmicroscopy.org/mapr/phenotype
+      keys:
+      - Phenotype

@@ -1,6 +1,6 @@
 ---
 name: idr0019-sero-nfkappab/screenA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -21,9 +21,6 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Organism]
-    clientname: Organism
-    include: yes
   - name: Characteristics [Cell Line]
     clientname: Cell Line
     include: yes
@@ -32,28 +29,61 @@ columns:
   - name: Experimental Condition [Media]
     clientname: Media
     include: yes
-  - name: Experimental Condition [Compound]
-    clientname: Compound
-    include: yes
-  - name: Experimental Condition [Dose]
-    clientname: Dose
-    include: yes
-  - name: Experimental Condition [Time]
-    clientname: Time
-    include: yes
+
   - name: Control Type
     include: yes
   - name: Control Comments
     include: yes
+
   - name: Channels
     include: yes
   - name: Comments
     include: yes
   - name: Cell Line Morphotype
     include: yes
-    
+
+
+######################################################################
+# mapr groups
+######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+      - name: Characteristics [Organism]
+        clientname: Organism
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound
+      columns:
+      - name: Experimental Condition [Compound]
+        clientname: Compound
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound/supplementary
+      columns:
+      - name: Experimental Condition [Dose]
+        clientname: Dose
+        include: yes
+      - name: Experimental Condition [Time]
+        clientname: Time
+        include: yes
+
+
 # Advanced options (experimental)
 advanced:
     # If a map-annotation is attached to a well also attach it to all images
     # in the well
     well_to_images: yes
+
+    # TODO: Primary key config should be in a global config
+    ignore_missing_primary_key: yes
+    primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+      - Organism
+    - namespace: openmicroscopy.org/mapr/compound
+      keys:
+      - Compound Name
