@@ -59,6 +59,10 @@ columns:
       columns:
       - name: siRNA Pool Identifier
         include: yes
+      - name: siRNA Pool Identifier
+        clientname: siRNA Identifier
+        clientvalue: null
+        include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/sirna/supplementary
