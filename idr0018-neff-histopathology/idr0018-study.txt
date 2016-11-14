@@ -28,8 +28,6 @@ Study Person Email	frauke.neff@helmholtz-muenchen.de
 Study Person Address	"Institute of Pathology, Helmholtz Zentrum Muenchen, Germany"																																																							
 Study Person Roles	submitter																																																							
 																																																								
-Study IDR Example Image	http://idr-demo.openmicroscopy.org/webclient/?show=image-1920093	"Dataset Baz1a-14-100-brain, Image Bazla-14-100-brain - 2015-06-19 23.34.11.ndpi [Series 1]"																																																						
-																																																								
 Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	PATO	UBERON																																																		
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/																																																		
 																																																								
@@ -39,12 +37,13 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 																																																								
 Experiment Number	1																																																							
 Comment[IDR Experiment Name]	idr0018-neff-histopathology/experimentA																																																							
-Experiment Description	Histopathology raw images and annotated tiff files of tissues from mice with 10 different single gene knockouts. Raw images are not available for all gene knockouts.																																																							
-Experiment Size	5D Images: 898	Average Image Dimension (XYZCT):	Total Tb: 0.27 Tb																																																					
+Experiment Description	Histopathology raw images and annotated tiff files of tissues from mice with 10 different single gene knockouts.																																																							
+Experiment Size	Datasets: 248	5D Images: 899	Average Image Dimension (XYZCT): 40673 x 23249 x 1 x 2 x 1	Total Tb: 0.27 Tb																																																				
+Experiment Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=image-1920093	http://idr-demo.openmicroscopy.org/webclient/img_detail/1920093/	Baz1a-14-100-brain/Image Bazla-14-100-brain - 2015-06-19 23.34.11.ndpi [Series 1]																																																					
 Experiment Imaging Method	bright-field microscopy																																																							
 Experiment Imaging Method Term Source REF	FBbi																																																							
 Experiment Imaging Method Term Accession	FBbi_00000243																																																							
-Experiment Comments	"Mouse gene identifers and symbols and human ortholog gene identifiers and symbols were added to this experiment by IDR curators using the following gene annotation builds: Mouse: GRCm38.p4, Ensembl mouse release 84, Mar 2016  Human: GRCh38.p5, Ensembl Human release 84, Mar 2016 "																																																							
+Experiment Comments	"Mouse gene identifers and symbols and human ortholog gene identifiers and symbols were added to this experiment by IDR curators using the following gene annotation builds: Mouse: GRCm38.p4, Ensembl mouse release 84, Mar 2016  Human: GRCh38.p5, Ensembl Human release 84, Mar 2016.  Raw images are not available for all gene knockouts."																																																							
 																																																								
 # assay files																																																								
 Experiment Assay File	idr0018-experimentA-assay.txt																																																							
