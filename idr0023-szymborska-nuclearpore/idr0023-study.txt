@@ -2,7 +2,7 @@
 # Study													
 Comment[IDR Study Accession]	idr0023												
 Study Title	Nuclear pore scaffold structure analyzed by super-resolution microscopy and particle averaging.												
-Study Type													
+Study Type	protein localization using dSTORM												
 Study Type Term Source REF													
 Study Type Term Accession													
 Study Description	"Much of life's essential molecular machinery consists of large protein assemblies that currently pose challenges for structure determination. A prominent example is the nuclear pore complex (NPC), for which the organization of its individual components remains unknown. By combining stochastic super-resolution microscopy, to directly resolve the ringlike structure of the NPC, with single particle averaging, to use information from thousands of pores, we determined the average positions of fluorescent molecular labels in the NPC with a precision well below 1 nanometer. Applying this approach systematically to the largest building block of the NPC, the Nup107-160 subcomplex, we assessed the structure of the NPC scaffold. Thus, light microscopy can be used to study the molecular organization of large protein complexes in situ in whole cells."		 										
@@ -24,7 +24,7 @@ Study DOI	http://dx.doi.org/10.1126/science.1240672
 Study Person Last Name	Vilma	Ellenberg											
 Study Person First Name	Jimenez Sabinina	Jan											
 Study Person Email	vilma.jimenez@embl.de	jan.ellenberg@embl.de 											
-Study Person Address	"EMBL Heidelberg, Meyerhofstrasse 1, 69117 Heidelberg, Germany"	"EMBL Heidelberg, Meyerhofstrasse 1, 69117 Heidelberg, Germany"											
+Study Person Address	"EMBL Heidelberg, Meyerhofstrabe 1, 69117 Heidelberg, Germany"	"EMBL Heidelberg, Meyerhofstrabe 1, 69117 Heidelberg, Germany"											
 Study Person Roles	submitter	principal investigator											
 													
 Term Source Name	NCBITaxon	EFO	CMPO										
@@ -37,8 +37,9 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Experiment Number	1												
 Comment[IDR Experiment Name]	idr0023-szymborska-nuclearpore/experimentA												
 Experiment Description	Systematic immunolabelling of the Nup107-160 complex and (monomeric) enhanced GFP [(m)EGFP] fusions of members of the Nup107-160 complex with an anti-GFP nanobody.  												
-Experiment Size	5D Images: 524	Average Image Dimension (XYZCT):1376 x 1040 x 16 x 2 x 1	Total Tb: 										
-Experiment Imaging Method	Super-resolution fluorescence microscopy 												
+Experiment Size	Datasets: 55	5D Images: 524	Average Image Dimension (XYZCT):1376 x 1040 x 16 x 2 x 1	Total Tb: 0.00									
+Experiment Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=image-1885618	http://idr-demo.openmicroscopy.org/webclient/img_detail/1885618/	Nup107-aa33-51_antibody_1/SUM_trans_norm.tif										
+Experiment Imaging Method	STORM super-resolution imaging												
 Experiment Imaging Method Term Source REF													
 Experiment Imaging Method Term Accession													
 Experiment Comments	"Gene Identifiers and Symbols were added by IDR curators using information from GRCh38.p5, Ensembl release 84, Mar 2016. 3 tiff images are missing from the set.  These are annotated in the Comment[Image File Comment] column of the assays file. "												
