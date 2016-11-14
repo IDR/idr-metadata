@@ -40,6 +40,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenA					
 Screen Description	"In this screen, Synthetic Genetic Array (SGA) methodology (Tong et al, 2001) was used to combine the DAD4-YFP and SPC42-RFP alleles with the non-essential deletion collection (Winzeler et al, 1999), which includes 4746 separate viable deletion strains, to systematically assess the effect of specific mutations on the kinetochore. "					
 Screen Size	Plates: 129	"5D Images: 6,175"	"Planes: 389,025"	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.27	
+Screen Example Images						
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
@@ -107,6 +108,7 @@ Screen Number	2
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenB					
 Screen Description	"This screen examines the impact of essential genes on the kinetochore, using a collection of temperature-sensitive (ts) alleles (Li et al, 2011) (1334 members, include 754 unique alleles of 475 unique ORFs). These strains were also combined with the fluorescence alleles using SGA and the resulting haploid strains were then grown for 5 hours at 37C prior to imaging. "					
 Screen Size	Plates: 40	"5D Images: 1,806"	"Planes: 113,628"	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.08	
+Screen Example Images						
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
@@ -173,6 +175,7 @@ Screen Number	3
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenC					
 Screen Description	Re-screen of non-essential mutants that did not grow in screen A.					
 Screen Size	Plates: 4	5D Images: 86	"Planes: 5,367"	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.00	
+Screen Example Images						
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
@@ -239,6 +242,7 @@ Screen Number	4
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenD					
 Screen Description	Re-screen of essential mutants that did not grow in screen B.					
 Screen Size	Plates: 8	5D Images: 865	Planes: 54495	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.04	
+Screen Example Images						
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
@@ -305,6 +309,7 @@ Screen Number	5
 Comment[IDR Screen Name]	idr0011-ledesmafernandez-dad4/screenE					
 Screen Description	Validation screen of essential mutants found to affect Dad4-YFP levels in screen B.					
 Screen Size	Plates: 1	5D Images: 25	"Planes: 1,575"	Average Image Dimension (XYZCT): 672 x 512 x 21 x 3 x 1	Total Tb: 0.00	
+Screen Example Images						
 Screen Imaging Method	fluorescence microscopy					
 Screen Imaging Method Term Source REF	Fbbi					
 Screen Imaging Method Term Accession	FBbi_00000246					
