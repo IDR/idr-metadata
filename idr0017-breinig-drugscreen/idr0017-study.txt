@@ -38,7 +38,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0017-breinig-drugscreen/screenA																																										
 Screen Description	"We used high-content screening and image analysis to measure effects of 1280 pharmacologically active compounds on complex phenotypes in isogenic cancer cell lines which harbor activating or inactivating mutations in key oncogenic signaling pathways. Using multiparametric chemical-genetic interaction analysis, we measured 300,000 drug-gene-phenotype interactions and observed phenotypic gene-drug interactions for more than 193 compounds, with many affecting phenotypes other than cell growth."																																										
 Screen Size	Plates: 96	"5D Images: 147,456"	"Planes: 294,912"	Average Image Dimension (XYZCT): 2048 x 2048 x 1 x 2 x 1	Total Tb: 2.48																																						
-Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-976041	http://idr-demo.openmicroscopy.org/webclient/img_detail/1713612/	CTNNB1_mt-/wt+_LOPAC_Plate_4_Replicate_2/E14																																								
+Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-976041	http://idr-demo.openmicroscopy.org/webclient/img_detail/1713612/	CTNNB1_mt-/wt+_LOPAC_Plate_4_Replicate_2;E14																																								
 Screen Imaging Method	fluorescence microscopy																																										
 Screen Imaging Method Term Source REF	Fbbi																																										
 Screen Imaging Method Term Accession	FBbi_00000246																																										

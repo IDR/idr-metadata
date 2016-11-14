@@ -35,7 +35,7 @@ Experiment Number	1
 Comment[IDR Experiment Name]	idr0021-lawo-pericentriolarmaterial/experimentA									
 Experiment Description	"Images relating to Figure 1e in Lawo et al 2012. These are the 3D-SIM reconstructed, maximum intensity projected and aligned images of centriole or PCM proteins of cycling HeLa cells in interphase. "									
 Experiment Size	Datasets: 10	5D Images:414 	Average Image Dimension (XYZCT): 257 x 257 x 1 x 2 x 1	Total Tb: 0.0002						
-Experiment Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=image-1885209	http://idr-demo.openmicroscopy.org/webclient/img_detail/1885209/	TUBG1-N/PCNT_gtub_I_023_SIR_PRJ.dv							
+Experiment Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=image-1885209	http://idr-demo.openmicroscopy.org/webclient/img_detail/1885209/	TUBG1-N;PCNT_gtub_I_023_SIR_PRJ.dv							
 Experiment Imaging Method	structured illumination microscopy (SIM)									
 Experiment Imaging Method Term Source REF	Fbbi									
 Experiment Imaging Method Term Accession	FBbi_00000332									

@@ -41,7 +41,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0003-breker-plasticity/screenA																											
 Screen Description	"Screen to characterize yeast stress responses at the protein level, focusing on two key properties: protein localization and abundance, at a single-cell resolution. It measures the levels of 5,330 yeast proteins and manually assign their localization using strains from a GFP fusion library. "																											
 Screen Size	Plates: 85	5D Images: 97920	Planes: 293760	Average Image Dimension (XYZCT): 672 x 512 x 1 x 3 x 1	Total Tb: 0.20																							
-Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-4890	http://idr-demo.openmicroscopy.org/webclient/img_detail/14269/	DDT p1/I2																									
+Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-4890	http://idr-demo.openmicroscopy.org/webclient/img_detail/14269/	DDT p1;I2																									
 Screen Imaging Method	fluorescence microscopy																											
 Screen Imaging Method Term Source REF	Fbbi																											
 Screen Imaging Method Term Accession	FBbi_00000246																											

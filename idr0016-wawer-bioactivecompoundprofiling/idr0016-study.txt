@@ -38,7 +38,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0016-wawer-30kcompounds/screenA																
 Screen Description	"Using the cell-painting assay developed by Gustafsdottir et al, 2013, the Broad Institute has assembled a reference dataset of profiles for U2OS osteosarcoma cells treated with ~30,000 compounds. The experiment consisted of 413 microtiter plates (but 355 are available here) plus the 20 plates in the pilot study from Gustafsdottir et al, 2013 making a total of 375 plates . Each plate has 384 wells. Each well has either 6 or 9 fields of view. Each field was imaged in five channels (detection wavelengths), and each channel is stored as a separate, grayscale 16-bit TIFF image file. "																
 Screen Size	Plates: 375	"5D Images: 869,820"	"Planes: 4,349,100"	Average Image Dimension (XYZCT): 696 x 520 x 1 x 5 x 1	Total Tb: 3.19												
-Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-1215412	http://idr-demo.openmicroscopy.org/webclient/img_detail/2782349/	20586/M8														
+Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-1215412	http://idr-demo.openmicroscopy.org/webclient/img_detail/2782349/	20586;M8														
 Screen Imaging Method	fluorescence microscopy																
 Screen Imaging Method Term Source REF	Fbbi																
 Screen Imaging Method Term Accession	FBbi_00000246																

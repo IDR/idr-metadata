@@ -38,7 +38,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0010-doil-dnadamage/screenA																
 Screen Description	A high-content microscopy screen for genes whose downregulation by RNA interference (RNAi) prevents accumulation of 53BP1 at the sites of DSBs.																
 Screen Size	Plates: 148	"5D Images: 56,832"	"Planes: 113,664"	Average Image Dimension (XYZCT): 696 x 520 x  1 x 2 x 1	Total Tb: 0.08												
-Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-1259927	http://idr-demo.openmicroscopy.org/webclient/img_detail/3054590/	11-08/A20														
+Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-1259927	http://idr-demo.openmicroscopy.org/webclient/img_detail/3054590/	11-08;A20														
 Screen Imaging Method	fluorescence microscopy																
 Screen Imaging Method Term Source REF	Fbbi																
 Screen Imaging Method Term Accession	FBbi_00000246																
