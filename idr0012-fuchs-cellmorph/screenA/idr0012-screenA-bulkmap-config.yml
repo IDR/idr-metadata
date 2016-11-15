@@ -439,6 +439,7 @@ advanced:
     - namespace: openmicroscopy.org/mapr/sirna
       keys:
       - siRNA Pool Identifier
+      - siRNA Identifier
     - namespace: openmicroscopy.org/mapr/gene
       keys:
       - Gene Identifier
