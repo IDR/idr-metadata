@@ -58,12 +58,12 @@ columns:
       columns:
       - name: siRNA Identifier
         include: yes
-      - name: siRNA Pool Identifier
-        include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/sirna/supplementary
       columns:
+      - name: siRNA Pool Identifier
+        include: yes
       - name: siRNA Catalog Number
         include: yes
       - name: Sense Sequence
