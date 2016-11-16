@@ -26,6 +26,7 @@ def main(output, inputs):
             else:
                 print >>out, line
 
+
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("output")
