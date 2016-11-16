@@ -22,6 +22,7 @@ def unique_ws(filenames):
     return set(z.group(1) for z in (re.match('IXMtest_\w{3}_\w{2}_w(\d)', f)
                for f in filenames))
 
+
 assert unique_ws(df.Image_FileName_OrigHoechst) == set({'1'})
 assert unique_ws(df.Image_FileName_OrigER) == set({'2'})
 assert unique_ws(df.Image_FileName_OrigSyto) == set({'3'})
