@@ -58,13 +58,14 @@ columns:
       namespace: openmicroscopy.org/mapr/sirna
       columns:
       - name: siRNA Pool Identifier
-        include: yes
-      - name: siRNA Sequences
+        clientname: siRNA Identifier
         include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/sirna/supplementary
       columns:
+      - name: siRNA Sequences
+        include: yes
       - name: Reagent Design Gene Annotation Build
         include: yes
 
