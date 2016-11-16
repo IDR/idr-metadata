@@ -33,8 +33,6 @@ Study Person Email	patricia.pascualvargas@icr.ac.uk
 Study Person Address	"Institute of Cancer Research, Chester Beatty Laboratories, 237 Fulham Road, SW3 6JB, London, Umited Kingdom."																																																																																																																																										
 Study Person Roles	submitter																																																																																																																																										
 																																																																																																																																											
-Study IDR Example Image	http://idr-demo.openmicroscopy.org/webclient/?show=well-1247843	"Plate LM2_ONTARGETPlus_1A, Well M21"																																																																																																																																									
-																																																																																																																																											
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi																																																																																																																																							
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																																																																																																																																							
 																																																																																																																																											
@@ -48,6 +46,7 @@ Screen Data Publisher	University of Dundee
 Screen Data DOI	http://dx.doi.org/10.17867/10000104A																																																																																																																																										
 Screen Description	Human RhoGEF/RhoGAP siGenome siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
 Screen Size	Plates: 4	5D Images: 26880	Planes:107520	Average Image Dimension (XYZCT): 667 x 501 x 1 x 4 x 1	Total Tb: 0.03																																																																																																																																						
+Screen Example Images																																																																																																																																											
 Screen Imaging Method	spinning disk confocal microscopy																																																																																																																																										
 Screen Imaging Method Term Source REF	Fbbi																																																																																																																																										
 Screen Imaging Method Term Accession	FBbi_00000253																																																																																																																																										
@@ -118,6 +117,7 @@ Screen Data Publisher	University of Dundee
 Screen Data DOI	http://dx.doi.org/10.17867/10000104B																																																																																																																																										
 Screen Description	Human RhoGEF/RhoGAP OnTargetPlus siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
 Screen Size	Plates: 4	5D Images: 42644	Planes: 170576	Average Image Dimension (XYZCT): 667 x 500 x 1 x 4 x 1	Total Tb: 0.05																																																																																																																																						
+Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-1247843	http://idr-demo.openmicroscopy.org/webclient/img_detail/2898590/	LM2_ONTARGETPlus_1A;M21																																																																																																																																								
 Screen Imaging Method	spinning disk confocal microscopy																																																																																																																																										
 Screen Imaging Method Term Source REF	Fbbi																																																																																																																																										
 Screen Imaging Method Term Accession	FBbi_00000253																																																																																																																																										
@@ -188,6 +188,7 @@ Screen Data Publisher	University of Dundee
 Screen Data DOI	http://dx.doi.org/10.17867/10000104C																																																																																																																																										
 Screen Description	Human RhoGEF/RhoGAP siGenome siRNA screen on triple negative breast cancer cell line MDA-MB-231																																																																																																																																										
 Screen Size	Plates: 4	5D Images: 42700	Planes: 170800	Average Image Dimension (XYZCT): 667 x 500 x 1 x 4 x 1	Total Tb: 0.05																																																																																																																																						
+Screen Example Images																																																																																																																																											
 Screen Imaging Method	spinning disk confocal microscopy																																																																																																																																										
 Screen Imaging Method Term Source REF	Fbbi																																																																																																																																										
 Screen Imaging Method Term Accession	FBbi_00000253																																																																																																																																										
@@ -258,6 +259,7 @@ Screen Data Publisher	University of Dundee
 Screen Data DOI	http://dx.doi.org/10.17867/10000104D																																																																																																																																										
 Screen Description	Human RhoGEF/RhoGAP OnTargetplus siRNA screen on triple negative breast cancer cell line MDA-MB-231																																																																																																																																										
 Screen Size	Plates: 4	5D Images: 43008	Planes: 172032	Average Image Dimension (XYZCT): 667 x 500 x 1 x 4 x 1	Total Tb: 0.05																																																																																																																																						
+Screen Example Images																																																																																																																																											
 Screen Imaging Method	spinning disk confocal microscopy																																																																																																																																										
 Screen Imaging Method Term Source REF	Fbbi																																																																																																																																										
 Screen Imaging Method Term Accession	FBbi_00000253																																																																																																																																										
