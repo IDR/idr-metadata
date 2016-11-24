@@ -1956,7 +1956,7 @@ JL_120813_S16A	34	C10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	MS1404	
 JL_120813_S16A	35	C11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	MS1404					negative control	wild type	GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120813_S16A	36	C12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	MS1404					negative control	wild type	GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120813_S16A	37	D1	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	rec24	SPAC1952.15c	rec24					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
-JL_120813_S16A	38	D2	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Oct-01	SPAC1F3.10c	Oct-01					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
+JL_120813_S16A	38	D2	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	oct1	SPAC1F3.10c	oct1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120813_S16A	39	D3	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	pex5	SPBC725.07	pex5					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120813_S16A	40	D4	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	aif1	SPAC26F1.14c	aif1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120813_S16A	41	D5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	set2	SPAC29B12.02c	set2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
@@ -2415,7 +2415,7 @@ JL_120816_S19A	13	B1	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC1952
 JL_120816_S19A	14	B2	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC1F12.05	SPAC1F12.05						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120816_S19A	15	B3	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC26H5.07c	SPAC26H5.07c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120816_S19A	16	B4	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC458.02c	SPAC458.02c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
-JL_120816_S19A	17	B5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
+JL_120816_S19A	17	B5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120816_S19A	18	B6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC922.05c	SPAC922.05c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120816_S19A	19	B7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	mal3	SPAC18G6.15	mal3			positive control		GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120816_S19A	20	B8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	mto1	SPCC417.07c	mto1			positive control		GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
@@ -5697,7 +5697,7 @@ JL_120907_S2B	31	C7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC16C6.
 JL_120907_S2B	32	C8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC18H10.07	SPBC18H10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120907_S2B	33	C9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sec28	SPBC24C6.05	sec28					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120907_S2B	34	C10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	mug37	SPBC31F10.05	mug37					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
-JL_120907_S2B	35	C11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-01	SPBC4C3.12	Sep-01					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
+JL_120907_S2B	35	C11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep1	SPBC4C3.12	sep1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120907_S2B	36	C12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tlh2	SPBCPT2R1.08c	tlh2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120907_S2B	37	D1	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	mal3	SPAC18G6.15	mal3			positive control		GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
 JL_120907_S2B	38	D2	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	mto1	SPCC417.07c	mto1			positive control		GFP:endogenous alpha tubulin 2;Cascade blue:growth media	2	
@@ -7363,7 +7363,7 @@ JL_121216_J5_1	65	F5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC890.
 JL_121216_J5_1	66	F6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC20F10.07	SPBC20F10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_1	67	F7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC31F10.10c	SPBC31F10.10c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_1	68	F8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	atb2	SPBC800.05c	atb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
-JL_121216_J5_1	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
+JL_121216_J5_1	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_1	70	F10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	btb2	SPBC25B2.06c	btb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_1	71	F11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tdh1	SPBC32F12.11	tdh1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_1	72	F12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC5H10.09c	SPAC5H10.09c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
@@ -7459,7 +7459,7 @@ JL_121216_J5_2	65	F5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC890.
 JL_121216_J5_2	66	F6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC20F10.07	SPBC20F10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_2	67	F7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC31F10.10c	SPBC31F10.10c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_2	68	F8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	atb2	SPBC800.05c	atb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
-JL_121216_J5_2	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
+JL_121216_J5_2	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_2	70	F10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	btb2	SPBC25B2.06c	btb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_2	71	F11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tdh1	SPBC32F12.11	tdh1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121216_J5_2	72	F12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC5H10.09c	SPAC5H10.09c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
@@ -8899,7 +8899,7 @@ JL_121220_J5_3	65	F5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC890.
 JL_121220_J5_3	66	F6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC20F10.07	SPBC20F10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_3	67	F7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC31F10.10c	SPBC31F10.10c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_3	68	F8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	atb2	SPBC800.05c	atb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
-JL_121220_J5_3	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
+JL_121220_J5_3	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_3	70	F10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	btb2	SPBC25B2.06c	btb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_3	71	F11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tdh1	SPBC32F12.11	tdh1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_3	72	F12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC5H10.09c	SPAC5H10.09c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
@@ -8995,7 +8995,7 @@ JL_121220_J5_4	65	F5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC890.
 JL_121220_J5_4	66	F6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC20F10.07	SPBC20F10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_4	67	F7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC31F10.10c	SPBC31F10.10c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_4	68	F8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	atb2	SPBC800.05c	atb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
-JL_121220_J5_4	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
+JL_121220_J5_4	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_4	70	F10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	btb2	SPBC25B2.06c	btb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_4	71	F11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tdh1	SPBC32F12.11	tdh1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_121220_J5_4	72	F12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC5H10.09c	SPAC5H10.09c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
@@ -10435,7 +10435,7 @@ JL_130116_J5_5	65	F5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC890.
 JL_130116_J5_5	66	F6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC20F10.07	SPBC20F10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_5	67	F7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC31F10.10c	SPBC31F10.10c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_5	68	F8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	atb2	SPBC800.05c	atb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
-JL_130116_J5_5	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
+JL_130116_J5_5	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_5	70	F10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	btb2	SPBC25B2.06c	btb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_5	71	F11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tdh1	SPBC32F12.11	tdh1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_5	72	F12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC5H10.09c	SPAC5H10.09c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
@@ -10531,7 +10531,7 @@ JL_130116_J5_6	65	F5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC890.
 JL_130116_J5_6	66	F6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC20F10.07	SPBC20F10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_6	67	F7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC31F10.10c	SPBC31F10.10c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_6	68	F8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	atb2	SPBC800.05c	atb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
-JL_130116_J5_6	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
+JL_130116_J5_6	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_6	70	F10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	btb2	SPBC25B2.06c	btb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_6	71	F11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tdh1	SPBC32F12.11	tdh1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130116_J5_6	72	F12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC5H10.09c	SPAC5H10.09c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
@@ -11971,7 +11971,7 @@ JL_130120_J5_7	65	F5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC890.
 JL_130120_J5_7	66	F6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC20F10.07	SPBC20F10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_7	67	F7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC31F10.10c	SPBC31F10.10c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_7	68	F8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	atb2	SPBC800.05c	atb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
-JL_130120_J5_7	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
+JL_130120_J5_7	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_7	70	F10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	btb2	SPBC25B2.06c	btb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_7	71	F11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tdh1	SPBC32F12.11	tdh1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_7	72	F12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC5H10.09c	SPAC5H10.09c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
@@ -12067,7 +12067,7 @@ JL_130120_J5_8	65	F5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC890.
 JL_130120_J5_8	66	F6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC20F10.07	SPBC20F10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_8	67	F7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC31F10.10c	SPBC31F10.10c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_8	68	F8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	atb2	SPBC800.05c	atb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
-JL_130120_J5_8	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
+JL_130120_J5_8	69	F9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_8	70	F10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	btb2	SPBC25B2.06c	btb2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_8	71	F11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tdh1	SPBC32F12.11	tdh1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
 JL_130120_J5_8	72	F12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC5H10.09c	SPAC5H10.09c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	3	
@@ -15393,7 +15393,7 @@ X_110213_S2_Blue1000	31	C7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SP
 X_110213_S2_Blue1000	32	C8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC18H10.07	SPBC18H10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1000	33	C9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sec28	SPBC24C6.05	sec28					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1000	34	C10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	mug37	SPBC31F10.05	mug37					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
-X_110213_S2_Blue1000	35	C11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-01	SPBC4C3.12	Sep-01					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
+X_110213_S2_Blue1000	35	C11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep1	SPBC4C3.12	sep1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1000	36	C12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tlh2	SPBCPT2R1.08c	tlh2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1000	37	D1	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	vps55	SPAC630.11	vps55					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1000	38	D2	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	eaf6	SPAC6F6.09	eaf6					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
@@ -15489,7 +15489,7 @@ X_110213_S2_Blue1300	31	C7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SP
 X_110213_S2_Blue1300	32	C8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC18H10.07	SPBC18H10.07						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1300	33	C9	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sec28	SPBC24C6.05	sec28					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1300	34	C10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	mug37	SPBC31F10.05	mug37					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
-X_110213_S2_Blue1300	35	C11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-01	SPBC4C3.12	Sep-01					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
+X_110213_S2_Blue1300	35	C11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep1	SPBC4C3.12	sep1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1300	36	C12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	tlh2	SPBCPT2R1.08c	tlh2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1300	37	D1	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	vps55	SPAC630.11	vps55					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110213_S2_Blue1300	38	D2	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	eaf6	SPAC6F6.09	eaf6					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
@@ -16260,7 +16260,7 @@ X_110401_S16	34	C10	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	pds5	SPAC
 X_110401_S16	35	C11	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	are1	SPAC13G7.05	are1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110401_S16	36	C12	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	csn5	SPAC1687.13c	csn5					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110401_S16	37	D1	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	rec24	SPAC1952.15c	rec24					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
-X_110401_S16	38	D2	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Oct-01	SPAC1F3.10c	Oct-01					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
+X_110401_S16	38	D2	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	oct1	SPAC1F3.10c	oct1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110401_S16	39	D3	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	pex5	SPBC725.07	pex5					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110401_S16	40	D4	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	aif1	SPAC26F1.14c	aif1					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110401_S16	41	D5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	set2	SPAC29B12.02c	set2					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
@@ -17583,7 +17583,7 @@ X_110506_S19	13	B1	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC1952.0
 X_110506_S19	14	B2	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC1F12.05	SPAC1F12.05						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110506_S19	15	B3	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC26H5.07c	SPAC26H5.07c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110506_S19	16	B4	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC458.02c	SPAC458.02c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
-X_110506_S19	17	B5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	Sep-11	SPAC5D6.05	Sep-11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
+X_110506_S19	17	B5	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	sep11	SPAC5D6.05	sep11					GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110506_S19	18	B6	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPAC922.05c	SPAC922.05c						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110506_S19	19	B7	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	DarkMal3					technical control	dark control	GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
 X_110506_S19	20	B8	Schizosaccharomyces pombe	NCBITaxon	NCBITaxon_4896	SPBC1773.04	SPBC1773.04						GFP:endogenous alpha tubulin 2;Cascade blue:growth media	1	
