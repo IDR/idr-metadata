@@ -65,6 +65,7 @@ columns:
       - name: Comment [Gene Identifier]
         clientname: Gene Identifier
         include: yes
+        omitempty: no
       - name: Comment [Gene Identifier]
         clientname: Gene Identifier URL
         clientvalue: http://www.ensembl.org/id/{{ value|urlencode }}
@@ -72,6 +73,7 @@ columns:
       - name: Comment [Gene Symbol]
         clientname: Gene Symbol
         include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary

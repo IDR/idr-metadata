@@ -74,13 +74,15 @@ columns:
       namespace: openmicroscopy.org/mapr/gene
       columns:
       - name: Gene Identifier
-        include: yes   
+        include: yes
+        omitempty: no
       - name: Gene Identifier
         clientname: Gene Identifier URL
         clientvalue: http://www.ensembl.org/id/{{ value|urlencode }}
         include: yes
       - name: Gene Symbol
         include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
