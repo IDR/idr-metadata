@@ -60,9 +60,7 @@ columns:
       - name: siRNA Identifier
         include: yes
         omitempty: no
-      - name: siRNA Identifier
-        clientname: siRNA Pool Identifier
-        clientvalue: ""
+      - name: siRNA Pool Identifier
         include: yes
         omitempty: no
 

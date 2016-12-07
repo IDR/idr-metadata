@@ -61,6 +61,8 @@ columns:
         include: yes
         omitempty: no
       - name: siRNA Pool Identifier
+        clientname: siRNA Identifier
+        clientvalue: ""
         include: yes
         omitempty: no
 
