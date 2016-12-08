@@ -78,12 +78,14 @@ columns:
       columns:
       - name: Gene Identifier
         include: yes
+        omitempty: no
       - name: Gene Identifier
         clientname: Gene Identifier URL
         clientvalue: http://www.ncbi.nlm.nih.gov/nuccore/{{ value|urlencode }}
         include: yes
       - name: Gene Symbol
         include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
