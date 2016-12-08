@@ -50,6 +50,7 @@ columns:
       - name: siRNA Identifier
         include: yes
         omitempty: no
+        split: ;
       - name: siRNA Pool Identifier
         include: yes
         omitempty: no
