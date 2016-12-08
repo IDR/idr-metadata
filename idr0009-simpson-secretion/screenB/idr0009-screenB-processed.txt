@@ -91,9 +91,9 @@ SI00003920	ENSG00000084754	HADHA	"hydroxyacyl-Coenzyme A dehydrogenase/3-ketoacy
 SI00102193	ENSG00000085514	PILRA	paired immunoglobin-like type 2 receptor alpha	1.0907	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00755125	ENSG00000086289	EPDR1	ependymin related protein 1 (zebrafish)	2.8108	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00013664	ENSG00000087085	ACHE	acetylcholinesterase	1.6934	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00304647	ENSG00000087087	SRRT	serrate RNA effector molecule homolog 	1.978	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00304647	ENSG00000087087	SRRT	serrate RNA effector molecule homolog	1.978	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00457842	ENSG00000088888	MAVS	virus-induced signaling adapter	1.5702	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00344372	ENSG00000089195	TRMT6	tRNA methyltransferase 6 homolog 	1.4505	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00344372	ENSG00000089195	TRMT6	tRNA methyltransferase 6 homolog	1.4505	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00774424	ENSG00000089775	ZBTB25	zinc finger and BTB domain containing 25	3.3564	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00022981	ENSG00000091262	ABCC6	"ATP-binding cassette, sub-family C (CFTR/MRP), member 6"	2.488	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI03096212	ENSG00000092445	TYRO3	TYRO3 protein tyrosine kinase	3.2295	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -103,8 +103,8 @@ SI00374395	ENSG00000096696	DSP	desmoplakin	1.5115	yes	yes	multiple replicates of
 SI03045161	ENSG00000099246	RAB18	"RAB18, member RAS oncogene family"	1.0759	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 225951	ENSG00000099308	MAST3	microtubule associated serine/threonine kinase 3	2.8701	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 225952	ENSG00000099308	MAST3	microtubule associated serine/threonine kinase 3	3.7591	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-128841	ENSG00000099365	STX1B	syntaxin 1B 	3.4124	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-128842	ENSG00000099365	STX1B	syntaxin 1B 	1.689	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+128841	ENSG00000099365	STX1B	syntaxin 1B	3.4124	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+128842	ENSG00000099365	STX1B	syntaxin 1B	1.689	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00347053	ENSG00000099622	CIRBP	cold inducible RNA binding protein	2.4172	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00752976	ENSG00000100271	TTLL1	"tubulin tyrosine ligase-like family, member 1"	1.5965	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00696227	ENSG00000100362	PVALB	parvalbumin	2.4155	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -134,7 +134,7 @@ SI00399469	ENSG00000104133	SPG11	spastic paraplegia 11 (autosomal recessive)	2.6
 SI02777397	ENSG00000104695	PPP2CB	"protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform"	2.1458	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00091686	ENSG00000104723	TUSC3	tumor suppressor candidate 3	1.4659	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00035154	ENSG00000104783	KCNN4	"potassium intermediate/small conductance calcium-activated channel, subfamily N, member 4"	2.4671	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00515599	ENSG00000104983	CCDC61	coiled-coil domain containing 61 	2.3626	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00515599	ENSG00000104983	CCDC61	coiled-coil domain containing 61	2.3626	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00322301	ENSG00000105216	LSM14A	"LSM14 homolog A (SCD6, S. cerevisiae)"	2.6092	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI03178847	ENSG00000105254	TBCB	tubulin folding cofactor B	2.0628	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00697557	ENSG00000105404	RABAC1	Rab acceptor 1 (prenylated)	2.0377	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -205,10 +205,10 @@ SI00373506	ENSG00000117505	DR1	"down-regulator of transcription 1, TBP-binding (
 SI03023279	ENSG00000117650	NEK2	NIMA (never in mitosis gene a)-related kinase 2	2.085	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00398454	ENSG00000117791	MOSC2	MOCO sulphurase C-terminal domain containing 2	1.4937	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00008015	ENSG00000118194	C5orf30	troponin T type 2 (cardiac)	3.122	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-123406	ENSG00000118292	C1orf54	chromosome 1 open reading frame 54 		yes			
-123407	ENSG00000118292	C1orf54	chromosome 1 open reading frame 54 		yes			
-225990	ENSG00000118369	USP35	ubiquitin specific peptidase 35 	4.4191	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-225991	ENSG00000118369	USP35	ubiquitin specific peptidase 35 	3.0543	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+123406	ENSG00000118292	C1orf54	chromosome 1 open reading frame 54		yes			
+123407	ENSG00000118292	C1orf54	chromosome 1 open reading frame 54		yes			
+225990	ENSG00000118369	USP35	ubiquitin specific peptidase 35	4.4191	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+225991	ENSG00000118369	USP35	ubiquitin specific peptidase 35	3.0543	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00076237	ENSG00000118513	MYB	v-myb myeloblastosis viral oncogene homolog (avian)	1.3573	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 115652	ENSG00000118513	MYB	v-myb myeloblastosis viral oncogene homolog (avian)		yes			
 115654	ENSG00000118513	MYB	v-myb myeloblastosis viral oncogene homolog (avian)		yes			
@@ -222,10 +222,10 @@ SI00328678	ENSG00000119865	CNRIP1	cannabinoid receptor interacting protein 1	1.3
 109796	ENSG00000119943	PYROXD2	pyridine nucleotide-disulphide oxidoreductase domain 2	4.5444	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 131435	ENSG00000119943	PYROXD2	pyridine nucleotide-disulphide oxidoreductase domain 2		yes			
 SI00728798	ENSG00000120451	SNX19	sorting nexin 19	1.577	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00401723	ENSG00000120458	C11orf61	chromosome 11 open reading frame 61 	2.1781	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00401723	ENSG00000120458	C11orf61	chromosome 11 open reading frame 61	2.1781	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 138190	ENSG00000120729	MYOT	titin immunoglobulin domain protein (myotilin)	1.6814	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 138191	ENSG00000120729	MYOT	titin immunoglobulin domain protein (myotilin)		yes			
-SI00449750	ENSG00000120733	KDM3B	lysine (K)-specific demethylase 3B 	1.14	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00449750	ENSG00000120733	KDM3B	lysine (K)-specific demethylase 3B	1.14	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00028938	ENSG00000120885	CLU	clusterin	1.1768	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00024178	ENSG00000120949	TNFRSF8	"tumor necrosis factor receptor superfamily, member 8"	2.052	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00375984	ENSG00000121310	ECHDC2	enoyl Coenzyme A hydratase domain containing 2	2.4449	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -241,13 +241,13 @@ SI03030713	ENSG00000123080	CDKN2C	"cyclin-dependent kinase inhibitor 2C (p18, in
 SI00105301	ENSG00000123091	RNF11	ring finger protein 11	1.7502	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00034552	ENSG00000123104	ITPR2	"inositol 1,4,5-triphosphate receptor, type 2"	1.8526	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00361382	ENSG00000123136	DDX39	DEAD (Asp-Glu-Ala-Asp) box polypeptide 39	1.3213	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00357784	ENSG00000123575	FAM199X	"family with sequence similarity 199, X-linked "	3.5281	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00357784	ENSG00000123575	FAM199X	"family with sequence similarity 199, X-linked"	3.5281	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 215125	ENSG00000123933	MXD4	MAX dimerization protein 4	2.1129	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 215126	ENSG00000123933	MXD4	MAX dimerization protein 4	3.727	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00088648	ENSG00000123933	MXD4	MAX dimerization protein 4	2.0297	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02778510	ENSG00000124571	XPO5	exportin 5	3.4903	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-235960	ENSG00000125458	NT5C	"5', 3'-nucleotidase, cytosolic "	4.5034	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-235959	ENSG00000125458	NT5C	"5', 3'-nucleotidase, cytosolic "	3.2585	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+235960	ENSG00000125458	NT5C	"5', 3'-nucleotidase, cytosolic"	4.5034	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+235959	ENSG00000125458	NT5C	"5', 3'-nucleotidase, cytosolic"	3.2585	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00752843	ENSG00000125482	TTF1	"transcription termination factor, RNA polymerase I"	2.5787	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00136010	ENSG00000125505	MBOAT7	membrane bound O-acyltransferase domain containing 7	2.0727	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00061523	ENSG00000125733	TRIP10	thyroid hormone receptor interactor 10	3.1575	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -271,7 +271,7 @@ SI00754390	ENSG00000131508	UBE2D2	"ubiquitin-conjugating enzyme E2D 2 (UBC4/5 ho
 SI03117233	ENSG00000131626	PPFIA1	"protein tyrosine phosphatase, receptor type, f polypeptide (PTPRF), interacting protein (liprin), alpha 1"	2.1047	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00631862	ENSG00000132016	C19orf57	chromosome 19 open reading frame 57	1.5621	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI03174255	ENSG00000132205	EMILIN2	elastin microfibril interfacer 2	1.7598	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI03159702	ENSG00000132294	EFR3A	EFR3 homolog A (S. cerevisiae) 	4.0076	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI03159702	ENSG00000132294	EFR3A	EFR3 homolog A (S. cerevisiae)	4.0076	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI03131947	ENSG00000132300	PTCD3	Pentatricopeptide repeat domain 3	2.3917	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00761145	ENSG00000132471	WBP2	WW domain binding protein 2	3.1173	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00296597	ENSG00000132623	ANKRD5	ankyrin repeat domain 5	3.1706	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -337,7 +337,7 @@ SI00378329	ENSG00000141642	ELAC1	elaC homolog 1 (E. coli)	1.2884	yes	yes	multipl
 SI00129451	ENSG00000141682	PMAIP1	phorbol-12-myristate-13-acetate-induced protein 1	1.4679	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00734300	ENSG00000141750	STAC2	SH3 and cysteine rich domain 2	1.8535	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00001225	ENSG00000141837	CACNA1A	"calcium channel, voltage-dependent, P/Q type, alpha 1A subunit"	2.6863	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00471499	ENSG00000141854	Q96FF7_HUMAN	Uncharacterized protein LOC113230 	1.1892	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00471499	ENSG00000141854	Q96FF7_HUMAN	Uncharacterized protein LOC113230	1.1892	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00459501	ENSG00000142065	ZFP14	zinc finger protein 14 homolog (mouse)	1.1778	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00774585	ENSG00000142528	ZNF473	zinc finger protein 473	3.8093	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02665411	ENSG00000142675	CNKSR1	connector enhancer of kinase suppressor of Ras 1	1.5375	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -352,8 +352,8 @@ SI00001582	ENSG00000143669	LYST	lysosomal trafficking regulator	1.8143	yes	yes	m
 SI00054516	ENSG00000143753	DEGS1	"degenerative spermatocyte homolog 1, lipid desaturase (Drosophila)"	2.5535	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00696612	ENSG00000143811	PYCR2	"pyrroline-5-carboxylate reductase family, member 2"	2.9473	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00289905	ENSG00000143994	ABHD1	abhydrolase domain containing 1	2.4407	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-33444	ENSG00000144029	MRPS5	mitochondrial ribosomal protein S5 		yes			
-131158	ENSG00000144029	MRPS5	mitochondrial ribosomal protein S5 		yes			
+33444	ENSG00000144029	MRPS5	mitochondrial ribosomal protein S5		yes			
+131158	ENSG00000144029	MRPS5	mitochondrial ribosomal protein S5		yes			
 241921	ENSG00000144045	DQX1	DEAQ box polypeptide 1 (RNA-dependent ATPase)	1.4698	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 241922	ENSG00000144045	DQX1	DEAQ box polypeptide 1 (RNA-dependent ATPase)	3.3054	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00765786	ENSG00000144161	ZC3H8	zinc finger CCCH-type containing 8	4.5715	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -409,14 +409,14 @@ SI00695555	ENSG00000156471	PTDSS1	phosphatidylserine synthase 1	3.7567	yes	yes	m
 SI00692489	ENSG00000156575	PRG3	proteoglycan 3	2.0079	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00006405	ENSG00000156873	PHKG2	"phosphorylase kinase, gamma 2 (testis)"	1.6151	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00605010	ENSG00000156970	BUB1B	BUB1 budding uninhibited by benzimidazoles 1 homolog beta (yeast)	1.7952	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-242751	ENSG00000157005	SST	somatostatin 	2.8731	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-242752	ENSG00000157005	SST	somatostatin 	2.5938	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+242751	ENSG00000157005	SST	somatostatin	2.8731	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+242752	ENSG00000157005	SST	somatostatin	2.5938	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00071183	ENSG00000157227	MMP14	matrix metallopeptidase 14 (membrane-inserted)	2.1025	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 105347	ENSG00000157227	MMP14	matrix metallopeptidase 14 (membrane-inserted)		yes			
 104073	ENSG00000157227	MMP14	matrix metallopeptidase 14 (membrane-inserted)		yes			
 SI00361067	ENSG00000157349	DDX19B	DEAD (Asp-Glu-Ala-As) box polypeptide 19B	1.7476	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00074291	ENSG00000157557	ETS2	v-ets erythroblastosis virus E26 oncogene homolog 2 (avian)	1.9545	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-127078	ENSG00000157927	RADIL	Ras association and DIL domains 	3.0545	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+127078	ENSG00000157927	RADIL	Ras association and DIL domains	3.0545	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI03065748	ENSG00000158748	HTR6	5-hydroxytryptamine (serotonin) receptor 6	2.2116	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 107450	ENSG00000158864	NDUFS2	NADH dehydrogenase (ubiquinone) Fe-S protein 2		yes			
 107448	ENSG00000158864	NDUFS2	NADH dehydrogenase (ubiquinone) Fe-S protein 2		yes			
@@ -429,14 +429,14 @@ SI00355936	ENSG00000160213	CSTB	cystatin B (stefin B)	2.8212	yes	yes	multiple re
 SI02658187	ENSG00000160972	PPP1R16A	"protein phosphatase 1, regulatory (inhibitor) subunit 16A"	1.4756	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00016737	ENSG00000161509	GRIN2C	"glutamate receptor, ionotropic, N-methyl D-aspartate 2C"	2.112	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00358456	ENSG00000161544	CYGB	cytoglobin	3.9241	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00492331	ENSG00000161671	C19orf63	chromosome 19 open reading frame 63 	1.429	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00492331	ENSG00000161671	C19orf63	chromosome 19 open reading frame 63	1.429	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02758077	ENSG00000162073	PAQR4	progestin and adipoQ receptor family member IV	2.3658	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 123585	ENSG00000162129	CLPB	ClpB caseinolytic peptidase B homolog (E. coli)	2.4069	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00719439	ENSG00000162129	CLPB	ClpB caseinolytic peptidase B homolog (E. coli)	3.0349	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 123586	ENSG00000162129	CLPB	ClpB caseinolytic peptidase B homolog (E. coli)		yes			
-SI00112238	ENSG00000162191	UBXN1	UBX domain protein 1 	1.8748	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-121758	ENSG00000162191	UBXN1	UBX domain protein 1 		yes			
-121757	ENSG00000162191	UBXN1	UBX domain protein 1 		yes			
+SI00112238	ENSG00000162191	UBXN1	UBX domain protein 1	1.8748	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+121758	ENSG00000162191	UBXN1	UBX domain protein 1		yes			
+121757	ENSG00000162191	UBXN1	UBX domain protein 1		yes			
 SI00767459	ENSG00000162300	ZFPL1	zinc finger protein-like 1	3.2473	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00463813	ENSG00000162413	KLHL21	kelch-like 21 (Drosophila)	2.6856	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00153265	ENSG00000162600	OMA1	"OMA1 homolog, zinc metallopeptidase (S. cerevisiae)"	2.288	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -481,8 +481,8 @@ SI00075572	ENSG00000167701	GPT	glutamic-pyruvate transaminase (alanine aminotran
 237087	ENSG00000168274	HIST1H2AE	"histone cluster 1, H2ae"	1.6225	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00436954	ENSG00000168274	HIST1H2AE	"histone cluster 1, H2ae"	1.5348	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00142779	ENSG00000168395	ING5	"similar to inhibitor of growth family, member 5"	2.5695	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-245372	ENSG00000168913	ENHO	energy homeostasis associated 	2.1641	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-242819	ENSG00000168913	ENHO	energy homeostasis associated 	2.2359	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+245372	ENSG00000168913	ENHO	energy homeostasis associated	2.1641	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+242819	ENSG00000168913	ENHO	energy homeostasis associated	2.2359	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00469840	ENSG00000168924	LETM1	leucine zipper-EF-hand containing transmembrane protein 1	2.2469	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00000679	ENSG00000169083	AR	androgen receptor (dihydrotestosterone receptor; testicular feminization; spinal and bulbar muscular atrophy; Kennedy disease)	2.5399	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02665103	ENSG00000169139	UBE2V2	ubiquitin-conjugating enzyme E2 variant 2	1.8972	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -507,15 +507,15 @@ SI02777453	ENSG00000172939	OXSR1	oxidative-stress responsive 1	2.4878	yes	yes	mu
 SI00090573	ENSG00000173198	CYSLTR1	cysteinyl leukotriene receptor 1	2.1344	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00748818	ENSG00000173273	TNKS	"tankyrase, TRF1-interacting ankyrin-related ADP-ribose polymerase"	1.2808	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00576828	ENSG00000173436	C1orf151	chromosome 1 open reading frame 151	2.5784	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-239993	ENSG00000173598	NUDT4	nudix (nucleoside diphosphate linked moiety X)-type motif 4 	3.4408	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-239992	ENSG00000173598	NUDT4	nudix (nucleoside diphosphate linked moiety X)-type motif 4 	3.8935	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+239993	ENSG00000173598	NUDT4	nudix (nucleoside diphosphate linked moiety X)-type motif 4	3.4408	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+239992	ENSG00000173598	NUDT4	nudix (nucleoside diphosphate linked moiety X)-type motif 4	3.8935	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI03244843	ENSG00000173674	EIF1AX	"eukaryotic translation initiation factor 1A, X-linked"	1.9225	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00164052	ENSG00000173681	CXorf23	chromosome X open reading frame 23	1.7631	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02640904	ENSG00000173726	TOMM20	translocase of outer mitochondrial membrane 20 homolog (yeast)	2.8738	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00088550	ENSG00000174231	PRPF8	PRP8 pre-mRNA processing factor 8 homolog (S. cerevisiae)	2.9249	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00414400	ENSG00000174844	DNAH12	dynein heavy chain domain 2	1.4557	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI03091515	ENSG00000174938	SEZ6L2	seizure related 6 homolog (mouse)-like 2	1.1472	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00747096	ENSG00000175283	DOLK	dolichol kinase 	2.2379	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00747096	ENSG00000175283	DOLK	dolichol kinase	2.2379	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00709240	ENSG00000175792	RUVBL1	RuvB-like 1 (E. coli)	1.3415	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00414225	ENSG00000176160	HSF5	heat shock transcription factor family member 5	1.4364	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00165039	ENSG00000176422	SPRYD4	SPRY domain containing 4	1.7061	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -529,13 +529,13 @@ SI00091588	ENSG00000177156	TALDO1	transaldolase 1	2.2628	yes	yes	multiple replic
 SI00141582	ENSG00000177602	GSG2	germ cell associated 2 (haspin)	1.1344	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02778454	ENSG00000177674	AGTRAP	angiotensin II receptor-associated protein	3.215	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00638085	ENSG00000177830	CHID1	chitinase domain containing 1	2.4672	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00357392	ENSG00000177854	TMEM187	transmembrane protein 187 	1.9957	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00357392	ENSG00000177854	TMEM187	transmembrane protein 187	1.9957	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02780610	ENSG00000178035	IMPDH2	IMP (inosine monophosphate) dehydrogenase 2	1.7483	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00153734	ENSG00000178038	ALS2CL	ALS2 C-terminal like	1.2445	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00075404	ENSG00000178623	GPR35	G protein-coupled receptor 35	2.299	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00352233	ENSG00000178741	COX5A	"cytochrome c oxidase, subunit Va"	3.1374	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI03171238	ENSG00000178803	C22orf45	chromosome 22 open reading frame 45 	3.1778	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00158697	ENSG00000179021	C3orf38	chromosome 3 open reading frame 38 	2.0136	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI03171238	ENSG00000178803	C22orf45	chromosome 22 open reading frame 45	3.1778	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00158697	ENSG00000179021	C3orf38	chromosome 3 open reading frame 38	2.0136	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00399245	ENSG00000179151	EDC3	enhancer of mRNA decapping 3 homolog (S. cerevisiae)	3.1951	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00605143	ENSG00000179335	CLK3	CDC-like kinase 3	2.5639	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00406854	ENSG00000179532	DNHD1	dynein heavy chain domain 1	2.8805	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -546,8 +546,8 @@ SI03290763	ENSG00000180902	D2HGDH	D-2-hydroxyglutarate dehydrogenase	2.1609	yes	
 SI00018438	ENSG00000180914	OXTR	oxytocin receptor	1.1129	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02759127	ENSG00000181085	MAPK15	mitogen-activated protein kinase 15	1.9974	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00759080	ENSG00000181408	UTS2R	urotensin 2 receptor	2.2735	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-237500	ENSG00000181789	COPG	"coatomer protein complex, subunit gamma "	2.417	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-237501	ENSG00000181789	COPG	"coatomer protein complex, subunit gamma "		yes			
+237500	ENSG00000181789	COPG	"coatomer protein complex, subunit gamma"	2.417	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+237501	ENSG00000181789	COPG	"coatomer protein complex, subunit gamma"		yes			
 SI00027363	ENSG00000182326	C1S	"complement component 1, s subcomponent"	2.4475	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00631890	ENSG00000182544	MFSD5	major facilitator superfamily domain containing 5	2.4999	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00289219	ENSG00000183044	ABAT	4-aminobutyrate aminotransferase	2.4305	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -582,7 +582,7 @@ SI02630810	ENSG00000187554	TLR5	toll-like receptor 5	2.4582	yes	yes	multiple rep
 SI00163674	ENSG00000187950	OVCH1	ovochymase 1	3.0951	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00463729	ENSG00000187961	KLHL17	kelch-like 17 (Drosophila)	2.2459	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02223081	ENSG00000188130	MAPK12	mitogen-activated protein kinase 12	1.9281	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00555338	ENSG00000188163	FAM166A	"family with sequence similarity 166, member A "	1.2123	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00555338	ENSG00000188163	FAM166A	"family with sequence similarity 166, member A"	1.2123	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00029071	ENSG00000188822	CNR2	cannabinoid receptor 2 (macrophage)	3.5268	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI03028739	ENSG00000196083	IL1RAP	interleukin 1 receptor accessory protein	1.6438	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 27176	ENSG00000196345	ZNF167	zinc finger protein 167	2.9591	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -592,13 +592,13 @@ SI02824899	ENSG00000196466	ZNF799	zinc finger protein 799	2.3604	yes	yes	multipl
 SI00417242	ENSG00000196559	C11orf55	chromosome 11 open reading frame 55	2.2521	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02628409	ENSG00000197063	MAFG	"v-maf musculoaponeurotic fibrosarcoma oncogene family, protein G (avian)"	2.7172	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00304542	ENSG00000197070	ARRDC1	arrestin domain containing 1	2.0109	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00644224	ENSG00000197191	C9orf169	chromosome 9 open reading frame 169 	1.5092	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00644224	ENSG00000197191	C9orf169	chromosome 9 open reading frame 169	1.5092	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00040327	ENSG00000197461	PDGFA	platelet-derived growth factor alpha polypeptide	2.0742	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02636095	ENSG00000197584	KCNMB2	"potassium large conductance calcium-activated channel, subfamily M, beta member 2"	1.6921	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00646499	ENSG00000197601	FAR1	male sterility domain containing 2	2.3241	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00683837	ENSG00000197724	PHF2	PHD finger protein 2	1.144	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00470456	ENSG00000197753	LHFPL5	lipoma HMGIC fusion partner-like 5	1.9667	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00444297	ENSG00000197933	ZNF823	zinc finger protein 823 	2.8328	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00444297	ENSG00000197933	ZNF823	zinc finger protein 823	2.8328	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 29115	ENSG00000197951	ZNF71	zinc finger protein 71	1.4118	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02663290	ENSG00000197951	ZNF71	zinc finger protein 71	2.1976	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 116299	ENSG00000197951	ZNF71	zinc finger protein 71		yes			
@@ -608,13 +608,13 @@ SI00620732	ENSG00000198270	TMEM116	transmembrane protein 116	2.5696	yes	yes	mult
 SI00774739	ENSG00000198298	ZNF485	zinc finger protein 485	4.0343	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00455063	ENSG00000198420	FAM115A	"family with sequence similarity 115, member A"	1.4909	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00092911	ENSG00000198668	CALM3	"calmodulin 1 (phosphorylase kinase, delta)"	1.6262	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00453390	ENSG00000198677	TTC37	tetratricopeptide repeat domain 37 	2.4902	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-SI00456463	ENSG00000198690	FAN1	FANCD2/FANCI-associated nuclease 1 	2.6646	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00453390	ENSG00000198677	TTC37	tetratricopeptide repeat domain 37	2.4902	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+SI00456463	ENSG00000198690	FAN1	FANCD2/FANCI-associated nuclease 1	2.6646	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00637854	ENSG00000198715	C1orf85	chromosome 1 open reading frame 85	2.4144	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00453663	ENSG00000198718	FAM179B	"family with sequence similarity 179, member B"	1.4976	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00083909	ENSG00000198752	CDC42BPB	CDC42 binding protein kinase beta (DMPK-like)	2.6618	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-141211	ENSG00000198783	ZNF830	zinc finger protein 830 	2.1145	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-141212	ENSG00000198783	ZNF830	zinc finger protein 830 	2.8844	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+141211	ENSG00000198783	ZNF830	zinc finger protein 830	2.1145	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+141212	ENSG00000198783	ZNF830	zinc finger protein 830	2.8844	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00651651	ENSG00000198788	MUC2	"mucin 2, oligomeric mucus/gel-forming"	2.4399	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI02665516	ENSG00000198796	ALPK2	alpha-kinase 2	2.9074	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI03156013	ENSG00000198848	CES1	similar to Liver carboxylesterase 1 precursor (Acyl coenzyme A:cholesterol acyltransferase) (ACAT) (Monocyte/macrophage serine esterase) (HMSE) (Serine esterase 1) (Brain carboxylesterase hBr1) (Triacylglycerol hydrolase) (TGH) (Egasyn)...	2.0883	yes	yes	multiple replicates of reagent	strong inhibition of secretion
@@ -637,6 +637,6 @@ SI00620221	ENSG00000236287	ZBED5	"zinc finger, BED-type containing 5"	1.8377	yes
 123275	ENSG00000236287	ZBED5	"zinc finger, BED-type containing 5"		yes			
 123274	ENSG00000236287	ZBED5	"zinc finger, BED-type containing 5"		yes			
 SI00775313	ENSG00000243943	ZNF512	zinc finger protein 512	1.6332	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-229350	ENSG00000248874	C5orf17	chromosome 5 open reading frame 17 	2.0324	yes	yes	multiple replicates of reagent	strong inhibition of secretion
-229351	ENSG00000248874	C5orf17	chromosome 5 open reading frame 17 	2.7582	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+229350	ENSG00000248874	C5orf17	chromosome 5 open reading frame 17	2.0324	yes	yes	multiple replicates of reagent	strong inhibition of secretion
+229351	ENSG00000248874	C5orf17	chromosome 5 open reading frame 17	2.7582	yes	yes	multiple replicates of reagent	strong inhibition of secretion
 SI00364973	ENSG00000253304	TMEM200B	TTMB protein	1.8779	yes	yes	multiple replicates of reagent	strong inhibition of secretion
