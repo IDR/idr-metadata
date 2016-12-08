@@ -9,7 +9,7 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 6786	1736	DKC1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 8685	1912	PHC2	yes	yes	BMI1	yes	single replicate of reagent							protein localized in polycomb bodies	
 4345	2353	FOS	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
-12504	2355	FOSL2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+12504	2355	FOSL2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 5885	2537	IFI6	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 6313	2623	GATA1	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
 2433	2810	SFN	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
@@ -24,11 +24,11 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 2370	4001	LMNB1	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 1580	4113	MAGEB2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 11698	4154	MBNL1	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
-7976	4234	METTL1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+7976	4234	METTL1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 12387	4665	NAB2	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 6101	4677	NARS	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-10981	4747	NEFL	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
-2092	4800	NFYA	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+10981	4747	NEFL	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
+2092	4800	NFYA	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 55606	4839	NOP2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 3890	4841	NONO	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
 3078	4869	NPM1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
@@ -36,7 +36,7 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 6392	4869	NPM1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 7517	4869	NPM1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 7543	4869	NPM1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-3572	5371	PML	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+3572	5371	PML	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 9980	5450	POU2AF1	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 5569	5619	PRM1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 13228	5684	PSMA3	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
@@ -66,7 +66,7 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 7806	6160	RPL31	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 2394	6161	RPL32	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 3352	6164	RPL34	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-3571	6166	RPL36AL	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+3571	6166	RPL36AL	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 10992	6189	RPS3A	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 545	6193	RPS5	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 4678	6194	RPS6	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
@@ -78,7 +78,7 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 55696	6209	RPS15	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 3871	6230	RPS25	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 191	6591	SNAI2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-6476	6613	SUMO2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+6476	6613	SUMO2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 2620	6615	SNAI1	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 10033	6629	SNRPB2	yes	yes	coilin/SMN	yes	single replicate of reagent		protein localized in Cajal bodies						
 3349	6632	SNRPD1	yes	yes	coilin/SMN	yes	single replicate of reagent		protein localized in Cajal bodies						
@@ -88,7 +88,7 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 4830	6839	SUV39H1	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 54474	6887	TAL2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 4407	6924	TCEB3	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-2227	7050	TGIF1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+2227	7050	TGIF1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 10471	7090	TLE3	yes	yes	Sam68	yes	single replicate of reagent								protein localized in Sam68 nuclear bodies
 55756	7142	TNP2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 3699	7572	ZNF24	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
@@ -114,9 +114,9 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 56174	9360	PPIG	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
 55535	9441	MED26	yes	yes	coilin/SMN	yes	single replicate of reagent		protein localized in Cajal bodies						
 9319	9679	FAM53B	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
-6830	9721	GPRIN2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
-11204	9753	ZSCAN12	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
-5060	9810	RNF40	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+6830	9721	GPRIN2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
+11204	9753	ZSCAN12	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
+5060	9810	RNF40	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 6160	9877	ZC3H11A	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
 4257	9904	RBM19	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 10490	10138	YAF2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
@@ -134,11 +134,11 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 7538	11103	KRR1	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 1963	11103	KRR1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 12906	11179	ZNF277	yes	yes	coilin/SMN	yes	single replicate of reagent		protein localized in Cajal bodies						
-11798	22890	ZBTB1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+11798	22890	ZBTB1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 13269	23029	RBM34	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 9694	23199	KIAA0182	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 5387	23212	RRS1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-12519	23254	KAZ	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+12519	23254	KAZ	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 3506	23378	RRP8	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 14339	23435	TARDBP	yes	yes	coilin/SMN	yes	single replicate of reagent		protein localized in Cajal bodies						
 9740	23481	PES1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
@@ -147,11 +147,11 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 986	23543	RBM9	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 4978	23567	ZNF346	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 5894	24144	TFIP11	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
-317	25776	CBY1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+317	25776	CBY1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 14462	25871	C3orf17	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 2981	25970	SH2B1	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
 13125	25983	NGDN	yes	yes	Sam68	yes	single replicate of reagent								protein localized in Sam68 nuclear bodies
-1345	26036	ZNF451	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+1345	26036	ZNF451	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 3791	26155	NOC2L	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 53467	26156	RSL1D1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 53843	26156	RSL1D1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
@@ -189,7 +189,7 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 6116	55052	MRPL20	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 1489	55068	ENOX1	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
 12151	55105	GPATCH2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-4626	55122	AKIRIN2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+4626	55122	AKIRIN2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 5385	55135	WRAP53	yes	yes	coilin/SMN	yes	single replicate of reagent		protein localized in Cajal bodies						
 3242	55143	CDCA8	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 7460	55147	RBM23	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
@@ -203,7 +203,7 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 3678	55692	LUC7L	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
 12182	55692	LUC7L	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
 9304	55758	RCOR3	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
-1999	55783	FTSJD1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+1999	55783	FTSJD1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 7335	55840	EAF2	yes	yes	coilin/SMN	yes	single replicate of reagent		protein localized in Cajal bodies						
 1339	55900	ZNF302	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 3090	55954	ZMAT5	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
@@ -213,11 +213,11 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 4881	57050	UTP3	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 55229	57129	MRPL47	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 6792	57410	SCYL1	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
-10556	57541	ZNF398	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+10556	57541	ZNF398	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 12601	57654	KIAA1530	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
 3034	58155	PTBP2	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 11181	58499	ZNF462	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
-14368	64219	PJA1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+14368	64219	PJA1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 5683	64288	ZNF323	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 1154	64376	IKZF5	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 7537	64769	MEAF6	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
@@ -240,8 +240,8 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 3093	79661	NEIL1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 8057	79698	ZMAT4	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 13218	79723	SUV39H2	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
-8618	79802	HHIPL2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
-12791	79848	CSPP1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+8618	79802	HHIPL2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
+12791	79848	CSPP1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 8244	79891	ZNF671	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 13126	79982	DNAJB14	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 8824	80028	FBXL18	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
@@ -250,10 +250,10 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 10729	81627	C1orf25	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 7863	81788	NUAK2	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
 11788	83444	INO80B	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-5363	83463	MXD3	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+5363	83463	MXD3	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 4213	83759	RBM4B	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
 11230	83786	FRMD8	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
-11791	83861	RSPH3	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+11791	83861	RSPH3	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 2625	84154	RPF2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 9994	84240	ZCCHC9	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 1941	84248	FYTTD1	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
@@ -269,22 +269,22 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 4915	84811	BUD13	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 5251	84838	ZNF496	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 6113	84858	ZNF503	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
-8219	84878	ZBTB45	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
-2332	85376	RIMBP3	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+8219	84878	ZBTB45	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
+2332	85376	RIMBP3	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 11583	91582	RPS19BP1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 6784	114034	TOE1	yes	yes	coilin/SMN	yes	single replicate of reagent		protein localized in Cajal bodies						
 2679	115560	ZNF501	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 12547	117246	FTSJ3	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-2495	126133	ALDH16A1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+2495	126133	ALDH16A1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 10116	128061	C1orf131	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-6501	129138	ANKRD54	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+6501	129138	ANKRD54	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 8723	129807	NEU4	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
-14231	129831	RBM45	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+14231	129831	RBM45	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 695	132200	C3orf49	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-9321	139212	CXorf41	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+9321	139212	CXorf41	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 1928	143384	C10orf46	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 2048	143684	FAM76B	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
-11692	144203	OVOS2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+11692	144203	OVOS2	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 10550	145581	LRFN5	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 56094	146310	RNF151	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
 7100	146542	ZNF688	yes	yes	SC-35	yes	single replicate of reagent			protein localized in nuclear speckles					
@@ -297,23 +297,23 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 1724	164127	C1orf65	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 9254	164592	CCDC116	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 53060	168850	ZNF800	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-2252	170261	ZCCHC12	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
-10950	170261	ZCCHC12	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+2252	170261	ZCCHC12	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
+10950	170261	ZCCHC12	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 56523	171483	FAM9B	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-13167	200845	KCTD6	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+13167	200845	KCTD6	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 11642	202051	SPATA24	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 1138	202559	KHDRBS2	yes	yes	Sam68	yes	single replicate of reagent								protein localized in Sam68 nuclear bodies
 2267	221241	C18orf20	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 14112	222698	NKAPL	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 11309	282679	AQP11	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-11596	283899	INO80E	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+11596	283899	INO80E	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 14347	285855	RPL7L1	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 14447	339745	SPOPL	yes	yes	coilin/SMN	yes	single replicate of reagent		protein localized in Cajal bodies						
 2265	339834	CCDC36	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
 56006	341567	H1FNT	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
-14269	342132	ZNF774	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
-11539	375190	C2orf84	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
-14806	391257	SUMO1P1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+14269	342132	ZNF774	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
+11539	375190	C2orf84	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
+14806	391257	SUMO1P1	yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 10998	441242	LOC441242	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 9684	493856	CISD2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 4111	553115	PEF1	yes	yes	UNKNOWN	yes	single replicate of reagent	protein localized in an uncharacterized nuclear subcompartment							
@@ -323,7 +323,7 @@ hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At I
 350			yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 7785		HECTD3	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
 5827		LMNB2	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
-12156			yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies 		
+12156			yes	yes	PML	yes	single replicate of reagent						protein localized in PML bodies		
 10134	1	A1BG	no	no											
 11616	9	NAT1	no	no											
 7722	10	NAT2	no	no											
