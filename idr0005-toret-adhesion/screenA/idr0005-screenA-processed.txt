@@ -148,7 +148,7 @@ Primary_002	E10	Primary_002_E10	CG1411	CRMP	Collapsin Response Mediator Protein	
 Primary_002	E11	Primary_002_E11	CG1412	RhoGAP19D	Rho GTPase activating protein at 19D	Current	RhoGAP19D CG1412 1412	1.67	yes	yes	gene	defective cell-cell aggregation
 Primary_002	E12	Primary_002_E12	CG1414	bbx	bobby sox	Current	anon-19Fb tu2 CG32527 CG1414	1	no			
 Primary_002	E2	Primary_002_E2	CG1401	Cul-5	Cullin-5	Current	Cullin-5 cullin-5 Cullin CUL5 Cullin5 Cullin 5 CG1401 Cul5 cul5 cul-5	1	no			
-Primary_002	E3	Primary_002_E3	CG1403	Sep-01	Septin 1	Current	Septin-1 septin septin 1 Septin innocent bystander iby tu1 CG1403 anon-19Fa Diff6 sep1	1	no			
+Primary_002	E3	Primary_002_E3	CG1403	Sep1	Septin 1	Current	Septin-1 septin septin 1 Septin innocent bystander iby tu1 CG1403 anon-19Fa Diff6 sep1	1	no			
 Primary_002	E4	Primary_002_E4	CG1404	Ran	Ran	Current	Ran GTPase ran ran GTPase Ran AAF30287 ran l(1)G0075 ran10A Q9VZ23 CG1404 dran	2	yes	yes	gene	defective cell-cell aggregation
 Primary_002	E5	Primary_002_E5	CG1405	l(1)G0007	lethal (1) G0007	Current	l(1)G0176 l(1)G0028 l(1)G0416 lethal (1) G0007 l(1)G0103 l(1)G0491 l(1)G0308 CG32604 EP764 cg1405 EP784 CG1375 l(1)G0476 Prp16 CG1405 prp16	1	no			
 Primary_002	E6	Primary_002_E6	CG1406	U2A	U2A	Current	lethal(2)43Ee dU2A' U2A-prime u2a l(2)43Ee CG1406 BcDNA:RE56869 U2A	1	no			
@@ -1420,7 +1420,7 @@ Primary_015	G11	Primary_015_G11	CG4185	NC2beta	Negative Cofactor 2beta	Current	N
 Primary_015	G12	Primary_015_G12	CG4190	Hsp67Bc	Heat shock gene 67Bc	Current	Gene 3 HSP67 CG4190 Dm-HSP67Bc gene3 HSPB8 Hsp67BC hsp67B gene5 small hsp locus 67B gene-3 HSP67Bc Hspg3 gene 3 Hsp-G3	1	no			
 Primary_015	G2	Primary_015_G2	CG4169	CG4169		Current	Ubiquinol-cytochrome c oxidoreductase Core protein 2 BEST:GH10978 Ubiquinol-cytochrome c reductase Core protein 2 ubiquinol-cytochrome c reductase CG 4169 BEST:GH10978 anon-EST:Posey245	1	no			
 Primary_015	G3	Primary_015_G3	CG4170	vig	vasa intronic gene	Current	Vasa intronic gene CG4170 VIG BG:DS00929.13 Vig EP(2)0812	1	no			
-Primary_015	G4	Primary_015_G4	CG4173	Sep-02	Septin 2	Current	Septin-2 septin 2 Myosin LC septin septin-2 Septin2 sep2 CG4173	1	no			
+Primary_015	G4	Primary_015_G4	CG4173	Sep2	Septin 2	Current	Septin-2 septin 2 Myosin LC septin septin-2 Septin2 sep2 CG4173	1	no			
 Primary_015	G5	Primary_015_G5	CG4174	CG4174		Current		1	no			
 Primary_015	G6	Primary_015_G6	CG4179	SK	small conductance calcium-activated potassium channel	Current	dSK CG12733 CG10706 BcDNA:GM01744 CG4179	1	no			
 Primary_015	G7	Primary_015_G7	CG4180	CIAPIN1	CIAPIN1 ortholog	Current	lethal (2) 35Bg lethal 26 in the black-reduced region lethal group D1 transcription unit B br26 CG4180 D-CIAPIN1 D1 BG:DS00929.9 B l(2)br26 anon-35Ba l(2)35Bg	2	yes	yes	gene	defective cell-cell aggregation
@@ -4596,7 +4596,7 @@ Primary_048	G8	Primary_048_G8	CG9663	CG9663		Current		1	no
 Primary_048	G9	Primary_048_G9	CG9664	CG9664		Current		1	no			
 Primary_048	H1	Primary_048_H1	CG9672	CG9672		Current	BcDNA:GH16384 SPH161	1	no			
 Primary_048	H10	Primary_048_H10	CG9698	CG9698		Current	CG9698-E	1	no			
-Primary_048	H11	Primary_048_H11	CG9699	Sep-04	Septin 4	Current	septin 4 CG9699 septin Sep4 CG9699 sep4	2.33	yes	yes	gene	defective cell-cell aggregation
+Primary_048	H11	Primary_048_H11	CG9699	Sep4	Septin 4	Current	septin 4 CG9699 septin Sep4 CG9699 sep4	2.33	yes	yes	gene	defective cell-cell aggregation
 Primary_048	H12	Primary_048_H12	CG9701	CG9701		Current	Dmel_CG9701	1	no			
 Primary_048	H2	Primary_048_H2	CG9673	CG9673		Current	SPH81	1	no			
 Primary_048	H3	Primary_048_H3	CG9674	CG9674		Current		1	no			
@@ -7445,7 +7445,7 @@ Primary_079	E2	Primary_079_E2	CG12821	CG12821		Current	Atg10	1	no
 Primary_079	E3	Primary_079_E3	CG18654	Dgk	Diacyl glycerol kinase	Current	CG12820 Diacylglycerol kinase CG34361 CG18654 DGKb dDGK dgk CG1535 CG12820	1	no			
 Primary_079	E4	Primary_079_E4	CG30379	CG30379		Current		1	no			
 Primary_079	E5	Primary_079_E5	CG30378	CG30378		Current	NEST:bs08d04	1	no			
-Primary_079	E6	Primary_079_E6	CG2916	Sep-05	Septin 5	Current	Sep5 septin Septin 5 Septin-5 CG2916 sep5 Sep	1	no			
+Primary_079	E6	Primary_079_E6	CG2916	Sep5	Septin 5	Current	Sep5 septin Septin 5 Septin-5 CG2916 sep5 Sep	1	no			
 Primary_079	E7	Primary_079_E7	CG8726	CG8726		Current		1	no			
 Primary_079	E8	Primary_079_E8	CG11198	ACC	Acetyl-CoA carboxylase	Current	acetyl-coenzyme A carboxylase Acetyl-CoA carboxylase Acetyl CoA carboxylase acetyl coA carboxylase acetyl CoA carboxylase acetyl-CoA carboxylase acetyl coenzyme A carboxylase ACC CG11198 dACC A1Z784_DROME CG8723 DmACC FBgn0043811	1.67	yes	yes	gene	defective cell-cell aggregation
 Primary_079	E9	Primary_079_E9	CG8719	Odc2	Ornithine decarboxylase 2	Current	CG8719 dodc2	1	no			
@@ -12951,7 +12951,7 @@ Primary_140	H11	Primary_140_H11						1	no
 Primary_140	H12	Primary_140_H12	CG2206	l(1)G0193	lethal (1) G0193	Current	l(1)G0327 CG2206	1	no			
 Primary_140	H2	Primary_140_H2	CG32718	CG32718		Current		1	no			
 Primary_140	H3	Primary_140_H3	CG15326	Ir7b	Ionotropic receptor 7b	Current	CG15326 ionotropic receptor 7b CG15326 IR7b DmelIR7b	1	no			
-Primary_140	H4	Primary_140_H4	CG2175	Dec-01	defective chorion 1	Current	Follicle cell protein 7C defective chorion fs(1)12-403 fs(1)M102 dec[[1]] fs(1)14E19 fs(1)12-4860 fs(1)12-3512 CG2175 fs(1)11-549 fs(1)C1 fs(1)14A-114 fs(1)12-1873 Fcp7C fs(1)13C-73 fs(1)12-3907 dec fs(1)12-2514 fs(1)A257 fs(1)14-963 fs(1)13C-57 Fc1 fs(1)A384 fs(1)13-453 fs(1)12-365 fs(1)384 Fc fs(1)5 fs(1)1501 fs(1)M1021 dec1	1	no			
+Primary_140	H4	Primary_140_H4	CG2175	dec-1	defective chorion 1	Current	Follicle cell protein 7C defective chorion fs(1)12-403 fs(1)M102 dec[[1]] fs(1)14E19 fs(1)12-4860 fs(1)12-3512 CG2175 fs(1)11-549 fs(1)C1 fs(1)14A-114 fs(1)12-1873 Fcp7C fs(1)13C-73 fs(1)12-3907 dec fs(1)12-2514 fs(1)A257 fs(1)14-963 fs(1)13C-57 Fc1 fs(1)A384 fs(1)13-453 fs(1)12-365 fs(1)384 Fc fs(1)5 fs(1)1501 fs(1)M1021 dec1	1	no			
 Primary_140	H5	Primary_140_H5	CG15324	Ir7c	Ionotropic receptor 7c	Current	ionotropic receptor 7c CG15324 CT35324 IR7c CG15324 DmelIR7c	1	no			
 Primary_140	H6	Primary_140_H6	CG15327					1	no			
 Primary_140	H7	Primary_140_H7	CG15325	Ir7g	Ionotropic receptor 7g	Current	CG15325 ionotropic receptor 7g CG15325 DmelIR7g IR7g	1	no			
