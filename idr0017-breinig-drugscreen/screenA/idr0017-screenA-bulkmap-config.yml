@@ -29,6 +29,8 @@ columns:
 
   - name: Control Type
     include: yes
+  - name: Control Comments
+    include: yes
   - name: Channels
     include: yes
 
