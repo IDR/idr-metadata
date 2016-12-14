@@ -131,6 +131,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 2
         clientname: Phenotype
         include: yes
@@ -145,6 +148,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 3
         clientname: Phenotype
         include: yes
@@ -169,6 +175,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 4
         clientname: Phenotype
         include: yes
@@ -183,6 +192,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 5
         clientname: Phenotype
         include: yes
@@ -207,6 +219,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 6
         clientname: Phenotype
         include: yes
@@ -221,6 +236,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 7
         clientname: Phenotype
         include: yes
@@ -235,6 +253,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 8
         clientname: Phenotype
         include: yes
@@ -249,6 +270,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 9
         clientname: Phenotype
         include: yes
