@@ -61,10 +61,12 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/sirna
       columns:
-      - name: siRNA Pool Identifier
-        include: yes
       - name: siRNA Identifier
         include: yes
+        omitempty: no
+      - name: siRNA Pool Identifier
+        include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/sirna/supplementary
@@ -79,12 +81,14 @@ columns:
       columns:
       - name: Gene Identifier
         include: yes
+        omitempty: no
       - name: Gene Identifier
         clientname: Gene Identifier URL
         clientvalue: http://www.ncbi.nlm.nih.gov/gene/?term={{ value|urlencode }}
         include: yes
       - name: Gene Symbol
         include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
@@ -240,6 +244,7 @@ advanced:
     - namespace: openmicroscopy.org/mapr/sirna
       keys:
       - siRNA Identifier
+      - siRNA Pool Identifier
     - namespace: openmicroscopy.org/mapr/gene
       keys:
       - Gene Identifier

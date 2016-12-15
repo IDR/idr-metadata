@@ -60,8 +60,13 @@ columns:
       namespace: openmicroscopy.org/mapr/sirna
       columns:
       - name: siRNA Pool Identifier
-        clientname: siRNA Identifier
         include: yes
+        omitempty: no
+      - name: siRNA Pool Identifier
+        clientname: siRNA Identifier
+        clientvalue: ""
+        include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/sirna/supplementary
@@ -76,12 +81,14 @@ columns:
       columns:
       - name: Gene Identifier
         include: yes
+        omitempty: no
       - name: Gene Identifier
         clientname: Gene Identifier URL
         clientvalue: http://www.ncbi.nlm.nih.gov/gene/{{ value|urlencode }}
         include: yes
       - name: Gene Symbol
         include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
@@ -124,6 +131,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 2
         clientname: Phenotype
         include: yes
@@ -138,6 +148,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 3
         clientname: Phenotype
         include: yes
@@ -162,6 +175,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 4
         clientname: Phenotype
         include: yes
@@ -176,6 +192,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 5
         clientname: Phenotype
         include: yes
@@ -200,6 +219,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 6
         clientname: Phenotype
         include: yes
@@ -214,6 +236,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 7
         clientname: Phenotype
         include: yes
@@ -228,6 +253,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 8
         clientname: Phenotype
         include: yes
@@ -242,6 +270,9 @@ columns:
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/phenotype
+      columns:
       - name: Phenotype 9
         clientname: Phenotype
         include: yes
@@ -272,6 +303,7 @@ advanced:
     - namespace: openmicroscopy.org/mapr/sirna
       keys:
       - siRNA Identifier
+      - siRNA Pool Identifier
     - namespace: openmicroscopy.org/mapr/gene
       keys:
       - Gene Identifier

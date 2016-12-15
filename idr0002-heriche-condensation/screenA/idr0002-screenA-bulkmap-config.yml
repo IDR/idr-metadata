@@ -59,6 +59,12 @@ columns:
       columns:
       - name: siRNA Identifier
         include: yes
+        omitempty: no
+      - name: siRNA Identifier
+        clientname: siRNA Pool Identifier
+        clientvalue: ""
+        include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/sirna/supplementary
@@ -75,12 +81,14 @@ columns:
       columns:
       - name: Gene Identifier
         include: yes
+        omitempty: no
       - name: Gene Identifier
         clientname: Gene Identifier URL
         clientvalue: http://www.ensembl.org/id/{{ value|urlencode }}
         include: yes
       - name: Gene Symbol
         include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
@@ -142,6 +150,7 @@ advanced:
     - namespace: openmicroscopy.org/mapr/sirna
       keys:
       - siRNA Identifier
+      - siRNA Pool Identifier
     - namespace: openmicroscopy.org/mapr/gene
       keys:
       - Gene Identifier

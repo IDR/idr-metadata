@@ -54,10 +54,16 @@ columns:
       columns:
       - name: siRNA Identifier
         include: yes
+        omitempty: no
       - name: siRNA Identifier
         clientname: siRNA Identifier URL
         clientvalue: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname={{ value|urlencode }}
         include: yes
+      - name: siRNA Identifier
+        clientname: siRNA Pool Identifier
+        clientvalue: ""
+        include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/sirna/supplementary
@@ -74,12 +80,14 @@ columns:
       columns:
       - name: Gene Identifier
         include: yes
+        omitempty: no
       - name: Gene Identifier
         clientname: Gene Identifier URL
         clientvalue: http://flybase.org/reports/{{ value|urlencode }}.html
         include: yes
       - name: Gene Symbol
         include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
@@ -543,6 +551,7 @@ advanced:
     - namespace: openmicroscopy.org/mapr/sirna
       keys:
       - siRNA Identifier
+      - siRNA Pool Identifier
     - namespace: openmicroscopy.org/mapr/gene
       keys:
       - Gene Identifier
