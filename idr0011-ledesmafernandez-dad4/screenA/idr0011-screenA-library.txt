@@ -1180,7 +1180,7 @@ Plate12-Blue-A	26	D2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR147W		
 Plate12-Blue-A	27	D3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR164C	ARL1	DLP2	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate12-Blue-A	28	D4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL011C			"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate12-Blue-A	29	D5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL026W			"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
-Plate12-Blue-A	30	D6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL042C	SIR2	Mar-01	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Plate12-Blue-A	30	D6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL042C	SIR2	MAR1	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate12-Blue-A	31	D7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL057W			"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate12-Blue-A	32	D8	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	HIS10	"SGD, 1999"	"SGD, 1999"	negative control	HIS3-BLANK	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate12-Blue-A	33	E1	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR128C	ATG14	APG14;CVT12	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
@@ -1727,7 +1727,7 @@ Plate13-Green-B	45	F5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR059C	
 Plate13-Green-B	46	F6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR076C	SKI7	YOR29-27	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate13-Green-B	47	F7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR089C	VPS21	YPT51;YPT21;VPT12;VPS12	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate13-Green-B	48	F8	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR296W			"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
-Plate13-Red-A	1	A1	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YER177W	BMH1	Apr-06	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Plate13-Red-A	1	A1	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YER177W	BMH1	APR6	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate13-Red-A	2	A2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YMR052W	FAR3		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate13-Red-A	3	A3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YIL111W	COX5B		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate13-Red-A	4	A4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR477W	SNF1	PAS14;HAF3;GLC2;CCR1;CAT1	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
@@ -2111,7 +2111,7 @@ Plate14-Green-B	45	F5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR278C	
 Plate14-Green-B	46	F6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR294C	DPL1	BST1	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Green-B	47	F7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR312W	SSF2		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Green-B	48	F8	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR329C	PEX3	PAS3	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
-Plate14-Red-A	1	A1	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOL076W	MDM20	Dec-01	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Plate14-Red-A	1	A1	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOL076W	MDM20	DEC1	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Red-A	2	A2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR216C	YBP1		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Red-A	3	A3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR129C	SAC6	ABP67	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Red-A	4	A4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR140W	MTQ2		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
@@ -2159,7 +2159,7 @@ Plate14-Red-A	45	F5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YEL028W			
 Plate14-Red-A	46	F6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YHL017W			"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Red-A	47	F7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YHR158C	KEL1		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Red-A	48	F8	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	HIS10	"SGD, 1999"	"SGD, 1999"	negative control	HIS3-BLANK	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
-Plate14-Red-A-repeated	1	A1	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOL076W	MDM20	Dec-01	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Plate14-Red-A-repeated	1	A1	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOL076W	MDM20	DEC1	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Red-A-repeated	2	A2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YBR216C	YBP1		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Red-A-repeated	3	A3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR129C	SAC6	ABP67	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Red-A-repeated	4	A4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDR140W	MTQ2		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
@@ -2325,7 +2325,7 @@ Plate14-Yellow-B	19	C3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR178C
 Plate14-Yellow-B	20	C4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YGR049W	SCM4		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Yellow-B	21	C5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR180C	DCI1	ECI2	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Yellow-B	22	C6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR193W	PEX27		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
-Plate14-Yellow-B	23	C7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YJL153C	INO1	Apr-01	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Plate14-Yellow-B	23	C7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YJL153C	INO1	APR1	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Yellow-B	24	C8	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YLR254C	NDL1		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Yellow-B	25	D1	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	HIS10	"SGD, 1999"	"SGD, 1999"	negative control	HIS3-BLANK	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate14-Yellow-B	26	D2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YHR204W	MNL1	HTM1	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
@@ -5989,7 +5989,7 @@ Plate9-Green-B	35	E3	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YJR125C	E
 Plate9-Green-B	36	E4	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YJR150C	DAN1	CCW13	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate9-Green-B	37	E5	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR300W		HUF1	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate9-Green-B	38	E6	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL206W			"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
-Plate9-Green-B	39	E7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL225W	SHS1	Sep-07	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
+Plate9-Green-B	39	E7	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL225W	SHS1	SEP7	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate9-Green-B	40	E8	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YDL238C	GUD1		"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate9-Green-B	41	F1	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YOR202W	HIS3	HIS10	"SGD, 1999"	"SGD, 1999"	negative control	HIS3-BLANK	YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
 Plate9-Green-B	42	F2	Saccharomyces cerevisiae	NCBITaxon	NCBITaxon_4932	YJR104C	SOD1	CRS4	"SGD, 1999"	"SGD, 1999"			YFP:DAD4; mRFP1:SPC42; DIC: whole cell	
