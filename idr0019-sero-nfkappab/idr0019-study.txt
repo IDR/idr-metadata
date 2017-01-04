@@ -17,7 +17,7 @@ Study Public Release Date
 Study PubMed ID	26148352																																																																																			
 Study Publication Title	Cell shape and the microenvironment regulate nuclear translocation of NF-kappaB in breast epithelial and tumor cells																																																																																			
 Study Author List	"Sero JE, Sailem HZ, Ardy RC, Almuttaqi H, Zhang T, Bakal C"																																																																																			
-Study PMC ID																																																																																				
+Study PMC ID	PMC4380925																																																																																			
 Study DOI	http://dx.doi.org/10.15252/msb.20145644																																																																																			
 																																																																																				
 # Study Contacts																																																																																				
