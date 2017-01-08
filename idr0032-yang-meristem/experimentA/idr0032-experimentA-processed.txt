@@ -3,7 +3,7 @@ AT1G05570	ATGSL06	GT48	"Type1, apex expressed, uniform distribution"	yes	gene	"g
 AT1G08660	MGP2	GT29	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
 AT1G74800	GALT5	GT31	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
 AT2G03220	FUT1	GT37	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
-AT3G07160 	ATGSL10	GT48	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
+AT3G07160	ATGSL10	GT48	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
 AT3G28180	ATCSLC04	GT2	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
 AT3G62720	XXT1	GT34	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
 AT4G03550	ATGSL05	GT48	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
@@ -13,30 +13,30 @@ AT4G32410	CESA1	GT2	"Type1, apex expressed, uniform distribution"	yes	gene	"gene
 AT5G03800	EMB175	GT47	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
 AT5G05170	CESA3	GT2	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
 AT5G16910	ATCSLD2	GT2	"Type1, apex expressed, uniform distribution"	yes	gene	"gene expressed in apex of shoot apical meristem, uniform distribution"				
-AT5G44670	GALS2	GT92	"Type2, primordia;Type 3, strong dots/spots"	yes	gene		gene expressed in primorida of shoot apical meristem	gene expressed in strong dots/spots in shoot apical meristem		
-AT4G20170	GALS3	GT92	"Type2, primordia;Type 4, spots along with general signal in apex "	yes	gene		gene expressed in primorida of shoot apical meristem		gene expressed in spots along with general signal in apex of shoot apical meristem 	
-AT1G14070	FUT7	GT37	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT1G14590	AT1G14590	GT77	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT1G20575	AT1G20575	GT2	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT1G32930	ATGALT31a	GT31	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT1G33250	AT1G33250	GT31	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT1G74380	XXT5	GT34	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT2G25300	AT2G25300	GT31	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT2G33570	GALS1	GT92	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT2G35100	ARAD1	GT47	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT2G35650	CSLA07	GT2	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT2G36850	ATGSL08	GT48	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT3G14960	AT3G14960	GT31	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT3G25140	GAUT8	GT8	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT3G59100	ATGSL11	GT48	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT4G02500	XXT2	GT34	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT4G26940	AT4G26940	GT31	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT5G09870	CESA5	GT2	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT5G16890	AT5G16890	GT47	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT5G18480	PGSIP6	GT8	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT5G22740	ATCSLA2	GT2	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT5G62620	GALT6	GT31	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
-AT5G64740	CESA6	GT2	"Type2, primordia"	yes	gene		gene expressed in primorida of shoot apical meristem			
+AT5G44670	GALS2	GT92	"Type2, primordia;Type 3, strong dots/spots"	yes	gene		gene expressed in primordia of shoot apical meristem	gene expressed in strong dots/spots in shoot apical meristem		
+AT4G20170	GALS3	GT92	"Type2, primordia;Type 4, spots along with general signal in apex "	yes	gene		gene expressed in primordia of shoot apical meristem		gene expressed in spots along with general signal in apex of shoot apical meristem 	
+AT1G14070	FUT7	GT37	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT1G14590	AT1G14590	GT77	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT1G20575	AT1G20575	GT2	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT1G32930	ATGALT31a	GT31	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT1G33250	AT1G33250	GT31	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT1G74380	XXT5	GT34	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT2G25300	AT2G25300	GT31	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT2G33570	GALS1	GT92	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT2G35100	ARAD1	GT47	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT2G35650	CSLA07	GT2	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT2G36850	ATGSL08	GT48	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT3G14960	AT3G14960	GT31	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT3G25140	GAUT8	GT8	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT3G59100	ATGSL11	GT48	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT4G02500	XXT2	GT34	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT4G26940	AT4G26940	GT31	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT5G09870	CESA5	GT2	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT5G16890	AT5G16890	GT47	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT5G18480	PGSIP6	GT8	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT5G22740	ATCSLA2	GT2	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT5G62620	GALT6	GT31	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
+AT5G64740	CESA6	GT2	"Type2, primordia"	yes	gene		gene expressed in primordia of shoot apical meristem			
 AT1G02730	ATCSLD5	GT2	"Type 3, strong dots/spots"	yes	gene			gene expressed in strong dots/spots in shoot apical meristem		
 AT1G02720	GATL5	GT8	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
 AT1G03520	AT1G03520	GT14	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
@@ -63,7 +63,7 @@ AT1G77130	GUX3	GT8	"Type 4, spots along with general signal in apex "	yes	gene		
 AT2G02060	AT2G02060	GT77	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
 AT2G20370	MUR3	GT47	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
 AT2G20810	GAUT10	GT8	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
-AT2G22900	MUCI10/GTL6	GT34	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
+AT2G22900	MUCI10	GT34	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
 AT2G24630	CSLC08	GT2	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
 AT2G26100	AT2G26100	GT31	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
 AT2G31960	ATGSL3	GT48	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
@@ -111,6 +111,6 @@ AT5G53340	AT5G53340	GT31	"Type 4, spots along with general signal in apex "	yes	
 AT5G61840	IRX10L	GT47	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
 AT5G62220	AtGT18	GT47	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
 AT5G67230	IRX14-L	GT43	"Type 4, spots along with general signal in apex "	yes	gene				gene expressed in spots along with general signal in apex of shoot apical meristem 	
-AT1G05170	AT1G05170	GT31	"Type 5, other patterns"	yes	gene					other patterns of gene expressed in shoot apical meristem
-AT1G53290	AT1G53290	GT31	"Type 5, other patterns"	yes	gene					other patterns of gene expressed in shoot apical meristem
-AT4G02130	GATL6	GT8	"Type 5, other patterns"	yes	gene					other patterns of gene expressed in shoot apical meristem
+AT1G05170	AT1G05170	GT31	"Type 5, other patterns"	yes	gene					other pattern of gene expression in shoot apical meristem
+AT1G53290	AT1G53290	GT31	"Type 5, other patterns"	yes	gene					other pattern of gene expression in shoot apical meristem
+AT4G02130	GATL6	GT8	"Type 5, other patterns"	yes	gene					other pattern of gene expression in shoot apical meristem
