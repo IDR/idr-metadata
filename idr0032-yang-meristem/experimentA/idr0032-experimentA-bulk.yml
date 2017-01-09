@@ -1,4 +1,5 @@
 ---
+transfer: upload
 include: "../../bulk.yml"
 path: "idr0032-experimentA-filePaths.tsv"
 columns:
