@@ -36,8 +36,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 											
 Experiment Number	1										
 Comment[IDR Experiment Name]	idr0032-yang-meristem/experimentA										
-Experiment Description	"We performed systematic RNA in situ hybridization assays to examine the expression patterns of the SAM-expressed GTs at single-cell spatial resolution, including those transcripts that show either relative increases, reductions, or no change between SAM and flower samples. "										
-Experiment Size	Datasets: 115	5D Images: 456	Average Image Dimension (XYZCT): 	Total Tb: 							
+Experiment Description	"We performed systematic RNA in situ hybridization assays to examine the expression patterns of the SAM-expressed GTs at single-cell spatial resolution, including those transcripts that show either relative increases, reductions, or no change between SAM and flower samples."										
+Experiment Size	Datasets: 115	5D Images: 456	Average Image Dimension (XYZCT):	Total Tb:							
 Experiment Example Images											
 Experiment Imaging Method	fluorescence microscopy										
 Experiment Imaging Method Term Source REF	Fbbi										
@@ -57,11 +57,11 @@ Protocol Name	treatment protocol	image aquistion and feature extraction protocol
 Protocol Type	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol								
 Protocol Type Term Source REF	EFO										
 Protocol Type Term Accession	EFO_0003969										
-Protocol Description	"RNA In Situ Hybridization of Wax-Embedded SAM Sections. For generation of gene-specific probes, cDNA fragments corresponding to each GT gene were amplified using gene-specific primers (Table S3) and ligated into the pGEM-T Easy vector (Promega). The constructs were verified by sequencing and then used as templates for in vitro transcription using the DIG RNA labeling kit (Roche). Shoot apices of Arabidopsis wild-type Col-0 or clv3-9 (a gift from Rudiger Simon, Heinrich Heine University) were fixed in FAA (formaldehyde, acetic acid, ethanol), embedded in wax, and cut into 8-mm sections. The sections were processed as described (http://www.its.caltech.edu/~7Eplantlab/protocols/insitu.pdf). In brief, after dewaxing, rehydration, and dehydration, the sections were hybridized with gene-specific probes and then incubated with anti-digoxigenin antibody (Roche)."	 Signals were detected by the color reaction after application of NBT/BCIP (nitro blue tetrazo- lium/5-bromo-4-chloro-3-indolyl-phosphate; Roche). 	"Based on the expression pattern, genes were divided into five categories."								
+Protocol Description	"RNA In Situ Hybridization of Wax-Embedded SAM Sections. For generation of gene-specific probes, cDNA fragments corresponding to each GT gene were amplified using gene-specific primers (Table S3) and ligated into the pGEM-T Easy vector (Promega). The constructs were verified by sequencing and then used as templates for in vitro transcription using the DIG RNA labeling kit (Roche). Shoot apices of Arabidopsis wild-type Col-0 or clv3-9 (a gift from Rudiger Simon, Heinrich Heine University) were fixed in FAA (formaldehyde, acetic acid, ethanol), embedded in wax, and cut into 8-mm sections. The sections were processed as described (http://www.its.caltech.edu/~7Eplantlab/protocols/insitu.pdf). In brief, after dewaxing, rehydration, and dehydration, the sections were hybridized with gene-specific probes and then incubated with anti-digoxigenin antibody (Roche)."	 Signals were detected by the color reaction after application of NBT/BCIP (nitro blue tetrazo- lium/5-bromo-4-chloro-3-indolyl-phosphate; Roche).	"Based on the expression pattern, genes were divided into five categories."								
 											
 # Phenotypes											
-Phenotype Name	"gene expressed in apex of shoot apical meristem, uniform distribution"	gene expressed in primorida of shoot apical meristem	gene expressed in strong dots/spots in shoot apical meristem	gene expressed in spots along with general signal in apex of shoot apical meristem 	other pattern of gene expression in shoot apical meristem						
-Phenotype Description	type 1 represents a uniform distribution across the apex 	"type 2 represents apical patchy distribution, sug- gesting flower primordia-specific enrichment "	type 3 has intense scattered spots 	type 4 repre- sents both spotted and general apical enrichment 	type 5 consists of patterns not classified in the above. 						
+Phenotype Name	"gene expressed in apex of shoot apical meristem, uniform distribution"	gene expressed in primorida of shoot apical meristem	gene expressed in strong dots/spots in shoot apical meristem	gene expressed in spots along with general signal in apex of shoot apical meristem	other pattern of gene expression in shoot apical meristem						
+Phenotype Description	type 1 represents a uniform distribution across the apex	"type 2 represents apical patchy distribution, sug- gesting flower primordia-specific enrichment"	type 3 has intense scattered spots	type 4 repre- sents both spotted and general apical enrichment	type 5 consists of patterns not classified in the above.						
 Phenotype Score Type	manual	manual	manual	manual	manual						
 Phenotype Term Source REF											
 Phenotype Term Name											
@@ -75,12 +75,12 @@ Feature Level Data File Description
 Feature Level Data Column Name											
 Feature Level Data Column Description											
 											
-#  Processed Data Files 											
+#  Processed Data Files											
 Processed Data File Name	idr0032-experimentA-processed.txt										
 Processed Data File Format	tab-delimited text										
-Processed Data File Description	File containing the expression pattern classification of each gene. 										
+Processed Data File Description	File containing the expression pattern classification of each gene.										
 Processed Data Column Name	Experimental Condition [Target Gene]	Comment [Gene Symbol]	Comment [Glycosyltransferase Family]	Expression Pattern	Has Phenotype	Phenotype Annotation Level	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5
 Processed Data Column Type	experimental condition/gene identifier	gene symbol	gene description	data	other	other	phenotype	phenotype	phenotype	phenotype	phenotype
 Processed Data Column Annotation Level				gene			gene	gene	gene	gene	gene
-Processed Data Column Description	The gene whose expression is observed in the in situ hybridization	The gene symbol for the gene under study.	The Glycosyl transferase family the gene belongs to. 	The type of expression pattern observed.	Whether there is a phenotype associated with the entity in the row.	The level of entity that is annotated with the phenotype.  	The phenotype observed for the expression of this gene	The phenotype observed for the expression of this gene	The phenotype observed for the expression of this gene	The phenotype observed for the expression of this gene	The phenotype observed for the expression of this gene
+Processed Data Column Description	The gene whose expression is observed in the in situ hybridization	The gene symbol for the gene under study.	The Glycosyl transferase family the gene belongs to.	The type of expression pattern observed.	Whether there is a phenotype associated with the entity in the row.	The level of entity that is annotated with the phenotype.	The phenotype observed for the expression of this gene	The phenotype observed for the expression of this gene	The phenotype observed for the expression of this gene	The phenotype observed for the expression of this gene	The phenotype observed for the expression of this gene
 Processed Data Column Link To Library File	Experimental Condition [Target Gene]										
