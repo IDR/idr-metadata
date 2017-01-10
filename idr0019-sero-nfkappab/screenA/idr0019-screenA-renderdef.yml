@@ -1,0 +1,7 @@
+channels:
+  1:
+    label: DAPI
+  2:
+    label: NF-kappaB
+  3:
+    label: DHE
