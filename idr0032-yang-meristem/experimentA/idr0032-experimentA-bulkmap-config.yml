@@ -40,7 +40,12 @@ columns:
   - name: Comment [Image File Type]
     clientname: Image File Type
     include: yes
-    
+
+
+  - name: Comment [In Situ Section]
+    clientname: In Situ Section
+    include: yes
+
   - name: Expression Pattern
     include: yes
   - name: Has Phenotype
@@ -63,16 +68,18 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/gene
       columns:
-      - name: Experimental Condition [Target Gene]
+      - name: Comment [Gene Identifier]
         clientname: Gene Identifier
         include: yes
-      - name: Experimental Condition [Target Gene]
+        omitempty: no
+      - name: Comment [Gene Identifier]
         clientname: Gene Identifier URL
         clientvalue: http://arabidopsis.org/servlets/TairObject?type=locus&name={{ value|urlencode }}
         include: yes
       - name: Comment [Gene Symbol]
         clientname: Gene Symbol
         include: yes
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
