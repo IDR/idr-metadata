@@ -1,0 +1,10 @@
+channels:
+  1:
+    min: 65
+    max: 1700
+  2:
+    min: 75
+    max: 1900
+  3:
+    min: 570
+    max: 2500

@@ -1,0 +1,13 @@
+channels:
+  1:
+    min: 50
+    max: 2500
+    color: "00FF00"
+  2:
+    min: 30
+    max: 1500
+    color: "FF0000"
+  3:
+    min: 800
+    max: 3200
+    color: "DBDBDB"
