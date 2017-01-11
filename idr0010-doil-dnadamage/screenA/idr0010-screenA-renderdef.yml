@@ -1,0 +1,6 @@
+channels:
+  1:
+    label: "Hoechst 33258"
+
+  2:
+    label: "53BP1" 
