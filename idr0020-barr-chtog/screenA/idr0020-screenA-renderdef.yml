@@ -1,0 +1,16 @@
+channels:
+  1:
+    label: "Hoescht"
+    color: "0000FF"
+
+  2:
+    label: "PPH3"
+    colour: "00FF00"
+
+  3:
+    label: "alpha-tubulin"
+    colour: "FFC800"
+
+  4:
+    label: "RFP"
+    colour: "FF0000"
