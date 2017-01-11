@@ -1,0 +1,6 @@
+channels:
+  1:
+    label: "GFP"
+
+  2:
+    label: "mCherry" 
