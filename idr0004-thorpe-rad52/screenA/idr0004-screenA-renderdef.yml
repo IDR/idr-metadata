@@ -1,0 +1,6 @@
+channels:
+  1:
+    label: "DIC"
+
+  2:
+    label: "YFP" 
