@@ -1,0 +1,7 @@
+channels:
+  1:
+    label: "608.0 mCherry"
+
+  2:
+    label: "528.0 GFP"
+
