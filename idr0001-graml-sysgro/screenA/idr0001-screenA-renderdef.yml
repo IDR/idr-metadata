@@ -1,3 +1,5 @@
+# channel labels, min+max and colours changed from original
+
 channels:
   1:
     label: "GFP"
