@@ -1,6 +1,15 @@
+# Channel labels on some wells are changed, min+max are changed, channel 1 colour is changed
+# Note this screen needs max projection thumbnails on channel 1
+
 channels:
   1:
     label: "DIC"
+    min: 586
+    max: 3714
+    color: "808080"
 
   2:
-    label: "YFP" 
+    label: "YFP"
+    min: 257
+    max: 1400
+    colour: "00FF00"
