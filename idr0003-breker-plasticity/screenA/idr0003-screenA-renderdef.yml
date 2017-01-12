@@ -11,6 +11,7 @@ channels:
     min: 200
     max: 1024
     color: "FFFFFF"
+    active: False
   3:
     label: "Cherry"
     min: 200
