@@ -1,0 +1,13 @@
+# channel min and max changed from original imported
+
+channels:
+  1:
+    label: "Cy3"
+    min: 167
+    max: 2000
+    color: "FF0000"
+  2:
+    label: "eGFP"
+    min: 288
+    max: 4095
+    color: "00FF00"
