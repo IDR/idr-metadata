@@ -2,6 +2,6 @@ channels:
   1:
     label: "DAPI"
   2:
-    label: "NF-kappaB"
+    label: "Alexa488/NF-kappaB"
   3:
     label: "DHE"
