@@ -1,6 +1,10 @@
+# labels changed from original imported, min and max not set
+
 channels:
   1:
     label: "Hoechst 33258"
+    color: "FF0000"
 
   2:
-    label: "Alexa488/53BP1" 
+    label: "Alexa488/53BP1"
+    color: "00FF00"
