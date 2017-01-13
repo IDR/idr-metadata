@@ -1,0 +1,9 @@
+# channel names are changed from original imported
+
+channels:
+  1:
+    label: "red"
+  2:
+    label: "green"
+  3:
+    label: "blue"
