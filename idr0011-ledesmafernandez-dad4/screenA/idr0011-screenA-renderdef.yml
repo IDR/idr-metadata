@@ -12,7 +12,7 @@ channels:
     max: 1500
     color: "FF0000"
   3:
-    label: "DIC (Nomarski)
+    label: "DIC (Nomarski)"
     min: 800
     max: 3200
     color: "DBDBDB"
