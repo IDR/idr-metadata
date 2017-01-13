@@ -7,12 +7,12 @@ channels:
 
   2:
     label: "PPH3"
-    colour: "00FF00"
+    color: "00FF00"
 
   3:
     label: "alpha-tubulin"
-    colour: "FFC800"
+    color: "FFC800"
 
   4:
     label: "RFP"
-    colour: "FF0000"
+    color: "FF0000"
