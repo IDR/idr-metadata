@@ -1,0 +1,12 @@
+# changed channel names and colours (was red, green, blue, now green, blue, red)
+
+channels:
+  1:
+    label: "Alexa 488"
+    color: "00FF00"
+  2:
+    label: "Hoechst"
+    color: "0000FF"
+  3:
+    label: "TRITC-phalloidin"
+    color: "FF0000"
