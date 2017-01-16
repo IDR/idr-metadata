@@ -101,7 +101,7 @@ columns:
         include: yes
       - name: Comment [Reverse Primer Sequence (5' - 3')]
         clientname: Reverse Primer Sequence (5' - 3')
-	include: yes
+        include: yes
 
 
   - group:
