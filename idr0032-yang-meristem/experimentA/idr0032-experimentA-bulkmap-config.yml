@@ -31,7 +31,7 @@ columns:
     clientname: Genotype
     include: yes
   - name: Experimental Condition [Target Gene]
-    client name: Experimental Condition [Target Gene]
+    clientname: Experimental Condition [Target Gene]
     include: yes
 
   - name: Channels
