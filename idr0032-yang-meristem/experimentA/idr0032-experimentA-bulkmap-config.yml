@@ -95,10 +95,10 @@ columns:
         include: yes
       - name: Comment [Glycosyltransferase Family]
         clientname: Glycosyltransferase Family
-	include: yes
+        include: yes
       - name: Comment [Forward Primer Sequence (5' - 3')]
         clientname: Forward Primer Sequence (5' - 3')
-	include: yes
+        include: yes
       - name: Comment [Reverse Primer Sequence (5' - 3')]
         clientname: Reverse Primer Sequence (5' - 3')
 
