@@ -2,7 +2,7 @@
 
 channels:
   1:
-    label: "Hoescht"
+    label: "Hoechst"
     color: "0000FF"
 
   2:
