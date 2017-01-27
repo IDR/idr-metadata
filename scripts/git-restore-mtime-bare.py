@@ -23,8 +23,10 @@
 # Example: to only update only the README and files in ./doc:
 # git-restore-mtime-bare README doc
 
-import subprocess, shlex
-import sys, os.path
+import subprocess
+import shlex
+import sys
+import os.path
 
 # List files matching user pathspec, relative to current directory
 filelist = set()
@@ -51,14 +53,15 @@ for line in gitobj.stdout:
     line = line.strip()
 
     # Blank line between Date and list of files
-    if not line: continue
+    if not line:
+        continue
 
     # File line
     if line.startswith(':'):
         file = line.split('\t')[-1]
         if file in filelist:
             filelist.remove(file)
-            #print mtime, file
+            # print mtime, file
             os.utime(file, (mtime, mtime))
 
     # Date line
