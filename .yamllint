@@ -11,5 +11,4 @@ rules:
   document-start: disable
   empty-lines: disable
   indentation: disable
-  trailing-spaces: disable
   truthy: disable

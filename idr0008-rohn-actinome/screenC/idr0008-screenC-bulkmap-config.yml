@@ -104,7 +104,7 @@ columns:
         include: yes
       - name: Phenotype 1 Term Name
         clientname: Phenotype Term Name
-        include: yes 
+        include: yes
       - name: Phenotype 1 Term Accession
         client name: Phenotype Term Accession
         include: yes
