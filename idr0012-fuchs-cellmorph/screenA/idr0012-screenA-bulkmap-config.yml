@@ -44,7 +44,7 @@ columns:
 # mapr groups
 ######################################################################
 
- - group:
+  - group:
       namespace: openmicroscopy.org/mapr/organism
       columns:
       - name: Characteristics [Organism]
