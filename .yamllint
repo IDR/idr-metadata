@@ -1,0 +1,17 @@
+extends: default
+
+rules:
+  line-length:
+    max: 200
+    level: warning
+
+  # Rules that should initially be re-enabled
+  colons: disable
+  comments-indentation: disable
+  comments: disable
+  document-start: disable
+  empty-lines: disable
+  indentation: disable
+  new-line-at-end-of-file: disable
+  trailing-spaces: disable
+  truthy: disable
