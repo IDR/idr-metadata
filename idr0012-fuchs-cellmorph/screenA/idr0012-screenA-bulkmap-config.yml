@@ -459,3 +459,6 @@ advanced:
     - namespace: openmicroscopy.org/mapr/phenotype
       keys:
       - Phenotype
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+      - Organism
