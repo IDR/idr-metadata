@@ -6,7 +6,6 @@ rules:
     level: warning
 
   # Rules that should initially be re-enabled
-  colons: disable
   comments-indentation: disable
   comments: disable
   document-start: disable
