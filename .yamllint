@@ -8,7 +8,6 @@ rules:
   # Rules that should initially be re-enabled
   comments-indentation: disable
   comments: disable
-  document-start: disable
   empty-lines: disable
   indentation: disable
   truthy: disable
