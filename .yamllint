@@ -2,11 +2,11 @@ extends: default
 
 rules:
   line-length:
-    max: 200
-    level: warning
+    max: 120
+    level: error
 
-  # Rules that should initially be re-enabled
+  # Rules that may eventually be re-enabled
   comments-indentation: disable
   comments: disable
-  indentation: disable
-  truthy: disable
+  indentation: disable  # (1000+ errors)
+  truthy: disable  # (2000+ warnings)
