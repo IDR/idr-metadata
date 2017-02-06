@@ -44,6 +44,13 @@ columns:
 # mapr groups
 ######################################################################
 
+ - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+      - name: Characteristics [Organism]
+        clientname: Organism
+        include: yes
+
   - group:
       namespace: openmicroscopy.org/mapr/sirna
       columns:

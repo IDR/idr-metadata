@@ -58,7 +58,7 @@ columns:
       namespace: openmicroscopy.org/mapr/compound
       columns:
       - name: Experimental Condition [Compound]
-        clientname: Compound
+        clientname: Compound Name
         include: yes
 
   - group:
