@@ -35,7 +35,7 @@ columns:
   - name: Comments
     include: yes
 
-  - Overall Hit Gene Consensus
+  - name: Overall Hit Gene Consensus
     include: yes
   - name: Has Phenotype
     include: yes
