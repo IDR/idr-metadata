@@ -47,7 +47,7 @@ while read -r obj path ns; do
 
     # delete annotations
     set +x
-    $OMERO_DIST/bin/omero login -u $username -w "$password" -s $host
+    $OMERO_DIST/bin/omero login -u $username -w "$password" -s $host -C
     set -x
     delete_ann $obj $ns
     $OMERO_DIST/bin/omero logout

@@ -30,7 +30,7 @@ create_bulk () {
 }
 
 set +x
-$OMERO_DIST/bin/omero login -u $username -w "$password" -s $host
+$OMERO_DIST/bin/omero login -u $username -w "$password" -s $host -C
 set -x
 
 while read -r obj path; do
