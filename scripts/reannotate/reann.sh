@@ -52,7 +52,7 @@ while read -r obj path ns; do
 
     # populate new annotations
     set +x
-    $OMERO_DIST/bin/omero login -u $username -w "$password" -s $host
+    $OMERO_DIST/bin/omero login -u $username -w "$password" -s $host -C
     echo "Logged in $username@$host"
     set -x
     populate_ann $obj "$IDR_METADATA/$path" $ns
