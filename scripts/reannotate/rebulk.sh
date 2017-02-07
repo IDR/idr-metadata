@@ -10,9 +10,6 @@ username="${username:=demo}"
 
 read -sp 'Password: ' password
 
-echo "Logged in $username@$host"
-
-
 set -x
 
 OMERO_DIST='/home/omero/OMERO.server'
@@ -31,6 +28,7 @@ create_bulk () {
 
 set +x
 $OMERO_DIST/bin/omero login -u $username -w "$password" -s $host -C
+echo "Logged in $username@$host"
 set -x
 
 while read -r obj path; do

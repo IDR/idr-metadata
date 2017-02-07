@@ -10,8 +10,6 @@ username="${username:=demo}"
 
 read -sp 'Password: ' password
 
-echo "Logged in $username@$host"
-
 set -x
 
 OMERO_DIST='/home/omero/OMERO.server'
@@ -48,6 +46,7 @@ while read -r obj path ns; do
     # delete annotations
     set +x
     $OMERO_DIST/bin/omero login -u $username -w "$password" -s $host -C
+    echo "Logged in $username@$host"
     set -x
     delete_ann $obj $ns
     $OMERO_DIST/bin/omero logout
@@ -55,6 +54,7 @@ while read -r obj path ns; do
     # populate new annotations
     set +x
     $OMERO_DIST/bin/omero login -u $username -w "$password" -s $host
+    echo "Logged in $username@$host"
     set -x
     populate_ann $obj "$IDR_METADATA/$path" $ns
     $OMERO_DIST/bin/omero logout
