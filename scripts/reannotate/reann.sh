@@ -22,7 +22,7 @@ delete_ann () {
     if [ -n "$object" ] && [ -n "$ns" ]; then
         # delete annotations
         echo "delete $ns annotations $object"
-        $OMERO_DIST/bin/omero metadata populate --batch 10 --wait 600 --context deletemap --localcfg "{\"ns\":\"$ns\"}" $object --report >> "log_delete_ann_$object" 2>&1
+        $OMERO_DIST/bin/omero metadata populate --batch 100 --wait 120 --context deletemap --localcfg "{\"ns\":\"$ns\"}" $object --report >> "log_delete_ann_$object" 2>&1
     fi
 }
 
