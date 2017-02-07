@@ -129,7 +129,7 @@ columns:
       - name: Phenotype 2 Term Accession
         clientname: Phenotype Term Accession
         include: yes
-      - name: Phenotype 2 Term Accession 
+      - name: Phenotype 2 Term Accession
         clientname: Phenotype Term Accession URL
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes

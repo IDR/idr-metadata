@@ -35,7 +35,7 @@ columns:
   - name: Comments
     include: yes
 
-  - Overall Hit Gene Consensus
+  - name: Overall Hit Gene Consensus
     include: yes
   - name: Has Phenotype
     include: yes
@@ -104,7 +104,7 @@ columns:
         include: yes
       - name: Phenotype 1 Term Name
         clientname: Phenotype Term Name
-        include: yes 
+        include: yes
       - name: Phenotype 1 Term Accession
         client name: Phenotype Term Accession
         include: yes

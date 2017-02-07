@@ -28,7 +28,7 @@ columns:
   - name: Control Type
     include: yes
   - name: Control Comments
-    include: yes  
+    include: yes
   - name: Quality Control
     include: yes
   - name: Quality Control Comments

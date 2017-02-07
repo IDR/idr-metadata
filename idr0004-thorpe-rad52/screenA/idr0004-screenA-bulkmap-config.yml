@@ -27,19 +27,16 @@ columns:
 
   - name: Batch
     include: yes
-    
   - name: Control Type
     include: yes
   - name: Control Comments
     include: yes
   - name: Quality Control
     include: yes
-    
   - name: Channels
     include: yes
   - name: Comments
     include: yes
-    
   - name: Author Hit
     include: yes
   - name: Has Phenotype
