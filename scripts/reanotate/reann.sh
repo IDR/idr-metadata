@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#set -e -u -x
+set -e -u -x
 
 OMERO_DIST='/home/omero/workspace/OMERO-server/OMERO.server'
 IDR_METADATA='/tmp/idr-metadata'
