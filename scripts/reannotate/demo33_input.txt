@@ -10,10 +10,10 @@ Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicrosc
 Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/sirna/supplementary
 Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/omero/bulk_annotations
 
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/gene
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/gene/supplementary
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/organism
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/phenotype
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/sirna
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/sirna/supplementary
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC openmicroscopy.org/mapr/gene
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC openmicroscopy.org/mapr/gene/supplementary
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC openmicroscopy.org/mapr/organism
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC openmicroscopy.org/mapr/phenotype
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC openmicroscopy.org/mapr/sirna
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC openmicroscopy.org/mapr/sirna/supplementary
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC openmicroscopy.org/omero/bulk_annotations
