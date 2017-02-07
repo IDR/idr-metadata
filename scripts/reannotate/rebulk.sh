@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 read -p 'Server:' host
 host="${host:=localhost:4064}"
 

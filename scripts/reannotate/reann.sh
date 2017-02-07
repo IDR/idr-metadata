@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 read -p 'Server:' host
 host="${host:=localhost:4064}"
 
@@ -22,7 +24,7 @@ delete_ann () {
     if [ -n "$object" ] && [ -n "$ns" ]; then
         # delete annotations
         echo "delete $ns annotations $object"
-        $OMERO_DIST/bin/omero metadata populate --batch 10 --wait 600 --context deletemap --localcfg $ns $object --report
+        $OMERO_DIST/bin/omero metadata populate --batch 10 --wait 600 --context deletemap --localcfg "{\"ns\":\"$ns\"}" $object --report
     fi
 }
 
@@ -34,7 +36,7 @@ populate_ann () {
     if [ -n "$object" ] && [ -n "$path" ] && [ -n "$ns" ]; then
         # populate new annotations
         echo "populate new $ns annotations $object $path"
-        $OMERO_DIST/bin/omero metadata populate --context bulkmap --cfg $path-bulkmap-config.yml $object --localcfg $ns --report
+        $OMERO_DIST/bin/omero metadata populate --context bulkmap --cfg $path-bulkmap-config.yml $object --localcfg "{\"ns\":\"$ns\"}" --report
     fi
 }
 

@@ -1,19 +1,19 @@
-Screen:154 idr0008-rohn-actinome/screenA/idr0008-screenA '{"ns":"openmicroscopy.org/mapr/gene"}'
-Screen:1202 idr0012-fuchs-cellmorph/screenA/idr0012-screenA '{"ns":"openmicroscopy.org/mapr/organism"}'
-Screen:1203 idr0019-sero-nfkappab/screenA/idr0019-screenA '{"ns":"openmicroscopy.org/mapr/compound"}'
+Screen:154 idr0008-rohn-actinome/screenA/idr0008-screenA openmicroscopy.org/mapr/gene
+Screen:1202 idr0012-fuchs-cellmorph/screenA/idr0012-screenA openmicroscopy.org/mapr/organism
+Screen:1203 idr0019-sero-nfkappab/screenA/idr0019-screenA openmicroscopy.org/mapr/compound
 
-Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/gene"}'
-Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/gene/supplementary"}'
-Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/organism"}'
-Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/phenotype"}'
-Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/sirna"}'
-Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/sirna/supplementary"}'
-Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/omero/bulk_annotations"}'
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/gene
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/gene/supplementary
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/organism
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/phenotype
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/sirna
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/sirna/supplementary
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/omero/bulk_annotations
 
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/gene"}'
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/gene/supplementary"}'
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/organism"}'
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/phenotype"}'
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/sirna"}'
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/mapr/sirna/supplementary"}'
-Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA '{"ns":"openmicroscopy.org/omero/bulk_annotations"}'
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/gene
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/gene/supplementary
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/organism
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/phenotype
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/sirna
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/sirna/supplementary
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/omero/bulk_annotations
