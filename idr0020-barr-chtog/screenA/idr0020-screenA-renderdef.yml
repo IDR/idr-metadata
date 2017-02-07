@@ -1,0 +1,18 @@
+# channel names and colours changed from original imported
+
+channels:
+  1:
+    label: "Hoechst"
+    color: "0000FF"
+
+  2:
+    label: "PPH3"
+    color: "00FF00"
+
+  3:
+    label: "alpha-tubulin"
+    color: "FFC800"
+
+  4:
+    label: "RFP"
+    color: "FF0000"

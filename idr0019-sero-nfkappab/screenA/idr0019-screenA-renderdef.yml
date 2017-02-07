@@ -1,0 +1,9 @@
+# labels are changed from the original imported
+
+channels:
+  1:
+    label: "DAPI"
+  2:
+    label: "Alexa488/NF-kappaB"
+  3:
+    label: "DHE"

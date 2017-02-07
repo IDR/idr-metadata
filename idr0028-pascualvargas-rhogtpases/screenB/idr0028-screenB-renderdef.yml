@@ -1,13 +1,13 @@
 channels:
   1:
-    label: Exp1Cam1
+    label: Hoechst
     color: "0000FF"
   2:
-    label: Exp2Cam2
+    label: AlexaFluor568
     color: "FFFF00"
   3:
-    label: Exp3Cam2
+    label: Phalloidin488
     color: "00FF00"
   4:
-    label: Exp4Cam3
+    label: AlexaFluor647
     color: "FF0000"

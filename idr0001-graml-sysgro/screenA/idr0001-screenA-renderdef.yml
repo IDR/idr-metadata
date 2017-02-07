@@ -1,11 +1,13 @@
+# channel labels, min+max and colours changed from original
+
 channels:
   1:
-    label: Exp1Cam1
+    label: "GFP"
     min: 50
     max: 300
     color: "00FF00"
   2:
-    label: Exp2Cam1
+    label: "Cascade blue"
     min: 100
     max: 800
     color: "0000FF"

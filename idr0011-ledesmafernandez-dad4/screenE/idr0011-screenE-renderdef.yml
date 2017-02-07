@@ -1,0 +1,18 @@
+# max and min set and colour changed for channel 3 compared to original imported
+
+channels:
+  1:
+    label: "YFP"
+    min: 40
+    max: 2000
+    color: "00FF00"
+  2:
+    label: "mRFP1"
+    min: 40
+    max: 900
+    color: "FF0000"
+  3:
+    label: "DIC (Nomarski)"
+    min: 575
+    max: 2500
+    color: "DBDBDB"

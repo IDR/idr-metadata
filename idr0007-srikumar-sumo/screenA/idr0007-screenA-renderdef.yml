@@ -1,0 +1,14 @@
+# labels, min+max and colours all changed from original imported
+
+channels:
+  1:
+    label: "GFP"
+    min: 0
+    max: 231
+    color: "00FF00"
+
+  2:
+    label: "mCherry" 
+    min: 1
+    max: 205
+    color: "FF0000"

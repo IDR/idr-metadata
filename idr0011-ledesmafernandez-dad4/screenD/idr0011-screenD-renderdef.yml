@@ -1,0 +1,18 @@
+# min and max set, labels and colours the same as on import
+
+channels:
+  1:
+    label: "TagYFP"
+    min: 65
+    max: 1700
+    color: "FFFF00"
+  2:
+    label: "mRFP1.2"
+    min: 75
+    max: 1900
+    color: "FF0500"
+  3:
+    label: "TL DIC"
+    min: 570
+    max: 2500
+    color: "FFFFFF"

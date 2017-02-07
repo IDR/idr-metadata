@@ -1,0 +1,27 @@
+# min+max and colours changed from original import
+
+channels:
+  1:
+    label: "TRITC"
+    min: 623
+    max: 4095
+    color: "FF0000"
+
+  2:
+    label: "TRITC2" 
+    min: 467
+    max: 3570
+    color: "0000FF"
+    active: False
+
+  3:
+    label: "FITC"
+    min: 586
+    max: 4095
+    color: "00FF00"
+
+  4:
+    label: "Dapi"
+    min: 465
+    max: 2232
+    color: "0000FF"
