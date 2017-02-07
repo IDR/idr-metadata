@@ -40,8 +40,7 @@ populate_ann () {
 
 
 while read -r obj path ns; do
-    # IMPORTANT EOL
-    echo "$obj $path $ns #######################"
+    echo "#####  BEGINNING $obj $path $ns  #####"
 
     # delete annotations
     set +x
@@ -59,5 +58,6 @@ while read -r obj path ns; do
     populate_ann $obj "$IDR_METADATA/$path" $ns
     $OMERO_DIST/bin/omero logout
 
-    echo "$obj DONE ##################################"
+    echo "#####  $obj DONE  #####"
 done < demo33_input.txt
+# IMPORTANT EOL

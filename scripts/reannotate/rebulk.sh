@@ -32,12 +32,13 @@ echo "Logged in $username@$host"
 set -x
 
 while read -r obj path; do
-    # IMPORTANT EOL
-    echo $obj $path
+    echo "#####  BEGINNING $obj $path  #####"
 
     # generate new table
     create_bulk $obj "$IDR_METADATA/$path"
 
+    echo "#####  END $obj $path  #####"
 done < demo33_input_bulk.txt
+# IMPORTANT EOL
 
 $OMERO_DIST/bin/omero logout
