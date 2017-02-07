@@ -12,7 +12,7 @@ create_bulk () {
     if [ -n "$object" ] &&[ -n "$path" ]; then
         # generate new table
         echo "generate new bulk annotation $object $path"
-        echo $OMERO_DIST/bin/omero metadata populate --file $path-annotation.csv $object
+        $OMERO_DIST/bin/omero metadata populate --file $path-annotation.csv $object
     fi
 }
 

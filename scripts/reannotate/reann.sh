@@ -12,7 +12,7 @@ delete_ann () {
     if [ -n "$object" ] && [ -n "$ns" ]; then
         # delete annotations
         echo "delete $ns annotations $object"
-        echo $OMERO_DIST/bin/omero metadata populate --batch 10 --wait 600 --context deletemap --localcfg $ns $object --report
+        $OMERO_DIST/bin/omero metadata populate --batch 10 --wait 600 --context deletemap --localcfg $ns $object --report
     fi
 }
 
