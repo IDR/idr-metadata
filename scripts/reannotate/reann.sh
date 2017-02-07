@@ -24,7 +24,7 @@ delete_ann () {
     if [ -n "$object" ] && [ -n "$ns" ]; then
         # delete annotations
         echo "delete $ns annotations $object"
-        $OMERO_DIST/bin/omero metadata populate --batch 10 --wait 600 --context deletemap --localcfg "{\"ns\":\"$ns\"}" $object --report
+        $OMERO_DIST/bin/omero metadata populate --batch 10 --wait 600 --context deletemap --localcfg "{\"ns\":\"$ns\"}" $object --report >> "log_delete_ann_$object" 2>&1
     fi
 }
 
@@ -36,7 +36,7 @@ populate_ann () {
     if [ -n "$object" ] && [ -n "$path" ] && [ -n "$ns" ]; then
         # populate new annotations
         echo "populate new $ns annotations $object $path"
-        $OMERO_DIST/bin/omero metadata populate --context bulkmap --cfg $path-bulkmap-config.yml $object --localcfg "{\"ns\":\"$ns\"}" --report
+        $OMERO_DIST/bin/omero metadata populate --context bulkmap --cfg $path-bulkmap-config.yml $object --localcfg "{\"ns\":\"$ns\"}" --report >> "log_populate_ann_$object" 2>&1
     fi
 }
 
