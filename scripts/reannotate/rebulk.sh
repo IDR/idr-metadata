@@ -2,7 +2,7 @@
 
 set -e -u -x
 
-OMERO_DIST='/home/omero/workspace/OMERO-server/OMERO.server'
+OMERO_DIST='/home/omero/OMERO.server'
 IDR_METADATA='/tmp/idr-metadata'
 
 
@@ -11,16 +11,17 @@ create_bulk () {
     path=${2:-};
     if [ -n "$object" ] &&[ -n "$path" ]; then
         # generate new table
-        echo "create_bulk for $object $path"
+        echo "generate new bulk annotation $object $path"
         echo $OMERO_DIST/bin/omero metadata populate --file $path-annotation.csv $object
     fi
 }
 
 
 while read -r obj path; do
+    # IMPORTANT EOL
     echo $obj $path
 
     # generate new table
     create_bulk $obj "$IDR_METADATA/$path"
 
-done < input_bulk.txt
+done < demo33_input_bulk.txt
