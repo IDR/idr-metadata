@@ -20,8 +20,8 @@ IDR_METADATA='/tmp/idr-metadata'
 
 
 create_bulk () {
-    object=${1:-};
-    path=${2:-};
+    local object=${1:-};
+    local path=${2:-};
     if [ -n "$object" ] &&[ -n "$path" ]; then
         # generate new table
         echo "generate new bulk annotation $object $path"

@@ -19,8 +19,8 @@ IDR_METADATA='/tmp/idr-metadata'
 
 
 delete_ann () {
-    object=${1:-};
-    ns=${2:-};
+    local object=${1:-};
+    local ns=${2:-};
     if [ -n "$object" ] && [ -n "$ns" ]; then
         # delete annotations
         echo "delete $ns annotations $object"
@@ -30,9 +30,9 @@ delete_ann () {
 
 
 populate_ann () {
-    object=${1:-};
-    path=${2:-};
-    ns=${3:-};
+    local object=${1:-};
+    local path=${2:-};
+    local ns=${3:-};
     if [ -n "$object" ] && [ -n "$path" ] && [ -n "$ns" ]; then
         # populate new annotations
         echo "populate new $ns annotations $object $path"
