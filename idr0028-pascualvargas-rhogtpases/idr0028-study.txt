@@ -56,7 +56,7 @@ Screen Technology Term Accession	EFO_0007551
 Screen Type	primary screen																																																																																																																																										
 Screen Type Term Source REF	EFO																																																																																																																																										
 Screen Type Term Accession	EFO_0007556																																																																																																																																										
-Screen Comments																																																																																																																																											
+Screen Comments	"Annotations in library, processed and annotation files were updated on 3-6th Feb 2017 and in IDR on 9th Feb 2017."																																																																																																																																										
 																																																																																																																																											
 "# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)"																																																																																																																																											
 Library File Name	idr0028-screenA-library.txt																																																																																																																																										
@@ -198,7 +198,7 @@ Screen Technology Term Accession	EFO_0007551
 Screen Type	primary screen																																																																																																																																										
 Screen Type Term Source REF	EFO																																																																																																																																										
 Screen Type Term Accession	EFO_0007556																																																																																																																																										
-Screen Comments																																																																																																																																											
+Screen Comments	"Annotations in library, processed and annotation files were updated on 3-6th Feb 2017 and in IDR on 9th Feb 2017."																																																																																																																																										
 																																																																																																																																											
 "# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)"																																																																																																																																											
 Library File Name	idr0028-screenC-library.txt																																																																																																																																										
