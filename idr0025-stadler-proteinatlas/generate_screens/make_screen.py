@@ -15,6 +15,7 @@ EXPECTED_FIELDS = [(0, 0), (0, 1), (1, 0), (1, 1)]  # X, Y values
 ROWS = 8
 COLUMNS = 12
 FIELDS = 4
+EXCLUDE_READERS = ["loci.formats.in.TCSReader"]
 
 
 def parse_cl(argv):
@@ -77,7 +78,8 @@ def build_pattern(fnames):
 def write_screen(data_dir, plate, outf):
     d = group_files(data_dir)
     consistency_check(d)
-    writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS)
+    writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS,
+                          exclude_readers=EXCLUDE_READERS)
     for idx in xrange(ROWS * COLUMNS):
         well_coords = writer.index2d(idx)
         field_values = []
