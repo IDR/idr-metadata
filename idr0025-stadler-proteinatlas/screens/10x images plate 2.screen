@@ -3,6 +3,7 @@ Name = 10x images plate 2
 Rows = 8
 Columns = 12
 Fields = 4
+ExcludeReaders = loci.formats.in.TCSReader
 
 [Well 0]
 Row = 0
