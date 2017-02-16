@@ -33,13 +33,15 @@ class ScreenIO(object):
 
 class ScreenWriter(ScreenIO):
 
-    def __init__(self, name, rows, columns, fields, screen_name=None):
+    def __init__(self, name, rows, columns, fields, screen_name=None,
+                 exclude_readers=None):
         super(ScreenWriter, self).__init__()
         self.name = name
         self.rows = int(rows)
         self.columns = int(columns)
         self.fields = int(fields)
         self.screen_name = screen_name
+        self.exclude_readers = exclude_readers
         self.alpha_map = dict(enumerate(string.uppercase))
         self.reset()
 
@@ -57,6 +59,9 @@ class ScreenWriter(ScreenIO):
         self.cp.set(PLATE, "Rows", "%d" % self.rows)
         self.cp.set(PLATE, "Columns", "%d" % self.columns)
         self.cp.set(PLATE, "Fields", "%d" % self.fields)
+        if self.exclude_readers:
+            self.cp.set(PLATE, "ExcludeReaders",
+                        ",".join(self.exclude_readers))
 
     def coordinates(self, idx):
         i, j = self.index2d(idx)
