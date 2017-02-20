@@ -48,7 +48,8 @@ def get_ch_block(grouplist):
     )
     ch_tags = ["[%s] [%s]_C%s" % _ for _ in ch_tag_elems]
     ch_block = "<%s>" % ",".join(ch_tags)
-    return ch_block
+    ch_names = [_[0] for _ in ch_tag_elems]
+    return ch_block, ch_names
 
 
 def get_t_block(grouplist):
@@ -66,9 +67,10 @@ def get_pattern(grouplist):
     n_timepoints = len(set(_[4] for _ in grouplist))
     assert len(grouplist) == n_channels * n_timepoints  # (no "holes")
     assert_related_ch(grouplist)
+    ch_block, ch_names = get_ch_block(grouplist)
     return "%s - PMT %s_Time Time%s.ome.tif" % (
-        grouplist[0][0], get_ch_block(grouplist), get_t_block(grouplist)
-    )
+        grouplist[0][0], ch_block, get_t_block(grouplist)
+    ), ch_names
 
 
 def group_files(data_dir):
@@ -81,20 +83,25 @@ def group_files(data_dir):
         except (AttributeError, ValueError):
             sys.stderr.write("unexpected pattern: %s\n" % bn)
         d.setdefault(int(field), []).append(groups)
+    ch_sets = []
     for field_idx, grouplist in d.iteritems():
-        d[field_idx] = get_pattern(grouplist)
-    return d
+        pattern, ch_names = get_pattern(grouplist)
+        d[field_idx] = pattern
+        ch_sets.append(ch_names)
+    assert len(set(tuple(_) for _ in ch_sets)) == 1
+    return d, ch_sets[0]
 
 
 def write_screen(data_dir, plate, outf):
-    d = group_files(data_dir)
+    d, ch_names = group_files(data_dir)
+    extra_kv = {"AxisTypes": "CT", "ChannelNames": ",".join(ch_names)}
     n_fields = len(d)
     writer = ScreenWriter(plate, ROWS, COLUMNS, n_fields)
     assert ROWS == COLUMNS == 1
     field_values = []
     for field_idx in sorted(d):
         field_values.append(os.path.join(data_dir, d[field_idx]))
-    writer.add_well(field_values)
+    writer.add_well(field_values, extra_kv=extra_kv)
     writer.write(outf)
 
 
