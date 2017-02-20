@@ -17,7 +17,7 @@ def main(argv):
     this_dir = os.path.dirname(os.path.abspath(__file__))
     parent = os.path.dirname(this_dir)
     screens_dir = os.path.join(parent, "screens")
-    plates_fn = os.path.join(parent, "screenA", "idr0012-screenA-plates.tsv")
+    plates_fn = os.path.join(parent, "screenA", "idr0025-screenA-plates.tsv")
     rel_screens_dir = os.path.join(os.pardir, "screens")  # wrt plates_fn
     try:
         os.makedirs(screens_dir)
