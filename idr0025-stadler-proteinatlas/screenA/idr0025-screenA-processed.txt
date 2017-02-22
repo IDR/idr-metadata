@@ -1,0 +1,73 @@
+Antibody Identifier	Validated localizations	Has Phenotype	Phenotype Annotation Level	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9	Phenotype 10	Phenotype 11	Phenotype 12	Phenotype 13	Phenotype 14
+HPA000861	none																
+HPA001603	none																
+HPA001648	none																
+HPA001925	none																
+HPA002315	none																
+HPA003908	none																
+HPA004886	none																
+HPA005800	none																
+HPA006376	none																
+HPA008425	none																
+HPA009040	none																
+HPA009079	none																
+HPA006035	"Main antibody IF location: Actin filaments, Additional antibody IF location: Nucleoli"	yes	antibody	antibody localized in actin filaments										antibody localized in nucleoli			
+HPA010803	Main antibody IF location: Endoplasmic reticulum	yes	antibody						antibody localized in endoplasmic reticulum								
+HPA007599	"Main antibody IF location: Endoplasmic reticulum, Additional antibody IF location: Mitochondria"	yes	antibody						antibody localized in endoplasmic reticulum		antibody localized in mitochondria						
+HPA001909	Main antibody IF location: Endoplasmic reticulum;Plasma membrane	yes	antibody		antibody localized in plasma membrane				antibody localized in endoplasmic reticulum								
+HPA002529	"Main antibody IF location: Golgi apparatus, Additional antibody IF location: Cytosol"	yes	antibody					antibody localized in cytoplasm		antibody localized in Golgi apparatus							
+HPA001193	"Main antibody IF location: Golgi apparatus, Additional antibody IF location: Nucleoli fibrillar center;Cytosol"	yes	antibody					antibody localized in cytoplasm		antibody localized in Golgi apparatus							antibody localized in nucleoli fibrillar center
+HPA003093	"Main antibody IF location: Golgi apparatus, Additional antibody IF location: Nucleus;Cytosol"	yes	antibody					antibody localized in cytoplasm		antibody localized in Golgi apparatus		antibody localized in nucleus					
+HPA001393	"Main antibody IF location: Golgi apparatus, Additional antibody IF location: Vesicles;Plasma membrane"	yes	antibody		antibody localized in plasma membrane					antibody localized in Golgi apparatus							
+HPA002823	Main antibody IF location: Microtubules	yes	antibody				antibody localized in microtubules										
+HPA011144	Main antibody IF location: Mitochondria	yes	antibody								antibody localized in mitochondria						
+HPA008461	"Main antibody IF location: Nuclear membrane, Additional antibody IF location: Vesicles"	yes	antibody										antibody localized in nuclear membrane		antibody localized in vesicles		
+HPA006429	"Main antibody IF location: Nucleoplasm, Additional antibody IF location: Golgi apparatus"	yes	antibody							antibody localized in Golgi apparatus						antibody localized in nucleoplasm	
+HPA001185	"Main antibody IF location: Nucleoplasm, Additional antibody IF location: Vesicles"	yes	antibody												antibody localized in vesicles		
+HPA006403	Multiple compartment localization: Cyto-	yes	antibody					antibody localized in cytoplasm									
+HPA001897	Multiple compartment localization: Nuc -	yes	antibody									antibody localized in nucleus					
+HPA004101	Multiple compartment localization: Nuc -	yes	antibody									antibody localized in nucleus					
+HPA007856	Multiple compartment localization: Nuc golgi	yes	antibody							antibody localized in Golgi apparatus		antibody localized in nucleus					
+HPA002930	Multiple compartment localization: Nuc Ves	yes	antibody									antibody localized in nucleus			antibody localized in vesicles		
+HPA009025	Multiple compartment localization: Nucl cyto	yes	antibody					antibody localized in cytoplasm						antibody localized in nucleoli			
+HPA006028	Single compartment localization: Csk act fil	yes	antibody	antibody localized in actin filaments													
+HPA008066	Single compartment localization: Csk act fil PM	yes	antibody	antibody localized in actin filaments	antibody localized in plasma membrane												
+HPA001762	Single compartment localization: Csk int fil	yes	antibody			antibody localized in intermediate filaments											
+HPA007007	Single compartment localization: Csk int fil	yes	antibody			antibody localized in intermediate filaments											
+HPA000905	Single compartment localization: Csk mt	yes	antibody				antibody localized in microtubules										
+HPA003438	Single compartment localization: Csk mt	yes	antibody				antibody localized in microtubules										
+HPA000525	Single compartment localization: Cyto	yes	antibody					antibody localized in cytoplasm									
+HPA002383	Single compartment localization: Cyto	yes	antibody					antibody localized in cytoplasm									
+HPA003570	Single compartment localization: Cyto	yes	antibody					antibody localized in cytoplasm									
+HPA004798	Single compartment localization: Cyto	yes	antibody					antibody localized in cytoplasm									
+HPA008237	Single compartment localization: Cyto	yes	antibody					antibody localized in cytoplasm									
+HPA008419	Single compartment localization: Cyto	yes	antibody					antibody localized in cytoplasm									
+HPA005724	"Single compartment localization: Cyto,PM"	yes	antibody		antibody localized in plasma membrane			antibody localized in cytoplasm									
+HPA003178	Single compartment localization: ER	yes	antibody						antibody localized in endoplasmic reticulum								
+HPA008001	Single compartment localization: ER	yes	antibody						antibody localized in endoplasmic reticulum								
+HPA009696	Single compartment localization: ER	yes	antibody						antibody localized in endoplasmic reticulum								
+HPA000992	Single compartment localization: Golgi	yes	antibody							antibody localized in Golgi apparatus							
+HPA008395	Single compartment localization: Golgi	yes	antibody							antibody localized in Golgi apparatus							
+HPA001523	Single compartment localization: Mito	yes	antibody								antibody localized in mitochondria						
+HPA002867	Single compartment localization: Mito	yes	antibody								antibody localized in mitochondria						
+HPA002907	Single compartment localization: Mito	yes	antibody								antibody localized in mitochondria						
+HPA003638	Single compartment localization: Mito	yes	antibody								antibody localized in mitochondria						
+HPA004428	Single compartment localization: Mito	yes	antibody								antibody localized in mitochondria						
+HPA007044	Single compartment localization: Mito	yes	antibody								antibody localized in mitochondria						
+HPA008333	Single compartment localization: Mito	yes	antibody								antibody localized in mitochondria						
+HPA010649	Single compartment localization: Mito	yes	antibody								antibody localized in mitochondria						
+HPA011562	Single compartment localization: Mito	yes	antibody								antibody localized in mitochondria						
+HPA002031	Single compartment localization: Nuc	yes	antibody									antibody localized in nucleus					
+HPA008270	Single compartment localization: Nuc	yes	antibody									antibody localized in nucleus					
+HPA008150	Single compartment localization: Nuc and nuc membrane	yes	antibody									antibody localized in nucleus	antibody localized in nuclear membrane				
+HPA006779	Single compartment localization: Nuc and nucleoli	yes	antibody									antibody localized in nucleus		antibody localized in nucleoli			
+HPA005435	Single compartment localization: Nuc membrane	yes	antibody										antibody localized in nuclear membrane				
+HPA001634	Single compartment localization: Nuc w/o nucl	yes	antibody													antibody localized in nucleoplasm	
+HPA002691	Single compartment localization: Nuc w/o nucl	yes	antibody													antibody localized in nucleoplasm	
+HPA003601	Single compartment localization: Nuc w/o nucl	yes	antibody													antibody localized in nucleoplasm	
+HPA003916	Single compartment localization: Nuc w/o nucl	yes	antibody													antibody localized in nucleoplasm	
+HPA001214	Single compartment localization: PM	yes	antibody		antibody localized in plasma membrane												
+HPA005730	Single compartment localization: PM	yes	antibody		antibody localized in plasma membrane												
+HPA001619	Single compartment localization: Ves	yes	antibody												antibody localized in vesicles		
+HPA003414	Single compartment localization: Ves	yes	antibody												antibody localized in vesicles		
+HPA007959	Single compartment localization: Ves	yes	antibody												antibody localized in vesicles		
