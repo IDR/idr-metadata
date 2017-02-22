@@ -40,7 +40,6 @@ columns:
   - name: Phenotype Annotation Level
     include: yes
 
-
 ######################################################################
 # mapr groups
 ######################################################################
@@ -57,14 +56,12 @@ columns:
       columns:
       - name: siRNA Identifier
         include: yes
-	omitempty: no
+        omitempty: no
       - name: siRNA Identifier
         clientname: siRNA Pool Identifier
         clientvalue: ""
         include: yes
         omitempty: no
-
-
 
   - group:
       namespace: openmicroscopy.org/mapr/sirna/supplementary
@@ -83,10 +80,10 @@ columns:
       columns:
       - name: Antibody Identifier
         include: yes
-	omitempty: no
+        omitempty: no
       - name: Antibody Identifier
         clientname: Antibody Identifier URL
-	clientvalue: http://www.proteinatlas.org/search/{{ value|urlencode }}
+        clientvalue: http://www.proteinatlas.org/search/{{ value|urlencode }}
         include: yes
 
   - group:
@@ -99,20 +96,19 @@ columns:
       - name: Volume of Antibody
         include: yes
 
-
   - group:
       namespace: openmicroscopy.org/mapr/gene
       columns:
       - name: Gene Identifier
         include: yes
-	omitempty: no
+        omitempty: no
       - name: Gene Identifier
         clientname: Gene Identifier URL
         clientvalue: http://www.ensembl.org/id/{{ value|urlencode }}
         include: yes
       - name: Gene Symbol
         include: yes
-	omitempty: no
+        omitempty: no
 
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
