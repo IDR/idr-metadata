@@ -15,17 +15,7 @@ import os
 import errno
 from argparse import ArgumentParser
 
-from common import ROOT, get_data_dirs
-
-
-def mkdir_p(path):
-    try:
-        os.makedirs(path)
-    except OSError as e:
-        if e.errno == errno.EEXIST:
-            pass
-        else:
-            raise
+from common import ROOT, get_data_dirs, mkdir_p
 
 
 def parse_cl(argv):

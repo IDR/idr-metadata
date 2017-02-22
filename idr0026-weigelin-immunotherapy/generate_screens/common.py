@@ -1,8 +1,20 @@
+import os
+import errno
 import glob
 
 
 ROOT = ("/uod/idr/filesets/idr0026-weigelin-immunotherapy/20160701-original/"
         "PNAS_2015")
+
+
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as e:
+        if e.errno == errno.EEXIST:
+            pass
+        else:
+            raise
 
 
 def get_data_dirs():
