@@ -2,15 +2,11 @@
 
 import sys
 import os
-import glob
 import errno
 import operator
 
 import make_screen
-
-
-ROOT = ("/uod/idr/filesets/idr0026-weigelin-immunotherapy/20160701-original/"
-        "PNAS_2015")
+from common import get_data_dirs
 
 
 def map_dir_names(data_dirs):
@@ -28,11 +24,7 @@ def map_dir_names(data_dirs):
 
 
 def main(argv):
-    data_dirs = glob.glob("%s/treatment*/mouse*/day*/time lapse/*" % ROOT)
-    data_dirs = [_ for _ in data_dirs if "mouse 64/day 6-3" not in _]
-    data_dirs.append(
-        "%s/treatment start day 3/mouse 64/day 6-3/time lapse" % ROOT
-    )
+    data_dirs = get_data_dirs()
     name_map = map_dir_names(data_dirs)
     this_dir = os.path.dirname(os.path.abspath(__file__))
     parent = os.path.dirname(this_dir)
