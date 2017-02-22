@@ -17,10 +17,30 @@ def mkdir_p(path):
             raise
 
 
-def get_data_dirs():
-    data_dirs = glob.glob("%s/treatment*/mouse*/day*/time lapse/*" % ROOT)
+def get_data_dirs(root=ROOT):
+    data_dirs = glob.glob("%s/treatment*/mouse*/day*/time lapse/*" % root)
     data_dirs = [_ for _ in data_dirs if "mouse 64/day 6-3" not in _]
     data_dirs.append(
-        "%s/treatment start day 3/mouse 64/day 6-3/time lapse" % ROOT
+        "%s/treatment start day 3/mouse 64/day 6-3/time lapse" % root
     )
     return data_dirs
+
+
+def map_dir_names(data_dirs):
+    name_map = {}
+    for d in data_dirs:
+        parts = d.split("/")
+        assert len(parts) >= 4
+        if parts[-1] == "time lapse":  # mouse 64/day 6-3 exception
+            treatment, mouse, day = [
+                _.rsplit(" ", 1)[-1] for _ in parts[-4:-1]
+            ]
+            t = "NONE"
+        else:
+            treatment, mouse, day = [
+                _.rsplit(" ", 1)[-1] for _ in parts[-5:-2]
+            ]
+            t = parts[-1]
+        # use '.' since '_' and '-' are already present in the parts
+        name_map[d] = ".".join([treatment, mouse, day, t])
+    return name_map

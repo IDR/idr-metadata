@@ -6,21 +6,7 @@ import errno
 import operator
 
 import make_screen
-from common import get_data_dirs
-
-
-def map_dir_names(data_dirs):
-    name_map = {}
-    for d in data_dirs:
-        parts = d.split("/")
-        treatment, mouse, day = [_.rsplit(" ", 1)[-1] for _ in parts[7:10]]
-        try:
-            t = parts[11]
-        except IndexError:  # mouse 64/day 6-3 exception
-            t = "NONE"
-        # use '.' since '_' and '-' are already present in the parts
-        name_map[d] = ".".join([treatment, mouse, day, t])
-    return name_map
+from common import get_data_dirs, map_dir_names
 
 
 def main(argv):

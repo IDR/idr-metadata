@@ -67,10 +67,14 @@ def group_files(data_dir):
 
 def write_patterns(data_dir, outdir, tag):
     d = group_files(data_dir)
+    pairs = []
     for field, pattern in d.iteritems():
-        out_fn = os.path.join(outdir, "%s.%s.pattern" % (tag, field))
+        out_bn = "%s.%s.pattern" % (tag, field)
+        pairs.append((field, out_bn))
+        out_fn = os.path.join(outdir, out_bn)
         with open(out_fn, "w") as fo:
             fo.write("%s\n" % pattern)
+    return [_[1] for _ in sorted(pairs)]
 
 
 def main(argv):
@@ -78,7 +82,8 @@ def main(argv):
     if not args.tag:
         args.tag = os.path.basename(os.path.normpath(args.dir))
     mkdir_p(args.out_dir)
-    write_patterns(args.dir, args.out_dir, args.tag)
+    out_bnames = write_patterns(args.dir, args.out_dir, args.tag)
+    return out_bnames
 
 
 if __name__ == "__main__":
