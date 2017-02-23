@@ -70,7 +70,7 @@ columns:
         include: yes
       - name: Antisense Sequence
         include: yes
-      - name:siRNA Dose
+      - name: siRNA Dose
         include: yes
       - name: Reagent Design Gene Annotation Build
         include: yes
