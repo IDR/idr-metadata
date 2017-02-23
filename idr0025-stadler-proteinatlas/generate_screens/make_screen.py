@@ -54,6 +54,12 @@ def group_files(data_dir):
                 row -= 4
             if row_group == 'E' and 0 <= row <= 3:
                 row += 4
+            # --- Adjust for REVERSED ORDER cases -------------
+            if "REVERSED ORDER" in bn:
+                if 4 <= row <= 7:
+                    row = 11 - row
+                if 0 <= row <= 3:
+                    row = 3 - row
             # -------------------------------------------------
             well = d.setdefault((row, column), {})
             field = well.setdefault((x, y), [])
