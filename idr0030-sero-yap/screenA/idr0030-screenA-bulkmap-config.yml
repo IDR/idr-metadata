@@ -218,7 +218,7 @@ columns:
       - name: Phenotype 8
         clientname: Phenotype
         include: yes
-	
+
   - group:
       namespace: openmicroscopy.org/mapr/phenotype
       columns:
