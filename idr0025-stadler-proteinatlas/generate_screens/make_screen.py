@@ -68,6 +68,12 @@ def group_files(data_dir):
 
 
 def build_pattern(fnames):
+    """\
+    Build file patterns for each field.
+
+    Author stated: "in cases with 4 channels one of them is empty.
+    ch0 = DAPI, ch01 = empty, ch02 = HPA and ch03 = microtubules".
+    """
     n_channels = len(fnames)
     assert n_channels > 0
     assert len(set(os.path.dirname(_) for _ in fnames)) == 1
@@ -77,7 +83,11 @@ def build_pattern(fnames):
     assert len(set(_[0] for _ in groups)) == 1
     head = groups[0][0]
     assert set(int(_[1]) for _ in groups) == set(range(n_channels))
-    block = "<0-%d>" % (n_channels - 1)
+    assert 3 <= n_channels <= 4
+    if n_channels > 3:
+        block = "<0,2,3>"
+    else:
+        block = "<0-%d>" % (n_channels - 1)
     return os.path.join(dirname, "%s_ch0%s.tif" % (head, block))
 
 

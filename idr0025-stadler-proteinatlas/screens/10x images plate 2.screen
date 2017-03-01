@@ -80,18 +80,18 @@ Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x im
 [Well 9]
 Row = 0
 Column = 9
-Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 0_X 0_Y 0_Job(Seq.Scan) 1 01 01_001_z0_ch0<0-3>.tif
-Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 0_X 0_Y 1_Job(Seq.Scan) 1 01 01_007_z0_ch0<0-3>.tif
-Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 0_X 1_Y 0_Job(Seq.Scan) 1 01 01_003_z0_ch0<0-3>.tif
-Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 0_X 1_Y 1_Job(Seq.Scan) 1 01 01_005_z0_ch0<0-3>.tif
+Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 0_X 0_Y 0_Job(Seq.Scan) 1 01 01_001_z0_ch0<0,2,3>.tif
+Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 0_X 0_Y 1_Job(Seq.Scan) 1 01 01_007_z0_ch0<0,2,3>.tif
+Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 0_X 1_Y 0_Job(Seq.Scan) 1 01 01_003_z0_ch0<0,2,3>.tif
+Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 0_X 1_Y 1_Job(Seq.Scan) 1 01 01_005_z0_ch0<0,2,3>.tif
 
 [Well 10]
 Row = 0
 Column = 10
-Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 0_X 0_Y 0_Job(Seq.Scan) 1 01 01_001_z0_ch0<0-3>.tif
-Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 0_X 0_Y 1_Job(Seq.Scan) 1 01 01_007_z0_ch0<0-3>.tif
-Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 0_X 1_Y 0_Job(Seq.Scan) 1 01 01_003_z0_ch0<0-3>.tif
-Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 0_X 1_Y 1_Job(Seq.Scan) 1 01 01_005_z0_ch0<0-3>.tif
+Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 0_X 0_Y 0_Job(Seq.Scan) 1 01 01_001_z0_ch0<0,2,3>.tif
+Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 0_X 0_Y 1_Job(Seq.Scan) 1 01 01_007_z0_ch0<0,2,3>.tif
+Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 0_X 1_Y 0_Job(Seq.Scan) 1 01 01_003_z0_ch0<0,2,3>.tif
+Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 0_X 1_Y 1_Job(Seq.Scan) 1 01 01_005_z0_ch0<0,2,3>.tif
 
 [Well 11]
 Row = 0
@@ -176,18 +176,18 @@ Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x im
 [Well 21]
 Row = 1
 Column = 9
-Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 1_X 0_Y 0_Job(Seq.Scan) 1 01 01_009_z0_ch0<0-3>.tif
-Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 1_X 0_Y 1_Job(Seq.Scan) 1 01 01_015_z0_ch0<0-3>.tif
-Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 1_X 1_Y 0_Job(Seq.Scan) 1 01 01_011_z0_ch0<0-3>.tif
-Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 1_X 1_Y 1_Job(Seq.Scan) 1 01 01_013_z0_ch0<0-3>.tif
+Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 1_X 0_Y 0_Job(Seq.Scan) 1 01 01_009_z0_ch0<0,2,3>.tif
+Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 1_X 0_Y 1_Job(Seq.Scan) 1 01 01_015_z0_ch0<0,2,3>.tif
+Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 1_X 1_Y 0_Job(Seq.Scan) 1 01 01_011_z0_ch0<0,2,3>.tif
+Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 1_X 1_Y 1_Job(Seq.Scan) 1 01 01_013_z0_ch0<0,2,3>.tif
 
 [Well 22]
 Row = 1
 Column = 10
-Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 1_X 0_Y 0_Job(Seq.Scan) 1 01 01_009_z0_ch0<0-3>.tif
-Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 1_X 0_Y 1_Job(Seq.Scan) 1 01 01_015_z0_ch0<0-3>.tif
-Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 1_X 1_Y 0_Job(Seq.Scan) 1 01 01_011_z0_ch0<0-3>.tif
-Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 1_X 1_Y 1_Job(Seq.Scan) 1 01 01_013_z0_ch0<0-3>.tif
+Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 1_X 0_Y 0_Job(Seq.Scan) 1 01 01_009_z0_ch0<0,2,3>.tif
+Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 1_X 0_Y 1_Job(Seq.Scan) 1 01 01_015_z0_ch0<0,2,3>.tif
+Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 1_X 1_Y 0_Job(Seq.Scan) 1 01 01_011_z0_ch0<0,2,3>.tif
+Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 1_X 1_Y 1_Job(Seq.Scan) 1 01 01_013_z0_ch0<0,2,3>.tif
 
 [Well 23]
 Row = 1
@@ -272,18 +272,18 @@ Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x im
 [Well 33]
 Row = 2
 Column = 9
-Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 2_X 0_Y 0_Job(Seq.Scan) 1 01 01_017_z0_ch0<0-3>.tif
-Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 2_X 0_Y 1_Job(Seq.Scan) 1 01 01_023_z0_ch0<0-3>.tif
-Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 2_X 1_Y 0_Job(Seq.Scan) 1 01 01_019_z0_ch0<0-3>.tif
-Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 2_X 1_Y 1_Job(Seq.Scan) 1 01 01_021_z0_ch0<0-3>.tif
+Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 2_X 0_Y 0_Job(Seq.Scan) 1 01 01_017_z0_ch0<0,2,3>.tif
+Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 2_X 0_Y 1_Job(Seq.Scan) 1 01 01_023_z0_ch0<0,2,3>.tif
+Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 2_X 1_Y 0_Job(Seq.Scan) 1 01 01_019_z0_ch0<0,2,3>.tif
+Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 2_X 1_Y 1_Job(Seq.Scan) 1 01 01_021_z0_ch0<0,2,3>.tif
 
 [Well 34]
 Row = 2
 Column = 10
-Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 2_X 0_Y 0_Job(Seq.Scan) 1 01 01_017_z0_ch0<0-3>.tif
-Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 2_X 0_Y 1_Job(Seq.Scan) 1 01 01_023_z0_ch0<0-3>.tif
-Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 2_X 1_Y 0_Job(Seq.Scan) 1 01 01_019_z0_ch0<0-3>.tif
-Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 2_X 1_Y 1_Job(Seq.Scan) 1 01 01_021_z0_ch0<0-3>.tif
+Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 2_X 0_Y 0_Job(Seq.Scan) 1 01 01_017_z0_ch0<0,2,3>.tif
+Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 2_X 0_Y 1_Job(Seq.Scan) 1 01 01_023_z0_ch0<0,2,3>.tif
+Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 2_X 1_Y 0_Job(Seq.Scan) 1 01 01_019_z0_ch0<0,2,3>.tif
+Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 2_X 1_Y 1_Job(Seq.Scan) 1 01 01_021_z0_ch0<0,2,3>.tif
 
 [Well 35]
 Row = 2
@@ -368,18 +368,18 @@ Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x im
 [Well 45]
 Row = 3
 Column = 9
-Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 3_X 0_Y 0_Job(Seq.Scan) 1 01 01_025_z0_ch0<0-3>.tif
-Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 3_X 0_Y 1_Job(Seq.Scan) 1 01 01_031_z0_ch0<0-3>.tif
-Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 3_X 1_Y 0_Job(Seq.Scan) 1 01 01_027_z0_ch0<0-3>.tif
-Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 3_X 1_Y 1_Job(Seq.Scan) 1 01 01_029_z0_ch0<0-3>.tif
+Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 3_X 0_Y 0_Job(Seq.Scan) 1 01 01_025_z0_ch0<0,2,3>.tif
+Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 3_X 0_Y 1_Job(Seq.Scan) 1 01 01_031_z0_ch0<0,2,3>.tif
+Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 3_X 1_Y 0_Job(Seq.Scan) 1 01 01_027_z0_ch0<0,2,3>.tif
+Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A10B10 ab 10 GOLIM4/Sequence/Loop_ 0/A 0_L 0_S 0_U 2_V 3_X 1_Y 1_Job(Seq.Scan) 1 01 01_029_z0_ch0<0,2,3>.tif
 
 [Well 46]
 Row = 3
 Column = 10
-Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 3_X 0_Y 0_Job(Seq.Scan) 1 01 01_025_z0_ch0<0-3>.tif
-Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 3_X 0_Y 1_Job(Seq.Scan) 1 01 01_031_z0_ch0<0-3>.tif
-Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 3_X 1_Y 0_Job(Seq.Scan) 1 01 01_027_z0_ch0<0-3>.tif
-Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 3_X 1_Y 1_Job(Seq.Scan) 1 01 01_029_z0_ch0<0-3>.tif
+Field_0 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 3_X 0_Y 0_Job(Seq.Scan) 1 01 01_025_z0_ch0<0,2,3>.tif
+Field_1 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 3_X 0_Y 1_Job(Seq.Scan) 1 01 01_031_z0_ch0<0,2,3>.tif
+Field_2 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 3_X 1_Y 0_Job(Seq.Scan) 1 01 01_027_z0_ch0<0,2,3>.tif
+Field_3 = /uod/idr/filesets/idr0025-stadler-proteinatlas/20160525-rawdata/10x images plate 2/plate 2 A11B11 ab 11 HK1/Sequence/Loop_ 0/A 0_L 0_S 0_U 1_V 3_X 1_Y 1_Job(Seq.Scan) 1 01 01_029_z0_ch0<0,2,3>.tif
 
 [Well 47]
 Row = 3
