@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0033-rohban-pathways/screenA"
+include: "../../bulk.yml"
+path: "idr0033-screenA-plates.tsv"
