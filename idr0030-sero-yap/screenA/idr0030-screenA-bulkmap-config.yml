@@ -289,8 +289,6 @@ columns:
         clientname: Phenotype
         include: yes
 
-
-
 # Advanced options (experimental)
 advanced:
     # If a map-annotation is attached to a well also attach it to all images
