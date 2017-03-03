@@ -301,7 +301,7 @@ advanced:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
       - Organism
-   - namespace: openmicroscopy.org/mapr/compound
+    - namespace: openmicroscopy.org/mapr/compound
       keys:
       - Compound Name
     - namespace: openmicroscopy.org/mapr/sirna
