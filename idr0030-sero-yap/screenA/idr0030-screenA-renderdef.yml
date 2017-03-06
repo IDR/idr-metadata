@@ -1,0 +1,17 @@
+---
+# channel 3 colour changed from original red -> yellow
+# can't change the channel names here because the vary from plate to plate
+
+channels:
+  1:
+    # blue
+    color: "0000FF"
+  2:
+    # green
+    color: "00FF00"
+  3:
+    # yellow
+    color: "FFFF00"
+  4:
+    # red
+    color: "FF0000"
