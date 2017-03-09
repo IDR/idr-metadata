@@ -87,7 +87,7 @@ columns:
         include: yes
 
   - group:
-      namespace: openmicroscopy.org/mapr/antibody/supplemntary
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
       columns:
       - name: Antibody Concentration
         include: yes
