@@ -64,7 +64,7 @@ columns:
       namespace: openmicroscopy.org/mapr/orf/supplementary
       columns:
       - name: ORF Sequence
-        clientvalue: {{ value|truncate(10) }}
+        clientvalue: {{value|truncate(10)}}
         include: yes
       - name: ORF Comments
         include: yes
