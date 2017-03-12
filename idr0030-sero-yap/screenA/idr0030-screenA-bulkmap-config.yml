@@ -197,6 +197,7 @@ columns:
       columns:
       - name: Phenotype 5
         clientname: Phenotype
+        include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/phenotype
