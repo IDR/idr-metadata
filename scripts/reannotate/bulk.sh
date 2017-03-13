@@ -2,6 +2,8 @@
 
 set -e
 
+inputname="$1"
+
 read -p 'Server:' host
 host="${host:=localhost:4064}"
 
@@ -38,7 +40,7 @@ while read -r obj path; do
     create_bulk $obj "$IDR_METADATA/$path"
 
     echo "#####  END $obj $path  #####"
-done < demo33_input_bulk.txt
+done < $inputname
 # IMPORTANT EOL
 
 $OMERO_DIST/bin/omero logout
