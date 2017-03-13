@@ -28,8 +28,11 @@ class TestScreenWriter(TestScreenIO):
         super(TestScreenWriter, self).setUp(screen_name=screen_name)
         fout = StringIO()
         self.all_field_values = []
+        self.exclude_readers = ["z.x.FooReader", "z.x.BarReader"]
         self.extra_kv = {"Dimensions": "ZCT"}
-        kwargs = {"screen_name": screen_name} if screen_name else {}
+        kwargs = {"exclude_readers": self.exclude_readers}
+        if screen_name:
+            kwargs["screen_name"] = screen_name
         writer = ScreenWriter(
             self.name, self.rows, self.columns, self.fields, **kwargs
         )
@@ -57,6 +60,9 @@ class TestScreenWriter(TestScreenIO):
         ]:
             self.assertTrue(self.cp.has_option(sec, k))
             self.assertEqual(self.cp.get(sec, k), str(v))
+        self.assertTrue(self.cp.has_option(sec, "ExcludeReaders"))
+        self.assertEqual(self.cp.get(sec, "ExcludeReaders"),
+                         ",".join(self.exclude_readers))
         if self.screen_name:
             self.assertEqual(self.cp.get(sec, "ScreenName"), self.screen_name)
         else:
