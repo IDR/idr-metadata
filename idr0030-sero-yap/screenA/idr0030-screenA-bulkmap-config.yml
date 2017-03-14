@@ -24,8 +24,6 @@ columns:
   - name: Characteristics [Cell Line]
     clientname: Cell Line
     include: yes
-  - name: Characteristics Comments
-    include: yes
 
   - name: Control Type
     include: yes
@@ -78,10 +76,11 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/sirna
       columns:
-      - name: siRNA Pool Identifier
+      - name: siRNA Identifier
+        split: ;
         include: yes
         omitempty: no
-      - name: siRNA Identifier
+      - name: siRNA Pool Identifier
         include: yes
         omitempty: no
 
@@ -89,6 +88,7 @@ columns:
       namespace: openmicroscopy.org/mapr/sirna/supplementary
       columns:
       - name: siRNA Sequences
+        split: ;
         include: yes
       - name: siRNA Library Name
         include: yes
@@ -197,6 +197,7 @@ columns:
       columns:
       - name: Phenotype 5
         clientname: Phenotype
+        include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/phenotype
