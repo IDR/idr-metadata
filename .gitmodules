@@ -1,0 +1,4 @@
+[submodule "idr0000-lastname-example"]
+	path = idr0000-lastname-example
+	url = git://github.com/IDR/idr0000-lastname-example
+	branch = master
