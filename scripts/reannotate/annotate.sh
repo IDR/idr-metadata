@@ -21,10 +21,14 @@ populate_ann () {
     local object=${1:-};
     local path=${2:-};
     local ns=${3:-};
-    if [ -n "$object" ] && [ -n "$path" ] && [ -n "$ns" ]; then
+    if [ -n "$object" ] && [ -n "$path" ] ; then
         # populate new annotations
         echo "populate new $ns annotations $object $path"
-        $OMERO_DIST/bin/omero metadata populate --context bulkmap --cfg $path-bulkmap-config.yml $object --localcfg "{\"ns\":\"$ns\"}" --report >> "log_populate_ann_$object" 2>&1
+        if [ -n "$ns" ]; then
+            $OMERO_DIST/bin/omero metadata populate --context bulkmap --cfg $path-bulkmap-config.yml $object --localcfg "{\"ns\":\"$ns\"}" --report >> "log_populate_ann_$object" 2>&1
+        else
+            $OMERO_DIST/bin/omero metadata populate --context bulkmap --cfg $path-bulkmap-config.yml $object --report >> "log_populate_ann_$object" 2>&1
+        fi
     fi
 }
 

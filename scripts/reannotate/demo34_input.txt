@@ -1,2 +1,3 @@
-Screen:1802  idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/mapr/sirna
-Screen:1802  idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/mapr/sirna/supplementary
+Screen:1751 idr0025-stadler-proteinatlas/screenA/idr0025-screenA
+Screen:1802 idr0030-sero-yap/screenA/idr0030-screenA
+Screen:1803 idr0033-rohban-pathways/screenA/idr0033-screenA

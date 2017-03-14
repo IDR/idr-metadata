@@ -21,10 +21,14 @@ IDR_METADATA='/tmp/idr-metadata'
 delete_ann () {
     local object=${1:-};
     local ns=${2:-};
-    if [ -n "$object" ] && [ -n "$ns" ]; then
+    if [ -n "$object" ]; then
         # delete annotations
         echo "delete $ns annotations $object"
-        $OMERO_DIST/bin/omero metadata populate --batch 100 --wait 120 --context deletemap --localcfg "{\"ns\":\"$ns\"}" $object --report >> "log_delete_ann_$object" 2>&1
+        if [ -n "$ns" ]; then
+            $OMERO_DIST/bin/omero metadata populate --batch 100 --wait 120 --context deletemap --localcfg "{\"ns\":\"$ns\"}" $object --report >> "log_delete_ann_$object" 2>&1
+        else
+            $OMERO_DIST/bin/omero metadata populate --batch 100 --wait 120 --context deletemap $object --report >> "log_delete_ann_$object" 2>&1
+        fi
     fi
 }
 
