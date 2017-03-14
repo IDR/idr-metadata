@@ -1,0 +1,326 @@
+ORF Identifier	Gene Allele Name	Gene Identifier	Gene Symbol	Median Replicate Correlation	Morphological Cluster ID	Has Phenotype	Phenotype Annotation Level	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8	Phenotype 9	Phenotype 10	Phenotype 11	Phenotype 12	Phenotype 13	Phenotype 14	Phenotype 15	Phenotype 16	Phenotype 17	Phenotype 18	Phenotype 19	Phenotype 20	Phenotype 21	Phenotype 22
+BRDN0000464846	CEBPA_WT.1	1050	CEBPA	0.877515333	18	yes	multiple reagents		enriched for slightly elongated						enriched for telophase/late telophase		enriched for apoptotic		de-enriched for extremely elongated			de-enriched for slightly large		de-enriched for multi-nucleate		de-enriched for disjoint bright mitochondria	slightly low cell density		
+BRDN0000464847	CEBPA_WT.2	1050	CEBPA	0.890052353	18	yes	multiple reagents		enriched for slightly elongated						enriched for telophase/late telophase		enriched for apoptotic		de-enriched for extremely elongated			de-enriched for slightly large		de-enriched for multi-nucleate		de-enriched for disjoint bright mitochondria	slightly low cell density		
+BRDN0000464848	CREBBP_WT	1387	CREBBP	0.017335299																									
+BRDN0000464849	ERBB2_WT.2	2064	ERBB2	0.101808901																									
+BRDN0000464850	KRAS_WT.1	3845	KRAS	0.42511341	19	yes	multiple reagents				enriched for huge		enriched for small asymmetric cells					de-enriched for slightly elongated	de-enriched for extremely elongated			de-enriched for slightly large							normal cell density
+BRDN0000464851	KRAS_WT.2	3845	KRAS	0.219735108																									
+BRDN0000464852	YAP1_WT.2	10413	YAP1	0.516797385	20	yes	multiple reagents		enriched for slightly elongated			enriched for slightly large				enriched for disjoint bright mitochondria							de-enriched for small asymmetric cells		de-enriched for telophase/late telophase				normal cell density
+BRDN0000464853	APC_WT	324	APC	NA																									
+BRDN0000464854	CTNNB1_WT	1499	CTNNB1	0.25961886																									
+BRDN0000464855	CSNK1A1_WT.3	1452	CSNK1A1	0.295687645																									
+BRDN0000464856	YAP1_WT.3	10413	YAP1	0.43010846	20	yes	multiple reagents		enriched for slightly elongated			enriched for slightly large				enriched for disjoint bright mitochondria							de-enriched for small asymmetric cells		de-enriched for telophase/late telophase				normal cell density
+BRDN0000464857	YAP1_WT.4	10413	YAP1	0.570262801	20	yes	multiple reagents		enriched for slightly elongated			enriched for slightly large				enriched for disjoint bright mitochondria							de-enriched for small asymmetric cells		de-enriched for telophase/late telophase				normal cell density
+BRDN0000464858	PKIA_WT	5569	PKIA	0.38248876																									
+BRDN0000464859	PRKACG_WT.3	5568	PRKACG	0.687494306																									
+BRDN0000464860	PER1_WT.2	5187	PER1	0.323932974																									
+BRDN0000464861	ATF6_WT.2	22926	ATF6	0.313706283																									
+BRDN0000464862	AKT1S1_WT.1	84335	AKT1S1	0.73856104	13	yes	multiple reagents	enriched for extremely elongated	enriched for slightly elongated												de-enriched for huge	de-enriched for slightly large	de-enriched for small asymmetric cells	de-enriched for multi-nucleate					normal cell density
+BRDN0000464863	AKT1S1_WT.2	84335	AKT1S1	0.731183656	13	yes	multiple reagents	enriched for extremely elongated	enriched for slightly elongated												de-enriched for huge	de-enriched for slightly large	de-enriched for small asymmetric cells	de-enriched for multi-nucleate					normal cell density
+BRDN0000464864	IRGM_WT.2	345611	IRGM	0.268880867																									
+BRDN0000464865	RBPJ_WT.2	3516	RBPJ	0.49281528	4	yes	multiple reagents				enriched for huge			enriched for multi-nucleate	enriched for telophase/late telophase			de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large						low cell density	
+BRDN0000464866	DLL1_WT	28514	DLL1	0.500477056																									
+BRDN0000464867	SMO_WT.1	6608	SMO	0.441970257																									
+BRDN0000464868	SMO_WT.2	6608	SMO	0.338743816	12	yes	multiple reagents					enriched for slightly large						de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular									normal cell density
+BRDN0000464869	GLI1_WT	2735	GLI1	0.729203892	8	yes	multiple reagents								enriched for telophase/late telophase		enriched for apoptotic		de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large		de-enriched for multi-nucleate				low cell density	
+BRDN0000464870	DEPTOR_WT.1	64798	DEPTOR	0.153725864																									
+BRDN0000464871	DEPTOR_WT.2	64798	DEPTOR	0.250941302																									
+BRDN0000464872	PPARGC1A_WT.1	10891	PPARGC1A	NA																									
+BRDN0000464873	PPARGC1A_WT.2	10891	PPARGC1A	0.65572204																									
+BRDN0000464874	MYD88_WT	4615	MYD88	NA																									
+BRDN0000464875	FOXO1_WT.1	2308	FOXO1	NA																									
+BRDN0000464876	FOXO1_WT.2	2308	FOXO1	0.324507092	25	yes	multiple reagents	enriched for extremely elongated	enriched for slightly elongated														de-enriched for small asymmetric cells			de-enriched for disjoint bright mitochondria		low cell density	
+BRDN0000464877	XBP1_WT.2	7494	XBP1	0.442566543	4	yes	multiple reagents				enriched for huge			enriched for multi-nucleate	enriched for telophase/late telophase			de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large						low cell density	
+BRDN0000464878	XBP1_WT.3	7494	XBP1	NA																									
+BRDN0000464879	PRKACA_WT.2	5566	PRKACA	0.79053577	8	yes	multiple reagents								enriched for telophase/late telophase		enriched for apoptotic		de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large		de-enriched for multi-nucleate				low cell density	
+BRDN0000464880	PIK3CA_WT.2	5290	PIK3CA	0.101235049																									
+BRDN0000464881	CHUK_WT.1.mismatch	1147	CHUK	NA																									
+BRDN0000464882	MAP3K9_WT	4293	MAP3K9	0.715433074																									
+BRDN0000464883	VEGFC_WT.2	7424	VEGFC	NA																									
+BRDN0000464884	CHUK_WT.2	1147	CHUK	0.156694946																									
+BRDN0000464885	ACVR1B_WT.2.mismatch	91	ACVR1B	NA																									
+BRDN0000464886	TGFBR1_WT.3	7046	TGFBR1	NA																									
+BRDN0000464887	TCF4_WT.1	6925	TCF4	0.484032626																									
+BRDN0000464888	DVL1_WT.2	1855	DVL1	0.246305712																									
+BRDN0000464889	SMAD3_WT.2	4088	SMAD3	NA																									
+BRDN0000464890	RELA_WT.2	5970	RELA	NA																									
+BRDN0000464891	EIF2A_WT.2	83939	EIF2A	NA																									
+BRDN0000464892	APAF1_WT	317	APAF1	NA																									
+BRDN0000464893	MAP2K4_WT.2	6416	MAP2K4	NA																									
+BRDN0000464894	MAP2K1_WT.2	5604	MAP2K1	NA																									
+BRDN0000464895	REL_WT.2	5966	REL	NA																									
+BRDN0000464896	EIF2A_WT.1	83939	EIF2A	0.264659364																									
+BRDN0000464897	GSK3B_WT.1	2932	GSK3B	0.676343921																									
+BRDN0000464898	MAP3K2_WT.1	10746	MAP3K2	0.707796069																									
+BRDN0000464899	ARAF_WT.1	369	ARAF	0.344138377																									
+BRDN0000464900	XBP1_WT.1	7494	XBP1	0.48460539	5	yes	multiple reagents		enriched for slightly elongated	enriched for extremely triangular											de-enriched for huge		de-enriched for small asymmetric cells						normal cell density
+BRDN0000464901	HSPA5_WT	3309	HSPA5	0.356560502																									
+BRDN0000464902	VHL_WT.2	7428	VHL	0.250286928																									
+BRDN0000464903	GSK3B_WT.2	2932	GSK3B	0.218731034																									
+BRDN0000464904	EIF4E_WT.1	1977	EIF4E	0.127899614																									
+BRDN0000464905	RB1_WT.1.mismatch	5925	RB1	NA																									
+BRDN0000464906	XIAP_WT.1	331	XIAP	NA																									
+BRDN0000464907	CDC42_WT	998	CDC42	0.644410454	11	yes	multiple reagents				enriched for huge		enriched for small asymmetric cells	enriched for multi-nucleate				de-enriched for slightly elongated				de-enriched for slightly large				de-enriched for disjoint bright mitochondria			normal cell density
+BRDN0000464908	TP53_WT.1	7157	TP53	0.259389365																									
+BRDN0000464909	CRY1_WT.1	1407	CRY1	0.415616023																									
+BRDN0000464910	HIF1A_WT.1	3091	HIF1A	0.288295886																									
+BRDN0000464911	NFKB2_WT	4791	NFKB2	NA																									
+BRDN0000464912	RAC1_WT.1	5879	RAC1	0.298291635																									
+BRDN0000464913	ERN1_WT.1	2081	ERN1	0.367207654																									
+BRDN0000464914	RPS6KB1_WT.1	6198	RPS6KB1	0.263226531																									
+BRDN0000464915	E2F1_WT	1869	E2F1	NA																									
+BRDN0000464916	BECN1_WT	8678	BECN1	0.28138473																									
+BRDN0000464917	MAPK1_WT.1	5594	MAPK1	NA																									
+BRDN0000464918	TRAF5_WT	7188	TRAF5	0.331075457	14	yes	multiple reagents					enriched for slightly large	enriched for small asymmetric cells	enriched for multi-nucleate	enriched for telophase/late telophase				de-enriched for extremely elongated	de-enriched for extremely triangular									normal cell density
+BRDN0000464919	BMP2_WT	650	BMP2	0.53055562																									
+BRDN0000464920	NFKBIE_WT	4794	NFKBIE	NA																									
+BRDN0000464921	GRB10_WT.1	2887	GRB10	0.342835044	16	yes	multiple reagents	enriched for extremely elongated	enriched for slightly elongated													de-enriched for slightly large	de-enriched for small asymmetric cells						normal cell density
+BRDN0000464922	ATF4_WT.2	468	ATF4	0.571061497	1	yes	multiple reagents	enriched for extremely elongated														de-enriched for slightly large	de-enriched for small asymmetric cells	de-enriched for multi-nucleate				low cell density	
+BRDN0000464923	DUSP1_WT.mismatch	1843	DUSP1	NA																									
+BRDN0000464924	HSP90B1_WT.1	7184	HSP90B1	0.108935377																									
+BRDN0000464925	DDIT3_WT.1	1649	DDIT3	0.282476544																									
+BRDN0000464926	JUN_WT.2	3725	JUN	0.873519582	18	yes	multiple reagents		enriched for slightly elongated						enriched for telophase/late telophase		enriched for apoptotic		de-enriched for extremely elongated			de-enriched for slightly large		de-enriched for multi-nucleate		de-enriched for disjoint bright mitochondria	slightly low cell density		
+BRDN0000464927	AXIN2_WT.2	8313	AXIN2	0.27745737																									
+BRDN0000464928	PPP2R5C_WT.2	5527	PPP2R5C	NA																									
+BRDN0000464929	CASP8_WT.2	841	CASP8	NA																									
+BRDN0000464930	MAPK7_WT.mismatch	5598	MAPK7	NA																									
+BRDN0000464931	IRAK1_WT	3654	IRAK1	0.258725956																									
+BRDN0000464932	FURIN_WT.1	5045	FURIN	0.256232865																									
+BRDN0000464933	NFKB1_WT.1	4790	NFKB1	0.392647468	23	yes	multiple reagents	enriched for extremely elongated		enriched for extremely triangular	enriched for huge							de-enriched for slightly elongated							de-enriched for telophase/late telophase				normal cell density
+BRDN0000464934	JAG1_WT	182	JAG1	0.243149251																									
+BRDN0000464935	MAP2K4_WT.1	6416	MAP2K4	0.36682663	3	yes	multiple reagents				enriched for huge	enriched for slightly large						de-enriched for slightly elongated		de-enriched for extremely triangular				de-enriched for multi-nucleate				low cell density	
+BRDN0000464936	GRB10_WT.2	2887	GRB10	0.523840212	16	yes	multiple reagents	enriched for extremely elongated	enriched for slightly elongated													de-enriched for slightly large	de-enriched for small asymmetric cells						normal cell density
+BRDN0000464937	AKT3_WT.2	10000	AKT3	0.839189757	7	yes	multiple reagents				enriched for huge			enriched for multi-nucleate					de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large							normal cell density
+BRDN0000464938	HSP90B1_WT.2	7184	HSP90B1	0.381814358	2	yes	multiple reagents				enriched for huge												de-enriched for small asymmetric cells						normal cell density
+BRDN0000464939	PTEN_WT	5728	PTEN	0.458691018	21	yes	multiple reagents		enriched for slightly elongated					enriched for multi-nucleate		enriched for disjoint bright mitochondria													normal cell density
+BRDN0000464940	TRAF3_WT.1	7187	TRAF3	0.281645592																									
+BRDN0000464941	MAPKAP1_WT	79109	MAPKAP1	0.329752346																									
+BRDN0000464942	REL_WT.1	5966	REL	0.544264963																									
+BRDN0000464943	CYLD_WT	1540	CYLD	NA																									
+BRDN0000464943	CYLD_WT	1540	CYLD	NA																									
+BRDN0000464945	MAP2K3_WT	5606	MAP2K3	0.632505749	3	yes	multiple reagents				enriched for huge	enriched for slightly large						de-enriched for slightly elongated		de-enriched for extremely triangular				de-enriched for multi-nucleate				low cell density	
+BRDN0000464946	PHLPP1_WT	23239	PHLPP1	0.191204599																									
+BRDN0000464947	EGLN1_WT.2	54583	EGLN1	0.084844775																									
+BRDN0000464948	EGLN1_WT.3	54583	EGLN1	0.131429475																									
+BRDN0000464949	TSC1_WT.1	7248	TSC1	0.271283139																									
+BRDN0000464950	TSC1_WT.2	7248	TSC1	NA																									
+BRDN0000464951	TRAF6_WT.1	7189	TRAF6	-0.007263535																									
+BRDN0000464952	TRAF6_WT.2	7189	TRAF6	0.087351861																									
+BRDN0000464953	BRAF_WT.1	673	BRAF	0.569926651	19	yes	multiple reagents				enriched for huge		enriched for small asymmetric cells					de-enriched for slightly elongated	de-enriched for extremely elongated			de-enriched for slightly large							normal cell density
+BRDN0000464954	BRAF_WT.2	673	BRAF	0.665851842	19	yes	multiple reagents				enriched for huge		enriched for small asymmetric cells					de-enriched for slightly elongated	de-enriched for extremely elongated			de-enriched for slightly large							normal cell density
+BRDN0000464955	NOTCH1_WT.1	4851	NOTCH1	NA																									
+BRDN0000464956	NOTCH1_WT.2	4851	NOTCH1	0.149393965																									
+BRDN0000464957	SLIRP_WT.2	81892	SLIRP	NA																									
+BRDN0000464958	CDK4_R24C	1019	CDK4	0.432985693	2	yes	multiple reagents				enriched for huge												de-enriched for small asymmetric cells						normal cell density
+BRDN0000464959	BMPR1B_K231R	658	BMPR1B	0.054887136																									
+BRDN0000464960	RPS6KB1_T389E.mismatch	6198	RPS6KB1	NA																									
+BRDN0000464961	PRKCZ_del1-238	5590	PRKCZ	0.576521905	25	yes	multiple reagents	enriched for extremely elongated	enriched for slightly elongated														de-enriched for small asymmetric cells			de-enriched for disjoint bright mitochondria		low cell density	
+BRDN0000464962	PRKCA_del1-325	5578	PRKCA	0.17941861																									
+BRDN0000464963	PRKCE_del1-394	5581	PRKCE	NA																									
+BRDN0000464964	PRKCZ_K281R	5590	PRKCZ	NA																									
+BRDN0000464965	STAT1_Y701F	6772	STAT1	0.035932978																									
+BRDN0000464966	MYD88_L265P	4615	MYD88	NA																									
+BRDN0000464967	JAK2_V617F.mismatch	3717	JAK2	NA																									
+BRDN0000464968	STAT3_Y705F	6774	STAT3	0.286807719																									
+BRDN0000464969	STAT3_C-C	6774	STAT3	0.320002317	2	yes	multiple reagents				enriched for huge												de-enriched for small asymmetric cells						normal cell density
+BRDN0000464970	AKT3_E17K	10000	AKT3	0.697558521	7	yes	multiple reagents				enriched for huge			enriched for multi-nucleate					de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large							normal cell density
+BRDN0000464971	BMPR1B_Q203D	658	BMPR1B	NA																									
+BRDN0000464972	CDC42_T17N	998	CDC42	0.727848311	7	yes	multiple reagents				enriched for huge			enriched for multi-nucleate					de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large							normal cell density
+BRDN0000464973	ATF6_1-373	22926	ATF6	NA																									
+BRDN0000464974	XBP1_S	7494	XBP1	0.189140195																									
+BRDN0000464975	RHOA_T19N	387	RHOA	0.652865264																									
+BRDN0000464976	CTNNB1_S33A.S37A.T41A.T45A	1499	CTNNB1	0.445355604																									
+BRDN0000464977	PRKCA_K368R	5578	PRKCA	NA																									
+BRDN0000464978	CARD11_F123I.mismatch	84433	CARD11	NA																									
+BRDN0000464979	CARD11_L225LI	84433	CARD11	NA																									
+BRDN0000464980	CDC42_Q61L	998	CDC42	0.892787495																									
+BRDN0000464981	RAF1_L613V	5894	RAF1	0.791198908	6	yes	multiple reagents				enriched for huge				enriched for telophase/late telophase	enriched for disjoint bright mitochondria		de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large						low cell density	
+BRDN0000464982	RAC1_Q61L	5879	RAC1	0.532925136																									
+BRDN0000464983	RAC1_T17N	5879	RAC1	0.734683276	7	yes	multiple reagents				enriched for huge			enriched for multi-nucleate					de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large							normal cell density
+BRDN0000464984	PRKCE_K437R.mismatch	5581	PRKCE	NA																									
+BRDN0000464985	RHOA_Q63L	387	RHOA	0.54290928	8	yes	multiple reagents								enriched for telophase/late telophase		enriched for apoptotic		de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large		de-enriched for multi-nucleate				low cell density	
+BRDN0000464986	TGFBR1_K232R	7046	TGFBR1	NA																									
+BRDN0000464987	BRAF_V600E	673	BRAF	0.791482826	6	yes	multiple reagents				enriched for huge				enriched for telophase/late telophase	enriched for disjoint bright mitochondria		de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large						low cell density	
+BRDN0000464988	SRC_Y527F	6714	SRC	0.21813344																									
+BRDN0000464989	KRAS_G12V	3845	KRAS	0.724506345	3	yes	multiple reagents				enriched for huge	enriched for slightly large						de-enriched for slightly elongated		de-enriched for extremely triangular				de-enriched for multi-nucleate				low cell density	
+BRDN0000464990	HRAS_G12V	3265	HRAS	0.902995863	3	yes	multiple reagents				enriched for huge	enriched for slightly large						de-enriched for slightly elongated		de-enriched for extremely triangular				de-enriched for multi-nucleate				low cell density	
+BRDN0000464991	MEK1_S218D.S222D.mismatch	5604	MEK1	NA																									
+BRDN0000464992	AKT1_E17K	207	AKT1	0.931305131	7	yes	multiple reagents				enriched for huge			enriched for multi-nucleate					de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large							normal cell density
+BRDN0000464993	FGFR3_K650E	2261	FGFR3	0.120097917																									
+BRDN0000464994	ERG_truncated	2078	ERG	NA																									
+BRDN0000464994	ERG_truncated	2078	ERG	NA																									
+BRDN0000464996	NOTCH1_ICN1.1	4851	NOTCH1	0.691855999																									
+ccsbBroad304_00018	ACVR1B_WT.3	91	ACVR1B	0.141143907																									
+ccsbBroad304_00046	AKT1_WT.2	207	AKT1	NA																									
+ccsbBroad304_00047	AKT2_WT	208	AKT2	NA																									
+ccsbBroad304_00100	RHOA_WT	387	RHOA	0.383374984	10	yes	multiple reagents							enriched for multi-nucleate	enriched for telophase/late telophase			de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large						low cell density	
+ccsbBroad304_00105	ARNTL_WT	406	ARNTL	0.126092646																									
+ccsbBroad304_00117	ATF4_WT.1	468	ATF4	0.488293032	1	yes	multiple reagents	enriched for extremely elongated														de-enriched for slightly large	de-enriched for small asymmetric cells	de-enriched for multi-nucleate				low cell density	
+ccsbBroad304_00150	BAX_WT	581	BAX	0.086609994																									
+ccsbBroad304_00155	CCND1_WT.1	595	CCND1	0.258750727																									
+ccsbBroad304_00156	BCL2L1_WT	598	BCL2L1	0.215364663																									
+ccsbBroad304_00168	BMPR1B_WT.1	658	BMPR1B	0.034115907																									
+ccsbBroad304_00173	BRCA1_WT	672	BRCA1	0.066197175																									
+ccsbBroad304_00223	CASP9_WT	842	CASP9	NA																									
+ccsbBroad304_00238	CCNE1_WT.mismatch	898	CCNE1	NA																									
+ccsbBroad304_00276	CDK2_WT.1	1017	CDK2	NA																									
+ccsbBroad304_00277	CDK4_WT.1	1019	CDK4	0.036653109																									
+ccsbBroad304_00282	CDKN1A_WT	1026	CDKN1A	0.733208083	3	yes	multiple reagents				enriched for huge	enriched for slightly large						de-enriched for slightly elongated		de-enriched for extremely triangular				de-enriched for multi-nucleate				low cell density	
+ccsbBroad304_00348	MAP3K8_WT	1326	MAP3K8	0.144256363																									
+ccsbBroad304_00360	CREB1_WT	1385	CREB1	NA																									
+ccsbBroad304_00361	ATF2_WT	1386	ATF2	0.25175127																									
+ccsbBroad304_00371	MAPK14_WT.1	1432	MAPK14	0.365925389	4	yes	multiple reagents				enriched for huge			enriched for multi-nucleate	enriched for telophase/late telophase			de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large						low cell density	
+ccsbBroad304_00379	CSNK1E_WT.1	1454	CSNK1E	NA																									
+ccsbBroad304_00470	DVL2_WT	1856	DVL2	NA																									
+ccsbBroad304_00490	EIF4EBP1_WT	1978	EIF4EBP1	0.536854735	9	yes	multiple reagents								enriched for telophase/late telophase							de-enriched for slightly large	de-enriched for small asymmetric cells				slightly low cell density		
+ccsbBroad304_00498	ELK1_WT	2002	ELK1	0.709109617	10	yes	multiple reagents							enriched for multi-nucleate	enriched for telophase/late telophase			de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large						low cell density	
+ccsbBroad304_00565	FH_WT	2271	FH	0.0924812																									
+ccsbBroad304_00841	IKBKB_WT	3551	IKBKB	NA																									
+ccsbBroad304_00882	IRS1_WT	3667	IRS1	0.086443299																									
+ccsbBroad304_00962	SMAD4_WT	4089	SMAD4	0.54991273	12	yes	multiple reagents					enriched for slightly large						de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular									normal cell density
+ccsbBroad304_00963	SMAD5_WT	4090	SMAD5	0.09244824																									
+ccsbBroad304_00964	SMAD7_WT	4092	SMAD7	NA																									
+ccsbBroad304_00985	MCL1_WT	4170	MCL1	NA																									
+ccsbBroad304_01029	MOS_WT.1	4342	MOS	0.512294693	19	yes	multiple reagents				enriched for huge		enriched for small asymmetric cells					de-enriched for slightly elongated	de-enriched for extremely elongated			de-enriched for slightly large							normal cell density
+ccsbBroad304_01093	NFKBIA_WT	4792	NFKBIA	0.332123859																									
+ccsbBroad304_01094	NFKBIB_WT	4793	NFKBIB	0.301591144																									
+ccsbBroad304_01144	PAK1_WT.1	5058	PAK1	0.080040998																									
+ccsbBroad304_01168	PDPK1_WT.1	5170	PDPK1	0.061647537																									
+ccsbBroad304_01202	PIK3CB_WT.1	5291	PIK3CB	0.313195729	14	yes	multiple reagents					enriched for slightly large	enriched for small asymmetric cells	enriched for multi-nucleate	enriched for telophase/late telophase				de-enriched for extremely elongated	de-enriched for extremely triangular									normal cell density
+ccsbBroad304_01204	PIK3CD_WT	5293	PIK3CD	0.194745317																									
+ccsbBroad304_01278	PRKACB_WT.1	5567	PRKACB	0.001508572																									
+ccsbBroad304_01281	PRKCA_WT.1	5578	PRKCA	NA																									
+ccsbBroad304_01283	PRKCE_WT.1	5581	PRKCE	0.679006823	16	yes	multiple reagents	enriched for extremely elongated	enriched for slightly elongated													de-enriched for slightly large	de-enriched for small asymmetric cells						normal cell density
+ccsbBroad304_01284	PRKCZ_WT.1	5590	PRKCZ	0.328184406	17	yes	multiple reagents	enriched for extremely elongated		enriched for extremely triangular			enriched for small asymmetric cells	enriched for multi-nucleate				de-enriched for slightly elongated				de-enriched for slightly large							normal cell density
+ccsbBroad304_01287	MAPK8_WT.1	5599	MAPK8	0.249151075																									
+ccsbBroad304_01288	MAPK9_WT.1	5601	MAPK9	0.028496193																									
+ccsbBroad304_01289	MAPK13_WT.1	5603	MAPK13	0.078916045																									
+ccsbBroad304_01388	RELB_WT	5971	RELB	0.56939345																									
+ccsbBroad304_01398	RHEB_WT.1	6009	RHEB	0.155514007																									
+ccsbBroad304_01607	STAT1_WT	6772	STAT1	0.001585904																									
+ccsbBroad304_01609	STAT3_WT	6774	STAT3	0.074321098																									
+ccsbBroad304_01613	STK11_WT.1	6794	STK11	0.350401236	22	yes	multiple reagents				enriched for huge	enriched for slightly large				enriched for disjoint bright mitochondria			de-enriched for extremely elongated				de-enriched for small asymmetric cells	de-enriched for multi-nucleate	de-enriched for telophase/late telophase				normal cell density
+ccsbBroad304_01666	TGFBR1_WT.1	7046	TGFBR1	0.195529969																									
+ccsbBroad304_01686	TNFAIP3_WT	7128	TNFAIP3	NA																									
+ccsbBroad304_01710	TRAF2_WT	7186	TRAF2	0.394995523	11	yes	multiple reagents				enriched for huge		enriched for small asymmetric cells	enriched for multi-nucleate				de-enriched for slightly elongated				de-enriched for slightly large				de-enriched for disjoint bright mitochondria			normal cell density
+ccsbBroad304_01779	WNT5A_WT	7474	WNT5A	0.258149732																									
+ccsbBroad304_02053	BTRC_WT	8945	BTRC	0.285412758																									
+ccsbBroad304_02064	SOCS3_WT	9021	SOCS3	0.268011137																									
+ccsbBroad304_02173	ATG5_WT	9474	ATG5	0.117302453																									
+ccsbBroad304_02201	CLOCK_WT	9575	CLOCK	0.184762742																									
+ccsbBroad304_02218	IKBKE_WT.1	9641	IKBKE	0.075714628																									
+ccsbBroad304_02292	BCL2L11_WT	10018	BCL2L11	0.44856433																									
+ccsbBroad304_02706	DKK1_WT	22943	DKK1	0.331421324																									
+ccsbBroad304_02831	SGK3_WT.1	23678	SGK3	0.055595262																									
+ccsbBroad304_02857	BAMBI_WT	25805	BAMBI	0.285056944																									
+ccsbBroad304_02889	WWTR1_WT	25937	WWTR1	0.80336741	20	yes	multiple reagents		enriched for slightly elongated			enriched for slightly large				enriched for disjoint bright mitochondria							de-enriched for small asymmetric cells		de-enriched for telophase/late telophase				normal cell density
+ccsbBroad304_03433	DDIT4_WT	54541	DDIT4	0.33176562																									
+ccsbBroad304_03512	ATG16L1_WT	55054	ATG16L1	0.0806138																									
+ccsbBroad304_03625	HIF1AN_WT	55662	HIF1AN	0.050603019																									
+ccsbBroad304_03668	PSENEN_WT	55851	PSENEN	NA																									
+ccsbBroad304_03728	DIABLO_WT	56616	DIABLO	0.644254965	9	yes	multiple reagents								enriched for telophase/late telophase							de-enriched for slightly large	de-enriched for small asymmetric cells				slightly low cell density		
+ccsbBroad304_03937	MLST8_WT	64223	MLST8	0.554664754																									
+ccsbBroad304_03961	SMURF2_WT	64750	SMURF2	0.385654852	24	yes	multiple reagents		enriched for slightly elongated				enriched for small asymmetric cells	enriched for multi-nucleate								de-enriched for slightly large							normal cell density
+ccsbBroad304_04207	CXXC4_WT	80319	CXXC4	NA																									
+ccsbBroad304_05835	XIAP_WT.2	331	XIAP	0.076222645																									
+ccsbBroad304_05836	BMPR1B_WT.2	658	BMPR1B	NA																									
+ccsbBroad304_05880	CCND1_WT.2	595	CCND1	0.470674454																									
+ccsbBroad304_06040	CRY1_WT.2	1407	CRY1	0.213049906																									
+ccsbBroad304_06055	CSNK1A1_WT.1	1452	CSNK1A1	0.096542786																									
+ccsbBroad304_06089	DDIT3_WT.2	1649	DDIT3	0.465808094																									
+ccsbBroad304_06132	DVL3_WT	1857	DVL3	0.406466616	24	yes	multiple reagents		enriched for slightly elongated				enriched for small asymmetric cells	enriched for multi-nucleate								de-enriched for slightly large							normal cell density
+ccsbBroad304_06150	EIF4E_WT.2	1977	EIF4E	0.148858099																									
+ccsbBroad304_06365	HIF1A_WT.2	3091	HIF1A	0.042844385																									
+ccsbBroad304_06413	HSP90AA1_WT	3320	HSP90AA1	NA																									
+ccsbBroad304_06435	RBPJ_WT.1	3516	RBPJ	0.490654694	4	yes	multiple reagents				enriched for huge			enriched for multi-nucleate	enriched for telophase/late telophase			de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large						low cell density	
+ccsbBroad304_06549	SMAD3_WT.1	4088	SMAD3	0.435517078																									
+ccsbBroad304_06637	NFKB1_WT.2	4790	NFKB1	NA																									
+ccsbBroad304_06683	FURIN_WT.2	5045	FURIN	0.141618																									
+ccsbBroad304_06728	PIK3R1_WT.2	5295	PIK3R1	0.287802091																									
+ccsbBroad304_06770	PRKAA1_WT.2	5562	PRKAA1	-0.014095669																									
+ccsbBroad304_06771	PRKACB_WT.3	5567	PRKACB	0.148246591																									
+ccsbBroad304_06772	PRKACG_WT.1	5568	PRKACG	0.317817417	23	yes	multiple reagents	enriched for extremely elongated		enriched for extremely triangular	enriched for huge							de-enriched for slightly elongated							de-enriched for telophase/late telophase				normal cell density
+ccsbBroad304_06831	RAC1_WT.2	5879	RAC1	0.16981639																									
+ccsbBroad304_06837	RAF1_WT.2	5894	RAF1	0.765568802	19	yes	multiple reagents				enriched for huge		enriched for small asymmetric cells					de-enriched for slightly elongated	de-enriched for extremely elongated			de-enriched for slightly large							normal cell density
+ccsbBroad304_06846	RB1_WT.2	5925	RB1	0.069353976																									
+ccsbBroad304_06864	RHEB_WT.2	6009	RHEB	0.055410224																									
+ccsbBroad304_06926	SDHA_WT	6389	SDHA	0.569136796																									
+ccsbBroad304_06995	SREBF1_WT	6720	SREBF1	NA																									
+ccsbBroad304_07012	STK3_WT.2	6788	STK3	0.514031514	15	yes	multiple reagents						enriched for small asymmetric cells	enriched for multi-nucleate	enriched for telophase/late telophase		enriched for apoptotic	de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large							normal cell density
+ccsbBroad304_07036	TCF4_WT.2	6925	TCF4	0.274363698																									
+ccsbBroad304_07056	TGFB1_WT	7040	TGFB1	0.276308568																									
+ccsbBroad304_07088	TP53_WT.2	7157	TP53	0.260422179																									
+ccsbBroad304_07098	TRAF3_WT.2	7187	TRAF3	NA																									
+ccsbBroad304_07101	TSC2_WT	7249	TSC2	0.182934589																									
+ccsbBroad304_07127	VEGFC_WT.1	7424	VEGFC	-0.020782453																									
+ccsbBroad304_07128	VHL_WT.1	7428	VHL	0.123747867																									
+ccsbBroad304_07217	AXIN2_WT.1	8313	AXIN2	0.150216737																									
+ccsbBroad304_07529	AKT3_WT.1	10000	AKT3	0.265228138																									
+ccsbBroad304_07601	YAP1_WT.1	10413	YAP1	0.581179124	20	yes	multiple reagents		enriched for slightly elongated			enriched for slightly large				enriched for disjoint bright mitochondria							de-enriched for small asymmetric cells		de-enriched for telophase/late telophase				normal cell density
+ccsbBroad304_08116	TBK1_WT.1	29110	TBK1	0.37682198	2	yes	multiple reagents				enriched for huge												de-enriched for small asymmetric cells						normal cell density
+ccsbBroad304_08230	IRAK4_WT	51135	IRAK4	0.045398031																									
+ccsbBroad304_09091	SLIRP_WT.1	81892	SLIRP	0.160314714																									
+ccsbBroad304_10688	ATM_WT.1	472	ATM	NA																									
+ccsbBroad304_10689	ATM_WT.2	472	ATM	NA																									
+ccsbBroad304_10710	CASP8_WT.1	841	CASP8	NA																									
+ccsbBroad304_10790	DVL1_WT.1	1855	DVL1	NA																									
+ccsbBroad304_11001	NOTCH2_WT	4853	NOTCH2	0.238061115																									
+ccsbBroad304_11025	PER1_WT.1	5187	PER1	NA																									
+ccsbBroad304_11031	PIK3R2_WT	5296	PIK3R2	NA																									
+ccsbBroad304_11052	PPP2R5C_WT.1	5527	PPP2R5C	NA																									
+ccsbBroad304_11095	RELA_WT.1	5970	RELA	NA																									
+ccsbBroad304_11169	ADAM17_WT	6868	ADAM17	NA																									
+ccsbBroad304_11186	TGFBR2_WT.1	7048	TGFBR2	NA																									
+ccsbBroad304_11651	ATF6_WT.1	22926	ATF6	NA																									
+ccsbBroad304_12062	EGLN1_WT.1.mismatch	54583	EGLN1	NA																									
+ccsbBroad304_12357	RPTOR_WT	57521	RPTOR	NA																									
+ccsbBroad304_13449	RICTOR_WT	253260	RICTOR	NA																									
+ccsbBroad304_13609	IRGM_WT.1	345611	IRGM	NA																									
+ccsbBroad304_14528	ACVR1B_WT.1	91	ACVR1B	0.023258833																									
+ccsbBroad304_14538	AKT1_WT.1	207	AKT1	0.395334047																									
+ccsbBroad304_14544	ARAF_WT.2	369	ARAF	0.230373665																									
+ccsbBroad304_14572	CDK2_WT.2	1017	CDK2	0.444086448	13	yes	multiple reagents	enriched for extremely elongated	enriched for slightly elongated												de-enriched for huge	de-enriched for slightly large	de-enriched for small asymmetric cells	de-enriched for multi-nucleate					normal cell density
+ccsbBroad304_14574	CDK4_WT.2	1019	CDK4	0.11499449																									
+ccsbBroad304_14596	MAPK14_WT.2	1432	MAPK14	0.340234256	4	yes	multiple reagents				enriched for huge			enriched for multi-nucleate	enriched for telophase/late telophase			de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large						low cell density	
+ccsbBroad304_14599	CSNK1A1_WT.2	1452	CSNK1A1	NA																									
+ccsbBroad304_14601	CSNK1E_WT.2	1454	CSNK1E	0.899138591																									
+ccsbBroad304_14634	ERN1_WT.2	2081	ERN1	NA																									
+ccsbBroad304_14680	JAK2_WT	3717	JAK2	NA																									
+ccsbBroad304_14682	JUN_WT.1	3725	JUN	0.877366313	15	yes	multiple reagents						enriched for small asymmetric cells	enriched for multi-nucleate	enriched for telophase/late telophase		enriched for apoptotic	de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large							normal cell density
+ccsbBroad304_14695	MAP3K5_WT	4217	MAP3K5	NA																									
+ccsbBroad304_14698	MAP3K11_WT	4296	MAP3K11	NA																									
+ccsbBroad304_14699	MOS_WT.2	4342	MOS	0.424539376	19	yes	multiple reagents				enriched for huge		enriched for small asymmetric cells					de-enriched for slightly elongated	de-enriched for extremely elongated			de-enriched for slightly large							normal cell density
+ccsbBroad304_14726	PAK1_WT.2	5058	PAK1	NA																									
+ccsbBroad304_14741	PDPK1_WT.2	5170	PDPK1	0.067265612																									
+ccsbBroad304_14759	PIK3CA_WT.1	5290	PIK3CA	NA																									
+ccsbBroad304_14760	PIK3CB_WT.2	5291	PIK3CB	NA																									
+ccsbBroad304_14763	PIK3R1_WT.1	5295	PIK3R1	0.337874585	21	yes	multiple reagents		enriched for slightly elongated					enriched for multi-nucleate		enriched for disjoint bright mitochondria													normal cell density
+ccsbBroad304_14776	PRKAA1_WT.1	5562	PRKAA1	NA																									
+ccsbBroad304_14780	PRKACA_WT.1	5566	PRKACA	0.767675713	8	yes	multiple reagents								enriched for telophase/late telophase		enriched for apoptotic		de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large		de-enriched for multi-nucleate				low cell density	
+ccsbBroad304_14781	PRKACB_WT.2	5567	PRKACB	0.204980991																									
+ccsbBroad304_14782	PRKACG_WT.2	5568	PRKACG	0.182379243																									
+ccsbBroad304_14788	PRKCA_WT.2	5578	PRKCA	NA																									
+ccsbBroad304_14790	PRKCE_WT.2	5581	PRKCE	NA																									
+ccsbBroad304_14796	PRKCZ_WT.2	5590	PRKCZ	0.502575269	17	yes	multiple reagents	enriched for extremely elongated		enriched for extremely triangular			enriched for small asymmetric cells	enriched for multi-nucleate				de-enriched for slightly elongated				de-enriched for slightly large							normal cell density
+ccsbBroad304_14799	MAPK1_WT.2	5594	MAPK1	NA																									
+ccsbBroad304_14800	MAPK3_WT	5595	MAPK3	NA																									
+ccsbBroad304_14803	MAPK8_WT.2	5599	MAPK8	NA																									
+ccsbBroad304_14804	MAPK9_WT.2	5601	MAPK9	0.02394898																									
+ccsbBroad304_14806	MAPK13_WT.2	5603	MAPK13	0.169342104																									
+ccsbBroad304_14807	MAP2K1_WT.1	5604	MAP2K1	NA																									
+ccsbBroad304_14825	RAF1_WT.1	5894	RAF1	0.758767722	19	yes	multiple reagents				enriched for huge		enriched for small asymmetric cells					de-enriched for slightly elongated	de-enriched for extremely elongated			de-enriched for slightly large							normal cell density
+ccsbBroad304_14833	RPS6KB1_WT.2	6198	RPS6KB1	0.304815165	12	yes	multiple reagents					enriched for slightly large						de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular									normal cell density
+ccsbBroad304_14850	STK3_WT.1	6788	STK3	0.624918504	15	yes	multiple reagents						enriched for small asymmetric cells	enriched for multi-nucleate	enriched for telophase/late telophase		enriched for apoptotic	de-enriched for slightly elongated	de-enriched for extremely elongated	de-enriched for extremely triangular		de-enriched for slightly large							normal cell density
+ccsbBroad304_14853	STK11_WT.2	6794	STK11	0.503263017	22	yes	multiple reagents				enriched for huge	enriched for slightly large				enriched for disjoint bright mitochondria			de-enriched for extremely elongated				de-enriched for small asymmetric cells	de-enriched for multi-nucleate	de-enriched for telophase/late telophase				normal cell density
+ccsbBroad304_14856	MAP3K7_WT	6885	MAP3K7	0.363995814	14	yes	multiple reagents					enriched for slightly large	enriched for small asymmetric cells	enriched for multi-nucleate	enriched for telophase/late telophase				de-enriched for extremely elongated	de-enriched for extremely triangular									normal cell density
+ccsbBroad304_14861	TGFBR1_WT.2	7046	TGFBR1	NA																									
+ccsbBroad304_14862	TGFBR2_WT.2	7048	TGFBR2	NA																									
+ccsbBroad304_14905	MKNK1_WT	8569	MKNK1	NA																									
+ccsbBroad304_14910	RIPK1_WT	8737	RIPK1	NA																									
+ccsbBroad304_14943	IKBKE_WT.2	9641	IKBKE	NA																									
+ccsbBroad304_14950	AKT3_WT.3	10000	AKT3	NA																									
+ccsbBroad304_14956	LRPPRC_WT	10128	LRPPRC	NA																									
+ccsbBroad304_14974	MAP3K2_WT.2	10746	MAP3K2	NA																									
+ccsbBroad304_15022	SGK3_WT.2	23678	SGK3	0.371015171																									
+ccsbBroad304_15050	TBK1_WT.2	29110	TBK1	0.172249907																									
+ccsbBroad304_15196	CARD11_WT	84433	CARD11	NA																									
