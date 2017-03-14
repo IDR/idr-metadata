@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0025-stadler-proteinatlas/screenA"
+include: "../../bulk.yml"
+path: "idr0025-screenA-plates.tsv"
