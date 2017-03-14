@@ -76,11 +76,11 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/sirna
       columns:
-      - name: siRNA Pool Identifier
-        include: yes
-        omitempty: no
       - name: siRNA Identifier
         split: ;
+        include: yes
+        omitempty: no
+      - name: siRNA Pool Identifier
         include: yes
         omitempty: no
 
