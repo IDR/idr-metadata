@@ -21,16 +21,23 @@ IDR_METADATA='/tmp/idr-metadata'
 delete_ann () {
     local object=${1:-};
     local ns=${2:-};
-    if [ -n "$object" ]; then
+    if [ -n "$object" ] && [ -n "$ns" ]; then
         # delete annotations
         echo "delete $ns annotations $object"
-        if [ -n "$ns" ]; then
-            $OMERO_DIST/bin/omero metadata populate --batch 100 --wait 120 --context deletemap --localcfg "{\"ns\":\"$ns\"}" $object --report >> "log_delete_ann_$object" 2>&1
-        else
-            $OMERO_DIST/bin/omero metadata populate --batch 100 --wait 120 --context deletemap $object --report >> "log_delete_ann_$object" 2>&1
-        fi
+        $OMERO_DIST/bin/omero metadata populate --batch 100 --wait 120 --context deletemap --localcfg "{\"ns\":\"$ns\"}" $object --report >> "log_delete_ann_$object" 2>&1
     fi
 }
+
+delete_all () {
+    local object=${1:-};
+    local path=${2:-};
+    if [ -n "$object" ] && [ -n "$path" ]; then
+        # delete annotations
+        echo "delete all annotations $object"
+        $OMERO_DIST/bin/omero metadata populate --batch 100 --wait 120 --context deletemap --cfg $path-bulkmap-config.yml $object --report >> "log_delete_ann_$object" 2>&1
+    fi
+}
+
 
 while read -r obj path ns; do
     echo "#####  BEGINNING $obj $path $ns  #####"
@@ -40,7 +47,11 @@ while read -r obj path ns; do
     $OMERO_DIST/bin/omero login -u $username -w "$password" -s $host -C
     echo "Logged in $username@$host"
     set -x
-    delete_ann $obj $ns
+    if [[ ! -z "$ns" ]]; then
+        delete_ann $obj $ns
+    else
+        delete_all $obj "$IDR_METADATA/$path"
+    fi
     $OMERO_DIST/bin/omero logout
 
     echo "#####  $obj DONE  #####"
