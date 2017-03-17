@@ -22,21 +22,11 @@ def main(argv):
     this_dir = os.path.dirname(os.path.abspath(__file__))
     parent = os.path.dirname(this_dir)
     patterns_dir = os.path.join(parent, "patterns")
-    tsv_fn = os.path.join(
-        parent, "experimentA", "idr0026-experimentA-filePaths.tsv"
-    )
-    rel_patterns_dir = os.path.join(os.pardir, "patterns")  # wrt tsv_fn
     mkdir_p(patterns_dir)
-    mkdir_p(os.path.dirname(tsv_fn))
-    with open(tsv_fn, "w") as fp:
-        for d, name in sorted(name_map.items(), key=operator.itemgetter(1)):
-            basenames = make_symlink_patterns.main(
-                ["dummy", d, "-o", patterns_dir, "-t", name]
-            )
-            for bn in basenames:
-                ds_name = "Dataset:name:%s" % os.path.splitext(bn)[0]
-                ds_path = os.path.join(rel_patterns_dir, bn)
-                fp.write("%s\t%s\n" % (ds_name, ds_path))
+    for d, name in sorted(name_map.items(), key=operator.itemgetter(1)):
+        make_symlink_patterns.main(
+            ["dummy", d, "-o", patterns_dir, "-t", name]
+        )
 
 
 if __name__ == "__main__":
