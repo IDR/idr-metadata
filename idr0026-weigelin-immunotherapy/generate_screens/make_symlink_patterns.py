@@ -38,10 +38,12 @@ def get_pattern(grouplist):
     n_channels = len(set(_[1] for _ in grouplist))
     n_timepoints = len(set(_[3] for _ in grouplist))
     assert len(grouplist) == n_channels * n_timepoints  # (no "holes")
-    ch_block = "<%s>" % ",".join(set(_[1] for _ in grouplist))
-    return "%s - PMT [%s] [%s]_Time Time%s.tif" % (
+    channel_names = ",".join(set(_[1] for _ in grouplist))
+    ch_block = "<%s>" % channel_names
+    pattern = "%s - PMT [%s] [%s]_Time Time%s.tif" % (
         grouplist[0][0], ch_block, grouplist[0][2], get_t_block(grouplist)
     )
+    return pattern, channel_names
 
 
 def group_files(data_dir):
@@ -57,9 +59,10 @@ def group_files(data_dir):
             sys.stderr.write("unexpected pattern: %s\n" % bn)
         d.setdefault(field, []).append(groups)
     for field_idx, grouplist in d.iteritems():
-        d[field_idx] = os.path.join(data_dir, get_pattern(grouplist))
+        pattern, channel_names = get_pattern(grouplist)
+        d[field_idx] = (os.path.join(data_dir, pattern), channel_names)
     fnames_from_patterns = set()
-    for pattern in d.itervalues():
+    for pattern, _ in d.itervalues():
         fnames_from_patterns |= set(FilePattern(pattern).filenames())
     assert fnames_from_patterns == fnames
     return d
@@ -68,11 +71,12 @@ def group_files(data_dir):
 def write_patterns(data_dir, outdir, tag):
     d = group_files(data_dir)
     pairs = []
-    for field, pattern in d.iteritems():
+    for field, (pattern, channel_names) in d.iteritems():
         out_bn = "%s.%s.pattern" % (tag, field)
         pairs.append((field, out_bn))
         out_fn = os.path.join(outdir, out_bn)
         with open(out_fn, "w") as fo:
+            fo.write("# ChannelNames = %s\n" % channel_names)
             fo.write("%s\n" % pattern)
     return [_[1] for _ in sorted(pairs)]
 
