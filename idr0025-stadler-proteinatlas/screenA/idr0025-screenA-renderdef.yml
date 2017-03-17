@@ -1,0 +1,14 @@
+---
+channels:
+  1:
+    color: "FF0000"
+    min: 0
+    max: 126
+  2:
+    color: "00FF00"
+    min: 0
+    max: 126
+  3:
+    color: "0000FF"
+    min: 0
+    max: 126
