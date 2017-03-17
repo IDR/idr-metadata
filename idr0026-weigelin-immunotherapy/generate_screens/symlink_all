@@ -17,6 +17,8 @@ from argparse import ArgumentParser
 
 from common import ROOT, get_data_dirs, mkdir_p
 
+REWRITTEN = "treatment start day 3/mouse 49/day 6-3/time lapse/140922_11-33-57"
+
 
 def parse_cl(argv):
     parser = ArgumentParser(description=__doc__)
@@ -30,6 +32,10 @@ def main(argv):
     data_dirs = get_data_dirs()
     root_depth = len(ROOT.split("/"))
     for source_dir in data_dirs:
+        if REWRITTEN in source_dir:
+            source_dir = source_dir.replace(
+                "20160701-original", "20170317-rewritten"
+            )
         print "generating links for:", source_dir
         rel_dir = source_dir.split("/", root_depth)[-1]
         target_dir = os.path.join(args.target_root, rel_dir)
