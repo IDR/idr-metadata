@@ -1,17 +1,14 @@
 ---
 channels:
   1:
-    label: DAPI
     color: "FF0000"
     min: 0
     max: 126
   2:
-    label: Ab
     color: "00FF00"
     min: 0
     max: 126
   3:
-    label: MTs
     color: "0000FF"
     min: 0
     max: 126
