@@ -15,11 +15,11 @@ Study External URL
 Study Public Release Date																																			
 																																			
 # Study Publication																																			
-Study PubMed ID																																			
+Study PubMed ID	28315521																																		
 Study Publication Title	Systematic morphological profiling of human gene and allele function via Cell Painting																																		
 Study Author List	"Mohammad H Rohban, Shantanu Singh, Xiaoyun Wu, Julia B Berthet, Mark_Anthony Bray, Yashaswi Shrestha, Xaralabos Varelas, Jesse S Boehm, Anne E Carpenter"																																		
 Study PMC ID																																			
-Study DOI																																			
+Study DOI	http://dx.doi.org/10.7554/eLife.24060																																		
 																																			
 # Study License and Data DOI																																			
 Study License	CC-BY 4.0																																		
