@@ -30,6 +30,11 @@ columns:
   - name: Control Comments
     include: yes
 
+  - name: Quality Control
+    include: yes
+  - name: Quality Control Comments
+    include: yes
+
   - name: Channels
     include: yes
 
@@ -67,6 +72,8 @@ columns:
         clientvalue: "{{ value|truncate(10) }}"
         include: yes
       - name: ORF Comments
+        include: yes
+      - name: Target Transcript
         include: yes
       - name: Gene Allele Name
         include: yes
