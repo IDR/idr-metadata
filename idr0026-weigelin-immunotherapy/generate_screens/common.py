@@ -26,6 +26,14 @@ def get_data_dirs(root=ROOT):
     return data_dirs
 
 
+def get_processed_fnames(root=ROOT):
+    fnames = glob.glob("%s/treatment*/mouse*/day*/processed*/*.tif" % root)
+    fnames.extend(
+        glob.glob("%s/treatment*/mouse*/day*/processed*/*/*.tif" % root)
+    )
+    return fnames
+
+
 def map_dir_names(data_dirs):
     name_map = {}
     for d in data_dirs:
