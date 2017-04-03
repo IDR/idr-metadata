@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+
+import sys
+import os
+import csv
+
+from common import get_processed_fnames
+
+
+THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+PARENT = os.path.dirname(THIS_DIR)
+TSV_FN = os.path.join(
+    PARENT, "experimentA", "idr0026-experimentA-filePaths.tsv"
+)
+
+
+def main(argv):
+    fnames_list = get_processed_fnames()
+    data = []
+    with open(TSV_FN) as f:
+        reader = csv.reader(f, delimiter="\t")
+        for row in reader:
+            if not row[1].endswith(".pattern"):
+                row[1] = row[1].replace("incoming", "filesets")
+            data.append(row)
+    tsv_fnames_list = [_[1] for _ in data if not _[1].endswith(".pattern")]
+    fnames, tsv_fnames = set(fnames_list), set(tsv_fnames_list)
+    assert len(fnames) == len(fnames_list)
+    assert len(tsv_fnames) == len(tsv_fnames_list)
+    assert fnames == tsv_fnames
+    with open(TSV_FN, "w") as fo:
+        writer = csv.writer(fo, delimiter="\t", lineterminator="\n")
+        for row in data:
+            writer.writerow(row)
+
+
+if __name__ == "__main__":
+    main(sys.argv)
