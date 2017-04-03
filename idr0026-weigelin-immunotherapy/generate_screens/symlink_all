@@ -48,11 +48,18 @@ def main(argv):
             target_bn = "%s_%s.tif" % (head, tail)
             link_name = os.path.join(target_dir, target_bn)
             source = os.path.join(source_dir, bn)
+            # make links relative
+            link_dir, link_name = os.path.split(link_name)
+            rel_source = os.path.relpath(source, link_dir)
+            old_cwd = os.getcwd()
+            os.chdir(link_dir)
             try:
-                os.symlink(source, link_name)
+                os.symlink(rel_source, link_name)
             except OSError as e:
                 if e.errno != errno.EEXIST:
                     raise
+            finally:
+                os.chdir(old_cwd)
 
 
 if __name__ == "__main__":
