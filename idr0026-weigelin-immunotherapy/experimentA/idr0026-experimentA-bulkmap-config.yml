@@ -42,7 +42,7 @@ columns:
   - name: Experimental Condition [Treatment Timepoint]
     clientname: Treatment Timepoint
     include: yes
-   - name: Experimental Condition [Treatment]
+  - name: Experimental Condition [Treatment]
     clientname: Treatment
     include: yes
   - name: Experimental Condition [Sampling Timepoint]
