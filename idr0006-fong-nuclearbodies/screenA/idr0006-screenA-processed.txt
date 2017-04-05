@@ -937,8 +937,8 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 11943	978	CDA	no	no											
 5873	983	CDK1	no	no											
 2424	988	CDC5L	no	no											
-53413	989	Sep-07	no	no											
-55634	989	Sep-07	no	no											
+53413	989	SEPT7	no	no											
+55634	989	SEPT7	no	no											
 3206	991	CDC20	no	no											
 4892	991	CDC20	no	no											
 6942	991	CDC20	no	no											
@@ -1363,7 +1363,7 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 14671	1725	DHPS	no	no											
 55189	1729	DIAPH1	no	no											
 54245	1730	DIAPH2	no	no											
-7223	1731	Sep-01	no	no											
+7223	1731	SEPT1	no	no											
 56218	1733	DIO1	no	no											
 1021	1735	DIO3	no	no											
 6052	1736	DKC1	no	no											
@@ -2966,8 +2966,8 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 9793	4731	NDUFV3	no	no											
 5988	4733	DRG1	no	no											
 12820	4733	DRG1	no	no											
-2311	4735	Sep-02	no	no											
-7641	4735	Sep-02	no	no											
+2311	4735	SEPT2	no	no											
+7641	4735	SEPT2	no	no											
 2413	4736	RPL10A	no	no											
 52623	4738	NEDD8	no	no											
 14735	4739	NEDD9	no	no											
@@ -3336,8 +3336,8 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 5690	5408	PNLIPRP2	no	no											
 9311	5409	PNMT	no	no											
 10917	5412	UBL3	no	no											
-12681	5413	Sep-05	no	no											
-53293	5414	Sep-04	no	no											
+12681	5413	SEPT5	no	no											
+53293	5414	SEPT4	no	no											
 56121	5423	POLB	no	no											
 4775	5424	POLD1	no	no											
 3988	5425	POLD2	no	no											
@@ -5533,8 +5533,8 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 8542	9399	STOML1	no	no											
 13464	9401	RECQL4	no	no											
 8327	9402	GRAP2	no	no											
-5466	9403	Sep-15	no	no											
-9143	9403	Sep-15	no	no											
+5466	9403	SEPT15	no	no											
+9143	9403	SEPT15	no	no											
 7357	9404	LPXN	no	no											
 11325	9406	ZRANB2	no	no											
 56826	9407	TMPRSS11D	no	no											
@@ -6555,7 +6555,7 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 13250	10797	MTHFD2	no	no											
 12840	10799	RPP40	no	no											
 10235	10800	CYSLTR1	no	no											
-5908	10801	Sep-09	no	no											
+5908	10801	SEPT9	no	no											
 6265	10802	SEC24A	no	no											
 14039	10803	CCR9	no	no											
 9835	10804	GJB6	no	no											
@@ -7105,15 +7105,15 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 56698	23151	GRAMD4	no	no											
 2534	23154	NCDN	no	no											
 4427	23155	CLCC1	no	no											
-2233	23157	Sep-06	no	no											
-6705	23157	Sep-06	no	no											
-7109	23157	Sep-06	no	no											
+2233	23157	SEPT6	no	no											
+6705	23157	SEPT6	no	no											
+7109	23157	SEPT6	no	no											
 223	23168	RTF1	no	no											
 1732	23171	GPD1L	no	no											
 360	23172	FAM175B	no	no											
 8957	23174	ZCCHC14	no	no											
 9613	23175	LPIN1	no	no											
-1836	23176	Sep-08	no	no											
+1836	23176	SEPT8	no	no											
 3746	23177	CEP68	no	no											
 12070	23178	PASK	no	no											
 55363	23178	PASK	no	no											
@@ -8498,7 +8498,7 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 4189	51255	RNF181	no	no											
 5460	51256	TBC1D7	no	no											
 11587	51256	TBC1D7	no	no											
-55489	51257	Mar-02	no	no											
+55489	51257	MARCH2	no	no											
 3275	51258	MRPL51	no	no											
 6396	51259	TMEM216	no	no											
 3629	51260	CXorf26	no	no											
@@ -9000,7 +9000,7 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 55380	54704	PDP1	no	no											
 2785	54707	GPN2	no	no											
 5186	54707	GPN2	no	no											
-161	54708	Mar-05	no	no											
+161	54708	MARCH5	no	no											
 53797	54715	A2BP1	no	no											
 55222	54716	SLC6A20	no	no											
 56206	54726	OTUD4	no	no											
@@ -9779,7 +9779,7 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 53766	55958	KLHL9	no	no											
 8599	55959	SULF2	no	no											
 56186	55959	SULF2	no	no											
-56122	55964	Sep-03	no	no											
+56122	55964	SEPT3	no	no											
 5685	55967	NDUFA12	no	no											
 4181	55968	NSFL1C	no	no											
 3793	55969	C20orf24	no	no											
@@ -12977,7 +12977,7 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 13914	124359	CDYL2	no	no											
 11522	124401	ANKS3	no	no											
 13756	124402	FAM100A	no	no											
-9861	124404	Sep-12	no	no											
+9861	124404	SEPT12	no	no											
 11310	124454	EARS2	no	no											
 8774	124460	SNX20	no	no											
 12140	124460	SNX20	no	no											
@@ -13630,8 +13630,8 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 9887	150737	TTC30B	no	no											
 1420	150771	ITPRIPL1	no	no											
 53005	150864	FAM117B	no	no											
-780	151011	Sep-10	no	no											
-55396	151011	Sep-10	no	no											
+780	151011	SEPT10	no	no											
+55396	151011	SEPT10	no	no											
 1566	151050	C2orf67	no	no											
 54314	151050	C2orf67	no	no											
 11098	151056	PLB1	no	no											
@@ -13835,7 +13835,7 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 10531	161835	FSIP1	no	no											
 9226	161931	ADAD2	no	no											
 9238	162137	MGC34800	no	no											
-1773	162333	Mar-10	no	no											
+1773	162333	MARCH10	no	no											
 10381	162387	MFSD6L	no	no											
 6945	162394	SLFN5	no	no											
 56839	162394	SLFN5	no	no											
@@ -14188,7 +14188,7 @@ ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Sta
 54899	220963	SLC16A9	no	no											
 2040	220965	FAM13C	no	no											
 12261	220965	FAM13C	no	no											
-1588	220972	Mar-08	no	no											
+1588	220972	MARCH8	no	no											
 54669	220979	C10orf25	no	no											
 1220	221002	RASGEF1A	no	no											
 1396	221016	CCDC7	no	no											

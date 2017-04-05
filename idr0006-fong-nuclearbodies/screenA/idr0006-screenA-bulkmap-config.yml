@@ -58,6 +58,27 @@ columns:
         clientname: Organism
         include: yes
 
+ - group:
+      namespace: openmicroscopy.org/mapr/orf
+      columns:
+      - name: ORF Identifier
+        include: yes
+        omitempty: no
+      - name: ORF Identifier
+        clientname: ORF Identifier URL
+        clientvalue: http://horfdb.dfci.harvard.edu/hv5/index.php?page=getresults&by=detail&qury={{ value|urlencode }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/orf/supplementary
+      columns:
+      - name: hORFeome V5.1 Clone Description
+        include: yes
+      - name: ORF Comments
+        include: yes
+      - name: Reagent Design Gene Annotation Build
+        include: yes
+
   - group:
       namespace: openmicroscopy.org/mapr/gene
       columns:
@@ -75,16 +96,6 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
       columns:
-      - name: hORFeome V5.1 Identifier
-        include: yes
-      - name: hORFeome V5.1 Identifier
-        clientname: hORFeome V5.1 Identifier URL
-        clientvalue: http://horfdb.dfci.harvard.edu/hv5/index.php?page=getresults&by=detail&qury={{ value|urlencode }}
-        include: yes
-      - name: hORFeome V5.1 Clone Description
-        include: yes
-      - name: Reagent Design Gene Annotation Build
-        include: yes
       - name: Analysis Gene Annotation Build
         include: yes
 
