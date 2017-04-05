@@ -1,6 +1,6 @@
 ---
 name: idr0006-fong-nuclearbodies/screenA
-version: 2
+version: 3
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -237,6 +237,9 @@ advanced:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
       - Organism
+    - namespace: openmicroscopy.org/mapr/orf
+      keys:
+      - ORF Identifier
     - namespace: openmicroscopy.org/mapr/gene
       keys:
       - Gene Identifier
