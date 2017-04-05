@@ -58,7 +58,7 @@ columns:
         clientname: Organism
         include: yes
 
- - group:
+  - group:
       namespace: openmicroscopy.org/mapr/orf
       columns:
       - name: ORF Identifier
