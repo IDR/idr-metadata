@@ -91,7 +91,7 @@ Feature Level Data Column Name
 Feature Level Data Column Description																	
 																	
 #  Processed Data Files																	
-Processed Data File Name	DNADamageProcessedData.txt																
+Processed Data File Name	idr0010-screenA-processed.txt																
 Processed Data File Format	tab-delimited text																
 Processed Data File Description	"This file gives cell counts, 53BP1 foci counts per well and phenotypes for genes where siRNA knockdown of expression has affected the level of 53bp1 foci. Note phenotypes are at the gene level, so all rows linked to a gene with a phenotype will have the phenotype listed regardless of whether the individual siRNA showed the phenotype or not. "																
 Processed Data Column Name	Plate	Well Number	Well	Plate_Well	siRNA Identifier	Gene Identifier	Gene Symbol	Original Gene Target	Control Type	Quality Control	Cell Count	53BP1 foci	Foci Per Cell	Foci Per Cell (Normalized)	Has Phenotype	Phenotype Annotation Level	Phenotype
