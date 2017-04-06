@@ -1,0 +1,13 @@
+Screen:1751 idr0033-rohban-pathways/screenA/idr0033-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1751 idr0033-rohban-pathways/screenA/idr0033-screenA openmicroscopy.org/mapr/orf/supplementary
+
+Screen:51 idr0003-breker-plasticity/screenA/idr0003-screenA openmicroscopy.org/mapr/phenotype
+
+Screen:253 idr0006-fong-nuclearbodies/screenA/idr0006-screenA openmicroscopy.org/mapr/gene/supplementary
+Screen:253 idr0006-fong-nuclearbodies/screenA/idr0006-screenA openmicroscopy.org/mapr/orf
+Screen:253 idr0006-fong-nuclearbodies/screenA/idr0006-screenA openmicroscopy.org/mapr/orf/supplementary
+
+Screen:1851 idr0025-stadler-proteinatlas/screenA/idr0025-screenA
+
+Project:301 idr0026-weigelin-immunotherapy/experimentA/idr0026-experimentA
+
