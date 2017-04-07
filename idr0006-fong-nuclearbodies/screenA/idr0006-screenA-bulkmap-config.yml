@@ -1,6 +1,6 @@
 ---
 name: idr0006-fong-nuclearbodies/screenA
-version: 2
+version: 3
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -59,6 +59,27 @@ columns:
         include: yes
 
   - group:
+      namespace: openmicroscopy.org/mapr/orf
+      columns:
+      - name: ORF Identifier
+        include: yes
+        omitempty: no
+      - name: ORF Identifier
+        clientname: ORF Identifier URL
+        clientvalue: http://horfdb.dfci.harvard.edu/hv5/index.php?page=getresults&by=detail&qury={{ value|urlencode }}
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/orf/supplementary
+      columns:
+      - name: hORFeome V5.1 Clone Description
+        include: yes
+      - name: ORF Comments
+        include: yes
+      - name: Reagent Design Gene Annotation Build
+        include: yes
+
+  - group:
       namespace: openmicroscopy.org/mapr/gene
       columns:
       - name: Gene Identifier
@@ -75,16 +96,6 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/gene/supplementary
       columns:
-      - name: hORFeome V5.1 Identifier
-        include: yes
-      - name: hORFeome V5.1 Identifier
-        clientname: hORFeome V5.1 Identifier URL
-        clientvalue: http://horfdb.dfci.harvard.edu/hv5/index.php?page=getresults&by=detail&qury={{ value|urlencode }}
-        include: yes
-      - name: hORFeome V5.1 Clone Description
-        include: yes
-      - name: Reagent Design Gene Annotation Build
-        include: yes
       - name: Analysis Gene Annotation Build
         include: yes
 
@@ -237,6 +248,9 @@ advanced:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
       - Organism
+    - namespace: openmicroscopy.org/mapr/orf
+      keys:
+      - ORF Identifier
     - namespace: openmicroscopy.org/mapr/gene
       keys:
       - Gene Identifier

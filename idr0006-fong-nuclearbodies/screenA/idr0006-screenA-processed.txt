@@ -1,4 +1,4 @@
-hORFeome V5.1 Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Stage	Subcellular Localization Based On Secondary Screening	Scored Subcellular Localization By Secondary Screening	Has Phenotype	Phenotype Annotation Level	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8
+ORF Identifier	Gene Identifier	Gene Symbol	Scored As Nuclear Foci At Initial Stage	Subcellular Localization Based On Secondary Screening	Scored Subcellular Localization By Secondary Screening	Has Phenotype	Phenotype Annotation Level	Phenotype 1	Phenotype 2	Phenotype 3	Phenotype 4	Phenotype 5	Phenotype 6	Phenotype 7	Phenotype 8
 10141	157	ADRBK2	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
 10062	331	XIAP	yes	yes	p54	yes	single replicate of reagent					protein localized in paraspeckles			
 2737	1058	CENPA	yes	yes	Nucleolus	yes	single replicate of reagent				protein localized in nucleolus				
