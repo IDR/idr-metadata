@@ -14,7 +14,7 @@ read -sp 'Password: ' password
 
 set -x
 
-OMERO_DIST='/home/omero/OMERO.server'
+OMERO_DIST='/opt/omero/server/OMERO.server'
 IDR_METADATA='/tmp/idr-metadata'
 
 populate_ann () {
