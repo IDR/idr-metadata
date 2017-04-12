@@ -1,0 +1,66 @@
+#!/usr/bin/env python
+
+"""\
+Symlink all image files. Link names replace the .ome.tif
+extension with .tif (most of them have no ome-xml, and those who do
+get the dimensions wrong) and drop the second (redundant) channel info
+element.
+
+Relative link paths will be created under the provided root directory
+starting from the "treatment*" part.
+"""
+
+import sys
+import os
+import errno
+from argparse import ArgumentParser
+
+from common import ROOT, get_data_dirs, mkdir_p
+
+REWRITTEN = "treatment start day 3/mouse 49/day 6-3/time lapse/140922_11-33-57"
+
+
+def parse_cl(argv):
+    parser = ArgumentParser(description=__doc__)
+    parser.add_argument("target_root", metavar="TARGET_ROOT",
+                        help="root directory for the symlinked dataset")
+    return parser.parse_args(argv[1:])
+
+
+def main(argv):
+    args = parse_cl(argv)
+    data_dirs = get_data_dirs()
+    root_depth = len(ROOT.split("/"))
+    for source_dir in data_dirs:
+        if REWRITTEN in source_dir:
+            source_dir = source_dir.replace(
+                "20160701-original", "20170317-rewritten"
+            )
+        print "generating links for:", source_dir
+        rel_dir = source_dir.split("/", root_depth)[-1]
+        target_dir = os.path.join(args.target_root, rel_dir)
+        mkdir_p(target_dir)
+        for bn in os.listdir(source_dir):
+            if not bn.endswith(".ome.tif"):
+                continue
+            noext = bn.rsplit(".", 2)[0]
+            head, _, tail = noext.rsplit("_", 2)
+            target_bn = "%s_%s.tif" % (head, tail)
+            link_name = os.path.join(target_dir, target_bn)
+            source = os.path.join(source_dir, bn)
+            # make links relative
+            link_dir, link_name = os.path.split(link_name)
+            rel_source = os.path.relpath(source, link_dir)
+            old_cwd = os.getcwd()
+            os.chdir(link_dir)
+            try:
+                os.symlink(rel_source, link_name)
+            except OSError as e:
+                if e.errno != errno.EEXIST:
+                    raise
+            finally:
+                os.chdir(old_cwd)
+
+
+if __name__ == "__main__":
+    main(sys.argv)

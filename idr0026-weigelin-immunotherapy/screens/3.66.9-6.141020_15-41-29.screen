@@ -1,0 +1,17 @@
+[Plate]
+Name = 3.66.9-6.141020_15-41-29
+Rows = 1
+Columns = 1
+Fields = 5
+
+[Well 0]
+Row = 0
+Column = 0
+AxisTypes = CT
+ChannelNames = BD2_GREEN,BD7_RED,BD8_RED
+Field_0 = /uod/idr/filesets/idr0026-weigelin-immunotherapy/20160701-original/PNAS_2015/treatment start day 3/mouse 66/day 9-6/time lapse/141020_15-41-29/15-41-29_PMT - PMT <[BD2_GREEN] [00]_C00,[BD7_RED] [00]_C01,[BD8_RED] [00]_C02>_Time Time<0000-0046>.ome.tif
+Field_1 = /uod/idr/filesets/idr0026-weigelin-immunotherapy/20160701-original/PNAS_2015/treatment start day 3/mouse 66/day 9-6/time lapse/141020_15-41-29/15-41-29_PMT - PMT <[BD2_GREEN] [01]_C00,[BD7_RED] [01]_C01,[BD8_RED] [01]_C02>_Time Time<0000-0046>.ome.tif
+Field_2 = /uod/idr/filesets/idr0026-weigelin-immunotherapy/20160701-original/PNAS_2015/treatment start day 3/mouse 66/day 9-6/time lapse/141020_15-41-29/15-41-29_PMT - PMT <[BD2_GREEN] [02]_C00,[BD7_RED] [02]_C01,[BD8_RED] [02]_C02>_Time Time<0000-0046>.ome.tif
+Field_3 = /uod/idr/filesets/idr0026-weigelin-immunotherapy/20160701-original/PNAS_2015/treatment start day 3/mouse 66/day 9-6/time lapse/141020_15-41-29/15-41-29_PMT - PMT <[BD2_GREEN] [03]_C00,[BD7_RED] [03]_C01,[BD8_RED] [03]_C02>_Time Time<0000-0046>.ome.tif
+Field_4 = /uod/idr/filesets/idr0026-weigelin-immunotherapy/20160701-original/PNAS_2015/treatment start day 3/mouse 66/day 9-6/time lapse/141020_15-41-29/15-41-29_PMT - PMT <[BD2_GREEN] [04]_C00,[BD7_RED] [04]_C01,[BD8_RED] [04]_C02>_Time Time<0000-0046>.ome.tif
+
