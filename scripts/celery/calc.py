@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 r"""\
-Run a pydoop-features calc job on Celery.
+Run a pydoop-features calc job on Celery using
+https://github.com/openmicroscopy/ansible-role-celery-docker
 
 Any arguments after '--' will be passed to pyfeatures calc.
 
@@ -22,8 +23,8 @@ for the specified pairs.
 import sys
 import os
 import argparse
-import importlib
 import errno
+from celery import Celery
 
 
 def iter_input(input_dir):
@@ -47,19 +48,14 @@ def get_whitelist(include_fn):
 def make_parser():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('input_dir', metavar="DIR", help="input dir")
-    parser.add_argument("-o", "--out-dir", metavar="DIR", help="output dir",
-                        default=os.getcwd())
-    parser.add_argument("-u", "--user-id", type=int, help="run-as user id")
-    parser.add_argument("-m", "--celery-module", help="celery app module",
-                        default="tasks")
+    parser.add_argument('--broker', help="Celery broker URL",
+                        default='redis://')
+    parser.add_argument("-o", "--out-dir", metavar="DIR", help="output dir")
+    parser.add_argument("-u", "--user", help="run-as user", default="celery")
     parser.add_argument("-l", "--log", help="log task ids to this file",
                         default="taskid-calc.log")
     parser.add_argument("-i", "--docker-img", help="docker image name",
-                        default="simleo/pyfeatures")
-    parser.add_argument("-O", "--docker-out-dir", help="docker output dir",
-                        default="/scratch")
-    parser.add_argument("-v", "--docker-volume", action="append",
-                        help="additional docker volume mapping(s)")
+                        default="manics/pyfeatures:merge")
     parser.add_argument("-n", "--dry-run", action="store_true",
                         help="print celery args and exit")
     parser.add_argument("--limit", type=int, metavar="INT",
@@ -80,37 +76,54 @@ def main(argv):
     parser = make_parser()
     args = parser.parse_args(argv[1:])
     whitelist = get_whitelist(args.include) if args.include else None
-    celery_m = importlib.import_module(args.celery_module)
-    base_cmd = ["docker", "run", "--rm"]
-    if args.user_id:
-        base_cmd.extend(["-u", str(args.user_id)])
-    base_cmd.extend(["-v", "%s:%s" % (args.out_dir, args.docker_out_dir)])
-    for v_mapping in (args.docker_volume or []):
-        base_cmd.extend(["-v", v_mapping])
-    base_cmd.extend([args.docker_img, "calc"])
-    base_cmd.extend(calc_opts)
+
+    celery = Celery(broker=args.broker)
+    celery_args = dict(
+        image=args.docker_img,
+        # We need to create the output directories, which can only be done
+        # on the worker, so mount the top-level directory (this will be
+        # mounted as /output, and must be writeable by the container user)
+        outputpath=args.out_dir,
+    )
+
+    cmd = [
+        'calc',
+        # The input avro file will be mounted as /input
+        '/input',
+    ]
+    if calc_opts:
+        cmd.extend(calc_opts)
+
+    if args.user:
+        celery_args['user'] = str(args.user)
+
     with open(args.log, "w") as fo:
         for i, (subdir_bn, avro_bn) in enumerate(iter_input(args.input_dir)):
             if whitelist and (subdir_bn, avro_bn) not in whitelist:
                 continue
             if args.limit and i >= args.limit:
                 break
-            cmd = base_cmd[:]
+
             in_path = os.path.join(args.input_dir, subdir_bn, avro_bn)
-            docker_out_subdir = os.path.join(args.docker_out_dir, subdir_bn)
-            cmd.extend([in_path, "-o", docker_out_subdir])
+            celery_args['inputpath'] = in_path
+
+            # Top-level output dir is mounted as /output inside the container
+            cmd.extend(['--out-dir', os.path.join('/output', subdir_bn)])
+
             tag, _ = os.path.splitext(avro_bn)
+
+            # This must be writeable by the celery-worker (not the docker user)
             out_subdir = os.path.join(args.out_dir, subdir_bn)
-            celery_args = [
-                "%s.py" % args.celery_module,
-                os.path.join(out_subdir, "%s.out" % tag),
-                os.path.join(out_subdir, "%s.err" % tag),
-            ]
-            celery_args.extend(cmd)
+            celery_args['logoutfile'] = os.path.join(
+                out_subdir, '%s.log' % tag)
+
+            # TODO: quote these arguments?
+            celery_args['command'] = ' '.join(cmd)
+
             if args.dry_run:
                 print celery_args
             else:
-                r = celery_m.main(celery_args)
+                r = celery.send_task('tasks.run_docker', kwargs=celery_args)
                 fo.write(str(r) + "\n")
 
 
