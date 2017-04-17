@@ -72,21 +72,28 @@ def screen_metadata(client, file, object):
             desc += E_D
             desc += "\n"
             desc += val
+        elif key == P_M[0]:
+            x, y = P_M
+            values[y] = "%s http://www.ncbi.nlm.nih.gov/pubmed/%s" % (val, val)
+        elif key == P_D[0]:
+            x, y = P_D
+            doi = val.split("dx.doi.org")[-1][1:]
+            values[y] = "%s %s" % (doi, val)
         else:
-            for x, y in (S_T, I_T, P_A, P_M, P_D):
+            for x, y in (S_T, I_T, P_A):
                 if key == x:
                     values[y] = val.strip('"')
 
     old_values = dict()
     for x in ann.getMapValue():
-        old_values[x.name.val] = x
+        old_values[x.name] = x
     for x, y in (S_T, I_T, P_A, P_M, P_D):
         if y not in old_values:
             ann.getMapValue().append(NamedValue(y, values[y]))
             do_update = True
             print "found new named value"
-        elif old_values[y].value.val != values[y]:
-            old_values[y].value = rstring(values[y])
+        elif old_values[y].value != values[y]:
+            old_values[y].value = values[y]
             do_update = True
             print "changed named value"
 
