@@ -61,11 +61,13 @@ def studies():
     for study in sorted(glob("idr*")):
         if study[-1] == "/":
             study = study[0:-1]
+        if "idr0000-" in study:
+            continue
 
         target = "Plate"
         containers = glob(join(study, "screen[ABC]"))
         if containers:
-            assert not glob(join(study, "experiment*"))
+            assert not glob(join(study, "experiment*")), study
         else:
             target = "Dataset"
             containers = glob(join(study, "experiment*"))
