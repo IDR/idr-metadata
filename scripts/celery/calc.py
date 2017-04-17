@@ -35,7 +35,7 @@ def iter_input(input_dir):
             basenames = os.listdir(path)
         except OSError as e:
             if e.errno == errno.ENOTDIR:
-                pass
+                continue
         for avro_bn in basenames:
             if avro_bn.endswith(".avro"):
                 yield subdir_bn, avro_bn
