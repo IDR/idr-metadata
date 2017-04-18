@@ -1,0 +1,11 @@
+channels:
+  1:
+    label: "DAPI"
+    min: 0
+    max: 750
+    color: "0000FF"
+  2:
+    label: "Cy3"
+    min: 50
+    max: 1500
+    color: "FF0000"
