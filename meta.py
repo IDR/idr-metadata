@@ -47,6 +47,7 @@ def screen_metadata(client, file, object):
             print "Found map:", ann.id.val
     if ann is None:
         ann = MapAnnotationI()
+        ann.setNs(rstring("openmicroscopy.org/omero/client/mapAnnotation"))
         ann.setMapValue(list())
         obj.linkAnnotation(ann)
         do_update = True
