@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 
-from collections import defaultdict
 from fileinput import input
-from glob import glob
-from os.path import basename
-from os.path import dirname
-from os.path import join
-from sys import stderr
 
 
 from omero import all  # noqa
@@ -33,12 +27,17 @@ P_A = ("Study Author List", "Publication Authors")
 P_M = ("Study PubMed ID", "PubMed ID")
 P_D = ("Study DOI", "Publication DOI")
 
+
 def screen_metadata(client, file, object):
     query = client.sf.getQueryService()
     update = client.sf.getUpdateService()
     name, oid = object.split(":")
     do_update = False
-    obj = query.findByQuery("select x from %s x join fetch x.annotationLinks xal join fetch xal.child where x.id = %d" % (name, long(oid)), None)
+    query = (
+        "select x from %s x join fetch x.annotationLinks xal "
+        "join fetch xal.child where x.id = %d"
+    )
+    obj = query.findByQuery(query % (name, long(oid)), None)
     ann = None
     for link in obj.copyAnnotationLinks():
         if isinstance(link.child, MapAnnotationI):
@@ -98,7 +97,7 @@ def screen_metadata(client, file, object):
             print "changed named value"
 
     if old != desc:
-        do_update = TRue
+        do_update = True
         obj.description = rstring(desc)
     else:
         print "descriptions match"
