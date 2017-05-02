@@ -53,6 +53,8 @@ python calc.py --user celery
     -l -W 672 -H 512 --offset-x 336 --offset-y 256 -x 1344 -y 1024
 ```
 
+Use `--user celery` to ensure the docker container runs with the same UID as the celery worker.
+
 
 ## Collate outputs
 
@@ -102,11 +104,14 @@ for plate in $OUTPUTDIR/data/*/; do echo $(basename $plate); done
 
 ```
 for plate in $OUTPUTDIR/data/*/; do
-    echo docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR:ro -v $OUTPUTDIR/tables:/out
+    docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR:ro -v $OUTPUTDIR/tables:/out
         --entrypoint /build/scripts/omero/omerofeatures.py manics/pyfeatures:merge
         /out/map_screen_1101.tsv /out/$(basename $plate).h5 $plate/*.avro
 done
 ```
+
+Optionally pass `-u $(id -u)` to docker.
+
 
 ## Dealing with duplicate images/wells
 
@@ -150,4 +155,56 @@ grep -vE '^(LT0007_26|LT0149_05|LT0156_08)\s+0\s+A02\s+'
 
 ## Dealing with mismatched names
 
-TODO
+If the filename stored in the avro file does not match the OMERO name it is necessary to manipulate the names, for example `--re-pattern '^([A-Z0-9]+_[0-9]+).*_([0-9]+)$' --re-match '\1_\2'` to match `LT0603_06--ex2007_01_24--sp2007_01_11--tt18--c5_0` against `LT0603_06_0`:
+
+```
+for plate in $OUTPUTDIR/data/*/; do
+    docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR:ro -v $OUTPUTDIR/tables:/out
+        --entrypoint /build/scripts/omero/omerofeatures.py manics/pyfeatures:merge
+        /out/map_screen_1101.tsv /out/$(basename $plate).h5
+        --re-pattern '^([A-Z0-9]+_[0-9]+).*_([0-9]+)$' --re-match '\1_\2'
+        $plate/*.avro
+done
+```
+
+
+## Combine HDF5 files
+
+Optionally combine some or all of the HDF5 files.
+
+1. Move the files into a subdirectory `intermediate`:
+
+```
+mkdir intermediate
+mv *.h5 intermediate
+```
+
+2. Combine the files:
+
+```
+docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR
+    --entrypoint /build/scripts/omero/concatfeatures.py manics/pyfeatures:merge
+    $OUTPUTDIR/tables/idr0013-neumann-mitocheck-screenA-l_W672_H512_offsetx336_offsety256_x1344_y1024.h5
+    $OUTPUTDIR/tables/intermediate/*.h5
+```
+
+
+## Create table indices
+
+Improve the performance of some OMERO.table queries by creating column indices:
+
+```
+docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR
+    --entrypoint /build/scripts/omero/create_h5_index.py manics/pyfeatures:merge
+    $OUTPUTDIR/tables/idr0013-neumann-mitocheck-screenA-l_W672_H512_offsetx336_offsety256_x1344_y1024.h5
+```
+
+
+## Calculate checksums
+
+The feature files may be copied and modified.
+Calculate checksums to make it easier to verify the correct version of a file is in use.
+
+```
+sha1sum *h5 *tsv intermediate/*h5 | tee SHA1SUM
+```
