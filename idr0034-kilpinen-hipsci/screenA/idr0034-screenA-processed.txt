@@ -1,0 +1,5 @@
+Characteristics [Cell Line]	Results Measurements	Results Summary
+HPSI0513i-leeh_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20160324/HPSI0513i-leeh_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-leeh_2/
+HPSI0513i-leeh_3		
+HPSI0713i-kaks_2		
+HPSI0413i-iakz_2		
