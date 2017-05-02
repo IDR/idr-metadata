@@ -23,6 +23,8 @@ docker run -d --name redis -p 6379:6379 -v redis-volume:/data redis \
 If you have multiple celery-docker servers you should set them up to have separate output directories, to ensure that in the event of a task being calculated multiple times there are no conflicts in a shared directory.
 For instance, map `/uod/idr-scratch` on each celery docker server to an NFS share `idr-data:/uod/idr/scratch/$HOSTNAME`.
 
+The remaining steps make use of a `pyfeatures` docker image, for example `imagedata/pyfeatures:latest`.
+
 
 ## Serialisation
 
@@ -90,7 +92,7 @@ For example, for `Screen:1101`:
 
 ```
 docker run -it --rm --entrypoint /build/scripts/omero/map_series.py
-    -v $OUTPUTDIR/tables:/out manics/pyfeatures:merge \
+    -v $OUTPUTDIR/tables:/out imagedata/pyfeatures \
     -H OMERO_IP -U USERNAME -o /out/map_screen_1101.tsv 1101
 ```
 
@@ -105,7 +107,7 @@ for plate in $OUTPUTDIR/data/*/; do echo $(basename $plate); done
 ```
 for plate in $OUTPUTDIR/data/*/; do
     docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR:ro -v $OUTPUTDIR/tables:/out
-        --entrypoint /build/scripts/omero/omerofeatures.py manics/pyfeatures:merge
+        --entrypoint /build/scripts/omero/omerofeatures.py imagedata/pyfeatures
         /out/map_screen_1101.tsv /out/$(basename $plate).h5 $plate/*.avro
 done
 ```
@@ -160,7 +162,7 @@ If the filename stored in the avro file does not match the OMERO name it is nece
 ```
 for plate in $OUTPUTDIR/data/*/; do
     docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR:ro -v $OUTPUTDIR/tables:/out
-        --entrypoint /build/scripts/omero/omerofeatures.py manics/pyfeatures:merge
+        --entrypoint /build/scripts/omero/omerofeatures.py imagedata/pyfeatures
         /out/map_screen_1101.tsv /out/$(basename $plate).h5
         --re-pattern '^([A-Z0-9]+_[0-9]+).*_([0-9]+)$' --re-match '\1_\2'
         $plate/*.avro
@@ -183,7 +185,7 @@ mv *.h5 intermediate
 
 ```
 docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR
-    --entrypoint /build/scripts/omero/concatfeatures.py manics/pyfeatures:merge
+    --entrypoint /build/scripts/omero/concatfeatures.py imagedata/pyfeatures
     $OUTPUTDIR/tables/idr0013-neumann-mitocheck-screenA-l_W672_H512_offsetx336_offsety256_x1344_y1024.h5
     $OUTPUTDIR/tables/intermediate/*.h5
 ```
@@ -195,7 +197,7 @@ Improve the performance of some OMERO.table queries by creating column indices:
 
 ```
 docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR
-    --entrypoint /build/scripts/omero/create_h5_index.py manics/pyfeatures:merge
+    --entrypoint /build/scripts/omero/create_h5_index.py imagedata/pyfeatures
     $OUTPUTDIR/tables/idr0013-neumann-mitocheck-screenA-l_W672_H512_offsetx336_offsety256_x1344_y1024.h5
 ```
 
