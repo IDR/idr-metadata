@@ -56,7 +56,7 @@ def make_parser():
     parser.add_argument("-l", "--log", help="log task ids to this file",
                         default="taskid-calc.log")
     parser.add_argument("-i", "--docker-img", help="docker image name",
-                        default="manics/pyfeatures:merge")
+                        default="imagedata/pyfeatures")
     parser.add_argument("-n", "--dry-run", action="store_true",
                         help="print celery args and exit")
     parser.add_argument("--limit", type=int, metavar="INT",
