@@ -102,7 +102,7 @@ columns:
         clientname: Disease State
         include: yes
       - name: Characteristics [Ethnicity]
-        clienname: Ethnicity
+        clientname: Ethnicity
         include: yes
 
   - group:
