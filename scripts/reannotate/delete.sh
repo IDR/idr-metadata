@@ -4,10 +4,10 @@ set -e
 
 inputname="$1"
 
-read -p 'Server:' host
+read -p 'Server(localhost:4064):' host
 host="${host:=localhost:4064}"
 
-read -p 'Username: ' username
+read -p 'Username(demo): ' username
 username="${username:=demo}"
 
 read -sp 'Password: ' password
