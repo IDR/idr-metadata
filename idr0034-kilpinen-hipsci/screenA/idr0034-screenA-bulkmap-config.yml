@@ -40,12 +40,14 @@ columns:
 
   - name: Results Measurements
     include: yes
-  - name: Results Measurements URL
+  - name: Results Measurements
+    clientname: Results Measurements URL
     clientvalue: "{{ value|urlencode }}"
     include: yes
   - name: Results Summary
     include: yes
-  - name: Results Summary URL
+  - name: Results Summary
+    clientname: Results Summary URL
     clientvalue: "{{ value|urlencode }}"
     include: yes
 
