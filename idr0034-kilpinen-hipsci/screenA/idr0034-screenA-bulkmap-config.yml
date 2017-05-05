@@ -32,8 +32,6 @@ columns:
     include: yes
   - name: Control Comments
     include: yes
-  - name: Quality Control
-    include: yes
 
   - name: Channels
     include: yes
