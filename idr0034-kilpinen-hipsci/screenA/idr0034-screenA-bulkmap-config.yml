@@ -65,10 +65,10 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/cell_line
       columns:
-      - name: Characterisitics [Cell Line]
+      - name: Characteristics [Cell Line]
         clientname: Cell Line
         include: yes
-      - name: Characterisitics [Cell Line]
+      - name: Characteristics [Cell Line]
         clientname: Cell Line URL
         clientvalue: http://www.hipsci.org/lines/#/lines/{{ value|urlencode }}
         include: yes
