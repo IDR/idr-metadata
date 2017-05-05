@@ -76,6 +76,12 @@ mkdir -p $OUTPUTDIR
 python collate --out-dir $OUTPUTDIR /uod/idr/scratch/*/
 ```
 
+or if multiple runs were done simultaneously perhaps:
+
+```
+python collate --out-dir $OUTPUTDIR /uod/idr/scratch/*/idr00XX-screenA/
+```
+
 
 ## Convert avro features to HDF5
 
