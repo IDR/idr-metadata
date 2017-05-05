@@ -115,10 +115,10 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/compound/supplementary
       columns:
-      - name: Comment[ChEMBL Identifier]
+      - name: Comment [ChEMBL Identifier]
         clientname: ChEMBL Identifier
         include: yes
-      - name: Comment[ChEMBL Identifier]
+      - name: Comment [ChEMBL Identifier]
         clientname: ChEMBL Identifier URL
         clientvalue: https://www.ebi.ac.uk/chembldb/target/inspect/{{ value|urlencode }}
         include: yes
