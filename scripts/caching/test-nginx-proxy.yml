@@ -1,0 +1,20 @@
+---
+# Initial configuration of IDR nodes
+# Note you should reboot after changing the network configuration, and
+# manually verify that the configuration is correct
+
+- hosts: all
+
+  roles:
+  - role: nginx-ssl-selfsigned
+  - role: nginx-proxy
+
+  vars_files:
+  - roles/nginx-proxy/vars/example-omero.yml
+
+  vars:
+    nginx_ssl_certificate: "{{ nginx_proxy_ssl_certificate }}"
+    nginx_ssl_certificate_key: "{{ nginx_proxy_ssl_certificate_key }}"
+    nginx_proxy_http2: True
+    #nginx_proxy_force_ssl: True
+    nginx_proxy_debug_cache_headers: True
