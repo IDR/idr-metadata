@@ -190,9 +190,11 @@ mv *.h5 intermediate
 2. Combine the files:
 
 ```
-docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR
-    --entrypoint /build/scripts/omero/concatfeatures.py imagedata/pyfeatures
-    $OUTPUTDIR/tables/idr0013-neumann-mitocheck-screenA-l_W672_H512_offsetx336_offsety256_x1344_y1024.h5
+docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR \
+    --entrypoint python \
+    imagedata/pyfeatures \
+    /build/scripts/omero/concatfeatures.py \
+    $OUTPUTDIR/tables/idr0013-neumann-mitocheck-screenA-l_W672_H512_offsetx336_offsety256_x1344_y1024.h5 \
     $OUTPUTDIR/tables/intermediate/*.h5
 ```
 
