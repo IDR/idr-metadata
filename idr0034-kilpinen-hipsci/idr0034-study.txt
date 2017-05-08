@@ -10,7 +10,7 @@ Study Organism	Homo sapiens
 Study Organism Term Source REF	NCBITaxon						
 Study Organism Term Accession	NCBITaxon_9606						
 Study Screens Number	1						
-Study External URL							
+Study External URL	http://www.hipsci.org/	https://www.ebi.ac.uk/biostudies/studies/S-BSMS5/					
 Study Public Release Date							
 							
 # Study License and Data DOI							
@@ -42,13 +42,13 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 							
 Screen Number	1						
 Comment[IDR Screen Name]	idr0034-kilpinen-hipsci/screenA						
-Screen Description	Cellular phenotyping of 28 cell lines from 14 donors.  Cells grown in wells coated with three concentrations of Fibronectin.						
+Screen Description	"Cellular phenotyping of 28 human induced pluripotent stem cell lines from 14 donors within the framework of the HipSci project. Cells are plated sparsely, 3000 per 96 well for 24 hours on wells coated with three diverse concentrations of Fibronectin"						
 Screen Size	Plates: 29	5D Images:	Planes:	Average Image Dimension (XYZCT):	Total Tb:		
 Screen Example Images							
 Screen Imaging Method	fluorescence microscopy						
 Screen Imaging Method Term Source REF	Fbbi						
 Screen Imaging Method Term Accession	FBbi_00000246						
-Screen Technology Type							
+Screen Technology Type	cell line screen						
 Screen Technology Term Source REF							
 Screen Technology Term Accession							
 Screen Type	primary screen						
