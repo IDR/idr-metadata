@@ -1,6 +1,6 @@
 ---
 name: idr0006-fong-nuclearbodies/screenA
-version: 3
+version: 4
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -20,10 +20,6 @@ defaults:
     omitempty: yes
 
 columns:
-
-  - name: Characteristics [Cell Line]
-    clientname: Cell Line
-    include: yes
 
   - name: Control Type
     include: yes
@@ -57,6 +53,13 @@ columns:
       - name: Characteristics [Organism]
         clientname: Organism
         include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+      - name: Characteristics [Cell Line]
+      clientname: Cell Line
+      include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/orf
@@ -248,6 +251,9 @@ advanced:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
       - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+      - Cell Line
     - namespace: openmicroscopy.org/mapr/orf
       keys:
       - ORF Identifier
