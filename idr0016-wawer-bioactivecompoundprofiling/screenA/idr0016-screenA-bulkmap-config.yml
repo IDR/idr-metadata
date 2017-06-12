@@ -1,6 +1,6 @@
 ---
 name: idr0016-wawer-bioactivecompoundprofiling/screenA
-version: 2
+version: 3
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -20,10 +20,6 @@ defaults:
     omitempty: yes
 
 columns:
-
-  - name: Characteristics [Cell Line]
-    clientname: Cell Line
-    include: yes
 
   - name: Control Type
     include: yes
@@ -68,6 +64,13 @@ columns:
         clientname: Organism
         include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+      - name: Characteristics [Cell Line]
+        clientname: Cell Line
+        include: yes
+	
   - group:
       namespace: openmicroscopy.org/mapr/compound
       columns:
@@ -149,6 +152,9 @@ advanced:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
       - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+      - Cell Line
     - namespace: openmicroscopy.org/mapr/compound
       keys:
       - Compound Name
