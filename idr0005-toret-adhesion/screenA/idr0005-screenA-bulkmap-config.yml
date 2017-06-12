@@ -1,6 +1,6 @@
 ---
 name: idr0005-toret-adhesion/screenA
-version: 2
+version: 3
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
