@@ -21,9 +21,6 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Cell Line]
-    clientname: Cell Line
-    include: yes
   - name: Characteristics [Cell Cycle Phase]
     clientname: Cell Cycle Phase
     include: yes
@@ -46,6 +43,13 @@ columns:
       columns:
       - name: Characteristics [Organism]
         clientname: Organism
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+      - name: Characteristics [Cell Line]
+        clientname: Cell Line
         include: yes
 
   - group:
@@ -114,6 +118,9 @@ advanced:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
       - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+      - Cell Line
     - namespace: openmicroscopy.org/mapr/gene
       keys:
       - Gene Identifier
