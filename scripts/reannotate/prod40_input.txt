@@ -1,0 +1,78 @@
+Screen:102 idr0002-heriche-condensation/screenA/idr0002-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:102 idr0002-heriche-condensation/screenA/idr0002-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:597 idr0005-toret-adhesion/screenA/idr0005-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:597 idr0005-toret-adhesion/screenA/idr0005-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:751 idr0005-toret-adhesion/screenB/idr0005-screenB openmicroscopy.org/omero/bulk_annotations
+Screen:751 idr0005-toret-adhesion/screenB/idr0005-screenB openmicroscopy.org/mapr/cell_line
+
+Screen:253 idr0006-fong-nuclearbodies/screenA/idr0006-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:253 idr0006-fong-nuclearbodies/screenA/idr0006-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:154 idr0008-rohn-actinome/screenA/idr0008-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:154 idr0008-rohn-actinome/screenA/idr0008-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:206 idr0008-rohn-actinome/screenB/idr0008-screenB openmicroscopy.org/omero/bulk_annotations
+Screen:206 idr0008-rohn-actinome/screenB/idr0008-screenB openmicroscopy.org/mapr/cell_line
+
+Screen:251 idr0009-simpson-secretion/screenA/idr0009-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:251 idr0009-simpson-secretion/screenA/idr0009-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:803 idr0009-simpson-secretion/screenB/idr0009-screenB openmicroscopy.org/omero/bulk_annotations
+Screen:803 idr0009-simpson-secretion/screenB/idr0009-screenB openmicroscopy.org/mapr/cell_line
+
+Screen:1351 idr0010-doil-dnadamage/screenA/idr0010-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1351 idr0010-doil-dnadamage/screenA/idr0010-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:1202 idr0012-fuchs-cellmorph/screenA/idr0012-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1202 idr0012-fuchs-cellmorph/screenA/idr0012-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:1101 idr0013-neumann-mitocheck/screenA/idr0012-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1101 idr0013-neumann-mitocheck/screenA/idr0012-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:1302 idr0013-neumann-mitocheck/screenB/idr0012-screenB openmicroscopy.org/omero/bulk_annotations
+Screen:1302 idr0013-neumann-mitocheck/screenB/idr0012-screenB openmicroscopy.org/mapr/cell_line
+
+Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screenA/idr0016-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screenA/idr0016-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:1151 idr0017-breinig-drugscreen/screenA/idr0017-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1151 idr0017-breinig-drugscreen/screenA/idr0017-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:1203 idr0019-sero-nfkappab/screenA/idr0019-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1203 idr0019-sero-nfkappab/screenA/idr0019-screenA openmicroscopy.org/mapr/cell_line
+Screen:1203 idr0019-sero-nfkappab/screenA/idr0019-screenA openmicroscopy.org/mapr/cell_line/supplementary
+
+Screen:1204 idr0020-barr-chtog/screenA/idr0020-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1204 idr0020-barr-chtog/screenA/idr0020-screenA openmicroscopy.org/mapr/cell_line
+
+Project:51 idr0021-lawo-pericentriolarmaterial/experimentA/idr0021-experimentA openmicroscopy.org/omero/bulk_annotations
+Project:51 idr0021-lawo-pericentriolarmaterial/experimentA/idr0021-experimentA openmicroscopy.org/mapr/cell_line
+
+Project: 52 idr0023-szymborska-nuclearpore/experimentA/idr0023-experimentA openmicroscopy.org/omero/bulk_annotations
+Project: 52 idr0023-szymborska-nuclearpore/experimentA/idr0023-experimentA openmicroscopy.org/mapr/cell_line
+
+Screen:1851 idr0025-stadler-proteinatlas/screenA/idr0025-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1851 idr0025-stadler-proteinatlas/screenA/idr0025-screenA openmicroscopy.org/mapr/cell_line
+
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/cell_line
+Screen:1651 idr0028-pascualvargas-rhogtpases/screenA/idr0028-screenA openmicroscopy.org/mapr/cell_line/supplementary
+
+Screen:1652 idr0028-pascualvargas-rhogtpases/screenB/idr0028-screenB openmicroscopy.org/omero/bulk_annotations
+Screen:1652 idr0028-pascualvargas-rhogtpases/screenB/idr0028-screenB openmicroscopy.org/mapr/cell_line
+Screen:1652 idr0028-pascualvargas-rhogtpases/screenB/idr0028-screenB openmicroscopy.org/mapr/cell_line/supplementary
+
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC openmicroscopy.org/omero/bulk_annotations
+Screen:1653 idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC openmicroscopy.org/mapr/cell_line
+
+Screen:1654 idr0028-pascualvargas-rhogtpases/screenD/idr0028-screenD openmicroscopy.org/omero/bulk_annotations
+Screen:1654 idr0028-pascualvargas-rhogtpases/screenD/idr0028-screenD openmicroscopy.org/mapr/cell_line
+
+Screen:1801 idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1801 idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/omero/mapr/cell_line
+
+Screen:1751 idr0033-rohban-pathways/screenA/idr0033-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1751 idr0033-rohban-pathways/screenA/idr0033-screenA openmicroscopy.org/mapr/cell_line
+
