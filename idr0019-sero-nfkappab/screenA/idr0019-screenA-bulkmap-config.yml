@@ -58,9 +58,9 @@ columns:
       namespace: openmicroscopy.org/mapr/cell_line/supplementary
       columns:
       - name: Cell Type\Genetic Subtype (Neve et al., Cancer Cell 2006)
-      include: yes
+        include: yes
       - name: Cell Line Morphotype
-      include: yes
+        include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/compound
@@ -78,7 +78,6 @@ columns:
       - name: Experimental Condition [Time]
         clientname: Time
         include: yes
-
 
 # Advanced options (experimental)
 advanced:
