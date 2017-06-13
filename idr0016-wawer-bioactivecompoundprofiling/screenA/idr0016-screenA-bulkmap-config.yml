@@ -70,7 +70,7 @@ columns:
       - name: Characteristics [Cell Line]
         clientname: Cell Line
         include: yes
-	
+
   - group:
       namespace: openmicroscopy.org/mapr/compound
       columns:
