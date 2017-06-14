@@ -50,8 +50,8 @@ Screen:1204 idr0020-barr-chtog/screenA/idr0020-screenA openmicroscopy.org/mapr/c
 Project:51 idr0021-lawo-pericentriolarmaterial/experimentA/idr0021-experimentA openmicroscopy.org/omero/bulk_annotations
 Project:51 idr0021-lawo-pericentriolarmaterial/experimentA/idr0021-experimentA openmicroscopy.org/mapr/cell_line
 
-Project: 52 idr0023-szymborska-nuclearpore/experimentA/idr0023-experimentA openmicroscopy.org/omero/bulk_annotations
-Project: 52 idr0023-szymborska-nuclearpore/experimentA/idr0023-experimentA openmicroscopy.org/mapr/cell_line
+Project:52 idr0023-szymborska-nuclearpore/experimentA/idr0023-experimentA openmicroscopy.org/omero/bulk_annotations
+Project:52 idr0023-szymborska-nuclearpore/experimentA/idr0023-experimentA openmicroscopy.org/mapr/cell_line
 
 Screen:1851 idr0025-stadler-proteinatlas/screenA/idr0025-screenA openmicroscopy.org/omero/bulk_annotations
 Screen:1851 idr0025-stadler-proteinatlas/screenA/idr0025-screenA openmicroscopy.org/mapr/cell_line
