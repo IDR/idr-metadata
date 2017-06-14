@@ -28,11 +28,11 @@ Screen:1351 idr0010-doil-dnadamage/screenA/idr0010-screenA openmicroscopy.org/ma
 Screen:1202 idr0012-fuchs-cellmorph/screenA/idr0012-screenA openmicroscopy.org/omero/bulk_annotations
 Screen:1202 idr0012-fuchs-cellmorph/screenA/idr0012-screenA openmicroscopy.org/mapr/cell_line
 
-Screen:1101 idr0013-neumann-mitocheck/screenA/idr0012-screenA openmicroscopy.org/omero/bulk_annotations
-Screen:1101 idr0013-neumann-mitocheck/screenA/idr0012-screenA openmicroscopy.org/mapr/cell_line
+Screen:1101 idr0013-neumann-mitocheck/screenA/idr0013-screenA openmicroscopy.org/omero/bulk_annotations
+Screen:1101 idr0013-neumann-mitocheck/screenA/idr0013-screenA openmicroscopy.org/mapr/cell_line
 
-Screen:1302 idr0013-neumann-mitocheck/screenB/idr0012-screenB openmicroscopy.org/omero/bulk_annotations
-Screen:1302 idr0013-neumann-mitocheck/screenB/idr0012-screenB openmicroscopy.org/mapr/cell_line
+Screen:1302 idr0013-neumann-mitocheck/screenB/idr0013-screenB openmicroscopy.org/omero/bulk_annotations
+Screen:1302 idr0013-neumann-mitocheck/screenB/idr0013-screenB openmicroscopy.org/mapr/cell_line
 
 Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screenA/idr0016-screenA openmicroscopy.org/omero/bulk_annotations
 Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screenA/idr0016-screenA openmicroscopy.org/mapr/cell_line
