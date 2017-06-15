@@ -48,10 +48,10 @@ pip install -r requirements.txt
 The arguments after `--` in this example are parameters for the feature calculation:
 
 ```
-python calc.py --user celery
-    --out-dir /uod/idr-scratch --broker redis://:PASSWORD@example.org:6379
-    /uod/idr/features/idr0013-neumann-mitocheck/screenA/input/
-    --
+python calc.py --user celery \
+    --out-dir /uod/idr-scratch --broker redis://:PASSWORD@example.org:6379 \
+    /uod/idr/features/idr0013-neumann-mitocheck/screenA/input/ \
+    -- \
     -l -W 672 -H 512 --offset-x 336 --offset-y 256 -x 1344 -y 1024
 ```
 
@@ -76,6 +76,12 @@ mkdir -p $OUTPUTDIR
 python collate --out-dir $OUTPUTDIR /uod/idr/scratch/*/
 ```
 
+or if multiple runs were done simultaneously perhaps:
+
+```
+python collate --out-dir $OUTPUTDIR /uod/idr/scratch/*/idr00XX-screenA/
+```
+
 
 ## Convert avro features to HDF5
 
@@ -91,7 +97,7 @@ mkdir -p $OUTPUTDIR/tables
 For example, for `Screen:1101`:
 
 ```
-docker run -it --rm --entrypoint /build/scripts/omero/map_series.py
+docker run -it --rm --entrypoint /build/scripts/omero/map_series.py \
     -v $OUTPUTDIR/tables:/out imagedata/pyfeatures \
     -H OMERO_IP -U USERNAME -o /out/map_screen_1101.tsv 1101
 ```
@@ -106,8 +112,8 @@ for plate in $OUTPUTDIR/data/*/; do echo $(basename $plate); done
 
 ```
 for plate in $OUTPUTDIR/data/*/; do
-    docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR:ro -v $OUTPUTDIR/tables:/out
-        --entrypoint /build/scripts/omero/omerofeatures.py imagedata/pyfeatures
+    docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR:ro -v $OUTPUTDIR/tables:/out \
+        --entrypoint /build/scripts/omero/omerofeatures.py imagedata/pyfeatures \
         /out/map_screen_1101.tsv /out/$(basename $plate).h5 $plate/*.avro
 done
 ```
@@ -161,9 +167,9 @@ If the filename stored in the avro file does not match the OMERO name it is nece
 
 ```
 for plate in $OUTPUTDIR/data/*/; do
-    docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR:ro -v $OUTPUTDIR/tables:/out
-        --entrypoint /build/scripts/omero/omerofeatures.py imagedata/pyfeatures
-        /out/map_screen_1101.tsv /out/$(basename $plate).h5
+    docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR:ro -v $OUTPUTDIR/tables:/out \
+        --entrypoint /build/scripts/omero/omerofeatures.py imagedata/pyfeatures \
+        /out/map_screen_1101.tsv /out/$(basename $plate).h5 \
         --re-pattern '^([A-Z0-9]+_[0-9]+).*_([0-9]+)$' --re-match '\1_\2'
         $plate/*.avro
 done
@@ -184,9 +190,11 @@ mv *.h5 intermediate
 2. Combine the files:
 
 ```
-docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR
-    --entrypoint /build/scripts/omero/concatfeatures.py imagedata/pyfeatures
-    $OUTPUTDIR/tables/idr0013-neumann-mitocheck-screenA-l_W672_H512_offsetx336_offsety256_x1344_y1024.h5
+docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR \
+    --entrypoint python \
+    imagedata/pyfeatures \
+    /build/scripts/omero/concatfeatures.py \
+    $OUTPUTDIR/tables/idr0013-neumann-mitocheck-screenA-l_W672_H512_offsetx336_offsety256_x1344_y1024.h5 \
     $OUTPUTDIR/tables/intermediate/*.h5
 ```
 
@@ -196,8 +204,8 @@ docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR
 Improve the performance of some OMERO.table queries by creating column indices:
 
 ```
-docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR
-    --entrypoint /build/scripts/omero/create_h5_index.py imagedata/pyfeatures
+docker run -it --rm -v $OUTPUTDIR:$OUTPUTDIR \
+    --entrypoint /build/scripts/omero/create_h5_index.py imagedata/pyfeatures \
     $OUTPUTDIR/tables/idr0013-neumann-mitocheck-screenA-l_W672_H512_offsetx336_offsety256_x1344_y1024.h5
 ```
 
