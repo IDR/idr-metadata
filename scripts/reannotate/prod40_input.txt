@@ -39,6 +39,7 @@ Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screenA/idr0016-screenA ope
 
 Screen:1151 idr0017-breinig-drugscreen/screenA/idr0017-screenA openmicroscopy.org/omero/bulk_annotations
 Screen:1151 idr0017-breinig-drugscreen/screenA/idr0017-screenA openmicroscopy.org/mapr/cell_line
+Screen:1151 idr0017-breinig-drugscreen/screenA/idr0017-screenA openmicroscopy.org/mapr/cell_line/supplementary
 
 Screen:1203 idr0019-sero-nfkappab/screenA/idr0019-screenA openmicroscopy.org/omero/bulk_annotations
 Screen:1203 idr0019-sero-nfkappab/screenA/idr0019-screenA openmicroscopy.org/mapr/cell_line
