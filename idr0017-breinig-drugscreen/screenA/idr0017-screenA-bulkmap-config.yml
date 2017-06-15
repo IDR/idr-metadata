@@ -56,7 +56,7 @@ columns:
       namespace: openmicroscopy.org/mapr/cell_line/supplementary
       columns:
       - name: Mutation Detailed
-      include: yes
+        include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/compound
