@@ -1,6 +1,6 @@
 ---
-name: idr0020-barr-chtog
-version: 2
+name: idr0020-barr-chtog/screenA
+version: 3
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -21,9 +21,6 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Cell Line]
-    clientname: Cell Line
-    include: yes
   - name: Experimental Condition [RNA interference]
     clientname: shRNA
     include: yes
@@ -52,6 +49,13 @@ columns:
       columns:
       - name: Characteristics [Organism]
         clientname: Organism
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+      - name: Characteristics [Cell Line]
+        clientname: Cell Line
         include: yes
 
   - group:
@@ -150,6 +154,9 @@ advanced:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
       - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+      - Cell Line
     - namespace: openmicroscopy.org/mapr/sirna
       keys:
       - siRNA Identifier

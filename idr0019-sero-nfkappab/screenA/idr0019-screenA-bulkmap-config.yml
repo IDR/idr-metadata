@@ -1,6 +1,6 @@
 ---
 name: idr0019-sero-nfkappab/screenA
-version: 2
+version: 3
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -21,11 +21,6 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Cell Line]
-    clientname: Cell Line
-    include: yes
-  - name: Cell Type\Genetic Subtype (Neve et al., Cancer Cell 2006)
-    include: yes
   - name: Experimental Condition [Media]
     clientname: Media
     include: yes
@@ -39,8 +34,6 @@ columns:
     include: yes
   - name: Comments
     include: yes
-  - name: Cell Line Morphotype
-    include: yes
 
 
 ######################################################################
@@ -52,6 +45,21 @@ columns:
       columns:
       - name: Characteristics [Organism]
         clientname: Organism
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+      - name: Characteristics [Cell Line]
+        clientname: Cell Line
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line/supplementary
+      columns:
+      - name: Cell Type\Genetic Subtype (Neve et al., Cancer Cell 2006)
+        include: yes
+      - name: Cell Line Morphotype
         include: yes
 
   - group:
@@ -71,7 +79,6 @@ columns:
         clientname: Time
         include: yes
 
-
 # Advanced options (experimental)
 advanced:
     # If a map-annotation is attached to a well also attach it to all images
@@ -84,6 +91,9 @@ advanced:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
       - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+      - Cell Line
     - namespace: openmicroscopy.org/mapr/compound
       keys:
       - Compound Name
