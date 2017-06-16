@@ -72,7 +72,7 @@ Screen:1654 idr0028-pascualvargas-rhogtpases/screenD/idr0028-screenD openmicrosc
 Screen:1654 idr0028-pascualvargas-rhogtpases/screenD/idr0028-screenD openmicroscopy.org/mapr/cell_line
 
 Screen:1801 idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/omero/bulk_annotations
-Screen:1801 idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/omero/mapr/cell_line
+Screen:1801 idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/mapr/cell_line
 
 Screen:1751 idr0033-rohban-pathways/screenA/idr0033-screenA openmicroscopy.org/omero/bulk_annotations
 Screen:1751 idr0033-rohban-pathways/screenA/idr0033-screenA openmicroscopy.org/mapr/cell_line
