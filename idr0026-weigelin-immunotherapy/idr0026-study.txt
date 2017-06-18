@@ -37,8 +37,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Experiment Number	1											
 Comment[IDR Experiment Name]	idr0026-weigelin-immunotherapy/experimentA											
 Experiment Description	Combination therapy of adoptive CTL transfer and anti-CD137 monoclonal antibody. Mice were injected with B16F10/OVA melanoma cells and after 3 or 7 days were treated with OVA-specific CD8+ T cells (Cytotoxic T lymphocytes CTL) plus 1D8 antibody (anti-CD137).  4D timelapse images were taken at either 3 or 6 days after CTL + antibody treatment.											
-Experiment Size	Datasets:	5D Images:	Average Image Dimension (XYZCT):	Total Tb:								
-Experiment Example Images												
+Experiment Size	Datasets:18	5D Images:227	Average Image Dimension (XYZCT):501.0 x 497.9 x 103.3 x 3.4 x 56.5	Total Tb:0.48								
+Experiment Example Images	http://idr.openmicroscopy.org/webclient/?show=image-3261855	http://idr.openmicroscopy.org/webclient/img_detail/3261855/	TreatStartDay7_CTL_anti-CD137_Day3PostTreat_mouse54;7.54.10-3.140926_18-36-07.00.pattern									
 Experiment Imaging Method	multi-photon microscopy											
 Experiment Imaging Method Term Source REF	FBbi											
 Experiment Imaging Method Term Accession	FBbi_00000255											
@@ -64,9 +64,9 @@ Protocol Description	"Dorsal skin-fold chambers were transplanted onto 8- to 14-
 Phenotype Name	reduced tumor growth	reduced CTL speed	increased CTL confinement	enhanced CTL killing	enhanced CTL proliferation	enhanced CTL density	vessel normalization	transient increase in CTL density				
 Phenotype Description			Cell is moving without getting far away from its point of origin. Calculated by dividing the distance between start and end point of the cells migration path by the total length of the path.				"The vessel morphology in the tumor changes from the dilated, thick, irregular tumor neovessels to the morphology of more healthy vessels, e.g. thinner vessels, more straight structure, lower density, better perfused. Determined by vessel diameter, area of the field of view covered by vessels, and the amount of vessel branches."					
 Phenotype Score Type	automatic	automatic	automatic	automatic	automatic	automatic	automatic	automatic				
-Phenotype Term Source REF	MP	CMPO			CMPO							
-Phenotype Term Name	decreased tumor growth/size	decreased cell movement speed			proliferating cells							
-Phenotype Term Accession	MP_0003447	CMPO_0000240			CMPO_0000241							
+Phenotype Term Source REF	MP	CMPO		CMPO	CMPO							
+Phenotype Term Name	decreased tumor growth/size	decreased cell movement speed		T cell mediated killing against a tumor cell phenotype	proliferating cells							
+Phenotype Term Accession	MP_0003447	CMPO_0000240		CMPO_0000449	CMPO_0000241							
 												
 												
 # Feature Level Data Files (give individual file details unless there is one file per well)												
