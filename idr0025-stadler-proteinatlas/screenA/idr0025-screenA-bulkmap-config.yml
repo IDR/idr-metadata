@@ -1,6 +1,6 @@
 ---
 name: idr0025-stadler-proteinatlas/screenA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
