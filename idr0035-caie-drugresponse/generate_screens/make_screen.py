@@ -58,7 +58,7 @@ def get_patterns(subd):
         for field, channels in field_map.iteritems():
             assert set(_[0] for _ in channels) == exp_channels
             field_map[field] = "%s%s_s%d_w<%s>.tif" % (
-                head, well, field, ",".join(channels)
+                head, well, field, ",".join(sorted(channels))
             )
     return d
 
