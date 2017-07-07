@@ -3,7 +3,6 @@
 import omero
 from omero.cli import cli_login
 from omero.rtypes import unwrap
-from omero.util.populate_metadata import BulkToMapAnnotationContext
 import pandas as pd
 import re
 import warnings
@@ -20,7 +19,6 @@ with cli_login() as cli:
 
     ns = omero.constants.namespaces.NSBULKANNOTATIONS
 
-
     qs = client.getSession().getQueryService()  # noqa
     us = client.getSession().getUpdateService()  # noqa
 
@@ -30,8 +28,8 @@ with cli_login() as cli:
          'WHERE spl.parent.id=%d' % screenid)
     rs = unwrap(qs.projection(q, None))
 
-
     class PlateInfo:
+
         def __init__(self, i, platename):
             self.i = i
             self.name, u, v = re.match(
@@ -39,9 +37,9 @@ with cli_login() as cli:
             if not ("%s%s%s" % (self.name, u, v)).strip():
                 raise Exception(r[1])
             self.well = "%s%s" % (u, v)
+
         def __str__(self):
             return "%s: %s--%s" % (self.i, self.name, self.well)
-
 
     plateinfos = [PlateInfo(r[0], r[1]) for r in rs]
     assert len(plateinfos) == 84  # As of Jun 2017
@@ -96,7 +94,6 @@ with cli_login() as cli:
         links.append(link)
 
     if missing2:
-        # msg = 'No matching plate/wells found for:%s\n' % ('\n'.join(missing2))
         msg = "No matching plate/wells found for", len(missing2)
         if ignore_missing:
             warnings.warn(msg)
