@@ -32,8 +32,6 @@ columns:
   - name: Replicate
     include: yes
 
-
-
 ######################################################################
 # mapr groups
 ######################################################################
@@ -69,8 +67,6 @@ columns:
         include: yes
       - name: Dose
         include: yes
-
-
 
 # Advanced options (experimental)
 advanced:
