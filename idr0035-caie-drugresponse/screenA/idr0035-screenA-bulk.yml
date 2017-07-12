@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0035-caie-drugresponse/screenA"
+include: "../../bulk.yml"
+path: "idr0035-screenA-plates.tsv"
