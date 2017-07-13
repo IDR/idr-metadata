@@ -10,4 +10,6 @@ Project:301 idr0026-weigelin-immunotherapy/experimentA/idr0026-experimentA openm
 
 Screen:1654 idr0028-pascualvargas-rhogtpases/screenD/idr0028-screenD openmicroscopy.org/mapr/cell_line
 
-Screen:1801 Screen:1801 idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/mapr/phenotype
+Screen:1801 idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/mapr/phenotype
+
+Screen:XXXX idr0035-caie-drugresponse/screenA/idr0035-screenA
