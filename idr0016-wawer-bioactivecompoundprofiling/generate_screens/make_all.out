@@ -1,3 +1,5 @@
+data dir: /uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling/2016-02-19-screens-cellimagelibrary
+  plate: 26579 [1/355]
 WARNING: plate 26579: missing field for well I08: 5
 WARNING: plate 26579: missing well: I09
 WARNING: plate 26579: missing field for well I10: 4
@@ -65,6 +67,7 @@ WARNING: plate 26579: missing well: P05
 WARNING: plate 26579: missing well: P06
 WARNING: plate 26579: missing well: P07
 WARNING: plate 26579: missing well: P08
+  plate: 26578 [2/355]
 WARNING: plate 26578: missing well: B11
 WARNING: plate 26578: missing well: B12
 WARNING: plate 26578: missing well: B13
@@ -195,6 +198,7 @@ WARNING: plate 26578: missing well: P06
 WARNING: plate 26578: missing well: P07
 WARNING: plate 26578: missing field for well P08: 4
 WARNING: plate 26578: missing field for well P08: 5
+  plate: 26575 [3/355]
 WARNING: plate 26575: missing well: A08
 WARNING: plate 26575: missing well: A09
 WARNING: plate 26575: missing well: A10
@@ -507,6 +511,7 @@ WARNING: plate 26575: missing well: P21
 WARNING: plate 26575: missing well: P22
 WARNING: plate 26575: missing well: P23
 WARNING: plate 26575: missing well: P24
+  plate: 26574 [4/355]
 WARNING: plate 26574: missing well: A01
 WARNING: plate 26574: missing well: A02
 WARNING: plate 26574: missing well: A03
@@ -836,6 +841,7 @@ WARNING: plate 26574: missing well: P21
 WARNING: plate 26574: missing well: P22
 WARNING: plate 26574: missing well: P23
 WARNING: plate 26574: missing well: P24
+  plate: 26577 [5/355]
 WARNING: plate 26577: missing well: C03
 WARNING: plate 26577: missing well: C04
 WARNING: plate 26577: missing well: C05
@@ -1026,6 +1032,7 @@ WARNING: plate 26577: missing field for well P07: 2
 WARNING: plate 26577: missing field for well P07: 3
 WARNING: plate 26577: missing field for well P07: 4
 WARNING: plate 26577: missing field for well P07: 5
+  plate: 26576 [6/355]
 WARNING: plate 26576: missing field for well A08: 4
 WARNING: plate 26576: missing field for well A08: 5
 WARNING: plate 26576: missing well: A09
@@ -1326,6 +1333,7 @@ WARNING: plate 26576: missing well: P03
 WARNING: plate 26576: missing well: P04
 WARNING: plate 26576: missing well: P05
 WARNING: plate 26576: missing well: P06
+  plate: 26572 [7/355]
 WARNING: plate 26572: missing well: A01
 WARNING: plate 26572: missing well: A02
 WARNING: plate 26572: missing well: A03
@@ -1675,6 +1683,50 @@ WARNING: plate 26572: missing well: P21
 WARNING: plate 26572: missing well: P22
 WARNING: plate 26572: missing well: P23
 WARNING: plate 26572: missing well: P24
+  plate: 24653 [8/355]
+  plate: 24507 [9/355]
+  plate: 25856 [10/355]
+  plate: 26678 [11/355]
+  plate: 25854 [12/355]
+  plate: 25690 [13/355]
+  plate: 25692 [14/355]
+  plate: 24304 [15/355]
+  plate: 25694 [16/355]
+  plate: 24307 [17/355]
+  plate: 25664 [18/355]
+  plate: 25665 [19/355]
+  plate: 25667 [20/355]
+  plate: 25663 [21/355]
+  plate: 25742 [22/355]
+  plate: 25741 [23/355]
+  plate: 25740 [24/355]
+  plate: 26677 [25/355]
+  plate: 25885 [26/355]
+  plate: 26688 [27/355]
+  plate: 26724 [28/355]
+  plate: 25859 [29/355]
+  plate: 26683 [30/355]
+  plate: 26682 [31/355]
+  plate: 26681 [32/355]
+  plate: 25991 [33/355]
+  plate: 24278 [34/355]
+  plate: 24279 [35/355]
+  plate: 26685 [36/355]
+  plate: 26684 [37/355]
+  plate: 26092 [38/355]
+  plate: 26159 [39/355]
+  plate: 25592 [40/355]
+  plate: 25593 [41/355]
+  plate: 25590 [42/355]
+  plate: 25591 [43/355]
+  plate: 25594 [44/355]
+  plate: 25598 [45/355]
+  plate: 25599 [46/355]
+  plate: 26753 [47/355]
+  plate: 26752 [48/355]
+  plate: 26611 [49/355]
+  plate: 26612 [50/355]
+  plate: 26531 [51/355]
 WARNING: plate 26531: missing field for well N17: 1
 WARNING: plate 26531: missing field for well N17: 2
 WARNING: plate 26531: missing field for well N17: 3
@@ -1684,6 +1736,26 @@ WARNING: plate 26531: missing well: N18
 WARNING: plate 26531: missing well: N19
 WARNING: plate 26531: missing well: N20
 WARNING: plate 26531: missing well: N21
+  plate: 24756 [52/355]
+  plate: 24755 [53/355]
+  plate: 24563 [54/355]
+  plate: 24753 [55/355]
+  plate: 24752 [56/355]
+  plate: 24751 [57/355]
+  plate: 24750 [58/355]
+  plate: 25435 [59/355]
+  plate: 24759 [60/355]
+  plate: 25434 [61/355]
+  plate: 24595 [62/355]
+  plate: 24594 [63/355]
+  plate: 24596 [64/355]
+  plate: 24590 [65/355]
+  plate: 25903 [66/355]
+  plate: 24592 [67/355]
+  plate: 25909 [68/355]
+  plate: 25908 [69/355]
+  plate: 25855 [70/355]
+  plate: 24623 [71/355]
 WARNING: plate 24623: missing field for well A15: 3
 WARNING: plate 24623: missing field for well A15: 4
 WARNING: plate 24623: missing field for well A15: 5
@@ -2245,6 +2317,31 @@ WARNING: plate 24623: missing well: P21
 WARNING: plate 24623: missing well: P22
 WARNING: plate 24623: missing well: P23
 WARNING: plate 24623: missing well: P24
+  plate: 26675 [72/355]
+  plate: 24625 [73/355]
+  plate: 24624 [74/355]
+  plate: 25403 [75/355]
+  plate: 25406 [76/355]
+  plate: 25408 [77/355]
+  plate: 25391 [78/355]
+  plate: 25392 [79/355]
+  plate: 26216 [80/355]
+  plate: 25492 [81/355]
+  plate: 25490 [82/355]
+  plate: 25578 [83/355]
+  plate: 25579 [84/355]
+  plate: 25575 [85/355]
+  plate: 25576 [86/355]
+  plate: 25570 [87/355]
+  plate: 25994 [88/355]
+  plate: 25572 [89/355]
+  plate: 25573 [90/355]
+  plate: 26061 [91/355]
+  plate: 26060 [92/355]
+  plate: 25997 [93/355]
+  plate: 26107 [94/355]
+  plate: 26625 [95/355]
+  plate: 26626 [96/355]
 WARNING: plate 26626: missing well: G24
 WARNING: plate 26626: missing well: H01
 WARNING: plate 26626: missing well: H02
@@ -2253,6 +2350,20 @@ WARNING: plate 26626: missing well: H04
 WARNING: plate 26626: missing well: H05
 WARNING: plate 26626: missing field for well H06: 4
 WARNING: plate 26626: missing field for well H06: 5
+  plate: 26623 [97/355]
+  plate: 26622 [98/355]
+  plate: 24793 [99/355]
+  plate: 24792 [100/355]
+  plate: 24797 [101/355]
+  plate: 24796 [102/355]
+  plate: 24795 [103/355]
+  plate: 25949 [104/355]
+  plate: 25943 [105/355]
+  plate: 25945 [106/355]
+  plate: 25944 [107/355]
+  plate: 25990 [108/355]
+  plate: 24664 [109/355]
+  plate: 26569 [110/355]
 WARNING: plate 26569: missing well: A01
 WARNING: plate 26569: missing well: A02
 WARNING: plate 26569: missing well: A03
@@ -2627,6 +2738,7 @@ WARNING: plate 26569: missing well: P21
 WARNING: plate 26569: missing well: P22
 WARNING: plate 26569: missing well: P23
 WARNING: plate 26569: missing well: P24
+  plate: 26564 [111/355]
 WARNING: plate 26564: missing well: A01
 WARNING: plate 26564: missing well: A02
 WARNING: plate 26564: missing well: A03
@@ -2966,7 +3078,54 @@ WARNING: plate 26564: missing well: P21
 WARNING: plate 26564: missing well: P22
 WARNING: plate 26564: missing well: P23
 WARNING: plate 26564: missing well: P24
+  plate: 26562 [112/355]
+  plate: 26563 [113/355]
+  plate: 25725 [114/355]
+  plate: 25724 [115/355]
+  plate: 25726 [116/355]
+  plate: 25723 [117/355]
+  plate: 25688 [118/355]
+  plate: 25689 [119/355]
+  plate: 25683 [120/355]
+  plate: 25680 [121/355]
+  plate: 25681 [122/355]
+  plate: 25686 [123/355]
+  plate: 26695 [124/355]
+  plate: 25438 [125/355]
+  plate: 24560 [126/355]
+  plate: 25430 [127/355]
+  plate: 24562 [128/355]
+  plate: 25432 [129/355]
 WARNING: plate 25432: missing field for well P16: 5
+  plate: 24564 [130/355]
+  plate: 24565 [131/355]
+  plate: 24566 [132/355]
+  plate: 25436 [133/355]
+  plate: 26140 [134/355]
+  plate: 26224 [135/355]
+  plate: 25986 [136/355]
+  plate: 25983 [137/355]
+  plate: 26666 [138/355]
+  plate: 26669 [139/355]
+  plate: 26668 [140/355]
+  plate: 26744 [141/355]
+  plate: 26745 [142/355]
+  plate: 25989 [143/355]
+  plate: 25988 [144/355]
+  plate: 25985 [145/355]
+  plate: 25984 [146/355]
+  plate: 25987 [147/355]
+  plate: 26662 [148/355]
+  plate: 26664 [149/355]
+  plate: 26748 [150/355]
+  plate: 24512 [151/355]
+  plate: 26135 [152/355]
+  plate: 26133 [153/355]
+  plate: 25862 [154/355]
+  plate: 26138 [155/355]
+  plate: 26663 [156/355]
+  plate: 25695 [157/355]
+  plate: 26521 [158/355]
 WARNING: plate 26521: missing field for well C13: 2
 WARNING: plate 26521: missing field for well C13: 3
 WARNING: plate 26521: missing field for well C13: 4
@@ -2987,6 +3146,19 @@ WARNING: plate 26521: missing well: F01
 WARNING: plate 26521: missing well: F02
 WARNING: plate 26521: missing well: F03
 WARNING: plate 26521: missing well: F04
+  plate: 24740 [159/355]
+  plate: 24297 [160/355]
+  plate: 24586 [161/355]
+  plate: 25914 [162/355]
+  plate: 25915 [163/355]
+  plate: 25912 [164/355]
+  plate: 24583 [165/355]
+  plate: 25911 [166/355]
+  plate: 25918 [167/355]
+  plate: 25642 [168/355]
+  plate: 25643 [169/355]
+  plate: 25641 [170/355]
+  plate: 26596 [171/355]
 WARNING: plate 26596: missing field for well I05: 3
 WARNING: plate 26596: missing field for well I05: 4
 WARNING: plate 26596: missing field for well I05: 5
@@ -3025,9 +3197,12 @@ WARNING: plate 26596: missing field for well L23: 3
 WARNING: plate 26596: missing field for well L23: 4
 WARNING: plate 26596: missing field for well L23: 5
 WARNING: plate 26596: missing well: L24
+  plate: 26595 [172/355]
 WARNING: plate 26595: missing field for well M15: 4
 WARNING: plate 26595: missing field for well M15: 5
 WARNING: plate 26595: missing well: M16
+  plate: 26680 [173/355]
+  plate: 26592 [174/355]
 WARNING: plate 26592: missing field for well M24: 4
 WARNING: plate 26592: missing field for well M24: 5
 WARNING: plate 26592: missing well: N01
@@ -3038,6 +3213,7 @@ WARNING: plate 26592: missing well: N05
 WARNING: plate 26592: missing well: N06
 WARNING: plate 26592: missing well: N07
 WARNING: plate 26592: missing well: N08
+  plate: 26598 [175/355]
 WARNING: plate 26598: missing field for well B23: 3
 WARNING: plate 26598: missing field for well B23: 4
 WARNING: plate 26598: missing field for well B23: 5
@@ -3064,6 +3240,52 @@ WARNING: plate 26598: missing well: E08
 WARNING: plate 26598: missing well: E09
 WARNING: plate 26598: missing field for well E10: 4
 WARNING: plate 26598: missing field for well E10: 5
+  plate: 24735 [176/355]
+  plate: 24734 [177/355]
+  plate: 24736 [178/355]
+  plate: 24731 [179/355]
+  plate: 24733 [180/355]
+  plate: 24732 [181/355]
+  plate: 24634 [182/355]
+  plate: 24739 [183/355]
+  plate: 24631 [184/355]
+  plate: 24633 [185/355]
+  plate: 26791 [186/355]
+  plate: 26792 [187/355]
+  plate: 26795 [188/355]
+  plate: 26794 [189/355]
+  plate: 26796 [190/355]
+  plate: 26181 [191/355]
+  plate: 25488 [192/355]
+  plate: 25485 [193/355]
+  plate: 25503 [194/355]
+  plate: 26071 [195/355]
+  plate: 26702 [196/355]
+  plate: 26703 [197/355]
+  plate: 26705 [198/355]
+  plate: 25571 [199/355]
+  plate: 26271 [200/355]
+  plate: 26174 [201/355]
+  plate: 24785 [202/355]
+  plate: 24783 [203/355]
+  plate: 24789 [204/355]
+  plate: 26007 [205/355]
+  plate: 26006 [206/355]
+  plate: 26002 [207/355]
+  plate: 26009 [208/355]
+  plate: 26008 [209/355]
+  plate: 25955 [210/355]
+  plate: 25378 [211/355]
+  plate: 24584 [212/355]
+  plate: 24585 [213/355]
+  plate: 24773 [214/355]
+  plate: 24772 [215/355]
+  plate: 24775 [216/355]
+  plate: 24774 [217/355]
+  plate: 25913 [218/355]
+  plate: 25738 [219/355]
+  plate: 25739 [220/355]
+  plate: 25732 [221/355]
 WARNING: plate 25732: missing well: A03
 WARNING: plate 25732: missing well: A04
 WARNING: plate 25732: missing well: A05
@@ -3555,6 +3777,53 @@ WARNING: plate 25732: missing field for well P22: 4
 WARNING: plate 25732: missing field for well P22: 5
 WARNING: plate 25732: missing well: P23
 WARNING: plate 25732: missing well: P24
+  plate: 24605 [222/355]
+  plate: 24604 [223/355]
+  plate: 24588 [224/355]
+  plate: 25605 [225/355]
+  plate: 24609 [226/355]
+  plate: 25428 [227/355]
+  plate: 25422 [228/355]
+  plate: 25420 [229/355]
+  plate: 25426 [230/355]
+  plate: 25424 [231/355]
+  plate: 24352 [232/355]
+  plate: 26239 [233/355]
+  plate: 26232 [234/355]
+  plate: 25553 [235/355]
+  plate: 25857 [236/355]
+  plate: 26772 [237/355]
+  plate: 26771 [238/355]
+  plate: 26679 [239/355]
+  plate: 25853 [240/355]
+  plate: 25852 [241/355]
+  plate: 26672 [242/355]
+  plate: 26673 [243/355]
+  plate: 26670 [244/355]
+  plate: 26671 [245/355]
+  plate: 25992 [246/355]
+  plate: 25993 [247/355]
+  plate: 26674 [248/355]
+  plate: 25858 [249/355]
+  plate: 26126 [250/355]
+  plate: 26124 [251/355]
+  plate: 25567 [252/355]
+  plate: 26128 [253/355]
+  plate: 26642 [254/355]
+  plate: 25565 [255/355]
+  plate: 25564 [256/355]
+  plate: 25923 [257/355]
+  plate: 25638 [258/355]
+  plate: 25925 [259/355]
+  plate: 25929 [260/355]
+  plate: 25679 [261/355]
+  plate: 25678 [262/355]
+  plate: 24602 [263/355]
+  plate: 25677 [264/355]
+  plate: 25676 [265/355]
+  plate: 25675 [266/355]
+  plate: 25674 [267/355]
+  plate: 26580 [268/355]
 WARNING: plate 26580: missing well: D06
 WARNING: plate 26580: missing well: D07
 WARNING: plate 26580: missing well: D08
@@ -3565,6 +3834,38 @@ WARNING: plate 26580: missing well: D12
 WARNING: plate 26580: missing well: D13
 WARNING: plate 26580: missing field for well D14: 4
 WARNING: plate 26580: missing field for well D14: 5
+  plate: 26588 [269/355]
+  plate: 24726 [270/355]
+  plate: 26765 [271/355]
+  plate: 24641 [272/355]
+  plate: 24642 [273/355]
+  plate: 26782 [274/355]
+  plate: 26783 [275/355]
+  plate: 26786 [276/355]
+  plate: 26784 [277/355]
+  plate: 26785 [278/355]
+  plate: 24319 [279/355]
+  plate: 25376 [280/355]
+  plate: 25374 [281/355]
+  plate: 25372 [282/355]
+  plate: 26730 [283/355]
+  plate: 26739 [284/355]
+  plate: 25892 [285/355]
+  plate: 25891 [286/355]
+  plate: 25890 [287/355]
+  plate: 26081 [288/355]
+  plate: 25581 [289/355]
+  plate: 25580 [290/355]
+  plate: 25583 [291/355]
+  plate: 26247 [292/355]
+  plate: 25584 [293/355]
+  plate: 25587 [294/355]
+  plate: 25588 [295/355]
+  plate: 26166 [296/355]
+  plate: 25967 [297/355]
+  plate: 25966 [298/355]
+  plate: 25965 [299/355]
+  plate: 26600 [300/355]
 WARNING: plate 26600: missing field for well B17: 5
 WARNING: plate 26600: missing well: B18
 WARNING: plate 26600: missing well: B19
@@ -3576,6 +3877,13 @@ WARNING: plate 26600: missing field for well B24: 2
 WARNING: plate 26600: missing field for well B24: 3
 WARNING: plate 26600: missing field for well B24: 4
 WARNING: plate 26600: missing field for well B24: 5
+  plate: 26607 [301/355]
+  plate: 25962 [302/355]
+  plate: 26608 [303/355]
+  plate: 25968 [304/355]
+  plate: 25585 [305/355]
+  plate: 26544 [306/355]
+  plate: 26545 [307/355]
 WARNING: plate 26545: missing field for well H23: 1
 WARNING: plate 26545: missing field for well H23: 2
 WARNING: plate 26545: missing field for well H23: 3
@@ -3591,4 +3899,132 @@ WARNING: plate 26545: missing field for well N15: 2
 WARNING: plate 26545: missing field for well N15: 3
 WARNING: plate 26545: missing field for well N15: 4
 WARNING: plate 26545: missing field for well N15: 5
+  plate: 24754 [308/355]
+  plate: 26542 [309/355]
+  plate: 25708 [310/355]
+  plate: 25700 [311/355]
+  plate: 25707 [312/355]
+  plate: 25704 [313/355]
+  plate: 24758 [314/355]
+  plate: 25904 [315/355]
+  plate: 24617 [316/355]
+  plate: 25639 [317/355]
+  plate: 24611 [318/355]
+  plate: 24618 [319/355]
+  plate: 24619 [320/355]
+  plate: 25416 [321/355]
+  plate: 25414 [322/355]
+  plate: 24593 [323/355]
+  plate: 25410 [324/355]
+  plate: 25418 [325/355]
+  plate: 25387 [326/355]
+  plate: 25382 [327/355]
+  plate: 25380 [328/355]
+  plate: 26207 [329/355]
+  plate: 26205 [330/355]
+  plate: 26204 [331/355]
+  plate: 26203 [332/355]
+  plate: 26202 [333/355]
+  plate: 26644 [334/355]
+  plate: 26643 [335/355]
+  plate: 25566 [336/355]
+  plate: 26641 [337/355]
+  plate: 26640 [338/355]
+  plate: 25569 [339/355]
+  plate: 25568 [340/355]
+  plate: 26768 [341/355]
+  plate: 25847 [342/355]
+  plate: 25848 [343/355]
+  plate: 25849 [344/355]
+  plate: 26767 [345/355]
+  plate: 26058 [346/355]
+  plate: 26110 [347/355]
+  plate: 26115 [348/355]
+  plate: 26118 [349/355]
+  plate: 26601 [350/355]
 WARNING: plate 26601: missing field for well D15: 5
+  plate: 25938 [351/355]
+  plate: 25939 [352/355]
+  plate: 25935 [353/355]
+  plate: 25937 [354/355]
+  plate: 25931 [355/355]
+data dir: /uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling/2016-01-19-screens-bbbc022
+  plate: 20639 [1/20]
+  plate: 20589 [2/20]
+  plate: 20633 [3/20]
+  plate: 20607 [4/20]
+  plate: 20630 [5/20]
+  plate: 20608 [6/20]
+  plate: 20625 [7/20]
+  plate: 20596 [8/20]
+  plate: 20591 [9/20]
+  plate: 20590 [10/20]
+  plate: 20593 [11/20]
+  plate: 20592 [12/20]
+  plate: 20595 [13/20]
+  plate: 20594 [14/20]
+  plate: 20585 [15/20]
+  plate: 20586 [16/20]
+  plate: 20626 [17/20]
+  plate: 20646 [18/20]
+  plate: 20641 [19/20]
+  plate: 20640 [20/20]
+data dir: /uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling/2017-07-14-cellimagelibrary-60newplates
+  plate: 24280 [1/58]
+  plate: 24523 [2/58]
+  plate: 24661 [3/58]
+  plate: 24656 [4/58]
+  plate: 24277 [5/58]
+  plate: 24313 [6/58]
+  plate: 24312 [7/58]
+  plate: 24311 [8/58]
+  plate: 24310 [9/58]
+  plate: 24518 [10/58]
+  plate: 24591 [11/58]
+  plate: 24515 [12/58]
+  plate: 24514 [13/58]
+  plate: 24517 [14/58]
+  plate: 24516 [15/58]
+  plate: 24357 [16/58]
+  plate: 24638 [17/58]
+  plate: 24639 [18/58]
+  plate: 24652 [19/58]
+  plate: 24293 [20/58]
+  plate: 24636 [21/58]
+  plate: 24637 [22/58]
+  plate: 24296 [23/58]
+  plate: 24657 [24/58]
+  plate: 24654 [25/58]
+  plate: 24655 [26/58]
+  plate: 24309 [27/58]
+  plate: 24308 [28/58]
+  plate: 24525 [29/58]
+  plate: 24320 [30/58]
+  plate: 24321 [31/58]
+  plate: 24635 [32/58]
+  plate: 24300 [33/58]
+  plate: 24301 [34/58]
+  plate: 24302 [35/58]
+  plate: 24303 [36/58]
+  plate: 24305 [37/58]
+  plate: 24306 [38/58]
+  plate: 24667 [39/58]
+  plate: 24666 [40/58]
+  plate: 24651 [41/58]
+  plate: 24663 [42/58]
+  plate: 24688 [43/58]
+  plate: 24508 [44/58]
+  plate: 24509 [45/58]
+  plate: 24685 [46/58]
+  plate: 24684 [47/58]
+  plate: 24687 [48/58]
+  plate: 24683 [49/58]
+  plate: 24648 [50/58]
+  plate: 24294 [51/58]
+  plate: 24640 [52/58]
+  plate: 24643 [53/58]
+  plate: 24295 [54/58]
+  plate: 24645 [55/58]
+  plate: 24644 [56/58]
+  plate: 24647 [57/58]
+  plate: 24646 [58/58]

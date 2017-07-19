@@ -10,12 +10,8 @@ PROJ_DIR = "/uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling"
 DATA_DIRS = [
     os.path.join(PROJ_DIR, "2016-02-19-screens-cellimagelibrary"),
     os.path.join(PROJ_DIR, "2016-01-19-screens-bbbc022"),
+    os.path.join(PROJ_DIR, "2017-07-14-cellimagelibrary-60newplates"),
 ]
-PLATES_DIR = os.path.join(os.pardir, "screenA", "plates")
-SCREENS_DIR = os.path.join(os.pardir, "screens")
-REL_SCREENS_DIR = os.path.join(
-    "idr0016-wawer-bioactivecompoundprofiling", "screens"
-)
 EXP_CHANNELS = ['ERSyto', 'ERSytoBleed', 'Hoechst', 'Mito', 'Ph_golgi']
 STATS_FN = "stats.txt"
 
@@ -24,8 +20,8 @@ def mkdir_p(path):
     try:
         os.makedirs(path)
     except OSError as e:
-        if e.errno == errno.ENOENT:
-            pass
+        if e.errno != errno.EEXIST:
+            raise
 
 
 def get_stats(data_dir, plate):
@@ -40,9 +36,16 @@ def get_stats(data_dir, plate):
 
 
 def main(argv):
-    mkdir_p(SCREENS_DIR)
-    mkdir_p(PLATES_DIR)
-    with open(STATS_FN, "w") as fo:
+    this_dir = os.path.dirname(os.path.abspath(__file__))
+    parent = os.path.dirname(this_dir)
+    screens_dir = os.path.join(parent, "screens")
+    plates_fn = os.path.join(
+        parent, "screenA", "idr0016-screenA-plates.tsv"
+    )
+    rel_screens_dir = os.path.join(os.pardir, "screens")  # wrt plates_fn
+    mkdir_p(screens_dir)
+    mkdir_p(os.path.dirname(plates_fn))
+    with open(STATS_FN, "w") as fo, open(plates_fn, "w") as fp:
         fo.write("PLATE\t%s\n" % ("\t".join(EXP_CHANNELS)))
         for data_dir in DATA_DIRS:
             print "data dir: %s" % (data_dir)
@@ -51,16 +54,15 @@ def main(argv):
             for i, plate in enumerate(channel_map):
                 print "  plate: %s [%d/%d]" % (plate, i + 1, total)
                 screen_bn = "%s.screen" % plate
-                screen_fn = os.path.join(SCREENS_DIR, screen_bn)
+                screen_fn = os.path.join(screens_dir, screen_bn)
                 fo.write("%s\t%s\n" % (
                     plate, "\t".join(get_stats(data_dir, plate))
                 ))
                 make_screen.main([
                     "dummy", data_dir, "-o", screen_fn, "-p", plate
                 ])
-                plate_fn = os.path.join(PLATES_DIR, plate)
-                with open(plate_fn, "w") as plate_file:
-                    plate_file.write("%s/%s\n" % (REL_SCREENS_DIR, screen_bn))
+                fp.write("%s\t%s.screen\n" %
+                         (plate, os.path.join(rel_screens_dir, plate)))
 
 
 if __name__ == "__main__":

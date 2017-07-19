@@ -50,6 +50,8 @@ def get_channel_map(data_dir):
     """
     channel_map = {}
     for subd in os.listdir(data_dir):
+        if not os.path.isdir(os.path.join(data_dir, subd)):
+            continue
         plate_tag, channel_tag = subd.strip().split("-")
         channel_map.setdefault(plate_tag, []).append(channel_tag)
     for v in channel_map.itervalues():
