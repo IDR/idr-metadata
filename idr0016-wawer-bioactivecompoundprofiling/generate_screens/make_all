@@ -6,7 +6,7 @@ import errno
 
 import make_screen
 
-PROJ_DIR = "/uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling"
+PROJ_DIR = "/uod/idr/filesets/idr0016-wawer-bioactivecompoundprofiling"
 DATA_DIRS = [
     os.path.join(PROJ_DIR, "2016-02-19-screens-cellimagelibrary"),
     os.path.join(PROJ_DIR, "2016-01-19-screens-bbbc022"),

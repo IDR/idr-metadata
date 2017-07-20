@@ -1,4 +1,4 @@
-data dir: /uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling/2016-02-19-screens-cellimagelibrary
+data dir: /uod/idr/filesets/idr0016-wawer-bioactivecompoundprofiling/2016-02-19-screens-cellimagelibrary
   plate: 26579 [1/355]
 WARNING: plate 26579: missing field for well I08: 5
 WARNING: plate 26579: missing well: I09
@@ -3948,7 +3948,7 @@ WARNING: plate 26601: missing field for well D15: 5
   plate: 25935 [353/355]
   plate: 25937 [354/355]
   plate: 25931 [355/355]
-data dir: /uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling/2016-01-19-screens-bbbc022
+data dir: /uod/idr/filesets/idr0016-wawer-bioactivecompoundprofiling/2016-01-19-screens-bbbc022
   plate: 20639 [1/20]
   plate: 20589 [2/20]
   plate: 20633 [3/20]
@@ -3969,7 +3969,7 @@ data dir: /uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling/2016-01-19-
   plate: 20646 [18/20]
   plate: 20641 [19/20]
   plate: 20640 [20/20]
-data dir: /uod/idr/incoming/idr0016-wawer-bioactivecompoundprofiling/2017-07-14-cellimagelibrary-60newplates
+data dir: /uod/idr/filesets/idr0016-wawer-bioactivecompoundprofiling/2017-07-14-cellimagelibrary-60newplates
   plate: 24280 [1/58]
   plate: 24523 [2/58]
   plate: 24661 [3/58]
