@@ -12,6 +12,7 @@ Study Organism Term Accession	NCBITaxon_9606
 Study Screens Number	4																																																																																																																																										
 Study External URL																																																																																																																																											
 Study Public Release Date																																																																																																																																											
+Study Version History	July 2017: Replaced cell line name of MDA-MB-231 with MDAMB231 in screens C and D to be inline with EFO cell line name. 																																																																																																																																										
 																																																																																																																																											
 # Study Publication																																																																																																																																											
 Study PubMed ID	28248929																																																																																																																																										
