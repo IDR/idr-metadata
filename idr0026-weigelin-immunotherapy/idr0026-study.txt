@@ -12,6 +12,7 @@ Study Organism Term Accession	NCBITaxon_10090
 Study Experiments Number	1											
 Study External URL												
 Study Public Release Date												
+Study Version History	August 2017 - added additional phenotype to CMPO ontology mapping											
 												
 # Study Publication												
 Study PubMed ID	26034288											
