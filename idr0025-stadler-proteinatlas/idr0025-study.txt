@@ -12,6 +12,7 @@ Study Organism Term Accession	NCBITaxon_9606
 Study Screens Number	1																	
 Study External URL																		
 Study Public Release Date																		
+Study Version History	August 2017 - additional phenotype to CMPO ontology mappings added																	
 																		
 # Study Publication																		
 Study PubMed ID	22361696																	
