@@ -1,8 +1,6 @@
 Screen:206 idr0008-rohn-actinome/screenB/idr0008-screenB openmicroscopy.org/mapr/cell_line
 
-Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screen/omero/bulk_annotations
-
-Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screen/omero/mapr/phenotype
+Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screenA/idr0016-screenA
 
 Screen:1203 idr0019-sero-nfkappab/screenA/idr0019-screenA openmicroscopy.org/mapr/cell_line
 
@@ -20,13 +18,9 @@ Screen:1801 idr0030-sero-yap/screenA/idr0030-screenA openmicroscopy.org/mapr/phe
 
 Screen:1751 idr0033-rohban-pathways/screenA/idr0033-screenA openmicroscopy.org/mapr/phenotype
 
-Screen:1951 idr0035-caie-drugresponse/screenA/idr0035-screenA
-
 Screen:1952 idr0036-gustafsdottir-cellpainting/screenA/idr0036-screenA openmicroscopy.org/omero/bulk_annotations
 
 Screen:1952 idr0036-gustafsdottir-cellpainting/screenA/idr0036-screenA openmicroscopy.org/mapr/compound/supplementary
 
 Screen:1952 idr0036-gustafsdottir-cellpainting/screenA/idr0036-screenA openmicroscopy.org/mapr/phenotype
-
-Screen:1953 idr0037-vigilante-hipsci/screenA/idr0037-screenA
 
