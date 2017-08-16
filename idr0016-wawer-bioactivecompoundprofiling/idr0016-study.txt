@@ -12,7 +12,7 @@ Study Organism Term Accession	NCBITaxon_9606
 Study Screens Number	1				
 Study External URL	http://www.cellimagelibrary.org/pages/project_20269	http://gigadb.org/dataset/100200			
 Study Public Release Date					
-Study Version History	"In August 2017 the 20 plates from the Broad Bioimaging Benchmark Collection dataset BBBC022 were moved to a separate screen, idr0036.  At the same time 58 new plates, which had become available from the Cell Image Library after the original import to idr0016, were added to idr0016 and annotation was added to plate 25723 which was previously unannotated. Protocols have been updated to reflect the materials and methods information in Wawer et al 2014"				
+Study Version History	"In August 2017 the 20 plates from the Broad Bioimaging Benchmark Collection dataset BBBC022 were moved to a separate screen, idr0036/screenA.  At the same time 58 new plates, which had become available from the Cell Image Library after the original import to idr0016, were added to idr0016 and annotation was added to plate 25723 which was previously unannotated. Protocols have been updated to reflect the materials and methods information in Wawer et al 2014."				
 					
 # Study Publication					
 Study PubMed ID	25024206	28327978			
@@ -38,7 +38,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Screen Number	1				
 Comment[IDR Screen Name]	idr0016-wawer-30kcompounds/screenA				
 Screen Description	"Using the cell-painting assay developed by Gustafsdottir et al, 2013, the Broad Institute has assembled a reference dataset of profiles for U2OS osteosarcoma cells treated with ~30,000 compounds. The experiment consisted of 413 microtiter plates. Each plate has 384 wells. Each well has either 6 or 9 fields of view. Each field was imaged in five channels (detection wavelengths), and each channel is stored as a separate, grayscale 16-bit TIFF image file."				
-Screen Size	Plates: 375	"5D Images: 869,820"	"Planes: 4,349,100"	Average Image Dimension (XYZCT): 696 x 520 x 1 x 5 x 1	Total Tb: 3.19
+Screen Size	Plates: 413	5D Images:	Planes:	Average Image Dimension (XYZCT):	Total Tb:
 Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-1215412	http://idr-demo.openmicroscopy.org/webclient/img_detail/2782349/	20586;M8		
 Screen Imaging Method	fluorescence microscopy				
 Screen Imaging Method Term Source REF	Fbbi				
@@ -49,7 +49,7 @@ Screen Technology Term Accession	EFO_0007553
 Screen Type	primary screen				
 Screen Type Term Source REF	EFO				
 Screen Type Term Accession	EFO_0007556				
-Screen Comments	"Some images are missing from some plates, indicated in the Plate Issues column.  Plate 25723 has no annotation. InChiKey values for compounds submitted to PubChem were retrieved from PubChem and added by IDR curators."				
+Screen Comments	"Some images are missing from some plates, indicated in the Plate Issues column. InChiKey values for compounds submitted to PubChem were retrieved from PubChem and added by IDR curators."				
 					
 "# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)"					
 Library File Name	idr0016-screenA-library.txt				
