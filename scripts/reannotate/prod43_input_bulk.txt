@@ -1,6 +1,6 @@
 Screen:206 idr0008-rohn-actinome/screenB/idr0008-screenB
 
-Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screenA
+Screen:1251 idr0016-wawer-bioactivecompoundprofiling/screenA/idr0016-screenA
 
 Screen:1203 idr0019-sero-nfkappab/screenA/idr0019-screenA
 
