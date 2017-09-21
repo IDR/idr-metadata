@@ -65,6 +65,8 @@ columns:
       columns:
       - name: Compound SMILES
         include: yes
+      - name: Compound MOA (from Ljosa et al, 2013)
+        include: yes
       - name: Dose
         include: yes
 
