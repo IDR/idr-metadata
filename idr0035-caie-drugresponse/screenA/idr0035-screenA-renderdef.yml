@@ -1,15 +1,11 @@
 ---
-# labels changed from original imported, min and max not set
-
 channels:
   1:
-    label: "DAPI"
+    label: DAPI
     color: "FF0000"
-
   2:
-    label: "Tubulin"
+    label: Tubulin
     color: "00FF00"
-
-  3:
-    label: "Actin"
-    color: "0000FF
+  2:
+    label: Actin
+    color: "0000FF"
