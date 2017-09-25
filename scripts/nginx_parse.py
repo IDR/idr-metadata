@@ -40,6 +40,7 @@ def print_month(month, per_month):
         msg = "%s Month totals: IPs=%s Hits=%s" % (month, len(ips), hits)
         print >>stderr, msg
 
+
 data = defaultdict(lambda: defaultdict(int))
 for line in input():
     line = line.strip()
