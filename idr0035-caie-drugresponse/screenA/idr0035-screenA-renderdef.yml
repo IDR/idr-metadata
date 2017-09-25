@@ -6,6 +6,6 @@ channels:
   2:
     label: Tubulin
     color: "00FF00"
-  2:
+  3:
     label: Actin
     color: "0000FF"
