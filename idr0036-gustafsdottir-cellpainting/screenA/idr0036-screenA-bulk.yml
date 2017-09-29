@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0036-gustafsdottir-cellpainting/screenA"
+include: "../../bulk.yml"
+path: "idr0036-screenA-plates.tsv"
