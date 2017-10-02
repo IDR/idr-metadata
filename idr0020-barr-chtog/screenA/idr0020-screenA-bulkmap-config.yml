@@ -86,7 +86,7 @@ columns:
         omitempty: no
       - name: Gene Identifier
         clientname: Gene Identifier URL
-        clientvalue: http://www.ncbi.nlm.nih.gov/gene/?term={{ value|urlencode }}
+        clientvalue: http://www.ncbi.nlm.nih.gov/gene/{{ value|urlencode }}
         include: yes
       - name: Gene Symbol
         include: yes
