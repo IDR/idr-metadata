@@ -1,0 +1,91 @@
+#!/usr/bin/env python
+
+import sys
+import os
+import errno
+from argparse import ArgumentParser
+
+import make_screen
+
+
+PROJ_MAP = {
+    "idr0016": "idr0016-wawer-bioactivecompoundprofiling",
+    "idr0036": "idr0036-gustafsdottir-cellpainting",
+}
+DATA_DIRS = {
+    "idr0016": [
+        "2016-02-19-screens-cellimagelibrary",
+        "2017-07-14-cellimagelibrary-60newplates",
+    ],
+    "idr0036": [
+        "2016-01-19-screens-bbbc022",
+    ],
+}
+EXP_CHANNELS = ['ERSyto', 'ERSytoBleed', 'Hoechst', 'Mito', 'Ph_golgi']
+
+
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as e:
+        if e.errno != errno.EEXIST:
+            raise
+
+
+def get_stats(data_dir, plate):
+    stats = []
+    for c in EXP_CHANNELS:
+        subd = os.path.join(data_dir, "%s-%s" % (plate, c))
+        try:
+            stats.append(str(len(os.listdir(subd))))
+        except OSError:
+            stats.append("NOT_FOUND")
+    return stats
+
+
+def parse_cl(argv):
+    parser = ArgumentParser()
+    parser.add_argument("proj", metavar="%s|%s" % tuple(PROJ_MAP),
+                        choices=list(PROJ_MAP))
+    return parser.parse_args(argv[1:])
+
+
+def main(argv):
+    args = parse_cl(argv)
+    proj_dir = "/uod/idr/filesets/%s" % PROJ_MAP[args.proj]
+    this_dir = os.path.dirname(os.path.abspath(__file__))
+    scripts_dir = os.path.dirname(this_dir)
+    repo_top_dir = os.path.dirname(scripts_dir)
+    repo_proj_dir = os.path.join(repo_top_dir, PROJ_MAP[args.proj])
+    screens_dir = os.path.join(repo_proj_dir, "screens")
+    plates_fn = os.path.join(
+        repo_proj_dir, "screenA", "%s-screenA-plates.tsv" % args.proj
+    )
+    stats_fn = os.path.join(repo_proj_dir, "generate_screens", "stats.txt")
+    rel_screens_dir = os.path.join(os.pardir, "screens")  # wrt plates_fn
+    mkdir_p(screens_dir)
+    mkdir_p(os.path.dirname(plates_fn))
+    mkdir_p(os.path.dirname(stats_fn))
+    with open(stats_fn, "w") as fo, open(plates_fn, "w") as fp:
+        fo.write("PLATE\t%s\n" % ("\t".join(EXP_CHANNELS)))
+        for data_dir in DATA_DIRS[args.proj]:
+            data_dir = os.path.join(proj_dir, data_dir)
+            print "data dir: %s" % (data_dir)
+            channel_map = make_screen.get_channel_map(data_dir)
+            total = len(channel_map)
+            for i, plate in enumerate(channel_map):
+                print "  plate: %s [%d/%d]" % (plate, i + 1, total)
+                screen_bn = "%s.screen" % plate
+                screen_fn = os.path.join(screens_dir, screen_bn)
+                fo.write("%s\t%s\n" % (
+                    plate, "\t".join(get_stats(data_dir, plate))
+                ))
+                make_screen.main([
+                    "dummy", data_dir, "-o", screen_fn, "-p", plate
+                ])
+                fp.write("%s\t%s.screen\n" %
+                         (plate, os.path.join(rel_screens_dir, plate)))
+
+
+if __name__ == "__main__":
+    main(sys.argv)
