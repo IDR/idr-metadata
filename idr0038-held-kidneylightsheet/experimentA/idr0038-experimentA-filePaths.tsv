@@ -5,7 +5,7 @@ Dataset:name:endpoint imaging Megalin Laminin	/uod/idr/filesets/idr0038-held-kid
 Dataset:name:endpoint imaging Megalin Laminin	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Meg-Lam/GFP-2hrs-2ndy-uncleared-2_DualSideFusion.czi
 Dataset:name:endpoint imaging Megalin Laminin	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Meg-Lam/whole-kidney-megalin-laminin.czi
 Dataset:name:endpoint imaging Pax2 PNA	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Pax2-PNA/Wt1-FK-4-stack.czi
-Dataset:name:endpoint imaging Pax2 PNA	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Pax2-PNA/wtFK-72hrs-cleared-Nephrin-Calb-PNA-rh-MV-2.czi
+Dataset:name:endpoint imaging Pax2 PNA	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Pax2-PNA/wtFK-72hrs-clearing.czi
 Dataset:name:endpoint imaging Pax2 PNA	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Pax2-PNA/wtFK-cleared-Wt1-Pax2.czi
 Dataset:name:endpoint imaging Wt1-GFP knock-in	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Wt1-GFP knock-in/GFP+-fixed-cleared_DualSideFusion.czi
 Dataset:name:endpoint imaging Cytokeratin PNA	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Cytok-PNA/10percent-Wt1-GFP-spheroid-MV.czi
