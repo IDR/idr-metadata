@@ -10,7 +10,7 @@ Dataset:name:endpoint imaging Pax2 PNA	/uod/idr/filesets/idr0038-held-kidneyligh
 Dataset:name:endpoint imaging Wt1-GFP knock-in	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Wt1-GFP knock-in/GFP+-fixed-cleared_DualSideFusion.czi
 Dataset:name:endpoint imaging Cytokeratin PNA	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Cytok-PNA/10percent-Wt1-GFP-spheroid-MV.czi
 Dataset:name:endpoint imaging Cytokeratin PNA	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Cytok-PNA/Lam-Cytok-MV.czi
-Dataset:name:endpoint imaging glomeruli nephrin	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk2/Marie Lightsheet data/endpoint imaging/100-U-9-MV.czi
+Dataset:name:endpoint imaging glomeruli nephrin	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk2/endpoint imaging/Cytok-PNA/100-U-9-MV.czi
 Dataset:name:endpoint imaging glomeruli synaptopodin	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/glomeruli/100-U-13-Six2-PNA-Synpo-MV-with-beads.czi
 Dataset:name:endpoint imaging glomeruli synaptopodin	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/glomeruli/100-U-2-MV.czi
 Dataset:name:endpoint imaging Pax2 PNA	/uod/idr/filesets/idr0038-held-kidneylightsheet/20170905-original/disk1/endpoint imaging/Pax2-PNA/Pax2-PNArh-large-MV.czi
