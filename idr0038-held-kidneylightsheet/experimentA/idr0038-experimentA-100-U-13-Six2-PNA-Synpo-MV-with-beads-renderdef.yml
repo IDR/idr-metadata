@@ -1,0 +1,10 @@
+---
+channels:
+  1:
+    label: Wt1-GFP
+  2:
+    label: Six2
+  3:
+    label: PNA-rh
+  4:
+    label: Synaptopodin

@@ -1,0 +1,8 @@
+---
+channels:
+  1:
+    label: Laminin
+  2:
+    label: PNA-rh
+  3:
+    label: Megalin
