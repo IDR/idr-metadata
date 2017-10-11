@@ -1,0 +1,138 @@
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"							
+# Study							
+Comment[IDR Study Accession]	idr0039-martin-optimiseflimfret						
+Study Title	Accepting from the Best Donor; Analysis of Long-Lifetime Donor Fluorescent Protein Pairings to Optimise Dynamic FLIM-based FRET Experiments						
+Study Type	FLIM-FRET analysis of fluorescent protein pairs						
+Study Type Term Source REF							
+Study Type Term Accession							
+Study Description	"FRET biosensors have proven very useful tools for studying the activation of specific signalling pathways in living cells. Most biosensors designed to date have been predicated on fluorescent protein pairs that were identified by, and for use in, intensity based measurements, however fluorescence lifetime provides a more reliable measurement of FRET. Both the technology and fluorescent proteins available for FRET have moved on dramatically in the last decade. Lifetime imaging systems have become increasingly accessible and user-friendly, and there is an entire field of biology dedicated to refining and adapting different characteristics of existing and novel fluorescent proteins. This growing pool of fluorescent proteins includes the long-lifetime green and cyan fluorescent proteins Clover and mTurquoise2, the red variant mRuby2, and the dark acceptor sREACh. Here, we have tested these donors and acceptors in appropriate combinations against the standard or recommended norms (EGFP and mTFP as donors, mCherry and either Ypet or Venus as acceptors) to determine if they could provide more reliable, reproducible and quantifiable FLIM-FRET data to improve on the dynamic range compared to other donors and breadth of application of biosensor technologies. These tests were performed for comparison on both a wide-field, frequency domain system and a multiphoton, TCSPC time domain FLIM system. Clover proved to be an excellent donor with extended dynamic range in combination with mCherry on both platforms, while mRuby2 showed a high degree of variability and poor FRET efficiencies in all cases. mTFP-Venus was the most consistent cyan-yellow pair between the two FLIM methodologies, but mTurquoise2 has better dynamic range and transfers energy consistently over time to the dark acceptor sRCh. Combination of mTFP- sRCh with Clover-mCherry would allow the simultaneous use of two FLIM-FRET biosensors within one sample by eliminating the crosstalk between the yellow acceptor and green donor emissions."						
+Study Organism	Homo sapiens						
+Study Organism Term Source REF	NCBITaxon						
+Study Organism Term Accession	NCBITaxon_9606						
+Study Experiments Number	2						
+Study External URL							
+Study Public Release Date							
+							
+# Study Publication							
+Study PubMed ID							
+Study Publication Title	Accepting from the Best Donor; Analysis of Long-Lifetime Donor Fluorescent Protein Pairings to Optimise Dynamic FLIM-based FRET Experiments						
+Study Author List	"Martin KJ, McGhee EJ, Schwarz JP, Drysdale M, Brachmann SM, Stucke V, Sansom OJ, Anderson KI"						
+Study PMC ID							
+Study DOI							
+							
+# Study Contacts							
+Study Person Last Name	Anderson						
+Study Person First Name	Kurt						
+Study Person Email	kurt.anderson@crick.ac.uk						
+Study Person Address	"The Francis Crick Institute,, 1 Midland Road, London, NW1 1AT"						
+Study Person Roles	submitter						
+							
+Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	OBI		
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/		
+							
+							
+"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."							
+# Screen; this section should be repeated if a study contains multiple screens							
+							
+Experiment Number	1						
+Comment[IDR Experiment Name]	idr0039-martin-optimiseflimfret/experimentA						
+Experiment Description	"Fluorescence lifetime readings from a multiphoton time domain FLIM-system from separate samples of donor-expressing and donor-acceptor fusion-expressing cells, on three separate occasions per fluorophore pair."						
+Experiment Size	Datasets:	5D Images:1584	Average Image Dimension (XYZCT):	Total Tb:			
+Experiment Example Images	160204_TimeDomain_mTurquoise2Dish1/01 - 431 - mTq2 only - 1 - tp0_11-20-23_TDC_C0.ome.tif						
+Experiment Imaging Method	FLIM	FRET					
+Experiment Imaging Method Term Source REF	Fbbi	Fbbi					
+Experiment Imaging Method Term Accession	FBbi_00000368	FBbi_00000367					
+Experiment Comments							
+							
+# assay files							
+Experiment Assay File	idr0039-experimentA-assay.txt						
+Experiment Assay File Format	tab-delimited text						
+Assay Experimental Conditions	Donor Fluorescent Protein	Acceptor Fluorescent Protein	Time	Replicate			
+Assay Experimental Conditions Term Source REF			EFO	EFO			
+Assay Experimental Conditions Term Accession			EFO_0000721	EFO_0000683			
+Quality Control Description							
+							
+# Protocols							
+Protocol Name	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol			
+Protocol Type	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol			
+Protocol Type Term Source REF	EFO	EFO					
+Protocol Type Term Accession	EFO_0003789	EFO_0003969					
+Protocol Description	"FRET donor proteins, FRET-pair fusions, and biosensors were expressed in HEK293 cellscultured as standard in DMEM supplemented with 10% foetal bovine serum, 2mM glutamine, 100U/mL penicillin and 100ug/mL streptomycin. Cells were transfected using Lipofectamine-2000 (Invitrogen), according to manufacturer instructions. Cells to be stimulated were serum starved over night."	"The mammalian expression vectors used for single donor fluorescent proteins are summarised in Table S4. Donor-acceptor fusion proteins were based upon the Clontech pEGFP-C2 vector, which was cut at the HindIII and XbaI sites. The plasmid resulting from the insertion of a HindII/XbaI flanked mTq2 sequence into this site (creating a 21 amino acid spacer between the fluorescent proteins) was the digested with BamHI and BglII and religated to shorten the linker. The BamHI site was reintroduced, while also correcting the frameshift effect of the blunting and religation, using site directed mutagenesis (QuickChange Lightning, Agilent). This resulted in a vector with an amino acid spacer (SGRTQDPPVAT) between two fluorescent proteins. Donor and acceptor fluorescent sequences were switched using standard molecular cloning techniques, with donors inserted between the NheI/BamHI sites and acceptors between the BamHI/XbaI sites. The primers, designed to maintain the 11amino acid linker between constructs, and the template plasmids used, are detailed in Table S5. The GFP-RFP-RhoA biosensor was previously described [43], and the mTq2-sRCh-NRas biosensor was derived from this, using using standard molecular biology techniques to switch the fluorophore for those detailed above and BRaf-RBD and N-Ras sequences synthesised to order by Genewiz. The mTq2-sRCh-RalB biosensor was a modified form of that previously published by Der et al [46], with the fluorophores swapped out using standard molecular biology techniques and the Sec5 binding domain replaced by the RLIP76 (Ralbp1) binding domain sequence, also synthesised to order by Genewiz."	"Multiphoton time domain lifetime images were acquired at 20X magnification on a LaVision BioTec TRIMScope, which functions with a temporal bin size of 80ps, according to the manufacturer’s specifications. Time courses were performed by the operator initiating a scan every minute for 10 minutes. Time courses in which refocussing was required were discounted. The TCSPC data files were exported from the La Vision ImSpector Software and lifetime information from individual cells was extracted by fitting the decays from selected areas in the FLIMfit software tool (version 4.7.3) developed at Imperial College London, which has more sophisticated fitting protocols and allows for the fitting of bi-exponential models should it be necessary."	"Calculation of Expected FRET Efficiencies The Overlap Integral (J) of the donor emission and acceptor excitation spectra for each pair was calculated using the freeware program a|e - UV-Vis-IR Spectral Software 1.2 (http://www.fluortools.com/software/ae). The sources of each spectral dataset are detailed in the Supplementary Information. The Forster Radius (r0) for the pair was then calculated according to the equation below [47], in which we follow the convention of assuming the interdipole orientation factor,  kappa 2, to be 2/3[47] and using n=1.4 as the refractive index of cells in culture [48]. _0 = 0.02108(kappa 2 phi _ __4_)1/6. The other parameters in the equation are  D, the quantum yield of the donor, and the overlap integral, J, as calculated above. This equation gives r0 for the pair – the separation distance at which 50% FRET would be expected between the fluorophores. Expected FRET efficiencies can then be calculated for any given separation distance r (in nm) using the following equation [47]: _= _06/_06 + r6 . Data Handling. Lifetime measurements were made from between 10 and 20 cells per dish, with no more than 3 repeats being performed per day up to a total of 9 dishes per fluorophore pair. All FRET efficiencies were calculated relative to donor alone measurements made in the same cell type, on the same day. For Z-factor calculations the mean and standard deviation of the lifetimes measured for a pair and its donor alone control in one day were taken, with each day of experimentation considered one repeat (n=3)."			
+							
+# Phenotypes							
+Phenotype Name							
+Phenotype Description							
+Phenotype Score Type							
+Phenotype Term Source REF							
+Phenotype Term Name							
+Phenotype Term Accession							
+							
+							
+# Feature Level Data Files (give individual file details unless there is one file per well)							
+Feature Level Data File Name							
+Feature Level Data File Format	comma-separated						
+Feature Level Data File Description	A file containing feature level data on 14 regions of interest at both a single time point and time series is available for download for each dataset						
+Feature Level Data Column Name							
+Feature Level Data Column Description							
+							
+#  Processed Data Files							
+Processed Data File Name							
+Processed Data File Format							
+Processed Data File Description							
+Processed Data Column Name							
+Processed Data Column Type							
+Processed Data Column Annotation Level							
+Processed Data Column Description							
+Processed Data Column Link To Assay File							
+							
+							
+Experiment Number	2						
+Comment[IDR Experiment Name]	idr0039-martin-optimiseflimfret/experimentB						
+Experiment Description	"Fluorescence lifetime readings from a frequency domain FLIM-system from separate samples of donor-expressing and donor-acceptor fusion-expressing cells, on three separate occasions per fluorophore pair."						
+Experiment Size							
+Experiment Example Images							
+Experiment Imaging Method	FLIM	FRET					
+Experiment Imaging Method Term Source REF	Fbbi	Fbbi					
+Experiment Imaging Method Term Accession	FBbi_00000368	FBbi_00000367					
+Experiment Comments							
+							
+# assay files							
+Experiment Assay File	idr0039-experimentB-assay.txt						
+Experiment Assay File Format	tab-delimited text						
+Assay Experimental Conditions							
+Assay Experimental Conditions Term Source REF							
+Assay Experimental Conditions Term Accession							
+Quality Control Description							
+							
+# Protocols							
+Protocol Name	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol			
+Protocol Type	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol			
+Protocol Type Term Source REF	EFO	EFO					
+Protocol Type Term Accession	EFO_0003789	EFO_0003969					
+Protocol Description	"FRET donor proteins, FRET-pair fusions, and biosensors were expressed in HEK293 cellscultured as standard in DMEM supplemented with 10% foetal bovine serum, 2mM glutamine, 100U/mL penicillin and 100ug/mL streptomycin. Cells were transfected using Lipofectamine-2000 (Invitrogen), according to manufacturer instructions. Cells to be stimulated were serum starved over night."	"The mammalian expression vectors used for single donor fluorescent proteins are summarised in Table S4. Donor-acceptor fusion proteins were based upon the Clontech pEGFP-C2 vector, which was cut at the HindIII and XbaI sites. The plasmid resulting from the insertion of a HindII/XbaI flanked mTq2 sequence into this site (creating a 21 amino acid spacer between the fluorescent proteins) was the digested with BamHI and BglII and religated to shorten the linker. The BamHI site was reintroduced, while also correcting the frameshift effect of the blunting and religation, using site directed mutagenesis (QuickChange Lightning, Agilent). This resulted in a vector with an amino acid spacer (SGRTQDPPVAT) between two fluorescent proteins. Donor and acceptor fluorescent sequences were switched using standard molecular cloning techniques, with donors inserted between the NheI/BamHI sites and acceptors between the BamHI/XbaI sites. The primers, designed to maintain the 11amino acid linker between constructs, and the template plasmids used, are detailed in Table S5. The GFP-RFP-RhoA biosensor was previously described [43], and the mTq2-sRCh-NRas biosensor was derived from this, using using standard molecular biology techniques to switch the fluorophore for those detailed above and BRaf-RBD and N-Ras sequences synthesised to order by Genewiz. The mTq2-sRCh-RalB biosensor was a modified form of that previously published by Der et al [46], with the fluorophores swapped out using standard molecular biology techniques and the Sec5 binding domain replaced by the RLIP76 (Ralbp1) binding domain sequence, also synthesised to order by Genewiz."		"Calculation of Expected FRET Efficiencies The Overlap Integral (J) of the donor emission and acceptor excitation spectra for each pair was calculated using the freeware program a|e - UV-Vis-IR Spectral Software 1.2 (http://www.fluortools.com/software/ae). The sources of each spectral dataset are detailed in the Supplementary Information. The Forster Radius (r0) for the pair was then calculated according to the equation below [47], in which we follow the convention of assuming the interdipole orientation factor,  kappa 2, to be 2/3[47] and using n=1.4 as the refractive index of cells in culture [48]. _0 = 0.02108(kappa 2 phi _ __4_)1/6. The other parameters in the equation are  D, the quantum yield of the donor, and the overlap integral, J, as calculated above. This equation gives r0 for the pair – the separation distance at which 50% FRET would be expected between the fluorophores. Expected FRET efficiencies can then be calculated for any given separation distance r (in nm) using the following equation [47]: _= _06/_06 + r6 . Data Handling. Lifetime measurements were made from between 10 and 20 cells per dish, with no more than 3 repeats being performed per day up to a total of 9 dishes per fluorophore pair. All FRET efficiencies were calculated relative to donor alone measurements made in the same cell type, on the same day. For Z-factor calculations the mean and standard deviation of the lifetimes measured for a pair and its donor alone control in one day were taken, with each day of experimentation considered one repeat (n=3)."			
+							
+# Phenotypes							
+Phenotype Name							
+Phenotype Description							
+Phenotype Score Type							
+Phenotype Term Source REF							
+Phenotype Term Name							
+Phenotype Term Accession							
+							
+							
+# Feature Level Data Files (give individual file details unless there is one file per well)							
+Feature Level Data File Name							
+Feature Level Data File Format							
+Feature Level Data File Description							
+Feature Level Data Column Name							
+Feature Level Data Column Description							
+							
+#  Processed Data Files							
+Processed Data File Name							
+Processed Data File Format							
+Processed Data File Description							
+Processed Data Column Name							
+Processed Data Column Type							
+Processed Data Column Annotation Level							
+Processed Data Column Description							
+Processed Data Column Link To Assay File							
