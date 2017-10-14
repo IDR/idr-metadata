@@ -57,7 +57,7 @@ columns:
     include: yes
   - name: Comment[Image Dimensions]
     clientname: Image Dimensions
-    include:yes
+    include: yes
   - name: Comment [Image File Comments]
     clientname: Image File Comments
     include: yes
