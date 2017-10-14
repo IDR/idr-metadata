@@ -69,8 +69,9 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/compound
       columns:
-       - name: Experimental Condition [Compound]
+      - name: Experimental Condition [Compound]
         clientname: Compound
+        include: yes
       - name: Experimental Condition [Compound]
         clientname: Compound Name URL
         clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
