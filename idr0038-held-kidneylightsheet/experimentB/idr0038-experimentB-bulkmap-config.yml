@@ -79,8 +79,9 @@ columns:
 
   - group:
       namespace: openmicroscopy.org/mapr/compound/supplementary
-      columns: Experimental Condition [Dose]
-      - name: Dose
+      columns:
+      - name: Experimental Condition [Dose]
+        clientname: Dose
         include: yes
 
 # Advanced options (experimental)
