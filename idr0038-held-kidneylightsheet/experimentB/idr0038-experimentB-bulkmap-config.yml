@@ -71,7 +71,7 @@ columns:
       columns:
        - name: Experimental Condition [Compound]
         clientname: Compound
-      - name:  Experimental Condition [Compound]
+      - name: Experimental Condition [Compound]
         clientname: Compound Name URL
         clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
         include: yes
