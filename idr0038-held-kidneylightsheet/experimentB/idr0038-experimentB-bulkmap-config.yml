@@ -49,7 +49,7 @@ columns:
   - name: Comment [Image File Type]
     clientname: Image File Type
     include: yes
-  - name: Comment[Image Dimensions]
+  - name: Comment [Image Dimensions]
     clientname: Image Dimensions
     include: yes
   - name: Comment [Image File Comments]
