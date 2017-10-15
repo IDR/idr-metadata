@@ -77,17 +77,6 @@ columns:
         clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
         include: yes
 
-
-  - group:
-      namespace: openmicroscopy.org/mapr/compound
-      columns:
-      - name: Compound Name
-        include: yes
-      - name: Compound Name
-        clientname: Compound Name URL
-        clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value|urlencode }}
-        include: yes
-
   - group:
       namespace: openmicroscopy.org/mapr/compound/supplementary
       columns:
