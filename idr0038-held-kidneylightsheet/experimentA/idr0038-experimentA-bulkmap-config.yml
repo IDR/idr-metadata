@@ -39,7 +39,7 @@ columns:
   - name: Material Entity
     clientname: Material Type
     include: yes
-  - name: Characterisics [Growth Condition]
+  - name: Characteristics [Growth Condition]
     clientname: Growth Condition
     include: yes
   - name: Experimental Condition [Clearing]
