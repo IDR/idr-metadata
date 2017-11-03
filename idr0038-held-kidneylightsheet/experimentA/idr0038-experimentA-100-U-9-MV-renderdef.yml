@@ -8,3 +8,12 @@ channels:
     label: PNA-rh
   4:
     label: Cytokeratin
+  5:
+    label: Wt1-GFP
+  6:
+    label: Nephrin
+  7:
+    label: PNA-rh
+  8:
+    label: Cytokeratin
+
