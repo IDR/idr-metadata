@@ -12,6 +12,7 @@ Study Organism Term Accession	NCBITaxon_9606
 Study Screens Number	1																																																																																			
 Study External URL																																																																																				
 Study Public Release Date																																																																																				
+Study Version History	"July 2017: screenA - updated some cell line names to be inline with the names used in EFO. MCF7 -> MCF-7, MCF10A ->  MCF 10A, JIMT1 -> JIMT-1, MDA-MB-157 -> MDAMB157, MDA-MB-231 -> MDAMB231, MDA-MB-453 -> MDAMB453, SUM149 -> SUM149PT, SUM159 -> SUM159PT, ZR75.1 -> ZR751.  "																																																																																			
 																																																																																				
 # Study Publication																																																																																				
 Study PubMed ID	26148352																																																																																			
