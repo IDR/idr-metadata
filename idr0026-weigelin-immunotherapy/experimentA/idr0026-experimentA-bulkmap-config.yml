@@ -1,6 +1,6 @@
 ---
 name: idr0026-weigelin-immunotherapy/experimentA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -128,7 +128,16 @@ columns:
       - name: Phenotype 4
         clientname: Phenotype
         include: yes
-
+      - name: Phenotype 4 Term Name
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 4 Term Accession
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 4 Term Accession
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
+        include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/phenotype
