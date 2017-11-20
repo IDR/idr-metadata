@@ -1,0 +1,8 @@
+---
+channels:
+  1:
+    label: Autofluorescence
+  2:
+    label: Laminin
+  3:
+    label: Megalin

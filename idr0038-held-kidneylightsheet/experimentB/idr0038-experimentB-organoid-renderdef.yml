@@ -1,0 +1,8 @@
+---
+channels:
+  1:
+    label: 6-CF
+    color: "00FF00"
+  2:
+    label: PNA
+    color: "FF0000"

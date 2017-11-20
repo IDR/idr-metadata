@@ -1,0 +1,11 @@
+---
+channels:
+  1:
+    label: Pax2
+  2:
+    label: TL
+    color: "877887"
+  3:
+    label: PNA-rh
+  4:
+    label: Wt1

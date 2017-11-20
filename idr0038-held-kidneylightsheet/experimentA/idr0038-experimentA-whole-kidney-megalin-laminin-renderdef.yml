@@ -1,0 +1,8 @@
+---
+channels:
+  1:
+    label: Beads
+  2:
+    label: Laminin
+  3:
+    label: Megalin

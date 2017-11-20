@@ -1,0 +1,28 @@
+---
+greyscale: False
+
+channels:
+  1:
+    label: Wt1-GFP
+    color: "00FF00"
+  2:
+    label: Nephrin
+    color: "FF00FF"
+  3:
+    label: PNA-rh
+    color: "FF0000"
+  4:
+    label: Cytokeratin
+    color: "00FFFF"
+  5:
+    label: Wt1-GFP
+    color: "00FF00"
+  6:
+    label: Nephrin
+    color: "FF00FF"
+  7:
+    label: PNA-rh
+    color: "FF0000"
+  8:
+    label: Cytokeratin
+    color: "00FFFF"

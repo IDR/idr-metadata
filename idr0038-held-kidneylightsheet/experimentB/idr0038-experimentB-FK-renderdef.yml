@@ -1,0 +1,11 @@
+---
+channels:
+  1:
+   label: TL
+   color: "FFFFFF"
+  2:
+    label: 6-CF
+    color: "00FF00"
+  3:
+    label: PNA
+    color: "FF0000"
