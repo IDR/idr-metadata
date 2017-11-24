@@ -5,8 +5,7 @@ Study Title	Histopathology of mouse knockouts
 Study Type	histology																																																							
 Study Type Term Source REF																																																								
 Study Type Term Accession																																																								
-Study Description	Histopathology study of 14 tissues from mice with 10 different mitotic gene knockouts. This data was produced as part of Work Package 6 of the BioMedBridges project http://www.biomedbridges.eu/workpackages/wp6 which looked at interoperability of large scale image data sets																																																							
-"from different biological scales."""																																																								
+Study Description	Histopathology study of 14 tissues from mice with 10 different mitotic gene knockouts. This data was produced as part of Work Package 6 of the BioMedBridges project http://www.biomedbridges.eu/workpackages/wp6 which looked at interoperability of large scale image data sets from different biological scales.																																																							
 Study Organism	Mus musculus																																																							
 Study Organism Term Source REF	NCBITaxon																																																							
 Study Organism Term Accession	NCBITaxon_10090																																																							
@@ -20,6 +19,11 @@ Study Publication Title
 Study Author List																																																								
 Study PMC ID																																																								
 Study DOI																																																								
+																																																								
+# Study License and Data DOI																																																								
+Study License	CC-BY 4.0																																																							
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																																							
+Copyright	Frauke Neff and Jean-Karim Heriche																																																							
 																																																								
 # Study Contacts																																																								
 Study Person Last Name	Neff																																																							
