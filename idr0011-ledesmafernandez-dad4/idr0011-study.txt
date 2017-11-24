@@ -20,7 +20,10 @@ Study Author List	"Elena Ledesma-Fernandez, Eva Herrero, Gudjon Olafsson and Pet
 Study PMC ID						
 Study DOI						
 						
-Study IDR Example Image						
+# Study License and Data DOI						
+Study License	CC-BY 4.0					
+Study License URL	https://creativecommons.org/licenses/by/4.0/					
+Copyright	Ledesma-Fernandez et al					
 						
 # Study Contacts						
 Study Person Last Name	Thorpe					
