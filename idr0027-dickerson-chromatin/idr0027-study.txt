@@ -20,16 +20,19 @@ Study Author List	"Dickerson D, Gierliski M, Singh V, Kitamura E, Ball G, Tanaka
 Study PMC ID	PMC5016949			
 Study DOI	http://dx.doi.org/10.1186/s12860-016-0111-y			
 				
+# Study License and Data DOI				
+Study License	CC-BY 4.0			
+Study License URL	https://creativecommons.org/licenses/by/4.0/			
+Copyright	Dickerson et al			
+Study Data Publisher	University of Dundee			
+Study Data DOI	http://dx.doi.org/10.17867/10000102			
+				
 # Study Contacts				
 Study Person Last Name	Dickerson	Owen-Hughes		
 Study Person First Name	David	Tom		
 Study Person Email	D.Dickerson@dundee.ac.uk	t.a.owenhughes@dundee.ac.uk		
 Study Person Address	"Centre for Gene Regulation and Expression, College of Life Sciences, University of Dundee, Dundee DD1 5EH, UK"	"Centre for Gene Regulation and Expression, College of Life Sciences, University of Dundee, Dundee DD1 5EH, UK"		
 Study Person Roles	submitter	principal investigator		
-				
-# Study License and Data DOI				
-Study Data Publisher	University of Dundee			
-Study Data DOI	http://dx.doi.org/10.17867/10000102			
 				
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
