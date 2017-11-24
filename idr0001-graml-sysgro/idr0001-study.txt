@@ -23,6 +23,7 @@ Study DOI	http://dx.doi.org/10.1016/j.devcel.2014.09.005
 # Study License and Data DOI																																																																																																																																																									
 Study License	CC-BY 4.0																																																																																																																																																								
 Study License URL	https://creativecommons.org/licenses/by/4.0/																																																																																																																																																								
+Copyright	Graml et al																																																																																																																																																								
 																																																																																																																																																									
 # Study Contacts																																																																																																																																																									
 Study Person Last Name	Carazo Salas																																																																																																																																																								
