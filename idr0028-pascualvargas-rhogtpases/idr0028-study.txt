@@ -24,6 +24,7 @@ Study DOI	10.1038/sdata.2017.18
 # Study License and Data DOI																																																																																																																																											
 Study License	CC-BY 4.0																																																																																																																																										
 Study License URL	https://creativecommons.org/licenses/by/4.0/																																																																																																																																										
+Study Copyright	Pascual Vargas et al																																																																																																																																										
 Study Data Publisher	University of Dundee																																																																																																																																										
 Study Data DOI	http://dx.doi.org/10.17867/10000104																																																																																																																																										
 																																																																																																																																											
