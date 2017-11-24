@@ -21,19 +21,22 @@ Study Publication Title	Multiparametric Analysis of Cell Shape Demonstrates that
 Study Author List	"Sero JE, Bakal C"																													
 Study PMC ID	PMC5289939																													
 Study DOI	http://dx.doi.org/10.1016/j.cels.2016.11.015																													
+																														
 # Study License and Data DOI																														
-Study License																														
-Study License URL																														
-Study Data Publisher																														
-Study Data DOI																														
+Study License	CC-BY 4.0																													
+Study License URL	https://creativecommons.org/licenses/by/4.0/																													
+Copyright	Sero et al																													
+																														
 # Study Contacts																														
 Study Person Last Name	Sero																													
 Study Person First Name	Julia																													
 Study Person Email	juliasero@post.harvard.edu																													
 Study Person Address	"Institute of Cancer Research, London, Umited Kingdom."																													
 Study Person Roles	submitter																													
+																														
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi	CLO																									
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/																									
+																														
 "# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."																														
 # Screen; this section should be repeated if a study contains multiple screens																														
 Screen Number	1																													
