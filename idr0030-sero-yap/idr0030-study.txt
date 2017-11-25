@@ -25,7 +25,7 @@ Study DOI	http://dx.doi.org/10.1016/j.cels.2016.11.015
 # Study License and Data DOI																														
 Study License	CC-BY 4.0																													
 Study License URL	https://creativecommons.org/licenses/by/4.0/																													
-Copyright	Sero et al																													
+Study Copyright	Sero et al																													
 																														
 # Study Contacts																														
 Study Person Last Name	Sero																													

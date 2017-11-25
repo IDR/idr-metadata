@@ -23,7 +23,7 @@ Study DOI	http://dx.doi.org/10.1091/mbc.E13-04-0221
 # Study License and Data DOI											
 Study License	CC-BY 4.0										
 Study License URL	https://creativecommons.org/licenses/by/4.0/										
-Copyright	Heriche et al										
+Study Copyright	Heriche et al										
 											
 # Study Contacts											
 Study Person Last Name	Heriche										

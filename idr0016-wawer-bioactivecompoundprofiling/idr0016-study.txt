@@ -24,7 +24,7 @@ Study DOI	http://dx.doi.org/10.1073/pnas.1410933111	http://dx.doi.org/10.1093/gi
 # Study License and Data DOI					
 Study License	CC0				
 Study License URL	https://creativecommons.org/publicdomain/zero/1.0/				
-Copyright	Wawer et al				
+Study Copyright	Wawer et al				
 					
 # Study Contacts					
 Study Person Last Name	Carpenter	Clemons			

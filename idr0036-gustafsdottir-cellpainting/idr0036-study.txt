@@ -24,7 +24,7 @@ Study DOI	http://dx.doi.org/10.1371/journal.pone.0080999
 # Study License and Data DOI																
 Study License	CC0															
 Study License URL	https://creativecommons.org/publicdomain/zero/1.0/															
-Copyright	waived by Anne Carpenter															
+Study Copyright	waived by Anne Carpenter															
 																
 # Study Contacts																
 Study Person Last Name	Carpenter	Clemons														

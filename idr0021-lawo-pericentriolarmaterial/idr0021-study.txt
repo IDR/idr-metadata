@@ -23,7 +23,7 @@ Study DOI	http://dx.doi.org/10.1038/ncb2591
 # Study License and Data DOI										
 Study License	CC-BY 4.0									
 Study License URL	https://creativecommons.org/licenses/by/4.0/									
-Copyright	Lawo et al									
+Study Copyright	Lawo et al									
 										
 # Study Contacts										
 Study Person Last Name	Hasegan	Pelletier								

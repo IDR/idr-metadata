@@ -22,7 +22,7 @@ Study DOI	http://dx.doi.org/10.1038/ncb2510
 # Study License and Data DOI																	
 Study License	CC-BY 4.0																
 Study License URL	https://creativecommons.org/licenses/by/4.0/																
-Copyright	Simpson et al																
+Study Copyright	Simpson et al																
 																	
 # Study Contacts																	
 Study Person Last Name	Simpson																
