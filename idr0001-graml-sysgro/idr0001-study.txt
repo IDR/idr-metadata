@@ -23,8 +23,8 @@ Study DOI	http://dx.doi.org/10.1016/j.devcel.2014.09.005
 # Study Contacts																																																																																																																																																									
 Study Person Last Name	Carazo Salas																																																																																																																																																								
 Study Person First Name	Rafael																																																																																																																																																								
-Study Person Email	r.carazo-salas@gen.cam.ac.uk																																																																																																																																																								
-Study Person Address	"Department of Genetics, University of Cambridge, Downing Street, Cambridge, Cambs CB2 3EH, United Kingdom"																																																																																																																																																								
+Study Person Email	rc16805@bristol.ac.uk																																																																																																																																																								
+Study Person Address	"School of Cellular and Molecular Medicine, University of Bristol, United Kingdom"																																																																																																																																																								
 Study Person Roles	submitter																																																																																																																																																								
 																																																																																																																																																									
 Term Source Name	NCBITaxon	EFO	CMPO	PATO	GO	Fbbi																																																																																																																																																			
