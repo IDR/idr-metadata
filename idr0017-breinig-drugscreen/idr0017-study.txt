@@ -20,6 +20,11 @@ Study Author List	"Marco Breinig, Felix A. Klein, Wolfgang Huber and Michael Bou
 Study PMC ID	PMC4704494																																										
 Study DOI	http://dx.doi.org/10.15252/msb.20156400																																										
 																																											
+# Study License and Data DOI																																											
+Study License	CC-BY-NC-ND 4.0																																										
+Study License URL	https://creativecommons.org/licenses/by-nc-nd/4.0/																																										
+Study Copyright	Breinig et al																																										
+																																											
 # Study Contacts																																											
 Study Person Last Name	Boutros																																										
 Study Person First Name	Michael																																										
