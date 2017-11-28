@@ -25,6 +25,7 @@ Study DOI	http://dx.doi.org/10.7554/eLife.24060
 # Study License and Data DOI																																			
 Study License	CC-BY 4.0																																		
 Study License URL	https://creativecommons.org/licenses/by/4.0/																																		
+Study Copyright	Rohban et al																																		
 Study Data Publisher	University of Dundee																																		
 Study Data DOI	http://dx.doi.org/10.17867/10000105																																		
 																																			

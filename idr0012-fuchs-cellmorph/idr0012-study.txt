@@ -20,6 +20,11 @@ Study Author List	"Fuchs F, Pau G, Kranz D, Sklyar O, Budjan C, Steinbrink S, Ho
 Study PMC ID	PMC2913390																																																							
 Study DOI	http://dx.doi.org/10.1038/msb.2010.25																																																							
 																																																								
+# Study License and Data DOI																																																								
+Study License	CC-BY-NC-ND 4.0																																																							
+Study License URL	https://creativecommons.org/licenses/by-nc-nd/4.0/																																																							
+Study Copyright	Fuchs et al																																																							
+																																																								
 # Study Contacts																																																								
 Study Person Last Name	Boutros																																																							
 Study Person First Name	Michael																																																							

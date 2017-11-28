@@ -23,6 +23,7 @@ Study DOI	http://dx.doi.org/10.1083/jcb.201303145
 # Study License and Data DOI																	
 Study License	CC BY-NC-SA 3.0																
 Study License URL	https://creativecommons.org/licenses/by-nc-sa/3.0/																
+Study Copyright	Fong et al																
 																	
 # Study Contacts																	
 Study Person Last Name	Chen																

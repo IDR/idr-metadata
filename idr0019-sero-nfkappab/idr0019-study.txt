@@ -21,6 +21,11 @@ Study Author List	"Sero JE, Sailem HZ, Ardy RC, Almuttaqi H, Zhang T, Bakal C"
 Study PMC ID	PMC4380925																																																																																			
 Study DOI	http://dx.doi.org/10.15252/msb.20145644																																																																																			
 																																																																																				
+# Study License and Data DOI																																																																																				
+Study License	CC-BY 4.0																																																																																			
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																																																																			
+Study Copyright	Sero et al																																																																																			
+																																																																																				
 # Study Contacts																																																																																				
 Study Person Last Name	Sero																																																																																			
 Study Person First Name	Julia																																																																																			

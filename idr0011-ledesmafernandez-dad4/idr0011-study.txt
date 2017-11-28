@@ -17,10 +17,14 @@ Study Public Release Date
 Study PubMed ID						
 Study Publication Title	Protein Kinase C and the stress response pathways regulate kinetochore homeostasis.					
 Study Author List	"Elena Ledesma-Fernandez, Eva Herrero, Gudjon Olafsson and Peter H Thorpe"					
+Study Publication Preprint	https://www.biorxiv.org/content/early/2016/09/28/078196					
 Study PMC ID						
 Study DOI						
 						
-Study IDR Example Image						
+# Study License and Data DOI						
+Study License	CC-BY 4.0					
+Study License URL	https://creativecommons.org/licenses/by/4.0/					
+Study Copyright	Ledesma-Fernandez et al					
 						
 # Study Contacts						
 Study Person Last Name	Thorpe					

@@ -21,6 +21,11 @@ Study Author List	"Weigelin B, Bolanos E, Teijeira A, Martinez-Forero I, Labiano
 Study PMC ID	PMC4475992											
 Study DOI	https://dx.doi.org/10.1073/pnas.1506357112											
 												
+# Study License and Data DOI												
+Study License	CC-BY 4.0											
+Study License URL	https://creativecommons.org/licenses/by/4.0/											
+Study Copyright	Weigelin et al											
+												
 # Study Contacts												
 Study Person Last Name	Weigelin											
 Study Person First Name	Bettina											

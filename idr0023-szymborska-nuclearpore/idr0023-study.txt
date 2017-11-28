@@ -20,6 +20,11 @@ Study Author List	"Szymborska A, de Marco A, Daigle N, Cordes VC, Briggs JA, Ell
 Study PMC ID													
 Study DOI	http://dx.doi.org/10.1126/science.1240672												
 													
+# Study License and Data DOI													
+Study License	CC-BY 4.0												
+Study License URL	https://creativecommons.org/licenses/by/4.0/												
+Study Copyright	Szymborska et al												
+													
 # Study Contacts													
 Study Person Last Name	Vilma	Ellenberg											
 Study Person First Name	Jimenez Sabinina	Jan											
