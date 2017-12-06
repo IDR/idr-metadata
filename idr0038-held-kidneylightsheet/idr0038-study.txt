@@ -35,7 +35,7 @@ Study License	CC-BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/			
 Study Copyright	Held et al			
 Study Data Publisher	University of Dundee			
-Study Data DOI				
+Study Data DOI	https://dx.doi.org/10.17867/10000110			
 				
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
@@ -46,9 +46,11 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 				
 Experiment Number	1			
 Comment[IDR Experiment Name]	idr0038-held-kidneylightsheet/experimentA			
+Experiment Data Publisher	University of Dundee			
+Experiment Data DOI	https://dx.doi.org/10.17867/10000110a			
 Experiment Description	"We have adapted the mouse kidney rudiment assay to generate renal organoids. To demonstrate that the organoid culture method of re-aggregated kidney rudiments in PDMS discs resulted in 3D kidney organoids with organotypic structures, we stained fixed six day old organoids for various developmental markers and imaged them with a light sheet fluorescent microscope. We have stained for the following markers: Megalin, Laminin, Cytokeratin, Pax2, Six2, Wt1, Synaptopodin and Nephrin and have also used the lectin stain PNA (peanut agglutinin). The spheroids were usually imaged as z stacks from five angles."			
 Experiment Size	5D Images: 	Average Image Dimension (XYZCT): X: 1920 Y: 1902 Z: 570 C: 4  V: 5 T: 1	Total Tb: 1	# fill in any values you know
-Experiment Example Images				
+Experiment Example Images	https://idr.openmicroscopy.org/webclient/?show=image-3414064	endpoint imaging Six2/100-U-13-Six2-PNA-Synpo-MV-with-beads.czi [0]		
 Experiment Imaging Method	light sheet fluorescence microscopy			
 Experiment Imaging Method Term Source REF	Fbbi			
 Experiment Imaging Method Term Accession	FBbi_00000364			
@@ -98,6 +100,8 @@ Processed Data Column Link To Assay File
 				
 Experiment Number	2			
 Comment[IDR Experiment Name]	idr0038-held-kidneylightsheet/experimentB			
+Experiment Data Publisher	University of Dundee			
+Experiment Data DOI	https://dx.doi.org/10.17867/10000110b			
 Experiment Description	"All assays were performed on live cultures. The intact kidney rudiments were cultured at air liquid interface for 4 days following dissection. The organoids were cultured under medium immersion for six days following dissection. The samples cultured at air liquid interface were gently removed from the membranes before starting the assay. The samples were incubated for one hour at 25oC with PBS containing 1uM 5(6)-Carboxyfluorescein (6-CF) and 20 ug/ml of PNA (Vector Laboratories). For the control samples, 2 mM probenecid was also added to the solution to inhibit the organic anion transport. After incubation, the samples were washed with ice cold PBS for 10 mins followed by an incubation with 8mM probenecid in PBS for 15 mins to arrest any transport. The functional assay was concluded by two PBS washes and samples were then embedded in 1.5% agarose for imaging. "			
 Experiment Size	5D Images: 	Average Image Dimension (XYZCT): 1920 1920 470 2 1 	Total Tb: 0.064	# fill in any values you know
 Experiment Example Images				
@@ -151,6 +155,8 @@ Processed Data Column Link To Assay File
 				
 Experiment Number	3			
 Comment[IDR Experiment Name]	idr0038-held-kidneylightsheet/experimentC			
+Experiment Data Publisher	University of Dundee			
+Experiment Data DOI	https://dx.doi.org/10.17867/10000110c			
 Experiment Description	"We have adapted the mouse kidney rudiment assay to generate renal organoids. 24 hours after pelleting 100,000 mouse kidney cells, organoids had formed in the PDMS dishes. For the PNA vital stain test we used kidney cells from wildtype mice and for the tracking time series we used cells from the Wt1tm1Nhsn strain, expressing GFP together with the transcription factor Wt1. One organoid was embedded in a hydrogel matrix (1.5% Agarose + 3% gelatine). In the microscope chamber, the hydrogel cylinder was extruded from the capillary so that the hydrogel column containing the organoid was located outside the capillary and immersed in medium (phenol red-free MEM + 10% FBS, 1% pen/strep, 3ug/ml PNA-rh) at 37oC and with 5% CO2. We recorded z stacks of the spheroids from multiple angles every 30 mins to record the location of the GFP expressing cells in three dimensions over time. There are three time series. These are available in the subfolders ""Time PNA-rh vital"", ""Wt1-GFP PNA Time Series 1"" and ""Wt1-GFP PNA Time Series 2"".  The time series data was processed in Fiji by opening the green channel only, binning in X and Y by a factor of two and converting it to 8 bit for processing in TrackMate (v.2.8.2) where we used the LoG (Laplacian of Gaussian) Detector and LAP (Linear Assignment Problem) Tracker options. Tracking data generated from the time series using the Track Mate plug in for Fiji is also provided in the time series data sets as ""Nspots vs Time.txt"", ""Track statistics.txt"", ""Links in tracks statistics.txt"" and ""Spots in tracks statistics.txt"". The data was analysed and plotted via the Matlab script provided as ""TrackMateDataAnalysis.txt"" in conjunction with the functions ""NSpotsFunction.txt"", ""SpotsInTracksFunction.txt"", ""TrackStatisticsFunction.txt"", ""Violin.txt"" and ""violinplot.txt"". "			
 Experiment Size	5D Images: 	"Average Image Dimension (XYZCT): X: 1920, Y: 1920 Z: 247-436, C: 2, V: 3-5, T: 27-30"	Total Tb: 3.11	
 Experiment Example Images				
