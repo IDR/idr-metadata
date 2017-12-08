@@ -44,7 +44,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0019sero-nfkappab/screenA																																																																																			
 Screen Description	"High Content Analysis was used to quantitatively profile the morphology and NF-kappaB nuclear localization (which serves as a proxy for its activation), in 17 breast cancer and two non_tumor cell lines. Cells were treated with or without TNFa for 1 h or 5 h to capture the first peak and later steady state of NF-kappaB activation. "																																																																																			
 Screen Size	Plates: 7	"5D Images: 25,872"	"Planes: 77,616"	Average Image Dimension (XYZCT): 668 x 501 x 1 x 3 x 1	Total Tb: 0.03																																																																															
-Screen Example Image	http://idr-demo.openmicroscopy.org/webclient/?show=well-1024987	http://idr-demo.openmicroscopy.org/webclient/img_detail/1859680/	22_lines_TNF_1h_200145914;O2																																																																																	
+Screen Example Image	http://idr.openmicroscopy.org/webclient/?show=well-1024987	http://idr.openmicroscopy.org/webclient/img_detail/1859680/	22_lines_TNF_1h_200145914;O2																																																																																	
 Screen Imaging Method	spinning disk confocal microscopy																																																																																			
 Screen Imaging Method Term Source REF	Fbbi																																																																																			
 Screen Imaging Method Term Accession	FBbi_00000253																																																																																			

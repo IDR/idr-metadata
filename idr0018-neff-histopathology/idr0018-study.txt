@@ -43,7 +43,7 @@ Experiment Number	1
 Comment[IDR Experiment Name]	idr0018-neff-histopathology/experimentA																																																							
 Experiment Description	Histopathology raw images and annotated tiff files of tissues from mice with 10 different single gene knockouts.																																																							
 Experiment Size	Datasets: 248	5D Images: 899	Average Image Dimension (XYZCT): 40673 x 23249 x 1 x 2 x 1	Total Tb: 0.27 Tb																																																				
-Experiment Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=image-1920093	http://idr-demo.openmicroscopy.org/webclient/img_detail/1920093/	Baz1a-14-100-brain;Bazla-14-100-brain - 2015-06-19 23.34.11.ndpi [Series 1]																																																					
+Experiment Example Images	http://idr.openmicroscopy.org/webclient/?show=image-1920093	http://idr.openmicroscopy.org/webclient/img_detail/1920093/	Baz1a-14-100-brain;Bazla-14-100-brain - 2015-06-19 23.34.11.ndpi [Series 1]																																																					
 Experiment Imaging Method	bright-field microscopy																																																							
 Experiment Imaging Method Term Source REF	FBbi																																																							
 Experiment Imaging Method Term Accession	FBbi_00000243																																																							
