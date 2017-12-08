@@ -12,7 +12,7 @@ Study Organism Term Accession	NCBITaxon_9606
 Study Screens Number	1				
 Study External URL	http://www.cellimagelibrary.org/pages/project_20269	http://gigadb.org/dataset/100200			
 Study Public Release Date					
-Study Version History	"In August 2017 the 20 plates from the Broad Bioimaging Benchmark Collection dataset BBBC022 were moved to a separate screen, idr0036/screenA. At the same time 58 new plates, which had become available from the Cell Image Library (http://www.cellimagelibrary.org/pages/project_20269) after the original import to idr0016, were added to idr0016 and annotation was added to plate 25723 (http://idr.openmicroscopy.org/webclient/?show=plate-5104) which was previously unannotated. Protocols have been updated to reflect the materials and methods information in Wawer et al 2014."				
+Study Version History	"In August 2017 the 20 plates from the Broad Bioimaging Benchmark Collection dataset BBBC022 were moved to a separate screen, idr0036/screenA. At the same time 58 new plates, which had become available from the Cell Image Library (http://www.cellimagelibrary.org/pages/project_20269) after the original import to idr0016, were added to idr0016 and annotation was added to plate 25723 (https://idr.openmicroscopy.org/webclient/?show=plate-5104) which was previously unannotated. Protocols have been updated to reflect the materials and methods information in Wawer et al 2014."				
 					
 # Study Publication					
 Study PubMed ID	25024206	28327978			
@@ -44,7 +44,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0016-wawer-30kcompounds/screenA				
 Screen Description	"Using the cell-painting assay developed by Gustafsdottir et al, 2013, the Broad Institute has assembled a reference dataset of profiles for U2OS osteosarcoma cells treated with ~30,000 compounds. The experiment consisted of 413 microtiter plates. Each plate has 384 wells. Each well has 6 fields of view; a very small fraction of the wells (0.002%) have a few sites missing. Each field was imaged in five channels (detection wavelengths), and each channel is stored as a separate, grayscale 16-bit TIFF image file."				
 Screen Size	Plates: 413	5D Images:	Planes:	Average Image Dimension (XYZCT):	Total Tb:
-Screen Example Images	http://idr.openmicroscopy.org/webclient/?show=well-1215412	http://idr.openmicroscopy.org/webclient/img_detail/2782349/	20586;M8		
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-1215412	https://idr.openmicroscopy.org/webclient/img_detail/2782349/	20586;M8		
 Screen Imaging Method	fluorescence microscopy				
 Screen Imaging Method Term Source REF	Fbbi				
 Screen Imaging Method Term Accession	FBbi_00000246				

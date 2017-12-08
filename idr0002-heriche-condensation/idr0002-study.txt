@@ -43,7 +43,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0002-heriche-condensation/screenA										
 Screen Description	Screen of 100 candidate genes predicted to be involved in mitotic chromosome condensation. Knock down of 22 genes resulted in signficantly shorter prophases and knock down of 18 genes caused signficant delays in prophase.										
 Screen Size	Plates: 12	5D Images: 1152	Planes: 761280	Average Image Dimension (XYZCT): 1344 x 1024 x 1 x 2 x 330	Total Tb: 2.10						
-Screen Example Images	http://idr.openmicroscopy.org/webclient/?show=well-67124	http://idr.openmicroscopy.org/webclient/img_detail/179754/	plate1_1_013;D2								
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-67124	https://idr.openmicroscopy.org/webclient/img_detail/179754/	plate1_1_013;D2								
 Screen Imaging Method	fluorescence microscopy										
 Screen Imaging Method Term Source REF	Fbbi										
 Screen Imaging Method Term Accession	FBbi_00000246										

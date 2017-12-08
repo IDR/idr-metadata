@@ -41,7 +41,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0020-barr-chtog/screenA															
 Screen Description	Cell lines carrying doxycycline inducible non-silencing (NS) shRNA or a ch-TOG specific shRNA were generated.  The siRNA screen was performed in these two backgrounds to find genes that modify the ch-TOG mitotic phenotype.															
 Screen Size	Plates: 4	"5D Images: 36,960"	"Planes: 147,840"	Average Image Dimension (XYZCT): 609 x 483 x 1 x 4 x 1	Total Tb: 0.03											
-Screen Example Image	http://idr.openmicroscopy.org/webclient/?show=well-1028580	http://idr.openmicroscopy.org/webclient/img_detail/1888522/	200972430 TOG[2703];D3													
+Screen Example Image	https://idr.openmicroscopy.org/webclient/?show=well-1028580	https://idr.openmicroscopy.org/webclient/img_detail/1888522/	200972430 TOG[2703];D3													
 Screen Imaging Method	spinning disk confocal microscopy															
 Screen Imaging Method Term Source REF	Fbbi															
 Screen Imaging Method Term Accession Number	FBbi_00000253															

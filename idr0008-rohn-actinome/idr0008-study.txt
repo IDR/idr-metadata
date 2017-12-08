@@ -43,7 +43,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0008-rohn-actinome/screenA																																																			
 Screen Description	"A genome-wide, high-content RNAi screen in the hemocyte-derived adherent Drosophila cell line S2R+  whose read-out was a visual inspection of images of fixed cells stained with alpha-tubulin, F-actin, and DNA. After filtering and annotating hits with a controlled vocabulary, we identified a number of broad phenotypic categories."																																																			
 Screen Size	Plates: 58	5D Images: 44538	Planes: 138990	Average Image Dimension (XYZCT): 640 x 512 x 1 x 3 x 1	Total Tb: 0.09																																															
-Screen Example Images	http://idr.openmicroscopy.org/webclient/?show=well-12750	http://idr.openmicroscopy.org/webclient/img_detail/37747/	003B30_S2R;A21																																																	
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-12750	https://idr.openmicroscopy.org/webclient/img_detail/37747/	003B30_S2R;A21																																																	
 Screen Imaging Method	fluorescence microscopy																																																			
 Screen Imaging Method Term Source REF	Fbbi																																																			
 Screen Imaging Method Term Accession	FBbi_00000246																																																			
@@ -111,7 +111,7 @@ Screen Number	2
 Comment[IDR Screen Name]	idr0008-rohn-actinome/screenB																																																			
 Screen Description	This screen consists of siRNAs targetting 516 known or predicted actin and Rho-GTPase family regulators (the 'actinome';) in human HeLa cells and in addition tests representative close human orthologues of the set of putative novel actin regulators identified in the fly screen.  This screen was performed in duplicate (screens B and C). Screen B is also known as Actinome 1 and screen C as Actinome 2. Only screen B is available at present.																																																			
 Screen Size	Plates: 11	5D Images: 11406	Planes: 38760	Average Image Dimension (XYZCT): 696 x 520 x 1 x 3 x 1	Total Tb: 0.03																																															
-Screen Example Images	http://idr.openmicroscopy.org/webclient/?show=well-39563	http://idr.openmicroscopy.org/webclient/img_detail/107025/	Plate10_Actinome1;O3																																																	
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-39563	https://idr.openmicroscopy.org/webclient/img_detail/107025/	Plate10_Actinome1;O3																																																	
 Screen Imaging Method	fluorescence microscopy																																																			
 Screen Imaging Method Term Source REF	Fbbi																																																			
 Screen Imaging Method Term Accession	FBbi_00000246																																																			

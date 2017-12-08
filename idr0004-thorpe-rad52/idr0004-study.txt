@@ -42,7 +42,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0004-thorpe-rad52/screenA											
 Screen Description	"This screen assesses the proportion of cells containing spontaneous Rad52-YFP foci in 4,805 viable Saccharomyces cerevisiae deletion strains."											
 Screen Size	Plates: 46	5D Images: 3765	Planes: 75308	Average Image Dimension (XYZCT): 672 x 510 x 10 x 2 x 1	Total Tb: 0.17							
-Screen Example Images	http://idr.openmicroscopy.org/webclient/?show=well-472715	http://idr.openmicroscopy.org/webclient/img_detail/696815/	P146;G4									
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-472715	https://idr.openmicroscopy.org/webclient/img_detail/696815/	P146;G4									
 Screen Imaging Method	fluorescence microscopy											
 Screen Imaging Method Term Source REF	Fbbi											
 Screen Imaging Method Term Accession	FBbi_00000246											

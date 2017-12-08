@@ -44,7 +44,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0007-srikumar-sumo/screenA																																
 Screen Description	"In this screen two mutant yeast strains unable to synthesize SUMO chains (pro-smt3allR and smt3allR), were crossed with 384 yeast strains expressing GFP-tagged proteins (Huh et al., 2003) previously linked to the DNA damage response (Tkach et al., 2012).  144 GFP-tagged proteins displayed a change in localization and/or intensity when expressed in the smt3allR mutant grown in rich medium."																																
 Screen Size	Plates: 12	5D Images: 3456	Planes: 6912	Average Image Dimension (XYZCT): 1346 x 1003 x 1 x 2 x 1	Total Tb: 0.2																												
-Screen Example Images	http://idr.openmicroscopy.org/webclient/?show=well-37013	http://idr.openmicroscopy.org/webclient/img_detail/95543/	WT plate1;G13																														
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-37013	https://idr.openmicroscopy.org/webclient/img_detail/95543/	WT plate1;G13																														
 Screen Imaging Method	confocal microscopy																																
 Screen Imaging Method Term Source REF	Fbbi																																
 Screen Imaging Method Term Accession	FBbi_00000251																																

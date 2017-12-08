@@ -45,7 +45,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0034-kilpinen-hipsci/screenA						
 Screen Description	"Cellular phenotyping of 28 human induced pluripotent stem cell lines from 14 donors within the framework of the HipSci project. Cells are plated sparsely, 3000 per 96 well for 24 hours on wells coated with three diverse concentrations of Fibronectin. Note The images relating to the publication 'Common genetic variation drives molecular heterogeneity in human iPSCs' have been released at this time (May 2017). An extended dataset in comparable conditions is due to be released in the future alongside associated studies."						
 Screen Size	Plates: 29	5D Images:6156	Planes:24624	Average Image Dimension (XYZCT):	Total Tb:0.11		
-Screen Example Images	http://idr.openmicroscopy.org/webclient/?show=well-1319381	http://idr.openmicroscopy.org/webclient/img_detail/3271621/	experiment_27;D10				
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-1319381	https://idr.openmicroscopy.org/webclient/img_detail/3271621/	experiment_27;D10				
 Screen Imaging Method	fluorescence microscopy						
 Screen Imaging Method Term Source REF	Fbbi						
 Screen Imaging Method Term Accession	FBbi_00000246						

@@ -45,7 +45,7 @@ Screen Data Publisher
 Screen Data DOI																														
 Screen Description	"Pooled siRNA targeting human kinome and Rho family GTPases/GEFs/GAPs in MCF10A breast myoepithelial cells stained for YAP/TAZ, F-actin, CD44"																													
 Screen Size	Plates: 10	5D Images:92400	Planes:369600	Average Image Dimension (XYZCT):	Total Tb:0.14																									
-Screen Example Images	http://idr.openmicroscopy.org/webclient/?show=well-1310560	http://idr.openmicroscopy.org/webclient/img_detail/3134322/	200972726[5176]_kinome_YAP_TAZ ;D14																											
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-1310560	https://idr.openmicroscopy.org/webclient/img_detail/3134322/	200972726[5176]_kinome_YAP_TAZ ;D14																											
 Screen Imaging Method	spinning disk confocal microscopy																													
 Screen Imaging Method Term Source REF	Fbbi																													
 Screen Imaging Method Term Accession	FBbi_00000253																													
