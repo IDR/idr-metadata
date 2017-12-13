@@ -1,4 +1,4 @@
 ---
-target: "Screen:name:idr0022-UNKNOWN-pktscreen/screenA"
+target: "Screen:name:idr0022-fokkelman-cellmigration/screenA"
 include: "../../bulk.yml"
 path: "idr0022-screenA-plates.tsv"
