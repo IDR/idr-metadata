@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0022-fokkelman-cellmigration/screenB"
+include: "../../bulk.yml"
+path: "idr0022-screenB-plates.tsv"
