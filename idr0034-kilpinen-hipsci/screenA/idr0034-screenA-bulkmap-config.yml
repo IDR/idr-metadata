@@ -1,6 +1,6 @@
 ---
 name: idr0034-kilpinen-hipsci/screenA
-version: 1
+version: 2
 
 defaults:
     # Should the column be processed when creating bulk-annotations (yes/no)
@@ -40,6 +40,7 @@ columns:
 
   - name: Results Measurements
     include: yes
+    split: ;
   - name: Results Summary
     include: yes
 
