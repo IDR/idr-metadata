@@ -1,0 +1,66 @@
+Characteristics [Cell Line]	Results Measurements	Results Summary
+CTR	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/control_cell_lines/CTR/	
+CTRL0214pf-iely	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/control_cell_lines/CTRL0214pf-iely/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/control_cell_lines/CTRL0214pf-iely/
+CTRM_205	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/control_cell_lines/CTRM_205	
+HPSI0313i-cesj_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0313i-cesj_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0313i-cesj_1/
+HPSI0413i-coxy_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0413i-coxy_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0413i-coxy_3/
+HPSI0413i-coxy_33	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0413i-coxy_33/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0413i-coxy_33/
+HPSI0413i-uahf_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0413i-uahf_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0413i-uahf_3/
+HPSI0413i-xekf_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0413i-xekf_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0413i-xekf_1/
+HPSI0513i-cuau_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-cuau_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-cuau_3/
+HPSI0513i-debk_9	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-debk_9/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-debk_9/
+HPSI0513i-golb_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-golb_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-golb_2/
+HPSI0513i-golb_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-golb_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-golb_3/
+HPSI0513i-huls_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-huls_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-huls_1/
+HPSI0513i-huls_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-huls_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-huls_3/
+HPSI0513i-iasn_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-iasn_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-iasn_3/
+HPSI0513i-oeoo_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-oeoo_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-oeoo_2/
+HPSI0513i-oogu_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-oogu_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-oogu_2/
+HPSI0513i-xegx_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0513i-xegx_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0513i-xegx_1/
+HPSI0613i-funp_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-funp_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-funp_2/
+HPSI0613i-giuo_5	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-giuo_5/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-giuo_5/
+HPSI0613i-hikj_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-hikj_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-hikj_1/
+HPSI0613i-liun_22	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-liun_22/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-liun_22/
+HPSI0613i-oomz_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-oomz_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-oomz_2/
+HPSI0613i-oomz_22	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-oomz_22/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-oomz_22/
+HPSI0613i-qanu_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-qanu_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-qanu_1/
+HPSI0613i-qanu_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-qanu_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-qanu_2/
+HPSI0613i-vorx_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-vorx_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-vorx_2/
+HPSI0613i-zisa_33	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0613i-zisa_33/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0613i-zisa_33/
+HPSI0614i-eavo_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0614i-eavo_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0614i-eavo_1/
+HPSI0713i-darw_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0713i-darw_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0713i-darw_3/
+HPSI0714i-gibe_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0714i-gibe_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0714i-gibe_2/
+HPSI0813i-ffdc_11	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-ffdc_11/	
+HPSI0813i-ffdj_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-ffdj_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-ffdj_1/
+HPSI0813i-ffdm_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-ffdm_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-ffdm_3/
+HPSI0813i-ffdr_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-ffdr_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-ffdr_3/
+HPSI0813i-fpdj_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-fpdj_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-fpdj_3/
+HPSI0813i-fpdk_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-fpdk_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-fpdk_2/
+HPSI0813i-fpdl_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-fpdl_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-fpdl_1/
+HPSI0813i-fpdl_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-fpdl_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-fpdl_2/
+HPSI0813i-fpdm_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-fpdm_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-fpdm_2/
+HPSI0813i-fpdr_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-fpdr_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-fpdr_2/
+HPSI0813i-iicq_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0813i-iicq_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0813i-iicq_3/
+HPSI0913i-ffdl_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0913i-ffdl_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0913i-ffdl_1/
+HPSI0913i-ffdl_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0913i-ffdl_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0913i-ffdl_2/
+HPSI0913i-ffdz_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0913i-ffdz_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0913i-ffdz_2/
+HPSI0913i-gedo_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0913i-gedo_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0913i-gedo_3/
+HPSI0913i-gedo_33	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0913i-gedo_33/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0913i-gedo_33/
+HPSI0913i-gooj_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0913i-gooj_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0913i-gooj_1/
+HPSI0913i-kojv_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0913i-kojv_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0913i-kojv_2/
+HPSI0913i-vopm_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI0913i-vopm_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI0913i-vopm_2/
+HPSI1013i-aetc_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1013i-aetc_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1013i-aetc_1/
+HPSI1013i-pamv_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1013i-pamv_1/	
+HPSI1013i-pamv_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1013i-pamv_3/	
+HPSI1014i-suok_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1014i-suok_3/	
+HPSI1014i-suok_4	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1014i-suok_4/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1014i-suok_4/
+HPSI1113i-fumb_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1113i-fumb_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1113i-fumb_2/
+HPSI1113i-nibo_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1113i-nibo_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1113i-nibo_2/
+HPSI1113i-waus_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1113i-waus_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1113i-waus_1/
+HPSI1113i-wetu_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1113i-wetu_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1113i-wetu_2/
+HPSI1113i-zuta_1	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1113i-zuta_1/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1113i-zuta_1/
+HPSI1213i-foqj_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1213i-foqj_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1213i-foqj_2/
+HPSI1213i-nekd_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1213i-nekd_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1213i-nekd_2/
+HPSI1213i-nekd_3	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1213i-nekd_3/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1213i-nekd_3/
+HPSI1213i-nusw_2	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/HPSI1213i-nusw_2/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/HPSI1213i-nusw_2/
+JACK	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/release/20170809/JACK/	ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/control_cell_lines/JACK/
