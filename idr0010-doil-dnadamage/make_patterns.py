@@ -22,9 +22,9 @@ for dir in dirs:
         dapi, = [x for x in iglob(dir + "/*dapi*") if "spot" not in x]
         try:
             bp, = [x for x in iglob(dir + "/*bp*") if "spot" not in x]
-        except:  # Try BB
+        except Exception:  # Try BB
             bp, = [x for x in iglob(dir + "/*bb*") if "spot" not in x]
-    except:
+    except Exception:
         raise Exception(dir)
 
     plate = basename(dir)
