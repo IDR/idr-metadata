@@ -43,7 +43,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0012-fuchs-cellmorph/screenA																																																							
 Screen Description	"To cluster genes and predict function on a genome-wide scale, we measured the effects of 22 839 siRNA-mediated knockdowns on HeLa cells. Each siRNA effect was summarized by a phenotypic profile."																																																							
 Screen Size	Plates: 68	"5D Images: 45,692"	"Planes: 137,076"	Average Image Dimension (XYZCT): 1344 x 1024 x 1.13 x 2.9 x 1	Total Tb: 0.38																																																			
-Screen Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=well-1000585	http://idr-demo.openmicroscopy.org/webclient/img_detail/1811438/	HT01;B5																																																					
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-1000585	https://idr.openmicroscopy.org/webclient/img_detail/1811438/	HT01;B5																																																					
 Screen Imaging Method	fluorescence microscopy																																																							
 Screen Imaging Method Term Source REF	Fbbi																																																							
 Screen Imaging Method Term Accession	FBbi_00000246																																																							

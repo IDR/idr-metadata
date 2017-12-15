@@ -43,7 +43,7 @@ Experiment Number	1
 Comment[IDR Experiment Name]	idr0023-szymborska-nuclearpore/experimentA												
 Experiment Description	Systematic immunolabelling of the Nup107-160 complex and (monomeric) enhanced GFP [(m)EGFP] fusions of members of the Nup107-160 complex with an anti-GFP nanobody.  												
 Experiment Size	Datasets: 55	5D Images: 524	Average Image Dimension (XYZCT):1376 x 1040 x 16 x 2 x 1	Total Tb: 0.00									
-Experiment Example Images	http://idr-demo.openmicroscopy.org/webclient/?show=image-1885618	http://idr-demo.openmicroscopy.org/webclient/img_detail/1885618/	Nup107-aa33-51_antibody_1;SUM_trans_norm.tif										
+Experiment Example Images	https://idr.openmicroscopy.org/webclient/?show=image-1885618	https://idr.openmicroscopy.org/webclient/img_detail/1885618/	Nup107-aa33-51_antibody_1;SUM_trans_norm.tif										
 Experiment Imaging Method	STORM super-resolution imaging												
 Experiment Imaging Method Term Source REF													
 Experiment Imaging Method Term Accession													

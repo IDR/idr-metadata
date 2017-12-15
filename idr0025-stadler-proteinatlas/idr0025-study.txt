@@ -44,7 +44,7 @@ Screen Number	1
 Comment[IDR Screen Name]	idr0025-stadler-proteinatlas/screenA																	
 Screen Description	Localization by immunofluorescence and confocal microscopy of 72 antibodies targeting 72 genes and validation through siRNA knock down to verify protein localization and antibody binding. 59 of the antibodies are those  described in Stadler et al 2012.																	
 Screen Size	Plates: 3	5D Images: 1152	Planes: 3456	Average Image Dimension (XYZCT): 2048 x 2048 x 1 x 3 x 1	Total Tb: 0.01													
-Screen Example Images	http://idr.openmicroscopy.org/webclient/?show=well-1318181	http://idr.openmicroscopy.org/webclient/img_detail/3261175/	10x images plate 3;A7															
+Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-1318181	https://idr.openmicroscopy.org/webclient/img_detail/3261175/	10x images plate 3;A7															
 Screen Imaging Method	confocal microscopy																	
 Screen Imaging Method Term Source REF	Fbbi																	
 Screen Imaging Method Term Accession	FBbi_00000251																	
