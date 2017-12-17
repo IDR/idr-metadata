@@ -1,23 +1,524 @@
-MF_VMR_Hs578T_Adhesome1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome1a
-MF_VMR_Hs578T_Adhesome1c	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome1c
-Hs578T_custom GPCR_1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Custom GPCRs/Hs578T_custom GPCR_1a
-09-07-2012 Endo1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo1a
-09-07-2012 Endo1a manual	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo1a manual
-MF_VMR_Hs578T_EpiGen1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/EpiGenetics/MF_VMR_Hs578T_EpiGen1a
-Hs578T_GPCRs_Phos_exp1	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1
-Hs578T_Ubi-screen_exp1	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1
-MF_VMR_Hs578T_Kinase1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase1a
-MF_VMR_Hs578T_Kinase1c	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase1c
-Hs578T_Transcription factors1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors1a
-MF_VMR_Hs578T_TF15a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF15a
-MF_VMR_Hs578T_TF15b - PAA plate	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF15b - PAA plate
-Hs578T_TF11e	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF11e
-MDA231 Adhesome1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome1a
-MDA231_custom GPCR_1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen MDA-MB-231/Custom GPCR set/MDA231_custom GPCR_1a
-MDA231_Endo1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo1a
-MDA231_EpiGen1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen MDA-MB-231/EpiGen/MDA231_EpiGen1a
-MDA231_GPCR1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR1a
-MDA231_kinase1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase1a
-MDA231_kinase1c	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase1c
-MDA231_TF10a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF10a
-MDA231_DUB-SUMO1a	/uod/idr/incoming/idr0022-UNKNOWN-pktscreen/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_DUB-SUMO1a
+MF_VMR_Hs578T_Adhesome1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome1a
+MF_VMR_Hs578T_Adhesome1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome1b
+MF_VMR_Hs578T_Adhesome2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome2a
+MF_VMR_Hs578T_Adhesome2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome2b
+MF_VMR_Hs578T_Adhesome3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome3a
+MF_VMR_Hs578T_Adhesome3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome3b
+MF_VMR_Hs578T_Adhesome4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome4a
+MF_VMR_Hs578T_Adhesome4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome4b
+MF_VMR_Hs578T_Adhesome5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome5a
+MF_VMR_Hs578T_Adhesome5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome5b
+MF_VMR_Hs578T_Adhesome6a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome6a
+MF_VMR_Hs578T_Adhesome6b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome6b
+MF_VMR_Hs578T_Adhesome7a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome7a
+MF_VMR_Hs578T_Adhesome7b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome7b
+MF_VMR_Hs578T_Adhesome8a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome8a
+MF_VMR_Hs578T_Adhesome8b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp1/MF_VMR_Hs578T_Adhesome8b
+MF_VMR_Hs578T_Adhesome1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome1c
+MF_VMR_Hs578T_Adhesome1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome1d
+MF_VMR_Hs578T_Adhesome2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome2c
+MF_VMR_Hs578T_Adhesome2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome2d
+MF_VMR_Hs578T_Adhesome3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome3c
+MF_VMR_Hs578T_Adhesome3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome3d
+MF_VMR_Hs578T_Adhesome4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome4c
+MF_VMR_Hs578T_Adhesome4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome4d
+MF_VMR_Hs578T_Adhesome5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome5c
+MF_VMR_Hs578T_Adhesome5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome5d
+MF_VMR_Hs578T_Adhesome6c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome6c
+MF_VMR_Hs578T_Adhesome6d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome6d
+MF_VMR_Hs578T_Adhesome7c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome7c
+MF_VMR_Hs578T_Adhesome7d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome7d
+MF_VMR_Hs578T_Adhesome8c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome8c
+MF_VMR_Hs578T_Adhesome8d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Adhesome exp2/MF_VMR_Hs578T_Adhesome8d
+Hs578T_custom GPCR_1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Custom GPCRs/Hs578T_custom GPCR_1a
+Hs578T_custom GPCR_1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Custom GPCRs/Hs578T_custom GPCR_1b
+Hs578T_custom GPCR_1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Custom GPCRs/Hs578T_custom GPCR_1c
+Hs578T_custom GPCR_1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Custom GPCRs/Hs578T_custom GPCR_1d
+Hs578T_custom GPCR_2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Custom GPCRs/Hs578T_custom GPCR_2a
+Hs578T_custom GPCR_2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Custom GPCRs/Hs578T_custom GPCR_2b
+Hs578T_custom GPCR_2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Custom GPCRs/Hs578T_custom GPCR_2c
+Hs578T_custom GPCR_2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Custom GPCRs/Hs578T_custom GPCR_2d
+09-07-2012 Endo1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo1a
+09-07-2012 Endo1a manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo1a manual
+09-07-2012 Endo1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo1b
+09-07-2012 Endo1b manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo1b manual
+09-07-2012 Endo2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo2a
+09-07-2012 Endo2a manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo2a manual
+09-07-2012 Endo2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo2b
+09-07-2012 Endo2b manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo2b manual
+09-07-2012 Endo3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo3a
+09-07-2012 Endo3a manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo3a manual
+09-07-2012 Endo3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo3b
+09-07-2012 Endo3b manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/09-07-2012 Endo3b manual
+10-07-2012 Endo1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo1c
+10-07-2012 Endo1c_manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo1c_manual
+10-07-2012 Endo1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo1d
+10-07-2012 Endo1d manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo1d manual
+10-07-2012 Endo2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo2c
+10-07-2012 Endo2c manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo2c manual
+10-07-2012 Endo2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo2d
+10-07-2012 Endo2d manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo2d manual
+10-07-2012 Endo3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo3c
+10-07-2012 Endo3c manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo3c manual
+10-07-2012 Endo3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo3d
+10-07-2012 Endo3d manual	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Endocytosis Library/10-07-2012 Endo3d manual
+MF_VMR_Hs578T_EpiGen1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/EpiGenetics/MF_VMR_Hs578T_EpiGen1a
+MF_VMR_Hs578T_EpiGen1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/EpiGenetics/MF_VMR_Hs578T_EpiGen1b
+MF_VMR_Hs578T_EpiGen1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/EpiGenetics/MF_VMR_Hs578T_EpiGen1c
+MF_VMR_Hs578T_EpiGen1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/EpiGenetics/MF_VMR_Hs578T_EpiGen1d
+MF_VMR_Hs578T_EpiGen2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/EpiGenetics/MF_VMR_Hs578T_EpiGen2a
+MF_VMR_Hs578T_EpiGen2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/EpiGenetics/MF_VMR_Hs578T_EpiGen2b
+MF_VMR_Hs578T_EpiGen2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/EpiGenetics/MF_VMR_Hs578T_EpiGen2c
+MF_VMR_Hs578T_EpiGen2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/EpiGenetics/MF_VMR_Hs578T_EpiGen2d
+Hs578T_GPCR1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR1a
+Hs578T_GPCR1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR1b
+Hs578T_GPCR2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR2a
+Hs578T_GPCR2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR2b
+Hs578T_GPCR3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR3a
+Hs578T_GPCR3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR3b
+Hs578T_GPCR4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR4a
+Hs578T_GPCR4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR4b
+Hs578T_GPCR5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR5a
+Hs578T_GPCR5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_GPCR5b
+Hs578T_Phos1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_Phos1a
+Hs578T_Phos1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_Phos1b
+Hs578T_Phos2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_Phos2a
+Hs578T_Phos2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_Phos2b
+Hs578T_Phos3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_Phos3a
+Hs578T_Phos3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_Phos3b
+Hs578T_Phos4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_Phos4a
+Hs578T_Phos4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp1/Hs578T_Phos4b
+Hs578T_GPCR1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR1c
+Hs578T_GPCR1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR1d
+Hs578T_GPCR2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR2c
+Hs578T_GPCR2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR2d
+Hs578T_GPCR3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR3c
+Hs578T_GPCR3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR3d
+Hs578T_GPCR4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR4c
+Hs578T_GPCR4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR4d
+Hs578T_GPCR5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR5c
+Hs578T_GPCR5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_GPCR5d
+Hs578T_Phos1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_Phos1c
+Hs578T_Phos1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_Phos1d
+Hs578T_Phos2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_Phos2c
+Hs578T_Phos2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_Phos2d
+Hs578T_Phos3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_Phos3c
+Hs578T_Phos3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_Phos3d
+Hs578T_Phos4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_Phos4c
+Hs578T_Phos4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/GPCRs & Phosphatases/Hs578T_GPCRs_Phos_exp2/Hs578T_Phos4d
+Hs578T_DUB1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_DUB1a
+Hs578T_DUB1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_DUB1b
+Hs578T_DUB2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_DUB2a
+Hs578T_DUB2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_DUB2b
+Hs578T_Ubi1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi1a
+Hs578T_Ubi1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi1b
+Hs578T_Ubi2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi2a
+Hs578T_Ubi2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi2b
+Hs578T_Ubi3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi3a
+Hs578T_Ubi3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi3b
+Hs578T_Ubi4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi4a
+Hs578T_Ubi4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi4b
+Hs578T_Ubi5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi5a
+Hs578T_Ubi5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi5b
+Hs578T_Ubi6a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi6a
+Hs578T_Ubi6b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi6b
+Hs578T_Ubi7a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi7a
+Hs578T_Ubi7b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi7b
+Hs578T_Ubi8a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi8a
+Hs578T_Ubi8b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp1/Hs578T_Ubi8b
+Hs578T_DUB1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_DUB1c
+Hs578T_DUB1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_DUB1d
+Hs578T_DUB2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_DUB2c
+Hs578T_DUB2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_DUB2d
+Hs578T_Ubi1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi1c
+Hs578T_Ubi1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi1d
+Hs578T_Ubi2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi2c
+Hs578T_Ubi2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi2d
+Hs578T_Ubi3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi3c
+Hs578T_Ubi3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi3d
+Hs578T_Ubi4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi4c
+Hs578T_Ubi4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi4d
+Hs578T_Ubi5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi5c
+Hs578T_Ubi5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi5d
+Hs578T_Ubi6c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi6c
+Hs578T_Ubi6d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi6d
+Hs578T_Ubi7c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi7c
+Hs578T_Ubi7d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi7d
+Hs578T_Ubi8c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi8c
+Hs578T_Ubi8d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Hs578T - Ubi-DUB/Hs578T_Ubi-screen_exp2/Hs578T_Ubi8d
+MF_VMR_Hs578T_Kinase10a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase10a
+MF_VMR_Hs578T_Kinase10b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase10b
+MF_VMR_Hs578T_Kinase1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase1a
+MF_VMR_Hs578T_Kinase1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase1b
+MF_VMR_Hs578T_Kinase2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase2a
+MF_VMR_Hs578T_Kinase2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase2b
+MF_VMR_Hs578T_Kinase3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase3a
+MF_VMR_Hs578T_Kinase3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase3b
+MF_VMR_Hs578T_Kinase4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase4a
+MF_VMR_Hs578T_Kinase4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase4b
+MF_VMR_Hs578T_Kinase5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase5a
+MF_VMR_Hs578T_Kinase5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase5b
+MF_VMR_Hs578T_Kinase6a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase6a
+MF_VMR_Hs578T_Kinase6b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase6b
+MF_VMR_Hs578T_Kinase7a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase7a
+MF_VMR_Hs578T_Kinase7b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase7b
+MF_VMR_Hs578T_Kinase8a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase8a
+MF_VMR_Hs578T_Kinase8b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase8b
+MF_VMR_Hs578T_Kinase9a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase9a
+MF_VMR_Hs578T_Kinase9b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp1/MF_VMR_Hs578T_Kinase9b
+MF_VMR_Hs578T_Kinase10c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase10c
+MF_VMR_Hs578T_Kinase10d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase10d
+MF_VMR_Hs578T_Kinase1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase1c
+MF_VMR_Hs578T_Kinase1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase1d
+MF_VMR_Hs578T_Kinase2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase2c
+MF_VMR_Hs578T_Kinase2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase2d
+MF_VMR_Hs578T_Kinase3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase3c
+MF_VMR_Hs578T_Kinase3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase3d
+MF_VMR_Hs578T_Kinase4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase4c
+MF_VMR_Hs578T_Kinase4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase4d
+MF_VMR_Hs578T_Kinase5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase5c
+MF_VMR_Hs578T_Kinase5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase5d
+MF_VMR_Hs578T_Kinase6c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase6c
+MF_VMR_Hs578T_Kinase6d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase6d
+MF_VMR_Hs578T_Kinase7c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase7c
+MF_VMR_Hs578T_Kinase7d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase7d
+MF_VMR_Hs578T_Kinase8c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase8c
+MF_VMR_Hs578T_Kinase8d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase8d
+MF_VMR_Hs578T_Kinase9c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase9c
+MF_VMR_Hs578T_Kinase9d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Kinases exp2/MF_VMR_Hs578T_Kinase9d
+Hs578T_Transcription factors10a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors10a
+Hs578T_Transcription factors10b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors10b
+Hs578T_Transcription factors10c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors10c
+Hs578T_Transcription factors10d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors10d
+Hs578T_Transcription factors1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors1a
+Hs578T_Transcription factors1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors1b
+Hs578T_Transcription factors1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors1c
+Hs578T_Transcription factors1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors1d
+Hs578T_Transcription factors2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors2a
+Hs578T_Transcription factors2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors2b
+Hs578T_Transcription factors2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors2c
+Hs578T_Transcription factors2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors2d
+Hs578T_Transcription factors3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors3a
+Hs578T_Transcription factors3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors3b
+Hs578T_Transcription factors3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors3c
+Hs578T_Transcription factors3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors3d
+Hs578T_Transcription factors4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors4a
+Hs578T_Transcription factors4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors4b
+Hs578T_Transcription factors4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors4c
+Hs578T_Transcription factors4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors4d
+Hs578T_Transcription factors5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors5a
+Hs578T_Transcription factors5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors5b
+Hs578T_Transcription factors5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors5c
+Hs578T_Transcription factors5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors5d
+Hs578T_Transcription factors6a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors6a
+Hs578T_Transcription factors6b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors6b
+Hs578T_Transcription factors6c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors6c
+Hs578T_Transcription factors6d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors6d
+Hs578T_Transcription factors7a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors7a
+Hs578T_Transcription factors7b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors7b
+Hs578T_Transcription factors7c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors7c
+Hs578T_Transcription factors7d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors7d
+Hs578T_Transcription factors8a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors8a
+Hs578T_Transcription factors8b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors8b
+Hs578T_Transcription factors8c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors8c
+Hs578T_Transcription factors8d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors8d
+Hs578T_Transcription factors9a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors9a
+Hs578T_Transcription factors9b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors9b
+Hs578T_Transcription factors9c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors9c
+Hs578T_Transcription factors9d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription factors set1/Hs578T_Transcription factors9d
+MF_VMR_Hs578T_TF11a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF11a
+MF_VMR_Hs578T_TF11b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF11b
+MF_VMR_Hs578T_TF12a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF12a
+MF_VMR_Hs578T_TF12b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF12b
+MF_VMR_Hs578T_TF13a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF13a
+MF_VMR_Hs578T_TF13b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF13b
+MF_VMR_Hs578T_TF14a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF14a
+MF_VMR_Hs578T_TF14b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF14b
+MF_VMR_Hs578T_TF15a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF15a
+MF_VMR_Hs578T_TF15b - PAA plate	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF15b - PAA plate
+MF_VMR_Hs578T_TF16a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF16a
+MF_VMR_Hs578T_TF16b - PAA plate	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF16b - PAA plate
+MF_VMR_Hs578T_TF17a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF17a
+MF_VMR_Hs578T_TF17b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF17b
+MF_VMR_Hs578T_TF18a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF18a
+MF_VMR_Hs578T_TF18b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF18b
+MF_VMR_Hs578T_TF19a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF19a
+MF_VMR_Hs578T_TF19b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF19b
+MF_VMR_Hs578T_TF20a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF20a
+MF_VMR_Hs578T_TF20b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp1/MF_VMR_Hs578T_TF20b
+Hs578T_TF11e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF11e
+Hs578T_TF11f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF11f
+Hs578T_TF12e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF12e
+Hs578T_TF12f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF12f
+Hs578T_TF13e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF13e
+Hs578T_TF13f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF13f
+Hs578T_TF14e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF14e
+Hs578T_TF14f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF14f
+Hs578T_TF15e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF15e
+Hs578T_TF15f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF15f
+Hs578T_TF16e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF16e
+Hs578T_TF16f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF16f
+Hs578T_TF17e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF17e
+Hs578T_TF17f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF17f
+Hs578T_TF18e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF18e
+Hs578T_TF18f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF18f
+Hs578T_TF19e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF19e
+Hs578T_TF19f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF19f
+Hs578T_TF20e	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF20e
+Hs578T_TF20f	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen Hs578T/Transcription Factors set2 - exp3/Hs578T_TF20f
+MDA231 Adhesome1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome1a
+MDA231 Adhesome1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome1b
+MDA231 Adhesome1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome1c
+MDA231 Adhesome1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome1d
+MDA231 Adhesome2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome2a
+MDA231 Adhesome2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome2b
+MDA231 Adhesome2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome2c
+MDA231 Adhesome2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome2d
+MDA231 Adhesome3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome3a
+MDA231 Adhesome3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome3b
+MDA231 Adhesome3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome3c
+MDA231 Adhesome3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome3d
+MDA231 Adhesome4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome4a
+MDA231 Adhesome4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome4b
+MDA231 Adhesome4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome4c
+MDA231 Adhesome4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome4d
+MDA231 Adhesome5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome5a
+MDA231 Adhesome5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome5b
+MDA231 Adhesome5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome5c
+MDA231 Adhesome5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome5d
+MDA231 Adhesome6a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome6a
+MDA231 Adhesome6b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome6b
+MDA231 Adhesome6c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome6c
+MDA231 Adhesome6d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome6d
+MDA231 Adhesome7a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome7a
+MDA231 Adhesome7b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome7b
+MDA231 Adhesome7c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome7c
+MDA231 Adhesome7d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome7d
+MDA231 Adhesome8a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome8a
+MDA231 Adhesome8b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome8b
+MDA231 Adhesome8c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome8c
+MDA231 Adhesome8d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Adhesome MDA231/MDA231 Adhesome8d
+MDA231_custom GPCR_1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Custom GPCR set/MDA231_custom GPCR_1a
+MDA231_custom GPCR_1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Custom GPCR set/MDA231_custom GPCR_1b
+MDA231_custom GPCR_1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Custom GPCR set/MDA231_custom GPCR_1c
+MDA231_custom GPCR_1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Custom GPCR set/MDA231_custom GPCR_1d
+MDA231_custom GPCR_2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Custom GPCR set/MDA231_custom GPCR_2a
+MDA231_custom GPCR_2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Custom GPCR set/MDA231_custom GPCR_2b
+MDA231_custom GPCR_2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Custom GPCR set/MDA231_custom GPCR_2c
+MDA231_custom GPCR_2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Custom GPCR set/MDA231_custom GPCR_2d
+MDA231_Endo1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo1a
+MDA231_Endo1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo1b
+MDA231_Endo1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo1c
+MDA231_Endo1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo1d
+MDA231_Endo2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo2a
+MDA231_Endo2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo2b
+MDA231_Endo2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo2c
+MDA231_Endo2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo2d
+MDA231_Endo3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo3a
+MDA231_Endo3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo3b
+MDA231_Endo3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo3c
+MDA231_Endo3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Endo3d
+MDA231_Phos1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos1a
+MDA231_Phos1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos1b
+MDA231_Phos1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos1c
+MDA231_Phos1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos1d
+MDA231_Phos2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos2a
+MDA231_Phos2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos2b
+MDA231_Phos2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos2c
+MDA231_Phos2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos2d
+MDA231_Phos3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos3a
+MDA231_Phos3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos3b
+MDA231_Phos3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos3c
+MDA231_Phos3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos3d
+MDA231_Phos4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos4a
+MDA231_Phos4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos4b
+MDA231_Phos4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos4c
+MDA231_Phos4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EndoPhos/MDA231_Phos4d
+MDA231_EpiGen1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EpiGen/MDA231_EpiGen1a
+MDA231_EpiGen1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EpiGen/MDA231_EpiGen1b
+MDA231_EpiGen1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EpiGen/MDA231_EpiGen1c
+MDA231_EpiGen1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EpiGen/MDA231_EpiGen1d
+MDA231_EpiGen2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EpiGen/MDA231_EpiGen2a
+MDA231_EpiGen2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EpiGen/MDA231_EpiGen2b
+MDA231_EpiGen2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EpiGen/MDA231_EpiGen2c
+MDA231_EpiGen2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/EpiGen/MDA231_EpiGen2d
+MDA231_kinase10a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase10a
+MDA231_kinase10b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase10b
+MDA231_kinase1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase1a
+MDA231_kinase1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase1b
+MDA231_kinase2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase2a
+MDA231_kinase2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase2b
+MDA231_kinase3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase3a
+MDA231_kinase3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase3b
+MDA231_kinase4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase4a
+MDA231_kinase4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase4b
+MDA231_kinase5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase5a
+MDA231_kinase5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase5b
+MDA231_kinase6a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase6a
+MDA231_kinase6b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase6b
+MDA231_kinase7a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase7a
+MDA231_kinase7b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase7b
+MDA231_kinase8a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase8a
+MDA231_kinase8b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase8b
+MDA231_kinase9a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase9a
+MDA231_kinase9b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp1/MDA231_kinase9b
+MDA231_kinase10c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase10c
+MDA231_kinase10d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase10d
+MDA231_kinase1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase1c
+MDA231_kinase1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase1d
+MDA231_kinase2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase2c
+MDA231_kinase2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase2d
+MDA231_kinase3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase3c
+MDA231_kinase3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase3d
+MDA231_kinase4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase4c
+MDA231_kinase4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase4d
+MDA231_kinase5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase5c
+MDA231_kinase5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase5d
+MDA231_kinase6c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase6c
+MDA231_kinase6d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase6d
+MDA231_kinase7c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase7c
+MDA231_kinase7d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase7d
+MDA231_kinase8c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase8c
+MDA231_kinase8d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase8d
+MDA231_kinase9c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase9c
+MDA231_kinase9d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231 Kinase exp2/MDA231_kinase9d
+MDA231_GPCR1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR1a
+MDA231_GPCR1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR1b
+MDA231_GPCR1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR1c
+MDA231_GPCR1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR1d
+MDA231_GPCR2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR2a
+MDA231_GPCR2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR2b
+MDA231_GPCR2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR2c
+MDA231_GPCR2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR2d
+MDA231_GPCR3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR3a
+MDA231_GPCR3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR3b
+MDA231_GPCR3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR3c
+MDA231_GPCR3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR3d
+MDA231_GPCR4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR4a
+MDA231_GPCR4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR4b
+MDA231_GPCR4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR4c
+MDA231_GPCR4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR4d
+MDA231_GPCR5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR5a
+MDA231_GPCR5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR5b
+MDA231_GPCR5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR5c
+MDA231_GPCR5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/MDA231_GPCRs/MDA231_GPCR5d
+MDA231_TF10a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF10a
+MDA231_TF10b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF10b
+MDA231_TF10c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF10c
+MDA231_TF10d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF10d
+MDA231_TF11a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF11a
+MDA231_TF11b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF11b
+MDA231_TF11c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF11c
+MDA231_TF11d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF11d
+MDA231_TF12a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF12a
+MDA231_TF12b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF12b
+MDA231_TF12c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF12c
+MDA231_TF12d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF12d
+MDA231_TF13a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF13a
+MDA231_TF13b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF13b
+MDA231_TF13c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF13c
+MDA231_TF13d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF13d
+MDA231_TF14a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF14a
+MDA231_TF14b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF14b
+MDA231_TF14c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF14c
+MDA231_TF14d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF14d
+MDA231_TF15a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF15a
+MDA231_TF15b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF15b
+MDA231_TF15c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF15c
+MDA231_TF15d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF15d
+MDA231_TF16a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF16a
+MDA231_TF16b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF16b
+MDA231_TF16c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF16c
+MDA231_TF16d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF16d
+MDA231_TF17a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF17a
+MDA231_TF17b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF17b
+MDA231_TF17c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF17c
+MDA231_TF17d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF17d
+MDA231_TF18a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF18a
+MDA231_TF18b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF18b
+MDA231_TF18c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF18c
+MDA231_TF18d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF18d
+MDA231_TF19a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF19a
+MDA231_TF19b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF19b
+MDA231_TF19c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF19c
+MDA231_TF19d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF19d
+MDA231_TF1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF1a
+MDA231_TF1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF1b
+MDA231_TF1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF1c
+MDA231_TF1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF1d
+MDA231_TF20a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF20a
+MDA231_TF20b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF20b
+MDA231_TF20c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF20c
+MDA231_TF20d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF20d
+MDA231_TF2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF2a
+MDA231_TF2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF2b
+MDA231_TF2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF2c
+MDA231_TF2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF2d
+MDA231_TF3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF3a
+MDA231_TF3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF3b
+MDA231_TF3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF3c
+MDA231_TF3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF3d
+MDA231_TF4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF4a
+MDA231_TF4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF4b
+MDA231_TF4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF4c
+MDA231_TF4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF4d
+MDA231_TF5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF5a
+MDA231_TF5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF5b
+MDA231_TF5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF5c
+MDA231_TF5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF5d
+MDA231_TF6a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF6a
+MDA231_TF6b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF6b
+MDA231_TF6c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF6c
+MDA231_TF6d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF6d
+MDA231_TF7a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF7a
+MDA231_TF7b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF7b
+MDA231_TF7c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF7c
+MDA231_TF7d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF7d
+MDA231_TF8a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF8a
+MDA231_TF8b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF8b
+MDA231_TF8c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF8c
+MDA231_TF8d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF8d
+MDA231_TF9a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF9a
+MDA231_TF9b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF9b
+MDA231_TF9c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF9c
+MDA231_TF9d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/TF/MDA231_TF9d
+MDA231_DUB-SUMO1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_DUB-SUMO1a
+MDA231_DUB-SUMO1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_DUB-SUMO1b
+MDA231_DUB-SUMO1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_DUB-SUMO1c
+MDA231_DUB-SUMO1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_DUB-SUMO1d
+MDA231_DUB-SUMO2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_DUB-SUMO2a
+MDA231_DUB-SUMO2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_DUB-SUMO2b
+MDA231_DUB-SUMO2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_DUB-SUMO2c
+MDA231_DUB-SUMO2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_DUB-SUMO2d
+MDA231_Ubi1a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi1a
+MDA231_Ubi1b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi1b
+MDA231_Ubi1c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi1c
+MDA231_Ubi1d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi1d
+MDA231_Ubi2a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi2a
+MDA231_Ubi2b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi2b
+MDA231_Ubi2c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi2c
+MDA231_Ubi2d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi2d
+MDA231_Ubi3a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi3a
+MDA231_Ubi3b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi3b
+MDA231_Ubi3c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi3c
+MDA231_Ubi3d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi3d
+MDA231_Ubi4a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi4a
+MDA231_Ubi4b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi4b
+MDA231_Ubi4c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi4c
+MDA231_Ubi4d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi4d
+MDA231_Ubi5a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi5a
+MDA231_Ubi5b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi5b
+MDA231_Ubi5c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi5c
+MDA231_Ubi5d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi5d
+MDA231_Ubi6a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi6a
+MDA231_Ubi6b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi6b
+MDA231_Ubi6c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi6c
+MDA231_Ubi6d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi6d
+MDA231_Ubi7a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi7a
+MDA231_Ubi7b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi7b
+MDA231_Ubi7c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi7c
+MDA231_Ubi7d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi7d
+MDA231_Ubi8a	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi8a
+MDA231_Ubi8b	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi8b
+MDA231_Ubi8c	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi8c
+MDA231_Ubi8d	/uod/idr/filesets/idr0022-fokkelman-cellmigration/20160413-original/Primary PKT screen MDA-MB-231/Ubi/MDA231_Ubi8d
