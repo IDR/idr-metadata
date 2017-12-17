@@ -13,12 +13,6 @@ Study Screens Number	1
 Study External URL	http://www.hipsci.org/						
 Study Public Release Date							
 							
-# Study License and Data DOI							
-Study License							
-Study License URL							
-Study Data Publisher	University of Dundee						
-Study Data DOI							
-							
 # Study Publication							
 Study PubMed ID							
 Study Publication Title							
@@ -26,10 +20,17 @@ Study Author List
 Study PMC ID							
 Study DOI							
 							
+# Study License and Data DOI							
+Study License							
+Study License URL							
+Study Copyright	Vigilante et al						
+Study Data Publisher	University of Dundee						
+Study Data DOI							
+							
 # Study Contacts							
 Study Person Last Name	Danovi						
 Study Person First Name	Davide						
-Study Person Email							
+Study Person Email	davide.danovi@kcl.ac.uk						
 Study Person Address	"Centre for Stem Cells & Regenerative Medicine, King's College London, Tower Wing, Guy's Hospital, Great Maze Pond, London SE1 9RT, United Kingdom"						
 Study Person Roles	submitter						
 							
@@ -42,8 +43,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 							
 Screen Number	1						
 Comment[IDR Screen Name]	idr0037-vigilante-hipsci/screenA						
-Screen Description	"Cellular phenotyping of XX human induced pluripotent stem cell lines from XX donors within the framework of the HipSci project. Cells are plated sparsely, 3000 per 96 well for 24 hours on wells coated with three diverse concentrations of Fibronectin. Note:  "						
-Screen Size	Plates: 	5D Images:	Planes:	Average Image Dimension (XYZCT):	Total Tb:		
+Screen Description	"Cellular phenotyping of 87 human induced pluripotent stem cell lines from 62 donors within the framework of the HipSci project. Cells are plated sparsely, 3000 per 96 well for 24 hours on wells coated with three diverse concentrations of Fibronectin. 29 of the plates are also found in idr0034 but with images from different cell lines shown."						
+Screen Size	Plates: 69	5D Images:	Planes:	Average Image Dimension (XYZCT):	Total Tb:		
 Screen Example Images							
 Screen Imaging Method	fluorescence microscopy						
 Screen Imaging Method Term Source REF	Fbbi						
@@ -87,7 +88,7 @@ Phenotype Term Accession
 							
 # Raw Data Files							
 Raw Image Data Format	Operetta						
-Raw Image Organization	There are 40 x 96 wells plates with 9 fields per well and 4 channels.						
+Raw Image Organization	There are 69 x 96 wells plates with 9 fields per well and 4 channels.  29 of the plates are also in idr0034 but with images from different wells shown in the plates that are in common.						
 							
 # Feature Level Data Files (give individual file details unless there is one file per well)							
 Feature Level Data File Name							
