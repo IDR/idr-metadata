@@ -8,5 +8,4 @@ run:
 
 Default paths:
 
-    OMERO_DIST='/home/omero/OMERO.server'
-    IDR_METADATA='/tmp/idr-metadata'
+    OMERO_DIST='/opt/omero/server/OMERO.server'
