@@ -84,6 +84,9 @@ Phenotype Score Type	automatic	automatic	automatic	automatic	automatic	automatic
 Phenotype Term Source REF	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO	CMPO										CMPO	CMPO														
 Phenotype Term Name	elongated cell phenotype	elongated cell phenotype	triangular shaped cell phenotype	increased cell size phenotype	increased cell size phenotype	decreased cell size phenotype	multinucleated cell phenotype	telophase phenotype	mitochondrion phenotype	apoptotic cell shape phenotype										decreased cell numbers	decreased cell numbers														
 Phenotype Term Accession	CMPO_0000077	CMPO_0000077	CMPO_0000122	CMPO_0000128	CMPO_0000128	CMPO_0000129	CMPO_0000018	CMPO_0000422	CMPO_0000023	CMPO_0000048										CMPO_0000052	CMPO_0000052														
+Phenotype Term Source REF						CMPO																													
+Phenotype Term Name						asymmetric cellular component phenotype																													
+Phenotype Term Accession						CMPO_0000454																													
 																																			
 # Raw Data Files																																			
 Raw Image Data Format	tiff																																		
