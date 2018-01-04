@@ -530,7 +530,7 @@ $blankColumnsIfNoProcessedData = $blankColumnsIfNoProcessedData.",";
 # 11. open the output file
 
 my $outfile = $libraryFile;
-$outfile =~ s/-library\.txt/-annotation\.txt/g; # its comma delimited but
+$outfile =~ s/-library\.txt/-annotation\.csv/g; # its comma delimited but
 #                                                 make it end in .txt so can
 #                                                 open in Excel corrently
 open (OUT, ">$outfile");
