@@ -10,7 +10,7 @@ from pathlib import Path
 import h5py
 import numpy as np
 
-idr016_location = Path('/data/images/idr/idr016')
+idr016_location = Path('/uod/idr/filesets/idr0016-wawer-bioactivecompoundprofiling')
 feature_location = Path(
     '2016-02-01-features/bbbc022-Dataset_S3_image_features')
 
