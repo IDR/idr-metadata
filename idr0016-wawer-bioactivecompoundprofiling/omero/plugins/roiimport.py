@@ -1,6 +1,6 @@
 from omero.cli import BaseControl, CLI, ExceptionHandler
 
-import tables
+from tables import open_file
 import omero
 from omero.rtypes import rint, rstring, rlong
 from omero.cmd import Delete2
@@ -141,9 +141,9 @@ class ROIImportControl(BaseControl):
             count = queryService.projection(query, params)
             return count[0][0]._val
 
-        except:
+        except Exception:
             self.ctx.err("Could not get ROI count for image %s" % str(imgId))
-            return 1
+            return 0
 
     def _saveROIs(self, rois, imgId, queryService, updateService):
         """
@@ -173,7 +173,7 @@ class ROIImportControl(BaseControl):
                     self.ctx.out("Dry run - Would save %d ROIs for Image %s" %
                                  (len(rois), imgId))
 
-        except:
+        except Exception:
             self.ctx.err("WARNING: Could not save the ROIs for Image %s" %
                          imgId)
 
@@ -311,4 +311,4 @@ except NameError:
     if __name__ == "__main__":
         cli = CLI()
         cli.register("roiimport", ROIImportControl, HELP)
-        cli.invoke(sys.argv[1:])
+        cli.invoke(omero.sys.argv[1:])
