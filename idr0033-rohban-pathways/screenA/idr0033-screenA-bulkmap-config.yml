@@ -196,13 +196,23 @@ columns:
       - name: Phenotype 6
         clientname: Phenotype
         include: yes
-      - name: Phenotype 6 Term Name
+      - name: Phenotype 6 Term Name a
         clientname: Phenotype Term Name
         include: yes
-      - name: Phenotype 6 Term Accession
+      - name: Phenotype 6 Term Accession a
         clientname: Phenotype Term Accession
         include: yes
-      - name: Phenotype 6 Term Accession
+      - name: Phenotype 6 Term Accession a
+        clientname: Phenotype Term Accession URL
+        clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
+        include: yes
+      - name: Phenotype 6 Term Name b
+        clientname: Phenotype Term Name
+        include: yes
+      - name: Phenotype 6 Term Accession b
+        clientname: Phenotype Term Accession
+        include: yes
+      - name: Phenotype 6 Term Accession b
         clientname: Phenotype Term Accession URL
         clientvalue: http://www.ebi.ac.uk/cmpo/{{ value|urlencode }}
         include: yes
