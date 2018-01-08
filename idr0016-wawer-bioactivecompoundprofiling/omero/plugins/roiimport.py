@@ -5,7 +5,7 @@ import omero
 from omero.rtypes import rint, rstring, rlong
 from omero.cmd import Delete2
 
-import parse
+from parse import parse
 from time import time
 from math import isnan
 
