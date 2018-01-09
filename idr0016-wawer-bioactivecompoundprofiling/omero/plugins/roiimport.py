@@ -268,7 +268,7 @@ class ROIImportControl(BaseControl):
 
                 if self.exitNow:
                     h5f.close()
-                    exit(0)
+                    self.ctx.die(0, "")
 
                 if done % 100 == 0:
                     duration = (time() - start) / 100
