@@ -54,15 +54,15 @@ class ROIImportControl(BaseControl):
         parser.set_defaults(func=self.process)
 
         self.cellClasses = {'AF': 'Actin fibre',
-                       'BC': 'Big cell',
-                       'C': 'Condensed cell',
-                       'D': 'Debris',
-                       'LA': 'Lamellipodia',
-                       'M': 'Metaphase',
-                       'MB': 'Membrane blebbing',
-                       'N': 'Normal cell',
-                       'P': 'Protrusion/Elongation',
-                       'Z': 'Telophase'}
+                            'BC': 'Big cell',
+                            'C': 'Condensed cell',
+                            'D': 'Debris',
+                            'LA': 'Lamellipodia',
+                            'M': 'Metaphase',
+                            'MB': 'Membrane blebbing',
+                            'N': 'Normal cell',
+                            'P': 'Protrusion/Elongation',
+                            'Z': 'Telophase'}
 
     def process(self, args):
         if not args.command:
@@ -186,7 +186,8 @@ class ROIImportControl(BaseControl):
                             point.theT = rint(0)
                             if cl:
                                 if cl in self.cellClasses:
-                                    point.textValue = rstring(self.cellClasses[cl])
+                                    point.textValue = rstring(
+                                        self.cellClasses[cl])
                                 else:
                                     point.textValue = rstring(cl)
 
@@ -207,10 +208,11 @@ class ROIImportControl(BaseControl):
 
                         if posid in imgpos:
                             if args.dry_run:
-                                self._saveROIs(rois[fld], imgpos[posid], queryService, None)
+                                self._saveROIs(rois[fld], imgpos[posid],
+                                               queryService, None)
                             else:
-                                self._saveROIs(rois[fld], imgpos[posid], queryService,
-                                               updateService)
+                                self._saveROIs(rois[fld], imgpos[posid],
+                                               queryService, updateService)
                         else:
                             self.ctx.err("WARNING: Could not map image %s to"
                                          " an OMERO image id." % posid)
