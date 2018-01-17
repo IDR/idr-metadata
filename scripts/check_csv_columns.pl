@@ -26,8 +26,8 @@ my $help = 0;
 ######################################################################
 
 GetOptions(
-        "f=s" => \$file,
-        "h"   => \$help
+	   "f=s" => \$file,
+	   "h"   => \$help
 	   );
 
 
@@ -43,7 +43,7 @@ if ($help){
       exit;
 
 }elsif($file eq ""){
-   print "\nERROR: You must provide a file for checking using the -f option\n"; exit;
+  print "\nERROR: You must provide a file for checking using the -f option\n"; exit;
 }
 
 ######################################################################
@@ -55,28 +55,47 @@ my %columns_count; # keep a record of the number of rows with each column count
 
 if ($file ne ""){
     open (my $data, '<', $file)|| die "cannot open file $file for reading: $!";
-    
+
+    my $rowNumber = 1;
     while (my $line = <$data>){
       chomp $line;
 
       if ($csv->parse($line)) {
 
 	my @fields = $csv->fields();
-
+	
 	# now keep a add one to the count of rows with that number of columns
 	if (exists ($columns_count{scalar(@fields)}) ){
            $columns_count{scalar(@fields)} = $columns_count{scalar(@fields)} + 1;
 	}else{
          $columns_count{scalar(@fields)} = 1;
 	 }
-	    
+
+        # check there are no trailing spaces, if there are just report don't change as should be changed
+	# in source file
+         foreach my $cell (@fields){
+	    if ($cell =~ /\s+$/){
+	    print ";$cell; contains a trailing empty space in row $rowNumber\n";
+            } 
+            if ($cell =~ /\s+\"$/){
+            print ";$cell; contains a trailing empty space in row $rowNumber\n";
+	    }
+	    if ($cell =~ /^\s+/){
+	    print ";$cell; contains a leading empty space in row $rowNumber\n";
+            } 
+            if ($cell =~ /^\"\s+/){
+            print ";$cell; contains a leading empty space in row $rowNumber\n";
+	    }
+	 }
+	
       }else{
 
 	print "Line could not be parsed: $line\n";
 
       }
-
+    $rowNumber++;
     }
+
 }
 
 print "Columns\tNumber of Rows\n";
