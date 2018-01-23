@@ -15,7 +15,7 @@ read -sp 'Password: ' password
 set -x
 
 OMERO_DIST='/opt/omero/server/OMERO.server'
-IDR_METADATA='/tmp/idr-metadata'
+IDR_METADATA=$(dirname $(dirname $(dirname $0)))
 
 
 delete_ann () {
