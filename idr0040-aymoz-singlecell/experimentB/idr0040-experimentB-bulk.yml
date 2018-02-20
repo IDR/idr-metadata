@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0040-aymoz-singlecell/experimentB"
+include: "../../bulk.yml"
+path: "idr0040-experimentB-filePaths.tsv"
