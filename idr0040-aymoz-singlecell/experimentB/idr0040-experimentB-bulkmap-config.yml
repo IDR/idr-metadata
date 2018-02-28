@@ -10,7 +10,7 @@ defaults:
 
     # If non-empty a string used to separate multiple fields in a column
     # White space will be stripped
-    split:
+    split: ;
     # Should this column be included in the clients (yes/no)
     includeclient: yes
     # Should this column be visible in the clients, if no the column should be
@@ -21,8 +21,8 @@ defaults:
 
 columns:
 
-  - name: Comment [Sample Description]
-    clientname: Sample Description
+  - name: Characteristics [Organism]
+    clientname: Organism
     include: yes
   - name: Characteristics [Strain]
     clientname: Strain
@@ -30,37 +30,40 @@ columns:
   - name: Characteristics [Genotype]
     clientname: Genotype
     include: yes
-  - name: Characteristics [Organism Part]
-    clientname: Organism Part
-    include: yes
-  - name: Characteristics [Developmental Stage]
-    clientname: Developmental Stage
-    include: yes
-  - name: Material Entity
-    clientname: Material Type
-    include: yes
-  - name: Characteristics [Growth Condition]
-    clientname: Growth Condition
-    include: yes
-  - name: Experimental Condition [Clearing]
-    clientname: Clearing
+  - name: Characteristics [Mating Type]
+    clientname: Mating Type
     include: yes
   - name: Experimental Condition [Treatment]
     clientname: Treatment
     include: yes
-
+  - name: Experimental Condition [Approximate Time in min]
+    clientname: Approximate Time in min
+    include: yes
+  - name: Experimental Condition [Genotype]
+    clientname: Genotype
+    include: yes
+  - name: Protocol REF growth
+    clientname: Growth protocol
+    include: yes
+  - name: Protocol REF treatment
+    clientname: Treatment protocol
+    include: yes
+  - name: Protocol REF image acquisition
+    clientname: Image acquisition protocol
+    include: yes
   - name: Channels
+    clientname: Channels
+    include: yes
+  - name: Comment [Gene Identifier]
+    clientname: Gene Identifier
+    include: yes
+  - name: Comment[Gene Symbol]
+    clientname: Gene Symbol
+    include: yes
+  - name: Comment [Gene Annotation Comments]
+    clientname: Gene Annotation Comments
     include: yes
 
-  - name: Comment [Image File Type]
-    clientname: Image File Type
-    include: yes
-  - name: Comment[Image Dimensions]
-    clientname: Image Dimensions
-    include: yes
-  - name: Comment [Image File Comments]
-    clientname: Image File Comments
-    include: yes
 ######################################################################
 # mapr groups
 ######################################################################
@@ -72,15 +75,17 @@ columns:
         clientname: Organism
         include: yes
 
-# Advanced options (experimental)
-advanced:
-    # If a map-annotation is attached to a well also attach it to all images
-    # in the well
-    well_to_images: yes
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+      - name: Comment [Gene Identifier]
+        clientname: Gene Identifier
+        include: yes
+      - name: Comment [Gene Identifier]
+        clientname: Gene Identifier URL
+        clientvalue: http://www.ensembl.org/id/{{ value|urlencode }}
+        include: yes
+      - name: Comment [Gene Symbol]
+        clientname: Gene Symbol
+        include: yes
 
-    # TODO: Primary key config should be in a global config
-    ignore_missing_primary_key: yes
-    primary_group_keys:
-    - namespace: openmicroscopy.org/mapr/organism
-      keys:
-      - Organism
