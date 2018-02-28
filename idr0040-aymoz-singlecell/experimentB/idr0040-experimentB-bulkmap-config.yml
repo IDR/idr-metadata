@@ -88,4 +88,3 @@ columns:
       - name: Comment [Gene Symbol]
         clientname: Gene Symbol
         include: yes
-
