@@ -36,20 +36,8 @@ columns:
   - name: Experimental Condition [Treatment]
     clientname: Treatment
     include: yes
-  - name: Experimental Condition [Approximate Time in min]
-    clientname: Approximate Time in min
-    include: yes
   - name: Experimental Condition [Genotype]
     clientname: Genotype
-    include: yes
-  - name: Protocol REF growth
-    clientname: Growth protocol
-    include: yes
-  - name: Protocol REF treatment
-    clientname: Treatment protocol
-    include: yes
-  - name: Protocol REF image acquisition
-    clientname: Image acquisition protocol
     include: yes
   - name: Channels
     clientname: Channels
@@ -59,9 +47,6 @@ columns:
     include: yes
   - name: Comment[Gene Symbol]
     clientname: Gene Symbol
-    include: yes
-  - name: Comment [Gene Annotation Comments]
-    clientname: Gene Annotation Comments
     include: yes
 
 ######################################################################
