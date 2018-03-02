@@ -45,7 +45,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 "# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment"				
 				
 Experiment Number	1			
-Comment[IDR Experiment Name]	idr0040-aymoz-singlecell/experimentB			
+Comment[IDR Experiment Name]	idr0040-aymoz-singlecell/experimentA			
 Experiment Data Publisher				
 Experiment Data DOI			
 Experiment Description	"Time-lapse with addition of 1uM alpha-factor at time 0"			
