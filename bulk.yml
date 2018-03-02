@@ -1,7 +1,7 @@
 ---
 continue: "true"
 transfer: "ln_s"
-# exclude: "clientpath"
+exclude: "clientpath"
 checksum_algorithm: "File-Size-64"
 logprefix: "logs/"
 output: "yaml"
