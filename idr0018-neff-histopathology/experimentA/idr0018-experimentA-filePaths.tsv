@@ -1,439 +1,439 @@
-Dataset:name:Baz1a-14-100-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-brain - 2015-06-19 23.34.11.ndpi
-Dataset:name:Baz1a-14-100-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-eye - 2015-06-20 01.11.54.ndpi
-Dataset:name:Baz1a-14-100-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-gi - 2015-06-20 00.24.01.ndpi
-Dataset:name:Baz1a-14-100-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-heart - 2015-06-19 23.54.16.ndpi
-Dataset:name:Baz1a-14-100-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-knee - 2015-06-20 00.59.14.ndpi
-Dataset:name:Baz1a-14-100-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-liver - 2015-06-19 23.43.52.ndpi
-Dataset:name:Baz1a-14-100-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-LN - 2015-06-20 00.47.45.ndpi
-Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_100-reprof-a116.tif
-Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_100-reprof-a117.tif
-Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_100-reprof-overview.tif
-Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_100-reprof-overview2.tif
-Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-reprof - 2015-06-20 00.35.22.ndpi
-Dataset:name:Baz1a-14-100-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-Sali - 2015-06-20 00.08.08.ndpi
-Dataset:name:Baz1a-14-100-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-skin - 2015-06-20 01.24.39.ndpi
-Dataset:name:Baz1a-14-75-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-brain - 2015-06-19 18.16.20.ndpi
-Dataset:name:Baz1a-14-75-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-eye-a105.tif
-Dataset:name:Baz1a-14-75-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-eye-overview.tif
-Dataset:name:Baz1a-14-75-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-eye - 2015-06-19 19.37.33.ndpi
-Dataset:name:Baz1a-14-75-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-gi-a106.tif
-Dataset:name:Baz1a-14-75-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-gi-overview+.tif
-Dataset:name:Baz1a-14-75-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-gi - 2015-06-19 19.01.04.ndpi
-Dataset:name:Baz1a-14-75-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-heart-a107.tif
-Dataset:name:Baz1a-14-75-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-heart-a108.tif
-Dataset:name:Baz1a-14-75-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-heart-overview.tif
-Dataset:name:Baz1a-14-75-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-heart-overview2.tif
-Dataset:name:Baz1a-14-75-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-heart - 2015-06-19 18.35.11.ndpi
-Dataset:name:Baz1a-14-75-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-knee-a109.tif
-Dataset:name:Baz1a-14-75-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-knee-overview.tif
-Dataset:name:Baz1a-14-75-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-knee - 2015-06-19 19.25.59.ndpi
-Dataset:name:Baz1a-14-75-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-liver-a110.tif
-Dataset:name:Baz1a-14-75-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-liver-a111.tif
-Dataset:name:Baz1a-14-75-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-liver-overview.tif
-Dataset:name:Baz1a-14-75-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-liver-overview2.tif
-Dataset:name:Baz1a-14-75-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-liver - 2015-06-19 18.28.01.ndpi
-Dataset:name:Baz1a-14-75-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-LN-a112.tif
-Dataset:name:Baz1a-14-75-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-LN-overview.tif
-Dataset:name:Baz1a-14-75-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-LN - 2015-06-19 19.20.50.ndpi
-Dataset:name:Baz1a-14-75-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-reprom-a113.tif
-Dataset:name:Baz1a-14-75-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-reprom-overview.tif
-Dataset:name:Baz1a-14-75-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-reprom - 2015-06-19 19.10.30.ndpi
-Dataset:name:Baz1a-14-75-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-Sali-a114.tif
-Dataset:name:Baz1a-14-75-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-Sali-overview.tif
-Dataset:name:Baz1a-14-75-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-sali - 2015-06-19 18.48.21.ndpi
-Dataset:name:Baz1a-14-75-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-skin-a115.tif
-Dataset:name:Baz1a-14-75-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-skin-overview.tif
-Dataset:name:Baz1a-14-75-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-skin - 2015-06-19 19.45.46.ndpi
-Dataset:name:Baz1a-14-76-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-brain - 2015-06-19 19.55.08.ndpi
-Dataset:name:Baz1a-14-76-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-eye - 2015-06-19 21.20.57.ndpi
-Dataset:name:Baz1a-14-76-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-gi - 2015-06-19 20.43.50.ndpi
-Dataset:name:Baz1a-14-76-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-heart - 2015-06-19 20.13.54.ndpi
-Dataset:name:Baz1a-14-76-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-knee - 2015-06-19 21.14.19.ndpi
-Dataset:name:Baz1a-14-76-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-liver - 2015-06-19 20.05.37.ndpi
-Dataset:name:Baz1a-14-76-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-LN - 2015-06-19 21.05.35.ndpi
-Dataset:name:Baz1a-14-76-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-reprom - 2015-06-19 20.54.35.ndpi
-Dataset:name:Baz1a-14-76-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-Sali - 2015-06-19 20.27.53.ndpi
-Dataset:name:Baz1a-14-76-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-skin - 2015-06-19 21.30.50.ndpi
-Dataset:name:Baz1a-14-99-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-brain - 2015-06-19 21.39.26.ndpi
-Dataset:name:Baz1a-14-99-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-eye - 2015-06-19 23.12.04.ndpi
-Dataset:name:Baz1a-14-99-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-gi - 2015-06-19 22.28.40.ndpi
-Dataset:name:Baz1a-14-99-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-heart - 2015-06-19 21.59.39.ndpi
-Dataset:name:Baz1a-14-99-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-knee - 2015-06-19 23.08.21.ndpi
-Dataset:name:Baz1a-14-99-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-liver - 2015-06-19 21.49.26.ndpi
-Dataset:name:Baz1a-14-99-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-LN - 2015-06-19 22.56.04.ndpi
-Dataset:name:Baz1a-14-99-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-reprof - 2015-06-19 22.40.26.ndpi
-Dataset:name:Baz1a-14-99-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-Sali - 2015-06-19 22.13.34.ndpi
-Dataset:name:Baz1a-14-99-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-skin - 2015-06-19 23.20.44.ndpi
-Dataset:name:Car4-13-922-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a54.tif
-Dataset:name:Car4-13-922-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a55.tif
-Dataset:name:Car4-13-922-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a56.tif
-Dataset:name:Car4-13-922-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a57.tif
-Dataset:name:Car4-13-922-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a58.tif
-Dataset:name:Car4-13-922-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-overview1.tif
-Dataset:name:Car4-13-922-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-overview2.tif
-Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a59.tif
-Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a60.tif
-Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a61.tif
-Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-gi-overview2.tif
-Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-gi-overview1.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a62.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a63.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a64.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a65.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a66.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a67.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a68.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a69.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a70.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a71.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a72.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-liver-overview2.tif
-Dataset:name:Car4-13-922-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-liver-overview1.tif
-Dataset:name:Car4-13-922-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a73tif.tif
-Dataset:name:Car4-13-922-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-reprom-overview.tif
-Dataset:name:Car4-13-922-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a74.tif
-Dataset:name:Car4-13-922-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-salivary-overview.tif
-Dataset:name:Car4-13-922-throat	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a75.tif
-Dataset:name:Car4-13-922-throat	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a76.tif
-Dataset:name:Car4-13-922-throat	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-throat-overview.tif
-Dataset:name:Car4-13-923-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a77.tif
-Dataset:name:Car4-13-923-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a78.tif
-Dataset:name:Car4-13-923-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-brain-overview2.tif
-Dataset:name:Car4-13-923-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-brain-overview1.tif
-Dataset:name:Car4-13-923-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a79.tif
-Dataset:name:Car4-13-923-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a80.tif
-Dataset:name:Car4-13-923-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-gi-oberview.tif
-Dataset:name:Car4-13-923-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/Car4_13-923-3a.tif
-Dataset:name:Car4-13-923-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/Car4_13-923-3b.tif
-Dataset:name:Car4-13-923-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/Car4_13-923-3c.tif
-Dataset:name:Car4-13-923-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a81.tif
-Dataset:name:Car4-13-923-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-reprom-overview.tif
-Dataset:name:Car4-13-923-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a82.tif
-Dataset:name:Car4-13-923-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a83.tif
-Dataset:name:Car4-13-923-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-salivary-overview.tif
-Dataset:name:Car4-13-923-throat	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a84&85.tif
-Dataset:name:Car4-13-923-throat	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a86.tif
-Dataset:name:Car4-13-923-throat	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-throat-overview.tif
-Dataset:name:Cpa2-14-22-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a87.tif
-Dataset:name:Cpa2-14-22-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a88.tif
-Dataset:name:Cpa2-14-22-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-brain-overview.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a100.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a101.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a102.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a103.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a89.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a90.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a91.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a92.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a93.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a94.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a95.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a96.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a97.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a98.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a99.tif
-Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-gi-overview.tif
-Dataset:name:Cpa2-14-22-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-liver-overview.tif
-Dataset:name:Cpa2-14-22-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-liver-overview5.tif
-Dataset:name:CPA2-14-22-oviduct	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/CPA2-14_22_1bf-a.tif
-Dataset:name:CPA2-14-22-oviduct	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/CPA2-14_22_1bf-b.tif
-Dataset:name:CPA2-14-22-oviduct	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/CPA2-14_22_1bf-c.tif
-Dataset:name:CPA2-14-22-oviduct	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/CPA2-14_22_1bf-d.tif
-Dataset:name:Ddx41-14-550-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-brain - 2015-06-24 15.58.17.ndpi
-Dataset:name:Ddx41-14-550-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550--eye - 2015-06-24 17.35.50.ndpi
-Dataset:name:Ddx41-14-550-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-gi - 2015-06-24 16.50.11.ndpi
-Dataset:name:Ddx41-14-550-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-heart - 2015-06-24 16.19.48.ndpi
-Dataset:name:Ddx41-14-550-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-knee - 2015-06-24 17.20.51.ndpi
-Dataset:name:Ddx41-14-550-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-liver - 2015-06-24 16.10.03.ndpi
-Dataset:name:Ddx41-14-550-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-ln - 2015-06-24 17.13.35.ndpi
-Dataset:name:Ddx41-14-550-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-reprom - 2015-06-24 17.02.19.ndpi
-Dataset:name:Ddx41-14-550-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550--Sali - 2015-06-24 16.35.11.ndpi
-Dataset:name:Ddx41-14-550-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-skin - 2015-06-24 17.47.12.ndpi
-Dataset:name:Ddx41-14-552-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-brain-a118.tif
-Dataset:name:Ddx41-14-552-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-brain-overview.tif
-Dataset:name:Ddx41-14-552-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-brain - 2015-06-24 18.03.03.ndpi
-Dataset:name:Ddx41-14-552-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-eye-a119.tif
-Dataset:name:Ddx41-14-552-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-eye-overview.tif
-Dataset:name:Ddx41-14-552-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-eye - 2015-06-24 19.12.33.ndpi
-Dataset:name:Ddx41-14-552-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-gi-a120.tif
-Dataset:name:Ddx41-14-552-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-gi-overview.tif
-Dataset:name:Ddx41-14-552-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-gi - 2015-06-24 18.38.51.ndpi
-Dataset:name:Ddx41-14-552-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-heart-a121.tif
-Dataset:name:Ddx41-14-552-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-heart-a122.tif
-Dataset:name:Ddx41-14-552-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-heart-overview.tif
-Dataset:name:Ddx41-14-552-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-heart-overview2.tif
-Dataset:name:Ddx41-14-552-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-heart - 2015-06-24 18.24.11.ndpi
-Dataset:name:Ddx41-14-552-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-knee-a123.tif
-Dataset:name:Ddx41-14-552-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-knee-overview.tif
-Dataset:name:Ddx41-14-552-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-knee - 2015-06-24 19.05.30.ndpi
-Dataset:name:Ddx41-14-552-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-liver-a124.tif
-Dataset:name:Ddx41-14-552-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-liver-a125.tif
-Dataset:name:Ddx41-14-552-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-liver-overview.tif
-Dataset:name:Ddx41-14-552-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-liver-overview2.tif
-Dataset:name:Ddx41-14-552-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-liver - 2015-06-24 18.13.18.ndpi
-Dataset:name:Ddx41-14-552-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-ln-a126.tif
-Dataset:name:Ddx41-14-552-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-ln-overview.tif
-Dataset:name:Ddx41-14-552-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-ln - 2015-06-24 19.01.20.ndpi
-Dataset:name:Ddx41-14-552-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-reprom-a127.tif
-Dataset:name:Ddx41-14-552-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-reprom-overview.tif
-Dataset:name:Ddx41-14-552-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-reprom - 2015-06-24 18.51.14.ndpi
-Dataset:name:Ddx41-14-552-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-sali-a128.tif
-Dataset:name:Ddx41-14-552-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-sali-overview.tif
-Dataset:name:Ddx41-14-552-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-Sali - 2015-06-24 18.30.34.ndpi
-Dataset:name:Ddx41-14-552-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-skin-a129.tif
-Dataset:name:Ddx41-14-552-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-skin-overview.tif
-Dataset:name:Ddx41-14-552-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-skin - 2015-06-24 19.14.49.ndpi
-Dataset:name:Ddx41-14-566-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-brain - 2015-06-24 19.21.11.ndpi
-Dataset:name:Ddx41-14-566-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-eye - 2015-06-24 20.35.32.ndpi
-Dataset:name:Ddx41-14-566-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-gi - 2015-06-24 20.04.39.ndpi
-Dataset:name:Ddx41-14-566-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-heart - 2015-06-24 19.43.44.ndpi
-Dataset:name:Ddx41-14-566-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-knee - 2015-06-24 20.28.25.ndpi
-Dataset:name:Ddx41-14-566-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566--liver - 2015-06-24 19.33.46.ndpi
-Dataset:name:Ddx41-14-566-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-ln - 2015-06-24 20.22.52.ndpi
-Dataset:name:Ddx41-14-566-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_566-reprof-a130.tif
-Dataset:name:Ddx41-14-566-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_566-reprof-overview.tif
-Dataset:name:Ddx41-14-566-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-reprof - 2015-06-24 20.16.44.ndpi
-Dataset:name:Ddx41-14-566-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-Sali - 2015-06-24 19.57.17.ndpi
-Dataset:name:Ddx41-14-566-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-skin - 2015-06-24 20.42.05.ndpi
-Dataset:name:Ddx41-14-579-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-brain - 2015-06-24 20.50.10.ndpi
-Dataset:name:Ddx41-14-579-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-eye - 2015-06-24 22.19.07.ndpi
-Dataset:name:Ddx41-14-579-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-gi - 2015-06-24 21.30.44.ndpi
-Dataset:name:Ddx41-14-579-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-heart - 2015-06-24 21.08.32.ndpi
-Dataset:name:Ddx41-14-579-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-knee - 2015-06-24 22.04.52.ndpi
-Dataset:name:Ddx41-14-579-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-liver - 2015-06-24 20.59.50.ndpi
-Dataset:name:Ddx41-14-579-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-ln - 2015-06-24 21.57.33.ndpi
-Dataset:name:Ddx41-14-579-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-reprof - 2015-06-24 21.42.46.ndpi
-Dataset:name:Ddx41-14-579-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-Sali - 2015-06-24 21.14.39.ndpi
-Dataset:name:Ddx41-14-579-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-skin - 2015-06-24 22.25.07.ndpi
-Dataset:name:Ddx41-14-582-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-brain - 2015-06-24 22.30.25.ndpi
-Dataset:name:Ddx41-14-582-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-eye - 2015-06-24 23.59.00.ndpi
-Dataset:name:Ddx41-14-582-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-gi - 2015-06-24 23.22.55.ndpi
-Dataset:name:Ddx41-14-582-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-heart - 2015-06-24 22.52.39.ndpi
-Dataset:name:Ddx41-14-582-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-knee - 2015-06-24 23.52.21.ndpi
-Dataset:name:Ddx41-14-582-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-liver - 2015-06-24 22.39.48.ndpi
-Dataset:name:Ddx41-14-582-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-ln - 2015-06-24 23.41.42.ndpi
-Dataset:name:Ddx41-14-582-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-reprof - 2015-06-24 23.33.38.ndpi
-Dataset:name:Ddx41-14-582-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-Sali - 2015-06-24 23.07.26.ndpi
-Dataset:name:Ddx41-14-582-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-skin - 2015-06-25 00.09.10.ndpi
-Dataset:name:Eya4-14-431-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-brain - 2015-06-24 04.25.01.ndpi
-Dataset:name:Eya4-14-431-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-eye - 2015-06-24 06.09.29.ndpi
-Dataset:name:Eya4-14-431-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-gi - 2015-06-24 05.22.46.ndpi
-Dataset:name:Eya4-14-431-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-heart - 2015-06-24 04.45.53.ndpi
-Dataset:name:Eya4-14-431-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-knee - 2015-06-24 05.56.37.ndpi
-Dataset:name:Eya4-14-431-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-liver - 2015-06-24 04.36.04.ndpi
-Dataset:name:Eya4-14-431-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-LN - 2015-06-24 05.51.06.ndpi
-Dataset:name:Eya4-14-431-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-reprom - 2015-06-24 05.35.22.ndpi
-Dataset:name:Eya4-14-431-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-Sali - 2015-06-24 05.02.24.ndpi
-Dataset:name:Eya4-14-431-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-skin - 2015-06-24 06.18.44.ndpi
-Dataset:name:Eya4-14-432-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-brain-a131.tif
-Dataset:name:Eya4-14-432-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-brain-overview.tif
-Dataset:name:Eya4-14-432-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-brain - 2015-06-24 06.27.21.ndpi
-Dataset:name:Eya4-14-432-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-eye-a132.tif
-Dataset:name:Eya4-14-432-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-eye-overview.tif
-Dataset:name:Eya4-14-432-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-eye - 2015-06-24 07.56.12.ndpi
-Dataset:name:Eya4-14-432-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-gi-a133.tif
-Dataset:name:Eya4-14-432-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-gi - 2015-06-24 07.22.37.ndpi
-Dataset:name:Eya4-14-432-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-heart-a134.tif
-Dataset:name:Eya4-14-432-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-heart-overview.tif
-Dataset:name:Eya4-14-432-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-heart - 2015-06-24 06.49.00.ndpi
-Dataset:name:Eya4-14-432-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-knee-a135.tif
-Dataset:name:Eya4-14-432-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-knee-overview.tif
-Dataset:name:Eya4-14-432-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-knee - 2015-06-24 07.47.49.ndpi
-Dataset:name:Eya4-14-432-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-liver-a136.tif
-Dataset:name:Eya4-14-432-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-liver-overview.tif
-Dataset:name:Eya4-14-432-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432--liver - 2015-06-24 06.38.00.ndpi
-Dataset:name:Eya4-14-432-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-ln-a137.tif
-Dataset:name:Eya4-14-432-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-ln-overview.tif
-Dataset:name:Eya4-14-432-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-LN - 2015-06-24 07.44.23.ndpi
-Dataset:name:Eya4-14-432-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-reprom-a138.tif
-Dataset:name:Eya4-14-432-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-reprom-overview.tif
-Dataset:name:Eya4-14-432-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-reprom - 2015-06-24 07.32.45.ndpi
-Dataset:name:Eya4-14-432-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-sali-a139.tif
-Dataset:name:Eya4-14-432-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-sali-overview.tif
-Dataset:name:Eya4-14-432-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-Sali - 2015-06-24 07.06.10.ndpi
-Dataset:name:Eya4-14-432-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-skin-a140.tif
-Dataset:name:Eya4-14-432-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-skin-overview.tif
-Dataset:name:Eya4-14-432-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-skin - 2015-06-24 08.05.52.ndpi
-Dataset:name:Eya4-14-433-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-brain - 2015-06-24 08.17.01.ndpi
-Dataset:name:Eya4-14-433-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-eye - 2015-06-24 09.40.10.ndpi
-Dataset:name:Eya4-14-433-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-gi - 2015-06-24 09.01.42.ndpi
-Dataset:name:Eya4-14-433-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-heart - 2015-06-24 08.37.49.ndpi
-Dataset:name:Eya4-14-433-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-knee - 2015-06-24 09.31.42.ndpi
-Dataset:name:Eya4-14-433-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-liver - 2015-06-24 08.29.02.ndpi
-Dataset:name:Eya4-14-433-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-LN - 2015-06-24 09.24.50.ndpi
-Dataset:name:Eya4-14-433-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-reprom - 2015-06-24 09.15.01.ndpi
-Dataset:name:Eya4-14-433-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-Sali - 2015-06-24 08.53.36.ndpi
-Dataset:name:Eya4-14-433-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-skin - 2015-06-24 09.50.41.ndpi
-Dataset:name:Eya4-14-434-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-brain - 2015-06-24 10.08.00.ndpi
-Dataset:name:Eya4-14-434-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-eye - 2015-06-24 11.51.18.ndpi
-Dataset:name:Eya4-14-434-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-gi - 2015-06-24 11.04.48.ndpi
-Dataset:name:Eya4-14-434-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-heart - 2015-06-24 10.34.24.ndpi
-Dataset:name:Eya4-14-434-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-knee - 2015-06-24 11.38.36.ndpi
-Dataset:name:Eya4-14-434-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-liver - 2015-06-24 10.17.55.ndpi
-Dataset:name:Eya4-14-434-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-LN - 2015-06-24 11.25.09.ndpi
-Dataset:name:Eya4-14-434-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_434-reprof-a141.tif
-Dataset:name:Eya4-14-434-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_434-reprof-overview.tif
-Dataset:name:Eya4-14-434-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-reprof - 2015-06-24 11.17.49.ndpi
-Dataset:name:Eya4-14-434-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-Sali - 2015-06-24 10.49.50.ndpi
-Dataset:name:Eya4-14-434-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-skin - 2015-06-24 12.00.29.ndpi
-Dataset:name:Eya4-14-435-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-brain - 2015-06-24 12.06.08.ndpi
-Dataset:name:Eya4-14-435-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-eye - 2015-06-24 13.51.36.ndpi
-Dataset:name:Eya4-14-435-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-gi - 2015-06-24 13.05.13.ndpi
-Dataset:name:Eya4-14-435-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435--heart - 2015-06-24 12.32.47.ndpi
-Dataset:name:Eya4-14-435-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-knee - 2015-06-24 13.38.52.ndpi
-Dataset:name:Eya4-14-435-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-liver - 2015-06-24 12.16.49.ndpi
-Dataset:name:Eya4-14-435-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-LN - 2015-06-24 13.30.54.ndpi
-Dataset:name:Eya4-14-435-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-reprof - 2015-06-24 13.18.38.ndpi
-Dataset:name:Eya4-14-435-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-Sali - 2015-06-24 12.48.30.ndpi
-Dataset:name:Eya4-14-435-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-skin - 2015-06-24 13.58.31.ndpi
-Dataset:name:Eya4-14-436-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-brain - 2015-06-24 14.07.05.ndpi
-Dataset:name:Eya4-14-436-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-eye - 2015-06-24 15.42.24.ndpi
-Dataset:name:Eya4-14-436-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-gi - 2015-06-24 14.58.09.ndpi
-Dataset:name:Eya4-14-436-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-heart - 2015-06-24 14.26.30.ndpi
-Dataset:name:Eya4-14-436-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-knee - 2015-06-24 15.29.57.ndpi
-Dataset:name:Eya4-14-436-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-liver - 2015-06-24 14.16.55.ndpi
-Dataset:name:Eya4-14-436-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-LN - 2015-06-24 15.22.50.ndpi
-Dataset:name:Eya4-14-436-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-reprof - 2015-06-24 15.12.47.ndpi
-Dataset:name:Eya4-14-436-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-Sali - 2015-06-24 14.41.58.ndpi
-Dataset:name:Eya4-14-436-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-skin - 2015-06-24 15.50.37.ndpi
-Dataset:name:HGS-10-579-kidney	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3a.tif
-Dataset:name:HGS-10-579-kidney	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3b.tif
-Dataset:name:HGS-10-579-kidney	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3c.tif
-Dataset:name:HGS-10-579-kidney	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3d.tif
-Dataset:name:HGS-10-579-kidney	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3e.tif
-Dataset:name:HGS-10-579-kidney	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3f.tif
-Dataset:name:Idh1-14-177-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-brain-a142.tif
-Dataset:name:Idh1-14-177-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-brain-overviewtif.tif
-Dataset:name:Idh1-14-177-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-brain - 2015-06-20 15.12.53.ndpi
-Dataset:name:Idh1-14-177-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-eye-a143.tif
-Dataset:name:Idh1-14-177-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-eye-overview.tif
-Dataset:name:Idh1-14-177-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-eye - 2015-06-20 16.51.10.ndpi
-Dataset:name:Idh1-14-177-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-gi-overview.tif
-Dataset:name:Idh1-14-177-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-gia144-a143.tif
-Dataset:name:Idh1-14-177-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-gi - 2015-06-20 16.05.32.ndpi
-Dataset:name:Idh1-14-177-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-heart-a145.tif
-Dataset:name:Idh1-14-177-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-heart-overview.tif
-Dataset:name:Idh1-14-177-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-heart - 2015-06-20 15.33.35.ndpi
-Dataset:name:Idh1-14-177-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-knee-a146.tif
-Dataset:name:Idh1-14-177-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-knee-overview.tif
-Dataset:name:Idh1-14-177-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-knee - 2015-06-20 16.38.06.ndpi
-Dataset:name:Idh1-14-177-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-liver-a147.tif
-Dataset:name:Idh1-14-177-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-liver-overview.tif
-Dataset:name:Idh1-14-177-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-liver - 2015-06-20 15.23.50.ndpi
-Dataset:name:Idh1-14-177-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-ln-a148.tif
-Dataset:name:Idh1-14-177-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-ln-overview.tif
-Dataset:name:Idh1-14-177-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-LN - 2015-06-20 16.32.39.ndpi
-Dataset:name:Idh1-14-177-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-reprom-a149.tif
-Dataset:name:Idh1-14-177-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-reprom-overview.tif
-Dataset:name:Idh1-14-177-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-reprom - 2015-06-20 16.20.17.ndpi
-Dataset:name:Idh1-14-177-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-Sali-a150.tif
-Dataset:name:Idh1-14-177-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-Sali-overview.tif
-Dataset:name:Idh1-14-177-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-Sali - 2015-06-20 15.46.29.ndpi
-Dataset:name:Idh1-14-177-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-skin-a151.tif
-Dataset:name:Idh1-14-177-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-skin-overview.tif
-Dataset:name:Idh1-14-177-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-skin - 2015-06-20 17.00.28.ndpi
-Dataset:name:Idh1-14-178-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-brain - 2015-06-20 09.12.13.ndpi
-Dataset:name:Idh1-14-178-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-eye - 2015-06-20 10.48.15.ndpi
-Dataset:name:Idh1-14-178-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-gi - 2015-06-20 10.05.10.ndpi
-Dataset:name:Idh1-14-178-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-heart - 2015-06-20 09.32.52.ndpi
-Dataset:name:Idh1-14-178-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-knee - 2015-06-20 10.33.56.ndpi
-Dataset:name:Idh1-14-178-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-liver - 2015-06-20 09.23.55.ndpi
-Dataset:name:Idh1-14-178-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-LN - 2015-06-20 10.27.54.ndpi
-Dataset:name:Idh1-14-178-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_178-reprof-a152.tif
-Dataset:name:Idh1-14-178-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_178-reprof-overview.tif
-Dataset:name:Idh1-14-178-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-reprof - 2015-06-20 10.18.23.ndpi
-Dataset:name:Idh1-14-178-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-Sali - 2015-06-20 09.50.16.ndpi
-Dataset:name:Idh1-14-178-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-skin - 2015-06-20 10.58.26.ndpi
-Dataset:name:Idh1-14-182-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-brain - 2015-06-20 17.14.24.ndpi
-Dataset:name:Idh1-14-182-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-eye - 2015-06-20 19.00.54.ndpi
-Dataset:name:Idh1-14-182-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-gi - 2015-06-20 18.17.44.ndpi
-Dataset:name:Idh1-14-182-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-heart - 2015-06-20 17.47.18.ndpi
-Dataset:name:Idh1-14-182-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-knee - 2015-06-20 18.46.00.ndpi
-Dataset:name:Idh1-14-182-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-liver - 2015-06-20 17.30.28.ndpi
-Dataset:name:Idh1-14-182-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-LN - 2015-06-20 18.39.58.ndpi
-Dataset:name:Idh1-14-182-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-reprom - 2015-06-20 18.28.54.ndpi
-Dataset:name:Idh1-14-182-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-Sali - 2015-06-20 18.00.46.ndpi
-Dataset:name:Idh1-14-182-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-skin - 2015-06-20 19.10.28.ndpi
-Dataset:name:Idh1-14-182-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-skin - 2015-06-20 21.07.08.ndpi
-Dataset:name:Idh1-14-183-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-brain - 2015-06-20 19.24.20.ndpi
-Dataset:name:Idh1-14-183-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-eye - 2015-06-20 20.54.49.ndpi
-Dataset:name:Idh1-14-183-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-gi - 2015-06-20 20.11.50.ndpi
-Dataset:name:Idh1-14-183-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-heart - 2015-06-20 19.44.34.ndpi
-Dataset:name:Idh1-14-183-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-knee - 2015-06-20 20.42.02.ndpi
-Dataset:name:Idh1-14-183-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-liver - 2015-06-20 19.34.58.ndpi
-Dataset:name:Idh1-14-183-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-LN - 2015-06-20 20.37.04.ndpi
-Dataset:name:Idh1-14-183-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-reprof - 2015-06-20 20.24.21.ndpi
-Dataset:name:Idh1-14-183-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-Sali - 2015-06-20 19.57.06.ndpi
-Dataset:name:Pipox-14-209-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-brain-a153.tif
-Dataset:name:Pipox-14-209-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-brain-overview.tif
-Dataset:name:Pipox-14-209-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-brain - 2015-06-23 21.40.18.ndpi
-Dataset:name:Pipox-14-209-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-eye-a154.tif
-Dataset:name:Pipox-14-209-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-eye-overview.tif
-Dataset:name:Pipox-14-209-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-eye - 2015-06-23 23.25.29.ndpi
-Dataset:name:Pipox-14-209-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-gi_a1554.tif
-Dataset:name:Pipox-14-209-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-gi_overview.tif
-Dataset:name:Pipox-14-209-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-gi - 2015-06-23 22.36.10.ndpi
-Dataset:name:Pipox-14-209-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-heart-a156.tif
-Dataset:name:Pipox-14-209-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-heart-overview.tif
-Dataset:name:Pipox-14-209-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-heart - 2015-06-23 22.06.03.ndpi
-Dataset:name:Pipox-14-209-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-knee-a157.tif
-Dataset:name:Pipox-14-209-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-knee-overview.tif
-Dataset:name:Pipox-14-209-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-knee - 2015-06-23 23.12.09.ndpi
-Dataset:name:Pipox-14-209-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-liver-a158.tif
-Dataset:name:Pipox-14-209-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-liver-overview.tif
-Dataset:name:Pipox-14-209-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-liver - 2015-06-23 21.54.11.ndpi
-Dataset:name:Pipox-14-209-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-ln-a159.tif
-Dataset:name:Pipox-14-209-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-ln-overview.tif
-Dataset:name:Pipox-14-209-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-LN - 2015-06-23 23.02.52.ndpi
-Dataset:name:Pipox-14-209-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-reprof-a160.tif
-Dataset:name:Pipox-14-209-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-reprof-overview.tif
-Dataset:name:Pipox-14-209-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-reprof - 2015-06-23 22.49.17.ndpi
-Dataset:name:Pipox-14-209-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-sali-a161.tif
-Dataset:name:Pipox-14-209-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-sali-overview.tif
-Dataset:name:Pipox-14-209-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-Sali - 2015-06-23 22.20.06.ndpi
-Dataset:name:Pipox-14-209-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-skin-a162.tif
-Dataset:name:Pipox-14-209-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-skin-overview.tif
-Dataset:name:Pipox-14-209-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-skin - 2015-06-23 23.32.33.ndpi
-Dataset:name:Pipox-14-210-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-brain - 2015-06-23 23.45.41.ndpi
-Dataset:name:Pipox-14-210-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-eye - 2015-06-24 01.01.43.ndpi
-Dataset:name:Pipox-14-210-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-gi - 2015-06-24 00.25.52.ndpi
-Dataset:name:Pipox-14-210-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-heart - 2015-06-24 00.05.57.ndpi
-Dataset:name:Pipox-14-210-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210--knee - 2015-06-24 00.53.52.ndpi
-Dataset:name:Pipox-14-210-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210--liver - 2015-06-23 23.55.47.ndpi
-Dataset:name:Pipox-14-210-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-LN - 2015-06-24 00.49.41.ndpi
-Dataset:name:Pipox-14-210-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_210-reprom-a163.tif
-Dataset:name:Pipox-14-210-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_210-reprom-overview.tif
-Dataset:name:Pipox-14-210-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-reprom - 2015-06-24 00.38.00.ndpi
-Dataset:name:Pipox-14-210-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-Sali - 2015-06-24 00.13.49.ndpi
-Dataset:name:Pipox-14-210-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-skin - 2015-06-24 01.07.55.ndpi
-Dataset:name:Pipox-14-211-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-brain - 2015-06-24 01.15.48.ndpi
-Dataset:name:Pipox-14-211-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-eye - 2015-06-24 02.26.41.ndpi
-Dataset:name:Pipox-14-211-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-gi - 2015-06-24 01.55.27.ndpi
-Dataset:name:Pipox-14-211-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-heart - 2015-06-24 01.40.44.ndpi
-Dataset:name:Pipox-14-211-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-knee - 2015-06-24 02.19.55.ndpi
-Dataset:name:Pipox-14-211-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-liver - 2015-06-24 01.27.45.ndpi
-Dataset:name:Pipox-14-211-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-LN - 2015-06-24 02.16.27.ndpi
-Dataset:name:Pipox-14-211-reproductive-female	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-reprof - 2015-06-24 02.07.43.ndpi
-Dataset:name:Pipox-14-211-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-Sali - 2015-06-24 01.47.58.ndpi
-Dataset:name:Pipox-14-211-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-skin - 2015-06-24 02.30.05.ndpi
-Dataset:name:Pipox-14-291-brain	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-brain - 2015-06-24 02.36.22.ndpi
-Dataset:name:Pipox-14-291-eye	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-eye - 2015-06-24 04.02.47.ndpi
-Dataset:name:Pipox-14-291-gastrointestinal	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-gi - 2015-06-24 03.19.27.ndpi
-Dataset:name:Pipox-14-291-heart	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-heart - 2015-06-24 02.56.31.ndpi
-Dataset:name:Pipox-14-291-knee	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-knee - 2015-06-24 03.48.40.ndpi
-Dataset:name:Pipox-14-291-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-liver - 2015-06-24 02.45.48.ndpi
-Dataset:name:Pipox-14-291-lymph-node	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-LN - 2015-06-24 03.41.33.ndpi
-Dataset:name:Pipox-14-291-reproductive-male	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-reprom - 2015-06-24 03.30.47.ndpi
-Dataset:name:Pipox-14-291-salivary-gland	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-Sali - 2015-06-24 03.11.24.ndpi
-Dataset:name:Pipox-14-291-skin	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-skin - 2015-06-24 04.14.36.ndpi
-Dataset:name:PML-09-1625-choroid-plexus	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/PML_09-1625-1a-a.tif
-Dataset:name:PML-09-1625-choroid-plexus	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/PML_09-1625-1a-b.tif
-Dataset:name:PML-09-1625-choroid-plexus	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/PML_09-1625-1a-c.tif
-Dataset:name:PML-09-1625-choroid-plexus	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/PML_09-1625-1a-d.tif
-Dataset:name:RXFP2-13-932-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3a.tif
-Dataset:name:RXFP2-13-932-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3b.tif
-Dataset:name:RXFP2-13-932-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3c.tif
-Dataset:name:RXFP2-13-932-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3d.tif
-Dataset:name:RXFP2-13-932-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3e.tif
-Dataset:name:RXFP2-13-932-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3f.tif
-Dataset:name:RXFP2-13-932-liver	/uod/idr/incoming/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3g.tif
+Dataset:name:Baz1a-14-100-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-brain - 2015-06-19 23.34.11.ndpi
+Dataset:name:Baz1a-14-100-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-eye - 2015-06-20 01.11.54.ndpi
+Dataset:name:Baz1a-14-100-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-gi - 2015-06-20 00.24.01.ndpi
+Dataset:name:Baz1a-14-100-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-heart - 2015-06-19 23.54.16.ndpi
+Dataset:name:Baz1a-14-100-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-knee - 2015-06-20 00.59.14.ndpi
+Dataset:name:Baz1a-14-100-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-liver - 2015-06-19 23.43.52.ndpi
+Dataset:name:Baz1a-14-100-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-LN - 2015-06-20 00.47.45.ndpi
+Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_100-reprof-a116.tif
+Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_100-reprof-a117.tif
+Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_100-reprof-overview.tif
+Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_100-reprof-overview2.tif
+Dataset:name:Baz1a-14-100-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-reprof - 2015-06-20 00.35.22.ndpi
+Dataset:name:Baz1a-14-100-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-Sali - 2015-06-20 00.08.08.ndpi
+Dataset:name:Baz1a-14-100-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-100-skin - 2015-06-20 01.24.39.ndpi
+Dataset:name:Baz1a-14-75-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-brain - 2015-06-19 18.16.20.ndpi
+Dataset:name:Baz1a-14-75-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-eye-a105.tif
+Dataset:name:Baz1a-14-75-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-eye-overview.tif
+Dataset:name:Baz1a-14-75-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-eye - 2015-06-19 19.37.33.ndpi
+Dataset:name:Baz1a-14-75-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-gi-a106.tif
+Dataset:name:Baz1a-14-75-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-gi-overview+.tif
+Dataset:name:Baz1a-14-75-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-gi - 2015-06-19 19.01.04.ndpi
+Dataset:name:Baz1a-14-75-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-heart-a107.tif
+Dataset:name:Baz1a-14-75-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-heart-a108.tif
+Dataset:name:Baz1a-14-75-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-heart-overview.tif
+Dataset:name:Baz1a-14-75-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-heart-overview2.tif
+Dataset:name:Baz1a-14-75-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-heart - 2015-06-19 18.35.11.ndpi
+Dataset:name:Baz1a-14-75-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-knee-a109.tif
+Dataset:name:Baz1a-14-75-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-knee-overview.tif
+Dataset:name:Baz1a-14-75-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-knee - 2015-06-19 19.25.59.ndpi
+Dataset:name:Baz1a-14-75-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-liver-a110.tif
+Dataset:name:Baz1a-14-75-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-liver-a111.tif
+Dataset:name:Baz1a-14-75-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-liver-overview.tif
+Dataset:name:Baz1a-14-75-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-liver-overview2.tif
+Dataset:name:Baz1a-14-75-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-liver - 2015-06-19 18.28.01.ndpi
+Dataset:name:Baz1a-14-75-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-LN-a112.tif
+Dataset:name:Baz1a-14-75-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-LN-overview.tif
+Dataset:name:Baz1a-14-75-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-LN - 2015-06-19 19.20.50.ndpi
+Dataset:name:Baz1a-14-75-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-reprom-a113.tif
+Dataset:name:Baz1a-14-75-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-reprom-overview.tif
+Dataset:name:Baz1a-14-75-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-reprom - 2015-06-19 19.10.30.ndpi
+Dataset:name:Baz1a-14-75-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-Sali-a114.tif
+Dataset:name:Baz1a-14-75-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-Sali-overview.tif
+Dataset:name:Baz1a-14-75-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-sali - 2015-06-19 18.48.21.ndpi
+Dataset:name:Baz1a-14-75-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-skin-a115.tif
+Dataset:name:Baz1a-14-75-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Bazla/Bazla-14_75-skin-overview.tif
+Dataset:name:Baz1a-14-75-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-75-skin - 2015-06-19 19.45.46.ndpi
+Dataset:name:Baz1a-14-76-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-brain - 2015-06-19 19.55.08.ndpi
+Dataset:name:Baz1a-14-76-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-eye - 2015-06-19 21.20.57.ndpi
+Dataset:name:Baz1a-14-76-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-gi - 2015-06-19 20.43.50.ndpi
+Dataset:name:Baz1a-14-76-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-heart - 2015-06-19 20.13.54.ndpi
+Dataset:name:Baz1a-14-76-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-knee - 2015-06-19 21.14.19.ndpi
+Dataset:name:Baz1a-14-76-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-liver - 2015-06-19 20.05.37.ndpi
+Dataset:name:Baz1a-14-76-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-LN - 2015-06-19 21.05.35.ndpi
+Dataset:name:Baz1a-14-76-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-reprom - 2015-06-19 20.54.35.ndpi
+Dataset:name:Baz1a-14-76-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-Sali - 2015-06-19 20.27.53.ndpi
+Dataset:name:Baz1a-14-76-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-76-skin - 2015-06-19 21.30.50.ndpi
+Dataset:name:Baz1a-14-99-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-brain - 2015-06-19 21.39.26.ndpi
+Dataset:name:Baz1a-14-99-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-eye - 2015-06-19 23.12.04.ndpi
+Dataset:name:Baz1a-14-99-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-gi - 2015-06-19 22.28.40.ndpi
+Dataset:name:Baz1a-14-99-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-heart - 2015-06-19 21.59.39.ndpi
+Dataset:name:Baz1a-14-99-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-knee - 2015-06-19 23.08.21.ndpi
+Dataset:name:Baz1a-14-99-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-liver - 2015-06-19 21.49.26.ndpi
+Dataset:name:Baz1a-14-99-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-LN - 2015-06-19 22.56.04.ndpi
+Dataset:name:Baz1a-14-99-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-reprof - 2015-06-19 22.40.26.ndpi
+Dataset:name:Baz1a-14-99-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-Sali - 2015-06-19 22.13.34.ndpi
+Dataset:name:Baz1a-14-99-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/BAZLA-TCP/Bazla-14-99-skin - 2015-06-19 23.20.44.ndpi
+Dataset:name:Car4-13-922-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a54.tif
+Dataset:name:Car4-13-922-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a55.tif
+Dataset:name:Car4-13-922-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a56.tif
+Dataset:name:Car4-13-922-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a57.tif
+Dataset:name:Car4-13-922-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a58.tif
+Dataset:name:Car4-13-922-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-overview1.tif
+Dataset:name:Car4-13-922-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-overview2.tif
+Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a59.tif
+Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a60.tif
+Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a61.tif
+Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-gi-overview2.tif
+Dataset:name:Car4-13-922-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-gi-overview1.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a62.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a63.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a64.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a65.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a66.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a67.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a68.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a69.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a70.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a71.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a72.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-liver-overview2.tif
+Dataset:name:Car4-13-922-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-liver-overview1.tif
+Dataset:name:Car4-13-922-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a73tif.tif
+Dataset:name:Car4-13-922-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-reprom-overview.tif
+Dataset:name:Car4-13-922-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a74.tif
+Dataset:name:Car4-13-922-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-salivary-overview.tif
+Dataset:name:Car4-13-922-throat	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a75.tif
+Dataset:name:Car4-13-922-throat	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-a76.tif
+Dataset:name:Car4-13-922-throat	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_922-throat-overview.tif
+Dataset:name:Car4-13-923-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a77.tif
+Dataset:name:Car4-13-923-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a78.tif
+Dataset:name:Car4-13-923-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-brain-overview2.tif
+Dataset:name:Car4-13-923-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-brain-overview1.tif
+Dataset:name:Car4-13-923-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a79.tif
+Dataset:name:Car4-13-923-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a80.tif
+Dataset:name:Car4-13-923-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-gi-oberview.tif
+Dataset:name:Car4-13-923-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/Car4_13-923-3a.tif
+Dataset:name:Car4-13-923-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/Car4_13-923-3b.tif
+Dataset:name:Car4-13-923-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/Car4_13-923-3c.tif
+Dataset:name:Car4-13-923-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a81.tif
+Dataset:name:Car4-13-923-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-reprom-overview.tif
+Dataset:name:Car4-13-923-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a82.tif
+Dataset:name:Car4-13-923-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a83.tif
+Dataset:name:Car4-13-923-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-salivary-overview.tif
+Dataset:name:Car4-13-923-throat	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a84&85.tif
+Dataset:name:Car4-13-923-throat	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-a86.tif
+Dataset:name:Car4-13-923-throat	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Car4/Car4-13_923-throat-overview.tif
+Dataset:name:Cpa2-14-22-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a87.tif
+Dataset:name:Cpa2-14-22-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a88.tif
+Dataset:name:Cpa2-14-22-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-brain-overview.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a100.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a101.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a102.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a103.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a89.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a90.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a91.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a92.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a93.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a94.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a95.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a96.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a97.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a98.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-a99.tif
+Dataset:name:Cpa2-14-22-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-gi-overview.tif
+Dataset:name:Cpa2-14-22-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-liver-overview.tif
+Dataset:name:Cpa2-14-22-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-CPA2/Cpa2-14_22-liver-overview5.tif
+Dataset:name:CPA2-14-22-oviduct	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/CPA2-14_22_1bf-a.tif
+Dataset:name:CPA2-14-22-oviduct	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/CPA2-14_22_1bf-b.tif
+Dataset:name:CPA2-14-22-oviduct	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/CPA2-14_22_1bf-c.tif
+Dataset:name:CPA2-14-22-oviduct	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/CPA2-14_22_1bf-d.tif
+Dataset:name:Ddx41-14-550-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-brain - 2015-06-24 15.58.17.ndpi
+Dataset:name:Ddx41-14-550-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550--eye - 2015-06-24 17.35.50.ndpi
+Dataset:name:Ddx41-14-550-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-gi - 2015-06-24 16.50.11.ndpi
+Dataset:name:Ddx41-14-550-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-heart - 2015-06-24 16.19.48.ndpi
+Dataset:name:Ddx41-14-550-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-knee - 2015-06-24 17.20.51.ndpi
+Dataset:name:Ddx41-14-550-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-liver - 2015-06-24 16.10.03.ndpi
+Dataset:name:Ddx41-14-550-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-ln - 2015-06-24 17.13.35.ndpi
+Dataset:name:Ddx41-14-550-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-reprom - 2015-06-24 17.02.19.ndpi
+Dataset:name:Ddx41-14-550-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550--Sali - 2015-06-24 16.35.11.ndpi
+Dataset:name:Ddx41-14-550-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-550-skin - 2015-06-24 17.47.12.ndpi
+Dataset:name:Ddx41-14-552-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-brain-a118.tif
+Dataset:name:Ddx41-14-552-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-brain-overview.tif
+Dataset:name:Ddx41-14-552-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-brain - 2015-06-24 18.03.03.ndpi
+Dataset:name:Ddx41-14-552-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-eye-a119.tif
+Dataset:name:Ddx41-14-552-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-eye-overview.tif
+Dataset:name:Ddx41-14-552-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-eye - 2015-06-24 19.12.33.ndpi
+Dataset:name:Ddx41-14-552-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-gi-a120.tif
+Dataset:name:Ddx41-14-552-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-gi-overview.tif
+Dataset:name:Ddx41-14-552-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-gi - 2015-06-24 18.38.51.ndpi
+Dataset:name:Ddx41-14-552-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-heart-a121.tif
+Dataset:name:Ddx41-14-552-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-heart-a122.tif
+Dataset:name:Ddx41-14-552-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-heart-overview.tif
+Dataset:name:Ddx41-14-552-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-heart-overview2.tif
+Dataset:name:Ddx41-14-552-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-heart - 2015-06-24 18.24.11.ndpi
+Dataset:name:Ddx41-14-552-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-knee-a123.tif
+Dataset:name:Ddx41-14-552-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-knee-overview.tif
+Dataset:name:Ddx41-14-552-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-knee - 2015-06-24 19.05.30.ndpi
+Dataset:name:Ddx41-14-552-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-liver-a124.tif
+Dataset:name:Ddx41-14-552-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-liver-a125.tif
+Dataset:name:Ddx41-14-552-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-liver-overview.tif
+Dataset:name:Ddx41-14-552-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-liver-overview2.tif
+Dataset:name:Ddx41-14-552-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-liver - 2015-06-24 18.13.18.ndpi
+Dataset:name:Ddx41-14-552-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-ln-a126.tif
+Dataset:name:Ddx41-14-552-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-ln-overview.tif
+Dataset:name:Ddx41-14-552-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-ln - 2015-06-24 19.01.20.ndpi
+Dataset:name:Ddx41-14-552-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-reprom-a127.tif
+Dataset:name:Ddx41-14-552-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-reprom-overview.tif
+Dataset:name:Ddx41-14-552-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-reprom - 2015-06-24 18.51.14.ndpi
+Dataset:name:Ddx41-14-552-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-sali-a128.tif
+Dataset:name:Ddx41-14-552-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-sali-overview.tif
+Dataset:name:Ddx41-14-552-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-Sali - 2015-06-24 18.30.34.ndpi
+Dataset:name:Ddx41-14-552-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-skin-a129.tif
+Dataset:name:Ddx41-14-552-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_552-skin-overview.tif
+Dataset:name:Ddx41-14-552-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-552-skin - 2015-06-24 19.14.49.ndpi
+Dataset:name:Ddx41-14-566-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-brain - 2015-06-24 19.21.11.ndpi
+Dataset:name:Ddx41-14-566-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-eye - 2015-06-24 20.35.32.ndpi
+Dataset:name:Ddx41-14-566-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-gi - 2015-06-24 20.04.39.ndpi
+Dataset:name:Ddx41-14-566-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-heart - 2015-06-24 19.43.44.ndpi
+Dataset:name:Ddx41-14-566-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-knee - 2015-06-24 20.28.25.ndpi
+Dataset:name:Ddx41-14-566-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566--liver - 2015-06-24 19.33.46.ndpi
+Dataset:name:Ddx41-14-566-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-ln - 2015-06-24 20.22.52.ndpi
+Dataset:name:Ddx41-14-566-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_566-reprof-a130.tif
+Dataset:name:Ddx41-14-566-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Ddx41/Ddx41-14_566-reprof-overview.tif
+Dataset:name:Ddx41-14-566-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-reprof - 2015-06-24 20.16.44.ndpi
+Dataset:name:Ddx41-14-566-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-Sali - 2015-06-24 19.57.17.ndpi
+Dataset:name:Ddx41-14-566-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-566-skin - 2015-06-24 20.42.05.ndpi
+Dataset:name:Ddx41-14-579-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-brain - 2015-06-24 20.50.10.ndpi
+Dataset:name:Ddx41-14-579-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-eye - 2015-06-24 22.19.07.ndpi
+Dataset:name:Ddx41-14-579-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-gi - 2015-06-24 21.30.44.ndpi
+Dataset:name:Ddx41-14-579-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-heart - 2015-06-24 21.08.32.ndpi
+Dataset:name:Ddx41-14-579-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-knee - 2015-06-24 22.04.52.ndpi
+Dataset:name:Ddx41-14-579-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-liver - 2015-06-24 20.59.50.ndpi
+Dataset:name:Ddx41-14-579-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-ln - 2015-06-24 21.57.33.ndpi
+Dataset:name:Ddx41-14-579-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-reprof - 2015-06-24 21.42.46.ndpi
+Dataset:name:Ddx41-14-579-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-Sali - 2015-06-24 21.14.39.ndpi
+Dataset:name:Ddx41-14-579-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-579-skin - 2015-06-24 22.25.07.ndpi
+Dataset:name:Ddx41-14-582-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-brain - 2015-06-24 22.30.25.ndpi
+Dataset:name:Ddx41-14-582-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-eye - 2015-06-24 23.59.00.ndpi
+Dataset:name:Ddx41-14-582-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-gi - 2015-06-24 23.22.55.ndpi
+Dataset:name:Ddx41-14-582-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-heart - 2015-06-24 22.52.39.ndpi
+Dataset:name:Ddx41-14-582-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-knee - 2015-06-24 23.52.21.ndpi
+Dataset:name:Ddx41-14-582-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-liver - 2015-06-24 22.39.48.ndpi
+Dataset:name:Ddx41-14-582-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-ln - 2015-06-24 23.41.42.ndpi
+Dataset:name:Ddx41-14-582-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-reprof - 2015-06-24 23.33.38.ndpi
+Dataset:name:Ddx41-14-582-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-Sali - 2015-06-24 23.07.26.ndpi
+Dataset:name:Ddx41-14-582-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Ddx41-TCP/Ddx41-14-582-skin - 2015-06-25 00.09.10.ndpi
+Dataset:name:Eya4-14-431-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-brain - 2015-06-24 04.25.01.ndpi
+Dataset:name:Eya4-14-431-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-eye - 2015-06-24 06.09.29.ndpi
+Dataset:name:Eya4-14-431-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-gi - 2015-06-24 05.22.46.ndpi
+Dataset:name:Eya4-14-431-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-heart - 2015-06-24 04.45.53.ndpi
+Dataset:name:Eya4-14-431-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-knee - 2015-06-24 05.56.37.ndpi
+Dataset:name:Eya4-14-431-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-liver - 2015-06-24 04.36.04.ndpi
+Dataset:name:Eya4-14-431-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-LN - 2015-06-24 05.51.06.ndpi
+Dataset:name:Eya4-14-431-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-reprom - 2015-06-24 05.35.22.ndpi
+Dataset:name:Eya4-14-431-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-Sali - 2015-06-24 05.02.24.ndpi
+Dataset:name:Eya4-14-431-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-431-skin - 2015-06-24 06.18.44.ndpi
+Dataset:name:Eya4-14-432-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-brain-a131.tif
+Dataset:name:Eya4-14-432-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-brain-overview.tif
+Dataset:name:Eya4-14-432-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-brain - 2015-06-24 06.27.21.ndpi
+Dataset:name:Eya4-14-432-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-eye-a132.tif
+Dataset:name:Eya4-14-432-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-eye-overview.tif
+Dataset:name:Eya4-14-432-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-eye - 2015-06-24 07.56.12.ndpi
+Dataset:name:Eya4-14-432-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-gi-a133.tif
+Dataset:name:Eya4-14-432-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-gi - 2015-06-24 07.22.37.ndpi
+Dataset:name:Eya4-14-432-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-heart-a134.tif
+Dataset:name:Eya4-14-432-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-heart-overview.tif
+Dataset:name:Eya4-14-432-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-heart - 2015-06-24 06.49.00.ndpi
+Dataset:name:Eya4-14-432-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-knee-a135.tif
+Dataset:name:Eya4-14-432-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-knee-overview.tif
+Dataset:name:Eya4-14-432-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-knee - 2015-06-24 07.47.49.ndpi
+Dataset:name:Eya4-14-432-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-liver-a136.tif
+Dataset:name:Eya4-14-432-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-liver-overview.tif
+Dataset:name:Eya4-14-432-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432--liver - 2015-06-24 06.38.00.ndpi
+Dataset:name:Eya4-14-432-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-ln-a137.tif
+Dataset:name:Eya4-14-432-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-ln-overview.tif
+Dataset:name:Eya4-14-432-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-LN - 2015-06-24 07.44.23.ndpi
+Dataset:name:Eya4-14-432-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-reprom-a138.tif
+Dataset:name:Eya4-14-432-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-reprom-overview.tif
+Dataset:name:Eya4-14-432-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-reprom - 2015-06-24 07.32.45.ndpi
+Dataset:name:Eya4-14-432-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-sali-a139.tif
+Dataset:name:Eya4-14-432-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-sali-overview.tif
+Dataset:name:Eya4-14-432-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-Sali - 2015-06-24 07.06.10.ndpi
+Dataset:name:Eya4-14-432-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-skin-a140.tif
+Dataset:name:Eya4-14-432-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_432-skin-overview.tif
+Dataset:name:Eya4-14-432-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-432-skin - 2015-06-24 08.05.52.ndpi
+Dataset:name:Eya4-14-433-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-brain - 2015-06-24 08.17.01.ndpi
+Dataset:name:Eya4-14-433-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-eye - 2015-06-24 09.40.10.ndpi
+Dataset:name:Eya4-14-433-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-gi - 2015-06-24 09.01.42.ndpi
+Dataset:name:Eya4-14-433-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-heart - 2015-06-24 08.37.49.ndpi
+Dataset:name:Eya4-14-433-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-knee - 2015-06-24 09.31.42.ndpi
+Dataset:name:Eya4-14-433-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-liver - 2015-06-24 08.29.02.ndpi
+Dataset:name:Eya4-14-433-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-LN - 2015-06-24 09.24.50.ndpi
+Dataset:name:Eya4-14-433-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-reprom - 2015-06-24 09.15.01.ndpi
+Dataset:name:Eya4-14-433-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-Sali - 2015-06-24 08.53.36.ndpi
+Dataset:name:Eya4-14-433-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-433-skin - 2015-06-24 09.50.41.ndpi
+Dataset:name:Eya4-14-434-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-brain - 2015-06-24 10.08.00.ndpi
+Dataset:name:Eya4-14-434-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-eye - 2015-06-24 11.51.18.ndpi
+Dataset:name:Eya4-14-434-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-gi - 2015-06-24 11.04.48.ndpi
+Dataset:name:Eya4-14-434-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-heart - 2015-06-24 10.34.24.ndpi
+Dataset:name:Eya4-14-434-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-knee - 2015-06-24 11.38.36.ndpi
+Dataset:name:Eya4-14-434-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-liver - 2015-06-24 10.17.55.ndpi
+Dataset:name:Eya4-14-434-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-LN - 2015-06-24 11.25.09.ndpi
+Dataset:name:Eya4-14-434-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_434-reprof-a141.tif
+Dataset:name:Eya4-14-434-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Eya4/Eya4-14_434-reprof-overview.tif
+Dataset:name:Eya4-14-434-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-reprof - 2015-06-24 11.17.49.ndpi
+Dataset:name:Eya4-14-434-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-Sali - 2015-06-24 10.49.50.ndpi
+Dataset:name:Eya4-14-434-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-434-skin - 2015-06-24 12.00.29.ndpi
+Dataset:name:Eya4-14-435-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-brain - 2015-06-24 12.06.08.ndpi
+Dataset:name:Eya4-14-435-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-eye - 2015-06-24 13.51.36.ndpi
+Dataset:name:Eya4-14-435-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-gi - 2015-06-24 13.05.13.ndpi
+Dataset:name:Eya4-14-435-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435--heart - 2015-06-24 12.32.47.ndpi
+Dataset:name:Eya4-14-435-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-knee - 2015-06-24 13.38.52.ndpi
+Dataset:name:Eya4-14-435-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-liver - 2015-06-24 12.16.49.ndpi
+Dataset:name:Eya4-14-435-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-LN - 2015-06-24 13.30.54.ndpi
+Dataset:name:Eya4-14-435-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-reprof - 2015-06-24 13.18.38.ndpi
+Dataset:name:Eya4-14-435-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-Sali - 2015-06-24 12.48.30.ndpi
+Dataset:name:Eya4-14-435-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-435-skin - 2015-06-24 13.58.31.ndpi
+Dataset:name:Eya4-14-436-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-brain - 2015-06-24 14.07.05.ndpi
+Dataset:name:Eya4-14-436-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-eye - 2015-06-24 15.42.24.ndpi
+Dataset:name:Eya4-14-436-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-gi - 2015-06-24 14.58.09.ndpi
+Dataset:name:Eya4-14-436-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-heart - 2015-06-24 14.26.30.ndpi
+Dataset:name:Eya4-14-436-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-knee - 2015-06-24 15.29.57.ndpi
+Dataset:name:Eya4-14-436-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-liver - 2015-06-24 14.16.55.ndpi
+Dataset:name:Eya4-14-436-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-LN - 2015-06-24 15.22.50.ndpi
+Dataset:name:Eya4-14-436-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-reprof - 2015-06-24 15.12.47.ndpi
+Dataset:name:Eya4-14-436-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-Sali - 2015-06-24 14.41.58.ndpi
+Dataset:name:Eya4-14-436-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Eya4-TCP/Eya4-14-436-skin - 2015-06-24 15.50.37.ndpi
+Dataset:name:HGS-10-579-kidney	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3a.tif
+Dataset:name:HGS-10-579-kidney	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3b.tif
+Dataset:name:HGS-10-579-kidney	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3c.tif
+Dataset:name:HGS-10-579-kidney	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3d.tif
+Dataset:name:HGS-10-579-kidney	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3e.tif
+Dataset:name:HGS-10-579-kidney	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/HGS_10-579-3f.tif
+Dataset:name:Idh1-14-177-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-brain-a142.tif
+Dataset:name:Idh1-14-177-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-brain-overviewtif.tif
+Dataset:name:Idh1-14-177-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-brain - 2015-06-20 15.12.53.ndpi
+Dataset:name:Idh1-14-177-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-eye-a143.tif
+Dataset:name:Idh1-14-177-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-eye-overview.tif
+Dataset:name:Idh1-14-177-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-eye - 2015-06-20 16.51.10.ndpi
+Dataset:name:Idh1-14-177-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-gi-overview.tif
+Dataset:name:Idh1-14-177-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-gia144-a143.tif
+Dataset:name:Idh1-14-177-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-gi - 2015-06-20 16.05.32.ndpi
+Dataset:name:Idh1-14-177-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-heart-a145.tif
+Dataset:name:Idh1-14-177-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-heart-overview.tif
+Dataset:name:Idh1-14-177-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-heart - 2015-06-20 15.33.35.ndpi
+Dataset:name:Idh1-14-177-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-knee-a146.tif
+Dataset:name:Idh1-14-177-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-knee-overview.tif
+Dataset:name:Idh1-14-177-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-knee - 2015-06-20 16.38.06.ndpi
+Dataset:name:Idh1-14-177-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-liver-a147.tif
+Dataset:name:Idh1-14-177-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-liver-overview.tif
+Dataset:name:Idh1-14-177-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-liver - 2015-06-20 15.23.50.ndpi
+Dataset:name:Idh1-14-177-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-ln-a148.tif
+Dataset:name:Idh1-14-177-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-ln-overview.tif
+Dataset:name:Idh1-14-177-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-LN - 2015-06-20 16.32.39.ndpi
+Dataset:name:Idh1-14-177-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-reprom-a149.tif
+Dataset:name:Idh1-14-177-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-reprom-overview.tif
+Dataset:name:Idh1-14-177-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-reprom - 2015-06-20 16.20.17.ndpi
+Dataset:name:Idh1-14-177-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-Sali-a150.tif
+Dataset:name:Idh1-14-177-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-Sali-overview.tif
+Dataset:name:Idh1-14-177-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-Sali - 2015-06-20 15.46.29.ndpi
+Dataset:name:Idh1-14-177-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-skin-a151.tif
+Dataset:name:Idh1-14-177-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_177-skin-overview.tif
+Dataset:name:Idh1-14-177-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-177-skin - 2015-06-20 17.00.28.ndpi
+Dataset:name:Idh1-14-178-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-brain - 2015-06-20 09.12.13.ndpi
+Dataset:name:Idh1-14-178-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-eye - 2015-06-20 10.48.15.ndpi
+Dataset:name:Idh1-14-178-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-gi - 2015-06-20 10.05.10.ndpi
+Dataset:name:Idh1-14-178-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-heart - 2015-06-20 09.32.52.ndpi
+Dataset:name:Idh1-14-178-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-knee - 2015-06-20 10.33.56.ndpi
+Dataset:name:Idh1-14-178-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-liver - 2015-06-20 09.23.55.ndpi
+Dataset:name:Idh1-14-178-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-LN - 2015-06-20 10.27.54.ndpi
+Dataset:name:Idh1-14-178-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_178-reprof-a152.tif
+Dataset:name:Idh1-14-178-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Idh1/Idh1-14_178-reprof-overview.tif
+Dataset:name:Idh1-14-178-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-reprof - 2015-06-20 10.18.23.ndpi
+Dataset:name:Idh1-14-178-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-Sali - 2015-06-20 09.50.16.ndpi
+Dataset:name:Idh1-14-178-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-178-skin - 2015-06-20 10.58.26.ndpi
+Dataset:name:Idh1-14-182-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-brain - 2015-06-20 17.14.24.ndpi
+Dataset:name:Idh1-14-182-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-eye - 2015-06-20 19.00.54.ndpi
+Dataset:name:Idh1-14-182-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-gi - 2015-06-20 18.17.44.ndpi
+Dataset:name:Idh1-14-182-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-heart - 2015-06-20 17.47.18.ndpi
+Dataset:name:Idh1-14-182-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-knee - 2015-06-20 18.46.00.ndpi
+Dataset:name:Idh1-14-182-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-liver - 2015-06-20 17.30.28.ndpi
+Dataset:name:Idh1-14-182-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-LN - 2015-06-20 18.39.58.ndpi
+Dataset:name:Idh1-14-182-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-reprom - 2015-06-20 18.28.54.ndpi
+Dataset:name:Idh1-14-182-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-Sali - 2015-06-20 18.00.46.ndpi
+Dataset:name:Idh1-14-182-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-skin - 2015-06-20 19.10.28.ndpi
+Dataset:name:Idh1-14-182-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-182-skin - 2015-06-20 21.07.08.ndpi
+Dataset:name:Idh1-14-183-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-brain - 2015-06-20 19.24.20.ndpi
+Dataset:name:Idh1-14-183-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-eye - 2015-06-20 20.54.49.ndpi
+Dataset:name:Idh1-14-183-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-gi - 2015-06-20 20.11.50.ndpi
+Dataset:name:Idh1-14-183-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-heart - 2015-06-20 19.44.34.ndpi
+Dataset:name:Idh1-14-183-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-knee - 2015-06-20 20.42.02.ndpi
+Dataset:name:Idh1-14-183-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-liver - 2015-06-20 19.34.58.ndpi
+Dataset:name:Idh1-14-183-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-LN - 2015-06-20 20.37.04.ndpi
+Dataset:name:Idh1-14-183-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-reprof - 2015-06-20 20.24.21.ndpi
+Dataset:name:Idh1-14-183-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Idh1-TCP/Idh1-14-183-Sali - 2015-06-20 19.57.06.ndpi
+Dataset:name:Pipox-14-209-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-brain-a153.tif
+Dataset:name:Pipox-14-209-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-brain-overview.tif
+Dataset:name:Pipox-14-209-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-brain - 2015-06-23 21.40.18.ndpi
+Dataset:name:Pipox-14-209-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-eye-a154.tif
+Dataset:name:Pipox-14-209-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-eye-overview.tif
+Dataset:name:Pipox-14-209-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-eye - 2015-06-23 23.25.29.ndpi
+Dataset:name:Pipox-14-209-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-gi_a1554.tif
+Dataset:name:Pipox-14-209-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-gi_overview.tif
+Dataset:name:Pipox-14-209-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-gi - 2015-06-23 22.36.10.ndpi
+Dataset:name:Pipox-14-209-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-heart-a156.tif
+Dataset:name:Pipox-14-209-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-heart-overview.tif
+Dataset:name:Pipox-14-209-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-heart - 2015-06-23 22.06.03.ndpi
+Dataset:name:Pipox-14-209-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-knee-a157.tif
+Dataset:name:Pipox-14-209-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-knee-overview.tif
+Dataset:name:Pipox-14-209-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-knee - 2015-06-23 23.12.09.ndpi
+Dataset:name:Pipox-14-209-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-liver-a158.tif
+Dataset:name:Pipox-14-209-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-liver-overview.tif
+Dataset:name:Pipox-14-209-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-liver - 2015-06-23 21.54.11.ndpi
+Dataset:name:Pipox-14-209-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-ln-a159.tif
+Dataset:name:Pipox-14-209-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-ln-overview.tif
+Dataset:name:Pipox-14-209-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-LN - 2015-06-23 23.02.52.ndpi
+Dataset:name:Pipox-14-209-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-reprof-a160.tif
+Dataset:name:Pipox-14-209-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-reprof-overview.tif
+Dataset:name:Pipox-14-209-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-reprof - 2015-06-23 22.49.17.ndpi
+Dataset:name:Pipox-14-209-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-sali-a161.tif
+Dataset:name:Pipox-14-209-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-sali-overview.tif
+Dataset:name:Pipox-14-209-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-Sali - 2015-06-23 22.20.06.ndpi
+Dataset:name:Pipox-14-209-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-skin-a162.tif
+Dataset:name:Pipox-14-209-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_209-skin-overview.tif
+Dataset:name:Pipox-14-209-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-209-skin - 2015-06-23 23.32.33.ndpi
+Dataset:name:Pipox-14-210-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-brain - 2015-06-23 23.45.41.ndpi
+Dataset:name:Pipox-14-210-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-eye - 2015-06-24 01.01.43.ndpi
+Dataset:name:Pipox-14-210-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-gi - 2015-06-24 00.25.52.ndpi
+Dataset:name:Pipox-14-210-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-heart - 2015-06-24 00.05.57.ndpi
+Dataset:name:Pipox-14-210-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210--knee - 2015-06-24 00.53.52.ndpi
+Dataset:name:Pipox-14-210-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210--liver - 2015-06-23 23.55.47.ndpi
+Dataset:name:Pipox-14-210-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-LN - 2015-06-24 00.49.41.ndpi
+Dataset:name:Pipox-14-210-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_210-reprom-a163.tif
+Dataset:name:Pipox-14-210-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/Annotated ImagesBMB-WP6Del/Tiffs-Pipox/Pipox-14_210-reprom-overview.tif
+Dataset:name:Pipox-14-210-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-reprom - 2015-06-24 00.38.00.ndpi
+Dataset:name:Pipox-14-210-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-Sali - 2015-06-24 00.13.49.ndpi
+Dataset:name:Pipox-14-210-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-210-skin - 2015-06-24 01.07.55.ndpi
+Dataset:name:Pipox-14-211-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-brain - 2015-06-24 01.15.48.ndpi
+Dataset:name:Pipox-14-211-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-eye - 2015-06-24 02.26.41.ndpi
+Dataset:name:Pipox-14-211-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-gi - 2015-06-24 01.55.27.ndpi
+Dataset:name:Pipox-14-211-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-heart - 2015-06-24 01.40.44.ndpi
+Dataset:name:Pipox-14-211-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-knee - 2015-06-24 02.19.55.ndpi
+Dataset:name:Pipox-14-211-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-liver - 2015-06-24 01.27.45.ndpi
+Dataset:name:Pipox-14-211-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-LN - 2015-06-24 02.16.27.ndpi
+Dataset:name:Pipox-14-211-reproductive-female	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-reprof - 2015-06-24 02.07.43.ndpi
+Dataset:name:Pipox-14-211-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-Sali - 2015-06-24 01.47.58.ndpi
+Dataset:name:Pipox-14-211-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-211-skin - 2015-06-24 02.30.05.ndpi
+Dataset:name:Pipox-14-291-brain	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-brain - 2015-06-24 02.36.22.ndpi
+Dataset:name:Pipox-14-291-eye	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-eye - 2015-06-24 04.02.47.ndpi
+Dataset:name:Pipox-14-291-gastrointestinal	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-gi - 2015-06-24 03.19.27.ndpi
+Dataset:name:Pipox-14-291-heart	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-heart - 2015-06-24 02.56.31.ndpi
+Dataset:name:Pipox-14-291-knee	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-knee - 2015-06-24 03.48.40.ndpi
+Dataset:name:Pipox-14-291-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-liver - 2015-06-24 02.45.48.ndpi
+Dataset:name:Pipox-14-291-lymph-node	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-LN - 2015-06-24 03.41.33.ndpi
+Dataset:name:Pipox-14-291-reproductive-male	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-reprom - 2015-06-24 03.30.47.ndpi
+Dataset:name:Pipox-14-291-salivary-gland	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-Sali - 2015-06-24 03.11.24.ndpi
+Dataset:name:Pipox-14-291-skin	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/RawDataTCP-linesWP6final/Pipox-TCP/Pipox-14-291-skin - 2015-06-24 04.14.36.ndpi
+Dataset:name:PML-09-1625-choroid-plexus	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/PML_09-1625-1a-a.tif
+Dataset:name:PML-09-1625-choroid-plexus	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/PML_09-1625-1a-b.tif
+Dataset:name:PML-09-1625-choroid-plexus	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/PML_09-1625-1a-c.tif
+Dataset:name:PML-09-1625-choroid-plexus	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/PML_09-1625-1a-d.tif
+Dataset:name:RXFP2-13-932-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3a.tif
+Dataset:name:RXFP2-13-932-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3b.tif
+Dataset:name:RXFP2-13-932-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3c.tif
+Dataset:name:RXFP2-13-932-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3d.tif
+Dataset:name:RXFP2-13-932-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3e.tif
+Dataset:name:RXFP2-13-932-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3f.tif
+Dataset:name:RXFP2-13-932-liver	/uod/idr/filesets/idr0018-neff-histopathology/20160503-neff-disk/PhotosMitocheckPhenotype-WP6.2 Del/RXFP2_13-932-3g.tif
