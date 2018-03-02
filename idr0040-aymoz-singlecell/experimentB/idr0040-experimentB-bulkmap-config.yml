@@ -36,8 +36,8 @@ columns:
   - name: Experimental Condition [Treatment]
     clientname: Treatment
     include: yes
-  - name: Experimental Condition [Genotype]
-    clientname: Genotype
+  - name: Experimental Condition [Experimental Genotype]
+    clientname: Experimental Genotype
     include: yes
   - name: Channels
     clientname: Channels
