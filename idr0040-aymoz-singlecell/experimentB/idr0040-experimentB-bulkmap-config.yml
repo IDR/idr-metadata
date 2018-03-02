@@ -45,7 +45,7 @@ columns:
   - name: Comment [Gene Identifier]
     clientname: Gene Identifier
     include: yes
-  - name: Comment[Gene Symbol]
+  - name: Comment [Gene Symbol]
     clientname: Gene Symbol
     include: yes
 
