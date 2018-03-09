@@ -503,6 +503,7 @@ Dataset:name:YSP643_AGA1y_FIG1r_MatingAlone	/uod/idr/filesets/idr0040-aymoz-sing
 Dataset:name:YSP643_AGA1y_FIG1r_MatingAlone	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2844/Pos7	Pos7
 Dataset:name:YSP643_AGA1y_FIG1r_MatingAlone	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2844/Pos8	Pos8
 Dataset:name:YSP643_AGA1y_FIG1r_MatingAlone	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2844/Pos9	Pos9
+Dataset:name:YSP643_AGA1y_FIG1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2817/Pos30	Pos30
 Dataset:name:YSP643_AGA1y_FIG1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2817/Pos31	Pos31
 Dataset:name:YSP643_AGA1y_FIG1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2817/Pos32	Pos32
 Dataset:name:YSP643_AGA1y_FIG1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2817/Pos33	Pos33
@@ -527,16 +528,16 @@ Dataset:name:YDA352_FIG1y_FIG1syn_PREIInc _to_consensus*AGA1r_PheromoneTreatment
 Dataset:name:YDA352_FIG1y_FIG1syn_PREIInc _to_consensus*AGA1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3333/Pos42	Pos42
 Dataset:name:YDA352_FIG1y_FIG1syn_PREIInc _to_consensus*AGA1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3333/Pos43	Pos43
 Dataset:name:YDA352_FIG1y_FIG1syn_PREIInc _to_consensus*AGA1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3333/Pos44	Pos44
-Dataset:name:YDA348_AGA1y_AGA1r_kar4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos20	Pos20
-Dataset:name:YDA348_AGA1y_AGA1r_kar4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos21	Pos21
-Dataset:name:YDA348_AGA1y_AGA1r_kar4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos22	Pos22
-Dataset:name:YDA348_AGA1y_AGA1r_kar4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos23	Pos23
-Dataset:name:YDA348_AGA1y_AGA1r_kar4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos24	Pos24
-Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos0	Pos0
-Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos1	Pos1
-Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos2	Pos2
-Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos3	Pos3
-Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos4	Pos4
+Dataset:name:YDA348_AGA1y_AGA1r_kar4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos20	Pos20
+Dataset:name:YDA348_AGA1y_AGA1r_kar4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos21	Pos21
+Dataset:name:YDA348_AGA1y_AGA1r_kar4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos22	Pos22
+Dataset:name:YDA348_AGA1y_AGA1r_kar4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos23	Pos23
+Dataset:name:YDA348_AGA1y_AGA1r_kar4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3320/Pos24	Pos24
+Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos0	Pos0
+Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos1	Pos1
+Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos2	Pos2
+Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos3	Pos3
+Dataset:name:YDA326_FIG1y_FIG1syn_PREIInc _to_consensusr_KAR4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3236/Pos4	Pos4
 Dataset:name:YDA313_FIG1y_FIG1syn_PREIInc _to_consensusr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos30	Pos30
 Dataset:name:YDA313_FIG1y_FIG1syn_PREIInc _to_consensusr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos31	Pos31
 Dataset:name:YDA313_FIG1y_FIG1syn_PREIInc _to_consensusr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos32	Pos32
@@ -622,6 +623,11 @@ Dataset:name:YSP615_Ste7DSy_AGA1r_PheromoneTreatment	/uod/idr/filesets/idr0040-a
 Dataset:name:YSP615_Ste7DSy_AGA1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos2	Pos2
 Dataset:name:YSP615_Ste7DSy_AGA1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos3	Pos3
 Dataset:name:YSP615_Ste7DSy_AGA1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos4	Pos4
+Dataset:name:YSP614_Ste7DSy_FIG1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2817/Pos15	Pos15
+Dataset:name:YSP614_Ste7DSy_FIG1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2817/Pos16	Pos16
+Dataset:name:YSP614_Ste7DSy_FIG1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2817/Pos17	Pos17
+Dataset:name:YSP614_Ste7DSy_FIG1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2817/Pos18	Pos18
+Dataset:name:YSP614_Ste7DSy_FIG1r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2817/Pos19	Pos19
 Dataset:name:YSP664_AGA1y_PRM5r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2854/Pos5	Pos5
 Dataset:name:YSP664_AGA1y_PRM5r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2854/Pos6	Pos6
 Dataset:name:YSP664_AGA1y_PRM5r_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2854/Pos7	Pos7
@@ -667,51 +673,51 @@ Dataset:name:YDA316_AGA1y_PRM3r_KAR4D_PheromoneTreatment	/uod/idr/filesets/idr00
 Dataset:name:YDA316_AGA1y_PRM3r_KAR4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3200/Pos17	Pos17
 Dataset:name:YDA316_AGA1y_PRM3r_KAR4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3200/Pos18	Pos18
 Dataset:name:YDA316_AGA1y_PRM3r_KAR4D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3200/Pos19	Pos19
-Dataset:name:YDA314_FIG1y_FIG1syn_PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos35	Pos35
-Dataset:name:YDA314_FIG1y_FIG1syn_PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos36	Pos36
-Dataset:name:YDA314_FIG1y_FIG1syn_PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos37	Pos37
-Dataset:name:YDA314_FIG1y_FIG1syn_PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos38	Pos38
-Dataset:name:YDA314_FIG1y_FIG1syn_PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos39	Pos39
-Dataset:name:YDA305_AGA1y_FIG1r_dig1dig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos20	Pos20
-Dataset:name:YDA305_AGA1y_FIG1r_dig1dig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos21	Pos21
-Dataset:name:YDA305_AGA1y_FIG1r_dig1dig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos22	Pos22
-Dataset:name:YDA305_AGA1y_FIG1r_dig1dig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos23	Pos23
-Dataset:name:YDA305_AGA1y_FIG1r_dig1dig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos24	Pos24
-Dataset:name:YDA263_AGA1y_AGA1syn_PREIPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos5	Pos5
-Dataset:name:YDA263_AGA1y_AGA1syn_PREIPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos6	Pos6
-Dataset:name:YDA263_AGA1y_AGA1syn_PREIPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos7	Pos7
-Dataset:name:YDA263_AGA1y_AGA1syn_PREIPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos8	Pos8
-Dataset:name:YDA263_AGA1y_AGA1syn_PREIPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos9	Pos9
-Dataset:name:YDA258_FIG1y_FIG1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos5	Pos5
-Dataset:name:YDA258_FIG1y_FIG1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos6	Pos6
-Dataset:name:YDA258_FIG1y_FIG1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos7	Pos7
-Dataset:name:YDA258_FIG1y_FIG1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos8	Pos8
-Dataset:name:YDA258_FIG1y_FIG1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos9	Pos9
-Dataset:name:YDA257_FIG1y_FIG1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos25	Pos25
-Dataset:name:YDA257_FIG1y_FIG1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos26	Pos26
-Dataset:name:YDA257_FIG1y_FIG1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos27	Pos27
-Dataset:name:YDA257_FIG1y_FIG1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos28	Pos28
-Dataset:name:YDA257_FIG1y_FIG1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos29	Pos29
-Dataset:name:YDA256_FIG1y_FIG1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos10	Pos10
-Dataset:name:YDA256_FIG1y_FIG1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos11	Pos11
-Dataset:name:YDA256_FIG1y_FIG1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos12	Pos12
-Dataset:name:YDA256_FIG1y_FIG1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos13	Pos13
-Dataset:name:YDA256_FIG1y_FIG1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos14	Pos14
-Dataset:name:YDA240_AGA1y_AGA1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos25	Pos25
-Dataset:name:YDA240_AGA1y_AGA1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos26	Pos26
-Dataset:name:YDA240_AGA1y_AGA1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos27	Pos27
-Dataset:name:YDA240_AGA1y_AGA1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos28	Pos28
-Dataset:name:YDA240_AGA1y_AGA1syn_PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos29	Pos29
-Dataset:name:YDA239_AGA1y_AGA1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos30	Pos30
-Dataset:name:YDA239_AGA1y_AGA1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos31	Pos31
-Dataset:name:YDA239_AGA1y_AGA1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos32	Pos32
-Dataset:name:YDA239_AGA1y_AGA1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos33	Pos33
-Dataset:name:YDA239_AGA1y_AGA1syn_PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos34	Pos34
-Dataset:name:YDA238_AGA1y_AGA1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos35	Pos35
-Dataset:name:YDA238_AGA1y_AGA1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos36	Pos36
-Dataset:name:YDA238_AGA1y_AGA1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos37	Pos37
-Dataset:name:YDA238_AGA1y_AGA1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos38	Pos38
-Dataset:name:YDA238_AGA1y_AGA1syn_PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos39	Pos39
+Dataset:name:YDA314_FIG1y_FIG1syn__PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos35	Pos35
+Dataset:name:YDA314_FIG1y_FIG1syn__PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos36	Pos36
+Dataset:name:YDA314_FIG1y_FIG1syn__PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos37	Pos37
+Dataset:name:YDA314_FIG1y_FIG1syn__PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos38	Pos38
+Dataset:name:YDA314_FIG1y_FIG1syn__PREIIncr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3201/Pos39	Pos39
+Dataset:name:YDA305_AGA1y_FIG1r_dig1Ddig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos20	Pos20
+Dataset:name:YDA305_AGA1y_FIG1r_dig1Ddig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos21	Pos21
+Dataset:name:YDA305_AGA1y_FIG1r_dig1Ddig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos22	Pos22
+Dataset:name:YDA305_AGA1y_FIG1r_dig1Ddig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos23	Pos23
+Dataset:name:YDA305_AGA1y_FIG1r_dig1Ddig2D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/3103/Pos24	Pos24
+Dataset:name:YDA263_AGA1y_AGA1syn__PREIDPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos5	Pos5
+Dataset:name:YDA263_AGA1y_AGA1syn__PREIDPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos6	Pos6
+Dataset:name:YDA263_AGA1y_AGA1syn__PREIDPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos7	Pos7
+Dataset:name:YDA263_AGA1y_AGA1syn__PREIDPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos8	Pos8
+Dataset:name:YDA263_AGA1y_AGA1syn__PREIDPREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2956/Pos9	Pos9
+Dataset:name:YDA258_FIG1y_FIG1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos5	Pos5
+Dataset:name:YDA258_FIG1y_FIG1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos6	Pos6
+Dataset:name:YDA258_FIG1y_FIG1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos7	Pos7
+Dataset:name:YDA258_FIG1y_FIG1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos8	Pos8
+Dataset:name:YDA258_FIG1y_FIG1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos9	Pos9
+Dataset:name:YDA257_FIG1y_FIG1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos25	Pos25
+Dataset:name:YDA257_FIG1y_FIG1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos26	Pos26
+Dataset:name:YDA257_FIG1y_FIG1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos27	Pos27
+Dataset:name:YDA257_FIG1y_FIG1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos28	Pos28
+Dataset:name:YDA257_FIG1y_FIG1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2898/Pos29	Pos29
+Dataset:name:YDA256_FIG1y_FIG1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos10	Pos10
+Dataset:name:YDA256_FIG1y_FIG1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos11	Pos11
+Dataset:name:YDA256_FIG1y_FIG1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos12	Pos12
+Dataset:name:YDA256_FIG1y_FIG1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos13	Pos13
+Dataset:name:YDA256_FIG1y_FIG1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2899/Pos14	Pos14
+Dataset:name:YDA240_AGA1y_AGA1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos25	Pos25
+Dataset:name:YDA240_AGA1y_AGA1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos26	Pos26
+Dataset:name:YDA240_AGA1y_AGA1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos27	Pos27
+Dataset:name:YDA240_AGA1y_AGA1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos28	Pos28
+Dataset:name:YDA240_AGA1y_AGA1syn__PREIIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos29	Pos29
+Dataset:name:YDA239_AGA1y_AGA1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos30	Pos30
+Dataset:name:YDA239_AGA1y_AGA1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos31	Pos31
+Dataset:name:YDA239_AGA1y_AGA1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos32	Pos32
+Dataset:name:YDA239_AGA1y_AGA1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos33	Pos33
+Dataset:name:YDA239_AGA1y_AGA1syn__PREIIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos34	Pos34
+Dataset:name:YDA238_AGA1y_AGA1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos35	Pos35
+Dataset:name:YDA238_AGA1y_AGA1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos36	Pos36
+Dataset:name:YDA238_AGA1y_AGA1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos37	Pos37
+Dataset:name:YDA238_AGA1y_AGA1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos38	Pos38
+Dataset:name:YDA238_AGA1y_AGA1syn__PREIr_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2869/Pos39	Pos39
 Dataset:name:YDA219_AGA1y_FIG1r_arp8D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2902/Pos25	Pos25
 Dataset:name:YDA219_AGA1y_FIG1r_arp8D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2902/Pos26	Pos26
 Dataset:name:YDA219_AGA1y_FIG1r_arp8D_PheromoneTreatment	/uod/idr/filesets/idr0040-aymoz-singlecell/20180215/2902/Pos27	Pos27
