@@ -21,9 +21,6 @@ defaults:
 
 columns:
 
-  - name: Characteristics [Organism]
-    clientname: Organism
-    include: yes
   - name: Characteristics [Strain]
     clientname: Strain
     include: yes
@@ -36,17 +33,8 @@ columns:
   - name: Experimental Condition [Treatment]
     clientname: Treatment
     include: yes
-  - name: Experimental Condition [Experimental Genotype]
-    clientname: Experimental Genotype
-    include: yes
   - name: Channels
     clientname: Channels
-    include: yes
-  - name: Comment [Gene Identifier]
-    clientname: Gene Identifier
-    include: yes
-  - name: Comment [Gene Symbol]
-    clientname: Gene Symbol
     include: yes
 
 ######################################################################
@@ -68,7 +56,7 @@ columns:
         include: yes
       - name: Comment [Gene Identifier]
         clientname: Gene Identifier URL
-        clientvalue: http://www.ensembl.org/id/{{ value|urlencode }}
+        clientvalue: http://www.yeastgenome.org/locus/{{ value|urlencode }}/overview
         include: yes
       - name: Comment [Gene Symbol]
         clientname: Gene Symbol
