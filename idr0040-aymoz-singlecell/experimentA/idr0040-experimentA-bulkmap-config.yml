@@ -30,6 +30,9 @@ columns:
   - name: Characteristics [Mating Type]
     clientname: Mating Type
     include: yes
+  - name: Term Source Accession
+    clientname: EFO term
+    include: yes
   - name: Experimental Condition [Treatment]
     clientname: Treatment
     include: yes
