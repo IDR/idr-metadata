@@ -1,0 +1,44 @@
+{
+  "channels": [
+    {
+      "index": 1, 
+      "min": 1877, 
+      "color": "ffffff", 
+      "max": 11073, 
+      "label": "00-BF0", 
+      "active": true
+    }, 
+    {
+      "index": 2, 
+      "min": 114, 
+      "color": "33ffff", 
+      "max": 1877, 
+      "label": "06-CFPtriple", 
+      "active": true
+    }, 
+    {
+      "index": 3, 
+      "min": 228, 
+      "color": "ff0033", 
+      "max": 3822, 
+      "label": "08-RFPtriple", 
+      "active": true
+    }, 
+    {
+      "index": 4, 
+      "min": 88, 
+      "color": "ffff00", 
+      "max": 887, 
+      "label": "07-YFPtriple", 
+      "active": true
+    }, 
+    {
+      "index": 5, 
+      "min": 1943, 
+      "color": "ffffff", 
+      "max": 12238, 
+      "label": "00-BF1", 
+      "active": true
+    }
+  ]
+}
