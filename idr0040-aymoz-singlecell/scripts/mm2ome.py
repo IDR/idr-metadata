@@ -8,7 +8,7 @@ from sys import argv
 # converts it to an OME compatible json file (with name '*_ome_*.json').
 #
 
-outchannels = []
+outchannels = {}
 outfile = ""
 
 with open(argv[1], 'r') as f:
@@ -19,7 +19,6 @@ with open(argv[1], 'r') as f:
     index = 1
     for channel in data['Channels']:
         outchannel = {}
-        outchannel['index'] = index
 
         color = channel['Color']+2**24
         color = str(hex(color))
@@ -40,7 +39,7 @@ with open(argv[1], 'r') as f:
         else:
             outchannel['active'] = False
 
-        outchannels.append(outchannel)
+        outchannels[str(index)] = outchannel
 
         index += 1
 

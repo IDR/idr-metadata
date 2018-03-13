@@ -1,44 +1,39 @@
 {
-  "channels": [
-    {
-      "index": 1, 
-      "min": 2171, 
+  "channels": {
+    "1": {
       "color": "ffffff", 
       "max": 9565, 
-      "label": "00-BF0", 
-      "active": true
+      "min": 2171, 
+      "active": true, 
+      "label": "00-BF0"
     }, 
-    {
-      "index": 2, 
-      "min": 119, 
-      "color": "33ffff", 
-      "max": 1529, 
-      "label": "06-CFPtriple", 
-      "active": true
-    }, 
-    {
-      "index": 3, 
-      "min": 262, 
+    "3": {
       "color": "ff0033", 
       "max": 3833, 
-      "label": "08-RFPtriple", 
-      "active": true
+      "min": 262, 
+      "active": true, 
+      "label": "08-RFPtriple"
     }, 
-    {
-      "index": 4, 
-      "min": 96, 
-      "color": "ffff00", 
-      "max": 1112, 
-      "label": "07-YFPtriple", 
-      "active": true
+    "2": {
+      "color": "33ffff", 
+      "max": 1529, 
+      "min": 119, 
+      "active": true, 
+      "label": "06-CFPtriple"
     }, 
-    {
-      "index": 5, 
-      "min": 2025, 
+    "5": {
       "color": "ffffff", 
       "max": 10699, 
-      "label": "00-BF1", 
-      "active": true
+      "min": 2025, 
+      "active": true, 
+      "label": "00-BF1"
+    }, 
+    "4": {
+      "color": "ffff00", 
+      "max": 1112, 
+      "min": 96, 
+      "active": true, 
+      "label": "07-YFPtriple"
     }
-  ]
+  }
 }
