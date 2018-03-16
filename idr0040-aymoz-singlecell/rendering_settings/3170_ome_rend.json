@@ -4,7 +4,7 @@
       "color": "ffffff", 
       "max": 8593, 
       "min": 2377, 
-      "active": true, 
+      "active": false, 
       "label": "00-BF0"
     }, 
     "3": {
@@ -25,7 +25,7 @@
       "color": "ffffff", 
       "max": 10239, 
       "min": 2018, 
-      "active": true, 
+      "active": false, 
       "label": "00-BF1"
     }, 
     "4": {
