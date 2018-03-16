@@ -1,0 +1,97 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.				
+				
+# STUDY DESCRIPTION SECTION				
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"				
+				
+Comment[IDR Study Accession]	idr0040 		
+Study Title	Timing of gene expression in a cell-fate decision system			
+Study Type 		
+Study Type Term Source REF				
+Study Type Term Accession				
+Study Description	"During development, morphogens provide extracellular cues allowing cells to select a specific fate by inducing complex transcriptional programs. The mating pathway in budding yeast offers simplified settings to understand this process. Pheromone secreted by the mating partner triggers the activity of a MAPK pathway, which results in the expression of hundreds of genes. Using a dynamic expression reporter, we quantified the kinetics of gene expression in single cells upon exogenous pheromone stimulation and in the physiological context of mating. In both conditions, we observed striking differences in the timing of induction of mating-responsive promoters. Biochemical analyses and generation of synthetic promoter variants demonstrated how the interplay between transcription factor binding and nucleosomes contribute to determine the kinetics of transcription in a simplified cell-fate decision system. "		 	
+Study Organism Saccharomyces cerevisiae			
+Study Organism Term Source REF	NCBITaxon			
+Study Organism Term Accession	NCBITaxon_4932			
+Study Experiments Number	30			
+Study External URL				
+Study Public Release Date				
+				
+# Study Publication				
+Study PubMed ID				
+Study Publication Title	Timing of gene expression in a cell-fate decision system			
+Study Author List	"Delphine Aymoz, Carme Solé, Jean-Jerrold Pierre, Marta Schmitt, Eulàlia de Nadal, Francesc Posas, Serge Pelet"			
+Study PMC ID				
+Study DOI				
+				
+# Study Contacts				
+Study Person Last Name	Pelet	
+Study Person First Name	Serge	
+Study Person Email	serge.pelet@unil.ch		
+Study Person Address	"Département de Microbiologie Fondamentale - Bâtiment Biophore - 1015 Lausanne"		
+Study Person Roles	submitter
+				
+# Study License and Data DOI				
+Study License		
+Study License URL 		
+Study Copyright
+Study Data Publisher	
+Study Data DOI			
+				
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
+				
+				
+# EXPERIMENT SECTION				
+"# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment"				
+				
+Experiment Number	1			
+Comment[IDR Experiment Name]	idr0040-aymoz-singlecell/experimentA			
+Experiment Data Publisher				
+Experiment Data DOI			
+Experiment Description	"Time-lapse with addition of 1uM alpha-factor at time 0"			
+Experiment Size	5D Images: 	1 Tb
+Experiment Example Images		
+Experiment Imaging Method	Fluorescent microscopy			
+Experiment Imaging Method Term Source REF				
+Experiment Imaging Method Term Accession			
+Experiment Comments				
+				
+# assay files				
+Experiment Assay File		
+Experiment Assay File Format	tab-delimited text file			
+Assay Experimental Conditions
+Assay Experimental Conditions Term Source REF	
+Assay Experimental Conditions Term Accession
+Quality Control Description				
+				
+# Protocols				
+Protocol Name	"Overnight + 4h" "Pheromone treatment" "Time-lapse induction" "YeastQuant analysis"
+Protocol Type	"Overnight + 4h" "Pheromone treatment" "Time-lapse induction" "YeastQuant analysis"
+Protocol Type Term Source REF	
+Protocol Type Term Accession	
+Protocol Description	"The cells were grown overnight in selective synthetic medium to saturation (YNB:CYN3801, CSM:DCS0031, ForMedium). They were diluted to an OD600 of 0.05 in the morning and grown for 4 hours before starting the experiment." "All the time-lapse experiments were performed in well slides, for which selected wells of 96-well plates (MGB096-1-2LG, Matrical Bioscience) were coated with filtered solution of Concanavalin A in H2O (0.5 mg/ml, C2010-250MG, Sigma- Aldrich) for 30 minutes, rinsed with H2O and dried for at least ten hours. Before the experiments, the cells were diluted to an OD600 of 0.04, briefly sonicated, and 200μL of cell suspension were added to a well. Imaging was started 30 minutes later, so as to let the cells settle to the bottom to the well. To stimulate the cells, 100 μL of a 3 μM solution of synthetic exogenous α-factor (gift from M. Peter’s lab.) was added in the well before the 4th timepoint to reach a final 1 μM concentration of pheromone." "Images were acquired on a fully automated inverted epi-fluorescence microscope (Ti-Eclipse, Nikon) controlled by Micro-Manager (Edelstein et al, 2010) and placed in an incubation chamber set at 30°C, with a 40X oil objective and appropriate excitation and emission filters. The excitation was provided by a solid-state light source (SpectraX, Lumencor). The images were recorded with a sCMOS camera (Flash4.0, Hamamatsu). A motorized XY-stage allowed recording multiple fields of view at every time point, typically 5 positions per well. CFP (50ms), RFP (300ms) and YFP (300ms) and 2 bright-field (10ms) images were recorded at time intervals of 5 minutes." "Time-lapse movies were analyzed with the YeastQuant platform (Pelet et al, 2012). Briefly, the nuclei of the cells were segmented by thresholding of the CFP images. The contour of the cell around each nucleus was detected using two bright-field images. The cytoplasm object was obtained by removing the nucleus object expanded by two pixels from the cell object. " 
+
+# Phenotypes				
+Phenotype Name				
+Phenotype Description				
+Phenotype Score Type				
+Phenotype Term Source REF				
+Phenotype Term Name				
+Phenotype Term Accession			 	
+				
+# Feature Level Data Files (give individual file details unless there is one file per well)				
+Feature Level Data File Name				
+Feature Level Data File Format				
+Feature Level Data File Description				
+Feature Level Data Column Name				
+Feature Level Data Column Description				
+				
+#  Processed Data Files				
+Processed Data File Name				
+Processed Data File Format				
+Processed Data File Description				
+Processed Data Column Name				
+Processed Data Column Type				
+Processed Data Column Annotation Level				
+Processed Data Column Description				
+Processed Data Column Link To Assay File				
