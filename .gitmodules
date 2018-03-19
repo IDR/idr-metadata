@@ -2,6 +2,3 @@
 	path = idr0000-lastname-example
 	url = git://github.com/IDR/idr0000-lastname-example
 	branch = master
-[submodule "idr0042-nirschl-wsideeplearning"]
-	path = idr0042-nirschl-wsideeplearning
-	url = git://github.com/IDR/idr0042-nirschl-wsideeplearning
