@@ -79,7 +79,8 @@ class StudyParser():
     def parse_component(self, index):
         lines = self.get_component_lines(index + 1)
         for key1, key2 in self.MANDATORY_COMPONENT_KEYS.iteritems():
-            self.components[index][key1] = self.get_value(key2 % self.type, lines=lines)
+            self.components[index][key1] = self.get_value(
+                key2 % self.type, lines=lines)
 
     def get_component_lines(self, index):
         EXPERIMENT_NUMBER_PATTERN = re.compile("^%s Number\t(\d+)" % self.type)
@@ -99,7 +100,7 @@ class StudyParser():
 
 if __name__ == "__main__":
     if len(sys.argv) == 0:
-        raise Ex("Requires one study file as an input")
+        raise Exception("Requires one study file as an input")
     logging.info("Reading %s" % sys.argv[1])
     with open(sys.argv[1], 'r') as f:
         parser = StudyParser(f.readlines())
