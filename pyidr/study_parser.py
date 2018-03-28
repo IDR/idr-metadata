@@ -105,7 +105,7 @@ class StudyObject():
         self.map = self.generate_annotation(parser)
 
     def generate_description(self, parser):
-        return "Publication Title\n%s\n\nStudyDescription\n%s" % (
+        return "Publication Title\n%s\n\nStudy Description\n%s" % (
              parser.study['Publication Title'],
              parser.study['Description'])
 
