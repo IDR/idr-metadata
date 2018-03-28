@@ -98,9 +98,34 @@ class StudyParser():
         return lines
 
 
+class StudyObject():
+
+    def __init__(self, parser):
+        self.description = self.generate_description(parser)
+        self.map = self.generate_annotation(parser)
+
+    def generate_description(self, parser):
+        return "Publication Title\n%s\n\nStudyDescription\n%s" % (
+             parser.study['Publication Title'],
+             parser.study['Description'])
+
+    def generate_annotation(self, parser):
+        KEYS = ['Study Type', 'Publication Title', 'Publication Authors',
+                'PubMed ID', 'Publication DOI', 'Publication Preprint',
+                'License', 'Copyright']
+        s = ''
+        for key in KEYS:
+            s += '(%s,%s)' % (key, parser.study.get(key, 'None'))
+        return s
+
+
 if __name__ == "__main__":
     if len(sys.argv) == 0:
         raise Exception("Requires one study file as an input")
     logging.info("Reading %s" % sys.argv[1])
     with open(sys.argv[1], 'r') as f:
         parser = StudyParser(f.readlines())
+    if len(sys.argv) == 3 and sys.argv[2] == '--report':
+        s = StudyObject(parser)
+        print "description:\n%s\n" % s.description
+        print "attributes:\n%s\n" % s.map
