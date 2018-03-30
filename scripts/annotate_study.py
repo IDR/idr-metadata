@@ -12,10 +12,34 @@ Example:
 import argparse
 import csv
 
-from pyidr.mapannotations import create_map_annotation
-# This import needs to come after the above, otherwise there's a mysterious
-# "ImportError: cannot import name NamedValue" error
+import omero.clients
 from omero.cli import CLI, ProxyStringType
+from omero.model import MapAnnotationI, NamedValue
+from omero.rtypes import rstring
+
+
+def create_map_annotation(targets, rowkvs, ns):
+    ma = MapAnnotationI()
+    ma.setNs(rstring(ns))
+    mv = []
+    for k, vs in rowkvs:
+        if not isinstance(vs, (tuple, list)):
+            vs = [vs]
+        mv.extend(NamedValue(k, str(v)) for v in vs)
+
+    if not mv:
+        raise Exception('Empty MapValue')
+
+    ma.setMapValue(mv)
+
+    links = []
+    for target in targets:
+        otype = target.ice_staticId().split('::')[-1]
+        link = getattr(omero.model, '%sAnnotationLinkI' % otype)()
+        link.setParent(target)
+        link.setChild(ma)
+        links.append(link)
+    return links
 
 
 # Mapping of
