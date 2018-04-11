@@ -5,3 +5,9 @@
 [submodule "idr0040-aymoz-singlecell"]
 	path = idr0040-aymoz-singlecell
 	url = git://github.com/IDR/idr0040-aymoz-singlecell
+[submodule "idr0041-cai-mitoticatlas"]
+	path = idr0041-cai-mitoticatlas
+	url = git://github.com/IDR/idr0041-cai-mitoticatlas
+[submodule "idr0042-nirschl-wsideeplearning"]
+	path = idr0042-nirschl-wsideeplearning
+	url = git://github.com/IDR/idr0042-nirschl-wsideeplearning
