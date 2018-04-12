@@ -122,6 +122,8 @@ class StudyParser():
                     return lines
             if found:
                 lines.append(line)
+        if not lines:
+            raise Exception("Could not find %s %g" % (component_type, index))
         return lines
 
 
