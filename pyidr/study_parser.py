@@ -15,9 +15,9 @@ MANDATORY_STUDY_KEYS = [
     'Study Type',
     'Study Publication Title',
     'Study Author List',
+    'Study Organism',
 ]
 OPTIONAL_STUDY_KEYS = [
-    'Study Organism',
     'Study Publication Preprint',
     'Study PubMed ID',
     'Study PMC ID',
@@ -34,6 +34,7 @@ MANDATORY_EXPERIMENT_KEYS = [
     'Comment\[IDR Experiment Name\]',
     'Experiment Description',
     'Experiment Imaging Method',
+    'Experiment Number'
 ]
 OPTIONAL_EXPERIMENT_KEYS = [
     'Experiment Data DOI',
@@ -65,6 +66,8 @@ class StudyParser():
             self.parse_experiments()
         if 'Study Screens Number' in self.study:
             self.parse_screens()
+        if not self.experiments and not self.screens:
+            raise Exception("Need to define at least one screen or experiment")
 
     def get_value(self, key, expr=".*", fail_on_missing=True, lines=None):
         pattern = re.compile("^%s\t(%s)" % (key, expr))
