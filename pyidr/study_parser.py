@@ -59,13 +59,29 @@ class StudyParser():
 
     def __init__(self, s):
         self._study_file = s
+        # Parse study section
         self.study = self.parse(MANDATORY_STUDY_KEYS, OPTIONAL_STUDY_KEYS)
-        self.experiments = []
-        self.screens = []
-        if 'Study Experiments Number' in self.study:
-            self.parse_experiments()
-        if 'Study Screens Number' in self.study:
-            self.parse_screens()
+
+        # Parse experiment sections
+        n_experiments = int(self.study.get('Study Experiments Number', 0))
+        self.experiments = [{}] * n_experiments
+        for i in range(n_experiments):
+            logging.debug("Parsing experiment %g" % (i + 1))
+            self.experiments[i] = self.parse(
+                MANDATORY_EXPERIMENT_KEYS, OPTIONAL_EXPERIMENT_KEYS,
+                lines=self.get_lines(i + 1, "Experiment"))
+            self.experiments[i].update(self.study)
+
+        # Parse screen sections
+        n_screens = int(self.study.get('Study Screens Number', 0))
+        self.screens = [{}] * n_screens
+        for i in range(n_screens):
+            logging.debug("Parsing screen %g" % (i + 1))
+            self.screens[i] = self.parse(
+                MANDATORY_SCREEN_KEYS, OPTIONAL_SCREEN_KEYS,
+                lines=self.get_lines(i + 1, "Screen"))
+            self.screens[i].update(self.study)
+
         if not self.experiments and not self.screens:
             raise Exception("Need to define at least one screen or experiment")
 
@@ -89,28 +105,6 @@ class StudyParser():
             if value:
                 d[key] = value
         return d
-
-    def parse_experiments(self):
-        n = int(self.study['Study Experiments Number'])
-        self.experiments = [{}] * n
-
-        for i in range(len(self.experiments)):
-            logging.debug("Parsing experiment %g" % (i + 1))
-            self.experiments[i] = self.parse(
-                MANDATORY_EXPERIMENT_KEYS, OPTIONAL_EXPERIMENT_KEYS,
-                lines=self.get_lines(i + 1, "Experiment"))
-            self.experiments[i].update(self.study)
-
-    def parse_screens(self):
-        n = int(self.study['Study Screens Number'])
-        self.screens = [{}] * n
-
-        for i in range(len(self.screens)):
-            logging.debug("Parsing screen %g" % (i + 1))
-            self.screens[i] = self.parse(
-                MANDATORY_SCREEN_KEYS, OPTIONAL_SCREEN_KEYS,
-                lines=self.get_lines(i + 1, "Screen"))
-            self.screens[i].update(self.study)
 
     def get_lines(self, index, component_type):
         PATTERN = re.compile("^%s Number\t(\d+)" % component_type)
