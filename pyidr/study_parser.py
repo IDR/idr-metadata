@@ -50,7 +50,7 @@ MANDATORY_SCREEN_KEYS = [
 OPTIONAL_SCREEN_KEYS = [
     'Screen Data DOI',
     "Screen Data Publisher",
-    'Screen Technology',
+    'Screen Technology Type',
 ]
 
 
@@ -129,12 +129,37 @@ class StudyParser():
 
 class Object():
 
+    def __init__(self, component):
+        self.name = self.NAME % component
+        self.description = self.generate_description(component)
+        self.map = self.generate_annotation(component)
+
+    def generate_description(self, component):
+        return self.DESCRIPTION % component
+
+    def generate_annotation(self, component):
+
+        s = []
+        for key, formatter in self.MAP_PAIRS:
+            try:
+                s.append(('%s' % key, formatter % component))
+            except KeyError, e:
+                logging.debug("Missing %s" % e.message)
+        return s
+
+
+class Screen(Object):
+
+    NAME = "%(Comment\[IDR Screen Name\])s"
     DESCRIPTION = (
         "Publication Title\n%(Study Publication Title)s\n\n"
-        "Study Description\n%(Study Description)s")
+        "Screen Description\n%(Screen Description)s")
     MAP_PAIRS = [
         ('Study Type', "%(Study Type)s"),
         ('Organism', "%(Study Organism)s"),
+        ('Screen Type', "%(Screen Type)s"),
+        ('Screen Technology Type', "%(Screen Technology Type)s"),
+        ('Imaging Method', "%(Screen Imaging Method)s"),
         ('Publication Title', "%(Study Publication Title)s"),
         ('Publication Authors', "%(Study Author List)s"),
         ('Pubmed ID', "%(Study PubMed ID)s "
@@ -148,45 +173,17 @@ class Object():
          "https://dx.doi.org/%(Study Data DOI)s"),
         ]
 
-    def __init__(self, study):
-        self.name = self.generate_description(study)
-        self.description = self.generate_description(study)
-        self.map = self.generate_annotation(study)
 
-    def generate_description(self, study):
-        return self.DESCRIPTION % study
+class Project(Object):
 
-    def generate_annotation(self, study):
-
-        s = []
-        for key, formatter in self.MAP_PAIRS:
-            try:
-                s.append(('%s' % key, formatter % study))
-            except KeyError, e:
-                logging.debug("Missing %s" % e.message)
-        return s
-
-
-class ScreenObject():
-
-    DESCRIPTION = (
-        "Publication Title\n%(Study Publication Title)s\n\n"
-        "Screen Description\n%(Screen Description)s")
-
-    def __init__(self, study):
-        self.name = self.generate_description(study)
-        self.description = self.generate_description(study)
-        self.map = self.generate_annotation(study)
-
-
-class Experiment():
-
+    NAME = "%(Comment\[IDR Experiment Name\])s"
     DESCRIPTION = (
         "Publication Title\n%(Study Publication Title)s\n\n"
         "Experiment Description\n%(Experiment Description)s")
     MAP_PAIRS = [
         ('Study Type', "%(Study Type)s"),
         ('Organism', "%(Study Organism)s"),
+        ('Imaging Method', "%(Experiment Imaging Method)s"),
         ('Publication Title', "%(Study Publication Title)s"),
         ('Publication Authors', "%(Study Author List)s"),
         ('Pubmed ID', "%(Study PubMed ID)s "
@@ -199,24 +196,6 @@ class Experiment():
         ('Data DOI', "%(Study Data DOI)s "
          "https://dx.doi.org/%(Study Data DOI)s"),
         ]
-
-    def __init__(self, experiment):
-        self.name =  "%(Comment\[IDR Experiment Name\])s" % experiment
-        self.description = self.generate_description(experiment)
-        self.map = self.generate_annotation(experiment)
-
-    def generate_description(self, experiment):
-        return self.DESCRIPTION % experiment
-
-    def generate_annotation(self, experiment):
-
-        s = []
-        for key, formatter in self.MAP_PAIRS:
-            try:
-                s.append(('%s' % key, formatter % experiment))
-            except KeyError, e:
-                logging.debug("Missing %s" % e.message)
-        return s
 
 
 if __name__ == "__main__":
@@ -227,7 +206,13 @@ if __name__ == "__main__":
         parser = StudyParser(f.readlines())
     if len(sys.argv) == 3 and sys.argv[2] == '--report':
         for e in parser.experiments:
-            obj = Experiment(e)
+            logging.info("Generating %s" % sys.argv[1])
+            obj = Project(e)
+            print "name:\n%s\n" % obj.name
+            print "description:\n%s\n" % obj.description
+            print "map:\n%s\n" % obj.map
+        for s in parser.screens:
+            obj = Screen(s)
             print "name:\n%s\n" % obj.name
             print "description:\n%s\n" % obj.description
             print "map:\n%s\n" % obj.map
