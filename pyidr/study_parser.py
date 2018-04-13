@@ -8,7 +8,9 @@ import sys
 logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
 
 TYPES = ["Experiment", "Screen"]
-MANDATORY_STUDY_KEYS = [
+MANDATORY_KEYS = {}
+OPTIONAL_KEYS = {}
+MANDATORY_KEYS["Study"] = [
     'Comment\[IDR Study Accession\]',
     'Study Title',
     'Study Description',
@@ -17,7 +19,7 @@ MANDATORY_STUDY_KEYS = [
     'Study Author List',
     'Study Organism',
 ]
-OPTIONAL_STUDY_KEYS = [
+OPTIONAL_KEYS["Study"] = [
     'Study Publication Preprint',
     'Study PubMed ID',
     'Study PMC ID',
@@ -30,25 +32,25 @@ OPTIONAL_STUDY_KEYS = [
     'Study Experiments Number',
     'Study Screens Number',
 ]
-MANDATORY_EXPERIMENT_KEYS = [
+MANDATORY_KEYS["Experiment"] = [
     'Comment\[IDR Experiment Name\]',
     'Experiment Description',
     'Experiment Imaging Method',
     'Experiment Number'
 ]
-OPTIONAL_EXPERIMENT_KEYS = [
+OPTIONAL_KEYS["Experiment"] = [
     'Experiment Data DOI',
     "Experiment Data Publisher",
 ]
 
-MANDATORY_SCREEN_KEYS = [
+MANDATORY_KEYS["Screen"] = [
     'Comment\[IDR Screen Name\]',
     'Screen Description',
     'Screen Imaging Method',
     'Screen Number',
     'Screen Type',
 ]
-OPTIONAL_SCREEN_KEYS = [
+OPTIONAL_KEYS["Screen"] = [
     'Screen Data DOI',
     "Screen Data Publisher",
     'Screen Technology Type',
@@ -57,38 +59,35 @@ OPTIONAL_SCREEN_KEYS = [
 
 class StudyParser():
 
-    def __init__(self, s):
-        self._study_file = s
-        # Parse study section
-        self.study = self.parse(MANDATORY_STUDY_KEYS, OPTIONAL_STUDY_KEYS)
+    def __init__(self, study_file):
+        self._study_file = study_file
+        self._dir = os.path.dirname(self._study_file)
+        with open(self._study_file, 'r') as f:
+            logging.info("Parsing %s" % sys.argv[1])
+            self._study_lines = f.readlines()
+            self.study = self.parse(
+                MANDATORY_KEYS["Study"], OPTIONAL_KEYS["Study"])
 
-        # Parse experiment sections
-        n_experiments = int(self.study.get('Study Experiments Number', 0))
-        self.experiments = [{}] * n_experiments
-        for i in range(n_experiments):
-            logging.debug("Parsing experiment %g" % (i + 1))
-            self.experiments[i] = self.parse(
-                MANDATORY_EXPERIMENT_KEYS, OPTIONAL_EXPERIMENT_KEYS,
-                lines=self.get_lines(i + 1, "Experiment"))
-            self.experiments[i].update(self.study)
+        self.components = []
+        for t in TYPES:
+            n = int(self.study.get('Study %ss Number' % t, 0))
+            for i in range(n):
+                logging.debug("Parsing %s %g" % (t, i + 1))
 
-        # Parse screen sections
-        n_screens = int(self.study.get('Study Screens Number', 0))
-        self.screens = [{}] * n_screens
-        for i in range(n_screens):
-            logging.debug("Parsing screen %g" % (i + 1))
-            self.screens[i] = self.parse(
-                MANDATORY_SCREEN_KEYS, OPTIONAL_SCREEN_KEYS,
-                lines=self.get_lines(i + 1, "Screen"))
-            self.screens[i].update(self.study)
+                d = self.parse(MANDATORY_KEYS[t], OPTIONAL_KEYS[t],
+                               lines=self.get_lines(i + 1, t))
+                d.update({'Type': t})
+                d.update(self.study)
+                self.parse_annotation_file(d)
+                self.components.append(d)
 
-        if not self.experiments and not self.screens:
+        if not self.components:
             raise Exception("Need to define at least one screen or experiment")
 
     def get_value(self, key, expr=".*", fail_on_missing=True, lines=None):
         pattern = re.compile("^%s\t(%s)" % (key, expr))
         if not lines:
-            lines = self._study_file
+            lines = self._study_lines
         for line in lines:
             m = pattern.match(line)
             if m:
@@ -110,7 +109,7 @@ class StudyParser():
         PATTERN = re.compile("^%s Number\t(\d+)" % component_type)
         found = False
         lines = []
-        for line in self._study_file:
+        for line in self._study_lines:
             m = PATTERN.match(line)
             if m:
                 if int(m.group(1)) == index:
@@ -122,6 +121,36 @@ class StudyParser():
         if not lines:
             raise Exception("Could not find %s %g" % (component_type, index))
         return lines
+
+    def parse_annotation_file(self, component):
+        accession_number = component["Comment\[IDR Study Accession\]"]
+        pattern = re.compile("(%s-\w+-\w+)/(\w+)$" % accession_number)
+        name = component["Comment\[IDR %s Name\]" % component["Type"]]
+        m = pattern.match(name)
+        if not m:
+            raise Exception("Unmatched name %s" % name)
+
+        # Check for annotation.csv file
+        component_path = os.path.join(self._dir, m.group(2))
+        basename = "%s-%s-annotation" % (accession_number, m.group(2))
+        for extension in ['.csv', '.csv.gz']:
+            annotation_filename = "%s%s" % (basename, extension)
+            annotation_path = os.path.join(component_path, annotation_filename)
+            if not os.path.exists(annotation_path):
+                logging.debug("Cannot find %s" % annotation_path)
+                continue
+
+            # Generate GitHub annotation URL
+            base_url = "https://github.com/IDR/%s/blob/master/%s/%s"
+            if os.path.exists(os.path.join(self._dir, ".git")):
+                annotation_url = base_url % (
+                    m.group(1), m.group(2), annotation_filename)
+            else:
+                annotation_url = base_url % (
+                    "idr-metadata", name, annotation_filename)
+            component["Annotation File"] = annotation_url
+            return
+        return
 
 
 class Object():
@@ -168,6 +197,7 @@ class Screen(Object):
         ('Data Publisher', "%(Study Data Publisher)s"),
         ('Data DOI', "%(Study Data DOI)s "
          "https://dx.doi.org/%(Study Data DOI)s"),
+        ('Annotation File', "%(Annotation File)s"),
         ]
 
 
@@ -192,23 +222,24 @@ class Project(Object):
         ('Data Publisher', "%(Study Data Publisher)s"),
         ('Data DOI', "%(Study Data DOI)s "
          "https://dx.doi.org/%(Study Data DOI)s"),
+        ('Annotation File', "%(Annotation File)s"),
         ]
 
 
 if __name__ == "__main__":
     if len(sys.argv) == 0:
         raise Exception("Requires one study file as an input")
-    logging.info("Parsing %s" % sys.argv[1])
-    with open(sys.argv[1], 'r') as f:
-        parser = StudyParser(f.readlines())
+    p = StudyParser(sys.argv[1])
     if len(sys.argv) == 3 and sys.argv[2] == '--report':
-        for e in parser.experiments:
+        experiments = [c for c in p.components if c['Type'] == "Experiment"]
+        for e in experiments:
             logging.info("Generating %s" % sys.argv[1])
             obj = Project(e)
             print "name:\n%s\n" % obj.name
             print "description:\n%s\n" % obj.description
             print "map:\n%s\n" % obj.map
-        for s in parser.screens:
+        screens = [c for c in p.components if c['Type'] == "Screen"]
+        for s in screens:
             obj = Screen(s)
             print "name:\n%s\n" % obj.name
             print "description:\n%s\n" % obj.description
