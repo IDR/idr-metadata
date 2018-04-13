@@ -65,8 +65,9 @@ class StudyParser():
         with open(self._study_file, 'r') as f:
             logging.info("Parsing %s" % sys.argv[1])
             self._study_lines = f.readlines()
-            self.study = self.parse(
-                MANDATORY_KEYS["Study"], OPTIONAL_KEYS["Study"])
+        self.study = self.parse(
+            MANDATORY_KEYS["Study"], OPTIONAL_KEYS["Study"])
+        self.parse_publications()
 
         self.components = []
         for t in TYPES:
@@ -151,6 +152,34 @@ class StudyParser():
             component["Annotation File"] = annotation_url
             return
         return
+
+    def parse_publications(self):
+
+        titles = self.study['Study Publication Title'].split('\t')
+        authors = self.study['Study Author List'].split('\t')
+        assert len(titles) == len(authors), (
+            "Mismatching publication titles and authors")
+        publications = [{"Title": title, "Author List": author}
+                        for title, author in zip(titles, authors)]
+
+        def parse_ids(key, pattern):
+            if key not in self.study:
+                return
+            split_ids = self.study[key].split('\t')
+            key2 = key.strip("Study ")
+            for i in range(len(split_ids)):
+                if not split_ids[i]:
+                    continue
+                m = pattern.match(split_ids[i])
+                if not m:
+                    raise Exception("Invalid %s: %s" % (key2, split_ids[i]))
+                publications[i][key2] = split_ids[i]
+
+        parse_ids("Study PubMed ID", re.compile("\d+"))
+        parse_ids("Study PMC ID", re.compile("PMC\d+"))
+        parse_ids("Study DOI", re.compile("https?://(dx.)?doi.org/(.*)"))
+
+        self.study["Publications"] = publications
 
 
 class Object():
