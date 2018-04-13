@@ -190,7 +190,7 @@ class Object():
         ('Pubmed ID', "%(PubMed ID)s "
          "https://www.ncbi.nlm.nih.gov/pubmed/%(PubMed ID)s"),
         ('PMC ID', "%(PMC ID)s"),
-        ('Publication DOI', "%(Study DOI)s https://dx.doi.org/%(DOI)s"),
+        ('Publication DOI', "%(DOI)s https://dx.doi.org/%(DOI)s"),
     ]
     BOTTOM_PAIRS = [
         ('License', "%(Study License)s %(Study License URL)s"),
