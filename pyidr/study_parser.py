@@ -184,6 +184,23 @@ class StudyParser():
 
 class Object():
 
+    PUBLICATION_PAIRS = [
+        ('Publication Title', "%(Title)s"),
+        ('Publication Authors', "%(Author List)s"),
+        ('Pubmed ID', "%(PubMed ID)s "
+         "https://www.ncbi.nlm.nih.gov/pubmed/%(PubMed ID)s"),
+        ('PMC ID', "%(PMC ID)s"),
+        ('Publication DOI', "%(Study DOI)s https://dx.doi.org/%(DOI)s"),
+    ]
+    BOTTOM_PAIRS = [
+        ('License', "%(Study License)s %(Study License URL)s"),
+        ('Copyright', "%(Study Copyright)s"),
+        ('Data Publisher', "%(Study Data Publisher)s"),
+        ('Data DOI', "%(Study Data DOI)s "
+         "https://dx.doi.org/%(Study Data DOI)s"),
+        ('Annotation File', "%(Annotation File)s"),
+    ]
+
     def __init__(self, component):
         self.name = self.NAME % component
         self.description = self.generate_description(component)
@@ -194,12 +211,18 @@ class Object():
 
     def generate_annotation(self, component):
 
+        def add_key_values(d, pairs):
+            for key, formatter in pairs:
+                try:
+                    s.append(('%s' % key, formatter % d))
+                except KeyError, e:
+                    logging.debug("Missing %s" % e.message)
+
         s = []
-        for key, formatter in self.MAP_PAIRS:
-            try:
-                s.append(('%s' % key, formatter % component))
-            except KeyError, e:
-                logging.debug("Missing %s" % e.message)
+        add_key_values(component, self.TOP_PAIRS)
+        for publication in component["Publications"]:
+            add_key_values(publication, self.PUBLICATION_PAIRS)
+        add_key_values(component, self.BOTTOM_PAIRS)
         return s
 
 
@@ -209,25 +232,13 @@ class Screen(Object):
     DESCRIPTION = (
         "Publication Title\n%(Study Publication Title)s\n\n"
         "Screen Description\n%(Screen Description)s")
-    MAP_PAIRS = [
+    TOP_PAIRS = [
         ('Study Type', "%(Study Type)s"),
         ('Organism', "%(Study Organism)s"),
         ('Screen Type', "%(Screen Type)s"),
         ('Screen Technology Type', "%(Screen Technology Type)s"),
         ('Imaging Method', "%(Screen Imaging Method)s"),
-        ('Publication Title', "%(Study Publication Title)s"),
-        ('Publication Authors', "%(Study Author List)s"),
-        ('Pubmed ID', "%(Study PubMed ID)s "
-         "https://www.ncbi.nlm.nih.gov/pubmed/%(Study PubMed ID)s"),
-        ('PMC ID', "%(Study PMC ID)s"),
-        ('Publication DOI', "%(Study DOI)s https://dx.doi.org/%(Study DOI)s"),
-        ('License', "%(Study License)s %(Study License URL)s"),
-        ('Copyright', "%(Study Copyright)s"),
-        ('Data Publisher', "%(Study Data Publisher)s"),
-        ('Data DOI', "%(Study Data DOI)s "
-         "https://dx.doi.org/%(Study Data DOI)s"),
-        ('Annotation File', "%(Annotation File)s"),
-        ]
+    ]
 
 
 class Project(Object):
@@ -236,22 +247,10 @@ class Project(Object):
     DESCRIPTION = (
         "Publication Title\n%(Study Publication Title)s\n\n"
         "Experiment Description\n%(Experiment Description)s")
-    MAP_PAIRS = [
+    TOP_PAIRS = [
         ('Study Type', "%(Study Type)s"),
         ('Organism', "%(Study Organism)s"),
         ('Imaging Method', "%(Experiment Imaging Method)s"),
-        ('Publication Title', "%(Study Publication Title)s"),
-        ('Publication Authors', "%(Study Author List)s"),
-        ('Pubmed ID', "%(Study PubMed ID)s "
-         "https://www.ncbi.nlm.nih.gov/pubmed/%(Study PubMed ID)s"),
-        ('PMC ID', "%(Study PMC ID)s"),
-        ('Publication DOI', "%(Study DOI)s https://dx.doi.org/%(Study DOI)s"),
-        ('License', "%(Study License)s %(Study License URL)s"),
-        ('Copyright', "%(Study Copyright)s"),
-        ('Data Publisher', "%(Study Data Publisher)s"),
-        ('Data DOI', "%(Study Data DOI)s "
-         "https://dx.doi.org/%(Study Data DOI)s"),
-        ('Annotation File', "%(Annotation File)s"),
         ]
 
 
@@ -266,10 +265,13 @@ if __name__ == "__main__":
             obj = Project(e)
             print "name:\n%s\n" % obj.name
             print "description:\n%s\n" % obj.description
-            print "map:\n%s\n" % obj.map
+            print "map:"
+            print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
+
         screens = [c for c in p.components if c['Type'] == "Screen"]
         for s in screens:
             obj = Screen(s)
             print "name:\n%s\n" % obj.name
             print "description:\n%s\n" % obj.description
-            print "map:\n%s\n" % obj.map
+            print "map:"
+            print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
