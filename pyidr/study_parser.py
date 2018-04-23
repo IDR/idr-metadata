@@ -1,9 +1,11 @@
 #! /usr/bin/env python
 
+from argparse import ArgumentParser
 import logging
 import os
 import re
 import sys
+import traceback
 
 logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
 
@@ -63,7 +65,7 @@ class StudyParser():
         self._study_file = study_file
         self._dir = os.path.dirname(self._study_file)
         with open(self._study_file, 'r') as f:
-            logging.info("Parsing %s" % sys.argv[1])
+            logging.info("Parsing %s" % self._study_file)
             self._study_lines = f.readlines()
         self.study = self.parse(
             MANDATORY_KEYS["Study"], OPTIONAL_KEYS["Study"])
@@ -254,24 +256,38 @@ class Project(Object):
         ]
 
 
-if __name__ == "__main__":
-    if len(sys.argv) == 0:
-        raise Exception("Requires one study file as an input")
-    p = StudyParser(sys.argv[1])
-    if len(sys.argv) == 3 and sys.argv[2] == '--report':
-        experiments = [c for c in p.components if c['Type'] == "Experiment"]
-        for e in experiments:
-            logging.info("Generating %s" % sys.argv[1])
-            obj = Project(e)
-            print "name:\n%s\n" % obj.name
-            print "description:\n%s\n" % obj.description
-            print "map:"
-            print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
+def main(argv):
 
-        screens = [c for c in p.components if c['Type'] == "Screen"]
-        for s in screens:
-            obj = Screen(s)
-            print "name:\n%s\n" % obj.name
-            print "description:\n%s\n" % obj.description
-            print "map:"
-            print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
+    parser = ArgumentParser()
+    parser.add_argument("studyfile", help="Study file to parse", nargs='+')
+    parser.add_argument("--report", action="store_true",
+                        help="Create a report of the generated objects")
+    args = parser.parse_args(argv)
+
+    try:
+        for s in args.studyfile:
+            p = StudyParser(s)
+            if args.report:
+                experiments = [c for c in p.components
+                               if c['Type'] == "Experiment"]
+                for e in experiments:
+                    obj = Project(e)
+                    logging.info("Generating annotations for %s" % obj.name)
+                    print "description:\n%s\n" % obj.description
+                    print "map:"
+                    print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
+
+                screens = [c for c in p.components if c['Type'] == "Screen"]
+                for s in screens:
+                    obj = Screen(s)
+                    logging.info("Generating annotations for %s" % obj.name)
+                    print "description:\n%s\n" % obj.description
+                    print "map:"
+                    print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
+    except Exception:
+        traceback.print_exc()
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])

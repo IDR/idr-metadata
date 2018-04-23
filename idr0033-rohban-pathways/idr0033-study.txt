@@ -45,7 +45,7 @@ Term Source File	http://purl.obolibrary.org/obo/ncbitaxon.owl	http://www.ebi.ac.
 # For multiple screens this section should be repeated.  Copy and paste the whole section below and fill out for the next screen.																																			
 																																			
 Screen Number	1																																		
-Comment[IDR Screen Name]	idr0033-rohban-pathways																																		
+Comment[IDR Screen Name]	idr0033-rohban-pathways/screenA																																		
 Screen Description	Morphological profiling of overexpression constructs related to the signaling pathways																																		
 Screen Size	Plates: 12 (6 raw and 6 with illumination corrected)	5D Images:41472	Planes:207360	Average Image Dimension (XYZCT):	Total Tb:0.49																														
 Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-1316339	https://idr.openmicroscopy.org/webclient/img_detail/3245579/	"41749_illum_corrected;F4, Field 6"																																

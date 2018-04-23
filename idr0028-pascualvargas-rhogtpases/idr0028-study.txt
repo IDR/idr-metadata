@@ -19,7 +19,7 @@ Study PubMed ID	28248929
 Study Publication Title	RNAi screens for Rho GTPase regulators of cell shape and YAP/TAZ localisation in triple negative breast cancer.																																																																																																																																										
 Study Author List	"Pascual Vargas P, Cooper S, Sero J, Arias-Garcia M, Bousgouni V, Bakal C."																																																																																																																																										
 Study PMC ID																																																																																																																																											
-Study DOI	10.1038/sdata.2017.18																																																																																																																																										
+Study DOI	https://doi.org/10.1038/sdata.2017.18																																																																																																																																										
 																																																																																																																																											
 # Study License and Data DOI																																																																																																																																											
 Study License	CC-BY 4.0																																																																																																																																										
