@@ -2,6 +2,9 @@
 	path = idr0000-lastname-example
 	url = git://github.com/IDR/idr0000-lastname-example
 	branch = master
+[submodule "idr0004-thorpe-rad52"]
+	path = idr0004-thorpe-rad52
+	url = git://github.com/IDR/idr0004-thorpe-rad52
 [submodule "idr0040-aymoz-singlecell"]
 	path = idr0040-aymoz-singlecell
 	url = git://github.com/IDR/idr0040-aymoz-singlecell
