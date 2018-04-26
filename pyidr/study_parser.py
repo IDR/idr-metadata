@@ -204,6 +204,30 @@ class Object():
     ]
 
     def __init__(self, component):
+        if component['Type'] == "Experiment":
+            self.type = "Project"
+            self.NAME = "%(Comment\[IDR Experiment Name\])s"
+            self.DESCRIPTION = (
+                "Publication Title\n%(Study Publication Title)s\n\n"
+                "Experiment Description\n%(Experiment Description)s")
+            self.TOP_PAIRS = [
+                ('Study Type', "%(Study Type)s"),
+                ('Organism', "%(Study Organism)s"),
+                ('Imaging Method', "%(Experiment Imaging Method)s"),
+                ]
+        else:
+            self.type = "Screen"
+            self.NAME = "%(Comment\[IDR Screen Name\])s"
+            self.DESCRIPTION = (
+                "Publication Title\n%(Study Publication Title)s\n\n"
+                "Screen Description\n%(Screen Description)s")
+            self.TOP_PAIRS = [
+                ('Study Type', "%(Study Type)s"),
+                ('Organism', "%(Study Organism)s"),
+                ('Screen Type', "%(Screen Type)s"),
+                ('Screen Technology Type', "%(Screen Technology Type)s"),
+                ('Imaging Method', "%(Screen Imaging Method)s"),
+            ]
         self.name = self.NAME % component
         self.description = self.generate_description(component)
         self.map = self.generate_annotation(component)
@@ -228,32 +252,35 @@ class Object():
         return s
 
 
-class Screen(Object):
+def check(obj):
 
-    NAME = "%(Comment\[IDR Screen Name\])s"
-    DESCRIPTION = (
-        "Publication Title\n%(Study Publication Title)s\n\n"
-        "Screen Description\n%(Screen Description)s")
-    TOP_PAIRS = [
-        ('Study Type', "%(Study Type)s"),
-        ('Organism', "%(Study Organism)s"),
-        ('Screen Type', "%(Screen Type)s"),
-        ('Screen Technology Type', "%(Screen Technology Type)s"),
-        ('Imaging Method', "%(Screen Imaging Method)s"),
-    ]
+    from omero.cli import CLI
+    from omero.gateway import BlitzGateway
 
+    cli = CLI()
+    cli.loadplugins()
+    cli.onecmd('login')
 
-class Project(Object):
-
-    NAME = "%(Comment\[IDR Experiment Name\])s"
-    DESCRIPTION = (
-        "Publication Title\n%(Study Publication Title)s\n\n"
-        "Experiment Description\n%(Experiment Description)s")
-    TOP_PAIRS = [
-        ('Study Type', "%(Study Type)s"),
-        ('Organism', "%(Study Organism)s"),
-        ('Imaging Method', "%(Experiment Imaging Method)s"),
-        ]
+    try:
+        gateway = BlitzGateway(client_obj=cli.get_client())
+        remote_obj = gateway.getObject(
+                obj.type, attributes={"name": obj.name})
+        print obj.type
+        print obj.name
+        if remote_obj.description != obj.description:
+            print "%s!=%s" % (remote_obj.description, obj.description)
+        for al in remote_obj._getAnnotationLinks(
+                ns="openmicroscopy.org/omero/client/mapAnnotation"):
+            mapValue = al.child.mapValue
+            kv_pairs = [(m.name, m.value) for m in mapValue]
+            for i in range(len(kv_pairs)):
+                if kv_pairs[i] != obj.map[i]:
+                    print "%s %s" % (kv_pairs[i], obj.map[i])
+    finally:
+        if cli:
+            cli.onecmd('logout')
+            cli.close()
+        gateway.close()
 
 
 def main(argv):
@@ -262,28 +289,24 @@ def main(argv):
     parser.add_argument("studyfile", help="Study file to parse", nargs='+')
     parser.add_argument("--report", action="store_true",
                         help="Create a report of the generated objects")
+    parser.add_argument("--check", action="store_true",
+                        help="Check against IDR")
     args = parser.parse_args(argv)
 
     try:
         for s in args.studyfile:
             p = StudyParser(s)
+            objects = [Object(x) for x in p.components]
             if args.report:
-                experiments = [c for c in p.components
-                               if c['Type'] == "Experiment"]
-                for e in experiments:
-                    obj = Project(e)
-                    logging.info("Generating annotations for %s" % obj.name)
-                    print "description:\n%s\n" % obj.description
+                for o in objects:
+                    logging.info("Generating annotations for %s" % o.name)
+                    print "description:\n%s\n" % o.description
                     print "map:"
-                    print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
+                    print "\n".join(["%s\t%s" % (v[0], v[1]) for v in o.map])
 
-                screens = [c for c in p.components if c['Type'] == "Screen"]
-                for s in screens:
-                    obj = Screen(s)
-                    logging.info("Generating annotations for %s" % obj.name)
-                    print "description:\n%s\n" % obj.description
-                    print "map:"
-                    print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
+            if args.check:
+                for o in objects:
+                    check(o)
     except Exception:
         traceback.print_exc()
         sys.exit(1)
