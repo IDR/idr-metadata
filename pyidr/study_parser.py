@@ -202,9 +202,10 @@ class Object():
     PUBLICATION_PAIRS = [
         ('Publication Title', "%(Title)s"),
         ('Publication Authors', "%(Author List)s"),
-        ('Pubmed ID', "%(PubMed ID)s "
+        ('PubMed ID', "%(PubMed ID)s "
          "https://www.ncbi.nlm.nih.gov/pubmed/%(PubMed ID)s"),
-        ('PMC ID', "%(PMC ID)s"),
+        ('PMC ID',
+         "%(PMC ID)s https://www.ncbi.nlm.nih.gov/pmc/articles/%(PMC ID)s"),
         ('Publication DOI', "%(DOI)s https://doi.org/%(DOI)s"),
     ]
     BOTTOM_PAIRS = [
@@ -286,7 +287,7 @@ def check(obj):
             kv_pairs = [(m.name, m.value) for m in mapValue]
             for i in range(len(kv_pairs)):
                 if kv_pairs[i] != obj.map[i]:
-                    print "%s %s" % (kv_pairs[i], obj.map[i])
+                    print "%s!=%s" % (kv_pairs[i], obj.map[i])
     finally:
         if cli:
             cli.onecmd('logout')
@@ -317,6 +318,7 @@ def main(argv):
 
             if args.check:
                 for o in objects:
+                    logging.info("Check annotations for %s" % o.name)
                     check(o)
     except Exception:
         traceback.print_exc()
