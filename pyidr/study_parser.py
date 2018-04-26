@@ -280,17 +280,17 @@ def check(obj):
         remote_obj = gateway.getObject(
                 obj.type, attributes={"name": obj.name})
         if remote_obj.description != obj.description:
-            print "%s!=%s" % (remote_obj.description, obj.description)
+            print "current:%s\nexpected:%s" % (
+                remote_obj.description, obj.description)
         for al in remote_obj._getAnnotationLinks(
                 ns="openmicroscopy.org/omero/client/mapAnnotation"):
             mapValue = al.child.mapValue
             kv_pairs = [(m.name, m.value) for m in mapValue]
             for i in range(len(kv_pairs)):
                 if kv_pairs[i] != obj.map[i]:
-                    print "%s!=%s" % (kv_pairs[i], obj.map[i])
+                    print "current:%s\nexpected:%s" % (kv_pairs[i], obj.map[i])
     finally:
         if cli:
-            cli.onecmd('logout')
             cli.close()
         gateway.close()
 
