@@ -58,6 +58,8 @@ OPTIONAL_KEYS["Screen"] = [
     'Screen Technology Type',
 ]
 
+DOI_PATTERN = re.compile("https?://(dx.)?doi.org/(?P<id>.*)")
+
 
 class StudyParser():
 
@@ -70,6 +72,7 @@ class StudyParser():
         self.study = self.parse(
             MANDATORY_KEYS["Study"], OPTIONAL_KEYS["Study"])
         self.parse_publications()
+        self.parse_data_doi()
 
         self.components = []
         for t in TYPES:
@@ -151,7 +154,8 @@ class StudyParser():
             else:
                 annotation_url = base_url % (
                     "idr-metadata", name, annotation_filename)
-            component["Annotation File"] = annotation_url
+            component["Annotation File"] = "%s %s" % (
+                annotation_filename, annotation_url)
             return
         return
 
@@ -175,13 +179,22 @@ class StudyParser():
                 m = pattern.match(split_ids[i])
                 if not m:
                     raise Exception("Invalid %s: %s" % (key2, split_ids[i]))
-                publications[i][key2] = split_ids[i]
+                publications[i][key2] = m.group("id")
 
-        parse_ids("Study PubMed ID", re.compile("\d+"))
-        parse_ids("Study PMC ID", re.compile("PMC\d+"))
-        parse_ids("Study DOI", re.compile("https?://(dx.)?doi.org/(.*)"))
+        parse_ids("Study PubMed ID", re.compile("(?P<id>\d+)"))
+        parse_ids("Study PMC ID", re.compile("(?P<id>PMC\d+)"))
+        parse_ids("Study DOI", DOI_PATTERN)
 
         self.study["Publications"] = publications
+
+    def parse_data_doi(self):
+        if 'Study Data DOI' not in self.study:
+            return
+        m = DOI_PATTERN.match(self.study['Study Data DOI'])
+        if not m:
+            raise Exception(
+                "Invalid Data DOI: %s" % self.study['Study Data DOI'])
+        self.study["Data DOI"] = m.group("id")
 
 
 class Object():
@@ -192,14 +205,14 @@ class Object():
         ('Pubmed ID', "%(PubMed ID)s "
          "https://www.ncbi.nlm.nih.gov/pubmed/%(PubMed ID)s"),
         ('PMC ID', "%(PMC ID)s"),
-        ('Publication DOI', "%(DOI)s https://dx.doi.org/%(DOI)s"),
+        ('Publication DOI', "%(DOI)s https://doi.org/%(DOI)s"),
     ]
     BOTTOM_PAIRS = [
         ('License', "%(Study License)s %(Study License URL)s"),
         ('Copyright', "%(Study Copyright)s"),
         ('Data Publisher', "%(Study Data Publisher)s"),
-        ('Data DOI', "%(Study Data DOI)s "
-         "https://dx.doi.org/%(Study Data DOI)s"),
+        ('Data DOI', "%(Data DOI)s "
+         "https://doi.org/%(Data DOI)s"),
         ('Annotation File', "%(Annotation File)s"),
     ]
 
@@ -265,8 +278,6 @@ def check(obj):
         gateway = BlitzGateway(client_obj=cli.get_client())
         remote_obj = gateway.getObject(
                 obj.type, attributes={"name": obj.name})
-        print obj.type
-        print obj.name
         if remote_obj.description != obj.description:
             print "%s!=%s" % (remote_obj.description, obj.description)
         for al in remote_obj._getAnnotationLinks(
