@@ -83,9 +83,9 @@ for row in rows:
     query = "SELECT id FROM Image WHERE name = :name AND fileset.id = :id"
 
     params = ParametersI()
-
     params.add('name', wrap(image_name_expected))
     params.addId(fileset_id)
+
     rows = query_service.projection(query, params)
 
     assert len(rows) == 1
