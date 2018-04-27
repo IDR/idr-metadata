@@ -5,7 +5,7 @@ Study Title	Common genetic variation drives molecular heterogeneity in human iPS
 Study Type	high content screen						
 Study Type Term Source REF	EFO						
 Study Type Term Accession	EFO_0007550						
-Study Description	"Induced pluripotent stem cell (iPSC) technology has enormous potential to provide improved cellular models of human disease. However, variable genetic and phenotypic characterisation of many existing iPSC lines limits their potential use for research and therapy. Here, we describe the systematic generation, genotyping and phenotyping of 522 open access human iPSCs derived from 189 healthy male and female individuals as part of the Human Induced Pluripotent Stem Cells Initiative (HipSci: http://www.hipsci.org). Our study provides a comprehensive picture of the major sources of genetic and phenotypic variation in iPSCs and establishes their suitability for use in genetic studies of complex human traits and cancer. Using a combination of genome- wide analyses we find that 5-25% of the variation in different iPSC phenotypes, including differentiation capacity and cellular morphology, arises from differences between individuals. We also assess the phenotypic effects of rare, genomic copy number mutations that are recurrently seen following iPSC reprogramming and present an initial map of common regulatory variants affecting the transcriptome of pluripotent cells in humans."						
+Study Description	Induced pluripotent stem cell (iPSC) technology has enormous potential to provide improved cellular models of human disease. However, variable genetic and phenotypic characterisation of many existing iPSC lines limits their potential use for research and therapy. Here, we describe the systematic generation, genotyping and phenotyping of 522 open access human iPSCs derived from 189 healthy male and female individuals as part of the Human Induced Pluripotent Stem Cells Initiative (HipSci: http://www.hipsci.org). Our study provides a comprehensive picture of the major sources of genetic and phenotypic variation in iPSCs and establishes their suitability for use in genetic studies of complex human traits and cancer. Using a combination of genome- wide analyses we find that 5-25% of the variation in different iPSC phenotypes, including differentiation capacity and cellular morphology, arises from differences between individuals. We also assess the phenotypic effects of rare, genomic copy number mutations that are recurrently seen following iPSC reprogramming and present an initial map of common regulatory variants affecting the transcriptome of pluripotent cells in humans.						
 Study Organism	Homo sapiens						
 Study Organism Term Source REF	NCBITaxon						
 Study Organism Term Accession	NCBITaxon_9606						
@@ -16,7 +16,7 @@ Study Public Release Date
 # Study Publication							
 Study PubMed ID							
 Study Publication Title	Common genetic variation drives molecular heterogeneity in human iPSCs						
-Study Author List	"Helena Kilpinen, Angela Goncalves, Andreas Leha, Vackar Afzal, Sofie Ashford, Sendu Bala, Dalila Bensaddek, Francesco Paolo Casale, Oliver Culley, Petr Danecek, Adam Faulconbridge, Peter Harrison, Davis McCarthy, Shane A McCarthy, Ruta Meleckyte, Yasin Memari, Nathalie Moens, Filipa Soares, Ian Streeter, Chukwuma A Agu, Alex Alderton, Rachel Nelson, Sarah Harper, Minal Patel, Laura Clarke, Reena Halai, Christopher M Kirton, Anja Kolb-Kokocinski, Philip Beales, Ewan Birney, Davide Danovi, Angus I Lamond, Willem H Ouwehand, Ludovic Vallier, Fiona M Watt, Richard Durbin, Oliver Stegle, Daniel J Gaffney"						
+Study Author List	Helena Kilpinen, Angela Goncalves, Andreas Leha, Vackar Afzal, Sofie Ashford, Sendu Bala, Dalila Bensaddek, Francesco Paolo Casale, Oliver Culley, Petr Danecek, Adam Faulconbridge, Peter Harrison, Davis McCarthy, Shane A McCarthy, Ruta Meleckyte, Yasin Memari, Nathalie Moens, Filipa Soares, Ian Streeter, Chukwuma A Agu, Alex Alderton, Rachel Nelson, Sarah Harper, Minal Patel, Laura Clarke, Reena Halai, Christopher M Kirton, Anja Kolb-Kokocinski, Philip Beales, Ewan Birney, Davide Danovi, Angus I Lamond, Willem H Ouwehand, Ludovic Vallier, Fiona M Watt, Richard Durbin, Oliver Stegle, Daniel J Gaffney						
 Study PMC ID	PMC28489815						
 Study DOI	http://dx.doi.org/10.1038/nature22403						
 							
@@ -31,7 +31,7 @@ Study Data DOI	http://dx.doi.org/10.17867/10000107
 Study Person Last Name	Danovi						
 Study Person First Name	Davide						
 Study Person Email							
-Study Person Address	"Centre for Stem Cells & Regenerative Medicine, King's College London, Tower Wing, Guy's Hospital, Great Maze Pond, London SE1 9RT, United Kingdom"						
+Study Person Address	Centre for Stem Cells & Regenerative Medicine, King's College London, Tower Wing, Guy's Hospital, Great Maze Pond, London SE1 9RT, United Kingdom						
 Study Person Roles	submitter						
 							
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi	PATO	CL	CHEBI
@@ -43,7 +43,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 							
 Screen Number	1						
 Comment[IDR Screen Name]	idr0034-kilpinen-hipsci/screenA						
-Screen Description	"Cellular phenotyping of 28 human induced pluripotent stem cell lines from 14 donors within the framework of the HipSci project. Cells are plated sparsely, 3000 per 96 well for 24 hours on wells coated with three diverse concentrations of Fibronectin. Note The images relating to the publication 'Common genetic variation drives molecular heterogeneity in human iPSCs' have been released at this time (May 2017). An extended dataset in comparable conditions is due to be released in the future alongside associated studies."						
+Screen Description	Cellular phenotyping of 28 human induced pluripotent stem cell lines from 14 donors within the framework of the HipSci project. Cells are plated sparsely, 3000 per 96 well for 24 hours on wells coated with three diverse concentrations of Fibronectin. Note the images relating to the publication 'Common genetic variation drives molecular heterogeneity in human iPSCs' have been released at this time (May 2017). An extended dataset in comparable conditions is due to be released in the future alongside associated studies.						
 Screen Size	Plates: 29	5D Images:6156	Planes:24624	Average Image Dimension (XYZCT):	Total Tb:0.11		
 Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-1319381	https://idr.openmicroscopy.org/webclient/img_detail/3271621/	experiment_27;D10				
 Screen Imaging Method	fluorescence microscopy						
@@ -75,7 +75,7 @@ Protocol Name	growth protocol	HCS image acquistion and feature extraction protoc
 Protocol Type	growth protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol				
 Protocol Type Term Source REF	EFO	EFO	EFO				
 Protocol Type Term Accession	EFO_0003789	EFO_0007572	EFO_0007573				
-Protocol Description	"Each line was cultured and plated as previously described 17. Briefly, 96-well plates were coated with three concentrations of Fibronectin in alternated columns in a randomised fashion. Cell lines were seeded also in rows in a randomised fashion. 3000 cells were plated and fixed after 24 hours. EdU was incorporated 30 minutes before fixation."	 Plates were then fixed and stained with DAPI and cell mask and EdU staining. Images were acquired using the Operetta (Perkin Elmer) high content device.	"Using the Harmony software, measurements were derived for each cell. Measurements included intensity features (DAPI, EdU), morphology features (cell area, cell roundness, cell width to length ratio, nucleus area, nucleus roundness, nucleus width to length ratio) and context features related with cell adhesion properties (number of cells per clump). Quantification and normalization of data was performed as previously described Leha, A. et al. A high-content platform to characterise human induced pluripotent stem cell lines. Methods 96, 85-96, (2016)."				
+Protocol Description	Each line was cultured and plated as previously described 17. Briefly, 96-well plates were coated with three concentrations of Fibronectin in alternated columns in a randomised fashion. Cell lines were seeded also in rows in a randomised fashion. 3000 cells were plated and fixed after 24 hours. EdU was incorporated 30 minutes before fixation.	 Plates were then fixed and stained with DAPI and cell mask and EdU staining. Images were acquired using the Operetta (Perkin Elmer) high content device.	Using the Harmony software, measurements were derived for each cell. Measurements included intensity features (DAPI, EdU), morphology features (cell area, cell roundness, cell width to length ratio, nucleus area, nucleus roundness, nucleus width to length ratio) and context features related with cell adhesion properties (number of cells per clump). Quantification and normalization of data was performed as previously described Leha, A. et al. A high-content platform to characterise human induced pluripotent stem cell lines. Methods 96, 85-96, (2016).				
 							
 							
 # Phenotypes							
@@ -101,7 +101,7 @@ Feature Level Data Column Description
 #  Processed Data Files							
 Processed Data File Name	idr0034-screenA-processed.txt						
 Processed Data File Format	tab-delimited text						
-Processed Data File Description	"Provides links to files containing well and cell level measurements, and to documents containing analysis summaries."						
+Processed Data File Description	Provides links to files containing well and cell level measurements, and to documents containing analysis summaries.						
 Processed Data Column Name	Characteristics [Cell Line]	Results Measurements	Results Summary				
 Processed Data Column Type	other	other	other				
 Processed Data Column Annotation Level		cell line	cell line				
