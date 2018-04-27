@@ -25,8 +25,12 @@
 from omero.gateway import BlitzGateway
 from omero.rtypes import wrap
 from omero.sys import ParametersI
+import os
 
-conn = BlitzGateway('root', 'omero', host='localhost')
+conn = BlitzGateway(
+    os.environ.get('IDR_USER', 'root'),
+    os.environ.get('IDR_PASSWORD', 'omero'),
+    host=os.environ.get('IDR_HOST', 'localhost'))
 conn.connect()
 conn.setGroupForSession(3)  # Public
 
