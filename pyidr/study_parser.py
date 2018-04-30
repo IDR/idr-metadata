@@ -222,7 +222,6 @@ class Object():
             self.type = "Project"
             self.NAME = "%(Comment\[IDR Experiment Name\])s"
             self.DESCRIPTION = (
-                "Publication Title\n%(Study Publication Title)s\n\n"
                 "Experiment Description\n%(Experiment Description)s")
             self.TOP_PAIRS = [
                 ('Study Type', "%(Study Type)s"),
@@ -233,7 +232,6 @@ class Object():
             self.type = "Screen"
             self.NAME = "%(Comment\[IDR Screen Name\])s"
             self.DESCRIPTION = (
-                "Publication Title\n%(Study Publication Title)s\n\n"
                 "Screen Description\n%(Screen Description)s")
             self.TOP_PAIRS = [
                 ('Study Type', "%(Study Type)s"),
@@ -247,7 +245,11 @@ class Object():
         self.map = self.generate_annotation(component)
 
     def generate_description(self, component):
-        return self.DESCRIPTION % component
+        # Only display the first publication
+        publication_title = (
+            "Publication Title\n%(Study Publication Title)s" %
+            component).split('\t')[0]
+        return publication_title + "\n\n" + self.DESCRIPTION % component
 
     def generate_annotation(self, component):
 
