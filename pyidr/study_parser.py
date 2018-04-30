@@ -254,7 +254,9 @@ class Object():
         def add_key_values(d, pairs):
             for key, formatter in pairs:
                 try:
-                    s.append(('%s' % key, formatter % d))
+                    value = formatter % d
+                    for v in value.split('\t'):
+                        s.append(('%s' % key, v))
                 except KeyError, e:
                     logging.debug("Missing %s" % e.message)
 
