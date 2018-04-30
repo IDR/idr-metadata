@@ -255,11 +255,8 @@ class Object():
             for key, formatter in pairs:
                 try:
                     value = formatter % d
-                    if '\t' in value:
-                        for v in value.split('\t'):
-                            s.append(('%s' % key, v))
-                    else:
-                        s.append(('%s' % key, value))
+                    for v in value.split('\t'):
+                        s.append(('%s' % key, v))
                 except KeyError, e:
                     logging.debug("Missing %s" % e.message)
 
