@@ -18,14 +18,14 @@ Study PubMed ID	28489815
 Study Publication Title	Common genetic variation drives molecular heterogeneity in human iPSCs						
 Study Author List	Helena Kilpinen, Angela Goncalves, Andreas Leha, Vackar Afzal, Sofie Ashford, Sendu Bala, Dalila Bensaddek, Francesco Paolo Casale, Oliver Culley, Petr Danecek, Adam Faulconbridge, Peter Harrison, Davis McCarthy, Shane A McCarthy, Ruta Meleckyte, Yasin Memari, Nathalie Moens, Filipa Soares, Ian Streeter, Chukwuma A Agu, Alex Alderton, Rachel Nelson, Sarah Harper, Minal Patel, Laura Clarke, Reena Halai, Christopher M Kirton, Anja Kolb-Kokocinski, Philip Beales, Ewan Birney, Davide Danovi, Angus I Lamond, Willem H Ouwehand, Ludovic Vallier, Fiona M Watt, Richard Durbin, Oliver Stegle, Daniel J Gaffney						
 Study PMC ID	PMC5524171						
-Study DOI	http://dx.doi.org/10.1038/nature22403						
+Study DOI	https://doi.org/10.1038/nature22403						
 							
 # Study License and Data DOI							
 Study License	CC-BY 4.0						
 Study License URL	https://creativecommons.org/licenses/by/4.0/						
 Study Copyright	Kilpinen et al						
 Study Data Publisher	University of Dundee						
-Study Data DOI	http://dx.doi.org/10.17867/10000107						
+Study Data DOI	https://doi.org/10.17867/10000107						
 							
 # Study Contacts							
 Study Person Last Name	Danovi						
