@@ -8,6 +8,7 @@ import sys
 import traceback
 
 logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
+log = logging.getLogger("pyidr.study_parser")
 
 TYPES = ["Experiment", "Screen"]
 MANDATORY_KEYS = {}
@@ -67,7 +68,7 @@ class StudyParser():
         self._study_file = study_file
         self._dir = os.path.dirname(self._study_file)
         with open(self._study_file, 'r') as f:
-            logging.info("Parsing %s" % self._study_file)
+            log.info("Parsing %s" % self._study_file)
             self._study_lines = f.readlines()
         self.study = self.parse(
             MANDATORY_KEYS["Study"], OPTIONAL_KEYS["Study"])
@@ -78,7 +79,7 @@ class StudyParser():
         for t in TYPES:
             n = int(self.study.get('Study %ss Number' % t, 0))
             for i in range(n):
-                logging.debug("Parsing %s %g" % (t, i + 1))
+                log.debug("Parsing %s %g" % (t, i + 1))
 
                 d = self.parse(MANDATORY_KEYS[t], OPTIONAL_KEYS[t],
                                lines=self.get_lines(i + 1, t))
@@ -143,7 +144,7 @@ class StudyParser():
             annotation_filename = "%s%s" % (basename, extension)
             annotation_path = os.path.join(component_path, annotation_filename)
             if not os.path.exists(annotation_path):
-                logging.debug("Cannot find %s" % annotation_path)
+                log.debug("Cannot find %s" % annotation_path)
                 continue
 
             # Generate GitHub annotation URL
@@ -260,7 +261,7 @@ class Object():
                     for v in value.split('\t'):
                         s.append(('%s' % key, v))
                 except KeyError, e:
-                    logging.debug("Missing %s" % e.message)
+                    log.debug("Missing %s" % e.message)
 
         s = []
         add_key_values(component, self.TOP_PAIRS)
@@ -283,16 +284,24 @@ def check(obj):
         gateway = BlitzGateway(client_obj=cli.get_client())
         remote_obj = gateway.getObject(
                 obj.type, attributes={"name": obj.name})
+        errors = []
         if remote_obj.description != obj.description:
-            print "current:%s\nexpected:%s" % (
-                remote_obj.description, obj.description)
+            errors.append("current:%s\nexpected:%s" % (
+                remote_obj.description, obj.description))
         for al in remote_obj._getAnnotationLinks(
                 ns="openmicroscopy.org/omero/client/mapAnnotation"):
             mapValue = al.child.mapValue
             kv_pairs = [(m.name, m.value) for m in mapValue]
             for i in range(len(kv_pairs)):
                 if kv_pairs[i] != obj.map[i]:
-                    print "current:%s\nexpected:%s" % (kv_pairs[i], obj.map[i])
+                    errors.append(
+                        "current:%s\nexpected:%s" % (kv_pairs[i], obj.map[i]))
+        if not errors:
+            log.info("No annotations mismatch detected")
+        else:
+            for e in errors:
+                log.info("Found some annotations mismatch")
+                print e
     finally:
         if cli:
             cli.close()
@@ -315,14 +324,14 @@ def main(argv):
             objects = [Object(x) for x in p.components]
             if args.report:
                 for o in objects:
-                    logging.info("Generating annotations for %s" % o.name)
+                    log.info("Generating annotations for %s" % o.name)
                     print "description:\n%s\n" % o.description
                     print "map:"
                     print "\n".join(["%s\t%s" % (v[0], v[1]) for v in o.map])
 
             if args.check:
                 for o in objects:
-                    logging.info("Check annotations for %s" % o.name)
+                    log.info("Check annotations for %s" % o.name)
                     check(o)
     except Exception:
         traceback.print_exc()
