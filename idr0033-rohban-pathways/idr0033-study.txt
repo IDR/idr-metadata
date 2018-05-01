@@ -6,7 +6,7 @@ Study Title	Systematic morphological profiling of human gene and allele function
 Study Type	high content screen																																		
 Study Type Term Source REF	EFO																																		
 Study Type Term Accession Number	EFO_0007550																																		
-Study Description	"We hypothesized that human genes and disease-associated alleles might be systematically functionally annotated using morphological profiling of cDNA constructs, via a microscopy-based Cell Painting assay. Indeed, 50% of the 220 tested genes yielded detectable morphological profiles, which grouped into biologically meaningful gene clusters consistent with known functional annotation (e.g., the RAS-RAF-MEK-ERK cascade). We used novel subpopulation-based visualization methods to interpret the morphological changes for specific clusters. This unbiased morphologic map of gene function revealed TRAF2/c-REL negative regulation of YAP1/WWTR1-responsive pathways. We confirmed this discovery of functional connectivity between the NF-kB pathway and Hippo pathway effectors at the transcriptional level, thereby expanding knowledge of these two signaling pathways that critically regulate tumor initiation and progression. We make the images and raw data publicly available, providing an initial morphological map of major biological pathways for future study."																																		
+Study Description	We hypothesized that human genes and disease-associated alleles might be systematically functionally annotated using morphological profiling of cDNA constructs, via a microscopy-based Cell Painting assay. Indeed, 50% of the 220 tested genes yielded detectable morphological profiles, which grouped into biologically meaningful gene clusters consistent with known functional annotation (e.g., the RAS-RAF-MEK-ERK cascade). We used novel subpopulation-based visualization methods to interpret the morphological changes for specific clusters. This unbiased morphologic map of gene function revealed TRAF2/c-REL negative regulation of YAP1/WWTR1-responsive pathways. We confirmed this discovery of functional connectivity between the NF-kB pathway and Hippo pathway effectors at the transcriptional level, thereby expanding knowledge of these two signaling pathways that critically regulate tumor initiation and progression. We make the images and raw data publicly available, providing an initial morphological map of major biological pathways for future study.																																		
 Study Organism	Homo sapiens																																		
 Study Organism Term Source REF	NCBITaxon																																		
 Study Organism Term Accession Number	9606																																		
@@ -18,16 +18,16 @@ Study Version History	August 2017 - CMPO ontology mappings added
 # Study Publication																																			
 Study PubMed ID	28315521																																		
 Study Publication Title	Systematic morphological profiling of human gene and allele function via Cell Painting																																		
-Study Author List	"Mohammad H Rohban, Shantanu Singh, Xiaoyun Wu, Julia B Berthet, Mark_Anthony Bray, Yashaswi Shrestha, Xaralabos Varelas, Jesse S Boehm, Anne E Carpenter"																																		
+Study Author List	Mohammad H Rohban, Shantanu Singh, Xiaoyun Wu, Julia B Berthet, Mark-Anthony Bray, Yashaswi Shrestha, Xaralabos Varelas, Jesse S Boehm, Anne E Carpenter																																	
 Study PMC ID	PMC5386591																																		
-Study DOI	http://dx.doi.org/10.7554/eLife.24060																																		
+Study DOI	https://doi.org/10.7554/eLife.24060																																		
 																																			
 # Study License and Data DOI																																			
 Study License	CC-BY 4.0																																		
 Study License URL	https://creativecommons.org/licenses/by/4.0/																																		
 Study Copyright	Rohban et al																																		
 Study Data Publisher	University of Dundee																																		
-Study Data DOI	http://dx.doi.org/10.17867/10000105																																		
+Study Data DOI	https://doi.org/10.17867/10000105																																		
 																																			
 # Study Contacts																																			
 Study Person Last Name	Carpenter																																		
