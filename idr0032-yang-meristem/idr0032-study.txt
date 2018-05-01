@@ -5,7 +5,7 @@ Study Title	Regulation of Meristem Morphogenesis by Cell Wall Synthases in Arabi
 Study Type	in situ hybridization										
 Study Type Term Source REF	OBI										
 Study Type Term Accession	OBI_0001686										
-Study Description	"The cell walls of the shoot apical meristem (SAM), containing the stem cell niche that gives rise to the above-ground tissues, are crucially involved in regulating differentiation. It is currently unknown how these walls are built and refined or their role, if any, in influencing meristem developmental dynamics. We have combined polysaccharide linkage analysis, immuno-labeling, and transcriptome profiling of the SAM to provide a spatiotemporal plan of the walls of this dynamic structure. We find that meristematic cells express only a core subset of 152 genes encoding cell wall glycosyltransferases (GTs). Systemic localization of all these GT mRNAs by in situ hybridization reveals members with either enrichment in or specificity to apical subdomains such as emerging flower primordia, and a large class with high expression in dividing cells. The highly localized and coordinated expression of GTs in the SAM suggests distinct wall properties of meristematic cells and specific differences between newly forming walls and their mature descendants. Functional analysis demonstrates that a subset of CSLD genes is essential for proper meristem maintenance, confirming the key role of walls in developmental pathways."										
+Study Description	The cell walls of the shoot apical meristem (SAM), containing the stem cell niche that gives rise to the above-ground tissues, are crucially involved in regulating differentiation. It is currently unknown how these walls are built and refined or their role, if any, in influencing meristem developmental dynamics. We have combined polysaccharide linkage analysis, immuno-labeling, and transcriptome profiling of the SAM to provide a spatiotemporal plan of the walls of this dynamic structure. We find that meristematic cells express only a core subset of 152 genes encoding cell wall glycosyltransferases (GTs). Systemic localization of all these GT mRNAs by in situ hybridization reveals members with either enrichment in or specificity to apical subdomains such as emerging flower primordia, and a large class with high expression in dividing cells. The highly localized and coordinated expression of GTs in the SAM suggests distinct wall properties of meristematic cells and specific differences between newly forming walls and their mature descendants. Functional analysis demonstrates that a subset of CSLD genes is essential for proper meristem maintenance, confirming the key role of walls in developmental pathways.									
 Study Organism	Arabidopsis thaliana										
 Study Organism Term Source REF	NCBITaxon										
 Study Organism Term Accession	NCBITaxon_3702										
@@ -16,15 +16,15 @@ Study Public Release Date
 # Study Publication											
 Study PubMed ID	27212401										
 Study Publication Title	Regulation of Meristem Morphogenesis by Cell Wall Synthases in Arabidopsis.										
-Study Author List	"Yang W, Schuster C, Beahan CT, Charoensawan V, Peaucelle A, Bacic A, Doblin MS, Wightman R, Meyerowitz EM"										
+Study Author List	Yang W, Schuster C, Beahan CT, Charoensawan V, Peaucelle A, Bacic A, Doblin MS, Wightman R, Meyerowitz EM								
 Study PMC ID	PMC5024349										
-Study DOI	http://dx.doi.org/10.1016/j.cub.2016.04.026										
+Study DOI	https://doi.org/10.1016/j.cub.2016.04.026										
 											
 # Study Contacts											
 Study Person Last Name	Wightman										
 Study Person First Name	Raymond										
 Study Person Email	raymond.wightman@slcu.cam.ac.uk										
-Study Person Address	"University of Cambridge, UK"										
+Study Person Address	University of Cambridge, UK									
 Study Person Roles	submitter										
 											
 Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	OBI						
@@ -36,7 +36,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 											
 Experiment Number	1										
 Comment[IDR Experiment Name]	idr0032-yang-meristem/experimentA										
-Experiment Description	"We performed systematic RNA in situ hybridization assays to examine the expression patterns of the SAM-expressed GTs at single-cell spatial resolution, including those transcripts that show either relative increases, reductions, or no change between SAM and flower samples."										
+Experiment Description	We performed systematic RNA in situ hybridization assays to examine the expression patterns of the SAM-expressed GTs at single-cell spatial resolution, including those transcripts that show either relative increases, reductions, or no change between SAM and flower samples.									
 Experiment Size	Datasets: 115	5D Images: 456	Average Image Dimension (XYZCT):	Total Tb:							
 Experiment Example Images											
 Experiment Imaging Method	fluorescence microscopy										
