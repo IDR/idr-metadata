@@ -19,7 +19,7 @@ Study PubMed ID	22361696
 Study Publication Title	Systematic validation of antibody binding and protein subcellular localization using siRNA and confocal microscopy.																	
 Study Author List	Stadler C, Hjelmare M, Neumann B, Jonasson K, Pepperkok R, Uhlen M, Lundberg E.																	
 Study PMC ID																		
-Study DOI	http://dx.doi.org/10.1016/j.jprot.2012.01.030																	
+Study DOI	https://doi.org/10.1016/j.jprot.2012.01.030																	
 																		
 # Study License and Data DOI																		
 Study License	CC-BY-SA 3.0																	
