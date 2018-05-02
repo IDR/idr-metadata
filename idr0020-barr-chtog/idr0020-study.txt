@@ -17,7 +17,7 @@ Study PubMed ID	26037491
 Study Publication Title	A sensitised RNAi screen reveals a ch-TOG genetic interaction network required for spindle assembly.															
 Study Author List	Barr AR, Bakal C															
 Study PMC ID	PMC4453164															
-Study DOI	http://dx.doi.org/10.1038/srep10564															
+Study DOI	https://doi.org/10.1038/srep10564															
 																
 # Study License and Data DOI																
 Study License	CC-BY 4.0															
