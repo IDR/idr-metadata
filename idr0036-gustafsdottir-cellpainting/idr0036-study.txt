@@ -19,7 +19,7 @@ Study PubMed ID	24312513
 Study Publication Title	Multiplex cytological profiling assay to measure diverse cellular states.															
 Study Author List	Gustafsdottir SM, Ljosa V, Sokolnicki KL, Anthony Wilson J, Walpita D, Kemp MM, Petri Seiler K, Carrel HA, Golub TR, Schreiber SL, Clemons PA, Carpenter AE, Shamji AF															
 Study PMC ID	PMC3847047															
-Study DOI	http://dx.doi.org/10.1371/journal.pone.0080999															
+Study DOI	https://doi.org/10.1371/journal.pone.0080999															
 																
 # Study License and Data DOI																
 Study License	CC0															
