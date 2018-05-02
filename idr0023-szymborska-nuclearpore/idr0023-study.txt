@@ -18,7 +18,7 @@ Study PubMed ID	23845946
 Study Publication Title	Nuclear pore scaffold structure analyzed by super-resolution microscopy and particle averaging.												
 Study Author List	Szymborska A, de Marco A, Daigle N, Cordes VC, Briggs JA, Ellenberg J.												
 Study PMC ID													
-Study DOI	http://dx.doi.org/10.1126/science.1240672												
+Study DOI	https://doi.org/10.1126/science.1240672												
 													
 # Study License and Data DOI													
 Study License	CC-BY 4.0												
