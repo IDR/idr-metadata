@@ -11,3 +11,6 @@
 [submodule "idr0042-nirschl-wsideeplearning"]
 	path = idr0042-nirschl-wsideeplearning
 	url = git://github.com/IDR/idr0042-nirschl-wsideeplearning
+[submodule "idr0021-lawo-pericentriolarmaterial"]
+	path = idr0021-lawo-pericentriolarmaterial
+	url = git://github.com/IDR/idr0021-lawo-pericentriolarmaterial
