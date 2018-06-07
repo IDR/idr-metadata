@@ -1,6 +1,8 @@
 #! /usr/bin/env python
 
 from argparse import ArgumentParser
+import glob
+import json
 import logging
 import os
 import re
@@ -219,6 +221,7 @@ class Object():
     ]
 
     def __init__(self, component):
+        self.component = component
         if component['Type'] == "Experiment":
             self.type = "Project"
             self.NAME = "%(Comment\[IDR Experiment Name\])s"
@@ -308,35 +311,85 @@ def check(obj):
         gateway.close()
 
 
+class JsonPrinter(object):
+
+    def __init__(self):
+        self.objects = []
+
+    def consume(self, obj):
+        m = {
+            "description": obj.description,
+            "map": dict((v[0], v[1]) for v in obj.map),
+        }
+        if hasattr(obj, "files"):
+            m["files"] = obj.files
+        self.objects.append(m)
+
+    def finish(self):
+        print json.dumps(self.objects, indent=4, sort_keys=True)
+
+
+class TextPrinter(object):
+
+    def consume(self, obj):
+        print "description:\n%s\n" % obj.description
+        print "map:"
+        print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
+        if hasattr(obj, "files"):
+            print "files:"
+            for f in obj.files:
+                print "\t", f
+
+    def finish(self):
+        pass
+
+
 def main(argv):
 
     parser = ArgumentParser()
     parser.add_argument("studyfile", help="Study file to parse", nargs='+')
+    parser.add_argument("--inspect", action="store_true",
+                        help="Inspect the internals of the study directory")
     parser.add_argument("--report", action="store_true",
                         help="Create a report of the generated objects")
     parser.add_argument("--check", action="store_true",
                         help="Check against IDR")
+    parser.add_argument("--format", default="text", choices=("text", "json"),
+                        help="Format for the report")
     args = parser.parse_args(argv)
+
+    if args.format == "json":
+        Printer = JsonPrinter
+    else:
+        Printer = TextPrinter
 
     try:
         for s in args.studyfile:
             p = StudyParser(s)
+            printer = Printer()
             objects = [Object(x) for x in p.components]
+            if args.inspect:
+                basedir = os.path.dirname(s)
+                log.info("Inspect the internals of %s" % basedir)
+                for o in objects:
+                    path = "%s/%s/*" % (basedir, o.name.split("/")[-1])
+                    o.files = glob.glob(path)
+
             if args.report:
                 for o in objects:
                     log.info("Generating annotations for %s" % o.name)
-                    print "description:\n%s\n" % o.description
-                    print "map:"
-                    print "\n".join(["%s\t%s" % (v[0], v[1]) for v in o.map])
+                    printer.consume(o)
 
             if args.check:
                 for o in objects:
                     log.info("Check annotations for %s" % o.name)
                     check(o)
+            printer.finish()
+            return p
     except Exception:
         traceback.print_exc()
         sys.exit(1)
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    parser = main(sys.argv[1:])
