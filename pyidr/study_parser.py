@@ -8,6 +8,7 @@ import os
 import re
 import sys
 import traceback
+import uuid
 
 logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
 log = logging.getLogger("pyidr.study_parser")
@@ -212,7 +213,7 @@ class StudyParser():
         self.study["Data DOI"] = m.group("id")
 
 
-class Object():
+class Object(object):
 
     PUBLICATION_PAIRS = [
         ('Publication Title', "%(Title)s"),
@@ -338,6 +339,7 @@ class JsonPrinter(BasePrinter):
     def consume(self, obj):
         m = {
             "source": self.parser._study_file,
+            "name": obj.name,
             "description": obj.description,
             "map": dict((v[0], v[1]) for v in obj.map),
         }
@@ -347,6 +349,40 @@ class JsonPrinter(BasePrinter):
 
     def finish(self):
         print json.dumps(self.objects, indent=4, sort_keys=True)
+
+
+class HCAPrinter(JsonPrinter):
+
+    def finish(self):
+        rv = []
+        for idx, obj in enumerate(self.objects):
+
+            # Setup
+            hca = {}
+            rv.append(hca)
+
+            # Extract values
+            hca["project.json"] = {
+                "uuid": str(uuid.uuid4()),
+                "title": obj["map"].get("Publication Title", "unknown"),
+                "id": obj["name"]
+            }
+            hca["sample.json"] = {
+                "uuid": str(uuid.uuid4()),
+                "donor": {"species": obj["map"]["Organism"]},
+            }
+            hca["assay.json"] = {
+                "imaging": {
+                    "microscope": "load from OME-XML",
+                },
+                "file": [
+                    {
+                        "format": "load-from-OMERO",
+                        "name": "load-from-OMERO",
+                    },
+                ]
+            }
+        print json.dumps(rv, indent=4, sort_keys=True)
 
 
 class TextPrinter(object):
@@ -376,14 +412,18 @@ def main(argv):
                         help="Create a report of the generated objects")
     parser.add_argument("--check", action="store_true",
                         help="Check against IDR")
-    parser.add_argument("--format", default="text", choices=("text", "json"),
+    parser.add_argument("--format", default="text", choices=("text", "json", "hca"),
                         help="Format for the report")
     args = parser.parse_args(argv)
 
     if args.format == "json":
         Printer = JsonPrinter
-    else:
+    elif args.format == "hca":
+        Printer = HCAPrinter
+    elif args.format == "text":
         Printer = TextPrinter
+    else:
+       raise Exception("unknown:" + args.format)
 
     for s in args.studyfile:
         p = StudyParser(s)
