@@ -17,12 +17,12 @@ Study External URL
 Study Public Release Date				
 				
 # Study Publication				
-Study PubMed ID				
+Study PubMed ID	30048451			
 Study Publication Title	Ex vivo live cell tracking in kidney organoids using light sheet fluorescence microscopy			
-Study Author List	"Marie Held, Ilaria Santeramo, Bettina Wilm, Patricia Murray, Raphael Levy"			
+Study Author List	Marie Held, Ilaria Santeramo, Bettina Wilm, Patricia Murray, Raphael Levy			
 Study Publication Preprint	https://doi.org/10.1101/233114		
-Study PMC ID				
-Study DOI				
+Study PMC ID	PMC6062017			
+Study DOI	https://doi.org/10.1371/journal.pone.0199918			
 				
 # Study Contacts				
 Study Person Last Name	Held	Levy		
