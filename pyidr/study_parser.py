@@ -426,7 +426,7 @@ def main(argv):
                 log.info("Check annotations for %s" % o.name)
                 check(o)
         printer.finish()
-        return p
+    return p
 
 
 if __name__ == "__main__":
