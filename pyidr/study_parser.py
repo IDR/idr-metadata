@@ -7,8 +7,6 @@ import logging
 import os
 import re
 import sys
-import traceback
-import uuid
 
 logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
 log = logging.getLogger("pyidr.study_parser")
@@ -351,40 +349,6 @@ class JsonPrinter(BasePrinter):
         print json.dumps(self.objects, indent=4, sort_keys=True)
 
 
-class HCAPrinter(JsonPrinter):
-
-    def finish(self):
-        rv = []
-        for idx, obj in enumerate(self.objects):
-
-            # Setup
-            hca = {}
-            rv.append(hca)
-
-            # Extract values
-            hca["project.json"] = {
-                "uuid": str(uuid.uuid4()),
-                "title": obj["map"].get("Publication Title", "unknown"),
-                "id": obj["name"]
-            }
-            hca["sample.json"] = {
-                "uuid": str(uuid.uuid4()),
-                "donor": {"species": obj["map"]["Organism"]},
-            }
-            hca["assay.json"] = {
-                "imaging": {
-                    "microscope": "load from OME-XML",
-                },
-                "file": [
-                    {
-                        "format": "load-from-OMERO",
-                        "name": "load-from-OMERO",
-                    },
-                ]
-            }
-        print json.dumps(rv, indent=4, sort_keys=True)
-
-
 class TextPrinter(object):
 
     def consume(self, obj):
@@ -412,14 +376,12 @@ def main(argv):
                         help="Create a report of the generated objects")
     parser.add_argument("--check", action="store_true",
                         help="Check against IDR")
-    parser.add_argument("--format", default="text", choices=("text", "json", "hca"),
+    parser.add_argument("--format", default="text", choices=("text", "json"),
                         help="Format for the report")
     args = parser.parse_args(argv)
 
     if args.format == "json":
         Printer = JsonPrinter
-    elif args.format == "hca":
-        Printer = HCAPrinter
     elif args.format == "text":
         Printer = TextPrinter
     else:
