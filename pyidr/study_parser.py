@@ -107,7 +107,7 @@ class StudyParser():
         for idx, line in enumerate(lines):
             m = pattern.match(line)
             if m:
-                self._study_lines_used[idx].append(("get_value", key, expr))
+                used[idx].append(("get_value", key, expr))
                 return m.group(1).rstrip()
         if fail_on_missing:
             raise Exception("Could not find value for key %s " % key)
