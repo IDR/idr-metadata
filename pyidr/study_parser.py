@@ -74,7 +74,8 @@ class StudyParser():
         with open(self._study_file, 'r') as f:
             log.info("Parsing %s" % self._study_file)
             self._study_lines = f.readlines()
-            self._study_lines_used = [[] for x in range(len(self._study_lines))]
+            self._study_lines_used = [
+                [] for x in range(len(self._study_lines))]
 
         self.study = self.parse("Study")
 
