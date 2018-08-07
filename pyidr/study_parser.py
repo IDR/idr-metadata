@@ -114,8 +114,10 @@ class StudyParser():
 
     def parse(self, scope, lines=None):
         d = {}
-        mandatory_keys = [x.pattern for x in KEYS if x.scope == scope and not x.optional]
-        optional_keys = [x.pattern for x in KEYS if x.scope == scope and x.optional]
+        mandatory_keys = [x.pattern for x in KEYS
+                          if x.scope == scope and not x.optional]
+        optional_keys = [x.pattern for x in KEYS
+                         if x.scope == scope and x.optional]
         for key in mandatory_keys:
             d[key] = self.get_value(key, lines=lines)
         for key in optional_keys:
@@ -297,7 +299,7 @@ def check(obj):
     try:
         gateway = BlitzGateway(client_obj=cli.get_client())
         remote_obj = gateway.getObject(
-                obj.type, attributes={"name": obj.name})
+            obj.type, attributes={"name": obj.name})
         errors = []
         if remote_obj.description != obj.description:
             errors.append("current:%s\nexpected:%s" % (
@@ -385,7 +387,7 @@ def main(argv):
     elif args.format == "text":
         Printer = TextPrinter
     else:
-       raise Exception("unknown:" + args.format)
+        raise Exception("unknown:" + args.format)
 
     for s in args.studyfile:
         p = StudyParser(s)
@@ -393,7 +395,9 @@ def main(argv):
         for idx, line in enumerate(p._study_lines_used):
             if not line:
                 line = p._study_lines[idx].strip()
-                if line and not line.startswith('#') and not line.startswith('"'):
+                if line and \
+                        not line.startswith('#') and \
+                        not line.startswith('"'):
                     key = line.split("\t")[0]
                     if args.strict:
                         unknown.append(key)
