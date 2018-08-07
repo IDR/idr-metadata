@@ -352,7 +352,7 @@ class JsonPrinter(BasePrinter):
         print json.dumps(self.objects, indent=4, sort_keys=True)
 
 
-class TextPrinter(object):
+class TextPrinter(BasePrinter):
 
     def consume(self, obj):
         print "description:\n%s\n" % obj.description
