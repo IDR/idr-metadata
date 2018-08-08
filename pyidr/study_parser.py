@@ -1,63 +1,67 @@
 #! /usr/bin/env python
 
 from argparse import ArgumentParser
+import glob
+import json
 import logging
 import os
 import re
 import sys
-import traceback
 
 logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
 log = logging.getLogger("pyidr.study_parser")
 
 TYPES = ["Experiment", "Screen"]
-MANDATORY_KEYS = {}
-OPTIONAL_KEYS = {}
-MANDATORY_KEYS["Study"] = [
-    'Comment\[IDR Study Accession\]',
-    'Study Title',
-    'Study Description',
-    'Study Type',
-    'Study Publication Title',
-    'Study Author List',
-    'Study Organism',
-]
-OPTIONAL_KEYS["Study"] = [
-    'Study Publication Preprint',
-    'Study PubMed ID',
-    'Study PMC ID',
-    'Study DOI',
-    'Study Copyright',
-    'Study License',
-    'Study License URL',
-    'Study Data Publisher',
-    'Study Data DOI',
-    'Study Experiments Number',
-    'Study Screens Number',
-]
-MANDATORY_KEYS["Experiment"] = [
-    'Comment\[IDR Experiment Name\]',
-    'Experiment Description',
-    'Experiment Imaging Method',
-    'Experiment Number'
-]
-OPTIONAL_KEYS["Experiment"] = [
-    'Experiment Data DOI',
-    "Experiment Data Publisher",
-]
 
-MANDATORY_KEYS["Screen"] = [
-    'Comment\[IDR Screen Name\]',
-    'Screen Description',
-    'Screen Imaging Method',
-    'Screen Number',
-    'Screen Type',
-]
-OPTIONAL_KEYS["Screen"] = [
-    'Screen Data DOI',
-    "Screen Data Publisher",
-    'Screen Technology Type',
-]
+
+class Key(object):
+
+    def __init__(self, pattern, scope, optional=False):
+        self.pattern = pattern
+        self.scope = scope
+        self.optional = optional
+
+
+KEYS = (
+    # OPTIONAL_KEYS["Study"]
+    Key('Comment\[IDR Study Accession\]', 'Study'),
+    Key('Study Title', 'Study'),
+    Key('Study Description', 'Study'),
+    Key('Study Type', 'Study'),
+    Key('Study Publication Title', 'Study'),
+    Key('Study Author List', 'Study'),
+    Key('Study Organism', 'Study'),
+    # OPTIONAL_KEYS["Study"]
+    Key('Study Publication Preprint', 'Study', optional=True),
+    Key('Study PubMed ID', 'Study', optional=True),
+    Key('Study PMC ID', 'Study', optional=True),
+    Key('Study DOI', 'Study', optional=True),
+    Key('Study Copyright', 'Study', optional=True),
+    Key('Study License', 'Study', optional=True),
+    Key('Study License URL', 'Study', optional=True),
+    Key('Study Data Publisher', 'Study', optional=True),
+    Key('Study Data DOI', 'Study', optional=True),
+    Key('Study Experiments Number', 'Study', optional=True),
+    Key('Study Screens Number', 'Study', optional=True),
+    # MANDATORY_KEYS["Experiment"]
+    Key('Comment\[IDR Experiment Name\]', 'Experiment'),
+    Key('Experiment Description', 'Experiment'),
+    Key('Experiment Imaging Method', 'Experiment'),
+    Key('Experiment Number', 'Experiment'),
+    # OPTIONAL_KEYS["Experiment"]
+    Key('Experiment Data DOI', 'Experiment', optional=True),
+    Key("Experiment Data Publisher", 'Experiment', optional=True),
+    # MANDATORY_KEYS["Screen"]
+    Key('Comment\[IDR Screen Name\]', 'Screen'),
+    Key('Screen Description', 'Screen'),
+    Key('Screen Imaging Method', 'Screen'),
+    Key('Screen Number', 'Screen'),
+    Key('Screen Type', 'Screen'),
+    # OPTIONAL_KEYS["Screen"]
+    Key('Screen Data DOI', 'Screen', optional=True),
+    Key('Screen Data Publisher', 'Screen', optional=True),
+    Key('Screen Technology Type', 'Screen', optional=True),
+)
 
 DOI_PATTERN = re.compile("https?://(dx.)?doi.org/(?P<id>.*)")
 
@@ -70,8 +74,11 @@ class StudyParser():
         with open(self._study_file, 'r') as f:
             log.info("Parsing %s" % self._study_file)
             self._study_lines = f.readlines()
-        self.study = self.parse(
-            MANDATORY_KEYS["Study"], OPTIONAL_KEYS["Study"])
+            self._study_lines_used = [
+                [] for x in range(len(self._study_lines))]
+
+        self.study = self.parse("Study")
+
         self.parse_publications()
         self.parse_data_doi()
 
@@ -81,8 +88,7 @@ class StudyParser():
             for i in range(n):
                 log.debug("Parsing %s %g" % (t, i + 1))
 
-                d = self.parse(MANDATORY_KEYS[t], OPTIONAL_KEYS[t],
-                               lines=self.get_lines(i + 1, t))
+                d = self.parse(t, lines=self.get_lines(i + 1, t))
                 d.update({'Type': t})
                 d.update(self.study)
                 self.parse_annotation_file(d)
@@ -93,17 +99,26 @@ class StudyParser():
 
     def get_value(self, key, expr=".*", fail_on_missing=True, lines=None):
         pattern = re.compile("^%s\t(%s)" % (key, expr))
-        if not lines:
+        if lines:
+            # Fake space since we don't know what the caller is passing
+            used = [[] for x in range(len(lines))]
+        else:
             lines = self._study_lines
-        for line in lines:
+            used = self._study_lines_used
+        for idx, line in enumerate(lines):
             m = pattern.match(line)
             if m:
+                used[idx].append(("get_value", key, expr))
                 return m.group(1).rstrip()
         if fail_on_missing:
             raise Exception("Could not find value for key %s " % key)
 
-    def parse(self, mandatory_keys, optional_keys, lines=None):
+    def parse(self, scope, lines=None):
         d = {}
+        mandatory_keys = [x.pattern for x in KEYS
+                          if x.scope == scope and not x.optional]
+        optional_keys = [x.pattern for x in KEYS
+                         if x.scope == scope and x.optional]
         for key in mandatory_keys:
             d[key] = self.get_value(key, lines=lines)
         for key in optional_keys:
@@ -116,7 +131,7 @@ class StudyParser():
         PATTERN = re.compile("^%s Number\t(\d+)" % component_type)
         found = False
         lines = []
-        for line in self._study_lines:
+        for idx, line in enumerate(self._study_lines):
             m = PATTERN.match(line)
             if m:
                 if int(m.group(1)) == index:
@@ -124,6 +139,7 @@ class StudyParser():
                 elif int(m.group(1)) != index and found:
                     return lines
             if found:
+                self._study_lines_used[idx].append(("get_lines", index))
                 lines.append(line)
         if not lines:
             raise Exception("Could not find %s %g" % (component_type, index))
@@ -198,7 +214,7 @@ class StudyParser():
         self.study["Data DOI"] = m.group("id")
 
 
-class Object():
+class Object(object):
 
     PUBLICATION_PAIRS = [
         ('Publication Title', "%(Title)s"),
@@ -219,6 +235,7 @@ class Object():
     ]
 
     def __init__(self, component):
+        self.component = component
         if component['Type'] == "Experiment":
             self.type = "Project"
             self.NAME = "%(Comment\[IDR Experiment Name\])s"
@@ -283,7 +300,7 @@ def check(obj):
     try:
         gateway = BlitzGateway(client_obj=cli.get_client())
         remote_obj = gateway.getObject(
-                obj.type, attributes={"name": obj.name})
+            obj.type, attributes={"name": obj.name})
         errors = []
         if remote_obj.description != obj.description:
             errors.append("current:%s\nexpected:%s" % (
@@ -308,35 +325,109 @@ def check(obj):
         gateway.close()
 
 
+class BasePrinter(object):
+
+    def __init__(self, parser):
+        self.parser = parser
+
+
+class JsonPrinter(BasePrinter):
+
+    def __init__(self, parser):
+        BasePrinter.__init__(self, parser)
+        self.objects = []
+
+    def consume(self, obj):
+        m = {
+            "source": self.parser._study_file,
+            "name": obj.name,
+            "description": obj.description,
+            "map": dict((v[0], v[1]) for v in obj.map),
+        }
+        if hasattr(obj, "files"):
+            m["files"] = obj.files
+        self.objects.append(m)
+
+    def finish(self):
+        print json.dumps(self.objects, indent=4, sort_keys=True)
+
+
+class TextPrinter(BasePrinter):
+
+    def consume(self, obj):
+        print "description:\n%s\n" % obj.description
+        print "map:"
+        print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
+        if hasattr(obj, "files"):
+            print "files:"
+            for f in obj.files:
+                print "\t", f
+
+    def finish(self):
+        pass
+
+
 def main(argv):
 
     parser = ArgumentParser()
     parser.add_argument("studyfile", help="Study file to parse", nargs='+')
+    parser.add_argument("--strict", action="store_true",
+                        help="Fail if unknown keys are detected")
+    parser.add_argument("--inspect", action="store_true",
+                        help="Inspect the internals of the study directory")
     parser.add_argument("--report", action="store_true",
                         help="Create a report of the generated objects")
     parser.add_argument("--check", action="store_true",
                         help="Check against IDR")
+    parser.add_argument("--format", default="text", choices=("text", "json"),
+                        help="Format for the report")
     args = parser.parse_args(argv)
 
-    try:
-        for s in args.studyfile:
-            p = StudyParser(s)
-            objects = [Object(x) for x in p.components]
-            if args.report:
-                for o in objects:
-                    log.info("Generating annotations for %s" % o.name)
-                    print "description:\n%s\n" % o.description
-                    print "map:"
-                    print "\n".join(["%s\t%s" % (v[0], v[1]) for v in o.map])
+    if args.format == "json":
+        Printer = JsonPrinter
+    elif args.format == "text":
+        Printer = TextPrinter
+    else:
+        raise Exception("unknown:" + args.format)
 
-            if args.check:
-                for o in objects:
-                    log.info("Check annotations for %s" % o.name)
-                    check(o)
-    except Exception:
-        traceback.print_exc()
-        sys.exit(1)
+    for s in args.studyfile:
+        p = StudyParser(s)
+        unknown = []
+        for idx, line in enumerate(p._study_lines_used):
+            if not line:
+                line = p._study_lines[idx].strip()
+                if line and \
+                        not line.startswith('#') and \
+                        not line.startswith('"'):
+                    key = line.split("\t")[0]
+                    if args.strict:
+                        unknown.append(key)
+                    else:
+                        log.warn("Unknown key: %s", key)
+        if unknown:
+            print "Found %s unknown keys:" % len(unknown)
+            raise Exception("\n".join(unknown))
+        printer = Printer(p)
+        objects = [Object(x) for x in p.components]
+        if args.inspect:
+            basedir = os.path.dirname(s)
+            log.info("Inspect the internals of %s" % basedir)
+            for o in objects:
+                path = "%s/%s/*" % (basedir, o.name.split("/")[-1])
+                o.files = glob.glob(path)
+
+        if args.report:
+            for o in objects:
+                log.info("Generating annotations for %s" % o.name)
+                printer.consume(o)
+
+        if args.check:
+            for o in objects:
+                log.info("Check annotations for %s" % o.name)
+                check(o)
+        printer.finish()
+    return p
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    parser = main(sys.argv[1:])
