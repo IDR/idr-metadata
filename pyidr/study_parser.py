@@ -352,21 +352,6 @@ class JsonPrinter(BasePrinter):
         print json.dumps(self.objects, indent=4, sort_keys=True)
 
 
-class TextPrinter(BasePrinter):
-
-    def consume(self, obj):
-        print "description:\n%s\n" % obj.description
-        print "map:"
-        print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
-        if hasattr(obj, "files"):
-            print "files:"
-            for f in obj.files:
-                print "\t", f
-
-    def finish(self):
-        pass
-
-
 def main(argv):
 
     parser = ArgumentParser()
@@ -379,16 +364,9 @@ def main(argv):
                         help="Create a report of the generated objects")
     parser.add_argument("--check", action="store_true",
                         help="Check against IDR")
-    parser.add_argument("--format", default="text", choices=("text", "json"),
-                        help="Format for the report")
     args = parser.parse_args(argv)
 
-    if args.format == "json":
-        Printer = JsonPrinter
-    elif args.format == "text":
-        Printer = TextPrinter
-    else:
-        raise Exception("unknown:" + args.format)
+    Printer = JsonPrinter
 
     for s in args.studyfile:
         p = StudyParser(s)
