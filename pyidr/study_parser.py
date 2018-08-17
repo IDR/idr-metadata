@@ -214,7 +214,7 @@ class StudyParser():
         self.study["Data DOI"] = m.group("id")
 
 
-class Object(object):
+class Formatter(object):
 
     PUBLICATION_PAIRS = [
         ('Publication Title', "%(Title)s"),
@@ -234,9 +234,32 @@ class Object(object):
         ('Annotation File', "%(Annotation File)s"),
     ]
 
-    def __init__(self, component):
-        self.component = component
-        if component['Type'] == "Experiment":
+    def __init__(self, parser, inspect=False):
+        self.parser = parser
+        self.basedir = os.path.dirname(parser._study_file)
+        self.inspect = inspect
+        self.m = {
+          "source": self.parser._study_file,
+          "experiments": [],
+          "screens": [],
+        }
+        self.m.update(self.serialize(self.parser.study))
+        for component in self.parser.components:
+            if component['Type'] == "Experiment":
+                self.m["experiments"].append(self.serialize(component))
+            elif component['Type'] == "Screen":
+                self.m["screens"].append(self.serialize(component))
+
+    def serialize(self, component):
+        if 'Type' not in component:
+            self.type = "Study"
+            self.NAME = "%(Comment\[IDR Study Accession\])s"
+            self.DESCRIPTION = (
+                "Study Description\n%(Study Description)s")
+            self.TOP_PAIRS = [
+                ('Study Type', "%(Study Type)s"),
+                ]
+        elif component['Type'] == "Experiment":
             self.type = "Project"
             self.NAME = "%(Comment\[IDR Experiment Name\])s"
             self.DESCRIPTION = (
@@ -258,9 +281,21 @@ class Object(object):
                 ('Screen Technology Type', "%(Screen Technology Type)s"),
                 ('Imaging Method', "%(Screen Imaging Method)s"),
             ]
-        self.name = self.NAME % component
-        self.description = self.generate_description(component)
-        self.map = self.generate_annotation(component)
+
+        m = {
+          "name": self.NAME % component,
+          "description": self.generate_description(component),
+          "map": dict(
+              (v[0], v[1]) for v in self.generate_annotation(component)),
+        }
+        if self.inspect:
+            log.info("Inspect the internals of %s" % self.basedir)
+            path = "%s/%s/*" % (self.basedir, m["name"].split("/")[-1])
+            m["files"] = glob.glob(path)
+        return m
+
+    def __str__(self):
+        return json.dumps(self.m, indent=4, sort_keys=True)
 
     def generate_description(self, component):
         # Only display the first publication
@@ -325,33 +360,6 @@ def check(obj):
         gateway.close()
 
 
-class BasePrinter(object):
-
-    def __init__(self, parser):
-        self.parser = parser
-
-
-class JsonPrinter(BasePrinter):
-
-    def __init__(self, parser):
-        BasePrinter.__init__(self, parser)
-        self.objects = []
-
-    def consume(self, obj):
-        m = {
-            "source": self.parser._study_file,
-            "name": obj.name,
-            "description": obj.description,
-            "map": dict((v[0], v[1]) for v in obj.map),
-        }
-        if hasattr(obj, "files"):
-            m["files"] = obj.files
-        self.objects.append(m)
-
-    def finish(self):
-        print json.dumps(self.objects, indent=4, sort_keys=True)
-
-
 def main(argv):
 
     parser = ArgumentParser()
@@ -365,8 +373,6 @@ def main(argv):
     parser.add_argument("--check", action="store_true",
                         help="Check against IDR")
     args = parser.parse_args(argv)
-
-    Printer = JsonPrinter
 
     for s in args.studyfile:
         p = StudyParser(s)
@@ -385,25 +391,15 @@ def main(argv):
         if unknown:
             print "Found %s unknown keys:" % len(unknown)
             raise Exception("\n".join(unknown))
-        printer = Printer(p)
-        objects = [Object(x) for x in p.components]
-        if args.inspect:
-            basedir = os.path.dirname(s)
-            log.info("Inspect the internals of %s" % basedir)
-            for o in objects:
-                path = "%s/%s/*" % (basedir, o.name.split("/")[-1])
-                o.files = glob.glob(path)
+        d = Formatter(p, inspect=args.inspect)
 
         if args.report:
-            for o in objects:
-                log.info("Generating annotations for %s" % o.name)
-                printer.consume(o)
+            print str(d)
 
         if args.check:
             for o in objects:
                 log.info("Check annotations for %s" % o.name)
                 check(o)
-        printer.finish()
     return p
 
 
