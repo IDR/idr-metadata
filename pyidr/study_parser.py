@@ -253,16 +253,14 @@ class Formatter(object):
 
     def serialize(self, component):
         if 'Type' not in component:
-            self.type = "Study"
-            self.NAME = "%(Comment\[IDR Study Accession\])s"
+            m = {"name": self.basedir}
             self.DESCRIPTION = (
                 "Study Description\n%(Study Description)s")
             self.TOP_PAIRS = [
                 ('Study Type', "%(Study Type)s"),
                 ]
         elif component['Type'] == "Experiment":
-            self.type = "Project"
-            self.NAME = "%(Comment\[IDR Experiment Name\])s"
+            m = {"name": "%(Comment\[IDR Experiment Name\])s" % component}
             self.DESCRIPTION = (
                 "Experiment Description\n%(Experiment Description)s")
             self.TOP_PAIRS = [
@@ -271,8 +269,7 @@ class Formatter(object):
                 ('Imaging Method', "%(Experiment Imaging Method)s"),
                 ]
         else:
-            self.type = "Screen"
-            self.NAME = "%(Comment\[IDR Screen Name\])s"
+            m = {"name": "%(Comment\[IDR Screen Name\])s" % component}
             self.DESCRIPTION = (
                 "Screen Description\n%(Screen Description)s")
             self.TOP_PAIRS = [
@@ -283,11 +280,10 @@ class Formatter(object):
                 ('Imaging Method', "%(Screen Imaging Method)s"),
             ]
 
-        m = {
-          "name": self.NAME % component,
+        m.update({
           "description": self.generate_description(component),
           "map": self.generate_annotation(component),
-        }
+        })
         if self.inspect:
             log.info("Inspect the internals of %s" % self.basedir)
             path = "%s/%s/*" % (self.basedir, m["name"].split("/")[-1])
