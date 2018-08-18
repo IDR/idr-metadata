@@ -78,9 +78,10 @@ class StudyParser():
                 [] for x in range(len(self._study_lines))]
 
         self.study = self.parse("Study")
+        self.has_children_doi = False
 
         self.parse_publications()
-        self.parse_data_doi(self.study, "Study")
+        self.study.update(self.parse_data_doi(self.study, "Study Data DOI"))
 
         self.components = []
         for t in TYPES:
@@ -91,7 +92,10 @@ class StudyParser():
                 d = self.parse(t, lines=self.get_lines(i + 1, t))
                 d.update({'Type': t})
                 d.update(self.study)
-                self.parse_data_doi(d, t)
+                doi = self.parse_data_doi(d, "%s Data DOI" % t)
+                if doi:
+                    d.update(doi)
+                    self.has_children_doi = True
                 self.parse_annotation_file(d)
                 self.components.append(d)
 
@@ -205,18 +209,29 @@ class StudyParser():
 
         self.study["Publications"] = publications
 
-    def parse_data_doi(self, d, t):
-        if '%s Data DOI' % t not in d:
-            return
-        m = DOI_PATTERN.match(d['%s Data DOI' % t])
+    def parse_data_doi(self, d, key):
+        if key not in d:
+            return {}
+        m = DOI_PATTERN.match(d[key])
         if not m:
             raise Exception(
-                "Invalid Data DOI: %s" % d['%s Data DOI' % t])
-        d.update({"Data DOI": m.group("id")})
+                "Invalid Data DOI: %s" % d[key])
+        return {"Data DOI": m.group("id")}
 
 
 class Formatter(object):
 
+    TOP_PAIRS = [('Study Type', "%(Study Type)s")]
+    EXPERIMENT_PAIRS = [
+        ('Organism', "%(Study Organism)s"),
+        ('Imaging Method', "%(Experiment Imaging Method)s"),
+    ]
+    SCREEN_PAIRS = [
+        ('Organism', "%(Study Organism)s"),
+        ('Screen Type', "%(Screen Type)s"),
+        ('Screen Technology Type', "%(Screen Technology Type)s"),
+        ('Imaging Method', "%(Screen Imaging Method)s"),
+    ]
     PUBLICATION_PAIRS = [
         ('Publication Title', "%(Title)s"),
         ('Publication Authors', "%(Author List)s"),
@@ -240,55 +255,24 @@ class Formatter(object):
         self.basedir = os.path.dirname(parser._study_file)
         self.inspect = inspect
         self.m = {
+          "name": self.basedir,
           "source": self.parser._study_file,
           "experiments": [],
           "screens": [],
         }
-        self.m.update(self.serialize(self.parser.study))
         for component in self.parser.components:
-            if component['Type'] == "Experiment":
-                self.m["experiments"].append(self.serialize(component))
-            elif component['Type'] == "Screen":
-                self.m["screens"].append(self.serialize(component))
-
-    def serialize(self, component):
-        if 'Type' not in component:
-            m = {"name": self.basedir}
-            self.DESCRIPTION = (
-                "Study Description\n%(Study Description)s")
-            self.TOP_PAIRS = [
-                ('Study Type', "%(Study Type)s"),
-                ]
-        elif component['Type'] == "Experiment":
-            m = {"name": "%(Comment\[IDR Experiment Name\])s" % component}
-            self.DESCRIPTION = (
-                "Experiment Description\n%(Experiment Description)s")
-            self.TOP_PAIRS = [
-                ('Study Type', "%(Study Type)s"),
-                ('Organism', "%(Study Organism)s"),
-                ('Imaging Method', "%(Experiment Imaging Method)s"),
-                ]
-        else:
-            m = {"name": "%(Comment\[IDR Screen Name\])s" % component}
-            self.DESCRIPTION = (
-                "Screen Description\n%(Screen Description)s")
-            self.TOP_PAIRS = [
-                ('Study Type', "%(Study Type)s"),
-                ('Organism', "%(Study Organism)s"),
-                ('Screen Type', "%(Screen Type)s"),
-                ('Screen Technology Type', "%(Screen Technology Type)s"),
-                ('Imaging Method', "%(Screen Imaging Method)s"),
-            ]
-
-        m.update({
-          "description": self.generate_description(component),
-          "map": self.generate_annotation(component),
-        })
-        if self.inspect:
-            log.info("Inspect the internals of %s" % self.basedir)
-            path = "%s/%s/*" % (self.basedir, m["name"].split("/")[-1])
-            m["files"] = glob.glob(path)
-        return m
+            name = component["Comment\[IDR %s Name\]" % component["Type"]]
+            component_dict = {
+              "name": name,
+              "description": self.generate_description(component),
+              "map": self.generate_annotation(component),
+            }
+            if self.inspect:
+                log.info("Inspect the internals of %s" % self.basedir)
+                path = "%s/%s/*" % (self.basedir, name.split("/")[-1])
+                component_dict["files"] = glob.glob(path)
+            self.m["%ss" % component['Type'].lower()].append(component_dict)
+        # self.m.update(self.serialize(self.parser.study))
 
     def __str__(self):
         return json.dumps(self.m, indent=4, sort_keys=True)
@@ -298,7 +282,9 @@ class Formatter(object):
         publication_title = (
             "Publication Title\n%(Study Publication Title)s" %
             component).split('\t')[0]
-        return publication_title + "\n\n" + self.DESCRIPTION % component
+        component_title = "%s Description\n" % component["Type"] + \
+            component["%s Description" % component["Type"]]
+        return publication_title + "\n\n" + component_title
 
     def generate_annotation(self, component):
 
@@ -313,6 +299,10 @@ class Formatter(object):
 
         s = []
         add_key_values(component, self.TOP_PAIRS)
+        if component["Type"] == "Experiment":
+            add_key_values(component, self.EXPERIMENT_PAIRS)
+        elif component["Type"] == "SCreen":
+            add_key_values(component, self.SCREEN_PAIRS)
         for publication in component["Publications"]:
             add_key_values(publication, self.PUBLICATION_PAIRS)
         add_key_values(component, self.BOTTOM_PAIRS)
