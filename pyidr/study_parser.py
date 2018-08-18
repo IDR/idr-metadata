@@ -328,7 +328,8 @@ class Formatter(object):
                 remote_obj.description, o["description"]))
         for al in remote_obj._getAnnotationLinks(
                 ns="openmicroscopy.org/omero/client/mapAnnotation"):
-            kv_pairs = [{m.name: m.value} for m in al.child.mapValue]
+            kv_pairs = [{m.name: m.value} for m in al.child.mapValue
+                        if m.name != "Study"]
             if kv_pairs != o["map"]:
                 for i in range(min(len(kv_pairs), len(o["map"]))):
                     if kv_pairs[i] != o["map"][i]:
