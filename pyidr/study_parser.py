@@ -285,8 +285,7 @@ class Formatter(object):
         m = {
           "name": self.NAME % component,
           "description": self.generate_description(component),
-          "map": dict(
-              (v[0], v[1]) for v in self.generate_annotation(component)),
+          "map": self.generate_annotation(component),
         }
         if self.inspect:
             log.info("Inspect the internals of %s" % self.basedir)
@@ -311,7 +310,7 @@ class Formatter(object):
                 try:
                     value = formatter % d
                     for v in value.split('\t'):
-                        s.append(('%s' % key, v))
+                        s.append({'%s' % key: v})
                 except KeyError, e:
                     log.debug("Missing %s" % e.message)
 
@@ -322,42 +321,48 @@ class Formatter(object):
         add_key_values(component, self.BOTTOM_PAIRS)
         return s
 
-
-def check(obj):
-
-    from omero.cli import CLI
-    from omero.gateway import BlitzGateway
-
-    cli = CLI()
-    cli.loadplugins()
-    cli.onecmd('login')
-
-    try:
-        gateway = BlitzGateway(client_obj=cli.get_client())
+    def check_object(self, gateway, o, obj_type):
+        log.info("Checking %s %s" % (obj_type, o["name"]))
         remote_obj = gateway.getObject(
-            obj.type, attributes={"name": obj.name})
+            obj_type, attributes={"name": o["name"]})
         errors = []
-        if remote_obj.description != obj.description:
+        if remote_obj.description != o["description"]:
             errors.append("current:%s\nexpected:%s" % (
-                remote_obj.description, obj.description))
+                remote_obj.description, o["description"]))
         for al in remote_obj._getAnnotationLinks(
                 ns="openmicroscopy.org/omero/client/mapAnnotation"):
-            mapValue = al.child.mapValue
-            kv_pairs = [(m.name, m.value) for m in mapValue]
-            for i in range(len(kv_pairs)):
-                if kv_pairs[i] != obj.map[i]:
-                    errors.append(
-                        "current:%s\nexpected:%s" % (kv_pairs[i], obj.map[i]))
+            kv_pairs = [{m.name: m.value} for m in al.child.mapValue]
+            if kv_pairs != o["map"]:
+                for i in range(min(len(kv_pairs), len(o["map"]))):
+                    if kv_pairs[i] != o["map"][i]:
+                        errors.append("current:%s\nexpected:%s" % (
+                            kv_pairs[i], o["map"][i]))
         if not errors:
             log.info("No annotations mismatch detected")
         else:
             for e in errors:
                 log.info("Found some annotations mismatch")
                 print e
-    finally:
-        if cli:
-            cli.close()
-        gateway.close()
+
+    def check(self):
+
+        from omero.cli import CLI
+        from omero.gateway import BlitzGateway
+
+        cli = CLI()
+        cli.loadplugins()
+        cli.onecmd('login')
+
+        try:
+            gateway = BlitzGateway(client_obj=cli.get_client())
+            for experiment in self.m["experiments"]:
+                self.check_object(gateway, experiment, "Project")
+            for experiment in self.m["screens"]:
+                self.check_object(gateway, experiment, "Screen")
+        finally:
+            if cli:
+                cli.close()
+            gateway.close()
 
 
 def main(argv):
@@ -397,9 +402,7 @@ def main(argv):
             print str(d)
 
         if args.check:
-            for o in objects:
-                log.info("Check annotations for %s" % o.name)
-                check(o)
+            d.check()
     return p
 
 
