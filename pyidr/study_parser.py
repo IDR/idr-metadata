@@ -80,7 +80,7 @@ class StudyParser():
         self.study = self.parse("Study")
 
         self.parse_publications()
-        self.parse_data_doi()
+        self.parse_data_doi(self.study, "Study")
 
         self.components = []
         for t in TYPES:
@@ -91,6 +91,7 @@ class StudyParser():
                 d = self.parse(t, lines=self.get_lines(i + 1, t))
                 d.update({'Type': t})
                 d.update(self.study)
+                self.parse_data_doi(d, t)
                 self.parse_annotation_file(d)
                 self.components.append(d)
 
@@ -204,14 +205,14 @@ class StudyParser():
 
         self.study["Publications"] = publications
 
-    def parse_data_doi(self):
-        if 'Study Data DOI' not in self.study:
+    def parse_data_doi(self, d, t):
+        if '%s Data DOI' % t not in d:
             return
-        m = DOI_PATTERN.match(self.study['Study Data DOI'])
+        m = DOI_PATTERN.match(d['%s Data DOI' % t])
         if not m:
             raise Exception(
-                "Invalid Data DOI: %s" % self.study['Study Data DOI'])
-        self.study["Data DOI"] = m.group("id")
+                "Invalid Data DOI: %s" % d['%s Data DOI' % t])
+        d.update({"Data DOI": m.group("id")})
 
 
 class Formatter(object):
