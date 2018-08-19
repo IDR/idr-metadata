@@ -260,9 +260,11 @@ class Formatter(object):
           "experiments": [],
           "screens": [],
         }
+
+        # Serialize experiments/screens
         for component in self.parser.components:
             name = component["Comment\[IDR %s Name\]" % component["Type"]]
-            component_dict = {
+            d = {
               "name": name,
               "description": self.generate_description(component),
               "map": self.generate_annotation(component),
@@ -270,23 +272,36 @@ class Formatter(object):
             if self.inspect:
                 log.info("Inspect the internals of %s" % self.basedir)
                 path = "%s/%s/*" % (self.basedir, name.split("/")[-1])
-                component_dict["files"] = glob.glob(path)
-            self.m["%ss" % component['Type'].lower()].append(component_dict)
-        # self.m.update(self.serialize(self.parser.study))
+                d["files"] = glob.glob(path)
+            self.m["%ss" % component['Type'].lower()].append(d)
+
+        # Add top-level study
+        if self.parser.has_children_doi:
+            d = {
+                "description": self.generate_description(self.parser.study),
+                "map": self.generate_annotation(self.parser.study),
+            }
+            self.m.update(d)
 
     def __str__(self):
         return json.dumps(self.m, indent=4, sort_keys=True)
 
     def generate_description(self, component):
+        """Generate the description of the study/experiment/screen"""
         # Only display the first publication
         publication_title = (
             "Publication Title\n%(Study Publication Title)s" %
             component).split('\t')[0]
-        component_title = "%s Description\n" % component["Type"] + \
-            component["%s Description" % component["Type"]]
+        if "Type" in component:
+            key = "%s Description" % component["Type"]
+        else:
+            key = "Study Description"
+        component_title = (
+            "%s\n%s" % (key, component[key])).decode('string_escape')
         return publication_title + "\n\n" + component_title
 
     def generate_annotation(self, component):
+        """Generate the map annotation of the study/experiment/screen"""
 
         def add_key_values(d, pairs):
             for key, formatter in pairs:
@@ -299,9 +314,9 @@ class Formatter(object):
 
         s = []
         add_key_values(component, self.TOP_PAIRS)
-        if component["Type"] == "Experiment":
+        if component.get("Type", None) == "Experiment":
             add_key_values(component, self.EXPERIMENT_PAIRS)
-        elif component["Type"] == "SCreen":
+        elif component.get("Type", None) == "Screen":
             add_key_values(component, self.SCREEN_PAIRS)
         for publication in component["Publications"]:
             add_key_values(publication, self.PUBLICATION_PAIRS)
@@ -309,6 +324,8 @@ class Formatter(object):
         return s
 
     def check_object(self, gateway, o, obj_type):
+        """Check description and map of individual object on OMERO server"""
+
         log.info("Checking %s %s" % (obj_type, o["name"]))
         remote_obj = gateway.getObject(
             obj_type, attributes={"name": o["name"]})
@@ -328,8 +345,8 @@ class Formatter(object):
         if not errors:
             log.info("No annotations mismatch detected")
         else:
+            log.error("Found some annotations mismatch")
             for e in errors:
-                log.info("Found some annotations mismatch")
                 print e
 
     def check(self):
@@ -347,6 +364,12 @@ class Formatter(object):
                 self.check_object(gateway, experiment, "Project")
             for experiment in self.m["screens"]:
                 self.check_object(gateway, experiment, "Screen")
+            if "map" in self.m:
+                if self.m["experiments"]:
+                    study_type = "Project"
+                else:
+                    study_type = "Screen"
+                self.check_object(gateway, self.m, study_type)
         finally:
             if cli:
                 cli.close()
