@@ -78,9 +78,10 @@ class StudyParser():
                 [] for x in range(len(self._study_lines))]
 
         self.study = self.parse("Study")
+        self.has_children_doi = False
 
         self.parse_publications()
-        self.parse_data_doi()
+        self.study.update(self.parse_data_doi(self.study, "Study Data DOI"))
 
         self.components = []
         for t in TYPES:
@@ -91,6 +92,10 @@ class StudyParser():
                 d = self.parse(t, lines=self.get_lines(i + 1, t))
                 d.update({'Type': t})
                 d.update(self.study)
+                doi = self.parse_data_doi(d, "%s Data DOI" % t)
+                if doi:
+                    d.update(doi)
+                    self.has_children_doi = True
                 self.parse_annotation_file(d)
                 self.components.append(d)
 
@@ -204,18 +209,29 @@ class StudyParser():
 
         self.study["Publications"] = publications
 
-    def parse_data_doi(self):
-        if 'Study Data DOI' not in self.study:
-            return
-        m = DOI_PATTERN.match(self.study['Study Data DOI'])
+    def parse_data_doi(self, d, key):
+        if key not in d:
+            return {}
+        m = DOI_PATTERN.match(d[key])
         if not m:
             raise Exception(
-                "Invalid Data DOI: %s" % self.study['Study Data DOI'])
-        self.study["Data DOI"] = m.group("id")
+                "Invalid Data DOI: %s" % d[key])
+        return {"Data DOI": m.group("id")}
 
 
-class Object(object):
+class Formatter(object):
 
+    TOP_PAIRS = [('Study Type', "%(Study Type)s")]
+    EXPERIMENT_PAIRS = [
+        ('Organism', "%(Study Organism)s"),
+        ('Imaging Method', "%(Experiment Imaging Method)s"),
+    ]
+    SCREEN_PAIRS = [
+        ('Organism', "%(Study Organism)s"),
+        ('Screen Type', "%(Screen Type)s"),
+        ('Screen Technology Type', "%(Screen Technology Type)s"),
+        ('Imaging Method', "%(Screen Imaging Method)s"),
+    ]
     PUBLICATION_PAIRS = [
         ('Publication Title', "%(Title)s"),
         ('Publication Authors', "%(Author List)s"),
@@ -234,137 +250,130 @@ class Object(object):
         ('Annotation File', "%(Annotation File)s"),
     ]
 
-    def __init__(self, component):
-        self.component = component
-        if component['Type'] == "Experiment":
-            self.type = "Project"
-            self.NAME = "%(Comment\[IDR Experiment Name\])s"
-            self.DESCRIPTION = (
-                "Experiment Description\n%(Experiment Description)s")
-            self.TOP_PAIRS = [
-                ('Study Type', "%(Study Type)s"),
-                ('Organism', "%(Study Organism)s"),
-                ('Imaging Method', "%(Experiment Imaging Method)s"),
-                ]
-        else:
-            self.type = "Screen"
-            self.NAME = "%(Comment\[IDR Screen Name\])s"
-            self.DESCRIPTION = (
-                "Screen Description\n%(Screen Description)s")
-            self.TOP_PAIRS = [
-                ('Study Type', "%(Study Type)s"),
-                ('Organism', "%(Study Organism)s"),
-                ('Screen Type', "%(Screen Type)s"),
-                ('Screen Technology Type', "%(Screen Technology Type)s"),
-                ('Imaging Method', "%(Screen Imaging Method)s"),
-            ]
-        self.name = self.NAME % component
-        self.description = self.generate_description(component)
-        self.map = self.generate_annotation(component)
+    def __init__(self, parser, inspect=False):
+        self.parser = parser
+        self.basedir = os.path.dirname(parser._study_file)
+        self.inspect = inspect
+        self.m = {
+          "name": self.basedir,
+          "source": self.parser._study_file,
+          "experiments": [],
+          "screens": [],
+        }
+
+        # Serialize experiments/screens
+        for component in self.parser.components:
+            name = component["Comment\[IDR %s Name\]" % component["Type"]]
+            d = {
+              "name": name,
+              "description": self.generate_description(component),
+              "map": self.generate_annotation(component),
+            }
+            if self.inspect:
+                log.info("Inspect the internals of %s" % self.basedir)
+                path = "%s/%s/*" % (self.basedir, name.split("/")[-1])
+                d["files"] = glob.glob(path)
+            self.m["%ss" % component['Type'].lower()].append(d)
+
+        # Add top-level study
+        if self.parser.has_children_doi:
+            d = {
+                "description": self.generate_description(self.parser.study),
+                "map": self.generate_annotation(self.parser.study),
+            }
+            self.m.update(d)
+
+    def __str__(self):
+        return json.dumps(self.m, indent=4, sort_keys=True)
 
     def generate_description(self, component):
+        """Generate the description of the study/experiment/screen"""
         # Only display the first publication
         publication_title = (
             "Publication Title\n%(Study Publication Title)s" %
             component).split('\t')[0]
-        return publication_title + "\n\n" + self.DESCRIPTION % component
+        if "Type" in component:
+            key = "%s Description" % component["Type"]
+        else:
+            key = "Study Description"
+        component_title = (
+            "%s\n%s" % (key, component[key])).decode('string_escape')
+        return publication_title + "\n\n" + component_title
 
     def generate_annotation(self, component):
+        """Generate the map annotation of the study/experiment/screen"""
 
         def add_key_values(d, pairs):
             for key, formatter in pairs:
                 try:
                     value = formatter % d
                     for v in value.split('\t'):
-                        s.append(('%s' % key, v))
+                        s.append({'%s' % key: v})
                 except KeyError, e:
                     log.debug("Missing %s" % e.message)
 
         s = []
         add_key_values(component, self.TOP_PAIRS)
+        if component.get("Type", None) == "Experiment":
+            add_key_values(component, self.EXPERIMENT_PAIRS)
+        elif component.get("Type", None) == "Screen":
+            add_key_values(component, self.SCREEN_PAIRS)
         for publication in component["Publications"]:
             add_key_values(publication, self.PUBLICATION_PAIRS)
         add_key_values(component, self.BOTTOM_PAIRS)
         return s
 
+    def check_object(self, gateway, o, obj_type):
+        """Check description and map of individual object on OMERO server"""
 
-def check(obj):
-
-    from omero.cli import CLI
-    from omero.gateway import BlitzGateway
-
-    cli = CLI()
-    cli.loadplugins()
-    cli.onecmd('login')
-
-    try:
-        gateway = BlitzGateway(client_obj=cli.get_client())
+        log.info("Checking %s %s" % (obj_type, o["name"]))
         remote_obj = gateway.getObject(
-            obj.type, attributes={"name": obj.name})
+            obj_type, attributes={"name": o["name"]})
         errors = []
-        if remote_obj.description != obj.description:
+        if remote_obj.description != o["description"]:
             errors.append("current:%s\nexpected:%s" % (
-                remote_obj.description, obj.description))
+                remote_obj.description, o["description"]))
         for al in remote_obj._getAnnotationLinks(
                 ns="openmicroscopy.org/omero/client/mapAnnotation"):
-            mapValue = al.child.mapValue
-            kv_pairs = [(m.name, m.value) for m in mapValue]
-            for i in range(len(kv_pairs)):
-                if kv_pairs[i] != obj.map[i]:
-                    errors.append(
-                        "current:%s\nexpected:%s" % (kv_pairs[i], obj.map[i]))
+            kv_pairs = [{m.name: m.value} for m in al.child.mapValue
+                        if m.name != "Study"]
+            if kv_pairs != o["map"]:
+                for i in range(min(len(kv_pairs), len(o["map"]))):
+                    if kv_pairs[i] != o["map"][i]:
+                        errors.append("current:%s\nexpected:%s" % (
+                            kv_pairs[i], o["map"][i]))
         if not errors:
             log.info("No annotations mismatch detected")
         else:
+            log.error("Found some annotations mismatch")
             for e in errors:
-                log.info("Found some annotations mismatch")
                 print e
-    finally:
-        if cli:
-            cli.close()
-        gateway.close()
 
+    def check(self):
 
-class BasePrinter(object):
+        from omero.cli import CLI
+        from omero.gateway import BlitzGateway
 
-    def __init__(self, parser):
-        self.parser = parser
+        cli = CLI()
+        cli.loadplugins()
+        cli.onecmd('login')
 
-
-class JsonPrinter(BasePrinter):
-
-    def __init__(self, parser):
-        BasePrinter.__init__(self, parser)
-        self.objects = []
-
-    def consume(self, obj):
-        m = {
-            "source": self.parser._study_file,
-            "name": obj.name,
-            "description": obj.description,
-            "map": dict((v[0], v[1]) for v in obj.map),
-        }
-        if hasattr(obj, "files"):
-            m["files"] = obj.files
-        self.objects.append(m)
-
-    def finish(self):
-        print json.dumps(self.objects, indent=4, sort_keys=True)
-
-
-class TextPrinter(BasePrinter):
-
-    def consume(self, obj):
-        print "description:\n%s\n" % obj.description
-        print "map:"
-        print "\n".join(["%s\t%s" % (v[0], v[1]) for v in obj.map])
-        if hasattr(obj, "files"):
-            print "files:"
-            for f in obj.files:
-                print "\t", f
-
-    def finish(self):
-        pass
+        try:
+            gateway = BlitzGateway(client_obj=cli.get_client())
+            for experiment in self.m["experiments"]:
+                self.check_object(gateway, experiment, "Project")
+            for experiment in self.m["screens"]:
+                self.check_object(gateway, experiment, "Screen")
+            if "map" in self.m:
+                if self.m["experiments"]:
+                    study_type = "Project"
+                else:
+                    study_type = "Screen"
+                self.check_object(gateway, self.m, study_type)
+        finally:
+            if cli:
+                cli.close()
+            gateway.close()
 
 
 def main(argv):
@@ -379,16 +388,7 @@ def main(argv):
                         help="Create a report of the generated objects")
     parser.add_argument("--check", action="store_true",
                         help="Check against IDR")
-    parser.add_argument("--format", default="text", choices=("text", "json"),
-                        help="Format for the report")
     args = parser.parse_args(argv)
-
-    if args.format == "json":
-        Printer = JsonPrinter
-    elif args.format == "text":
-        Printer = TextPrinter
-    else:
-        raise Exception("unknown:" + args.format)
 
     for s in args.studyfile:
         p = StudyParser(s)
@@ -407,25 +407,13 @@ def main(argv):
         if unknown:
             print "Found %s unknown keys:" % len(unknown)
             raise Exception("\n".join(unknown))
-        printer = Printer(p)
-        objects = [Object(x) for x in p.components]
-        if args.inspect:
-            basedir = os.path.dirname(s)
-            log.info("Inspect the internals of %s" % basedir)
-            for o in objects:
-                path = "%s/%s/*" % (basedir, o.name.split("/")[-1])
-                o.files = glob.glob(path)
+        d = Formatter(p, inspect=args.inspect)
 
         if args.report:
-            for o in objects:
-                log.info("Generating annotations for %s" % o.name)
-                printer.consume(o)
+            print str(d)
 
         if args.check:
-            for o in objects:
-                log.info("Check annotations for %s" % o.name)
-                check(o)
-        printer.finish()
+            d.check()
     return p
 
 
