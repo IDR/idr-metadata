@@ -152,15 +152,15 @@ class StudyParser():
 
     def parse_annotation_file(self, component):
         accession_number = component["Comment\[IDR Study Accession\]"]
-        pattern = re.compile("(%s-\w+-\w+)/(\w+)$" % accession_number)
+        pattern = re.compile("(%s-\w+(-\w+)?)/(\w+)$" % accession_number)
         name = component["Comment\[IDR %s Name\]" % component["Type"]]
         m = pattern.match(name)
         if not m:
             raise Exception("Unmatched name %s" % name)
 
         # Check for annotation.csv file
-        component_path = os.path.join(self._dir, m.group(2))
-        basename = "%s-%s-annotation" % (accession_number, m.group(2))
+        component_path = os.path.join(self._dir, m.group(3))
+        basename = "%s-%s-annotation" % (accession_number, m.group(3))
         for extension in ['.csv', '.csv.gz']:
             annotation_filename = "%s%s" % (basename, extension)
             annotation_path = os.path.join(component_path, annotation_filename)
