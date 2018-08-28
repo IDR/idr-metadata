@@ -14,3 +14,6 @@
 [submodule "idr0021-lawo-pericentriolarmaterial"]
 	path = idr0021-lawo-pericentriolarmaterial
 	url = git://github.com/IDR/idr0021-lawo-pericentriolarmaterial
+[submodule "idr0045-reichmann"]
+	path = idr0045-reichmann
+	url = git://github.com/IDR/idr0045-reichmann

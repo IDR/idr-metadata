@@ -172,7 +172,7 @@ class StudyParser():
             base_url = "https://github.com/IDR/%s/blob/master/%s/%s"
             if os.path.exists(os.path.join(self._dir, ".git")):
                 annotation_url = base_url % (
-                    m.group(1), m.group(2), annotation_filename)
+                    m.group(1), m.group(3), annotation_filename)
             else:
                 annotation_url = base_url % (
                     "idr-metadata", name, annotation_filename)
