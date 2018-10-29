@@ -14,9 +14,9 @@
 [submodule "idr0021-lawo-pericentriolarmaterial"]
 	path = idr0021-lawo-pericentriolarmaterial
 	url = git://github.com/IDR/idr0021-lawo-pericentriolarmaterial
-[submodule "idr0045-reichmann"]
-	path = idr0045-reichmann
-	url = git://github.com/IDR/idr0045-reichmann
 [submodule "idr0008-rohn-actinome"]
 	path = idr0008-rohn-actinome
 	url = git://github.com/IDR/idr0008-rohn-actinome
+[submodule "idr0045-reichmann-zygotespindle"]
+	path = idr0045-reichmann-zygotespindle
+	url = git://github.com/IDR/idr0045-reichmann-zygotespindle
