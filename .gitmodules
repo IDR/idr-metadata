@@ -20,3 +20,6 @@
 [submodule "idr0045-reichmann-zygotespindle"]
 	path = idr0045-reichmann-zygotespindle
 	url = git://github.com/IDR/idr0045-reichmann-zygotespindle
+[submodule "idr0043-uhlen-humanproteinatlas"]
+	path = idr0043-uhlen-humanproteinatlas
+	url = git://github.com/IDR/idr0043-uhlen-humanproteinatlas
