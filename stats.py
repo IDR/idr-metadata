@@ -2,9 +2,11 @@
 
 from collections import defaultdict
 from fileinput import input
+from fileinput import hook_compressed
 from glob import glob
 from os.path import basename
 from os.path import dirname
+from os.path import exists
 from os.path import join
 from sys import stderr
 
@@ -74,40 +76,44 @@ def studies():
 
         assert containers >= 1
         for container in sorted(containers):
-            bulk = glob(join(container, "*bulk.yml"))
-            assert len(bulk) == 1, container
-            bulk = bulk[0]
-            pdir = dirname(bulk)
-            with open(bulk, "r") as f:
-                y = load(f)
-            p = join(pdir, y["path"])
-            columns = y.get("columns", default_columns)
-            name_idx = None
-            path_idx = None
-            target_idx = None
-            for idx, col in enumerate(columns):
-                if col == "name":
-                    name_idx = idx
-                elif col == "target":
-                    target_idx = idx
-                elif col == "path":
-                    path_idx = idx
+            bulks = glob(join(container, "*-bulk.yml"))
+            bulks += glob(join(container, "**/*-bulk.yml"))
+            for bulk in bulks:
+                pdir = dirname(bulk)
+                with open(bulk, "r") as f:
+                    y = load(f)
+                p = join(pdir, y["path"])
+                columns = y.get("columns", default_columns)
+                name_idx = None
+                path_idx = None
+                target_idx = None
+                for idx, col in enumerate(columns):
+                    if col == "name":
+                        name_idx = idx
+                    elif col == "target":
+                        target_idx = idx
+                    elif col == "path":
+                        path_idx = idx
 
-            for line in input([p]):
-                parts = line.strip().split("\t")
-                if name_idx:
-                    name = parts[name_idx]
-                else:
-                    if path_idx < len(parts):
-                        name = basename(parts[path_idx])
+                if not exists(p) and exists("%s.gz" % p):
+                    p = "%s.gz" % p
+                for line in input([p], openhook=hook_compressed):
+                    parts = line.strip().split("\t")
+                    if name_idx:
+                        name = parts[name_idx]
                     else:
-                        raise Exception(path_idx, container, bulk)
-                if target_idx:
-                    target = parts[target_idx]
-                rv[study][container][target].append(name)
+                        if path_idx < len(parts):
+                            name = basename(parts[path_idx])
+                        else:
+                            raise Exception(path_idx, container, bulk)
+                    if target_idx:
+                        target = parts[target_idx]
+                    rv[study][container][target].append(name)
+
     for study, containers in sorted(rv.items()):
         for container, types in sorted(containers.items()):
             assert len(types) == 1, (study, container, types)
+
     return rv
 
 
