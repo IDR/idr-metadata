@@ -54,6 +54,7 @@ KEYS = (
     Key('Study Person Email', 'Study', optional=True),
     Key('Study Person Address', 'Study', optional=True),
     Key('Study Person Roles', 'Study', optional=True),
+    Key('Study Person ORCID', 'Study', optional=True),
     Key('Term Source Name', 'Study', optional=True),
     Key('Term Source URI', 'Study', optional=True),
     # MANDATORY_KEYS["Experiment"]

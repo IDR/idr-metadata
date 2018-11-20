@@ -23,3 +23,6 @@
 [submodule "idr0043-uhlen-humanproteinatlas"]
 	path = idr0043-uhlen-humanproteinatlas
 	url = git://github.com/IDR/idr0043-uhlen-humanproteinatlas
+[submodule "idr0051-fulton-tailbudlightsheet"]
+	path = idr0051-fulton-tailbudlightsheet
+	url = git://github.com/IDR/idr0051-fulton-tailbudlightsheet
