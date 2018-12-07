@@ -1,4 +1,4 @@
-"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"												
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details												
 # Study												
 Comment[IDR Study Accession]	idr0004											
 Study Title	Genome-wide analysis of Rad52 foci reveals diverse mechanisms impacting recombination.											
@@ -17,7 +17,8 @@ Study Public Release Date
 Study PubMed ID	21893595	18085829										
 Study Publication Title	Bringing Rad52 foci into focus.	Genome-wide analysis of Rad52 foci reveals diverse mechanisms impacting recombination.										
 Study Author List	Thorpe PH, Alvaro D, Lisby M, Rothstein R.	Alvaro D,  Lisby M,  Rothstein R.										
-Study DOI	http://dx.doi.org/10.1083/jcb.201108095											
+Study PMC ID	PMC3171117	PMC2134942										
+Study DOI	https://doi.org/10.1083/jcb.201108095	https://doi.org/10.1371/journal.pgen.0030228										
 												
 # Study License and Data DOI												
 Study License	CC BY-NC-SA 3.0											
@@ -35,7 +36,7 @@ Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/								
 												
 												
-"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."												
+# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated.												
 # Screen; this section should be repeated if a study contains multiple screens												
 												
 Screen Number	1											
@@ -52,9 +53,9 @@ Screen Technology Term Accession Number	EFO_0007552
 Screen Type	primary screen											
 Screen Type Term Source REF	EFO											
 Screen Type Term Accession	EFO_0007556											
-Screen Comments	Some images are missing, and in particular there are no images for 6 of the plates.  These plates are not included in the library or processed data files.											
+Screen Comments	 Some images are missing, and in particular there are no images for 6 of the plates.  These plates are not included in the library or processed data files. 											
 												
-"# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)"												
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)												
 Library File Name	idr0004-screenA-library.txt											
 Library File Format	tab-delimited text											
 Library Type	diploid homozygous deletion library											
@@ -72,7 +73,7 @@ Protocol Name	growth protocol	HCS library protocol	HCS image acquistion and feat
 Protocol Type	growth protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol								
 Protocol Type Term Source REF	EFO	EFO	EFO	EFO								
 Protocol Type Term Accession Number	EFO_0003789	EFO_0007571	EFO_0007572	EFO_0007573								
-Protocol Description	Individual deletions of nonessential genes made in the BY4742 and BY4739 MAT_ strains were obtained from the Saccharomyces Gene Deletion Project [64]. The conditional chromosome strains used to create the hybrid LOH strains and the method of inducing LOH in these strains have been described [12].Strain BY4742 was used as the wild-type control for the library background. Gene deletions from the library were backcrossed into the W303 background to create congenic strains. 	Examination of Rad52-YFP focus levels by microscopy was performed as previously described [66]. Briefly, cells were grown overnight in SC-Leu media at 23 C and exponentially growing cultures were prepared for microscopy. A single DIC image and 11 YFP images obtained at 0.3-_m intervals along the z-axis were captured for each frame, and Rad52-YFP foci were counted by inspecting all focal planes intersecting each cell. For each gene deletion strain in the screen, 200-400 cells were scored for Rad52-YFP foci.	In the focus screen described, 108 mutants were initially identified with Rad52-YFP foci in greater than 20% of cells examined. Of these 108, 80 gene deletions maintained the focus phenotype following repeat experiments and were selected for further analysis. After retesting all uncharacterized ORFs with focus levels between 15%-20% (41), nine consistently exhibited elevated foci and were added to the set of deletions. Three hypothetical ORFs were removed from the set after expression of the wild-type gene failed to complement the focus phenotype in the gene deletion strain. The remaining 86 gene deletions were prepared for the additional assays.									
+Protocol Description	Individual deletions of nonessential genes made in the BY4742 and BY4739 MAT_ strains were obtained from the Saccharomyces Gene Deletion Project [64]. The conditional chromosome strains used to create the hybrid LOH strains and the method of inducing LOH in these strains have been described [12].Strain BY4742 was used as the wild-type control for the library background. Gene deletions from the library were backcrossed into the W303 background to create congenic strains. 	Examination of Rad52-YFP focus levels by microscopy was performed as previously described [66]. Briefly, cells were grown overnight in SC-Leu media at 23 C and exponentially growing cultures were prepared for microscopy. A single DIC image and 11 YFP images obtained at 0.3-_m intervals along the z-axis were captured for each frame, and Rad52-YFP foci were counted by inspecting all focal planes intersecting each cell. For each gene deletion strain in the screen, 200-400 cells were scored for Rad52-YFP foci.	n the focus screen described, 108 mutants were initially identified with Rad52-YFP foci in greater than 20% of cells examined. Of these 108, 80 gene deletions maintained the focus phenotype following repeat experiments and were selected for further analysis. After retesting all uncharacterized ORFs with focus levels between 15%-20% (41), nine consistently exhibited elevated foci and were added to the set of deletions. Three hypothetical ORFs were removed from the set after expression of the wild-type gene failed to complement the focus phenotype in the gene deletion strain. The remaining 86 gene deletions were prepared for the additional assays.									
 												
 												
 # Phenotypes												
@@ -85,7 +86,7 @@ Phenotype Term Accession	CMPO_0000415
 												
 # Raw Data Files												
 Raw Image Data Format	OpenLab LIFF											
-Raw Image Organization	The primary screen is organised into 52 x 96-well plates.  Images were taken from 6 to 10 fields per well.   Some images are missing, and in particular there are no images for 6 of the plates.  These plates are not included in the library or processed data files.											
+Raw Image Organization	The primary screen is organised into 52 x 96-well plates.  Images were taken from 6 to 10 fields per well.   Some images are missing, and in particular there are no images for 6 of the plates.  These plates are not included in the library or processed data files. 											
 												
 # Feature Level Data Files (give individual file details unless there is one file per well)												
 Feature Level Data File Name												
@@ -101,5 +102,5 @@ Processed Data File Description	This file contains information about the percent
 Processed Data Column Name	Plate	Well	Plate_Well	Gene Identifier	Gene Symbol	Number Of Cells	Number of Cells with Foci	Percentage Cells With Foci	Author Hit	Has Phenotype	Phenotype Annotation Level	Phenotype 1
 Processed Data Column Type	location	location	location	gene identifier	gene symbol	data	data	data	data	other	other	phenotype
 Processed Data Column Annotation Level						well	well	well	gene			gene
-Processed Data Column Description	The plate the result comes from	The well the result comes from	A combination of the plate name and well location, used to link library file information to processed data.	The ORF identifier (from the Saccharomyces Genome Database (information linked via Ensembl)) for the deleted gene.	The symbol for the deleted gene.	The number of cells examined.	The number of cells which contain one or more Rad52-YFP foci.	The percentage of examined cells which contain Rad52-YFP foci.	Whether this deletion screen is identified as a gene of interest for further analysis. 	Whether there is a phenotype associated with the entity in the row.	The level of entity that is annotated with the phenotype.  	Phenotype observed among cells with this gene deletion
+Processed Data Column Description	The plate the result comes from	The well the result comes from	A combination of the plate name and well location, used to link library file information to processed data. 	The ORF identifier (from the Saccharomyces Genome Database (information linked via Ensembl)) for the deleted gene.	The symbol for the deleted gene.	The number of cells examined.	The number of cells which contain one or more Rad52-YFP foci.	The percentage of examined cells which contain Rad52-YFP foci.	Whether this deletion screen is identified as a gene of interest for further analysis. 	Whether there is a phenotype associated with the entity in the row.	The level of entity that is annotated with the phenotype.  	Phenotype observed among cells with this gene deletion
 Processed Data Column Link To Library File	Plate_Well											
