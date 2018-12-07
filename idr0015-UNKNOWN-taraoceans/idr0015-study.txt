@@ -5,19 +5,19 @@ Study Title	Quantitative 3D-imaging for cell biology and ecology of environmenta
 Study Type	high content screen				
 Study Type Term Source REF	EFO				
 Study Type Term Accession Number	EFO_0007550				
-Study Description	"We present a 3D-fluorescence imaging and classification tool for high throughput analysis of microbial eukaryotes in environmental samples. It entails high-content feature extraction that permits accurate automated taxonomic classification and quantitative data about organism ultrastructures and interactions. Using plankton samples from the Tara Oceans expeditions, we validate its applicability to taxonomic profiling and ecosystem analyses, and discuss its potential for future integration of eukaryotic cell biology into evolutionary and ecological studies. This study is subject to the data release policy described here: http://www.embl.de/tara-oceans/start/Tara-Oceans-Data-Release-Policy.pdf"				
+Study Description	We present a 3D-fluorescence imaging and classification tool for high throughput analysis of microbial eukaryotes in environmental samples. It entails high-content feature extraction that permits accurate automated taxonomic classification and quantitative data about organism ultrastructures and interactions. Using plankton samples from the Tara Oceans expeditions, we validate its applicability to taxonomic profiling and ecosystem analyses, and discuss its potential for future integration of eukaryotic cell biology into evolutionary and ecological studies. This study is subject to the data release policy described here: http://www.embl.de/tara-oceans/start/Tara-Oceans-Data-Release-Policy.pdf				
 Study Organism	mixed sample				
 Study Organism Term Source REF	NCBITaxon				
 Study Organism Term Accession Number	NCBITaxon_1427524				
 Study Screens Number	1				
 Study External URL					
 Study Public Release Date					
-Study Version History	"November 2017 - the study title, description, publication and screen name updated."				
+Study Version History	November 2017 - the study title, description, publication and screen name updated.				
 					
 # Study Publication					
 Study PubMed ID	29087936				
 Study Publication Title	Quantitative 3D-imaging for cell biology and ecology of environmental microbial eukaryotes.				
-Study Author List	"Colin S, Coelho LP, Sunagawa S, Bowler C, Karsenti E, Bork P, Pepperkok R, de Vargas C"				
+Study Author List	Colin S, Coelho LP, Sunagawa S, Bowler C, Karsenti E, Bork P, Pepperkok R, de Vargas C				
 Study PMC ID	PMC5663481				
 Study DOI	http://dx.doi.org/10.7554/eLife.26066				
 					
@@ -44,7 +44,7 @@ Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/
 					
 Screen Number	1				
 Comment[IDR Screen Name]	idr0015-colin-taraoceans/screenA				
-Screen Description	"eHCFM: a 3D-fluorescence imaging and classification tool for high throughput analysis of microbial eukaryotes in environmental samples. The method generates for each given sample a mosaic of multi-dimentional fields of view (3D, 5 channels). We propose here the exploration of raw images of plankton samples from the Tara Oceans expeditions."				
+Screen Description	eHCFM: a 3D-fluorescence imaging and classification tool for high throughput analysis of microbial eukaryotes in environmental samples. The method generates for each given sample a mosaic of multi-dimentional fields of view (3D, 5 channels). We propose here the exploration of raw images of plankton samples from the Tara Oceans expeditions.				
 Screen Size	Plates: 84	5D Images: 32777	Planes: 3319225	Average Image Dimension (XYZCT): 2048 x 2048 x 20 x 5 x 1	Total Tb: 2.51
 Screen Example Images					
 Screen Imaging Method	confocal microscopy				
