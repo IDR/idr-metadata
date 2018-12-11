@@ -117,7 +117,7 @@ Screen Imaging Method Term Accession	FBbi_00000246
 Screen Technology Type	RNAi screen															
 Screen Technology Term Source REF	EFO															
 Screen Technology Term Accession Number	EFO_0007551															
-Screen Type	validation															
+Screen Type	validation screen															
 Screen Type Term Source REF	EFO															
 Screen Type Term Accession	EFO_0007558															
 Screen Comments																
