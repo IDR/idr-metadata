@@ -24,7 +24,7 @@ omero=/opt/omero/server/OMERO.server/bin/omero
 $omero login
 
 # Create a list of dataset names
-datasets=`cat $filePaths | cut -f1 | cut -d ':' -f3 | uniq`
+datasets=`cut -f1 $filePaths | cut -d ':' -f3 | sort -u`
 
 IFS=$'\n'
 for dataset in $datasets
