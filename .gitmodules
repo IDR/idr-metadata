@@ -29,7 +29,7 @@
 [submodule "idr0044-mcdole-tardislightsheet"]
 	path = idr0044-mcdole-tardislightsheet
 	url = git://github.com/IDR/idr0044-mcdole-tardislightsheet
-[submodule "idr0047-neuert-yeastmRNA"]
+[submodule "idr0047-neuert-yeastmrna"]
 	path = idr0047-neuert-yeastmrna
 	url = git://github.com/IDR/idr0047-neuert-yeastmrna
 [submodule "idr0053-faas-virtualnanoscopy"]
