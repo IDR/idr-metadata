@@ -35,3 +35,6 @@
 [submodule "idr0053-faas-virtualnanoscopy"]
 	path = idr0053-faas-virtualnanoscopy
 	url = git://github.com/IDR/idr0053-faas-virtualnanoscopy
+[submodule "idr0050-springer-cytoskeletalsystems"]
+	path = idr0050-springer-cytoskeletalsystems
+	url = git://github.com/IDR/idr0050-springer-cytoskeletalsystems.git
