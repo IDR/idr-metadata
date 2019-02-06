@@ -20,25 +20,25 @@ registered in the top-level idr-metadata repository.
 Study repository contain all curated metadata files associated with a study.
 The structure of each study repository should use the following layout:
 
-    .travis.yml         # Travis CI configuration file, used for validation (recommended)
-    bulk.yml            # Optional import configuration file for multi-experiment or multi-screen studies (optional)
-    experimentA/        # Curated metadata for experimentA if applicable
+    .travis.yml                                  # Travis CI configuration file, used for validation (recommended)
+    bulk.yml                                     # Import configuration file for multi-experiment or multi-screen studies (optional)
+    experimentA/                                 # Curated metadata for experimentA (if applicable)
         idrNNNN-experimentA-annotation.csv       # Curated annotation file (mandatory)
         idrNNNN-experimentA-assays.txt           # Original annotation file (recommended)
         idrNNNN-experimentA-bulk.yml             # Configuration file for import (mandatory)
         idrNNNN-experimentA-bulkmap-config.yml   # Configuration file for annotation (mandatory)
         idrNNNN-experimentA-filePaths.tsv        # Files/folder to be imported (mandatory)
-    experimentB/        # Curated metadata for experimentA if applicable
+    experimentB/                                 # Curated metadata for experimentA (if applicable)
        ...
-    idrNNNN-study.txt.  # Top-level metadata file describing the study (mandatory)
-    screenA/            # Curated metadata for screenA if applicable
+    idrNNNN-study.txt                            # Top-level metadata file describing the study (mandatory)
+    screenA/                                     # Curated metadata for screenA if applicable
         idrNNNN-screenA-annotation.csv           # Curated annotation file (mandatory)
         idrNNNN-screenA-bulk.yml                 # Configuration file for import (mandatory)
         idrNNNN-screenA-bulkmap-config.yml       # Configuration file for annotation (mandatory)
         idrNNNN-screenA-library.txt              # Original annotation file (recommended)
         idrNNNN-screenA-plates.tsv               # Plates to be imported (mandatory)
-    screenB/            # Curated metadata for screenA if applicable
+    screenB/                                     # Curated metadata for screenA if applicable
        ...
-    scripts/            # Folder containing custom scripts associated with the study (optional)
-    README.md           # Optional top-level readme (optional)
-    requirements.txt    # Python dependencies used for Travis or scripts
+    scripts/                                     # Folder containing custom scripts associated with the study (optional)
+    README.md                                    # Optional top-level readme (optional)
+    requirements.txt                             # Python dependencies used for Travis or scripts (recommended)
