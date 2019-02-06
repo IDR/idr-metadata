@@ -2,13 +2,13 @@
 
 [![Published screens](https://img.shields.io/badge/dynamic/json.svg?label=Published%20&url=http%3A%2F%2Fidr.openmicroscopy.org%2Fapi%2Fv0%2Fm%2Fscreens%2F%3Flimit%3D0&query=meta.totalCount&colorB=blue&suffix=%20high%20content%20screens)](https://idr.openmicroscopy.org) [![Published experiments](https://img.shields.io/badge/dynamic/json.svg?label=Published%20&url=http%3A%2F%2Fidr.openmicroscopy.org%2Fapi%2Fv0%2Fm%2Fprojects%2F%3Flimit%3D0&query=meta.totalCount&colorB=blue&suffix=%20experiments)](https://idr.openmicroscopy.org)
 
-All metadata associated with published studies in IDR is managed
+All metadata associated with published studies in IDR is managed.
 
 ## Study name 
 
 After acceptance, IDR studies must be named as `idr<NNNN>-<name>-<description>`
 where `idr<NNNN>` is the accession number of the study using an incremental
-four digits integer, `<author>` is the name of one of the authors associated
+four digits integer, `<name>` is the name of one of the authors associated
 with the publication, usually the first author, and `<description>` is a short
 description of the study. The name should be lowercase.
 
@@ -20,23 +20,25 @@ registered in the top-level idr-metadata repository.
 Study repository contain all curated metadata files associated with a study.
 The structure of each study repository should use the following layout:
 
-    .travis.yml         # Travis CI configuration file, used for validation
-    bulk.yml            # Optional import configuration file for multi-experiment or multi-screen studies
+    .travis.yml         # Travis CI configuration file, used for validation (recommended)
+    bulk.yml            # Optional import configuration file for multi-experiment or multi-screen studies (optional)
     experimentA/        # Curated metadata for experimentA if applicable
-        idrNNNN-experimentA-annotation.csv       # Curated image annotations
-        idrNNNN-experimentA-bulk.yml             # Configuration file for import
-        idrNNNN-experimentA-bulkmap-config.yml   # Configuration file for annotation
-        idrNNNN-experimentA-filePaths.tsv        # Files/folder to be imported
+        idrNNNN-experimentA-annotation.csv       # Curated annotation file (mandatory)
+        idrNNNN-experimentA-assays.txt           # Original annotation file (recommended)
+        idrNNNN-experimentA-bulk.yml             # Configuration file for import (mandatory)
+        idrNNNN-experimentA-bulkmap-config.yml   # Configuration file for annotation (mandatory)
+        idrNNNN-experimentA-filePaths.tsv        # Files/folder to be imported (mandatory)
     experimentB/        # Curated metadata for experimentA if applicable
        ...
-    idrNNNN-study.txt.  # Top-level metadata file describing the study
+    idrNNNN-study.txt.  # Top-level metadata file describing the study (mandatory)
     screenA/            # Curated metadata for screenA if applicable
-        idrNNNN-screenA-annotation.csv           # Curated well annotations
-        idrNNNN-screenA-bulk.yml                 # Configuration file for import
-        idrNNNN-screenA-bulkmap-config.yml       # Configuration file for annotation
-        idrNNNN-screenA-plates.tsv               # Plates to be imported
+        idrNNNN-screenA-annotation.csv           # Curated annotation file (mandatory)
+        idrNNNN-screenA-bulk.yml                 # Configuration file for import (mandatory)
+        idrNNNN-screenA-bulkmap-config.yml       # Configuration file for annotation (mandatory)
+        idrNNNN-screenA-library.txt              # Original annotation file (recommended)
+        idrNNNN-screenA-plates.tsv               # Plates to be imported (mandatory)
     screenB/            # Curated metadata for screenA if applicable
        ...
-    scripts/            # Folder containing custom scripts associated with the study
-    README.md           # Optional top-level readme
+    scripts/            # Folder containing custom scripts associated with the study (optional)
+    README.md           # Optional top-level readme (optional)
     requirements.txt    # Python dependencies used for Travis or scripts
