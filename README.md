@@ -11,7 +11,8 @@ After acceptance, IDR studies must be named as `idr<NNNN>-<name>-<description>`
 where `idr<NNNN>` is the accession number of the study using an incremental
 four digits integer, `<name>` is the name of one of the authors associated
 with the publication, usually the first author, and `<description>` is a short
-description of the study. The name should be lowercase.
+description of the study or the name of the project/consortium. The study name
+should be lowercase.
 
 ## Study repository 
 
