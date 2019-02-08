@@ -16,11 +16,17 @@ should be lowercase.
 
 ## Study repository 
 
-For each new IDR study, a repository must be created on GitHub under the [IDR](http://github.com/IDR/) organization using the study name as defined above. When ready for publication in the IDR, the study repository must be
+For each new study, a repository must be created on GitHub under the
+[IDR](http://github.com/IDR/) organization using the study name as defined
+above. When ready for publication in the IDR, the study repository must be
 registered in the top-level idr-metadata repository as a submodule.
 
-A study repository contains all curated metadata files associated with a study.
-The structure of each study repository should use the following layout:
+A study repository contains all original and curated metadata files associated
+with a study. The
+[idr0000-lastname-example](https://github.com/IDR/idr0000-lastname-example)
+repository contains the templates that should be used by submitters
+when sending original metdata files for screen or experiment studies. The
+structure of each study repository should use the following layout:
 
     .travis.yml                                  # Travis CI configuration file, used for validation (mandatory)
     bulk.yml                                     # Import configuration file for multi-experiment or multi-screen studies (optional)
