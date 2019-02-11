@@ -25,7 +25,7 @@ A study repository contains all original and curated metadata files associated
 with a study. The
 [idr0000-lastname-example](https://github.com/IDR/idr0000-lastname-example)
 repository contains the templates that should be used by submitters
-when sending original metdata files for screen or experiment studies. The
+when sending original metadata files for screen or experiment studies. The
 structure of each study repository should use the following layout:
 
     .travis.yml                                  # Travis CI configuration file, used for validation (mandatory)
