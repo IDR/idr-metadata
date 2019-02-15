@@ -38,3 +38,6 @@
 [submodule "idr0050-springer-cytoskeletalsystems"]
 	path = idr0050-springer-cytoskeletalsystems
 	url = git://github.com/IDR/idr0050-springer-cytoskeletalsystems.git
+[submodule "idr0034-kilpinen-hipsci"]
+	path = idr0034-kilpinen-hipsci
+	url = git://github.com/IDR/idr0034-kilpinen-hipsci
