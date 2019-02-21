@@ -24,7 +24,7 @@ class Key(object):
 
 KEYS = (
     # OPTIONAL_KEYS["Study"]
-    Key('Comment\[IDR Study Accession\]', 'Study'),
+    Key(r'Comment\[IDR Study Accession\]', 'Study'),
     Key('Study Title', 'Study'),
     Key('Study Description', 'Study'),
     Key('Study Type', 'Study'),
@@ -59,7 +59,7 @@ KEYS = (
     Key('Term Source Name', 'Study', optional=True),
     Key('Term Source URI', 'Study', optional=True),
     # MANDATORY_KEYS["Experiment"]
-    Key('Comment\[IDR Experiment Name\]', 'Experiment'),
+    Key(r'Comment\[IDR Experiment Name\]', 'Experiment'),
     Key('Experiment Description', 'Experiment'),
     Key('Experiment Imaging Method', 'Experiment'),
     Key('Experiment Number', 'Experiment'),
@@ -67,7 +67,7 @@ KEYS = (
     Key('Experiment Data DOI', 'Experiment', optional=True),
     Key("Experiment Data Publisher", 'Experiment', optional=True),
     # MANDATORY_KEYS["Screen"]
-    Key('Comment\[IDR Screen Name\]', 'Screen'),
+    Key(r'Comment\[IDR Screen Name\]', 'Screen'),
     Key('Screen Description', 'Screen'),
     Key('Screen Imaging Method', 'Screen'),
     Key('Screen Number', 'Screen'),
@@ -148,7 +148,7 @@ class StudyParser():
         return d
 
     def get_lines(self, index, component_type):
-        PATTERN = re.compile("^%s Number\t(\d+)" % component_type)
+        PATTERN = re.compile(r"^%s Number\t(\d+)" % component_type)
         found = False
         lines = []
         for idx, line in enumerate(self._study_lines):
@@ -166,9 +166,9 @@ class StudyParser():
         return lines
 
     def parse_annotation_file(self, component):
-        accession_number = component["Comment\[IDR Study Accession\]"]
-        pattern = re.compile("(%s-\w+(-\w+)?)/(\w+)$" % accession_number)
-        name = component["Comment\[IDR %s Name\]" % component["Type"]]
+        accession_number = component[r"Comment\[IDR Study Accession\]"]
+        pattern = re.compile(r"(%s-\w+(-\w+)?)/(\w+)$" % accession_number)
+        name = component[r"Comment\[IDR %s Name\]" % component["Type"]]
         m = pattern.match(name)
         if not m:
             raise Exception("Unmatched name %s" % name)
@@ -218,8 +218,8 @@ class StudyParser():
                     raise Exception("Invalid %s: %s" % (key2, split_ids[i]))
                 publications[i][key2] = m.group("id")
 
-        parse_ids("Study PubMed ID", re.compile("(?P<id>\d+)"))
-        parse_ids("Study PMC ID", re.compile("(?P<id>PMC\d+)"))
+        parse_ids("Study PubMed ID", re.compile(r"(?P<id>\d+)"))
+        parse_ids("Study PMC ID", re.compile(r"(?P<id>PMC\d+)"))
         parse_ids("Study DOI", DOI_PATTERN)
 
         self.study["Publications"] = publications
@@ -281,7 +281,7 @@ class Formatter(object):
 
         # Serialize experiments/screens
         for component in self.parser.components:
-            name = component["Comment\[IDR %s Name\]" % component["Type"]]
+            name = component[r"Comment\[IDR %s Name\]" % component["Type"]]
             d = {
               "name": name,
               "description": self.generate_description(component),
