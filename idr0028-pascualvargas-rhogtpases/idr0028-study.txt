@@ -43,7 +43,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 # Screen; this section should be repeated if a study contains multiple screens																																																																																																																																											
 																																																																																																																																											
 Screen Number	1																																																																																																																																										
-Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpase/screenA																																																																																																																																										
+Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpases/screenA																																																																																																																																										
 Screen Data Publisher	University of Dundee																																																																																																																																										
 Screen Data DOI	http://dx.doi.org/10.17867/10000104A																																																																																																																																										
 Screen Description	Human RhoGEF/RhoGAP siGenome siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
@@ -114,7 +114,7 @@ Processed Data Column Description	The plate the result comes from	The well the r
 Processed Data Column Link To Library File	Plate_Well																																																																																																																																										
 																																																																																																																																											
 Screen Number	2																																																																																																																																										
-Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpase/screenB																																																																																																																																										
+Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpases/screenB																																																																																																																																										
 Screen Data Publisher	University of Dundee																																																																																																																																										
 Screen Data DOI	http://dx.doi.org/10.17867/10000104B																																																																																																																																										
 Screen Description	Human RhoGEF/RhoGAP OnTargetPlus siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
@@ -185,7 +185,7 @@ Processed Data Column Description	The plate the result comes from	The well the r
 Processed Data Column Link To Library File	Plate_Well																																																																																																																																										
 																																																																																																																																											
 Screen Number	3																																																																																																																																										
-Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpase/screenC																																																																																																																																										
+Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpases/screenC																																																																																																																																										
 Screen Data Publisher	University of Dundee																																																																																																																																										
 Screen Data DOI	http://dx.doi.org/10.17867/10000104C																																																																																																																																										
 Screen Description	Human RhoGEF/RhoGAP siGenome siRNA screen on triple negative breast cancer cell line MDA-MB-231																																																																																																																																										
@@ -256,7 +256,7 @@ Processed Data Column Description	The plate the result comes from	The well the r
 Processed Data Column Link To Library File	Plate_Well																																																																																																																																										
 																																																																																																																																											
 Screen Number	4																																																																																																																																										
-Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpase/screenD																																																																																																																																										
+Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpases/screenD																																																																																																																																										
 Screen Data Publisher	University of Dundee																																																																																																																																										
 Screen Data DOI	http://dx.doi.org/10.17867/10000104D																																																																																																																																										
 Screen Description	Human RhoGEF/RhoGAP OnTargetplus siRNA screen on triple negative breast cancer cell line MDA-MB-231																																																																																																																																										
