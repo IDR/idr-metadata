@@ -265,7 +265,7 @@ class Formatter(object):
         ('Data Publisher', "%(Study Data Publisher)s"),
         ('Data DOI', "%(Data DOI)s "
          "https://doi.org/%(Data DOI)s"),
-        ('BioStudies ID', "%(Study BioStudies Accession)s"
+        ('BioStudies Accession', "%(Study BioStudies Accession)s"
          " https://www.ebi.ac.uk/biostudies/studies/"
          "%(Study BioStudies Accession)s"),
         ('Annotation File', "%(Annotation File)s"),
