@@ -8,7 +8,7 @@ import os
 import re
 import sys
 
-logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
+logging.basicConfig(level=int(os.environ.get("DEBUG", logging.WARN)))
 log = logging.getLogger("pyidr.study_parser")
 
 TYPES = ["Experiment", "Screen"]
