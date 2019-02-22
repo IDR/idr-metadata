@@ -8,7 +8,7 @@ import os
 import re
 import sys
 
-logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
+logging.basicConfig(level=int(os.environ.get("DEBUG", logging.WARN)))
 log = logging.getLogger("pyidr.study_parser")
 
 TYPES = ["Experiment", "Screen"]
@@ -203,7 +203,6 @@ class StudyParser():
         assert len(titles) == len(authors), (
             "Mismatching publication titles and authors")
         if titles == [''] and authors == ['']:
-            print 'existing'
             return
 
         publications = [{"Title": title, "Author List": author}
@@ -314,8 +313,8 @@ class Formatter(object):
         if component["Study Publication Title"]:
             # Only display the first publication
             publication_title = (
-                "Publication Title\n%(Study Publication Title)s\n\n" %
-                component).split('\t')[0]
+                "Publication Title\n%(Study Publication Title)s" %
+                component).split('\t')[0] + "\n\n"
         if "Type" in component:
             key = "%s Description" % component["Type"]
         else:
