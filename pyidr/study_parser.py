@@ -202,6 +202,10 @@ class StudyParser():
         authors = self.study['Study Author List'].split('\t')
         assert len(titles) == len(authors), (
             "Mismatching publication titles and authors")
+        if titles == [''] and authors == ['']:
+            print 'existing'
+            return
+
         publications = [{"Title": title, "Author List": author}
                         for title, author in zip(titles, authors)]
 
@@ -306,17 +310,19 @@ class Formatter(object):
 
     def generate_description(self, component):
         """Generate the description of the study/experiment/screen"""
-        # Only display the first publication
-        publication_title = (
-            "Publication Title\n%(Study Publication Title)s" %
-            component).split('\t')[0]
+        publication_title = ""
+        if component["Study Publication Title"]:
+            # Only display the first publication
+            publication_title = (
+                "Publication Title\n%(Study Publication Title)s\n\n" %
+                component).split('\t')[0]
         if "Type" in component:
             key = "%s Description" % component["Type"]
         else:
             key = "Study Description"
         component_title = (
             "%s\n%s" % (key, component[key])).decode('string_escape')
-        return publication_title + "\n\n" + component_title
+        return publication_title + component_title
 
     def generate_annotation(self, component):
         """Generate the map annotation of the study/experiment/screen"""
@@ -336,7 +342,7 @@ class Formatter(object):
             add_key_values(component, self.EXPERIMENT_PAIRS)
         elif component.get("Type", None) == "Screen":
             add_key_values(component, self.SCREEN_PAIRS)
-        for publication in component["Publications"]:
+        for publication in component.get("Publications", []):
             add_key_values(publication, self.PUBLICATION_PAIRS)
         add_key_values(component, self.BOTTOM_PAIRS)
         return s
