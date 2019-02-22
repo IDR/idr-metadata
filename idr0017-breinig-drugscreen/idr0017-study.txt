@@ -11,6 +11,7 @@ Study Organism Term Source REF	NCBITaxon
 Study Organism Term Accession	NCBITaxon_9606																																										
 Study Screens Number	1																																										
 Study External URL	http://dedomena.embl.de/PGPC	http://bioconductor.org/packages/devel/data/experiment/html/PGPC.html																																									
+Study BioStudies Accession	S-BSMS-PGPC1
 Study Public Release Date																																											
 																																											
 # Study Publication																																											
@@ -25,6 +26,9 @@ Study License	CC-BY-NC-ND 4.0
 Study License URL	https://creativecommons.org/licenses/by-nc-nd/4.0/																																										
 Study Copyright	Breinig et al																																										
 																																											
+Study Data Publisher	University of Dundee
+Study Data DOI	https://doi.org/10.17867/10000101
+
 # Study Contacts																																											
 Study Person Last Name	Boutros																																										
 Study Person First Name	Michael																																										

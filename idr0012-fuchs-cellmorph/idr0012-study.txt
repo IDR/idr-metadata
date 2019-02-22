@@ -9,7 +9,7 @@ Study Description	Genetic screens for phenotypic similarity have made key contri
 Study Organism	Homo sapiens																																																							
 Study Organism Term Source REF	NCBITaxon																																																							
 Study Organism Term Accession	NCBITaxon_9606																																																							
-Study Screens Number	3																																																							
+Study Screens Number	1																																																							
 Study External URL	http://www.cellmorph.org																																																							
 Study Public Release Date																																																								
 																																																								

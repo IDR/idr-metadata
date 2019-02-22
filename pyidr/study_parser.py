@@ -8,7 +8,7 @@ import os
 import re
 import sys
 
-logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
+logging.basicConfig(level=int(os.environ.get("DEBUG", logging.WARN)))
 log = logging.getLogger("pyidr.study_parser")
 
 TYPES = ["Experiment", "Screen"]
@@ -24,7 +24,7 @@ class Key(object):
 
 KEYS = (
     # OPTIONAL_KEYS["Study"]
-    Key('Comment\[IDR Study Accession\]', 'Study'),
+    Key(r'Comment\[IDR Study Accession\]', 'Study'),
     Key('Study Title', 'Study'),
     Key('Study Description', 'Study'),
     Key('Study Type', 'Study'),
@@ -36,6 +36,7 @@ KEYS = (
     Key('Study Organism Term Source REF', 'Study', optional=True),
     Key('Study Organism Term Accession', 'Study', optional=True),
     # OPTIONAL_KEYS["Study"]
+    Key('Study BioStudies Accession', 'Study', optional=True),
     Key('Study Publication Preprint', 'Study', optional=True),
     Key('Study PubMed ID', 'Study', optional=True),
     Key('Study PMC ID', 'Study', optional=True),
@@ -58,7 +59,7 @@ KEYS = (
     Key('Term Source Name', 'Study', optional=True),
     Key('Term Source URI', 'Study', optional=True),
     # MANDATORY_KEYS["Experiment"]
-    Key('Comment\[IDR Experiment Name\]', 'Experiment'),
+    Key(r'Comment\[IDR Experiment Name\]', 'Experiment'),
     Key('Experiment Description', 'Experiment'),
     Key('Experiment Imaging Method', 'Experiment'),
     Key('Experiment Number', 'Experiment'),
@@ -66,7 +67,7 @@ KEYS = (
     Key('Experiment Data DOI', 'Experiment', optional=True),
     Key("Experiment Data Publisher", 'Experiment', optional=True),
     # MANDATORY_KEYS["Screen"]
-    Key('Comment\[IDR Screen Name\]', 'Screen'),
+    Key(r'Comment\[IDR Screen Name\]', 'Screen'),
     Key('Screen Description', 'Screen'),
     Key('Screen Imaging Method', 'Screen'),
     Key('Screen Number', 'Screen'),
@@ -147,7 +148,7 @@ class StudyParser():
         return d
 
     def get_lines(self, index, component_type):
-        PATTERN = re.compile("^%s Number\t(\d+)" % component_type)
+        PATTERN = re.compile(r"^%s Number\t(\d+)" % component_type)
         found = False
         lines = []
         for idx, line in enumerate(self._study_lines):
@@ -165,9 +166,9 @@ class StudyParser():
         return lines
 
     def parse_annotation_file(self, component):
-        accession_number = component["Comment\[IDR Study Accession\]"]
-        pattern = re.compile("(%s-\w+(-\w+)?)/(\w+)$" % accession_number)
-        name = component["Comment\[IDR %s Name\]" % component["Type"]]
+        accession_number = component[r"Comment\[IDR Study Accession\]"]
+        pattern = re.compile(r"(%s-\w+(-\w+)?)/(\w+)$" % accession_number)
+        name = component[r"Comment\[IDR %s Name\]" % component["Type"]]
         m = pattern.match(name)
         if not m:
             raise Exception("Unmatched name %s" % name)
@@ -201,6 +202,9 @@ class StudyParser():
         authors = self.study['Study Author List'].split('\t')
         assert len(titles) == len(authors), (
             "Mismatching publication titles and authors")
+        if titles == [''] and authors == ['']:
+            return
+
         publications = [{"Title": title, "Author List": author}
                         for title, author in zip(titles, authors)]
 
@@ -217,8 +221,8 @@ class StudyParser():
                     raise Exception("Invalid %s: %s" % (key2, split_ids[i]))
                 publications[i][key2] = m.group("id")
 
-        parse_ids("Study PubMed ID", re.compile("(?P<id>\d+)"))
-        parse_ids("Study PMC ID", re.compile("(?P<id>PMC\d+)"))
+        parse_ids("Study PubMed ID", re.compile(r"(?P<id>\d+)"))
+        parse_ids("Study PMC ID", re.compile(r"(?P<id>PMC\d+)"))
         parse_ids("Study DOI", DOI_PATTERN)
 
         self.study["Publications"] = publications
@@ -261,6 +265,9 @@ class Formatter(object):
         ('Data Publisher', "%(Study Data Publisher)s"),
         ('Data DOI', "%(Data DOI)s "
          "https://doi.org/%(Data DOI)s"),
+        ('BioStudies Accession', "%(Study BioStudies Accession)s"
+         " https://www.ebi.ac.uk/biostudies/studies/"
+         "%(Study BioStudies Accession)s"),
         ('Annotation File', "%(Annotation File)s"),
     ]
 
@@ -269,7 +276,7 @@ class Formatter(object):
         self.basedir = os.path.dirname(parser._study_file)
         self.inspect = inspect
         self.m = {
-          "name": self.basedir,
+          "name": os.path.basename(self.basedir),
           "source": self.parser._study_file,
           "experiments": [],
           "screens": [],
@@ -277,7 +284,7 @@ class Formatter(object):
 
         # Serialize experiments/screens
         for component in self.parser.components:
-            name = component["Comment\[IDR %s Name\]" % component["Type"]]
+            name = component[r"Comment\[IDR %s Name\]" % component["Type"]]
             d = {
               "name": name,
               "description": self.generate_description(component),
@@ -302,17 +309,19 @@ class Formatter(object):
 
     def generate_description(self, component):
         """Generate the description of the study/experiment/screen"""
-        # Only display the first publication
-        publication_title = (
-            "Publication Title\n%(Study Publication Title)s" %
-            component).split('\t')[0]
+        publication_title = ""
+        if component["Study Publication Title"]:
+            # Only display the first publication
+            publication_title = (
+                "Publication Title\n%(Study Publication Title)s" %
+                component).split('\t')[0] + "\n\n"
         if "Type" in component:
             key = "%s Description" % component["Type"]
         else:
             key = "Study Description"
         component_title = (
             "%s\n%s" % (key, component[key])).decode('string_escape')
-        return publication_title + "\n\n" + component_title
+        return publication_title + component_title
 
     def generate_annotation(self, component):
         """Generate the map annotation of the study/experiment/screen"""
@@ -332,7 +341,7 @@ class Formatter(object):
             add_key_values(component, self.EXPERIMENT_PAIRS)
         elif component.get("Type", None) == "Screen":
             add_key_values(component, self.SCREEN_PAIRS)
-        for publication in component["Publications"]:
+        for publication in component.get("Publications", []):
             add_key_values(publication, self.PUBLICATION_PAIRS)
         add_key_values(component, self.BOTTOM_PAIRS)
         return s
@@ -370,7 +379,7 @@ class Formatter(object):
 
         cli = CLI()
         cli.loadplugins()
-        cli.onecmd('login')
+        cli.onecmd('login -q')
 
         try:
             gateway = BlitzGateway(client_obj=cli.get_client())
