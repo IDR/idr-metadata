@@ -8,7 +8,7 @@ import os
 import re
 import sys
 
-logging.basicConfig(level=int(os.environ.get("DEBUG", logging.WARN)))
+logging.basicConfig(level=int(os.environ.get("DEBUG", logging.INFO)))
 log = logging.getLogger("pyidr.study_parser")
 
 TYPES = ["Experiment", "Screen"]
@@ -277,7 +277,7 @@ class Formatter(object):
         self.basedir = os.path.dirname(parser._study_file)
         self.inspect = inspect
         self.m = {
-          "name": self.basedir,
+          "name": os.path.basename(self.basedir),
           "source": self.parser._study_file,
           "experiments": [],
           "screens": [],
@@ -380,7 +380,7 @@ class Formatter(object):
 
         cli = CLI()
         cli.loadplugins()
-        cli.onecmd('login')
+        cli.onecmd('login -q')
 
         try:
             gateway = BlitzGateway(client_obj=cli.get_client())
