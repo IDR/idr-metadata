@@ -41,3 +41,6 @@
 [submodule "idr0034-kilpinen-hipsci"]
 	path = idr0034-kilpinen-hipsci
 	url = git://github.com/IDR/idr0034-kilpinen-hipsci
+[submodule "idr0037-vigilante-hipsci"]
+	path = idr0037-vigilante-hipsci
+	url = git://github.com/IDR/idr0037-vigilante-hipsci/
