@@ -5,11 +5,11 @@ Comment[IDR Study Accession]	idr0033
 Study Title	Systematic morphological profiling of human gene and allele function via Cell Painting																																		
 Study Type	high content screen																																		
 Study Type Term Source REF	EFO																																		
-Study Type Term Accession Number	EFO_0007550																																		
+Study Type Term Accession	EFO_0007550																																		
 Study Description	We hypothesized that human genes and disease-associated alleles might be systematically functionally annotated using morphological profiling of cDNA constructs, via a microscopy-based Cell Painting assay. Indeed, 50% of the 220 tested genes yielded detectable morphological profiles, which grouped into biologically meaningful gene clusters consistent with known functional annotation (e.g., the RAS-RAF-MEK-ERK cascade). We used novel subpopulation-based visualization methods to interpret the morphological changes for specific clusters. This unbiased morphologic map of gene function revealed TRAF2/c-REL negative regulation of YAP1/WWTR1-responsive pathways. We confirmed this discovery of functional connectivity between the NF-kB pathway and Hippo pathway effectors at the transcriptional level, thereby expanding knowledge of these two signaling pathways that critically regulate tumor initiation and progression. We make the images and raw data publicly available, providing an initial morphological map of major biological pathways for future study.																																		
 Study Organism	Homo sapiens																																		
 Study Organism Term Source REF	NCBITaxon																																		
-Study Organism Term Accession Number	9606																																		
+Study Organism Term Accession	9606																																		
 Study Screens Number	1																																		
 Study External URL																																			
 Study Public Release Date																																			
@@ -54,7 +54,7 @@ Screen Imaging Method Term Source REF	Fbbi
 Screen Imaging Method Term Accession	FBbi_00000246																																		
 Screen Technology Type	ORF overexpression screen																																		
 Screen Technology Term Source REF																																			
-Screen Technology Term Accession Number																																			
+Screen Technology Term Accession																																			
 Screen Type	primary screen																																		
 Screen Type Term Source REF	EFO																																		
 Screen Type Term Accession	EFO_0007556																																		
@@ -73,7 +73,7 @@ Quality Control Description	The ORF sequence is compared against the target tran
 Protocol Name	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol																														
 Protocol Type	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol																														
 Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO																														
-Protocol Type Term Accession Number	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573																														
+Protocol Type Term Accession	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573																														
 Protocol Description	250 cells (from U2OS cell line) are plated per well in 384 plates.	Cells were plated in 384 well plates and transduced with lentiviral particles carrying ORF constructs the next day. Viral particles were removed 18-24 hr post-infection and cells cultured for 48 hr until staining and imaging (72 hr total post-transduction).	"The gene/alleles in the library are called Target Accelerator Reference set which mainly included oncogenes in various cell signaling pathways. This is described in more detail in Kim, Eejung, et al. 2016. Systematic Functional Interrogation of Rare Cancer Variants Identifies Oncogenic Alleles. Cancer Discovery 6 (7): 714-26. doi:10.1158/2159-8290.CD-16-0160."	Cell Painting imaging assay (Bray et al 2016) is used to capture cell morphology.	The cells were segmented and quantified in the CellProfiler open source software. Median of pairwise replicate correlations is used to identify overexpressed genes with a morphological phenotype.																														
 																																			
 																																			

@@ -4,11 +4,11 @@ Comment[IDR Study Accession]	idr0005
 Study Title	A genome-wide screen identifies conserved protein hubs required for cadherin-mediated cell-cell adhesion															
 Study Type	high content screen															
 Study Type Term Source REF	EFO															
-Study Type Term Accession Number	EFO_0007550															
+Study Type Term Accession	EFO_0007550															
 Study Description	Cadherins and associated catenins provide an important structural interface between neighboring cells, the actin cytoskeleton, and intracellular signaling pathways in a variety of cell types throughout the Metazoa. However, the full inventory of the proteins and pathways required for cadherin-mediated adhesion has not been established. To this end, we completed a genome-wide (_14,000 genes) ribonucleic acid interference (RNAi) screen that targeted Ca2+-dependent adhesion in DE-cadherin-expressing Drosophila melanogaster S2 cells in suspension culture. This novel screen eliminated Ca2+-independent cell-cell adhesion, integrin-based adhesion, cell spreading, and cell migration. We identified 17 interconnected regulatory hubs, based on protein functions and protein-protein interactions that regulate the levels of the core cadherin-catenin complex and coordinate cadherin-mediated cell-cell adhesion. Representative proteins from these hubs were analyzed further in Drosophila oogenesis, using targeted germline RNAi, and adhesion was analyzed in Madin-Darby canine kidney mammalian epithelial cell-cell adhesion. These experiments reveal roles for a diversity of cellular pathways that are required for cadherin function in Metazoa, including cytoskeleton organization, cell-substrate interactions, and nuclear and cytoplasmic signaling.															
 Study Organism	Drosophila melanogaster															
 Study Organism Term Source REF	NCBITaxon															
-Study Organism Term Accession Number	NCBITaxon_7227															
+Study Organism Term Accession	NCBITaxon_7227															
 Study Screens Number	2															
 Study External URL																
 Study Public Release Date																
@@ -49,7 +49,7 @@ Screen Imaging Method Term Source REF	Fbbi
 Screen Imaging Method Term Accession	FBbi_00000246															
 Screen Technology Type	RNAi screen															
 Screen Technology Term Source REF	EFO															
-Screen Technology Term Accession Number	EFO_0007551															
+Screen Technology Term Accession	EFO_0007551															
 Screen Type	primary screen															
 Screen Type Term Source REF	EFO															
 Screen Type Term Accession	EFO_0007556															
@@ -60,19 +60,19 @@ Library File Name	idr0005-screenA-library.txt
 Library File Format	tab-delimited text															
 Library Type	siRNA library															
 Library Type Term Source REF	EFO															
-Library Type Term Accession Number	EFO_0007564															
+Library Type Term Accession	EFO_0007564															
 Library Manufacturer	Thermo Fisher Scientific															
 Library Version	V2 RNAi library															
 Library Experimental Conditions	none															
 Library Experimental Conditions Term Source REF																
-Library Experimental Conditions Term Accession Number																
+Library Experimental Conditions Term Accession																
 Quality Control Description																
 																
 # Protocols																
 Protocol Name	growth protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol												
 Protocol Type	growth protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol												
 Protocol Type Term Source REF	EFO	EFO	EFO	EFO												
-Protocol Type Term Accession Number	EFO_0003789	EFO_0007571	EFO_0007572	EFO_0007573												
+Protocol Type Term Accession	EFO_0003789	EFO_0007571	EFO_0007572	EFO_0007573												
 Protocol Description	Drosophila S2U cells were maintained in Schneider's medium (Invitro- gen) supplemented with 10% heat-inactivated fetal bovine serum (Sigma- Aldrich), penicillin, streptomycin, and kanamycin (Goshima et al., 2007). Full-length DE-cadherin was cloned into pAc5.1/V5 His B (Invitrogen) and cotransfected with blasticidin and hygromycin plasmids in S2U cells to generate stable expression lines (Millar et al., 1994). For RNAi treatment, DE-cadherin-expressing S2 cells were treated with 625 _g/ml trypsin for 20 min at 25C and then resuspended in serum-free Schneider's medium. 1 ug RNA was incubated with 6 x 105 cells for 30 min in serum-free Schneider's medium followed by a 5-d recovery in Schneider's medium supplemented with 20% heat-inactivated fetal bovine serum (Goshima et al., 2007). RNAi-treated cells were maintained in plasticware coated with a 10% Pluronic 127 (Sigma-Aldrich) solution to minimize cell-substrate interactions. After 5 d of RNAi treatment, 1 _g/ml Hoechst 33342 (Thermo Fisher Sci- entific) was added to each well. 96-well plates were shaken for 5 min at 800 rpm on a vortex mixer (MixMate; Eppendorf). 96-well plates were then placed on a platform that rotated around a 3-cm radius (D. Proffit, Molecular and Cellular Physiology, Stanford Institute for Neuro-Innovation and Translational Neuroscience Engineering Shop, Stanford School of Medicine, Stanford, CA) for 20 min at 250 rpm and were next shaken for 30 s at 650 rpm on a MixMate.	The initial genome-wide screen used the V2 RNAi library (Thermo Fisher Scientific; Goshima et al., 2007).	Plates were imaged using an automated microscope (ImageXpress Micro; Molecular Devices) with a 4_ objective. Images were acquired with MetaMorph (Molecular Devices) and a camera (CoolSNAP HQ; Photometrics). 	For scoring, three images/well were ranked by eye based on aggregation (0 = strong aggregation; 4 = no ag- gregation). A score of >1.5 was considered defective aggregation.												
 																
 																
@@ -116,7 +116,7 @@ Screen Imaging Method Term Source REF	Fbbi
 Screen Imaging Method Term Accession	FBbi_00000246															
 Screen Technology Type	RNAi screen															
 Screen Technology Term Source REF	EFO															
-Screen Technology Term Accession Number	EFO_0007551															
+Screen Technology Term Accession	EFO_0007551															
 Screen Type	validation screen															
 Screen Type Term Source REF	EFO															
 Screen Type Term Accession	EFO_0007558															
@@ -127,19 +127,19 @@ Library File Name	idr0005-screenB-library.txt
 Library File Format	tab-delimited text															
 Library Type	siRNA library															
 Library Type Term Source REF	EFO															
-Library Type Term Accession Number	EFO_0007564															
+Library Type Term Accession	EFO_0007564															
 Library Manufacturer																
 Library Version																
 Library Experimental Conditions	none															
 Library Experimental Conditions Term Source REF																
-Library Experimental Conditions Term Accession Number																
+Library Experimental Conditions Term Accession																
 Quality Control Description																
 																
 # Protocols																
 Protocol Name	growth protocol	library selection protocol	image aquistion and feature extraction protocol	hit detection protocol												
 Protocol Type	growth protocol	library selection protocol	image aquistion and feature extraction protocol	hit detection protocol												
 Protocol Type Term Source REF	EFO															
-Protocol Type Term Accession Number	EFO_0003789															
+Protocol Type Term Accession	EFO_0003789															
 Protocol Description	Drosophila S2U cells were maintained in Schneider's medium (Invitro- gen) supplemented with 10% heat-inactivated fetal bovine serum (Sigma- Aldrich), penicillin, streptomycin, and kanamycin (Goshima et al., 2007). Full-length DE-cadherin was cloned into pAc5.1/V5 His B (Invitrogen) and cotransfected with blasticidin and hygromycin plasmids in S2U cells to generate stable expression lines (Millar et al., 1994). For RNAi treatment, DE-cadherin-expressing S2 cells were treated with 625 _g/ml trypsin for 20 min at 25C and then resuspended in serum-free Schneider's medium. 1 ug RNA was incubated with 6 x 105 cells for 30 min in serum-free Schneider's medium followed by a 5-d recovery in Schneider's medium supplemented with 20% heat-inactivated fetal bovine serum (Goshima et al., 2007). RNAi-treated cells were maintained in plasticware coated with a 10% Pluronic 127 (Sigma-Aldrich) solution to minimize cell-substrate interactions. After 5 d of RNAi treatment, 1 ug/ml Hoechst 33342 (Thermo Fisher Sci- entific) was added to each well. 96-well plates were shaken for 5 min at 800 rpm on a vortex mixer (MixMate; Eppendorf). 96-well plates were then placed on a platform that rotated around a 3-cm radius (D. Proffit, Molecular and Cellular Physiology, Stanford Institute for Neuro-Innovation and Translational Neuroscience Engineering Shop, Stanford School of Medicine, Stanford, CA) for 20 min at 250 rpm and were next shaken for 30 s at 650 rpm on a MixMate.	Nonoverlapping RNAis that were 100- 800 bp in length and minimized repeated sequences were generated for rescreening DECAD-S2 cells (Goshima et al., 2007). 	Plates were imaged using an automated microscope (ImageXpress Micro; Molecular Devices) with a 4_ objective. Images were acquired with MetaMorph (Molecular Devices) and a camera (CoolSNAP HQ; Photometrics). 	For scoring, three images/well were ranked by eye based on aggregation (0 = strong aggregation; 4 = no ag- gregation). A score of >1.5 was considered defective aggregation.												
 																
 																
