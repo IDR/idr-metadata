@@ -36,6 +36,7 @@ KEYS = (
     Key('Study Organism Term Source REF', 'Study', optional=True),
     Key('Study Organism Term Accession', 'Study', optional=True),
     # OPTIONAL_KEYS["Study"]
+    Key('Study Version History', 'Study', optional=True),
     Key('Study BioStudies Accession', 'Study', optional=True),
     Key('Study Publication Preprint', 'Study', optional=True),
     Key('Study PubMed ID', 'Study', optional=True),
@@ -321,7 +322,13 @@ class Formatter(object):
             key = "Study Description"
         component_title = (
             "%s\n%s" % (key, component[key])).decode('string_escape')
-        return publication_title + component_title
+        if "Study Version History" in component:
+            history = ("\n\nVersion History\n%s" %
+                       component["Study Version History"])
+        else:
+            history = ""
+
+        return publication_title + component_title + history
 
     def generate_annotation(self, component):
         """Generate the map annotation of the study/experiment/screen"""
