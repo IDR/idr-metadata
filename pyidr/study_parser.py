@@ -82,6 +82,10 @@ KEYS = (
 DOI_PATTERN = re.compile("https?://(dx.)?doi.org/(?P<id>.*)")
 
 
+class StudyError(Exception):
+    pass
+
+
 class StudyParser():
 
     def __init__(self, study_file):
@@ -356,28 +360,30 @@ class Formatter(object):
     def check_object(self, gateway, o, obj_type):
         """Check description and map of individual object on OMERO server"""
 
+        STUDY_NS = "openmicroscopy.org/omero/client/mapAnnotation"
+
         log.info("Checking %s %s" % (obj_type, o["name"]))
-        remote_obj = gateway.getObject(
-            obj_type, attributes={"name": o["name"]})
-        errors = []
-        if remote_obj.description != o["description"]:
-            errors.append("current:%s\nexpected:%s" % (
-                remote_obj.description, o["description"]))
-        for al in remote_obj._getAnnotationLinks(
-                ns="openmicroscopy.org/omero/client/mapAnnotation"):
-            kv_pairs = [{m.name: m.value} for m in al.child.mapValue
-                        if m.name != "Study"]
-            if kv_pairs != o["map"]:
-                for i in range(min(len(kv_pairs), len(o["map"]))):
-                    if kv_pairs[i] != o["map"][i]:
-                        errors.append("current:%s\nexpected:%s" % (
-                            kv_pairs[i], o["map"][i]))
-        if not errors:
-            log.info("No annotations mismatch detected")
-        else:
-            log.error("Found some annotations mismatch")
-            for e in errors:
-                print e
+        obj = gateway.getObject(obj_type, attributes={"name": o["name"]})
+
+        if obj.description != o["description"]:
+            log.error("Mismatching description: current:%s\nexpected:%s" %
+                      (obj.description, o["description"]))
+            raise StudyError
+
+        anns = list(obj.listAnnotations(ns=STUDY_NS))
+        if len(anns) > 1:
+            log.error("Found multiple annotations with the same namespace")
+            raise StudyError
+
+        expected_pairs = [(k, v) for i in o["map"] for k, v in i.iteritems()]
+        if len(anns) == 0:
+            log.error("Missing map annotation")
+            raise StudyError
+
+        if anns[0].getValue() != expected_pairs:
+            log.error("Mismatching description: current:%s\nexpected:%s" %
+                      (anns[0].getValue(), expected_pairs))
+            raise StudyError
 
     def check(self):
 
