@@ -171,6 +171,8 @@ class StudyParser():
         return lines
 
     def parse_annotation_file(self, component):
+        import glob
+
         accession_number = component[r"Comment\[IDR Study Accession\]"]
         pattern = re.compile(r"(%s-\w+(-\w+)?)/(\w+)$" % accession_number)
         name = component[r"Comment\[IDR %s Name\]" % component["Type"]]
@@ -181,24 +183,36 @@ class StudyParser():
         # Check for annotation.csv file
         component_path = os.path.join(self._dir, m.group(3))
         basename = "%s-%s-annotation" % (accession_number, m.group(3))
+
+        # Generate GitHub annotation URL
+        if os.path.exists(os.path.join(self._dir, ".git")):
+            base_gh_url = "https://github.com/IDR/%s/blob/master/%s" % (
+                m.group(1), m.group(3))
+        else:
+            base_gh_url = (
+                "https://github.com/IDR/idr-metadata/blob/master/%s" % name)
+
+        # Try to find single annotation file in root directory
         for extension in ['.csv', '.csv.gz']:
             annotation_filename = "%s%s" % (basename, extension)
             annotation_path = os.path.join(component_path, annotation_filename)
-            if not os.path.exists(annotation_path):
-                log.debug("Cannot find %s" % annotation_path)
-                continue
+            if os.path.exists(annotation_path):
+                component["Annotations"] = [{
+                    "Annotation File": "%s %s" % (
+                        annotation_filename, base_gh_url + "/%s" %
+                        annotation_filename)}]
+                return
 
-            # Generate GitHub annotation URL
-            base_url = "https://github.com/IDR/%s/blob/master/%s/%s"
-            if os.path.exists(os.path.join(self._dir, ".git")):
-                annotation_url = base_url % (
-                    m.group(1), m.group(3), annotation_filename)
-            else:
-                annotation_url = base_url % (
-                    "idr-metadata", name, annotation_filename)
-            component["Annotation File"] = "%s %s" % (
-                annotation_filename, annotation_url)
-            return
+        component["Annotations"] = []
+        annotation_filenames = sorted(glob.glob(os.path.join(
+            component_path, "**", "%s.csv.gz" % basename)))
+        for annotation_filename in annotation_filenames:
+            component["Annotations"].append({
+                "Annotation File": "%s %s" % (
+                    os.path.basename(annotation_filename),
+                    base_gh_url + "/%s" %
+                    annotation_filename[len(component_path):])
+            })
         return
 
     def parse_publications(self):
@@ -273,8 +287,8 @@ class Formatter(object):
         ('BioStudies Accession', "%(Study BioStudies Accession)s"
          " https://www.ebi.ac.uk/biostudies/studies/"
          "%(Study BioStudies Accession)s"),
-        ('Annotation File', "%(Annotation File)s"),
     ]
+    ANNOTATION_PAIRS = [('Annotation File', "%(Annotation File)s")]
 
     def __init__(self, parser, inspect=False):
         self.parser = parser
@@ -355,6 +369,8 @@ class Formatter(object):
         for publication in component.get("Publications", []):
             add_key_values(publication, self.PUBLICATION_PAIRS)
         add_key_values(component, self.BOTTOM_PAIRS)
+        for annotation in component.get("Annotations", []):
+            add_key_values(annotation, self.ANNOTATION_PAIRS)
         return s
 
     def check_object(self, gateway, o, obj_type):
