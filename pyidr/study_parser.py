@@ -82,6 +82,10 @@ KEYS = (
 DOI_PATTERN = re.compile("https?://(dx.)?doi.org/(?P<id>.*)")
 
 
+class StudyError(Exception):
+    pass
+
+
 class StudyParser():
 
     def __init__(self, study_file):
@@ -167,6 +171,8 @@ class StudyParser():
         return lines
 
     def parse_annotation_file(self, component):
+        import glob
+
         accession_number = component[r"Comment\[IDR Study Accession\]"]
         pattern = re.compile(r"(%s-\w+(-\w+)?)/(\w+)$" % accession_number)
         name = component[r"Comment\[IDR %s Name\]" % component["Type"]]
@@ -177,24 +183,36 @@ class StudyParser():
         # Check for annotation.csv file
         component_path = os.path.join(self._dir, m.group(3))
         basename = "%s-%s-annotation" % (accession_number, m.group(3))
+
+        # Generate GitHub annotation URL
+        if os.path.exists(os.path.join(self._dir, ".git")):
+            base_gh_url = "https://github.com/IDR/%s/blob/master/%s" % (
+                m.group(1), m.group(3))
+        else:
+            base_gh_url = (
+                "https://github.com/IDR/idr-metadata/blob/master/%s" % name)
+
+        # Try to find single annotation file in root directory
         for extension in ['.csv', '.csv.gz']:
             annotation_filename = "%s%s" % (basename, extension)
             annotation_path = os.path.join(component_path, annotation_filename)
-            if not os.path.exists(annotation_path):
-                log.debug("Cannot find %s" % annotation_path)
-                continue
+            if os.path.exists(annotation_path):
+                component["Annotations"] = [{
+                    "Annotation File": "%s %s" % (
+                        annotation_filename, base_gh_url + "/%s" %
+                        annotation_filename)}]
+                return
 
-            # Generate GitHub annotation URL
-            base_url = "https://github.com/IDR/%s/blob/master/%s/%s"
-            if os.path.exists(os.path.join(self._dir, ".git")):
-                annotation_url = base_url % (
-                    m.group(1), m.group(3), annotation_filename)
-            else:
-                annotation_url = base_url % (
-                    "idr-metadata", name, annotation_filename)
-            component["Annotation File"] = "%s %s" % (
-                annotation_filename, annotation_url)
-            return
+        component["Annotations"] = []
+        annotation_filenames = sorted(glob.glob(os.path.join(
+            component_path, "**", "%s.csv.gz" % basename)))
+        for annotation_filename in annotation_filenames:
+            component["Annotations"].append({
+                "Annotation File": "%s %s" % (
+                    os.path.basename(annotation_filename),
+                    base_gh_url + "%s" %
+                    annotation_filename[len(component_path):])
+            })
         return
 
     def parse_publications(self):
@@ -269,8 +287,8 @@ class Formatter(object):
         ('BioStudies Accession', "%(Study BioStudies Accession)s"
          " https://www.ebi.ac.uk/biostudies/studies/"
          "%(Study BioStudies Accession)s"),
-        ('Annotation File', "%(Annotation File)s"),
     ]
+    ANNOTATION_PAIRS = [('Annotation File', "%(Annotation File)s")]
 
     def __init__(self, parser, inspect=False):
         self.parser = parser
@@ -351,33 +369,37 @@ class Formatter(object):
         for publication in component.get("Publications", []):
             add_key_values(publication, self.PUBLICATION_PAIRS)
         add_key_values(component, self.BOTTOM_PAIRS)
+        for annotation in component.get("Annotations", []):
+            add_key_values(annotation, self.ANNOTATION_PAIRS)
         return s
 
     def check_object(self, gateway, o, obj_type):
         """Check description and map of individual object on OMERO server"""
 
+        STUDY_NS = "openmicroscopy.org/omero/client/mapAnnotation"
+
         log.info("Checking %s %s" % (obj_type, o["name"]))
-        remote_obj = gateway.getObject(
-            obj_type, attributes={"name": o["name"]})
-        errors = []
-        if remote_obj.description != o["description"]:
-            errors.append("current:%s\nexpected:%s" % (
-                remote_obj.description, o["description"]))
-        for al in remote_obj._getAnnotationLinks(
-                ns="openmicroscopy.org/omero/client/mapAnnotation"):
-            kv_pairs = [{m.name: m.value} for m in al.child.mapValue
-                        if m.name != "Study"]
-            if kv_pairs != o["map"]:
-                for i in range(min(len(kv_pairs), len(o["map"]))):
-                    if kv_pairs[i] != o["map"][i]:
-                        errors.append("current:%s\nexpected:%s" % (
-                            kv_pairs[i], o["map"][i]))
-        if not errors:
-            log.info("No annotations mismatch detected")
-        else:
-            log.error("Found some annotations mismatch")
-            for e in errors:
-                print e
+        obj = gateway.getObject(obj_type, attributes={"name": o["name"]})
+
+        if obj.description != o["description"]:
+            log.error("Mismatching description: current:%s\nexpected:%s" %
+                      (obj.description, o["description"]))
+            raise StudyError
+
+        anns = list(obj.listAnnotations(ns=STUDY_NS))
+        if len(anns) > 1:
+            log.error("Found multiple annotations with the same namespace")
+            raise StudyError
+
+        expected_pairs = [(k, v) for i in o["map"] for k, v in i.iteritems()]
+        if len(anns) == 0:
+            log.error("Missing map annotation")
+            raise StudyError
+
+        if anns[0].getValue() != expected_pairs:
+            log.error("Mismatching map annotation: current:%s\nexpected:%s" %
+                      (anns[0].getValue(), expected_pairs))
+            raise StudyError
 
     def check(self):
 
