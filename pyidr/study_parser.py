@@ -210,7 +210,7 @@ class StudyParser():
             component["Annotations"].append({
                 "Annotation File": "%s %s" % (
                     os.path.basename(annotation_filename),
-                    base_gh_url + "/%s" %
+                    base_gh_url + "%s" %
                     annotation_filename[len(component_path):])
             })
         return
