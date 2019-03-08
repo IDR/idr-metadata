@@ -397,7 +397,7 @@ class Formatter(object):
             raise StudyError
 
         if anns[0].getValue() != expected_pairs:
-            log.error("Mismatching description: current:%s\nexpected:%s" %
+            log.error("Mismatching map annotation: current:%s\nexpected:%s" %
                       (anns[0].getValue(), expected_pairs))
             raise StudyError
 
