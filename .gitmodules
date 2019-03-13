@@ -44,3 +44,6 @@
 [submodule "idr0037-vigilante-hipsci"]
 	path = idr0037-vigilante-hipsci
 	url = git://github.com/IDR/idr0037-vigilante-hipsci/
+[submodule "idr0054-segura-tonsilhyperion"]
+	path = idr0054-segura-tonsilhyperion
+	url = git://github.com/IDR/idr0054-segura-tonsilhyperion
