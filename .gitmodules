@@ -47,3 +47,6 @@
 [submodule "idr0054-segura-tonsilhyperion"]
 	path = idr0054-segura-tonsilhyperion
 	url = git://github.com/IDR/idr0054-segura-tonsilhyperion
+[submodule "idr0052-walther-condensinmap"]
+	path = idr0052-walther-condensinmap
+	url = git://github.com/IDR/idr0052-walther-condensinmap
