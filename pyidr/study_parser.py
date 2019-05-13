@@ -377,9 +377,7 @@ class Formatter(object):
 
     def check_object(self, obj, update=False):
         """Check description and map of individual object on OMERO server"""
-        from omero.gateway import MapAnnotationWrapper
-        from omero.rtypes import rstring
-        import omero.constants.metadata.NSCLIENTMAPANNOTATION
+        import omero.constants
 
         status = True
         self.log.info("Checking %s %s" % (obj.OMERO_CLASS, obj.name))
@@ -408,31 +406,39 @@ class Formatter(object):
                 self.log.info("Deleting client map annotation")
                 ann.delete()
 
-        anns = list(obj.listAnnotations(ns=STUDY_NS))
         expected_pairs = [(k, v) for i in o["map"] for k, v in i.iteritems()]
+        status = self.check_annotation(
+            obj, expected_pairs, STUDY_NS, update=update)
+        return status
+
+    def check_annotation(self, obj, value, namespace, update=False):
+        from omero.gateway import MapAnnotationWrapper
+        from omero.rtypes import rstring
+
+        status = True
+        anns = list(obj.listAnnotations(ns=namespace))
         if len(anns) > 1:
             self.log.error(
-                "Found multiple annotations with the same namespace")
+                "Found multiple annotations with the %s namespace" % STUDY_NS)
             status = False
         elif len(anns) == 0:
             self.log.error("No map annotation found")
             if update:
                 self.log.info("Creating map annotation")
                 m = MapAnnotationWrapper(conn=obj._conn)
-                m.setNs(rstring(STUDY_NS))
-                m.setValue(expected_pairs)
+                m.setNs(rstring(namespace))
+                m.setValue(value)
                 m.save()
                 obj.linkAnnotation(m)
-        elif anns[0].getValue() != expected_pairs:
+        elif anns[0].getValue() != value:
             self.log.error("Mismatching annotation")
             self.log.debug("current:%s" % anns[0].getValue())
-            self.log.debug("expected:%s" % expected_pairs)
+            self.log.debug("expected:%s" % value)
             status = False
             if update:
                 self.log.info("Updating map annotation")
-                anns[0].setValue(expected_pairs)
+                anns[0].setValue(value)
                 anns[0].save()
-
         return status
 
     def get_objects(self, gateway):
