@@ -8,8 +8,6 @@ import os
 import re
 import sys
 
-logging.basicConfig(level=int(os.environ.get("DEBUG", logging.WARN)))
-log = logging.getLogger("pyidr.study_parser")
 
 TYPES = ["Experiment", "Screen"]
 
@@ -91,8 +89,9 @@ class StudyParser():
     def __init__(self, study_file):
         self._study_file = study_file
         self._dir = os.path.dirname(self._study_file)
+        self.log = logging.getLogger("pyidr.study_parser.StudyParser")
         with open(self._study_file, 'r') as f:
-            log.info("Parsing %s" % self._study_file)
+            self.log.info("Parsing %s" % self._study_file)
             self._study_lines = f.readlines()
             self._study_lines_used = [
                 [] for x in range(len(self._study_lines))]
@@ -107,7 +106,7 @@ class StudyParser():
         for t in TYPES:
             n = int(self.study.get('Study %ss Number' % t, 0))
             for i in range(n):
-                log.debug("Parsing %s %g" % (t, i + 1))
+                self.log.debug("Parsing %s %g" % (t, i + 1))
 
                 d = self.parse(t, lines=self.get_lines(i + 1, t))
                 d.update({'Type': t})
@@ -291,6 +290,7 @@ class Formatter(object):
     ANNOTATION_PAIRS = [('Annotation File', "%(Annotation File)s")]
 
     def __init__(self, parser, inspect=False):
+        self.log = logging.getLogger("pyidr.study_parser.Formatter")
         self.parser = parser
         self.basedir = os.path.dirname(parser._study_file)
         self.inspect = inspect
@@ -310,7 +310,7 @@ class Formatter(object):
               "map": self.generate_annotation(component),
             }
             if self.inspect:
-                log.info("Inspect the internals of %s" % self.basedir)
+                self.log.info("Inspect the internals of %s" % self.basedir)
                 path = "%s/%s/*" % (self.basedir, name.split("/")[-1])
                 d["files"] = glob.glob(path)
             self.m["%ss" % component['Type'].lower()].append(d)
@@ -358,7 +358,7 @@ class Formatter(object):
                     for v in value.split('\t'):
                         s.append({'%s' % key: v})
                 except KeyError, e:
-                    log.debug("Missing %s" % e.message)
+                    self.log.debug("Missing %s" % e.message)
 
         s = []
         add_key_values(component, self.TOP_PAIRS)
@@ -438,9 +438,13 @@ def main(argv):
                         help="Inspect the internals of the study directory")
     parser.add_argument("--report", action="store_true",
                         help="Create a report of the generated objects")
-    parser.add_argument("--check", action="store_true",
-                        help="Check against IDR")
+    parser.add_argument(
+        '--verbose', '-v', action='count', default=0,
+        help='Increase the command verbosity')
     args = parser.parse_args(argv)
+
+    logging.basicConfig(level=logging.WARN - 10 * args.verbose)
+    log = logging.getLogger("pyidr.study_parser")
 
     for s in args.studyfile:
         p = StudyParser(s)
