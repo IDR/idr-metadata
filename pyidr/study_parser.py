@@ -78,6 +78,8 @@ KEYS = (
 )
 
 DOI_PATTERN = re.compile("https?://(dx.)?doi.org/(?P<id>.*)")
+STUDY_NS = "idr.openmicroscopy.org/study/info"
+COMPONENTS_NS = "idr.openmicroscopy.org/study/components"
 
 
 class StudyError(Exception):
@@ -373,35 +375,95 @@ class Formatter(object):
             add_key_values(annotation, self.ANNOTATION_PAIRS)
         return s
 
-    def check_object(self, gateway, o, obj_type):
+    def check_object(self, obj, update=False):
         """Check description and map of individual object on OMERO server"""
+        from omero.gateway import MapAnnotationWrapper
+        from omero.rtypes import rstring
+        import omero.constants.metadata.NSCLIENTMAPANNOTATION
 
-        STUDY_NS = "openmicroscopy.org/omero/client/mapAnnotation"
-
-        log.info("Checking %s %s" % (obj_type, o["name"]))
-        obj = gateway.getObject(obj_type, attributes={"name": o["name"]})
+        status = True
+        self.log.info("Checking %s %s" % (obj.OMERO_CLASS, obj.name))
+        if "/experiment" in obj.name:
+            o = self.m["experiments"].get(obj.name)
+        elif "/screen" in obj.name:
+            o = self.m["screens"].get(obj.name)
+        else:
+            o = self.m
 
         if obj.description != o["description"]:
-            log.error("Mismatching description: current:%s\nexpected:%s" %
-                      (obj.description, o["description"]))
-            raise StudyError
+            self.log.error("Mismatching description")
+            self.log.debug("current:%s" % obj.description,)
+            self.log.debug("expected:%s" % o["description"])
+            status = False
+            if update:
+                self.log.info("Updating description")
+                obj.description = o["description"]
+                obj.save()
+
+        for ann in obj.listAnnotations(
+                ns=omero.constants.metadata.NSCLIENTMAPANNOTATION):
+            self.log.error("Found client map annotation")
+            status = False
+            if update:
+                self.log.info("Deleting client map annotation")
+                ann.delete()
 
         anns = list(obj.listAnnotations(ns=STUDY_NS))
-        if len(anns) > 1:
-            log.error("Found multiple annotations with the same namespace")
-            raise StudyError
-
         expected_pairs = [(k, v) for i in o["map"] for k, v in i.iteritems()]
-        if len(anns) == 0:
-            log.error("Missing map annotation")
-            raise StudyError
+        if len(anns) > 1:
+            self.log.error(
+                "Found multiple annotations with the same namespace")
+            status = False
+        elif len(anns) == 0:
+            self.log.error("No map annotation found")
+            if update:
+                self.log.info("Creating map annotation")
+                m = MapAnnotationWrapper(conn=obj._conn)
+                m.setNs(rstring(STUDY_NS))
+                m.setValue(expected_pairs)
+                m.save()
+                obj.linkAnnotation(m)
+        elif anns[0].getValue() != expected_pairs:
+            self.log.error("Mismatching annotation")
+            self.log.debug("current:%s" % anns[0].getValue())
+            self.log.debug("expected:%s" % expected_pairs)
+            status = False
+            if update:
+                self.log.info("Updating map annotation")
+                anns[0].setValue(expected_pairs)
+                anns[0].save()
 
-        if anns[0].getValue() != expected_pairs:
-            log.error("Mismatching map annotation: current:%s\nexpected:%s" %
-                      (anns[0].getValue(), expected_pairs))
-            raise StudyError
+        return status
 
-    def check(self):
+    def get_objects(self, gateway):
+        """Return a dictionary of"""
+
+        objects = {}
+        for experiment in self.m["experiments"]:
+            name = "Experiment " + experiment["name"][-1]
+            objects[name] = gateway.getObject(
+                "Project", attributes={"name": experiment["name"]})
+
+        for screen in self.m["screens"]:
+            name = "Screen " + experiment["name"][-1]
+            objects[name] = gateway.getObject(
+                "Screen", attributes={"name": screen["name"]})
+
+        if len(objects) == 1:
+            return objects
+
+        project = gateway.getObject(
+            "Project", attributes={"name": self.m["name"]})
+        if project is not None:
+            objects["Overview"] = project
+        else:
+            screen = gateway.getObject(
+                "Screen", attributes={"name": self.m["name"]})
+            if screen is not None:
+                objects["Overview"] = screen
+        return objects
+
+    def check(self, update=False):
 
         from omero.cli import CLI
         from omero.gateway import BlitzGateway
@@ -412,16 +474,9 @@ class Formatter(object):
 
         try:
             gateway = BlitzGateway(client_obj=cli.get_client())
-            for experiment in self.m["experiments"]:
-                self.check_object(gateway, experiment, "Project")
-            for experiment in self.m["screens"]:
-                self.check_object(gateway, experiment, "Screen")
-            if "map" in self.m:
-                if self.m["experiments"]:
-                    study_type = "Project"
-                else:
-                    study_type = "Screen"
-                self.check_object(gateway, self.m, study_type)
+            objects = self.get_objects(gateway)
+            for o in objects.values():
+                self.check_object(o, update=update)
         finally:
             if cli:
                 cli.close()
@@ -441,6 +496,11 @@ def main(argv):
     parser.add_argument(
         '--verbose', '-v', action='count', default=0,
         help='Increase the command verbosity')
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--check", action="store_true",
+                       help="Check against IDR")
+    group.add_argument("--set", action="store_true",
+                       help="Check against IDR")
     args = parser.parse_args(argv)
 
     logging.basicConfig(level=logging.WARN - 10 * args.verbose)
@@ -468,8 +528,8 @@ def main(argv):
         if args.report:
             print str(d)
 
-        if args.check:
-            d.check()
+        if args.check or args.set:
+            d.check(update=args.set)
     return p
 
 
