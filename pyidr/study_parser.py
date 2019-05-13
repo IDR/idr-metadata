@@ -375,27 +375,21 @@ class Formatter(object):
             add_key_values(annotation, self.ANNOTATION_PAIRS)
         return s
 
-    def check_object(self, obj, update=False):
+    def check_object(self, obj, d, update=False):
         """Check description and map of individual object on OMERO server"""
         import omero.constants
 
         status = True
         self.log.info("Checking %s %s" % (obj.OMERO_CLASS, obj.name))
-        if "/experiment" in obj.name:
-            o = self.m["experiments"].get(obj.name)
-        elif "/screen" in obj.name:
-            o = self.m["screens"].get(obj.name)
-        else:
-            o = self.m
 
-        if obj.description != o["description"]:
+        if obj.description != d["description"]:
             self.log.error("Mismatching description")
             self.log.debug("current:%s" % obj.description,)
-            self.log.debug("expected:%s" % o["description"])
+            self.log.debug("expected:%s" % d["description"])
             status = False
             if update:
                 self.log.info("Updating description")
-                obj.description = o["description"]
+                obj.description = d["description"]
                 obj.save()
 
         for ann in obj.listAnnotations(
@@ -406,7 +400,7 @@ class Formatter(object):
                 self.log.info("Deleting client map annotation")
                 ann.delete()
 
-        expected_pairs = [(k, v) for i in o["map"] for k, v in i.iteritems()]
+        expected_pairs = [(k, v) for i in d["map"] for k, v in i.iteritems()]
         status = self.check_annotation(
             obj, expected_pairs, STUDY_NS, update=update)
         return status
@@ -441,19 +435,21 @@ class Formatter(object):
                 anns[0].save()
         return status
 
-    def get_objects(self, gateway):
-        """Return a dictionary of"""
+    def get_objects(self, gateway, update=False):
+        """Return a list of objects associated with the study"""
 
         objects = {}
         for experiment in self.m["experiments"]:
             name = "Experiment " + experiment["name"][-1]
             objects[name] = gateway.getObject(
                 "Project", attributes={"name": experiment["name"]})
+            self.check_object(objects[name], experiment, update=update)
 
         for screen in self.m["screens"]:
             name = "Screen " + experiment["name"][-1]
             objects[name] = gateway.getObject(
                 "Screen", attributes={"name": screen["name"]})
+            self.check_object(objects[name], screen, update=update)
 
         if len(objects) == 1:
             return objects
@@ -462,11 +458,13 @@ class Formatter(object):
             "Project", attributes={"name": self.m["name"]})
         if project is not None:
             objects["Overview"] = project
+            self.check_object(objects["Overview"], self.m, update=update)
         else:
             screen = gateway.getObject(
                 "Screen", attributes={"name": self.m["name"]})
             if screen is not None:
                 objects["Overview"] = screen
+                self.check_object(objects["Overview"], self.m, update=update)
         return objects
 
     def check(self, update=False):
@@ -480,9 +478,7 @@ class Formatter(object):
 
         try:
             gateway = BlitzGateway(client_obj=cli.get_client())
-            objects = self.get_objects(gateway)
-            for o in objects.values():
-                self.check_object(o, update=update)
+            self.get_objects(gateway, update=update)
         finally:
             if cli:
                 cli.close()
