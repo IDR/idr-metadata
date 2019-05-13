@@ -398,7 +398,7 @@ class Formatter(object):
             status = False
             if update:
                 self.log.info("Deleting client map annotation")
-                ann.delete()
+                ann._conn.deleteObjects('Annotation', [ann.id])
 
         expected_pairs = [(k, v) for i in d["map"] for k, v in i.iteritems()]
         status = self.check_annotation(
