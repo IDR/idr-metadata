@@ -389,7 +389,7 @@ class Formatter(object):
             status = False
             if update:
                 self.log.info("Updating description")
-                obj.description = d["description"]
+                obj.setDescription(d["description"])
                 obj.save()
 
         for ann in obj.listAnnotations(
