@@ -106,7 +106,8 @@ Processed Data Column Description	The Ambion identifier for the siRNA.	The Ensem
 Processed Data Column Link To Library File	siRNA Identifier																
 																	
 Screen Number	2																
-Comment[IDR Screen Name]	idr0009-simpson-secretion/screenB																
+Comment[IDR Screen Name]	idr0009-simpson-secretion/screenB	
+Screen Sample Type	cell
 Screen Description	This validation screen focused on those 1,531 genes that caused the most significant inhibition of secretion on knockdown. Using independent siRNA sequences targeting these genes, we tested for their interference with tsO45G transport.																
 Screen Size	Plates: 70	5D Images: 26880	Planes: 80640	Average Image Dimension (XYZCT): 1344 x 1024 x 1 x 3 x 1	Total Tb: 0.21												
 Screen Example Image	https://idr.openmicroscopy.org/webclient/?show=well-614784	https://idr.openmicroscopy.org/webclient/img_detail/1323535/	0307-09--2007-04-16;D22														
