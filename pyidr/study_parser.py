@@ -263,13 +263,13 @@ class Formatter(object):
 
     EXPERIMENT_PAIRS = [
         ('Sample Type', "%(Experiment Sample Type)s"),
-        ('Study Type', "%(Study Type)s")
+        ('Study Type', "%(Study Type)s"),
         ('Organism', "%(Study Organism)s"),
         ('Imaging Method', "%(Experiment Imaging Method)s"),
     ]
     SCREEN_PAIRS = [
         ('Sample Type', "%(Screen Sample Type)s"),
-        ('Study Type', "%(Study Type)s")
+        ('Study Type', "%(Study Type)s"),
         ('Organism', "%(Study Organism)s"),
         ('Screen Type', "%(Screen Type)s"),
         ('Screen Technology Type', "%(Screen Technology Type)s"),
