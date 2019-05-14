@@ -435,37 +435,54 @@ class Formatter(object):
                 anns[0].save()
         return status
 
-    def get_objects(self, gateway, update=False):
-        """Return a list of objects associated with the study"""
+    def check_study(self, gateway, update=False):
+        """Check all components of the study"""
 
-        objects = {}
+        WEBCLIENT_URL = "https://idr.openmicroscopy.org/webclient/"
+        objects = []
+        components_map = []
         for experiment in self.m["experiments"]:
-            name = "Experiment " + experiment["name"][-1]
-            objects[name] = gateway.getObject(
+            project = gateway.getObject(
                 "Project", attributes={"name": experiment["name"]})
-            self.check_object(objects[name], experiment, update=update)
+            self.check_object(project, experiment, update=update)
+            objects.append(project)
+            name = "Experiment " + experiment["name"][-1]
+            components_map.append(
+                (name, "%s/?show=project-%s" % (WEBCLIENT_URL, project.id)))
 
-        for screen in self.m["screens"]:
-            name = "Screen " + experiment["name"][-1]
-            objects[name] = gateway.getObject(
-                "Screen", attributes={"name": screen["name"]})
-            self.check_object(objects[name], screen, update=update)
+        for s in self.m["screens"]:
+            screen = gateway.getObject(
+                "Screen", attributes={"name": s["name"]})
+            self.check_object(screen, s, update=update)
+            objects.append(screen)
+            name = "Screen " + s["name"][-1]
+            components_map.append(
+                (name, "%s/?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
 
         if len(objects) == 1:
-            return objects
+            return
 
         project = gateway.getObject(
             "Project", attributes={"name": self.m["name"]})
         if project is not None:
-            objects["Overview"] = project
-            self.check_object(objects["Overview"], self.m, update=update)
+            self.check_object(project, self.m, update=update)
+            objects.append(project)
+            components_map.append(
+                ("Overview",
+                 "%s/?show=project-%s" % (WEBCLIENT_URL, project.id)))
         else:
             screen = gateway.getObject(
                 "Screen", attributes={"name": self.m["name"]})
             if screen is not None:
-                objects["Overview"] = screen
-                self.check_object(objects["Overview"], self.m, update=update)
-        return objects
+                self.check_object(screen, self.m, update=update)
+                objects.append(screen)
+                components_map.append(
+                    ("Overview",
+                     "%s/?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
+
+        for obj in objects:
+            self.check_annotation(
+                obj, components_map, COMPONENTS_NS, update=update)
 
     def check(self, update=False):
 
@@ -478,7 +495,7 @@ class Formatter(object):
 
         try:
             gateway = BlitzGateway(client_obj=cli.get_client())
-            self.get_objects(gateway, update=update)
+            self.check_study(gateway, update=update)
         finally:
             if cli:
                 cli.close()
