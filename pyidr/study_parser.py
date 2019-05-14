@@ -60,6 +60,7 @@ KEYS = (
     # MANDATORY_KEYS["Experiment"]
     Key(r'Comment\[IDR Experiment Name\]', 'Experiment'),
     Key('Experiment Description', 'Experiment'),
+    Key('Experiment Sample Type', 'Experiment'),
     Key('Experiment Imaging Method', 'Experiment'),
     Key('Experiment Number', 'Experiment'),
     # OPTIONAL_KEYS["Experiment"]
@@ -68,6 +69,7 @@ KEYS = (
     # MANDATORY_KEYS["Screen"]
     Key(r'Comment\[IDR Screen Name\]', 'Screen'),
     Key('Screen Description', 'Screen'),
+    Key('Screen Sample Type', 'Experiment'),
     Key('Screen Imaging Method', 'Screen'),
     Key('Screen Number', 'Screen'),
     Key('Screen Type', 'Screen'),
@@ -259,12 +261,15 @@ class StudyParser():
 
 class Formatter(object):
 
-    TOP_PAIRS = [('Study Type', "%(Study Type)s")]
     EXPERIMENT_PAIRS = [
+        ('Sample Type', "%(Experiment Sample Type)s"),
+        ('Study Type', "%(Study Type)s")
         ('Organism', "%(Study Organism)s"),
         ('Imaging Method', "%(Experiment Imaging Method)s"),
     ]
     SCREEN_PAIRS = [
+        ('Sample Type', "%(Screen Sample Type)s"),
+        ('Study Type', "%(Study Type)s")
         ('Organism', "%(Study Organism)s"),
         ('Screen Type', "%(Screen Type)s"),
         ('Screen Technology Type', "%(Screen Technology Type)s"),
@@ -363,7 +368,6 @@ class Formatter(object):
                     self.log.debug("Missing %s" % e.message)
 
         s = []
-        add_key_values(component, self.TOP_PAIRS)
         if component.get("Type", None) == "Experiment":
             add_key_values(component, self.EXPERIMENT_PAIRS)
         elif component.get("Type", None) == "Screen":
