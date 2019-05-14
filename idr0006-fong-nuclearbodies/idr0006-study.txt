@@ -43,7 +43,8 @@ Additional File description	This file gives information about the plate layout a
 # Screen; this section should be repeated if a study contains multiple screens																	
 																	
 Screen Number	1																
-Comment[IDR Screen Name]	idr0006-fong-nuclearbodies/screenA																
+Comment[IDR Screen Name]	idr0006-fong-nuclearbodies/screenA	
+Screen Sample Type	cell
 Screen Description	A whole-genome screening for proteins localized to distinct nuclear bodies using 15,483 ORFs in the Human ORFeome Library.  A total of 325 proteins were identified in various nuclear bodies, which include 148 nucleolar proteins, 38 proteins in PML bodies, 27 proteins in nuclear speckles, 24 proteins in paraspeckles, 17 proteins in Cajal bodies, 5 proteins in Sam68 nuclear bodies, 2 proteins in Polycomb bodies, and 64 proteins in uncharacterized nuclear subcompartments. An additional 48 proteins were identified that are targeted to the nuclear envelope.																
 Screen Size	Plates: 169	5D Images: 240848	Planes: 481696	Average Image Dimension (XYZCT): 1392 x 1040 x 1 x 2 x 1	Total Tb: 1.4												
 Screen Example Image	https://idr.openmicroscopy.org/webclient/?show=well-519405	https://idr.openmicroscopy.org/webclient/img_detail/810246/	31030;D6														
