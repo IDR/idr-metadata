@@ -69,7 +69,7 @@ KEYS = (
     # MANDATORY_KEYS["Screen"]
     Key(r'Comment\[IDR Screen Name\]', 'Screen'),
     Key('Screen Description', 'Screen'),
-    Key('Screen Sample Type', 'Experiment'),
+    Key('Screen Sample Type', 'Screen'),
     Key('Screen Imaging Method', 'Screen'),
     Key('Screen Number', 'Screen'),
     Key('Screen Type', 'Screen'),
