@@ -35,7 +35,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 # Screen; this section should be repeated if a study contains multiple screens											
 											
 Experiment Number	1										
-Comment[IDR Experiment Name]	idr0032-yang-meristem/experimentA										
+Comment[IDR Experiment Name]	idr0032-yang-meristem/experimentA	
+Experiment Sample Type	tissue
 Experiment Description	We performed systematic RNA in situ hybridization assays to examine the expression patterns of the SAM-expressed GTs at single-cell spatial resolution, including those transcripts that show either relative increases, reductions, or no change between SAM and flower samples.									
 Experiment Size	Datasets: 115	5D Images: 456	Average Image Dimension (XYZCT):	Total Tb:							
 Experiment Example Images											

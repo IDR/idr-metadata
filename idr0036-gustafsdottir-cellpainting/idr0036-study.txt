@@ -41,7 +41,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 # Screen; this section should be repeated if a study contains multiple screens																
 																
 Screen Number	1															
-Comment[IDR Screen Name]	idr0036-gustafsdottir-cellpainting/screenA															
+Comment[IDR Screen Name]	idr0036-gustafsdottir-cellpainting/screenA	
+Screen Sample Type	cell
 Screen Description	The images are of U2OS cells treated with each of 1600 known bioactive compounds and labeled with six labels that characterize seven organelles (the "Cell Painting" assay). This pilot experiment consists of 20 plates. Each plate has 384 wells and each well has 9 fields of view for a total of 69,120 fields of view. Each field was imaged in five channels (detection wavelengths), and each channel is stored as a separate, grayscale image file, so there are 345,600 image files in 16-bit TIFF format. The plates in this screen were originally included as part of idr0016/screenA but were moved to idr0036/screenA in August 2017 to make it clearer that they correspond to the Broad BioImaging Benchmark Collection dataset BBBC022 (https://www.broadinstitute.org/bbbc/BBBC022/).															
 Screen Size	Plates: 20	5D Images:	Planes:	Average Image Dimension (XYZCT):	Total Tb:											
 Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-1215412	http://id.openmicroscopy.org/webclient/img_detail/2782349/	20586;M8													

@@ -43,7 +43,8 @@ Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/
 # Screen; this section should be repeated if a study contains multiple screens					
 					
 Screen Number	1				
-Comment[IDR Screen Name]	idr0015-colin-taraoceans/screenA				
+Comment[IDR Screen Name]	idr0015-colin-taraoceans/screenA	
+Screen Sample Type	cell
 Screen Description	eHCFM: a 3D-fluorescence imaging and classification tool for high throughput analysis of microbial eukaryotes in environmental samples. The method generates for each given sample a mosaic of multi-dimentional fields of view (3D, 5 channels). We propose here the exploration of raw images of plankton samples from the Tara Oceans expeditions.				
 Screen Size	Plates: 84	5D Images: 32777	Planes: 3319225	Average Image Dimension (XYZCT): 2048 x 2048 x 20 x 5 x 1	Total Tb: 2.51
 Screen Example Images					

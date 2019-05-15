@@ -38,7 +38,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 # Screen																	
 																	
 Screen Number	1																
-Comment[IDR Screen Name]	idr0009-simpson-secretion/screenA																
+Comment[IDR Screen Name]	idr0009-simpson-secretion/screenA	
+Screen Sample Type	cell
 Screen Description	This screen uses a genome-wide library of over 51,000 small interfering RNAs (siRNAs) targeting approximately 22,000 human genes for interference with ER-to-plasma membrane transport of the well-characterized secretory cargo membrane protein tsO45G.																
 Screen Size	Plates: 964	5D Images: 370176	Planes: 1112064	Average Image Dimension (XYZCT): 1344 x 1024 x 1 x 3 x 1	Total Tb: 3.04												
 Screen Example Image	https://idr.openmicroscopy.org/webclient/?show=well-61959	https://idr.openmicroscopy.org/webclient/img_detail/171517/	0001-03--2005-08-01;A19														
@@ -105,7 +106,8 @@ Processed Data Column Description	The Ambion identifier for the siRNA.	The Ensem
 Processed Data Column Link To Library File	siRNA Identifier																
 																	
 Screen Number	2																
-Comment[IDR Screen Name]	idr0009-simpson-secretion/screenB																
+Comment[IDR Screen Name]	idr0009-simpson-secretion/screenB	
+Screen Sample Type	cell
 Screen Description	This validation screen focused on those 1,531 genes that caused the most significant inhibition of secretion on knockdown. Using independent siRNA sequences targeting these genes, we tested for their interference with tsO45G transport.																
 Screen Size	Plates: 70	5D Images: 26880	Planes: 80640	Average Image Dimension (XYZCT): 1344 x 1024 x 1 x 3 x 1	Total Tb: 0.21												
 Screen Example Image	https://idr.openmicroscopy.org/webclient/?show=well-614784	https://idr.openmicroscopy.org/webclient/img_detail/1323535/	0307-09--2007-04-16;D22														

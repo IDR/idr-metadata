@@ -2,9 +2,9 @@
 # Study												
 Comment[IDR Study Accession]	idr0026											
 Study Title	Focusing and sustaining the antitumor CTL effector killer response by agonist anti-CD137 mAb											
-Study Type	4D timelapse of in vivo cells											
-Study Type Term Source REF												
-Study Type Term Accession												
+Study Type	time-lapse imaging											
+Study Type Term Source REF	OMIT											
+Study Type Term Accession	OMIT_0027490											
 Study Description	Cancer immunotherapy is undergoing significant progress due to recent clinical successes by refined adoptive T-cell transfer and immunostimulatory monoclonal Ab (mAbs). B16F10-derived OVA-expressing mouse melanomas resist curative immunotherapy with either adoptive transfer of activated anti-OVA OT1 CTLs or agonist anti-CD137 (4-1BB) mAb. However, when acting in synergistic combination, these treatments consistently achieve tumor eradication. Tumor-infiltrating lymphocytes that accomplish tumor rejection exhibit enhanced effector functions in both transferred OT-1 and endogenous cytotoxic T lymphocytes (CTLs). This is consistent with higher levels of expression of eomesodermin in transferred and endogenous CTLs and with intravital live-cell two-photon microscopy evidence for more efficacious CTL-mediated tumor cell killing. Anti-CD137 mAb treatment resulted in prolonged intratumor persistence of the OT1 CTL-effector cells and improved function with focused and confined interaction kinetics of OT-1 CTL with target cells and increased apoptosis induction lasting up to six days postadoptive transfer. The synergy of adoptive T-cell therapy and agonist anti-CD137 mAb thus results from in vivo enhancement and sustainment of effector functions.									
 Study Organism	Mus musculus											
 Study Organism Term Source REF	NCBITaxon											
@@ -33,15 +33,16 @@ Study Person Email	bweigelin@mdanderson.org
 Study Person Address	The University of Texas MD Anderson Cancer Center											
 Study Person Roles	submitter											
 												
-Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	MP							
-Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/							
+Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	MP	OMIT							
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/			
 												
 												
 "# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."												
 # Screen; this section should be repeated if a study contains multiple screens												
 												
 Experiment Number	1											
-Comment[IDR Experiment Name]	idr0026-weigelin-immunotherapy/experimentA											
+Comment[IDR Experiment Name]	idr0026-weigelin-immunotherapy/experimentA	
+Experiment Sample Type	tissue
 Experiment Description	Combination therapy of adoptive CTL transfer and anti-CD137 monoclonal antibody. Mice were injected with B16F10/OVA melanoma cells and after 3 or 7 days were treated with OVA-specific CD8+ T cells (Cytotoxic T lymphocytes CTL) plus 1D8 antibody (anti-CD137).  4D timelapse images were taken at either 3 or 6 days after CTL + antibody treatment.											
 Experiment Size	Datasets:18	5D Images:227	Average Image Dimension (XYZCT):501.0 x 497.9 x 103.3 x 3.4 x 56.5	Total Tb:0.48								
 Experiment Example Images	https://idr.openmicroscopy.org/webclient/?show=image-3261855	https://idr.openmicroscopy.org/webclient/img_detail/3261855/	TreatStartDay7_CTL_anti-CD137_Day3PostTreat_mouse54;7.54.10-3.140926_18-36-07.00.pattern									
