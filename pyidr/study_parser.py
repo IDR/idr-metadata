@@ -521,9 +521,9 @@ def main(argv):
         help='Increase the command verbosity')
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--check", action="store_true",
-                       help="Check against IDR")
+                       help="Check the study annotations on IDR")
     group.add_argument("--set", action="store_true",
-                       help="Check against IDR")
+                       help="Set the study annotations on IDR")
     args = parser.parse_args(argv)
 
     logging.basicConfig(level=logging.WARN - 10 * args.verbose)
