@@ -45,7 +45,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Screen Number	1																																																																																																																																										
 Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpases/screenA																																																																																																																																										
 Screen Data Publisher	University of Dundee																																																																																																																																										
-Screen Data DOI	http://dx.doi.org/10.17867/10000104A																																																																																																																																										
+Screen Data DOI	http://dx.doi.org/10.17867/10000104A				
+Screen Sample Type	cell
 Screen Description	Human RhoGEF/RhoGAP siGenome siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
 Screen Size	Plates: 4	5D Images: 26880	Planes:107520	Average Image Dimension (XYZCT): 667 x 501 x 1 x 4 x 1	Total Tb: 0.03																																																																																																																																						
 Screen Example Images																																																																																																																																											
@@ -116,7 +117,8 @@ Processed Data Column Link To Library File	Plate_Well
 Screen Number	2																																																																																																																																										
 Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpases/screenB																																																																																																																																										
 Screen Data Publisher	University of Dundee																																																																																																																																										
-Screen Data DOI	http://dx.doi.org/10.17867/10000104B																																																																																																																																										
+Screen Data DOI	http://dx.doi.org/10.17867/10000104B			
+Screen Sample Type	cell
 Screen Description	Human RhoGEF/RhoGAP OnTargetPlus siRNA screen on highly metastatic triple negative breast cancer cell line LM2																																																																																																																																										
 Screen Size	Plates: 4	5D Images: 42644	Planes: 170576	Average Image Dimension (XYZCT): 667 x 500 x 1 x 4 x 1	Total Tb: 0.05																																																																																																																																						
 Screen Example Images	https://idr.openmicroscopy.org/webclient/?show=well-1247843	https://idr.openmicroscopy.org/webclient/img_detail/2898590/	LM2_ONTARGETPlus_1A;M21																																																																																																																																								
@@ -187,7 +189,8 @@ Processed Data Column Link To Library File	Plate_Well
 Screen Number	3																																																																																																																																										
 Comment[IDR Screen Name]	idr0028-pascualvargas-rhogtpases/screenC																																																																																																																																										
 Screen Data Publisher	University of Dundee																																																																																																																																										
-Screen Data DOI	http://dx.doi.org/10.17867/10000104C																																																																																																																																										
+Screen Data DOI	http://dx.doi.org/10.17867/10000104C			
+Screen Sample Type	cell
 Screen Description	Human RhoGEF/RhoGAP siGenome siRNA screen on triple negative breast cancer cell line MDA-MB-231																																																																																																																																										
 Screen Size	Plates: 4	5D Images: 42700	Planes: 170800	Average Image Dimension (XYZCT): 667 x 500 x 1 x 4 x 1	Total Tb: 0.05																																																																																																																																						
 Screen Example Images																																																																																																																																											
