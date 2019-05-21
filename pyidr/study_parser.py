@@ -379,10 +379,10 @@ class Formatter(object):
 
         # Only add Study title if not redundant with Publication Title
         publication_titles = [
-            x['Publication Title'] for x in component.get("Publications", [])]
+            x['Title'] for x in component.get("Publications", [])]
         study_title = component.get("Study Title", None)
         if study_title is not None and study_title not in publication_titles:
-            add_key_values(component, ('Study Title', "%(Study Title)s"))
+            add_key_values(component, [('Study Title', "%(Study Title)s")])
 
         if component.get("Type", None) == "Experiment":
             add_key_values(component, self.EXPERIMENT_TECHNOLOGY_PAIRS)
