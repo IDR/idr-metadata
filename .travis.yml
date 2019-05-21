@@ -21,6 +21,6 @@ before_script:
 
 script:
   - find idr* -type f -name '*.screen' -print0 | xargs -0 -n1 python scripts/check_screen.py -v
-  - find . -type f -name '*study.txt' | xargs python pyidr/study_parser.py
+  - find . -type f -name '*study.txt' | sort | xargs python pyidr/study_parser.py -v
   - python scripts/travis-check.py
   - python test/all_tests.py

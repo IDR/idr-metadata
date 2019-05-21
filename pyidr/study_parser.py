@@ -8,8 +8,6 @@ import os
 import re
 import sys
 
-logging.basicConfig(level=int(os.environ.get("DEBUG", logging.WARN)))
-log = logging.getLogger("pyidr.study_parser")
 
 TYPES = ["Experiment", "Screen"]
 
@@ -62,6 +60,7 @@ KEYS = (
     # MANDATORY_KEYS["Experiment"]
     Key(r'Comment\[IDR Experiment Name\]', 'Experiment'),
     Key('Experiment Description', 'Experiment'),
+    Key('Experiment Sample Type', 'Experiment'),
     Key('Experiment Imaging Method', 'Experiment'),
     Key('Experiment Number', 'Experiment'),
     # OPTIONAL_KEYS["Experiment"]
@@ -70,6 +69,7 @@ KEYS = (
     # MANDATORY_KEYS["Screen"]
     Key(r'Comment\[IDR Screen Name\]', 'Screen'),
     Key('Screen Description', 'Screen'),
+    Key('Screen Sample Type', 'Screen'),
     Key('Screen Imaging Method', 'Screen'),
     Key('Screen Number', 'Screen'),
     Key('Screen Type', 'Screen'),
@@ -80,6 +80,8 @@ KEYS = (
 )
 
 DOI_PATTERN = re.compile("https?://(dx.)?doi.org/(?P<id>.*)")
+STUDY_NS = "idr.openmicroscopy.org/study/info"
+COMPONENTS_NS = "idr.openmicroscopy.org/study/components"
 
 
 class StudyError(Exception):
@@ -91,8 +93,9 @@ class StudyParser():
     def __init__(self, study_file):
         self._study_file = study_file
         self._dir = os.path.dirname(self._study_file)
+        self.log = logging.getLogger("pyidr.study_parser.StudyParser")
         with open(self._study_file, 'r') as f:
-            log.info("Parsing %s" % self._study_file)
+            self.log.info("Parsing %s" % self._study_file)
             self._study_lines = f.readlines()
             self._study_lines_used = [
                 [] for x in range(len(self._study_lines))]
@@ -107,7 +110,7 @@ class StudyParser():
         for t in TYPES:
             n = int(self.study.get('Study %ss Number' % t, 0))
             for i in range(n):
-                log.debug("Parsing %s %g" % (t, i + 1))
+                self.log.debug("Parsing %s %g" % (t, i + 1))
 
                 d = self.parse(t, lines=self.get_lines(i + 1, t))
                 d.update({'Type': t})
@@ -258,12 +261,15 @@ class StudyParser():
 
 class Formatter(object):
 
-    TOP_PAIRS = [('Study Type', "%(Study Type)s")]
     EXPERIMENT_PAIRS = [
+        ('Sample Type', "%(Experiment Sample Type)s"),
+        ('Study Type', "%(Study Type)s"),
         ('Organism', "%(Study Organism)s"),
         ('Imaging Method', "%(Experiment Imaging Method)s"),
     ]
     SCREEN_PAIRS = [
+        ('Sample Type', "%(Screen Sample Type)s"),
+        ('Study Type', "%(Study Type)s"),
         ('Organism', "%(Study Organism)s"),
         ('Screen Type', "%(Screen Type)s"),
         ('Screen Technology Type', "%(Screen Technology Type)s"),
@@ -291,6 +297,7 @@ class Formatter(object):
     ANNOTATION_PAIRS = [('Annotation File', "%(Annotation File)s")]
 
     def __init__(self, parser, inspect=False):
+        self.log = logging.getLogger("pyidr.study_parser.Formatter")
         self.parser = parser
         self.basedir = os.path.dirname(parser._study_file)
         self.inspect = inspect
@@ -310,7 +317,7 @@ class Formatter(object):
               "map": self.generate_annotation(component),
             }
             if self.inspect:
-                log.info("Inspect the internals of %s" % self.basedir)
+                self.log.info("Inspect the internals of %s" % self.basedir)
                 path = "%s/%s/*" % (self.basedir, name.split("/")[-1])
                 d["files"] = glob.glob(path)
             self.m["%ss" % component['Type'].lower()].append(d)
@@ -358,10 +365,9 @@ class Formatter(object):
                     for v in value.split('\t'):
                         s.append({'%s' % key: v})
                 except KeyError, e:
-                    log.debug("Missing %s" % e.message)
+                    self.log.debug("Missing %s" % e.message)
 
         s = []
-        add_key_values(component, self.TOP_PAIRS)
         if component.get("Type", None) == "Experiment":
             add_key_values(component, self.EXPERIMENT_PAIRS)
         elif component.get("Type", None) == "Screen":
@@ -373,35 +379,116 @@ class Formatter(object):
             add_key_values(annotation, self.ANNOTATION_PAIRS)
         return s
 
-    def check_object(self, gateway, o, obj_type):
+    def check_object(self, obj, d, update=False):
         """Check description and map of individual object on OMERO server"""
+        import omero.constants
 
-        STUDY_NS = "openmicroscopy.org/omero/client/mapAnnotation"
+        status = True
+        self.log.info("Checking %s %s" % (obj.OMERO_CLASS, obj.name))
 
-        log.info("Checking %s %s" % (obj_type, o["name"]))
-        obj = gateway.getObject(obj_type, attributes={"name": o["name"]})
+        if obj.description != d["description"]:
+            self.log.error("Mismatching description")
+            self.log.debug("current:%s" % obj.description,)
+            self.log.debug("expected:%s" % d["description"])
+            status = False
+            if update:
+                self.log.info("Updating description")
+                obj.setDescription(d["description"])
+                obj.save()
 
-        if obj.description != o["description"]:
-            log.error("Mismatching description: current:%s\nexpected:%s" %
-                      (obj.description, o["description"]))
-            raise StudyError
+        for ann in obj.listAnnotations(
+                ns=omero.constants.metadata.NSCLIENTMAPANNOTATION):
+            self.log.error("Found client map annotation")
+            status = False
+            if update:
+                self.log.info("Deleting client map annotation")
+                ann._conn.deleteObjects('Annotation', [ann.id])
 
-        anns = list(obj.listAnnotations(ns=STUDY_NS))
+        expected_pairs = [(k, v) for i in d["map"] for k, v in i.iteritems()]
+        status = self.check_annotation(
+            obj, expected_pairs, STUDY_NS, update=update)
+        return status
+
+    def check_annotation(self, obj, value, namespace, update=False):
+        from omero.gateway import MapAnnotationWrapper
+        from omero.rtypes import rstring
+
+        status = True
+        anns = list(obj.listAnnotations(ns=namespace))
         if len(anns) > 1:
-            log.error("Found multiple annotations with the same namespace")
-            raise StudyError
+            self.log.error(
+                "Found multiple annotations with the %s namespace" % STUDY_NS)
+            status = False
+        elif len(anns) == 0:
+            self.log.error("No map annotation found")
+            if update:
+                self.log.info("Creating map annotation")
+                m = MapAnnotationWrapper(conn=obj._conn)
+                m.setNs(rstring(namespace))
+                m.setValue(value)
+                m.save()
+                obj.linkAnnotation(m)
+        elif anns[0].getValue() != value:
+            self.log.error("Mismatching annotation")
+            self.log.debug("current:%s" % anns[0].getValue())
+            self.log.debug("expected:%s" % value)
+            status = False
+            if update:
+                self.log.info("Updating map annotation")
+                anns[0].setValue(value)
+                anns[0].save()
+        return status
 
-        expected_pairs = [(k, v) for i in o["map"] for k, v in i.iteritems()]
-        if len(anns) == 0:
-            log.error("Missing map annotation")
-            raise StudyError
+    def check_study(self, gateway, update=False):
+        """Check all components of the study"""
 
-        if anns[0].getValue() != expected_pairs:
-            log.error("Mismatching map annotation: current:%s\nexpected:%s" %
-                      (anns[0].getValue(), expected_pairs))
-            raise StudyError
+        WEBCLIENT_URL = "https://idr.openmicroscopy.org/webclient/"
+        objects = []
+        components_map = []
+        for experiment in self.m["experiments"]:
+            project = gateway.getObject(
+                "Project", attributes={"name": experiment["name"]})
+            self.check_object(project, experiment, update=update)
+            objects.append(project)
+            name = "Experiment " + experiment["name"][-1]
+            components_map.append(
+                (name, "%s/?show=project-%s" % (WEBCLIENT_URL, project.id)))
 
-    def check(self):
+        for s in self.m["screens"]:
+            screen = gateway.getObject(
+                "Screen", attributes={"name": s["name"]})
+            self.check_object(screen, s, update=update)
+            objects.append(screen)
+            name = "Screen " + s["name"][-1]
+            components_map.append(
+                (name, "%s/?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
+
+        if len(objects) == 1:
+            return
+
+        project = gateway.getObject(
+            "Project", attributes={"name": self.m["name"]})
+        if project is not None:
+            self.check_object(project, self.m, update=update)
+            objects.append(project)
+            components_map.append(
+                ("Overview",
+                 "%s/?show=project-%s" % (WEBCLIENT_URL, project.id)))
+        else:
+            screen = gateway.getObject(
+                "Screen", attributes={"name": self.m["name"]})
+            if screen is not None:
+                self.check_object(screen, self.m, update=update)
+                objects.append(screen)
+                components_map.append(
+                    ("Overview",
+                     "%s/?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
+
+        for obj in objects:
+            self.check_annotation(
+                obj, components_map, COMPONENTS_NS, update=update)
+
+    def check(self, update=False):
 
         from omero.cli import CLI
         from omero.gateway import BlitzGateway
@@ -412,16 +499,7 @@ class Formatter(object):
 
         try:
             gateway = BlitzGateway(client_obj=cli.get_client())
-            for experiment in self.m["experiments"]:
-                self.check_object(gateway, experiment, "Project")
-            for experiment in self.m["screens"]:
-                self.check_object(gateway, experiment, "Screen")
-            if "map" in self.m:
-                if self.m["experiments"]:
-                    study_type = "Project"
-                else:
-                    study_type = "Screen"
-                self.check_object(gateway, self.m, study_type)
+            self.check_study(gateway, update=update)
         finally:
             if cli:
                 cli.close()
@@ -438,9 +516,18 @@ def main(argv):
                         help="Inspect the internals of the study directory")
     parser.add_argument("--report", action="store_true",
                         help="Create a report of the generated objects")
-    parser.add_argument("--check", action="store_true",
-                        help="Check against IDR")
+    parser.add_argument(
+        '--verbose', '-v', action='count', default=0,
+        help='Increase the command verbosity')
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--check", action="store_true",
+                       help="Check the study annotations on IDR")
+    group.add_argument("--set", action="store_true",
+                       help="Set the study annotations on IDR")
     args = parser.parse_args(argv)
+
+    logging.basicConfig(level=logging.WARN - 10 * args.verbose)
+    log = logging.getLogger("pyidr.study_parser")
 
     for s in args.studyfile:
         p = StudyParser(s)
@@ -464,8 +551,8 @@ def main(argv):
         if args.report:
             print str(d)
 
-        if args.check:
-            d.check()
+        if args.check or args.set:
+            d.check(update=args.set)
     return p
 
 
