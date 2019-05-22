@@ -50,3 +50,15 @@
 [submodule "idr0052-walther-condensinmap"]
 	path = idr0052-walther-condensinmap
 	url = git://github.com/IDR/idr0052-walther-condensinmap
+[submodule "idr0002-heriche-condensation"]
+	path = idr0002-heriche-condensation
+	url = git://github.com/IDR/idr0002-heriche-condensation
+[submodule "idr0017-breinig-drugscreen"]
+	path = idr0017-breinig-drugscreen
+	url = git://github.com/IDR/idr0017-breinig-drugscreen
+[submodule "idr0018-neff-histopathology"]
+	path = idr0018-neff-histopathology
+	url = git://github.com/IDR/idr0018-neff-histopathology
+[submodule "idr0019-sero-nfkappab"]
+	path = idr0019-sero-nfkappab
+	url = git://github.com/IDR/idr0019-sero-nfkappab
