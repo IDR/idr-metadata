@@ -1,4 +1,0 @@
----
-target: "Screen:name:idr0002-heriche-condensation/screenA"
-include: "../../bulk.yml"
-path: "idr0002-screenA-plates.tsv"
