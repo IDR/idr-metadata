@@ -261,16 +261,20 @@ class StudyParser():
 
 class Formatter(object):
 
-    EXPERIMENT_PAIRS = [
+    EXPERIMENT_SAMPLE_PAIRS = [
         ('Sample Type', "%(Experiment Sample Type)s"),
-        ('Study Type', "%(Study Type)s"),
         ('Organism', "%(Study Organism)s"),
+    ]
+    SCREEN_SAMPLE_PAIRS = [
+        ('Sample Type', "%(Screen Sample Type)s"),
+        ('Organism', "%(Study Organism)s"),
+    ]
+    EXPERIMENT_TECHNOLOGY_PAIRS = [
+        ('Study Type', "%(Study Type)s"),
         ('Imaging Method', "%(Experiment Imaging Method)s"),
     ]
-    SCREEN_PAIRS = [
-        ('Sample Type', "%(Screen Sample Type)s"),
+    SCREEN_TECHNOLOGY_PAIRS = [
         ('Study Type', "%(Study Type)s"),
-        ('Organism', "%(Study Organism)s"),
         ('Screen Type', "%(Screen Type)s"),
         ('Screen Technology Type', "%(Screen Technology Type)s"),
         ('Imaging Method', "%(Screen Imaging Method)s"),
@@ -369,9 +373,22 @@ class Formatter(object):
 
         s = []
         if component.get("Type", None) == "Experiment":
-            add_key_values(component, self.EXPERIMENT_PAIRS)
+            add_key_values(component, self.EXPERIMENT_SAMPLE_PAIRS)
         elif component.get("Type", None) == "Screen":
-            add_key_values(component, self.SCREEN_PAIRS)
+            add_key_values(component, self.SCREEN_SAMPLE_PAIRS)
+
+        # Only add Study title if not redundant with Publication Title
+        publication_titles = [
+            x['Title'] for x in component.get("Publications", [])]
+        study_title = component.get("Study Title", None)
+        if study_title is not None and study_title not in publication_titles:
+            add_key_values(component, [('Study Title', "%(Study Title)s")])
+
+        if component.get("Type", None) == "Experiment":
+            add_key_values(component, self.EXPERIMENT_TECHNOLOGY_PAIRS)
+        elif component.get("Type", None) == "Screen":
+            add_key_values(component, self.SCREEN_TECHNOLOGY_PAIRS)
+
         for publication in component.get("Publications", []):
             add_key_values(publication, self.PUBLICATION_PAIRS)
         add_key_values(component, self.BOTTOM_PAIRS)
