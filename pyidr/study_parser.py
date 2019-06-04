@@ -289,6 +289,7 @@ class Formatter(object):
         ('Publication DOI', "%(DOI)s https://doi.org/%(DOI)s"),
     ]
     BOTTOM_PAIRS = [
+        ('Release Date', '%(Study Public Release Date)s'),
         ('License', "%(Study License)s %(Study License URL)s"),
         ('Copyright', "%(Study Copyright)s"),
         ('Data Publisher', "%(Study Data Publisher)s"),
