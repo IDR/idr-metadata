@@ -11,7 +11,7 @@ Study Organism Term Source REF	NCBITaxon
 Study Organism Term Accession	NCBITaxon_9606				
 Study Screens Number	1				
 Study External URL	http://www.cellimagelibrary.org/pages/project_20269	http://gigadb.org/dataset/100200			
-Study Public Release Date					
+Study Public Release Date	2016-12-16				
 Study Version History	In August 2017 the 20 plates from the Broad Bioimaging Benchmark Collection dataset BBBC022 were moved to a separate screen, idr0036/screenA. At the same time 58 new plates, which had become available from the Cell Image Library (http://www.cellimagelibrary.org/pages/project_20269) after the original import to idr0016, were added to idr0016 and annotation was added to plate 25723 (https://idr.openmicroscopy.org/webclient/?show=plate-5104) which was previously unannotated. Protocols have been updated to reflect the materials and methods information in Wawer et al 2014.				
 					
 # Study Publication					
