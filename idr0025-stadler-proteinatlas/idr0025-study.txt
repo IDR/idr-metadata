@@ -11,7 +11,7 @@ Study Organism Term Source REF	NCBITaxon
 Study Organism Term Accession	NCBITaxon_9606																	
 Study Screens Number	1																	
 Study External URL																		
-Study Public Release Date																		
+Study Public Release Date	2017-03-16																	
 Study Version History	August 2017 - additional phenotype to CMPO ontology mappings added																	
 																		
 # Study Publication																		
