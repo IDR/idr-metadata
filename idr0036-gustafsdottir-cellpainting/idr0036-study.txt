@@ -11,7 +11,7 @@ Study Organism Term Source REF	NCBITaxon
 Study Organism Term Accession	NCBITaxon_9606															
 Study Screens Number	1															
 Study External URL	https://www.broadinstitute.org/bbbc/BBBC022/	http://www.cellimagelibrary.org/pages/project_20269														
-Study Public Release Date																
+Study Public Release Date	2017-09-22															
 Study Version History	The plates in this screen were originally included as part of idr0016/screenA but were moved to idr0036/screenA in August 2017 to make it clearer that they correspond to the Broad BioImaging Benchmark Collection BBBC022 (https://www.broadinstitute.org/bbbc/BBBC022/).															
 																
 # Study Publication																
