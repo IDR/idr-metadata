@@ -11,7 +11,7 @@ Study Organism Term Source REF	NCBITaxon
 Study Organism Term Accession	NCBITaxon_1427524				
 Study Screens Number	1				
 Study External URL					
-Study Public Release Date					
+Study Public Release Date	2016-04-27				
 Study Version History	November 2017 - the study title, description, publication and screen name updated.				
 					
 # Study Publication					
