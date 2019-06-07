@@ -62,3 +62,6 @@
 [submodule "idr0019-sero-nfkappab"]
 	path = idr0019-sero-nfkappab
 	url = git://github.com/IDR/idr0019-sero-nfkappab
+[submodule "idr0062-blin-nuclearsegmentation"]
+	path = idr0062-blin-nuclearsegmentation
+	url = git://github.com/IDR/idr0062-blin-nuclearsegmentation
