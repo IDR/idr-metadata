@@ -11,7 +11,7 @@ Study Organism Term Source REF	NCBITaxon
 Study Organism Term Accession	NCBITaxon_4932																											
 Study Screens Number	1																											
 Study External URL	http://www.weizmann.ac.il/molgen/loqate/																											
-Study Public Release Date																												
+Study Public Release Date	2016-04-27																											
 																												
 # Study Publication																												
 Study PubMed ID	23509072																											
