@@ -48,7 +48,7 @@ KEYS = (
     Key('Study Experiments Number', 'Study', optional=True),
     Key('Study Screens Number', 'Study', optional=True),
     Key('Study External URL', 'Study', optional=True),
-    Key('Study Public Release Date', 'Study', optional=True),
+    Key('Study Public Release Date', 'Study'),
     Key('Study Person Last Name', 'Study', optional=True),
     Key('Study Person First Name', 'Study', optional=True),
     Key('Study Person Email', 'Study', optional=True),
