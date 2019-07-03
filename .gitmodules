@@ -65,3 +65,6 @@
 [submodule "idr0062-blin-nuclearsegmentation"]
 	path = idr0062-blin-nuclearsegmentation
 	url = git://github.com/IDR/idr0062-blin-nuclearsegmentation
+[submodule "idr0061-wolf-spindlepositioning"]
+	path = idr0061-wolf-spindlepositioning
+	url = git://github.com/IDR/idr0061-wolf-spindlepositioning
