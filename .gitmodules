@@ -68,3 +68,6 @@
 [submodule "idr0061-wolf-spindlepositioning"]
 	path = idr0061-wolf-spindlepositioning
 	url = git://github.com/IDR/idr0061-wolf-spindlepositioning
+[submodule "idr0007-srikumar-sumo"]
+	path = idr0007-srikumar-sumo
+	url = git://github.com/IDR/idr0007-srikumar-sumo
