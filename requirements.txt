@@ -1,0 +1,5 @@
+PyYAML
+pandas<0.19
+flake8<3.6.0
+yamllint
+requests
