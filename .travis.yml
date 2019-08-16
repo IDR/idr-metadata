@@ -12,6 +12,7 @@ sudo: false
 cache: pip
 
 install:
+  - pip install -r requirements.txt
   - python setup.py install
 
 before_script:
