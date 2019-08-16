@@ -17,8 +17,8 @@ Study Version History	July 2017: Replaced cell line name of MDA-MB-231 with MDAM
 # Study Publication																																																																																																																																											
 Study PubMed ID	28248929																																																																																																																																										
 Study Publication Title	RNAi screens for Rho GTPase regulators of cell shape and YAP/TAZ localisation in triple negative breast cancer.																																																																																																																																										
-Study Author List	Pascual Vargas P, Cooper S, Sero J, Arias-Garcia M, Bousgouni V, Bakal C.																																																																																																																																										
-Study PMC ID																																																																																																																																											
+Study Author List	Pascual-Vargas P, Cooper S, Sero J, Bousgouni V, Arias-Garcia M, Bakal C																																																																																																																																										
+Study PMC ID	PMC5332010																																																																																																																																										
 Study DOI	https://doi.org/10.1038/sdata.2017.18																																																																																																																																										
 																																																																																																																																											
 # Study License and Data DOI																																																																																																																																											
