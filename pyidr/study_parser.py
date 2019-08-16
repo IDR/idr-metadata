@@ -6,6 +6,7 @@ import json
 import logging
 import os
 import re
+import requests
 import sys
 
 
@@ -104,6 +105,7 @@ class StudyParser():
         self.has_children_doi = False
 
         self.parse_publications()
+        self.validate_publications()
         self.study.update(self.parse_data_doi(self.study, "Study Data DOI"))
 
         self.components = []
@@ -220,7 +222,8 @@ class StudyParser():
 
     def parse_publications(self):
 
-        titles = self.study['Study Publication Title'].split('\t')
+        titles = self.study[
+            'Study Publication Title'].decode('utf-8').split('\t')
         authors = self.study['Study Author List'].split('\t')
         assert len(titles) == len(authors), (
             "Mismatching publication titles and authors")
@@ -248,6 +251,61 @@ class StudyParser():
         parse_ids("Study DOI", DOI_PATTERN)
 
         self.study["Publications"] = publications
+
+    def validate_publications(self):
+        for publication in self.study.get("Publications", []):
+            if "PubMed ID" not in publication:
+                return
+            status = self.validate_publication(publication)
+            if not status:
+                raise Exception("Invalid publication")
+
+    def validate_publication(self, publication):
+        URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
+        QUERY = "?db=pubmed&id=%s&retmode=json"
+        status = True
+
+        json = requests.get(URL + QUERY % publication["PubMed ID"]).json()
+        result = json['result'][publication["PubMed ID"]]
+
+        self.log.debug("Validating publication title")
+        if publication["Title"] != result['title']:
+            status = False
+            from HTMLParser import HTMLParser
+            print HTMLParser().unescape(HTMLParser().unescape(result['title']))
+            self.log.error("Invalid title\nExpected: %s\nFound: %s" %
+                           (result['title'], publication["Title"], ))
+
+        self.log.debug("Validating publication author")
+        author_names = [x['name'] for x in result['authors']]
+        author_list = ", ".join(author_names).encode('utf-8')
+        if publication["Author List"] != author_list:
+            status = False
+            self.log.error("Invalid author list\nExpected: %s\nFound: %s" %
+                           (author_list, publication["Author List"]))
+
+        pmc_id = None
+        doi = None
+        for articleid in result['articleids']:
+            if articleid['idtype'] == 'pmc':
+                pmc_id = articleid['value']
+            if articleid['idtype'] == 'doi':
+                doi = articleid['value']
+
+        if pmc_id:
+            self.log.debug("Validating PMC ID")
+            if publication.get("PMC ID", None) != pmc_id:
+                status = False
+                self.log.error("Invalid PMC ID\nExpected: %s\nFound: %s" %
+                               (pmc_id, publication.get("PMC ID", None)))
+
+        if doi:
+            self.log.debug("Validating DOI")
+            if publication.get("DOI", None) != doi:
+                status = False
+                self.log.error("Invalid DOI\nExpected: %s\nFound: %s" %
+                               (doi, publication.get("DOI", None)))
+        return status
 
     def parse_data_doi(self, d, key):
         if key not in d:
