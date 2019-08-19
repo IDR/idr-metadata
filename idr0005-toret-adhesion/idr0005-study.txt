@@ -15,8 +15,8 @@ Study Public Release Date	2016-04-27
 																
 # Study Publication																
 Study PubMed ID	24446484															
-Study Publication Title	A genome-wide screen identifies conserved protein hubs required for cadherin-mediated cell-cell adhesion															
-Study Author List	Toret CP, D'Ambrosio MV, Vale RD, Simon MA, Nelson WJ.															
+Study Publication Title	A genome-wide screen identifies conserved protein hubs required for cadherin-mediated cell-cell adhesion.															
+Study Author List	Toret CP, D'Ambrosio MV, Vale RD, Simon MA, Nelson WJ															
 Study PMC ID	PMC3897182															
 Study DOI	http://dx.doi.org/10.1083/jcb.201306082															
 																

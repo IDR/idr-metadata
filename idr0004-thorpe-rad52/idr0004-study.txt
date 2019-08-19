@@ -16,7 +16,7 @@ Study Public Release Date	2016-04-27
 # Study Publication												
 Study PubMed ID	21893595	18085829										
 Study Publication Title	Bringing Rad52 foci into focus.	Genome-wide analysis of Rad52 foci reveals diverse mechanisms impacting recombination.										
-Study Author List	Thorpe PH, Alvaro D, Lisby M, Rothstein R.	Alvaro D,  Lisby M,  Rothstein R.										
+Study Author List	Thorpe PH, Alvaro D, Lisby M, Rothstein R	Alvaro D, Lisby M, Rothstein R										
 Study PMC ID	PMC3171117	PMC2134942										
 Study DOI	https://doi.org/10.1083/jcb.201108095	https://doi.org/10.1371/journal.pgen.0030228										
 												

@@ -16,7 +16,7 @@ Study Public Release Date	2016-04-27
 # Study Publication																												
 Study PubMed ID	23509072																											
 Study Publication Title	A novel single-cell screening platform reveals proteome plasticity during yeast stress responses.																											
-Study Author List	Breker M, Gymrek M, Schuldiner M.																											
+Study Author List	Breker M, Gymrek M, Schuldiner M																											
 Study PMC ID	PMC3601363																											
 Study DOI	http://dx.doi.org/10.1083/jcb.201301120																											
 																												

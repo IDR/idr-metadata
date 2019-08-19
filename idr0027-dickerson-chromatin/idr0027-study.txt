@@ -16,7 +16,7 @@ Study Public Release Date	2016-11-01
 # Study Publication				
 Study PubMed ID	27609610			
 Study Publication Title	High resolution imaging reveals heterogeneity in chromatin states between cells that is not inherited through cell division.			
-Study Author List	Dickerson D, Gierliski M, Singh V, Kitamura E, Ball G, Tanaka TU and Owen-Hughes T		
+Study Author List	Dickerson D, Gierliński M, Singh V, Kitamura E, Ball G, Tanaka TU, Owen-Hughes T		
 Study PMC ID	PMC5016949			
 Study DOI	https://doi.org/10.1186/s12860-016-0111-y			
 				

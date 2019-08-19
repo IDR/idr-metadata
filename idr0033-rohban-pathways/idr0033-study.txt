@@ -17,8 +17,8 @@ Study Version History	August 2017 - CMPO ontology mappings added
 																																			
 # Study Publication																																			
 Study PubMed ID	28315521																																		
-Study Publication Title	Systematic morphological profiling of human gene and allele function via Cell Painting																																		
-Study Author List	Mohammad H Rohban, Shantanu Singh, Xiaoyun Wu, Julia B Berthet, Mark-Anthony Bray, Yashaswi Shrestha, Xaralabos Varelas, Jesse S Boehm, Anne E Carpenter																																	
+Study Publication Title	Systematic morphological profiling of human gene and allele function via Cell Painting.																																		
+Study Author List	Rohban MH, Singh S, Wu X, Berthet JB, Bray MA, Shrestha Y, Varelas X, Boehm JS, Carpenter AE																																	
 Study PMC ID	PMC5386591																																		
 Study DOI	https://doi.org/10.7554/eLife.24060																																		
 																																			

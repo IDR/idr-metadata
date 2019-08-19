@@ -15,8 +15,8 @@ Study Public Release Date	2016-12-16
 																																																								
 # Study Publication																																																								
 Study PubMed ID	20531400																																																							
-Study Publication Title	Clustering phenotype populations by genome-wide RNAi and multiparametric imaging																																																							
-Study Author List	Fuchs F, Pau G, Kranz D, Sklyar O, Budjan C, Steinbrink S, Horn T, Pedal A, Huber W, Boutros M.																																																							
+Study Publication Title	Clustering phenotype populations by genome-wide RNAi and multiparametric imaging.																																																							
+Study Author List	Fuchs F, Pau G, Kranz D, Sklyar O, Budjan C, Steinbrink S, Horn T, Pedal A, Huber W, Boutros M																																																							
 Study PMC ID	PMC2913390																																																							
 Study DOI	http://dx.doi.org/10.1038/msb.2010.25																																																							
 																																																								
