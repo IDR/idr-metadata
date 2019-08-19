@@ -15,8 +15,8 @@ Study Public Release Date	2016-04-27
 																	
 # Study Publication																	
 Study PubMed ID	24127217																
-Study Publication Title	Whole-genome screening identifies proteins localized to distinct nuclear bodies																
-Study Author List	Fong KW, Li Y, Wang W, Ma W, Li K, Qi RZ, Liu D, Songyang Z, Chen J.																
+Study Publication Title	Whole-genome screening identifies proteins localized to distinct nuclear bodies.																
+Study Author List	Fong KW, Li Y, Wang W, Ma W, Li K, Qi RZ, Liu D, Songyang Z, Chen J																
 Study PMC ID	PMC3798253																
 Study DOI	http://dx.doi.org/10.1083/jcb.201303145																
 																	

@@ -16,8 +16,8 @@ Study Public Release Date	2016-04-27
 # Study Publication																																																																																																																																																									
 Study PubMed ID	25373780																																																																																																																																																								
 Study Publication Title	A genomic Multiprocess survey of machineries that control and link cell shape, microtubule organization, and cell-cycle progression.																																																																																																																																																								
-Study Author List	Graml V, Studera X, Lawson JL, Chessel A, Geymonat M, Bortfeld-Miller M, Walter T, Wagstaff L, Piddini E, Carazo-Salas RE.																																																																																																																																																								
-Study PMC ID																																																																																																																																																									
+Study Author List	Graml V, Studera X, Lawson JLD, Chessel A, Geymonat M, Bortfeld-Miller M, Walter T, Wagstaff L, Piddini E, Carazo Salas RE																																																																																																																																																								
+Study PMC ID	PMC4648281																																																																																																																																																								
 Study DOI	http://dx.doi.org/10.1016/j.devcel.2014.09.005																																																																																																																																																								
 																																																																																																																																																									
 # Study License and Data DOI																																																																																																																																																									

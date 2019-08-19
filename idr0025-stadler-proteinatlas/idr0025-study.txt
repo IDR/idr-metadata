@@ -17,7 +17,7 @@ Study Version History	August 2017 - additional phenotype to CMPO ontology mappin
 # Study Publication																		
 Study PubMed ID	22361696																	
 Study Publication Title	Systematic validation of antibody binding and protein subcellular localization using siRNA and confocal microscopy.																	
-Study Author List	Stadler C, Hjelmare M, Neumann B, Jonasson K, Pepperkok R, Uhlen M, Lundberg E.																	
+Study Author List	Stadler C, Hjelmare M, Neumann B, Jonasson K, Pepperkok R, Uhlén M, Lundberg E																	
 Study PMC ID																		
 Study DOI	https://doi.org/10.1016/j.jprot.2012.01.030																	
 																		

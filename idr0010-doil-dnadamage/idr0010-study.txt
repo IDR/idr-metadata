@@ -16,7 +16,7 @@ Study Public Release Date	2016-05-26
 # Study Publication																	
 Study PubMed ID	19203579																
 Study Publication Title	RNF168 binds and amplifies ubiquitin conjugates on damaged chromosomes to allow accumulation of repair proteins.																
-Study Author List	Doil C, Mailand N, Bekker-Jensen S, Menard P, Larsen DH, Pepperkok R, Ellenberg J, Panier S, Durocher D, Bartek J, Lukas J, Lukas C.																
+Study Author List	Doil C, Mailand N, Bekker-Jensen S, Menard P, Larsen DH, Pepperkok R, Ellenberg J, Panier S, Durocher D, Bartek J, Lukas J, Lukas C																
 Study PMC ID																	
 Study DOI	http://dx.doi.org/10.1016/j.cell.2008.12.041																
 																	

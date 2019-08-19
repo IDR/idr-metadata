@@ -14,8 +14,8 @@ Study Public Release Date	2016-05-26
 																	
 # Study Publication																	
 Study PubMed ID	22660414																
-Study Publication Title	Genome-wide RNAi screening identifies human proteins with a regulatory function in the early secretory pathway																
-Study Author List	Jeremy C. Simpson, Brigitte Joggerst, Vibor Laketa, Fatima Verissimo, Cihan Cetin, Holger Erfle, Mariana G. Bexiga, Vasanth R. Singan, Jean-Karim Heriche, Beate Neumann, Alvaro Mateos, Jonathon Blake, Stephanie Bechtel, Vladimir Benes, Stefan Wiemann, Jan Ellenberg & Rainer Pepperkok																
+Study Publication Title	Genome-wide RNAi screening identifies human proteins with a regulatory function in the early secretory pathway.																
+Study Author List	Simpson JC, Joggerst B, Laketa V, Verissimo F, Cetin C, Erfle H, Bexiga MG, Singan VR, Hériché JK, Neumann B, Mateos A, Blake J, Bechtel S, Benes V, Wiemann S, Ellenberg J, Pepperkok R																
 Study PMC ID																	
 Study DOI	http://dx.doi.org/10.1038/ncb2510																
 																	

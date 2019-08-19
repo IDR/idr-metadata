@@ -16,9 +16,10 @@ Study Version History	In August 2017 the 20 plates from the Broad Bioimaging Ben
 					
 # Study Publication					
 Study PubMed ID	25024206	28327978			
-Study Publication Title	Toward performance-diverse small-molecule libraries for cell-based phenotypic screening using multiplexed high-dimensional profiling.	A dataset of images and morphological profiles of 30,000 small-molecule treatments using the Cell Painting assay.			
-Study Author List	Wawer MJ, Li K, Gustafsdottir SM, Ljosa V, Bodycombe NE, Marton MA, Sokolnicki KL, Bray MA, Kemp MM, Winchester E, Taylor B, Grant GB, Hon CS, Duvall JR, Wilson JA, Bittker JA, Dancik V, Narayan R, Subramanian A, Winckler W, Golub TR, Carpenter AE, Shamji AF, Schreiber SL, Clemons PA.	Bray MA, Gustafsdottir SM, Ljosa V, Singh S, Sokolnicki KL, Bittker JA, Bodycombe NE, Dancik V, Hasaka TP, Hon CS, Kemp MM, Li K, Walpita D, Wawer MJ, Golub TR, Schreiber SL, Clemons PA, Shamji AF, Carpenter AE.			
-Study PMC ID	PMC4121832				
+Study Publication Title	Toward performance-diverse small-molecule libraries for cell-based phenotypic screening using multiplexed high-dimensional profiling.	A dataset of images and morphological profiles of 30 000 small-molecule treatments using the Cell Painting assay.			
+Study Author List	Wawer MJ, Li K, Gustafsdottir SM, Ljosa V, Bodycombe NE, Marton MA, Sokolnicki KL, Bray MA, Kemp MM, Winchester E, Taylor B, Grant GB, Hon CS, Duvall JR, Wilson JA, Bittker JA, Dančík V, Narayan R, Subramanian A, Winckler W, Golub TR, Carpenter AE, Shamji AF, Schreiber SL, Clemons PA	Bray MA, Gustafsdottir SM, Rohban MH, Singh S, Ljosa V, Sokolnicki KL, Bittker JA, Bodycombe NE, Dancík V, Hasaka TP, Hon CS, Kemp MM, Li K, Walpita D, Wawer MJ, Golub TR, Schreiber SL, Clemons PA, Shamji AF, Carpenter AE
+			
+Study PMC ID	PMC4121832	PMC5721342			
 Study DOI	http://dx.doi.org/10.1073/pnas.1410933111	http://dx.doi.org/10.1093/gigascience/giw014			
 					
 # Study License and Data DOI					

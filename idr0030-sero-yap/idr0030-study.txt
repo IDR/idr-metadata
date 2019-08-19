@@ -17,7 +17,7 @@ Study Version History	August 2017 - updates to phenotype ontology mappings.
 																														
 # Study Publication																														
 Study PubMed ID	28065575																													
-Study Publication Title	Multiparametric Analysis of Cell Shape Demonstrates that b-PIX Directly Couples YAP Activation to Extracellular Matrix Adhesion																													
+Study Publication Title	Multiparametric Analysis of Cell Shape Demonstrates that β-PIX Directly Couples YAP Activation to Extracellular Matrix Adhesion.																													
 Study Author List	Sero JE, Bakal C																													
 Study PMC ID	PMC5289939																													
 Study DOI	https://doi.org/10.1016/j.cels.2016.11.015																													

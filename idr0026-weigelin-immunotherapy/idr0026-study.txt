@@ -17,7 +17,7 @@ Study Version History	August 2017 - added additional phenotype to CMPO ontology 
 # Study Publication												
 Study PubMed ID	26034288											
 Study Publication Title	Focusing and sustaining the antitumor CTL effector killer response by agonist anti-CD137 mAb.											
-Study Author List	Weigelin B, Bolanos E, Teijeira A, Martinez-Forero I, Labiano S, Azpilikueta A, Morales-Kastresana A, Quetglas JI, Wagena E, Sanchez-Paulete AR, Chen L, Friedl P, Melero I.											
+Study Author List	Weigelin B, Bolaños E, Teijeira A, Martinez-Forero I, Labiano S, Azpilikueta A, Morales-Kastresana A, Quetglas JI, Wagena E, Sánchez-Paulete AR, Chen L, Friedl P, Melero I											
 Study PMC ID	PMC4475992											
 Study DOI	https://doi.org/10.1073/pnas.1506357112											
 												
