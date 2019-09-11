@@ -482,7 +482,7 @@ class Formatter(object):
             objects.append(project)
             name = "Experiment " + experiment["name"][-1]
             components_map.append(
-                (name, "%s/?show=project-%s" % (WEBCLIENT_URL, project.id)))
+                (name, "%s?show=project-%s" % (WEBCLIENT_URL, project.id)))
 
         for s in self.m["screens"]:
             screen = gateway.getObject(
@@ -491,7 +491,7 @@ class Formatter(object):
             objects.append(screen)
             name = "Screen " + s["name"][-1]
             components_map.append(
-                (name, "%s/?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
+                (name, "%s?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
 
         if len(objects) == 1:
             return
@@ -503,7 +503,7 @@ class Formatter(object):
             objects.append(project)
             components_map.append(
                 ("Overview",
-                 "%s/?show=project-%s" % (WEBCLIENT_URL, project.id)))
+                 "%s?show=project-%s" % (WEBCLIENT_URL, project.id)))
         else:
             screen = gateway.getObject(
                 "Screen", attributes={"name": self.m["name"]})
@@ -512,7 +512,7 @@ class Formatter(object):
                 objects.append(screen)
                 components_map.append(
                     ("Overview",
-                     "%s/?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
+                     "%s?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
 
         for obj in objects:
             self.check_annotation(
