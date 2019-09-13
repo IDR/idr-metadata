@@ -74,3 +74,6 @@
 [submodule "idr0022-koedoot-cellmigration"]
 	path = idr0022-koedoot-cellmigration
 	url = git://github.com/IDR/idr0022-koedoot-cellmigration
+[submodule "idr0066-voigt-mesospim"]
+	path = idr0066-voigt-mesospim
+	url = git://github.com/IDR/idr0066-voigt-mesospim
