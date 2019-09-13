@@ -71,3 +71,6 @@
 [submodule "idr0007-srikumar-sumo"]
 	path = idr0007-srikumar-sumo
 	url = git://github.com/IDR/idr0007-srikumar-sumo
+[submodule "idr0022-koedoot-cellmigration"]
+	path = idr0022-koedoot-cellmigration
+	url = git://github.com/IDR/idr0022-koedoot-cellmigration
