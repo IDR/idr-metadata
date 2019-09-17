@@ -101,7 +101,6 @@ class StudyParser():
                 [] for x in range(len(self._study_lines))]
 
         self.study = self.parse("Study")
-        self.has_children_doi = False
 
         self.parse_publications()
         self.study.update(self.parse_data_doi(self.study, "Study Data DOI"))
@@ -118,7 +117,6 @@ class StudyParser():
                 doi = self.parse_data_doi(d, "%s Data DOI" % t)
                 if doi:
                     d.update(doi)
-                    self.has_children_doi = True
                 self.parse_annotation_file(d)
                 self.components.append(d)
 
@@ -176,7 +174,7 @@ class StudyParser():
     def parse_annotation_file(self, component):
         import glob
 
-        accession_number = component[r"Comment\[IDR Study Accession\]"]
+        accession_number = self.get_study_accession()
         pattern = re.compile(r"(%s-\w+(-\w+)?)/(\w+)$" % accession_number)
         name = component[r"Comment\[IDR %s Name\]" % component["Type"]]
         m = pattern.match(name)
@@ -258,6 +256,20 @@ class StudyParser():
                 "Invalid Data DOI: %s" % d[key])
         return {"Data DOI": m.group("id")}
 
+    def get_study_accession(self):
+        return self.study[r"Comment\[IDR Study Accession\]"]
+
+    def get_study_name(self):
+        study_name = None
+        for component in self.components:
+            name = component[r"Comment\[IDR %s Name\]" % component["Type"]]
+            if study_name is None:
+                study_name = name.split("/")[0]
+            else:
+                assert study_name == name.split("/")[0], (
+                    "%s != %s" % (study_name, name.split("/")[0]))
+        return study_name
+
 
 class Formatter(object):
 
@@ -307,7 +319,8 @@ class Formatter(object):
         self.basedir = os.path.dirname(parser._study_file)
         self.inspect = inspect
         self.m = {
-          "name": os.path.basename(self.basedir),
+          "name": self.parser.get_study_name(),
+          "accession": self.parser.get_study_accession(),
           "source": self.parser._study_file,
           "experiments": [],
           "screens": [],
@@ -328,12 +341,11 @@ class Formatter(object):
             self.m["%ss" % component['Type'].lower()].append(d)
 
         # Add top-level study
-        if self.parser.has_children_doi:
-            d = {
-                "description": self.generate_description(self.parser.study),
-                "map": self.generate_annotation(self.parser.study),
-            }
-            self.m.update(d)
+        d = {
+            "description": self.generate_description(self.parser.study),
+            "map": self.generate_annotation(self.parser.study),
+        }
+        self.m.update(d)
 
     def __str__(self):
         return json.dumps(self.m, indent=4, sort_keys=True)
@@ -470,7 +482,7 @@ class Formatter(object):
             objects.append(project)
             name = "Experiment " + experiment["name"][-1]
             components_map.append(
-                (name, "%s/?show=project-%s" % (WEBCLIENT_URL, project.id)))
+                (name, "%s?show=project-%s" % (WEBCLIENT_URL, project.id)))
 
         for s in self.m["screens"]:
             screen = gateway.getObject(
@@ -479,7 +491,7 @@ class Formatter(object):
             objects.append(screen)
             name = "Screen " + s["name"][-1]
             components_map.append(
-                (name, "%s/?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
+                (name, "%s?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
 
         if len(objects) == 1:
             return
@@ -491,7 +503,7 @@ class Formatter(object):
             objects.append(project)
             components_map.append(
                 ("Overview",
-                 "%s/?show=project-%s" % (WEBCLIENT_URL, project.id)))
+                 "%s?show=project-%s" % (WEBCLIENT_URL, project.id)))
         else:
             screen = gateway.getObject(
                 "Screen", attributes={"name": self.m["name"]})
@@ -500,7 +512,7 @@ class Formatter(object):
                 objects.append(screen)
                 components_map.append(
                     ("Overview",
-                     "%s/?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
+                     "%s?show=screen-%s" % (WEBCLIENT_URL, screen.id)))
 
         for obj in objects:
             self.check_annotation(
