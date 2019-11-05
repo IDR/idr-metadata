@@ -77,3 +77,6 @@
 [submodule "idr0066-voigt-mesospim"]
 	path = idr0066-voigt-mesospim
 	url = git://github.com/IDR/idr0066-voigt-mesospim
+[submodule "idr0069-caldera-perturbome"]
+	path = idr0069-caldera-perturbome
+	url = git://github.com/IDR/idr0069-caldera-perturbome
