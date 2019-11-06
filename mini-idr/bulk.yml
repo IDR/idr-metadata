@@ -1,7 +1,0 @@
----
-include: "../bulk.yml"
-path: "plates.tsv"
-columns:
- - target
- - name
- - path
