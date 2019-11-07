@@ -33,7 +33,7 @@ with cli_login() as cli:
         def __init__(self, i, platename):
             self.i = i
             self.name, u, v = re.match(
-                '([\w_-]+)_chamber--(U\d\d)--(V\d\d)', r[1]).groups()
+                r'([\w_-]+)_chamber--(U\d\d)--(V\d\d)', r[1]).groups()
             if not ("%s%s%s" % (self.name, u, v)).strip():
                 raise Exception(r[1])
             self.well = "%s%s" % (u, v)

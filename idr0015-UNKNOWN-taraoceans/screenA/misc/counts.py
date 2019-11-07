@@ -6,7 +6,7 @@ from re import compile
 
 X_s = defaultdict(lambda: 0)
 Y_s = defaultdict(lambda: 0)
-PAT = compile(".*?field--X(\d+)--Y(\d+).*?")
+PAT = compile(r".*?field--X(\d+)--Y(\d+).*?")
 
 with open("raw", "r") as f:
     plates = f.read().strip().split("\n")
