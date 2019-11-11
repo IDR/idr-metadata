@@ -5,9 +5,7 @@ sudo: false
 
 cache: pip
 
-install:
-  - pip install -r requirements.txt
-  - pip install idr-utils/
+install: pip install idr-utils/
 
 before_script:
   - flake8 -v .
