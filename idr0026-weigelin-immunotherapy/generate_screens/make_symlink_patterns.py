@@ -11,7 +11,7 @@ from common import mkdir_p
 # E.g., "12-18-43_PMT - PMT [FD6_FDRED] [00]_Time Time0000.tif" ->
 # ('12-18-43_PMT', 'FD6_FDRED', '00', '0000')
 PATTERN = re.compile(
-    "(.*?_PMT)\s-\sPMT\s\[(.*?)\]\s\[(\d+)\]_Time\sTime(\d+).tif"
+    r"(.*?_PMT)\s-\sPMT\s\[(.*?)\]\s\[(\d+)\]_Time\sTime(\d+).tif"
 )
 
 

@@ -14,7 +14,7 @@ COLUMNS = 1
 # E.g., "12-18-43_PMT - PMT [FD6_FDRED] [00]_C01_Time Time0000.ome.tif" ->
 # ('12-18-43_PMT', 'FD6_FDRED', '00', '01', '0000')
 PATTERN = re.compile(
-    "(.*?_PMT)\s-\sPMT\s\[(.*?)\]\s\[(\d+)\]_C(\d+)_Time\sTime(\d+).ome.tif"
+    r"(.*?_PMT)\s-\sPMT\s\[(.*?)\]\s\[(\d+)\]_C(\d+)_Time\sTime(\d+).ome.tif"
 )
 
 

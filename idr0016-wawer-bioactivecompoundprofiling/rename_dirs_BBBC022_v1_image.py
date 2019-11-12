@@ -19,7 +19,7 @@ df = pandas.read_csv('BBBC022_v1_image.csv',
 
 # Verify that the BBBC022 image indicies match
 def unique_ws(filenames):
-    return set(z.group(1) for z in (re.match('IXMtest_\w{3}_\w{2}_w(\d)', f)
+    return set(z.group(1) for z in (re.match(r'IXMtest_\w{3}_\w{2}_w(\d)', f)
                for f in filenames))
 
 
