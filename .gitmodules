@@ -83,3 +83,9 @@
 [submodule "idr-utils"]
 	path = idr-utils
 	url = git://github.com/IDR/idr-utils
+[submodule "idr0065-camsund-crispri"]
+	path = idr0065-camsund-crispri
+	url = git://github.com/IDR/idr0065-camsund-crispri
+[submodule "idr0067-king-yeastmeiosis"]
+	path = idr0067-king-yeastmeiosis
+	url = git://github.com/IDR/idr0067-king-yeastmeiosis
