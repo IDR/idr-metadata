@@ -89,3 +89,6 @@
 [submodule "idr0067-king-yeastmeiosis"]
 	path = idr0067-king-yeastmeiosis
 	url = git://github.com/IDR/idr0067-king-yeastmeiosis
+[submodule "idr0056-stojic-lncrnas"]
+	path = idr0056-stojic-lncrnas
+	url = git://github.com/IDR/idr0056-stojic-lncrnas
