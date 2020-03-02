@@ -95,3 +95,6 @@
 [submodule "idr0073-schaadt-immuneinfiltrates"]
 	path = idr0073-schaadt-immuneinfiltrates
 	url = git://github.com/IDR/idr0073-schaadt-immuneinfiltrates
+[submodule "idr0075-cabirol-honeybee"]
+	path = idr0075-cabirol-honeybee
+	url = git://github.com/IDR/idr0075-cabirol-honeybee
