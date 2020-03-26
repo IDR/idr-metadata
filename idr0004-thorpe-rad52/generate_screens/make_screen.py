@@ -30,7 +30,7 @@ def first_existing(d, basenames):
 
 def write_screen(data_dir, plate, outf, rev_well_tag=False):
     writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS)
-    for idx in xrange(ROWS * COLUMNS):
+    for idx in range(ROWS * COLUMNS):
         r, c = writer.coordinates(idx)
         well_tag = "%d%s" % (c, r) if rev_well_tag else "%s%d" % (r, c)
         fn = first_existing(data_dir, [well_tag.lower(), well_tag])

@@ -18,7 +18,7 @@ def parse_cl(argv):
     parser.add_argument("-o", "--output", metavar="FILE", help="output file")
     parser.add_argument("-p", "--plate", metavar="PLATE", help="plate name")
     parser.add_argument("-f", "--fields", metavar="FIELDS", help="field count",
-                        default=1, type=long)
+                        default=1, type=int)
     return parser.parse_args(argv[1:])
 
 
@@ -40,7 +40,7 @@ def write_screen(data_dir, plate, outf):
 
     count = 0
     writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS)
-    for idx in xrange(ROWS * COLUMNS):
+    for idx in range(ROWS * COLUMNS):
         r, c = writer.coordinates(idx)
         field_values = []
         pattern = "*[_-]%s%s[_-]*.[cz][zv]i" % (r, c)
@@ -54,7 +54,8 @@ def write_screen(data_dir, plate, outf):
                 field_values.append("")
 
         if not any(field_values):
-            print >>sys.stderr, "missing well: %s (%s%s)" % (well_tag, r, c)
+            print("missing well: %s (%s%s)" % (well_tag, r, c),
+                  file=sys.stderr)
             field_values = []
         else:
             count += 1

@@ -30,9 +30,9 @@ def get_patterns(subdir):
     basenames = set(_ for _ in os.listdir(subdir) if _.endswith(".tif"))
     expected_names = set("%s_%s%d.tif" % (w, c, f)
                          for c in CHANNEL_NAMES
-                         for f in xrange(1, FIELDS + 1))
+                         for f in range(1, FIELDS + 1))
     expected_patterns = ["%s_%s%d.tif" % (w, PATTERN_BLOCK, _)
-                         for _ in xrange(1, FIELDS + 1)]
+                         for _ in range(1, FIELDS + 1)]
     if basenames == expected_names:
         return expected_patterns
     # a small number of wells have leading tildes in the file names
@@ -44,7 +44,7 @@ def get_patterns(subdir):
 
 def write_screen(data_dir, plate, outf):
     writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS)
-    for idx in xrange(ROWS * COLUMNS):
+    for idx in range(ROWS * COLUMNS):
         r, c = writer.coordinates(idx)
         well_tag = "%s%s%03d" % (os.path.basename(data_dir), r, c)
         subdir = os.path.join(data_dir, well_tag)

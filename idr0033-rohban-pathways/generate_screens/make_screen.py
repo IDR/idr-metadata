@@ -49,12 +49,12 @@ def write_screen(data_dir, plate, outf):
     d = group_files(data_dir)
     consistency_check(d)
     writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS)
-    for idx in xrange(ROWS * COLUMNS):
+    for idx in range(ROWS * COLUMNS):
         r, c = writer.coordinates(idx)
         well = "%s%02d" % (r.lower(), c)
         field_values = []
         by_field = d[well]
-        for i in xrange(FIELDS):
+        for i in range(FIELDS):
             field = "%d" % (i + 1)
             seq = by_field[field]
             assert len(set(_[1] for _ in seq)) == 1

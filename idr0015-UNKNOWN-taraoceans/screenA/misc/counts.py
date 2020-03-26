@@ -22,7 +22,7 @@ for plate in plates:
         Y_s[y] += 1
 
 for k, v in sorted(X_s.items()):
-    print k, v
+    print(k, v)
 
 for k, v in sorted(Y_s.items()):
-    print k, v
+    print(k, v)

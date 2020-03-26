@@ -39,8 +39,8 @@ def find_pattern(d):
 def write_screen(data_dir, plate, outf, screen=None):
     kwargs = {"screen_name": screen} if screen else {}
     writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS, **kwargs)
-    for i in xrange(ROWS):
-        for j in xrange(COLUMNS):
+    for i in range(ROWS):
+        for j in range(COLUMNS):
             x, y = j, i
             subdir = os.path.join(data_dir, "field--X%02d--Y%02d" % (x, y))
             field_values = []

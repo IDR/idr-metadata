@@ -101,4 +101,4 @@ with cli_login() as cli:
             raise Exception(msg)
 
     ids = us.saveAndReturnIds(links)
-    print 'Created MapAnnotation links: %s' % len(links)
+    print('Created MapAnnotation links: %s' % len(links))

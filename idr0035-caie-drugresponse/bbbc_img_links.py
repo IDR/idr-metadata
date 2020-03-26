@@ -37,7 +37,7 @@ def main():
     for link in parser.img_links:
         if not urlparse(link).netloc:
             link = urljoin(URL, link)
-        print link
+        print(link)
 
 
 if __name__ == "__main__":

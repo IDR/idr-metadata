@@ -39,15 +39,15 @@ def parse_cl(argv):
 def make_well_map():
     wm = {}
     for i, c in enumerate(WELL_LETTERS):
-        for j in xrange(COLUMNS):
+        for j in range(COLUMNS):
             wm[global_idx(i, j) + 1] = "%s%d" % (c, j + 1)
     return wm
 
 
 def write_screen(data_dir, outf, plate):
     outf.write(PLATE % plate)
-    for i in xrange(ROWS):
-        for j in xrange(COLUMNS):
+    for i in range(ROWS):
+        for j in range(COLUMNS):
             outf.write("\n")
             gi = global_idx(i, j)
             outf.write(WELL % {"well": gi, "row": i, "col": j})
