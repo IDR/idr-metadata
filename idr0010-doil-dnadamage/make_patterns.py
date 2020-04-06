@@ -31,7 +31,7 @@ for dir in dirs:
     bp = bp.replace("bp", "bxxx")
     rv = fp.find_pattern_2seq(dapi, bp)
     rv = rv.replace("bxxx", "bp")
-    print plate, " ".join(rv.split("/")[-1].split(" ")[1:])
+    print(plate, " ".join(rv.split("/")[-1].split(" ")[1:]))
     with open("%s/%s" % (plates, plate), "w") as screen_file:
         screen_file.write("%s/%s.pattern\n" % (plates, plate))
     with open("%s/%s.pattern" % (plates, plate), "w") as pattern_file:

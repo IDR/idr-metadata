@@ -30,11 +30,11 @@ def consistency_check(d):
     if len(d) != ROWS * COLUMNS:
         writer = ScreenWriter("foo", ROWS, COLUMNS, FIELDS)
         missing = []
-        for idx in xrange(ROWS * COLUMNS):
+        for idx in range(ROWS * COLUMNS):
             k = writer.index2d(idx)
             if k not in d:
                 missing.append(k)
-        print "ERROR: missing well(s):", missing
+        print("ERROR: missing well(s):", missing)
     for v in d.itervalues():
         assert set(v) == set(EXPECTED_FIELDS)
 
@@ -96,7 +96,7 @@ def write_screen(data_dir, plate, outf):
     consistency_check(d)
     writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS,
                           exclude_readers=EXCLUDE_READERS)
-    for idx in xrange(ROWS * COLUMNS):
+    for idx in range(ROWS * COLUMNS):
         well_coords = writer.index2d(idx)
         field_values = []
         try:

@@ -36,7 +36,7 @@ def has_images(subdir):
 
 def write_screen(data_dir, plate, outf):
     writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS)
-    for idx in xrange(ROWS * COLUMNS):
+    for idx in range(ROWS * COLUMNS):
         r, c = writer.coordinates(idx)
         well_tag = "Well %s%03d" % (r, c)
         subdir = os.path.join(data_dir, well_tag)

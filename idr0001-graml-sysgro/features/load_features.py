@@ -30,7 +30,7 @@ class ProgressRecord(object):
                     id, state = line.split(':', 1)
                     self._setcache(id.strip(), state.strip())
         except IOError:
-            print 'Warning:File not found: %s' % self.filename
+            print('Warning:File not found: %s' % self.filename)
             # Assume this means file doesn't exist
 
     def _setcache(self, id, state):
@@ -76,7 +76,7 @@ class ProgressRecord(object):
         try:
             os.unlink(self.filename)
         except OSError as e:
-            print 'Failed to delete %s: %s' % (self.filename, e)
+            print('Failed to delete %s: %s' % (self.filename, e))
         self.cache = {}
 
 
@@ -158,12 +158,12 @@ class SPW(object):
 
     def print_all(self):
         for pk, pv in sorted(self.plates.iteritems()):
-            print '[Plate %d] %s' % (pv['id'], pk)
+            print('[Plate %d] %s' % (pv['id'], pk))
             for ak, av in sorted(pv['acquisitions'].iteritems()):
-                print '  [PlateAcquisition %d] %s' % (av['id'], ak)
+                print('  [PlateAcquisition %d] %s' % (av['id'], ak))
                 for wk, wv in sorted(av['wells'].iteritems()):
-                    print '    [Well %d %02d,%02d] [Image %d] %s' % (
-                        wv['wid'], wk[0], wk[1], wv['iid'], wv['iname'])
+                    print('    [Well %d %02d,%02d] [Image %d] %s' % (
+                        wv['wid'], wk[0], wk[1], wv['iid'], wv['iname']))
 
     def coord2offset(self, coord):
         ALPHA = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -250,11 +250,11 @@ def create_roi(session, coordstr, imageid):
     roi.addShape(poly)
     im = omero.model.ImageI(imageid, False)
     roi.setImage(im)
-    print 'create_roi %s... %s' % (points[:3], imageid)
+    print('create_roi %s... %s' % (points[:3], imageid))
     if session:
         roi = session.getUpdateService().saveAndReturnObject(roi)
     else:
-        print 'Dry-run'
+        print('Dry-run')
     return roi
 
 
@@ -310,12 +310,12 @@ def create_feature_table(session, objtype, objid, meta, vals):
 
 
 def create_feature(fts, ids, ms, vs):
-    print 'create_feature ids:[%s] meta:[%s] %s...' % (
-        ids, ms.values, vs[:3].values)
+    print('create_feature ids:[%s] meta:[%s] %s...' % (
+        ids, ms.values, vs[:3].values))
     if fts:
         fts.store(pandas.concat([ids, ms]), vs, replace=False)
     else:
-        print 'Dry-run'
+        print('Dry-run')
 
 
 def get_dataframe(cfg, **kwargs):
@@ -359,7 +359,7 @@ def run(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
     else:
         for platename in screenimages.plates.keys():
             run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname)
-    print 'Completed'
+    print('Completed')
 
 
 def run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
@@ -370,10 +370,10 @@ def run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
     else:
         acqnames = [acqname]
     for acqname in acqnames:
-        print 'Acquistion', acqname
+        print('Acquistion', acqname)
         indices = select(dfmeta, platename, acqname)
         for i in indices:
-            print 'Row', i
+            print('Row', i)
             meta = dfmeta.iloc[i]
             ids = screenimages.get_image(platename, acqname, meta.well)
             if 'r' not in p.get(i):
@@ -385,7 +385,7 @@ def run1(p, session, fts, dfmeta, dfroi, dfvals, platename, acqname):
                 else:
                     p.set(i, 'r:-1')
             if 'f' not in p.get(i):
-                rid = long(p.get(i, 'r')[-1])
+                rid = int(p.get(i, 'r')[-1])
                 metaids = [ids['plate'], ids['well'], ids['image'], rid]
                 metaids = pandas.Series(
                     metaids, index=['PlateID', 'WellID', 'ImageID', 'RoiID'])

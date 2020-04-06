@@ -18,12 +18,12 @@ def get_sections(df):
     indheads = np.where(secheads)[0]
 
     sections = {}
-    for n in xrange(len(indheads)):
+    for n in range(len(indheads)):
         secname = secheads[indheads[n]].group(1)
         try:
-            r = xrange(indheads[n] + 1, indheads[n + 2])
+            r = range(indheads[n] + 1, indheads[n + 2])
         except IndexError:
-            r = xrange(indheads[n] + 1, dfd.shape[0])
+            r = range(indheads[n] + 1, dfd.shape[0])
 
         assert secname not in sections, 'Multiple "%s" found' % secname
         sections[secname] = dfd.iloc[r, :]
@@ -44,7 +44,7 @@ def load_metadata(xlsin):
 
 def save_csv(df, csvout):
     df.to_csv(csvout, index=False, encoding='utf-8')
-    print 'Saved %s' % csvout
+    print('Saved %s' % csvout)
 
 
 def merge_columns(acquisitions, samples, joincol):
@@ -69,7 +69,7 @@ def merge_columns(acquisitions, samples, joincol):
                 'Mismatch between acquisitions and samples "%s"' % c)
 
     dupcols = [c for c in merged.columns if c.endswith(duptag)]
-    print 'Dropping %d duplicate columns: %s' % (len(dupcols), dupcols)
+    print('Dropping %d duplicate columns: %s' % (len(dupcols), dupcols))
     merged.drop(dupcols, axis=1, inplace=True)
     return merged
 

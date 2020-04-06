@@ -45,5 +45,5 @@ wmap = {
 for w in [1, 2, 3, 4, 5]:
     ds = glob.glob('BBBC022_v1_images_?????w%d' % w)
     for d in ds:
-        print d, '%s-%s' % (d[18:23], wmap[w])
+        print(d, '%s-%s' % (d[18:23], wmap[w]))
         os.rename(d, '%s-%s' % (d[18:23], wmap[w]))

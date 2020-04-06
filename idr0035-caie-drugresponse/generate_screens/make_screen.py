@@ -67,7 +67,7 @@ def write_screen(data_dir, plate, outf, screen=None):
     kwargs = {"screen_name": screen} if screen else {}
     patterns = get_patterns(data_dir)
     writer = ScreenWriter(plate, ROWS, COLUMNS, FIELDS, **kwargs)
-    for idx in xrange(ROWS * COLUMNS):
+    for idx in range(ROWS * COLUMNS):
         well_tag = "%s%02d" % writer.coordinates(idx)
         try:
             field_map = patterns[well_tag]
@@ -75,7 +75,7 @@ def write_screen(data_dir, plate, outf, screen=None):
             writer.add_well([])
             continue
         field_values = []
-        for i in xrange(1, FIELDS + 1):
+        for i in range(1, FIELDS + 1):
             field_values.append(os.path.join(data_dir, field_map[i]))
         writer.add_well(field_values, extra_kv=EXTRA_KV)
     writer.write(outf)
