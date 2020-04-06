@@ -98,3 +98,6 @@
 [submodule "idr0075-cabirol-honeybee"]
 	path = idr0075-cabirol-honeybee
 	url = git://github.com/IDR/idr0075-cabirol-honeybee
+[submodule "idr0001-graml-sysgro"]
+	path = idr0001-graml-sysgro
+	url = git://github.com/IDR/idr0001-graml-sysgro

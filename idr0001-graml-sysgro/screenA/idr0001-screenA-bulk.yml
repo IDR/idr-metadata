@@ -1,4 +1,0 @@
----
-target: "Screen:name:idr0001-graml-sysgro/screenA"
-include: "../../bulk.yml"
-path: "idr0001-screenA-plates.tsv"
