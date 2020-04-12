@@ -101,3 +101,6 @@
 [submodule "idr0001-graml-sysgro"]
 	path = idr0001-graml-sysgro
 	url = git://github.com/IDR/idr0001-graml-sysgro
+[submodule "idr0003-breker-plasticity"]
+	path = idr0003-breker-plasticity
+	url = git://github.com/IDR/idr0003-breker-plasticity
