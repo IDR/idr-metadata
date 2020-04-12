@@ -104,3 +104,6 @@
 [submodule "idr0003-breker-plasticity"]
 	path = idr0003-breker-plasticity
 	url = git://github.com/IDR/idr0003-breker-plasticity
+[submodule "idr0005-toret-adhesion"]
+	path = idr0005-toret-adhesion
+	url = git://github.com/IDR/idr0005-toret-adhesion
