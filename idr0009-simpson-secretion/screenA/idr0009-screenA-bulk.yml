@@ -1,4 +1,0 @@
----
-target: "Screen:name:idr0009-simpson-secretion/screenA"
-include: "../../bulk.yml"
-path: "idr0009-screenA-plates.tsv"
