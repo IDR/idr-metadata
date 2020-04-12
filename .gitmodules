@@ -107,3 +107,6 @@
 [submodule "idr0005-toret-adhesion"]
 	path = idr0005-toret-adhesion
 	url = git://github.com/IDR/idr0005-toret-adhesion
+[submodule "idr0006-fong-nuclearbodies"]
+	path = idr0006-fong-nuclearbodies
+	url = git://github.com/IDR/idr0006-fong-nuclearbodies
