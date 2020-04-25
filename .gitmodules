@@ -128,3 +128,6 @@
 [submodule "idr0032-yang-meristem"]
 	path = idr0032-yang-meristem
 	url = git://github.com/IDR/idr0032-yang-meristem
+[submodule "idr0038-held-kidneylightsheet"]
+	path = idr0038-held-kidneylightsheet
+	url = git://github.com/IDR/idr0038-held-kidneylightsheet

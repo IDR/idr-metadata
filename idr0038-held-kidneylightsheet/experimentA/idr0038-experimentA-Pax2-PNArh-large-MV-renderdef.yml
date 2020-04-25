@@ -1,8 +1,0 @@
----
-channels:
-  1:
-    label: Pax2
-  2:
-    label: PNA-rh
-  3:
-    label: Autofluorescence

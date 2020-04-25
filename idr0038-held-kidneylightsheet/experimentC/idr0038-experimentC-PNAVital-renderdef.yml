@@ -1,8 +1,0 @@
----
-channels:
-  1:
-    label: Autofluorescence
-    color: "00FF00"
-  2:
-    label: PNA
-    color: "FF0000"
