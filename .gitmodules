@@ -125,3 +125,6 @@
 [submodule "idr0030-sero-yap"]
 	path = idr0030-sero-yap
 	url = git://github.com/IDR/idr0030-sero-yap
+[submodule "idr0032-yang-meristem"]
+	path = idr0032-yang-meristem
+	url = git://github.com/IDR/idr0032-yang-meristem
