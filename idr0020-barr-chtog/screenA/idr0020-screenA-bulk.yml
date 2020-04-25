@@ -1,4 +1,0 @@
----
-target: "Screen:name:idr0020-barr-chtog/screenA"
-include: "../../bulk.yml"
-path: "idr0020-screenA-plates.tsv"

@@ -113,3 +113,6 @@
 [submodule "idr0009-simpson-secretion"]
 	path = idr0009-simpson-secretion
 	url = git://github.com/IDR/idr0009-simpson-secretion
+[submodule "idr0020-barr-chtog"]
+	path = idr0020-barr-chtog
+	url = git://github.com/IDR/idr0020-barr-chtog
