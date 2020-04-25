@@ -1,4 +1,0 @@
----
-target: "Screen:name:idr0028-pascualvargas-rhogtpases/screenC"
-include: "../../bulk.yml"
-path: "idr0028-screenC-plates.tsv"
