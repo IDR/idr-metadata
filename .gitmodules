@@ -116,3 +116,6 @@
 [submodule "idr0020-barr-chtog"]
 	path = idr0020-barr-chtog
 	url = git://github.com/IDR/idr0020-barr-chtog
+[submodule "idr0027-dickerson-chromatin"]
+	path = idr0027-dickerson-chromatin
+	url = git://github.com/IDR/idr0027-dickerson-chromatin
