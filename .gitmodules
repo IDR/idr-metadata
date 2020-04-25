@@ -122,3 +122,6 @@
 [submodule "idr0028-pascualvargas-rhogtpases"]
 	path = idr0028-pascualvargas-rhogtpases
 	url = git://github.com/IDR/idr0028-pascualvargas-rhogtpases
+[submodule "idr0030-sero-yap"]
+	path = idr0030-sero-yap
+	url = git://github.com/IDR/idr0030-sero-yap

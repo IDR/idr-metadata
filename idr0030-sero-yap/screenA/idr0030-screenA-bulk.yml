@@ -1,4 +1,0 @@
----
-target: "Screen:name:idr0030-sero-yap/screenA"
-include: "../../bulk.yml"
-path: "idr0030-screenA-plates.tsv"
