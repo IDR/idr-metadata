@@ -98,3 +98,9 @@
 [submodule "idr0075-cabirol-honeybee"]
 	path = idr0075-cabirol-honeybee
 	url = git://github.com/IDR/idr0075-cabirol-honeybee
+[submodule "idr0064-goglia-erkdynamics"]
+	path = idr0064-goglia-erkdynamics
+	url = git://github.com/IDR/idr0064-goglia-erkdynamics
+[submodule "idr0083-lamers-sarscov2"]
+	path = idr0083-lamers-sarscov2
+	url = git://github.com/IDR/idr0083-lamers-sarscov2
