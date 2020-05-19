@@ -104,3 +104,6 @@
 [submodule "idr0083-lamers-sarscov2"]
 	path = idr0083-lamers-sarscov2
 	url = git://github.com/IDR/idr0083-lamers-sarscov2
+[submodule "idr0081-georgi-adenovirus"]
+	path = idr0081-georgi-adenovirus
+	url = git://github.com/IDR/idr0081-georgi-adenovirus
