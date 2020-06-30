@@ -7,9 +7,6 @@ python: "3.6"
 cache: pip
 
 install: pip install idr-utils/
-before_script:
-  - flake8 -v .
-  - yamllint .
 
 script:
   - find idr* -type f -name '*.screen' -print0 | xargs -0 -n1 python idr-utils/scripts/check_screen.py -v
