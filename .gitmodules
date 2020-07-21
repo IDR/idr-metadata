@@ -116,3 +116,12 @@
 [submodule "idr0079-hartmann-lateralline"]
 	path = idr0079-hartmann-lateralline
 	url = git://github.com/IDR/idr0079-hartmann-lateralline
+[submodule "idr0084-oudelaar-alphaglobin"]
+	path = idr0084-oudelaar-alphaglobin
+	url = git://github.com/IDR/idr0084-oudelaar-alphaglobin
+[submodule "idr0086-miron-micrographs"]
+	path = idr0086-miron-micrographs
+	url = git://github.com/IDR/idr0086-miron-micrographs
+[submodule "idr0087-paci-nuclearimport"]
+	path = idr0087-paci-nuclearimport
+	url = git://github.com/IDR/idr0087-paci-nuclearimport
