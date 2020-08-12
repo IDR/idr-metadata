@@ -125,3 +125,9 @@
 [submodule "idr0087-paci-nuclearimport"]
 	path = idr0087-paci-nuclearimport
 	url = git://github.com/IDR/idr0087-paci-nuclearimport
+[submodule "idr0048-abdeladim-chroms"]
+	path = idr0048-abdeladim-chroms
+	url = git://github.com/IDR/idr0048-abdeladim-chroms
+[submodule "idr0085-walsh-mfhrem"]
+	path = idr0085-walsh-mfhrem
+	url = git://github.com/IDR/idr0085-walsh-mfhrem
