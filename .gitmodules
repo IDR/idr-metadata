@@ -131,3 +131,9 @@
 [submodule "idr0085-walsh-mfhrem"]
 	path = idr0085-walsh-mfhrem
 	url = git://github.com/IDR/idr0085-walsh-mfhrem
+[submodule "idr0092-ostrop-organoid"]
+	path = idr0092-ostrop-organoid
+	url = git://github.com/IDR/idr0092-ostrop-organoid
+[submodule "idr0082-pennycuick-lesions"]
+	path = idr0082-pennycuick-lesions
+	url = git://github.com/IDR/idr0082-pennycuick-lesions
