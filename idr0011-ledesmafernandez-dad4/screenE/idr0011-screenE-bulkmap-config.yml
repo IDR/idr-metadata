@@ -60,7 +60,8 @@ columns:
         omitempty: no
       - name: Gene Identifier
         clientname: Gene Identifier URL
-        clientvalue: http://www.yeastgenome.org/locus/{{ value|urlencode }}/overview
+        clientvalue: >
+          https://www.yeastgenome.org/locus/{{ value|urlencode }}
         include: yes
       - name: Gene Symbol
         include: yes
