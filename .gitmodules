@@ -146,3 +146,6 @@
 [submodule "idr0089-fischl-coldtemp"]
 	path = idr0089-fischl-coldtemp
 	url = git://github.com/IDR/idr0089-fischl-coldtemp
+[submodule "idr0033-rohban-pathways"]
+	path = idr0033-rohban-pathways
+	url = git://github.com/idr/idr0033-rohban-pathways
