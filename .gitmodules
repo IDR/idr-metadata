@@ -149,3 +149,6 @@
 [submodule "idr0033-rohban-pathways"]
 	path = idr0033-rohban-pathways
 	url = git://github.com/idr/idr0033-rohban-pathways
+[submodule "idr0091-julou-lacinduction"]
+	path = idr0091-julou-lacinduction
+	url = https://github.com/IDR/idr0091-julou-lacinduction
