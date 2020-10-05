@@ -152,3 +152,6 @@
 [submodule "idr0091-julou-lacinduction"]
 	path = idr0091-julou-lacinduction
 	url = https://github.com/IDR/idr0091-julou-lacinduction
+[submodule "idr0094-ellinger-sarscov2"]
+	path = idr0094-ellinger-sarscov2
+	url = https://github.com/IDR/idr0094-ellinger-sarscov2
