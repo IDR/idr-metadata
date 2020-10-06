@@ -22,7 +22,7 @@ Study PMC ID
 Study DOI	https://doi.org/10.1016/j.jprot.2012.01.030																	
 																		
 # Study License and Data DOI																		
-Study License	CC-BY-SA 3.0																	
+Study License	CC BY-SA 3.0																	
 Study License URL	https://creativecommons.org/licenses/by-sa/3.0/																	
 Study Copyright	Stadler et al																	
 																		
