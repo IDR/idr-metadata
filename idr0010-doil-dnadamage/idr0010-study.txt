@@ -21,7 +21,7 @@ Study PMC ID
 Study DOI	http://dx.doi.org/10.1016/j.cell.2008.12.041																
 																	
 # Study License and Data DOI																	
-Study License	CC-BY 4.0																
+Study License	CC BY 4.0																
 Study License URL	https://creativecommons.org/licenses/by/4.0/																
 Study Copyright	Doil et al																
 																	

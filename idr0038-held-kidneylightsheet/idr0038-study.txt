@@ -32,7 +32,7 @@ Study Person Address	"Department of Biochemistry, Institute of Integrative Biolo
 Study Person Roles	submitter	Principal Investigator		
 				
 # Study License and Data DOI				
-Study License	CC-BY 4.0			
+Study License	CC BY 4.0			
 Study License URL	https://creativecommons.org/licenses/by/4.0/			
 Study Copyright	Held et al			
 Study Data Publisher	University of Dundee			

@@ -28,7 +28,7 @@ Study Person Address	Institute of Genetics and Molecular Medicine, University of
 Study Person Roles	principal investigator					
 						
 # Study License and Data DOI						
-Study License	CC-BY 4.0					
+Study License	CC BY 4.0					
 Study License URL	https://creativecommons.org/licenses/by/4.0/					
 Study Copyright	The images and ground truth are copyright AstraZeneca Pharmaceuticals.					
 Study Data Publisher						

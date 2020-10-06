@@ -21,7 +21,7 @@ Study PMC ID	PMC5016949
 Study DOI	https://doi.org/10.1186/s12860-016-0111-y			
 				
 # Study License and Data DOI				
-Study License	CC-BY 4.0			
+Study License	CC BY 4.0			
 Study License URL	https://creativecommons.org/licenses/by/4.0/			
 Study Copyright	Dickerson et al			
 Study Data Publisher	University of Dundee			
