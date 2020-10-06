@@ -23,7 +23,7 @@ Study PMC ID	PMC4121832	PMC5721342
 Study DOI	http://dx.doi.org/10.1073/pnas.1410933111	http://dx.doi.org/10.1093/gigascience/giw014			
 					
 # Study License and Data DOI					
-Study License	CC0				
+Study License	CC0 1.0				
 Study License URL	https://creativecommons.org/publicdomain/zero/1.0/				
 Study Copyright	Wawer et al				
 					
