@@ -1,0 +1,23 @@
+name: Build
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'true'
+      - uses: actions/setup-python@v2
+      - name: Install dependencies
+        run: python -mpip install idr-utils/
+      - name: Validate study files
+        run: find idr* -type f -name '*.screen' -print0 | xargs -0 -n1 python idr-utils/scripts/check_screen.py -v
+      - name: Validate study files
+        run: find . -type f -name '*study.txt' | sort | xargs python idr-utils/pyidr/study_parser.py -v
+      - name: Run other checks
+        run: python idr-utils/scripts/travis-check.py
