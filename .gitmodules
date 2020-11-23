@@ -1,151 +1,151 @@
 [submodule "idr0000-lastname-example"]
 	path = idr0000-lastname-example
-	url = git@github.com:IDR/idr0000-lastname-example
+	url = https://github.com/IDR/idr0000-lastname-example
 	branch = master
 [submodule "idr0040-aymoz-singlecell"]
 	path = idr0040-aymoz-singlecell
-	url = git@github.com:IDR/idr0040-aymoz-singlecell
+	url = https://github.com/IDR/idr0040-aymoz-singlecell
 [submodule "idr0041-cai-mitoticatlas"]
 	path = idr0041-cai-mitoticatlas
-	url = git@github.com:IDR/idr0041-cai-mitoticatlas
+	url = https://github.com/IDR/idr0041-cai-mitoticatlas
 [submodule "idr0042-nirschl-wsideeplearning"]
 	path = idr0042-nirschl-wsideeplearning
-	url = git@github.com:IDR/idr0042-nirschl-wsideeplearning
+	url = https://github.com/IDR/idr0042-nirschl-wsideeplearning
 [submodule "idr0021-lawo-pericentriolarmaterial"]
 	path = idr0021-lawo-pericentriolarmaterial
-	url = git@github.com:IDR/idr0021-lawo-pericentriolarmaterial
+	url = https://github.com/IDR/idr0021-lawo-pericentriolarmaterial
 [submodule "idr0008-rohn-actinome"]
 	path = idr0008-rohn-actinome
-	url = git@github.com:IDR/idr0008-rohn-actinome
+	url = https://github.com/IDR/idr0008-rohn-actinome
 [submodule "idr0045-reichmann-zygotespindle"]
 	path = idr0045-reichmann-zygotespindle
-	url = git@github.com:IDR/idr0045-reichmann-zygotespindle
+	url = https://github.com/IDR/idr0045-reichmann-zygotespindle
 [submodule "idr0043-uhlen-humanproteinatlas"]
 	path = idr0043-uhlen-humanproteinatlas
-	url = git@github.com:IDR/idr0043-uhlen-humanproteinatlas
+	url = https://github.com/IDR/idr0043-uhlen-humanproteinatlas
 [submodule "idr0051-fulton-tailbudlightsheet"]
 	path = idr0051-fulton-tailbudlightsheet
-	url = git@github.com:IDR/idr0051-fulton-tailbudlightsheet
+	url = https://github.com/IDR/idr0051-fulton-tailbudlightsheet
 [submodule "idr0044-mcdole-tardislightsheet"]
 	path = idr0044-mcdole-tardislightsheet
-	url = git@github.com:IDR/idr0044-mcdole-tardislightsheet
+	url = https://github.com/IDR/idr0044-mcdole-tardislightsheet
 [submodule "idr0047-neuert-yeastmrna"]
 	path = idr0047-neuert-yeastmrna
-	url = git@github.com:IDR/idr0047-neuert-yeastmrna
+	url = https://github.com/IDR/idr0047-neuert-yeastmrna
 [submodule "idr0053-faas-virtualnanoscopy"]
 	path = idr0053-faas-virtualnanoscopy
-	url = git@github.com:IDR/idr0053-faas-virtualnanoscopy
+	url = https://github.com/IDR/idr0053-faas-virtualnanoscopy
 [submodule "idr0050-springer-cytoskeletalsystems"]
 	path = idr0050-springer-cytoskeletalsystems
-	url = git@github.com:IDR/idr0050-springer-cytoskeletalsystems.git
+	url = https://github.com/IDR/idr0050-springer-cytoskeletalsystems.git
 [submodule "idr0034-kilpinen-hipsci"]
 	path = idr0034-kilpinen-hipsci
-	url = git@github.com:IDR/idr0034-kilpinen-hipsci
+	url = https://github.com/IDR/idr0034-kilpinen-hipsci
 [submodule "idr0037-vigilante-hipsci"]
 	path = idr0037-vigilante-hipsci
-	url = git@github.com:IDR/idr0037-vigilante-hipsci
+	url = https://github.com/IDR/idr0037-vigilante-hipsci
 [submodule "idr0054-segura-tonsilhyperion"]
 	path = idr0054-segura-tonsilhyperion
-	url = git@github.com:IDR/idr0054-segura-tonsilhyperion
+	url = https://github.com/IDR/idr0054-segura-tonsilhyperion
 [submodule "idr0052-walther-condensinmap"]
 	path = idr0052-walther-condensinmap
-	url = git@github.com:IDR/idr0052-walther-condensinmap
+	url = https://github.com/IDR/idr0052-walther-condensinmap
 [submodule "idr0002-heriche-condensation"]
 	path = idr0002-heriche-condensation
-	url = git@github.com:IDR/idr0002-heriche-condensation
+	url = https://github.com/IDR/idr0002-heriche-condensation
 [submodule "idr0017-breinig-drugscreen"]
 	path = idr0017-breinig-drugscreen
-	url = git@github.com:IDR/idr0017-breinig-drugscreen
+	url = https://github.com/IDR/idr0017-breinig-drugscreen
 [submodule "idr0018-neff-histopathology"]
 	path = idr0018-neff-histopathology
-	url = git@github.com:IDR/idr0018-neff-histopathology
+	url = https://github.com/IDR/idr0018-neff-histopathology
 [submodule "idr0019-sero-nfkappab"]
 	path = idr0019-sero-nfkappab
-	url = git@github.com:IDR/idr0019-sero-nfkappab
+	url = https://github.com/IDR/idr0019-sero-nfkappab
 [submodule "idr0062-blin-nuclearsegmentation"]
 	path = idr0062-blin-nuclearsegmentation
-	url = git@github.com:IDR/idr0062-blin-nuclearsegmentation
+	url = https://github.com/IDR/idr0062-blin-nuclearsegmentation
 [submodule "idr0061-wolf-spindlepositioning"]
 	path = idr0061-wolf-spindlepositioning
-	url = git@github.com:IDR/idr0061-wolf-spindlepositioning
+	url = https://github.com/IDR/idr0061-wolf-spindlepositioning
 [submodule "idr0007-srikumar-sumo"]
 	path = idr0007-srikumar-sumo
-	url = git@github.com:IDR/idr0007-srikumar-sumo
+	url = https://github.com/IDR/idr0007-srikumar-sumo
 [submodule "idr0022-koedoot-cellmigration"]
 	path = idr0022-koedoot-cellmigration
-	url = git@github.com:IDR/idr0022-koedoot-cellmigration
+	url = https://github.com/IDR/idr0022-koedoot-cellmigration
 [submodule "idr0066-voigt-mesospim"]
 	path = idr0066-voigt-mesospim
-	url = git@github.com:IDR/idr0066-voigt-mesospim
+	url = https://github.com/IDR/idr0066-voigt-mesospim
 [submodule "idr0069-caldera-perturbome"]
 	path = idr0069-caldera-perturbome
-	url = git@github.com:IDR/idr0069-caldera-perturbome
+	url = https://github.com/IDR/idr0069-caldera-perturbome
 [submodule "idr-utils"]
 	path = idr-utils
-	url = git@github.com:IDR/idr-utils
+	url = https://github.com/IDR/idr-utils
 [submodule "idr0065-camsund-crispri"]
 	path = idr0065-camsund-crispri
-	url = git@github.com:IDR/idr0065-camsund-crispri
+	url = https://github.com/IDR/idr0065-camsund-crispri
 [submodule "idr0067-king-yeastmeiosis"]
 	path = idr0067-king-yeastmeiosis
-	url = git@github.com:IDR/idr0067-king-yeastmeiosis
+	url = https://github.com/IDR/idr0067-king-yeastmeiosis
 [submodule "idr0056-stojic-lncrnas"]
 	path = idr0056-stojic-lncrnas
-	url = git@github.com:IDR/idr0056-stojic-lncrnas
+	url = https://github.com/IDR/idr0056-stojic-lncrnas
 [submodule "idr0073-schaadt-immuneinfiltrates"]
 	path = idr0073-schaadt-immuneinfiltrates
-	url = git@github.com:IDR/idr0073-schaadt-immuneinfiltrates
+	url = https://github.com/IDR/idr0073-schaadt-immuneinfiltrates
 [submodule "idr0075-cabirol-honeybee"]
 	path = idr0075-cabirol-honeybee
-	url = git@github.com:IDR/idr0075-cabirol-honeybee
+	url = https://github.com/IDR/idr0075-cabirol-honeybee
 [submodule "idr0064-goglia-erkdynamics"]
 	path = idr0064-goglia-erkdynamics
-	url = git@github.com:IDR/idr0064-goglia-erkdynamics
+	url = https://github.com/IDR/idr0064-goglia-erkdynamics
 [submodule "idr0083-lamers-sarscov2"]
 	path = idr0083-lamers-sarscov2
-	url = git@github.com:IDR/idr0083-lamers-sarscov2
+	url = https://github.com/IDR/idr0083-lamers-sarscov2
 [submodule "idr0081-georgi-adenovirus"]
 	path = idr0081-georgi-adenovirus
-	url = git@github.com:IDR/idr0081-georgi-adenovirus
+	url = https://github.com/IDR/idr0081-georgi-adenovirus
 [submodule "idr0070-kerwin-hdbr"]
 	path = idr0070-kerwin-hdbr
-	url = git@github.com:IDR/idr0070-kerwin-hdbr
+	url = https://github.com/IDR/idr0070-kerwin-hdbr
 [submodule "idr0077-valuchova-flowerlightsheet"]
 	path = idr0077-valuchova-flowerlightsheet
-	url = git@github.com:IDR/idr0077-valuchova-flowerlightsheet
+	url = https://github.com/IDR/idr0077-valuchova-flowerlightsheet
 [submodule "idr0079-hartmann-lateralline"]
 	path = idr0079-hartmann-lateralline
-	url = git@github.com:IDR/idr0079-hartmann-lateralline
+	url = https://github.com/IDR/idr0079-hartmann-lateralline
 [submodule "idr0084-oudelaar-alphaglobin"]
 	path = idr0084-oudelaar-alphaglobin
-	url = git@github.com:IDR/idr0084-oudelaar-alphaglobin
+	url = https://github.com/IDR/idr0084-oudelaar-alphaglobin
 [submodule "idr0086-miron-micrographs"]
 	path = idr0086-miron-micrographs
-	url = git@github.com:IDR/idr0086-miron-micrographs
+	url = https://github.com/IDR/idr0086-miron-micrographs
 [submodule "idr0087-paci-nuclearimport"]
 	path = idr0087-paci-nuclearimport
-	url = git@github.com:IDR/idr0087-paci-nuclearimport
+	url = https://github.com/IDR/idr0087-paci-nuclearimport
 [submodule "idr0048-abdeladim-chroms"]
 	path = idr0048-abdeladim-chroms
-	url = git@github.com:IDR/idr0048-abdeladim-chroms
+	url = https://github.com/IDR/idr0048-abdeladim-chroms
 [submodule "idr0085-walsh-mfhrem"]
 	path = idr0085-walsh-mfhrem
-	url = git@github.com:IDR/idr0085-walsh-mfhrem
+	url = https://github.com/IDR/idr0085-walsh-mfhrem
 [submodule "idr0092-ostrop-organoid"]
 	path = idr0092-ostrop-organoid
-	url = git@github.com:IDR/idr0092-ostrop-organoid
+	url = https://github.com/IDR/idr0092-ostrop-organoid
 [submodule "idr0082-pennycuick-lesions"]
 	path = idr0082-pennycuick-lesions
-	url = git@github.com:IDR/idr0082-pennycuick-lesions
+	url = https://github.com/IDR/idr0082-pennycuick-lesions
 [submodule "idr0076-ali-metabric"]
 	path = idr0076-ali-metabric
-	url = git@github.com:IDR/idr0076-ali-metabric
+	url = https://github.com/IDR/idr0076-ali-metabric
 [submodule "idr0078-mattiazziusaj-endocyticcomp"]
 	path = idr0078-mattiazziusaj-endocyticcomp
-	url = git@github.com:IDR/idr0078-mattiazziusaj-endocyticcomp
+	url = https://github.com/IDR/idr0078-mattiazziusaj-endocyticcomp
 [submodule "idr0089-fischl-coldtemp"]
 	path = idr0089-fischl-coldtemp
-	url = git@github.com:IDR/idr0089-fischl-coldtemp
+	url = https://github.com/IDR/idr0089-fischl-coldtemp
 [submodule "idr0033-rohban-pathways"]
 	path = idr0033-rohban-pathways
 	url = git@github.com:idr/idr0033-rohban-pathways
