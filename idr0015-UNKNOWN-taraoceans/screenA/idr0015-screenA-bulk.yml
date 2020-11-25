@@ -1,4 +1,0 @@
----
-target: "Screen:name:idr0015-colin-taraoceans/screenA"
-include: "../../bulk.yml"
-path: "idr0015-screenA-plates.tsv"
