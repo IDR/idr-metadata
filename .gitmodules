@@ -164,3 +164,9 @@
 [submodule "idr0015-colin-taraoceans"]
 	path = idr0015-colin-taraoceans
 	url = https://github.com/IDR/idr0015-colin-taraoceans
+[submodule "idr0080-way-perturbation"]
+	path = idr0080-way-perturbation
+	url = https://github.com/IDR/idr0080-way-perturbation
+[submodule "idr0100-capar-myelin"]
+	path = idr0100-capar-myelin
+	url = https://github.com/IDR/idr0100-capar-myelin
