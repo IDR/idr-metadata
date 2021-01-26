@@ -170,3 +170,6 @@
 [submodule "idr0100-capar-myelin"]
 	path = idr0100-capar-myelin
 	url = https://github.com/IDR/idr0100-capar-myelin
+[submodule "idr0071-feldman-crisprko"]
+	path = idr0071-feldman-crisprko
+	url = https://github.com/IDR/idr0071-feldman-crisprko
