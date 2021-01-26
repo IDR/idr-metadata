@@ -173,3 +173,6 @@
 [submodule "idr0071-feldman-crisprko"]
 	path = idr0071-feldman-crisprko
 	url = https://github.com/IDR/idr0071-feldman-crisprko
+[submodule "idr0103-coomer-hiv1fusion"]
+	path = idr0103-coomer-hiv1fusion
+	url = https://github.com/IDR/idr0103-coomer-hiv1fusion
