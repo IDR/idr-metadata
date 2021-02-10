@@ -176,3 +176,12 @@
 [submodule "idr0103-coomer-hiv1fusion"]
 	path = idr0103-coomer-hiv1fusion
 	url = https://github.com/IDR/idr0103-coomer-hiv1fusion
+[submodule "idr0093-mueller-perturbation"]
+	path = idr0093-mueller-perturbation
+	url = https://github.com/IDR/idr0093-mueller-perturbation
+[submodule "idr0097-reicher-proteintag"]
+	path = idr0097-reicher-proteintag
+	url = https://github.com/idr/idr0097-reicher-proteintag
+[submodule "idr0098-huang-octmos"]
+	path = idr0098-huang-octmos
+	url = https://github.com/IDR/idr0098-huang-octmos
