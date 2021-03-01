@@ -185,3 +185,9 @@
 [submodule "idr0098-huang-octmos"]
 	path = idr0098-huang-octmos
 	url = https://github.com/IDR/idr0098-huang-octmos
+[submodule "idr0090-ashdown-malaria"]
+	path = idr0090-ashdown-malaria
+	url = https://github.com/IDR/idr0090-ashdown-malaria
+[submodule "idr0099-jain-beetlelightsheet"]
+	path = idr0099-jain-beetlelightsheet
+	url = https://github.com/IDR/idr0099-jain-beetlelightsheet
