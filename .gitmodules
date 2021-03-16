@@ -191,3 +191,6 @@
 [submodule "idr0099-jain-beetlelightsheet"]
 	path = idr0099-jain-beetlelightsheet
 	url = https://github.com/IDR/idr0099-jain-beetlelightsheet
+[submodule "idr0106-kubota-lunglightsheet"]
+	path = idr0106-kubota-lunglightsheet
+	url = https://github.com/IDR/idr0106-kubota-lunglightsheet
