@@ -194,3 +194,9 @@
 [submodule "idr0106-kubota-lunglightsheet"]
 	path = idr0106-kubota-lunglightsheet
 	url = https://github.com/IDR/idr0106-kubota-lunglightsheet
+[submodule "idr0063-newman-chromosomalloci"]
+	path = idr0063-newman-chromosomalloci
+	url = https://github.com/IDR/idr0063-newman-chromosomalloci
+[submodule "idr0072-schormann-subcellref"]
+	path = idr0072-schormann-subcellref
+	url = https://github.com/IDR/idr0072-schormann-subcellref
