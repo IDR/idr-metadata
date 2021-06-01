@@ -200,3 +200,6 @@
 [submodule "idr0072-schormann-subcellref"]
 	path = idr0072-schormann-subcellref
 	url = https://github.com/IDR/idr0072-schormann-subcellref
+[submodule "idr0109-zaritsky-melanoma"]
+	path = idr0109-zaritsky-melanoma
+	url = https://github.com/IDR/idr0109-zaritsky-melanoma
