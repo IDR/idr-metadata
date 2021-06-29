@@ -203,3 +203,9 @@
 [submodule "idr0109-zaritsky-melanoma"]
 	path = idr0109-zaritsky-melanoma
 	url = https://github.com/IDR/idr0109-zaritsky-melanoma
+[submodule "idr0107-morgan-hei10"]
+	path = idr0107-morgan-hei10
+	url = https://github.com/IDR/idr0107-morgan-hei10
+[submodule "idr0111-lee-cellmigration"]
+	path = idr0111-lee-cellmigration
+	url = https://github.com/IDR/idr0111-lee-cellmigration
