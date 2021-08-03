@@ -212,3 +212,6 @@
 [submodule "idr0113-bottes-opcclones"]
 	path = idr0113-bottes-opcclones
 	url = https://github.com/IDR/idr0113-bottes-opcclones.git
+[submodule "idr0110-rodermund-xistrna"]
+	path = idr0110-rodermund-xistrna
+	url = https://github.com/IDR/idr0110-rodermund-xistrna/
