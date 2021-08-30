@@ -215,3 +215,12 @@
 [submodule "idr0110-rodermund-xistrna"]
 	path = idr0110-rodermund-xistrna
 	url = https://github.com/IDR/idr0110-rodermund-xistrna/
+[submodule "idr0108-sabinina-nuclearporecomplex"]
+	path = idr0108-sabinina-nuclearporecomplex
+	url = https://github.com/IDR/idr0108-sabinina-nuclearporecomplex
+[submodule "idr0112-verszat-motorneurons"]
+	path = idr0112-verszat-motorneurons
+	url = https://github.com/IDR/idr0112-verszat-motorneurons
+[submodule "idr0117-croce-marimba"]
+	path = idr0117-croce-marimba
+	url = https://github.com/IDR/idr0117-croce-marimba
