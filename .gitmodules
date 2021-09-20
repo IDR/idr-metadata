@@ -224,3 +224,9 @@
 [submodule "idr0112-verzat-motorneurons"]
 	path = idr0112-verzat-motorneurons
 	url = https://github.com/IDR/idr0112-verzat-motorneurons
+[submodule "idr0101-payne-insitugenomeseq"]
+	path = idr0101-payne-insitugenomeseq
+	url = https://github.com/IDR/idr0101-payne-insitugenomeseq
+[submodule "idr0116-deboer-npod"]
+	path = idr0116-deboer-npod
+	url = https://github.com/IDR/idr0116-deboer-npod
