@@ -1,7 +1,0 @@
----
-channels:
-  1:
-    label: Hoechst
-    min: 127
-    max: 4095
-    color: "FF0000"

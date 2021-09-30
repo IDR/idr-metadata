@@ -1,4 +1,0 @@
----
-target: "Screen:name:idr0005-toret-adhesion/screenB"
-include: "../../bulk.yml"
-path: "idr0005-screenB-plates.tsv"

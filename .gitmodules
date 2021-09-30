@@ -230,3 +230,6 @@
 [submodule "idr0116-deboer-npod"]
 	path = idr0116-deboer-npod
 	url = https://github.com/IDR/idr0116-deboer-npod
+[submodule "idr0005-toret-adhesion"]
+	path = idr0005-toret-adhesion
+	url = https://github.com/IDR/idr0005-toret-adhesion
