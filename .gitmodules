@@ -233,3 +233,9 @@
 [submodule "idr0005-toret-adhesion"]
 	path = idr0005-toret-adhesion
 	url = https://github.com/IDR/idr0005-toret-adhesion
+[submodule "idr0096-tratwal-marrowquant"]
+	path = idr0096-tratwal-marrowquant
+	url = https://github.com/IDR/idr0096-tratwal-marrowquant
+[submodule "idr0118-keenan-flylightsheet"]
+	path = idr0118-keenan-flylightsheet
+	url = https://github.com/IDR/idr0118-keenan-flylightsheet
