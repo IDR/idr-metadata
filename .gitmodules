@@ -239,3 +239,9 @@
 [submodule "idr0118-keenan-flylightsheet"]
 	path = idr0118-keenan-flylightsheet
 	url = https://github.com/IDR/idr0118-keenan-flylightsheet
+[submodule "idr0068-shah-zebrafishlightsheet"]
+	path = idr0068-shah-zebrafishlightsheet
+	url = https://github.com/IDR/idr0068-shah-zebrafishlightsheet
+[submodule "idr0114-lindsay-hdbr"]
+	path = idr0114-lindsay-hdbr
+	url = https://github.com/IDR/idr0114-lindsay-hdbr
