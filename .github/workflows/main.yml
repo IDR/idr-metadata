@@ -16,6 +16,13 @@ jobs:
       - name: Install dependencies
         run: python -mpip install idr-utils/
       - name: Validate study files
-        run: find . -type f -name '*study.txt' | sort | xargs python idr-utils/pyidr/study_parser.py -v
+        run: find . -type f -name '*study.txt' | sort | xargs python idr-utils/pyidr/study_parser.py --report --report-directory studies
       - name: Run other checks
         run: python idr-utils/scripts/travis-check.py
+      - name: Create studies archive
+        run: tar -zcvf studies.tar.gz studies
+      - name: Upload studies archive as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: studies.tar.gz
+          path: studies.tar.gz
