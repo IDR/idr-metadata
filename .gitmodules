@@ -248,3 +248,9 @@
 [submodule "idr0124-esteban-heartmorphogenesis"]
 	path = idr0124-esteban-heartmorphogenesis
 	url = https://github.com/IDR/idr0124-esteban-heartmorphogenesis
+[submodule "idr0123-mota-mifish"]
+	path = idr0123-mota-mifish
+	url = https://github.com/IDR/idr0123-mota-mifish
+[submodule "idr0127-baer-phenotypicheterogeneity"]
+	path = idr0127-baer-phenotypicheterogeneity
+	url = https://github.com/IDR/idr0127-baer-phenotypicheterogeneity
