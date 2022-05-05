@@ -254,3 +254,18 @@
 [submodule "idr0127-baer-phenotypicheterogeneity"]
 	path = idr0127-baer-phenotypicheterogeneity
 	url = https://github.com/IDR/idr0127-baer-phenotypicheterogeneity
+[submodule "idr0115-otsuka-nucleoporins"]
+	path = idr0115-otsuka-nucleoporins
+	url = https://github.com/IDR/idr0115-otsuka-nucleoporins
+[submodule "idr0129-georgi-rhinovirus"]
+	path = idr0129-georgi-rhinovirus
+	url = https://github.com/IDR/idr0129-georgi-rhinovirus
+[submodule "idr0128-georgi-influenza"]
+	path = idr0128-georgi-influenza
+	url = https://github.com/IDR/idr0128-georgi-influenza
+[submodule "idr0130-olszewski-herpes"]
+	path = idr0130-olszewski-herpes
+	url = https://github.com/IDR/idr0130-olszewski-herpes
+[submodule "idr0135-hodis-melanocytes"]
+	path = idr0135-hodis-melanocytes
+	url = https://github.com/IDR/idr0135-hodis-melanocytes
