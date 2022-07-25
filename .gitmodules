@@ -272,3 +272,6 @@
 [submodule "idr0133-dahlin-cellpainting"]
 	path = idr0133-dahlin-cellpainting
 	url = https://github.com/IDR/idr0133-dahlin-cellpainting
+[submodule "idr0120-german-immunologicalsynapse"]
+	path = idr0120-german-immunologicalsynapse
+	url = https://github.com/IDR/idr0120-german-immunologicalsynapse
