@@ -275,3 +275,6 @@
 [submodule "idr0120-german-immunologicalsynapse"]
 	path = idr0120-german-immunologicalsynapse
 	url = https://github.com/IDR/idr0120-german-immunologicalsynapse
+[submodule "idr0134-peters-bryophytes"]
+	path = idr0134-peters-bryophytes
+	url = https://github.com/IDR/idr0134-peters-bryophytes
