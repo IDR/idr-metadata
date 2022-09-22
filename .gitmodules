@@ -278,3 +278,6 @@
 [submodule "idr0134-peters-bryophytes"]
 	path = idr0134-peters-bryophytes
 	url = https://github.com/IDR/idr0134-peters-bryophytes
+[submodule "idr0016-wawer-bioactivecompoundprofiling"]
+	path = idr0016-wawer-bioactivecompoundprofiling
+	url = https://github.com/IDR/idr0016-wawer-bioactivecompoundprofiling
