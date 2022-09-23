@@ -1,6 +1,0 @@
-/uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-UR/www.ebi.ac.uk/huber-srv/cellmorph/source-UR/UR301-3	384
-/uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-UR/www.ebi.ac.uk/huber-srv/cellmorph/source-UR/UR301-4	384
-/uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-UR/www.ebi.ac.uk/huber-srv/cellmorph/source-UR/UR302-3	384
-/uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-UR/www.ebi.ac.uk/huber-srv/cellmorph/source-UR/UR302-4	384
-/uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-UR/www.ebi.ac.uk/huber-srv/cellmorph/source-UR/UR303-3	384
-/uod/idr/filesets/idr0012-fuchs-cellmorph/downloaded/secondary/source-UR/www.ebi.ac.uk/huber-srv/cellmorph/source-UR/UR303-4	384
