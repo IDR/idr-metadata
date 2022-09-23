@@ -284,3 +284,6 @@
 [submodule "idr0006-fong-nuclearbodies"]
 	path = idr0006-fong-nuclearbodies
 	url = https://github.com/IDR/idr0006-fong-nuclearbodies
+[submodule "idr0012-fuchs-cellmorph"]
+	path = idr0012-fuchs-cellmorph
+	url = https://github.com/IDR/idr0012-fuchs-cellmorph
