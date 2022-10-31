@@ -290,3 +290,6 @@
 [submodule "idr0141-sokol-skinmucosa"]
 	path = idr0141-sokol-skinmucosa
 	url = https://github.com/IDR/idr0141-sokol-skinmucosa
+[submodule "idr0140-ho-stressresponse"]
+	path = idr0140-ho-stressresponse
+	url = https://github.com/IDR/idr0140-ho-stressresponse
