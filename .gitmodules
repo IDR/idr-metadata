@@ -293,3 +293,6 @@
 [submodule "idr0140-ho-stressresponse"]
 	path = idr0140-ho-stressresponse
 	url = https://github.com/IDR/idr0140-ho-stressresponse
+[submodule "idr0144-baskay-jawbone"]
+	path = idr0144-baskay-jawbone
+	url = https://github.com/IDR/idr0144-baskay-jawbone
