@@ -296,3 +296,9 @@
 [submodule "idr0144-baskay-jawbone"]
 	path = idr0144-baskay-jawbone
 	url = https://github.com/IDR/idr0144-baskay-jawbone
+[submodule "idr0137-peters-bryophytes"]
+	path = idr0137-peters-bryophytes
+	url = https://github.com/IDR/idr0137-peters-bryophytes
+[submodule "idr0145-ho-replicationstress"]
+	path = idr0145-ho-replicationstress
+	url = https://github.com/IDR/idr0145-ho-replicationstress
