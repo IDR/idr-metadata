@@ -302,3 +302,6 @@
 [submodule "idr0145-ho-replicationstress"]
 	path = idr0145-ho-replicationstress
 	url = https://github.com/IDR/idr0145-ho-replicationstress
+[submodule "idr0146-dominguez-heartlightsheet"]
+	path = idr0146-dominguez-heartlightsheet
+	url = https://github.com/IDR/idr0146-dominguez-heartlightsheet.git
