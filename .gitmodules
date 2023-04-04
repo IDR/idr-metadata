@@ -305,3 +305,6 @@
 [submodule "idr0146-dominguez-heartlightsheet"]
 	path = idr0146-dominguez-heartlightsheet
 	url = https://github.com/IDR/idr0146-dominguez-heartlightsheet.git
+[submodule "idr0148-schumacher-kidneytem"]
+	path = idr0148-schumacher-kidneytem
+	url = https://github.com/IDR/idr0148-schumacher-kidneytem
