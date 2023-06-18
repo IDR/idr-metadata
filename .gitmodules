@@ -308,3 +308,6 @@
 [submodule "idr0148-schumacher-kidneytem"]
 	path = idr0148-schumacher-kidneytem
 	url = https://github.com/IDR/idr0148-schumacher-kidneytem
+[submodule "idr0147-kuo-kidney3d"]
+	path = idr0147-kuo-kidney3d
+	url = https://github.com/IDR/idr0147-kuo-kidney3d
