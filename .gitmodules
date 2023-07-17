@@ -311,3 +311,6 @@
 [submodule "idr0147-kuo-kidney3d"]
 	path = idr0147-kuo-kidney3d
 	url = https://github.com/IDR/idr0147-kuo-kidney3d
+[submodule "idr0119-gross-cellresponse"]
+	path = idr0119-gross-cellresponse
+	url = https://github.com/IDR/idr0119-gross-cellresponse
