@@ -314,3 +314,9 @@
 [submodule "idr0119-gross-cellresponse"]
 	path = idr0119-gross-cellresponse
 	url = https://github.com/IDR/idr0119-gross-cellresponse
+[submodule "idr0139-lawson-fascin"]
+	path = idr0139-lawson-fascin
+	url = https://github.com/IDR/idr0139-lawson-fascin
+[submodule "idr0149-batty-sisterchromatids"]
+	path = idr0149-batty-sisterchromatids
+	url = https://github.com/IDR/idr0149-batty-sisterchromatids
