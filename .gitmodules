@@ -320,3 +320,9 @@
 [submodule "idr0149-batty-sisterchromatids"]
 	path = idr0149-batty-sisterchromatids
 	url = https://github.com/IDR/idr0149-batty-sisterchromatids
+[submodule "idr0143-herbst-coculture"]
+	path = idr0143-herbst-coculture
+	url = https://github.com/IDR/idr0143-herbst-coculture
+[submodule "idr0150-friedman-cafs"]
+	path = idr0150-friedman-cafs
+	url = https://github.com/IDR/idr0150-friedman-cafs
