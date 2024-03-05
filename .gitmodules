@@ -326,3 +326,9 @@
 [submodule "idr0150-friedman-cafs"]
 	path = idr0150-friedman-cafs
 	url = https://github.com/IDR/idr0150-friedman-cafs
+[submodule "idr0154-queen-hdbr"]
+	path = idr0154-queen-hdbr
+	url = https://github.com/IDR/idr0154-queen-hdbr
+[submodule "idr0155-fu-alphasynuclein"]
+	path = idr0155-fu-alphasynuclein
+	url = https://github.com/IDR/idr0155-fu-alphasynuclein
