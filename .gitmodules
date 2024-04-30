@@ -332,3 +332,6 @@
 [submodule "idr0155-fu-alphasynuclein"]
 	path = idr0155-fu-alphasynuclein
 	url = https://github.com/IDR/idr0155-fu-alphasynuclein
+[submodule "idr0157-peters-bryophytes"]
+	path = idr0157-peters-bryophytes
+	url = https://github.com/IDR/idr0157-peters-bryophytes
