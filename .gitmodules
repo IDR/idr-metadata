@@ -335,3 +335,6 @@
 [submodule "idr0157-peters-bryophytes"]
 	path = idr0157-peters-bryophytes
 	url = https://github.com/IDR/idr0157-peters-bryophytes
+[submodule "idr0138-lohoff-seqfish"]
+	path = idr0138-lohoff-seqfish
+	url = https://github.com/IDR/idr0138-lohoff-seqfish
