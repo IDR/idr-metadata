@@ -338,3 +338,6 @@
 [submodule "idr0138-lohoff-seqfish"]
 	path = idr0138-lohoff-seqfish
 	url = https://github.com/IDR/idr0138-lohoff-seqfish
+[submodule "idr0158-radtke-lymphoma"]
+	path = idr0158-radtke-lymphoma
+	url = https://github.com/IDR/idr0158-radtke-lymphoma
