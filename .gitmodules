@@ -341,3 +341,9 @@
 [submodule "idr0158-radtke-lymphoma"]
 	path = idr0158-radtke-lymphoma
 	url = https://github.com/IDR/idr0158-radtke-lymphoma
+[submodule "idr0161-yayon-thymus"]
+	path = idr0161-yayon-thymus
+	url = https://github.com/IDR/idr0161-yayon-thymus
+[submodule "idr0163-greenwald-tnbc"]
+	path = idr0163-greenwald-tnbc
+	url = https://github.com/IDR/idr0163-greenwald-tnbc
