@@ -347,3 +347,9 @@
 [submodule "idr0163-greenwald-tnbc"]
 	path = idr0163-greenwald-tnbc
 	url = https://github.com/IDR/idr0163-greenwald-tnbc
+[submodule "idr0159-strobl-insectlightsheet"]
+	path = idr0159-strobl-insectlightsheet
+	url = https://github.com/IDR/idr0159-strobl-insectlightsheet
+[submodule "idr0165-duinkerken-hyperspectraledx"]
+	path = idr0165-duinkerken-hyperspectraledx
+	url = https://github.com/IDR/idr0165-duinkerken-hyperspectraledx
