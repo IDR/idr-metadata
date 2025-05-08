@@ -353,3 +353,12 @@
 [submodule "idr0165-duinkerken-hyperspectraledx"]
 	path = idr0165-duinkerken-hyperspectraledx
 	url = https://github.com/IDR/idr0165-duinkerken-hyperspectraledx
+[submodule "idr0160-lippincott-pyroptosis"]
+	path = idr0160-lippincott-pyroptosis
+	url = https://github.com/IDR/idr0160-lippincott-pyroptosis
+[submodule "idr0164-alzubi-hdbr"]
+	path = idr0164-alzubi-hdbr
+	url = https://github.com/IDR/idr0164-alzubi-hdbr
+[submodule "idr0156-szabo-tadcnd"]
+	path = idr0156-szabo-tadcnd
+	url = https://github.com/IDR/idr0156-szabo-tadcnd
