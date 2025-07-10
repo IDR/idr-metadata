@@ -362,3 +362,6 @@
 [submodule "idr0156-szabo-tadcnd"]
 	path = idr0156-szabo-tadcnd
 	url = https://github.com/IDR/idr0156-szabo-tadcnd
+[submodule "idr0151-clark-patterning"]
+	path = idr0151-clark-patterning
+	url = https://github.com/IDR/idr0151-clark-patterning.git
