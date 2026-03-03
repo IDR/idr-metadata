@@ -25,7 +25,14 @@ Study Person Last Name	Wightman
 Study Person First Name	Raymond										
 Study Person Email	raymond.wightman@slcu.cam.ac.uk										
 Study Person Address	University of Cambridge, UK									
-Study Person Roles	submitter										
+Study Person Roles	submitter
+
+# Study License and Data DOI																																	
+Study License	CC BY 4.0																																
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																
+Study Copyright	Yang et al																														
+Study Data Publisher	University of Dundee																																
+Study Data DOI										
 											
 Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	OBI						
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/						
