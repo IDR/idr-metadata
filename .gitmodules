@@ -365,3 +365,23 @@
 [submodule "idr0151-clark-patterning"]
 	path = idr0151-clark-patterning
 	url = https://github.com/IDR/idr0151-clark-patterning.git
+[submodule "idr0170-rose-mibitof"]
+	path = idr0170-rose-mibitof
+	url = https://github.com/IDR/idr0170-rose-mibitof
+	branch = main
+[submodule "idr0168-zhang-mllocalization"]
+	path = idr0168-zhang-mllocalization
+	url = https://github.com/IDR/idr0168-zhang-mllocalization
+	branch = main
+[submodule "idr0173-breiter-alphasynuclein"]
+	path = idr0173-breiter-alphasynuclein
+	url = https://github.com/IDR/idr0173-breiter-alphasynuclein
+	branch = main
+[submodule "idr0171-kuzikov-remedi4all"]
+	path = idr0171-kuzikov-remedi4all
+	url = https://github.com/IDR/idr0171-kuzikov-remedi4all
+	branch = main
+[submodule "idr0167-li-cellcyclenet"]
+	path = idr0167-li-cellcyclenet
+	url = https://github.com/IDR/idr0167-li-cellcyclenet
+	branch = main
