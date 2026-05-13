@@ -74,7 +74,7 @@ columns:
         omitempty: no
       - name: Comment [Gene Identifier]
         clientname: Gene Identifier URL
-        clientvalue: http://arabidopsis.org/servlets/TairObject?type=locus&name={{ value|urlencode }}
+        clientvalue: https://db.cngb.org/genomics/arabidopsis/gene/{{ value|urlencode }}
         include: yes
       - name: Comment [Gene Symbol]
         clientname: Gene Symbol
